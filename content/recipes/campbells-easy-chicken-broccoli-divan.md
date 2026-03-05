@@ -4,16 +4,17 @@ date: 2026-03-05T06:58:29-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["meat", "chicken"]
-description: ""
+description: "Campbell's easy chicken & broccoli divan, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1277483/pexels-photo-1277483.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/3586056/pexels-photo-3586056.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 3 cups hot cooked broccoli spears
 - 2 cups cooked chicken, cubed*
@@ -22,6 +23,8 @@ notes: ""
 - ½ cup shredded Cheddar cheese
 - 3 Tbsp dry bread crumbs
 - 1 Tbsp margarine or butter, melted
+
+## Instructions
 
 *For Easy Turkey & Broccoli Divan, substitute turkey for chicken.
 

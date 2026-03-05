@@ -4,7 +4,7 @@ date: 2026-03-05T06:56:37-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["casseroles"]
-description: ""
+description: "Mom's macaroni & cheese casserole, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,8 +14,9 @@ servings: ""
 image: "https://images.pexels.com/photos/6163259/pexels-photo-6163259.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 I've made this one so many times, I can recite it from memory.  A favorite of Pep's (and pretty much anyone else).  So good that it convinced my girls that tomatoes aren't the devil in stewed vegetable form.
+
+## Ingredients
 
 - 5 handfuls of elbow macaroni  (Yep, handfuls.  Not sure how, but my hand-size is the same as Mom's and everyone else...but it still somehow works!)
 - 1 brick of medium cheddar cheese (I think they're 400g bricks, but those long 2x4 sized ones)
@@ -23,6 +24,8 @@ I've made this one so many times, I can recite it from memory.  A favorite of Pe
 - Salt/Pepper to taste
 - 1 Can of Stewed Whole Tomatoes
 - Water
+
+## Instructions
 
 In a pot, boil enough water to boil 5 handfuls of macaroni.  I throw a bit of salt and olive oil in there (for taste and so the noodles won't stick).
 

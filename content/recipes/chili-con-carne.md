@@ -4,24 +4,35 @@ date: 2026-03-05T06:56:29-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["casseroles"]
-description: ""
+description: "Chili con carne"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/10658147/pexels-photo-10658147.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/1618906/pexels-photo-1618906.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 
-Brown 2 cups chopped onion, ½ cup chopped green pepper and 2 lbs ground beef
+## Ingredients
 
-in 2 tbsp fat.
+- 2 cups chopped onion
+- 1/2 cup chopped green pepper
+- 2 lbs ground beef
+- 2 Tbsp fat
+- 1 (28-oz) tin red kidney beans
+- 1 (28-oz) tin tomatoes
+- 1–3 Tbsp chili powder
+- 1 Tbsp salt
+- 1/2 tsp pepper
+- 2 Tbsp vinegar
 
-Add 1 28-oz tin red kidney beans, 1 28-oz tin tomatoes, 1 – 3 tbsp chili powder, l
+## Instructions
 
-tbsp salt, ½ tsp pepper and 2 tbsp vinegar.
+Brown onion, green pepper and ground beef in 2 Tbsp fat.
+
+Add kidney beans, tomatoes, chili powder, salt, pepper and vinegar.
 
 Simmer one hour, stirring frequently.
 

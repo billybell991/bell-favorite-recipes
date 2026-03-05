@@ -4,7 +4,7 @@ date: 2026-03-05T06:57:48-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["diabetic recipes"]
-description: ""
+description: "Tender, three-bean cassoulet, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/30635687/pexels-photo-30635687.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 2 cans (l4-1/2 oz each) stewed tomatoes
 - 1 can (19 oz) garbanzo beans or chickpeas, rinsed and drained
@@ -28,6 +29,8 @@ notes: ""
 - ½ tsp dried thyme
 - ½ tsp salt
 - 1/8 tsp pepper
+
+## Instructions
 
 In an ungreased 3-qt baking dish, combine all ingredients. Cover and bake at 350 for 60-70 minutes or until vegetables are tender, stirring occasionally. Discard bay leaf before serving.
 

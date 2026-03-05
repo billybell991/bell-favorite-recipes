@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:23-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["soup", "potatoes"]
-description: ""
+description: "Potato soup"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,7 +14,6 @@ servings: ""
 image: "https://images.pexels.com/photos/1703272/pexels-photo-1703272.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 ## Outback Steakhouse Potato Soup
 
 ### Ingredients
@@ -66,8 +65,12 @@ Ladle the soup into individual bowls and garnish with chopped bacon, chives and 
 
 Notes:
 
+## Ingredients
+
 - This is a REALLY good soup.  It kind of eats like a meal.
 - I'd rate it around 4.5 out of 5.
+
+## Instructions
 
 Here's the actual recipe website.  Credit to Chef Pablo's kitchen!
 

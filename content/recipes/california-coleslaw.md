@@ -4,16 +4,17 @@ date: 2026-03-05T06:57:26-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["diabetic recipes"]
-description: ""
+description: "California coleslaw"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4506876/pexels-photo-4506876.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/2020314/pexels-photo-2020314.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 cup shredded cabbage
 - ¼ cup vinegar
@@ -27,6 +28,8 @@ notes: ""
 - 1/8 tsp pepper
 - ¼ cup chopped onion
 - 1-1/2 tsp minced fresh parsley
+
+## Instructions
 
 Combine first 7 ingredients in a large bowl, stirring well. Set aside. Combine vinegar and remaining ingredients in a jar; cover tightly, and shake vigorously. Pour dressing mixture over vegetables, tossing gently to coat. Cover and chill. To serve, stir coleslaw lightly, and serve with a slotted spoon. Yield: 8 (1/2) cup servings.
 

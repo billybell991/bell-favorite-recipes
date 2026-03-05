@@ -4,16 +4,17 @@ date: 2026-03-05T06:54:01-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["chicken"]
-description: ""
+description: "Crispy, baked cream cheese chicken taquitos"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/14866629/pexels-photo-14866629.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5175602/pexels-photo-5175602.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 8-10 flour or corn tortillas*
 - 1 cup shredded chicken
@@ -23,6 +24,8 @@ notes: ""
 - 1/4 cup salsa verde  (I used normal red salsa)
 - 1/4 tsp. ground cumin (I didn't use this)
 - salt and pepper to taste
+
+## Instructions
 
 1. Preheat oven to 400 degrees. Line a baking sheet with parchment paper or foil (spray well if using foil) and set aside.
 2. In a large bowl, mix together the chicken, cream cheese, Monterey-jack cheese, garlic, salsa verde, and ground cumin until well combined. Season with salt & pepper to taste.

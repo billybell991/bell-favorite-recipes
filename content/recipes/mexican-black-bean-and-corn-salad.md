@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:37-05:00
 draft: false
 categories: ["Weight Watchers"]
 tags: ["salad"]
-description: ""
+description: "Mexican black bean and corn salad"
 source: ""
 creditUrl: ""
 credit: ""

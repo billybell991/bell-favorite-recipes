@@ -4,16 +4,17 @@ date: 2026-03-05T06:55:24-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["breads", "bread"]
-description: ""
+description: "Fluffy, cranberry christmas gingerbread, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6163269/pexels-photo-6163269.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/699372/pexels-photo-699372.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1-1/2 cup sifted all-purpose flour
 - 1 tsp baking soda
@@ -25,6 +26,8 @@ notes: ""
 - 1 egg
 - ½ cup unsulfured molasses
 - ½ cup boiling water
+
+## Instructions
 
 Grease and flour an 8” x 8” baking pan. Preheat oven to 350 degrees F. Sift together flour, baking soda, ginger and salt. Set aside. Using an electric mixer in a large bowl, cream butter and sugar until light and fluffy.
 

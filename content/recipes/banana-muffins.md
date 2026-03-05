@@ -4,17 +4,16 @@ date: 2026-03-05T06:55:58-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["cakes and muffins", "muffins"]
-description: ""
+description: "Banana muffins, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3650438/pexels-photo-3650438.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/1657343/pexels-photo-1657343.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Preheat oven to 400 degrees.  Blend or sift together:
 
 - 2 cups all-purpose flour
@@ -27,10 +26,14 @@ Make a well in center of the dry ingredients.
 
 Combine and add:
 
+## Ingredients
+
 - 1 beaten egg
 - 2/3 cup milk
 - 1 cup well-mashed bananas
 - 2 Tbsp vegetable oil
+
+## Instructions
 
 Stir only until combined. (The batter should be lumpy.) Fill greased muffin cups 2/3 full.
 

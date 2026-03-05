@@ -4,17 +4,16 @@ date: 2026-03-05T06:57:16-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["desserts"]
-description: ""
+description: "Caramel dumplings, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/29545366/pexels-photo-29545366.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 DUMPLINGS:
 
 - 1-1/4 cups all-purpose flour
@@ -28,9 +27,13 @@ DUMPLINGS:
 
 SAUCE:
 
+## Ingredients
+
 - 4 Tbsp butter or margarine
 - 1-1/2 cups packed brown sugar
 - 1-1/2 cups water
+
+## Instructions
 
 In a skillet, heat the unsoftened butter, brown sugar and water to boiling.
 

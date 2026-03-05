@@ -4,18 +4,19 @@ date: 2026-03-05T06:56:03-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["cakes and muffins", "cake"]
-description: ""
+description: "Cherry walnut fruitcake, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4051584/pexels-photo-4051584.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5626637/pexels-photo-5626637.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 This fruitcake is an easy- to-make classic holiday offering. If you like, make it ahead, wrap and freeze for entertaining and gift-giving.
+
+## Ingredients
 
 - 2-1/2 cups all-purpose flour
 - 1 tsp baking soda
@@ -25,6 +26,8 @@ This fruitcake is an easy- to-make classic holiday offering. If you like, make i
 - 2 cups chopped mixed glace fruit
 - 1 cup chopped walnuts
 - Whole glace cherries
+
+## Instructions
 
 Grease two 9 x 5 loaf pans – set aside.
 

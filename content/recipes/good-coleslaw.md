@@ -4,17 +4,16 @@ date: 2026-03-05T07:01:15-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["salads"]
-description: ""
+description: "Good coleslaw"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4506876/pexels-photo-4506876.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/2469096/pexels-photo-2469096.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Bev Bell and Lorne Mick
 
 Aunt and Uncle of the Groom
@@ -28,11 +27,15 @@ Aunt and Uncle of the Groom
 
 Dressing:
 
+## Ingredients
+
 - 2/3 cup oil
 - 1 cup white vinegar
 - 2/3 cup sugar
 - 2 tsp salt
 - celery salt, a little honey and chopped garlic are optional
+
+## Instructions
 
 Chop, shred, grate, hack the veggies into a bowl. Bring oil, vinegar, sugar and salt to a boil, stirring to dissolve. Cool a little and pour over veggies. Tip the bowl to allow dressing to run over cabbage, etc.
 

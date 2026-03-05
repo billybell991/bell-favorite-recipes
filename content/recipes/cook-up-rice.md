@@ -4,20 +4,21 @@ date: 2026-03-05T07:01:07-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["rice", "rice"]
-description: ""
+description: "\, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/2942320/pexels-photo-2942320.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/1242348/pexels-photo-1242348.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Naz and Brian Lloyd
 
 Cousins of the Bride
+
+## Ingredients
 
 - 3 ½ lbs of skinless chicken (cut up 2 whole chickens)
 - 1 ½ cup rice
@@ -31,6 +32,8 @@ Cousins of the Bride
 - 1 large onion, minced
 - pinch of black pepper
 - salt to taste
+
+## Instructions
 
 Wash chicken and cut into pieces (leave bones in). Place chicken in a large bowl. Blend in onion, garlic, soya sauce, basil, pepper and salt.
 

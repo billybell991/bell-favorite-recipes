@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:11-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["pork", "instant pot"]
-description: ""
+description: "Pulled pork, sautéed to perfection"
 source: ""
 creditUrl: ""
 credit: ""

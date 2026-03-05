@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:44-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["keto"]
-description: ""
+description: "Crispy, crackers"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,10 +14,13 @@ servings: ""
 image: "https://images.pexels.com/photos/3070968/pexels-photo-3070968.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1/2 cup almond flour
 - 1/2 cup grated parmesan
 - 2 tsp water
+
+## Instructions
 
 Add the almond flour and cheese to your food processor.
 

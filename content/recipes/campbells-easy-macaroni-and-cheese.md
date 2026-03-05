@@ -4,16 +4,17 @@ date: 2026-03-05T06:56:26-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["casseroles"]
-description: ""
+description: "Campbell's easy macaroni and cheese, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/10993148/pexels-photo-10993148.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/9456721/pexels-photo-9456721.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 can Cheddar Cheese Soup
 - ½ soup can milk
@@ -23,6 +24,8 @@ notes: ""
 - 1 green onion, sliced
 - 3 Tbsp dry bread crumbs
 - 2 Tbsp margarine or butter, melted
+
+## Instructions
 
 Combine soup, milk and pepper in 1-1/2 quart baking dish.
 

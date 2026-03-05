@@ -4,16 +4,17 @@ date: 2026-03-05T06:58:42-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["meat"]
-description: ""
+description: "Career girl's spaghetti, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5949922/pexels-photo-5949922.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5693023/pexels-photo-5693023.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 3 tbsp salad oil or shortening
 - 1 cup minced onions
@@ -29,6 +30,8 @@ notes: ""
 - ¼ cup minced green pepper
 - 1  8-oz pkg spaghetti
 - Parmesan cheese
+
+## Instructions
 
 In oil in skillet, sauté onions and mushrooms till golden.  Stir in flour, chopped franks.  Add tomato juice, water, Worcestershire, salt and pepper.  Simmer, uncovered, 25 minutes.  Add parsley, green pepper.  Simmer 5 minutes longer.  Meanwhile, cook spaghetti as package directs.  Serve ring of spaghetti with sauce in center.  Pass the cheese.
 

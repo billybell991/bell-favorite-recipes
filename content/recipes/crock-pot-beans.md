@@ -4,20 +4,21 @@ date: 2026-03-05T07:00:16-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["meat"]
-description: ""
+description: "Crock pot beans"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/30635687/pexels-photo-30635687.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/34831923/pexels-photo-34831923.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Tom Alexander
 
 Friend of the Bride and Groom
+
+## Ingredients
 
 - 3 cups beans
 - 6 cups water
@@ -28,6 +29,8 @@ Friend of the Bride and Groom
 - 1 cup ketchup
 - ¼ cup brown sugar
 - 2 tsp dry mustard
+
+## Instructions
 
 Place everything in the crock pot and let cook on low for 15-20 hours or on high for 5-7 hours.  (7 hours seemed to work best)
 

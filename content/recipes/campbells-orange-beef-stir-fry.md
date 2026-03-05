@@ -4,16 +4,17 @@ date: 2026-03-05T06:58:34-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["meat", "beef"]
-description: ""
+description: "Crispy and tender, campbell's orange beef stir-fry"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4768958/pexels-photo-4768958.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/34429557/pexels-photo-34429557.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 2 Tbsp vegetable oil
 - 1 lb boneless beef sirloin or inside roundsteak, cut in strips
@@ -25,6 +26,8 @@ notes: ""
 - 1 Tbsp vinegar
 - 1 tsp garlic powder
 - 4 cups hot cooked rice
+
+## Instructions
 
 Heat half the oil at medium-high in large skillet. Add beef and stir fry until cooked through. Reduce heat to medium. Set beef aside.
 

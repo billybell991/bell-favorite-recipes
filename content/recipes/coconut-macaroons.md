@@ -4,14 +4,14 @@ date: 2026-03-05T06:56:58-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["cookies"]
-description: ""
+description: "Coconut macaroons, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1325467/pexels-photo-1325467.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/7474221/pexels-photo-7474221.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

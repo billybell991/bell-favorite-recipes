@@ -4,14 +4,14 @@ date: 2026-03-05T06:53:54-05:00
 draft: false
 categories: ["Maya's Recipes"]
 tags: ["cake", "cookies"]
-description: ""
+description: "Confetti cheesecake cookies"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/10964755/pexels-photo-10964755.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/13922384/pexels-photo-13922384.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

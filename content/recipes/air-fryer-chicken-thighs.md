@@ -4,14 +4,14 @@ date: 2026-03-05T06:52:37-05:00
 draft: false
 categories: ["Air Fryer Recipes"]
 tags: ["chicken", "air fryer"]
-description: ""
+description: "Juicy boneless chicken thighs rubbed with smoked paprika, garlic, and oregano, then air fried until the outside is beautifully golden and crispy while the inside stays tender and succulent. Ready in under 25 minutes."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8392454/pexels-photo-8392454.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/24902945/pexels-photo-24902945.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

@@ -4,7 +4,7 @@ date: 2026-03-05T06:55:44-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["breads", "bread", "rice"]
-description: ""
+description: "Tender and bubbly, wild rice many-grain bread, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""

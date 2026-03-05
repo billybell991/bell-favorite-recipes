@@ -4,7 +4,7 @@ date: 2026-03-05T06:58:16-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["fun things", "potatoes"]
-description: ""
+description: "Potato \, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,9 +14,12 @@ servings: ""
 image: "https://images.pexels.com/photos/30648979/pexels-photo-30648979.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 4 or 5 potatoes
 - 1 to 1-1/2 cups flour
+
+## Instructions
 
 Bake 4 or 5 potatoes in the skin until soft inside. Peel and discard the peel. Mash potatoes (Use a potato ricer to get a nice fine even texture. Combine 1 to 1-1/2 cups flour to every 2 cups of mashed potato and form a dough.
 

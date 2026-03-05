@@ -4,7 +4,7 @@ date: 2026-03-05T06:52:43-05:00
 draft: false
 categories: ["Family Recipes"]
 tags: []
-description: ""
+description: "Nougat candy, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""

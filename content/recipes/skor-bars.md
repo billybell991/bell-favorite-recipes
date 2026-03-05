@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:25-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares"]
-description: ""
+description: "Skor bars, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,15 +14,18 @@ servings: ""
 image: "https://images.pexels.com/photos/1028714/pexels-photo-1028714.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Lisa and Derry Thibeault
 
 Cousins of the Bride
+
+## Ingredients
 
 - 1 box of Ritz crackers, finely crushed
 - 4 Skor chocolate bars, finely crushed
 - 1 can of Eaglebrand
 - 1 tub of chocolate icing
+
+## Instructions
 
 Put ½ cup of Skor pieces aside for topping.
 

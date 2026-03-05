@@ -4,20 +4,21 @@ date: 2026-03-05T07:01:09-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["salads", "salad"]
-description: ""
+description: "Best damn salad"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/20929210/pexels-photo-20929210.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/35627344/pexels-photo-35627344.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Julie and Dave Pigeau
 
 Cousins of the Bride
+
+## Ingredients
 
 - 1 head of lettuce, chopped
 - 3 ribs of celery, chopped
@@ -27,5 +28,7 @@ Cousins of the Bride
 - 2 tbsp white sugar
 - ¼ cup parmesan cheese
 - bacon bits
+
+## Instructions
 
 In a rectangle pan, layer all ingredients beginning with lettuce, celery, onions, and peas. Spread mayonnaise over top. Sprinkle with sugar, then parmesan cheese. Put in the fridge for 24 hours. Sprinkle with bacon bits just before serving.

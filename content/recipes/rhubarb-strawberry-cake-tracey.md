@@ -4,7 +4,7 @@ date: 2026-03-05T06:52:45-05:00
 draft: false
 categories: ["Family Recipes"]
 tags: ["cake"]
-description: ""
+description: "Crispy, rhubarb strawberry cake, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""

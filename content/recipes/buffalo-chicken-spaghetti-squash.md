@@ -4,14 +4,14 @@ date: 2026-03-05T06:53:31-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["chicken"]
-description: ""
+description: "Tender and bubbly, buffalo chicken spaghetti squash, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8862763/pexels-photo-8862763.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/16516728/pexels-photo-16516728.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:28-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: []
-description: ""
+description: "Toasted, the keg copycat cheesy garlic toast, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""

@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:28-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares"]
-description: ""
+description: "Sinamon buns, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,10 +14,11 @@ servings: ""
 image: "https://images.pexels.com/photos/5419309/pexels-photo-5419309.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Louise Dubyk and Don Broughtor
 
 Cousin of the Bride
+
+## Ingredients
 
 - 2 cups flour
 - 2/3 cup butter or margarine
@@ -29,6 +30,8 @@ Cousin of the Bride
 - 1/2 cup raisins
 - 1/4  cup cold butter
 - 1 cup cold milk
+
+## Instructions
 
 Put flour, sugar, baking powder and salt in a large bowl. Cut in 1/4 cup of butter or margarine. Make a well in the centre. Pour milk into well. Stir to form soft dough (add a bit more milk if necessary).
 

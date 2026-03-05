@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:57-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: ["bread", "cookies"]
-description: ""
+description: "Shortbread cookies #2"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,7 +14,6 @@ servings: ""
 image: "https://images.pexels.com/photos/4276480/pexels-photo-4276480.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 - 1 1/4 cups all purpose flour
 - 1/2 cup cornstarch
 - 1/2 cup icing sugar
@@ -32,6 +31,8 @@ Bake for 20-22 minutes, until edges are lightly brown.
 TIP: I like to put 1/3 cup of mini semi-sweet chocolate chips in half of the dough.  To mix it up a little.
 
 NOTES:
+
+## Ingredients
 
 - These were really good!  4.5 out of 10
 

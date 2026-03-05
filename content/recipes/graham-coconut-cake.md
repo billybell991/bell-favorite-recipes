@@ -4,20 +4,21 @@ date: 2026-03-05T06:59:15-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "cake"]
-description: ""
+description: "Graham coconut cake, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/2377471/pexels-photo-2377471.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/12118044/pexels-photo-12118044.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Margaret and Walter Smith
 
 Friends of the Bride’s Family
+
+## Ingredients
 
 - ½ cup butter, room temperature
 - 1 cup white sugar
@@ -29,6 +30,8 @@ Friends of the Bride’s Family
 - 1 tsp baking powder
 - ½ tsp vanilla
 - pinch of salt
+
+## Instructions
 
 Cream butter and sugar together. Add beaten egg. Add other ingredients and mix well.
 

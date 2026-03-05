@@ -4,18 +4,19 @@ date: 2026-03-05T06:54:17-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["pasta"]
-description: ""
+description: "Homemade pasta/noodles"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/30343602/pexels-photo-30343602.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/10049559/pexels-photo-10049559.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 This is a mish-mash of a few different recipes for this I've seen on the web, along with a few different techniques.  No single one had all the ingredients and info in the same spot, so I figured I'd just write it up myself.  If it sucks, I'm sorry.  :(
+
+## Ingredients
 
 - 2 cups of flour (I just use regular flour, but the internet nerds say to use semolina and some other weird stuff.  Keep it simple!)
 - 2 eggs

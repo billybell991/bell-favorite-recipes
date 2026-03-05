@@ -4,16 +4,17 @@ date: 2026-03-05T06:53:02-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["chicken", "rice"]
-description: ""
+description: "Chicken , rice, and carrots, steamed to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/145804/pexels-photo-145804.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/20127885/pexels-photo-20127885.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 and 1/4 cups long grain white rice
 - 2 cups unsalted chicken broth
@@ -22,6 +23,8 @@ notes: ""
 - 4  (6-8 ounces each) individually-frozen, boneless, skinless chicken breasts
 - 2 tsp. Italian herb blend, or your favorite dried herb blend
 - 5 -6 large carrots, peeled and cut into 1” pieces
+
+## Instructions
 
 1. Measure rice into bottom of the Instant Pot.
 2. Add chicken broth and salt and pepper, stir to combine.

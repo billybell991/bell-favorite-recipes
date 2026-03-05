@@ -4,14 +4,14 @@ date: 2026-03-05T06:54:41-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: ["rice"]
-description: ""
+description: "Balsamic \, steamed to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/12916873/pexels-photo-12916873.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/251599/pexels-photo-251599.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

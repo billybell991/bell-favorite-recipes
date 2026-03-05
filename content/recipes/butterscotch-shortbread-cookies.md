@@ -4,20 +4,23 @@ date: 2026-03-05T06:56:55-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["cookies", "bread", "cookies"]
-description: ""
+description: "Butterscotch shortbread cookies, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/298485/pexels-photo-298485.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/574125/pexels-photo-574125.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - ½ lb butter
 - ½ cup brown sugar
 - 2 cups flour
+
+## Instructions
 
 Mix the ingredients together; roll out ½”thick.
 

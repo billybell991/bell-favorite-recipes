@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:20-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["rice"]
-description: ""
+description: "Sushi rice"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/1320917/pexels-photo-1320917.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 2 cups sushi rice
 - 2.5 cups hot water (the hot water will help the Instant Pot come to pressure faster)

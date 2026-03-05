@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:54-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["dips", "dip"]
-description: ""
+description: "Mexi-dip"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,10 +14,11 @@ servings: ""
 image: "https://images.pexels.com/photos/6632286/pexels-photo-6632286.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Margot Bell and Darryl Fleguel
 
 Sister and Brother-in-law of the Groom
+
+## Ingredients
 
 - 500 mL sour cream
 - 1 pkg taco seasoning mix
@@ -25,6 +26,8 @@ Sister and Brother-in-law of the Groom
 - shredded lettuce
 - 1-2 green onions, chopped
 - ½ lb grated cheddar cheese
+
+## Instructions
 
 Layer:
 

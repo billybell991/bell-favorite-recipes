@@ -4,7 +4,7 @@ date: 2026-03-05T06:58:06-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["fish", "salmon", "pie"]
-description: ""
+description: "Salmon pie, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/31043029/pexels-photo-31043029.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 15-1/2-oz tin canned salmon
 - 1 cup liquid (liquid from salmon plus milk)
@@ -24,6 +25,8 @@ notes: ""
 - 1 tbsp chopped parsley
 - 2 eggs, slightly beaten
 - ½ tsp garlic salt
+
+## Instructions
 
 Flake salmon and add salmon liquid and milk. Stir in remaining ingredients and mix well.
 

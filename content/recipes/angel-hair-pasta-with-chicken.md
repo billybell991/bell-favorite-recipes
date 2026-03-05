@@ -4,20 +4,21 @@ date: 2026-03-05T07:00:59-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["pasta", "chicken", "pasta"]
-description: ""
+description: "Angel hair pasta with chicken, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4589138/pexels-photo-4589138.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/4730680/pexels-photo-4730680.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Allison and Dave Rudback
 
 Sister and Brother-in-law of the Bride
+
+## Ingredients
 
 - 2 tbsp olive oil, divided
 - 2 boneless chicken breasts, cubed
@@ -28,6 +29,8 @@ Sister and Brother-in-law of the Bride
 - 2/3 cup chicken broth
 - 1/4 cup parmesan cheese
 - 1 tsp dried basil
+
+## Instructions
 
 Heat 1 tbsp of oil in a medium sized skillet over medium heat.  Add chicken and cook until cooked through, about 5 minutes. Remove from skillet and drain on paper towel.
 

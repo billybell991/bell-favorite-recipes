@@ -4,18 +4,19 @@ date: 2026-03-05T06:54:06-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: []
-description: ""
+description: "California rolls"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/29748127/pexels-photo-29748127.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5678887/pexels-photo-5678887.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 ### Ingredients
+
+## Ingredients
 
 - Juice of 1/2 lemon
 - 1 medium avocado, peeled, pitted, and sliced into 1/4-inch thick pieces
@@ -27,6 +28,8 @@ notes: ""
 - Pickled ginger, for serving
 - Wasabi, for serving
 - Soy sauce, for serving
+
+## Instructions
 
 ### Directions
 

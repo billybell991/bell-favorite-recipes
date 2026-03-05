@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:37-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["chicken", "instant pot"]
-description: ""
+description: "Buffalo chicken meatballs, sautéed to perfection"
 source: ""
 creditUrl: ""
 credit: ""

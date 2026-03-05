@@ -4,7 +4,7 @@ date: 2026-03-05T07:00:36-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["meat", "pork"]
-description: ""
+description: "Stuffed pork chops"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,10 +14,11 @@ servings: ""
 image: "https://images.pexels.com/photos/42168/pexels-photo-42168.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Kara MacDonald
 
 Friend of the Bride
+
+## Ingredients
 
 - 2 tbsp butter
 - ½ pkg mushrooms, diced
@@ -26,6 +27,8 @@ Friend of the Bride
 - 1 cup bread crumbs
 - ½ tsp pepper
 - 4 thick pork chops
+
+## Instructions
 
 Combine vegetables and butter in sauce pan and cook until mushrooms are done. Add the soup mix, bread crumbs and pepper. Allow the mixture to cool.
 

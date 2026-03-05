@@ -4,14 +4,14 @@ date: 2026-03-05T06:54:07-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["cookies"]
-description: ""
+description: "Fluffy, chewy chocolate cookies, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4311548/pexels-photo-4311548.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/1342295/pexels-photo-1342295.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

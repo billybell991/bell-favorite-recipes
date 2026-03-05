@@ -4,18 +4,19 @@ date: 2026-03-05T06:53:06-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["potatoes"]
-description: ""
+description: "Creamy, garlic and rosemary mashed potatoes"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/30648979/pexels-photo-30648979.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/31064139/pexels-photo-31064139.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 ### Ingredients
+
+## Ingredients
 
 - 5-6 Large Potatoes Peeled and cubed You can use more or less with the same cooking time
 - 1 cup chicken broth
@@ -23,6 +24,8 @@ notes: ""
 - 1 sprig rosemary
 - 2 tbs butter
 - 1/4 cup milk
+
+## Instructions
 
 ### Instructions
 

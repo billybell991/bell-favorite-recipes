@@ -4,18 +4,19 @@ date: 2026-03-05T06:57:35-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["diabetic recipes", "cake"]
-description: ""
+description: "Far east crab cakes"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3763847/pexels-photo-3763847.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/2252617/pexels-photo-2252617.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 If you’d like to serve this as an appetizer, divide the crab mixture evenly into 16 small patties, These smaller versions will have about 31 calories each.
+
+## Ingredients
 
 - 2 (6oz) cans lump crabmeat, drained
 - 1 tsp pepper
@@ -25,6 +26,8 @@ If you’d like to serve this as an appetizer, divide the crab mixture evenly in
 - 3 Tbsp reduced-calorie margarine
 - 1 Tbsp plus 1 tsp dried parsley flakes
 - Vegetable cooking spray
+
+## Instructions
 
 Combine first 7 ingredients in a small bowl; stir well. Shape into 8 patties. Coat a large. Coat a large nonstick skillet with cooking spray; place over medium-high heat until hot. Add crabmeat patties and cook 6 to 8 minutes or until lightly browned on both sides, turning once.
 

@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:09-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["instant pot"]
-description: ""
+description: "Brussels sprouts, sautéed to perfection"
 source: ""
 creditUrl: ""
 credit: ""

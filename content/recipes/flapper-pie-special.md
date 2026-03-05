@@ -4,17 +4,16 @@ date: 2026-03-05T07:00:49-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["pastrypies", "pie"]
-description: ""
+description: "Flapper pie special, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/219293/pexels-photo-219293.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/2035740/pexels-photo-2035740.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Gisele and Ronnie Roy
 
 Cousins of the Bride
@@ -28,11 +27,15 @@ Crush and roll wafers fine. Blend in butter, shortening and cinnamon. Line botto
 
 Filling:
 
+## Ingredients
+
 - 4 eggs
 - ½ cup sugar
 - 1 ½ tbsp cornstarch
 - 2 cups milk
 - 1 tsp vanilla
+
+## Instructions
 
 Separate eggs. Beat yolks until lemony in color. Add sugar and cornstarch and blend well.
 

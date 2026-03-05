@@ -4,14 +4,14 @@ date: 2026-03-05T06:52:56-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: []
-description: ""
+description: "Apple crisp"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4018839/pexels-photo-4018839.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/9392810/pexels-photo-9392810.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

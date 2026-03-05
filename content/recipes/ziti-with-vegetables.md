@@ -4,7 +4,7 @@ date: 2026-03-05T06:57:52-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["diabetic recipes"]
-description: ""
+description: "Ziti with vegetables"
 source: ""
 creditUrl: ""
 credit: ""
@@ -15,31 +15,24 @@ image: "https://images.pexels.com/photos/1703272/pexels-photo-1703272.jpeg?auto=
 notes: ""
 ---
 
-12 oz uncooked ziti or other medium pasta
+## Ingredients
 
-2 pkg (16 oz) frozen broccoli, carrots, and water chestnuts
+- 12 oz uncooked ziti or other medium pasta
+- 2 pkg (16 oz) frozen broccoli, carrots, and water chestnuts
+- 2 Tbsp olive or canola oil
+- 2 Tbsp non-hydrogenated margarine
+- 2 tsp dried basil
+- 2 tsp dried marjoram
+- 1 tsp dried thyme
+- 3/4 tsp salt
+- 4 tsp corn starch
+- 1 cup chicken broth
+- 1/2 cup dry white wine or more broth
+- 1/2 cup grated Parmesan cheese
 
-2 Tbsp olive or canola oil
+## Instructions
 
-2 Tbsp non-hydrogenated margarine
-
-2 tsp dried basil
-
-2 tsp dried marjoram
-
-1 tsp dried thyme
-
-¾ tsp salt
-
-4 tsp corn starch
-
-1 cup chicken broth
-
-½ cup dry white wine or more broth
-
-½ cup grated Parmesan cheese
-
-Cook pasta according to package directions. Meanwhile, in a saucepan, bring 1” of water to a boil; place vegetables in a steamer basket over water. Cover and steam for 5-7 minutes or until tender.
+Cook pasta according to package directions. Meanwhile, in a saucepan, bring 1 inch of water to a boil; place vegetables in a steamer basket over water. Cover and steam for 5-7 minutes or until tender.
 
 In a Dutch oven or large saucepan, combine the oil, margarine, basil, marjoram, thyme and salt. Cook and stir over medium heat for 1 minute. Combine cornstarch, broth and wine or additional broth until smooth; stir into the pan. Bring to a boil; cook and stir for 2 minutes or until thickened.
 

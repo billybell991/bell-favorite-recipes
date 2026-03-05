@@ -4,18 +4,19 @@ date: 2026-03-05T06:53:29-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["chicken"]
-description: ""
+description: "Bacon-wrapped broccoli-stuff chicken, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5639476/pexels-photo-5639476.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/144432/pexels-photo-144432.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 ## Bacon-Wrapped Broccoli-Stuffed Chicken
+
+## Ingredients
 
 - 4 chicken breasts
 - 4 oz cream cheese
@@ -23,6 +24,8 @@ notes: ""
 - ¼ cup of parmesan cheese
 - 1 ½ cups of chopped broccoli
 - 8 slices of bacon
+
+## Instructions
 
 1. Mix everything but the chicken and bacon together in a bowl
 2. Cut a slit in each chicken breast and stuff them with the good stuff

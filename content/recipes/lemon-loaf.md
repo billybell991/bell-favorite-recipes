@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:53-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: []
-description: ""
+description: "Lemon loaf"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,7 +14,6 @@ servings: ""
 image: "https://images.pexels.com/photos/4114116/pexels-photo-4114116.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 - 1/2 cup butter
 - 1 cup white sugar
 - 2 eggs, beaten
@@ -29,6 +28,8 @@ Cream butter and sugar.  Add rind.  Blend in dry ingredients alternately with mi
 Mix juice of 1 lemon and 1/4 cup icing sugar and drizzle over top while still hot.
 
 NOTES:
+
+## Ingredients
 
 - Was a bit dry.  Maybe cook for 5-10 mins less next time.
 - 3.5 out of 5

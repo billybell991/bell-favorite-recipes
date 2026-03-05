@@ -4,16 +4,17 @@ date: 2026-03-05T06:53:33-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["keto"]
-description: ""
+description: "Chunky  guacamole"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/15881322/pexels-photo-15881322.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/750941/pexels-photo-750941.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 3 Medium roughly chopped avocados
 - 1/4 cup finely chopped red onion
@@ -23,6 +24,8 @@ notes: ""
 - 1/2 tablespoon finely minced jalapeno
 - 1/2 teaspoon salt
 - 1/4 teaspoon pepper
+
+## Instructions
 
 ### INSTRUCTIONS
 

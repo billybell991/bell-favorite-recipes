@@ -4,7 +4,7 @@ date: 2026-03-05T06:57:41-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["diabetic recipes", "shrimp", "dip"]
-description: ""
+description: "Shrimp dippers"
 source: ""
 creditUrl: ""
 credit: ""
@@ -15,12 +15,17 @@ image: "https://images.pexels.com/photos/3832330/pexels-photo-3832330.jpeg?auto=
 notes: ""
 ---
 
-14 fresh snow pea pods, trimmed
+## Ingredients
 
-28 large cooked, peeled, and deveined shrimp
+- 14 fresh snow pea pods, trimmed
+- 28 large cooked, peeled, and deveined shrimp
 
-Arrange pea pods in a vegetable steamer over boiling water. Cover and steam 1 minute or until crisp-tender. Remove pea pods, and chill. Separate pea pods lengthwise into 2 pieces. Wrap a pea pod half around each shrimp, and secure with a plastic pick.
+## Instructions
+
+Arrange pea pods in a vegetable steamer over boiling water. Cover and steam 1 minute or until crisp-tender. Remove pea pods and chill.
+
+Separate pea pods lengthwise into 2 pieces. Wrap a pea pod half around each shrimp and secure with a pick.
 
 Yield: 28 appetizers.
 
-Diabetic Exchange: Free. Nutritional Exchange: Calories 7, Carbohydrate 0.1 g, Protein 1.4 g, Fat 0,1 gm Cholesterol 12 mg, Fiber 0 g, Sodium 14 mg.
+Diabetic Exchange: Free. Calories 7, Carbohydrate 0.1 g, Protein 1.4 g, Fat 0.1 g, Cholesterol 12 mg, Fiber 0 g, Sodium 14 mg.

@@ -4,7 +4,7 @@ date: 2026-03-05T06:56:40-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["casseroles"]
-description: ""
+description: "Rob's baked beans"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,7 +14,6 @@ servings: ""
 image: "https://images.pexels.com/photos/2337842/pexels-photo-2337842.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Empty 5-lb. bag of beans into pot.
 
 Cover with water.
@@ -27,10 +26,14 @@ Put 1/2 the beans in a dish and ½ in a pot.
 
 To the beans in the pot, add:
 
+## Ingredients
+
 - ½ lb. shortening ( break in chunks).
 - ½ cup syrup.
 - a good handful of brown sugar.
 - 1 lb. of bacon, cut in small pieces.
+
+## Instructions
 
 Put the other ½ of beans on top and mix with a large spoon.
 

@@ -4,16 +4,17 @@ date: 2026-03-05T06:57:23-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["diabetic recipes", "cookies"]
-description: ""
+description: "Fluffy, applesauce currant cookies, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4276480/pexels-photo-4276480.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5441076/pexels-photo-5441076.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - ½ cup vegetable oil
 - 2 tsp baking powder
@@ -28,6 +29,8 @@ notes: ""
 - ½ cup whole wheat flour
 - Vegetable cooking spray
 - ½ cup all-purpose flour
+
+## Instructions
 
 Combine oil and sugar substitute in a bowl. Add egg; beat at medium speed of an electric mixer until fluffy. Stir in applesauce and vanilla. Combine whole wheat flour and next 6 ingredients; add to oil mixture, stirring well. Cover; chill 15 minutes. Drop by heaping teaspoon onto baking sheets coated with cooking spray. Bake at 375 degrees for 10 minutes.
 

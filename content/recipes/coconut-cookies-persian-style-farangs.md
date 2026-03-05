@@ -4,14 +4,14 @@ date: 2026-03-05T06:52:48-05:00
 draft: false
 categories: ["Friends Recipes"]
 tags: ["cookies"]
-description: ""
+description: "Coconut cookies, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/11154961/pexels-photo-11154961.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/30984652/pexels-photo-30984652.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

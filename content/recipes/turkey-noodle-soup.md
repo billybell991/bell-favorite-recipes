@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:22-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["soup"]
-description: ""
+description: "Turkey noodle soup, sautéed to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/1406501/pexels-photo-1406501.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 2 Tbsp butter
 - 1 small onion, diced
@@ -25,6 +26,8 @@ notes: ""
 - 6 oz noodles of your choice
 - 1 tsp dried basil
 - salt and pepper to taste
+
+## Instructions
 
 ### Instructions
 

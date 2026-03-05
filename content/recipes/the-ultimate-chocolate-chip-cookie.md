@@ -4,7 +4,7 @@ date: 2026-03-05T06:57:10-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["cookies", "cookies"]
-description: ""
+description: "The ultimate chocolate chip cookie"
 source: ""
 creditUrl: ""
 credit: ""
@@ -15,26 +15,33 @@ image: "https://images.pexels.com/photos/8081574/pexels-photo-8081574.jpeg?auto=
 notes: ""
 ---
 
-¾ cup Golden Crisco
+## Ingredients
 
-1-1/4 cup lightly packed brown sugar
+- 3/4 cup Golden Crisco
+- 1-1/4 cup lightly packed brown sugar
+- 1 egg
+- 2 Tbsp milk
+- 2 tsp vanilla
+- 1-1/2 cups all-purpose flour
+- 1 tsp salt
+- 3/4 tsp baking soda
+- 1 cup chocolate chips
+- 1 cup coarsely chopped pecans or walnuts
 
-1 egg
+## Instructions
 
-2 tbsp milk
+Preheat oven to 375 degrees.
 
-2 tsp vanilla
+Cream Golden Crisco and brown sugar in large bowl until light. Add egg, milk and vanilla, beating 1 minute or until well blended.
 
-1-1/2 cups all-purpose flour
+Combine flour, salt and baking soda. Add to creamed mixture gradually, just until blended.
 
-1 tsp salt
+Stir in chocolate chips and nuts.
 
-¾ tsp baking soda
+Drop dough by heaping teaspoonfuls on ungreased baking sheet, leaving 3 inches between cookies.
 
-1 cup chocolate chips
+Bake at 375 degrees for 8-10 minutes. Cookies will still appear moist when baked.
 
-1 cup coarsely chopped pecans or walnuts
-
-Preheat oven to 375 degrees. CREAM Golden Crisco and brown sugar in large bowl until light. ADD egg, milk and vanilla, beating l minute or until well blended. COMBINE flour, salt and baking soda. ADD to creamed mixture gradually, just until blended. STIR in chocolate chips and nuts. DROP dough by heaping teaspoonsful on ungreased baking sheet leaving 3” between cookies. Bake at 375 degrees for 8 – l0 minutes. Cookies will still appear moist when baked. Cool 2 minutes then remove to cooling racks.
+Cool 2 minutes then remove to cooling racks.
 
 Makes about 30 cookies.

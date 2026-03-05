@@ -4,16 +4,17 @@ date: 2026-03-05T06:56:57-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["cookies"]
-description: ""
+description: "Golden brown, chocolate coconut macaroon logs, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/30600169/pexels-photo-30600169.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 2/3 cup sweetened condensed milk
 - 1 Tbsp unsweetened cocoa powder
@@ -21,6 +22,8 @@ notes: ""
 - 3 cups flaked coconut
 - 2 egg whites
 - 8 oz. Semi-sweet chocolate, melted (optional)
+
+## Instructions
 
 In large bowl, blend together condensed milk, cocoa and vanilla; stir in flaked coconut until well mixed. Beat egg whites until stiff peaks form; fold into coconut mixture.
 

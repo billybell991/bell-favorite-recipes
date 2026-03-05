@@ -4,7 +4,7 @@ date: 2026-03-05T06:57:19-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["desserts"]
-description: ""
+description: "Maple apple cobbler, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/6163268/pexels-photo-6163268.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 2-1/2 Tbsp cornstarch
 - 1 cup apple juice
@@ -26,6 +27,8 @@ notes: ""
 - 1 egg
 - 1-1/4 cup biscuit mix
 - 1 tsp sugar
+
+## Instructions
 
 Combine cornstarch, apple juice, maple syrup, lemon juice and 1 tsp of cinnamon. Place apples and raisins in a 2-1/2 quart shallow baking dish. Pour juice mixture over top. Bake at 400 F. (200 C.) for 20 minutes.
 

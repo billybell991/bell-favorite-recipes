@@ -4,17 +4,16 @@ date: 2026-03-05T06:56:08-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["cakes and muffins", "cake"]
-description: ""
+description: "Frontier kitchen carrot cake"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7790871/pexels-photo-7790871.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5741176/pexels-photo-5741176.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 - 2 cups white sugar
 - 4 eggs
 - 1-1/2 cups oil
@@ -32,9 +31,13 @@ Bake in 9” x 15” pan 45 minutes approx. at 350 F.
 
 Icing For Carrot Cake:
 
+## Ingredients
+
 - 1  8-oz pkg cream cheese
 - ¼ lb butter
 - 1 lb icing sugar
 - 2 tsp vanilla
+
+## Instructions
 
 Mix Well.

@@ -4,17 +4,16 @@ date: 2026-03-05T06:59:01-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "cake"]
-description: ""
+description: "Birthday cake with german icing"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3071821/pexels-photo-3071821.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/12065625/pexels-photo-12065625.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Louise and Dan Pigeau
 
 Aunt and Uncle of the Bride
@@ -33,10 +32,14 @@ Mix first four ingredients together, then add remaining ingredients. Bake at 350
 
 German Icing:
 
+## Ingredients
+
 - 1 egg, beaten
 - 2/3 cup brown sugar
 - 1/2  cup can milk
 - 2 tbsp butter
 - 1/4  tsp salt
+
+## Instructions
 
 Boil until it starts to thicken and add 1 ½ cup of coconut and ½ cup of nuts.

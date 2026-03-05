@@ -4,16 +4,17 @@ date: 2026-03-05T06:57:55-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["fish", "fish"]
-description: ""
+description: "Batter for fish"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/30553179/pexels-photo-30553179.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/33649028/pexels-photo-33649028.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 cup buttermilk
 - 1 egg

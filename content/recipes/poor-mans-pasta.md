@@ -4,7 +4,7 @@ date: 2026-03-05T07:01:04-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["pasta", "pasta"]
-description: ""
+description: "Poor man's pasta"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,13 +14,16 @@ servings: ""
 image: "https://images.pexels.com/photos/5949922/pexels-photo-5949922.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Derek Forgie
 
 Friend of the Bride and Groom
 
+## Ingredients
+
 - Macaroni
 - Cheese Dust
+
+## Instructions
 
 Fill a metal container with a water-like substance. Find a way to make it hot enough for the water to make a boiling noise. Place several noodles into the noisy water.
 

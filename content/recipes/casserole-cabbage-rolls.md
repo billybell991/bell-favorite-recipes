@@ -4,16 +4,17 @@ date: 2026-03-05T06:56:27-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["casseroles"]
-description: ""
+description: "Casserole cabbage rolls, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7625714/pexels-photo-7625714.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/3763621/pexels-photo-3763621.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 lb ground chuck beef
 - 1 tbsp cooking oil
@@ -24,6 +25,8 @@ notes: ""
 - 1 10-oz can tomato soup
 - 1 soup can of water
 - 3 cups coarsely chopped cabbage (packed)
+
+## Instructions
 
 In large frying pan stir and break up the ground beef in oil for a minute or two then add onion,
 

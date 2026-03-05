@@ -4,16 +4,17 @@ date: 2026-03-05T06:54:14-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["muffins"]
-description: ""
+description: "Easy moist banana blueberry muffins, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4051591/pexels-photo-4051591.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/13425585/pexels-photo-13425585.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 3 large ripe bananas
 - 3/4 cup of sugar
@@ -24,6 +25,8 @@ notes: ""
 - 1 tsp of baking powder
 - 1/2 tsp of salt
 - 1 1/2 cups of flour
+
+## Instructions
 
 - Mash bananas in a large mixing bowl.
 - Add sugar and egg.

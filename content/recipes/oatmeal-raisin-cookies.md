@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:54-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: ["cookies"]
-description: ""
+description: "Oatmeal raisin cookies"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,7 +14,6 @@ servings: ""
 image: "https://images.pexels.com/photos/4276480/pexels-photo-4276480.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 - 3/4 brown sugar
 - 1/2 cup sugar
 - 3/4 cup butter
@@ -38,6 +37,8 @@ In a separate bowl sift together flour, baking soda, salt, and cinnamon; stir in
 Drop by heaping tablespoonfuls, two inches apart onto lined cookie sheet.  Bake for 10-12 minutes.
 
 NOTES:
+
+## Ingredients
 
 - These were awesome!  5 out of 5
 

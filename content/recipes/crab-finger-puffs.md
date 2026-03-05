@@ -4,17 +4,16 @@ date: 2026-03-05T06:58:48-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["appetizers"]
-description: ""
+description: "Crab finger puffs"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/688802/pexels-photo-688802.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/6185760/pexels-photo-6185760.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Nancy and Mike Potvin
 
 Cousins of the Groom
@@ -39,6 +38,8 @@ To serve, arrange on ungreased baking sheet. Heat in 450 degree oven for about 4
 Makes 54 puffs.
 
 1 puff:
+
+## Ingredients
 
 - 52 calories
 - 1 gr protein

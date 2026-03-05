@@ -4,17 +4,16 @@ date: 2026-03-05T07:00:47-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["pastrypies", "pie"]
-description: ""
+description: "Deluxe pumpkin cream cheese pie, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6072108/pexels-photo-6072108.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5706373/pexels-photo-5706373.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Charleen and Jim Martin
 
 Cousins of the Bride
@@ -30,12 +29,16 @@ Beat the above ingredients together and spread in bottom of pie shells.
 
 Pumpkin Layer:
 
+## Ingredients
+
 - 2 cups pumpkin, canned
 - 2 beaten eggs
 - ½ cup sugar
 - 1 tsp cinnamon
 - 1 cup milk
 - ½ tsp ginger
+
+## Instructions
 
 Mix ingredients and spread carefully over cream cheese layer in pie shells.
 

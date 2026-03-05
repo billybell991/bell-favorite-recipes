@@ -4,26 +4,29 @@ date: 2026-03-05T07:00:20-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["meat"]
-description: ""
+description: "Gord's homemade jerky"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/332784/pexels-photo-332784.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/8250275/pexels-photo-8250275.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Patsy and Gord Bell
 
 Sister-in-law and Brother of the Groom
+
+## Ingredients
 
 - 1 ½ kg meat (any kind, no fat)
 - 1 bottle soya sauce
 - ½ bottle Worcestershire sauce
 - ½ - 1 cup of brown sugar
 - a few cloves of garlic
+
+## Instructions
 
 Cut meat into 1/8-1/4 inch thick strips. Make sure there is no fat on the meat. Cut with the grain for chewier jerky.
 

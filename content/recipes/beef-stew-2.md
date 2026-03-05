@@ -4,14 +4,14 @@ date: 2026-03-05T06:52:59-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["beef", "stew"]
-description: ""
+description: "Beef stew 2, pressure-cooked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/29253254/pexels-photo-29253254.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/3981486/pexels-photo-3981486.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

@@ -4,18 +4,19 @@ date: 2026-03-05T06:53:00-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["chicken"]
-description: ""
+description: "Chicken breasts, sautéed to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6107765/pexels-photo-6107765.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/8250430/pexels-photo-8250430.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 ### Ingredients
+
+## Ingredients
 
 - 1 Tablespoon oil (I use avocado, but you can use coconut or canola - something with a high smoke point is best!)
 - 3 boneless, skinless chicken breasts (uncooked)
@@ -24,6 +25,8 @@ notes: ""
 - 1/8 teaspoon dried oregano
 - 1/8 teaspoon dried basil
 - 1 cup water
+
+## Instructions
 
 ### Instructions
 

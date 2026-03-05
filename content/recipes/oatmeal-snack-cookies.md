@@ -4,7 +4,7 @@ date: 2026-03-05T06:57:06-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["cookies", "cookies"]
-description: ""
+description: "Golden brown and fluffy, oatmeal snack cookies, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/14133100/pexels-photo-14133100.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 2/3 cup butter or margarine, softened
 - 2/3 cup packed brown sugar
@@ -24,6 +25,8 @@ notes: ""
 - ½ tsp salt
 - 1 6-oz pkg sweetened dried cranberries, option
 - 2/3 cup white or semi-sweet chocolate chips, optional
+
+## Instructions
 
 Preheat oven to 375 F. Using electric mixer, beat better and sugar together in a medium mixing bowl until light and fluffy. Add eggs and mix well.
 

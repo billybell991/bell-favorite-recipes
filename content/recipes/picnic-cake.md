@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:22-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "cake"]
-description: ""
+description: "Fluffy, picnic cake"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,7 +14,6 @@ servings: ""
 image: "https://images.pexels.com/photos/1028714/pexels-photo-1028714.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Shirley and Rob Webster
 
 Aunt and Uncle of the Groom
@@ -39,10 +38,14 @@ Cool. Leave in pan. When cool, spread with Peanut Butter Frosting. If desired, d
 
 Peanut Butter Frosting:
 
+## Ingredients
+
 - ¼ cup margarine
 - ¼ cup peanut butter
 - 1 tsp vanilla
 - 2 ½ cups sifted icing sugar
 - ¼ cup milk
+
+## Instructions
 
 Cream margarine, peanut butter and vanilla. Add sugar, alternating with milk, beating until light and fluffy. Use additional milk if needed.

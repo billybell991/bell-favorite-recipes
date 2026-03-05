@@ -4,16 +4,17 @@ date: 2026-03-05T06:58:23-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["meat", "chicken", "potatoes"]
-description: ""
+description: "Crispy and tender, campbell's broccoli chicken potato parmesan, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1277483/pexels-photo-1277483.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/1309595/pexels-photo-1309595.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 2 Tbsp vegetable oil
 - 8 mini red-skinned potatoes, thinly sliced
@@ -23,6 +24,8 @@ notes: ""
 - ¼ tsp garlic powder
 - 2 cups fresh or frozen broccoli florets
 - 1/3 cup grated Parmesan cheese
+
+## Instructions
 
 Heat oil at medium-high in large skillet. Add potato slices and stir fry until tender crisp.
 

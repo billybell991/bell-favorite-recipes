@@ -4,16 +4,17 @@ date: 2026-03-05T06:55:00-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["appetizers"]
-description: ""
+description: "Antipasto roll-ups"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5419309/pexels-photo-5419309.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/29068731/pexels-photo-29068731.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 7 oz tuna or chicken, drained and flakes
 - 1 hard-boiled egg, chopped
@@ -21,6 +22,8 @@ notes: ""
 - 1 tsp lemon juice
 - 2 6-oz pkg sliced mozzarella cheese
 - 2 8-oz pkg sliced party salami
+
+## Instructions
 
 Mash together tuna or chicken, egg, mayo and lemon juice; set aside.
 

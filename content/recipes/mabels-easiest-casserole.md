@@ -4,7 +4,7 @@ date: 2026-03-05T06:56:35-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["casseroles"]
-description: ""
+description: "Tender, mabel's easiest casserole, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/4198421/pexels-photo-4198421.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - ½ cup raw long grain rice
 - 1-3/4 cup peeled and chopped tomatoes (or use one 14-oz can)
@@ -23,6 +24,8 @@ notes: ""
 - 3 thick loin pork chops
 - 1 cup hot water (or 1 can consommé)
 - 2 tbsp chicken bouillon cordial – see below
+
+## Instructions
 
 Measure raw rice into large shallow casserole. Stir tomatoes into it. (If time permits let stand 1
 

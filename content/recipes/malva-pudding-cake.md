@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:18-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "cake"]
-description: ""
+description: "Rich, malva pudding cake"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,7 +14,6 @@ servings: ""
 image: "https://images.pexels.com/photos/219293/pexels-photo-219293.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Claire and Marc Massicotte
 
 Aunt and Uncle of the Groom
@@ -36,11 +35,15 @@ Beat the egg and sugar well with a mixer.  In a separate bowl, combine the jam, 
 
 Beat well and bake in aCOVEREDdish at 350 degrees for 45 minutes to 1 hour.  It is very important to use a covered dish otherwise sauce won’t soak into cake. Corning wear dish works quite well.
 
+## Ingredients
+
 - Sauce:
 - 1 cup cream or table cream
 - 6 ozs butter
 - 1 cup sugar
 - ½ cup hot water
+
+## Instructions
 
 Melt together the ingredients for the sauce and pour over the pudding or cake as it comes out of the oven.
 

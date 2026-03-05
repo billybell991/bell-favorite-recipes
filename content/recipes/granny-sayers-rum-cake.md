@@ -4,17 +4,16 @@ date: 2026-03-05T06:59:16-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "cake"]
-description: ""
+description: "Granny sayer's rum cake"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5836525/pexels-photo-5836525.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/26838692/pexels-photo-26838692.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Pat and Tom Sayer
 
 Aunt and Uncle of the Bride
@@ -32,9 +31,13 @@ Topping:
 
 In a sauce pan, combine the following:
 
+## Ingredients
+
 - 1 cup of butter (use butter only)
 - 1 cup of white sugar
 - ½ cup of water
+
+## Instructions
 
 Boil above ingredients for five minutes then add ½ cup of white rum.
 

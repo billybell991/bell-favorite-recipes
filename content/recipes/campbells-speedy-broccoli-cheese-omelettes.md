@@ -4,16 +4,17 @@ date: 2026-03-05T06:58:40-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["meat"]
-description: ""
+description: "Moist, campbell's speedy broccoli cheese omelettes"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/32125954/pexels-photo-32125954.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/705127/pexels-photo-705127.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 4 tsp vegetable oil
 - 1 can Broccoli & Cheese Soup
@@ -21,6 +22,8 @@ notes: ""
 - 2 cups cooked, chopped broccoli
 - dash ground black pepper
 - grated Parmesan cheese
+
+## Instructions
 
 Mix eggs gradually into soup with whisk or fork. Stir in half the broccoli and pepper.
 

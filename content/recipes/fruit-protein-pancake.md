@@ -4,14 +4,14 @@ date: 2026-03-05T06:54:33-05:00
 draft: false
 categories: ["Weight Watchers"]
 tags: ["cake"]
-description: ""
+description: "Fruit protein pancake"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5677021/pexels-photo-5677021.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/6947056/pexels-photo-6947056.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

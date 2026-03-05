@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:17-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "cake"]
-description: ""
+description: "Ice box cake"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,10 +14,11 @@ servings: ""
 image: "https://images.pexels.com/photos/6148262/pexels-photo-6148262.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Lorna and Zoran Popovitch
 
 Aunt and Uncle of the Groom
+
+## Ingredients
 
 - 30 marshmallows, chopped fine
 - 30 graham wafers, rolled fine
@@ -25,6 +26,8 @@ Aunt and Uncle of the Groom
 - ½ cup walnuts, chopped
 - 1 can Eaglebrand Milk
 - 1 cup coconut
+
+## Instructions
 
 Mix the first four ingredients with the can of Eaglebrand. Butter a shallow pan and spread thick with half the coconut.
 

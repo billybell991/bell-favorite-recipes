@@ -4,14 +4,14 @@ date: 2026-03-05T06:54:13-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["bread"]
-description: ""
+description: "Golden brown, dutch oven no-knead bread, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9099623/pexels-photo-9099623.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5764069/pexels-photo-5764069.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

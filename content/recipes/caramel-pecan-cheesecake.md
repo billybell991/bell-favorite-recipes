@@ -4,20 +4,21 @@ date: 2026-03-05T06:59:04-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "cake"]
-description: ""
+description: "Caramel pecan cheesecake, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6205868/pexels-photo-6205868.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5419218/pexels-photo-5419218.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Sandra Stewart
 
 Friend of the Bride and Groom
+
+## Ingredients
 
 - 1 ready-to-use Graham pie crust
 - 20 caramel squares
@@ -26,6 +27,8 @@ Friend of the Bride and Groom
 - 2 pkgs cream cheese, softened
 - ½ cup sugar
 - 2 eggs
+
+## Instructions
 
 Microwave caramels and milk until melted (about 2 min; stir after 1 min). Stir in pecans and mix well. Pour into pie crust and chill for 10 minutes.
 

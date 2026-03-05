@@ -4,7 +4,7 @@ date: 2026-03-05T06:57:43-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["diabetic recipes", "beef"]
-description: ""
+description: "Tender and bubbly, spicy beef chili, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/10658147/pexels-photo-10658147.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - Vegetable cooking spray
 - ½ tsp ground cumin
@@ -32,6 +33,8 @@ notes: ""
 - 1-1/2 cup no-salt- added tomato juice
 - 1/4 cup plus 2 Tbsp (1-1/2 oz) shredded 40% less-fat Cheddar cheese
 - 1 tsp ground coriander
+
+## Instructions
 
 Coat a Dutch oven with cooking spray; place over medium-high heat until hot. Add ground round; cook until meat is browned, stirring to crumble. Remove meat from pat; drain and pat dry with paper towels. Wipe drippings from pan with a paper towel. Coat Dutch oven with cooking spray. Add onion and garlic; sauté 5 minutes or until onion is tender. Return meat to Dutch oven. Add beans and next 6 ingredients; bring to a boil over medium-high heat. Cover, reduce heat, and simmer 15 minutes, stirring occasionally. Combine beef broth and cornstarch, stirring well; add to beef mixture. Bring to a boil, stirring constantly, and cook 1 minute or until thickened and bubbly. Ladle into individual bowls, sprinkle with cheese. Serve immediately.
 

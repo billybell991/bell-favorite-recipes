@@ -4,7 +4,7 @@ date: 2026-03-05T06:55:14-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["appetizers", "salmon"]
-description: ""
+description: "Salmon cheese ball"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/1213710/pexels-photo-1213710.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 pkg (8 oz) cream cheese, softened
 - 1 tin (7-1/2 oz) salmon, drained & flaked
@@ -22,6 +23,8 @@ notes: ""
 - 1/8 tsp pepper
 - Snipped parsley
 - Snack crackers
+
+## Instructions
 
 Mix cream cheese, salmon, Worcestershire sauce, salt and pepper until well blended, about 1 minute. Shape into a ball. Cover and refrigerate at least 1 hour.
 

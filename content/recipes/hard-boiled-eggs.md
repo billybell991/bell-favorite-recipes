@@ -4,14 +4,14 @@ date: 2026-03-05T06:53:08-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: []
-description: ""
+description: "Hard boiled eggs, pressure-cooked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/32125954/pexels-photo-32125954.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/36227428/pexels-photo-36227428.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

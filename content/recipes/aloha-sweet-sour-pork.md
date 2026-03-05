@@ -4,17 +4,16 @@ date: 2026-03-05T06:58:18-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["meat", "pork"]
-description: ""
+description: "Crispy and tender, aloha sweet & sour pork, fried to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/14537709/pexels-photo-14537709.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5848495/pexels-photo-5848495.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 - 1 lb lean boneless pork chops, cut into thin strips
 - 1 clove garlic, minced
 - 1 tsp minced fresh ginger or ½ tsp powdered ginger
@@ -23,6 +22,8 @@ notes: ""
 
 ### Homemade Sauce:
 
+## Ingredients
+
 - 1 clove garlic, minced
 - 1 tsp minced fresh ginger or 1/2tsp powdered ginger
 - 1-1/2 Tbsp corn starch
@@ -30,6 +31,8 @@ notes: ""
 - ½ cup fruit juice or broth
 - 1 Tbsp each sugar and ketchup
 - 2 Tbsp each vinegar and soya sauce
+
+## Instructions
 
 Combine pork, garlic and ginger; season with salt and pepper to taste. Mix well. In large frying pan or wok over high heat, heat half of the oil. Add pork. Stir-fry 2 minutes. Remove pork from pan. Set aside.
 

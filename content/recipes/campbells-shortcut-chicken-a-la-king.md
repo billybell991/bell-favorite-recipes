@@ -4,16 +4,17 @@ date: 2026-03-05T06:58:37-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["meat", "chicken"]
-description: ""
+description: "Crispy and tender, campbell's shortcut chicken a la king"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6107757/pexels-photo-6107757.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/1059943/pexels-photo-1059943.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 Tbsp vegetable oil
 - ½ cup chopped red or green pepper
@@ -23,6 +24,8 @@ notes: ""
 - 1 cup frozen green peas
 - dash ground black pepper, optional
 - 4 cups hot cooked rice or pasta
+
+## Instructions
 
 Heat oil at medium-high in large skillet. Add pepper and celery and stir fry until tender crisp. Reduce heat to medium.
 

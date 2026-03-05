@@ -4,17 +4,16 @@ date: 2026-03-05T06:52:40-05:00
 draft: false
 categories: ["Family Recipes"]
 tags: []
-description: ""
+description: "Classic pickled eggs"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7625714/pexels-photo-7625714.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5266095/pexels-photo-5266095.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 ## CLASSIC PICKLED EGGS
 
 ### Ingredients
@@ -25,7 +24,12 @@ notes: ""
 - 1 Tbspsalt
 - 2 clovesgarlic
 - Cut up white onions(optional)
+
+## Ingredients
+
 - 1 bay leaf(optional)
+
+## Instructions
 
 ### Instructions
 

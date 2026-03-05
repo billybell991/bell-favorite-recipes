@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:24-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["beef"]
-description: ""
+description: "Tender, southwestern beef chili with corn, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""

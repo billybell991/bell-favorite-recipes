@@ -4,14 +4,14 @@ date: 2026-03-05T06:54:02-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["beef", "stew"]
-description: ""
+description: "Beef stew, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/10692537/pexels-photo-10692537.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/34636462/pexels-photo-34636462.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

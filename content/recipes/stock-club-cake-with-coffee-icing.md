@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:27-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "cake"]
-description: ""
+description: "Creamy, stock club cake with coffee icing"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,7 +14,6 @@ servings: ""
 image: "https://images.pexels.com/photos/998237/pexels-photo-998237.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Dean Pigeau and Karen Cosgrove
 
 Cousin of the Bride
@@ -32,10 +31,14 @@ Bake for 1 hour or less at 350 degrees.
 
 Coffee Icing:
 
+## Ingredients
+
 - 1/2  tsp coffee
 - 1 tbsp margarine
 - 2 tsp boiling water
 - 1 tsp cocoa
 - 1 cup icing sugar
+
+## Instructions
 
 Mix coffee, margarine, water and cocoa until smooth.  Slowly add icing sugar until creamy.

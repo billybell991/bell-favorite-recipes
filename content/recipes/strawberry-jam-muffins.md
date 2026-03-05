@@ -4,7 +4,7 @@ date: 2026-03-05T06:56:20-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["cakes and muffins", "muffins"]
-description: ""
+description: "Strawberry jam muffins, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,10 +14,11 @@ servings: ""
 image: "https://images.pexels.com/photos/3650438/pexels-photo-3650438.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Yield: 24 muffins                                                  Baking Time: 20-25 minutes
 
 Preparation Time: 15 minutes                           Oven Temperature: 350 degrees
+
+## Ingredients
 
 - 1 cup sugar
 - ¾ cup margarine
@@ -28,6 +29,8 @@ Preparation Time: 15 minutes                           Oven Temperature: 350 deg
 - 1 tsp nutmeg
 - 1/3 cup sour milk
 - ¾ cup jam
+
+## Instructions
 
 Cream sugar and margarine. Add eggs one at a time, beating after each addition.
 

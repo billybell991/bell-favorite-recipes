@@ -4,16 +4,17 @@ date: 2026-03-05T06:58:32-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["meat", "chicken"]
-description: ""
+description: "Campbell's easy santa fe chicken, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6107772/pexels-photo-6107772.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/9291017/pexels-photo-9291017.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 2 Tbsp all-purpose flour
 - 1 Tbsp chili powder
@@ -25,6 +26,8 @@ notes: ""
 - ¼ cup shredded Cheddar or Monterey
 - 4 cups hot cooked rice
 - Jack cheese
+
+## Instructions
 
 Mix flour and chili powder. Coat chicken with flour mixture.
 

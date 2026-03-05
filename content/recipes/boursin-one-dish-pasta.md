@@ -4,14 +4,14 @@ date: 2026-03-05T06:53:54-05:00
 draft: false
 categories: ["Maya's Recipes"]
 tags: ["pasta"]
-description: ""
+description: "Tender, boursin one dish pasta, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/31779545/pexels-photo-31779545.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/6287357/pexels-photo-6287357.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

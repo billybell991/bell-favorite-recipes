@@ -4,17 +4,16 @@ date: 2026-03-05T06:55:57-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["cakes and muffins", "muffins"]
-description: ""
+description: "Golden brown, all-bran muffins - no. 2, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4792403/pexels-photo-4792403.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5105467/pexels-photo-5105467.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Combine together:
 
 - 2 beaten eggs
@@ -26,11 +25,15 @@ Combine together:
 
 Sift together, then add to the above:
 
+## Ingredients
+
 - 2 cups flour
 - ¼ tsp salt
 - 2 tsp baking soda
 - 1 cup raisins
 - 2 tsp baking powder
+
+## Instructions
 
 Fill medium-sized paper cups ¾ full.  Bake for 15 to 20 minutes in a 375 degree oven until golden brown.
 

@@ -14,14 +14,17 @@ servings: ""
 image: "https://images.pexels.com/photos/1020585/pexels-photo-1020585.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 FRONTIER KITCHEN CHEMICAL GARDEN
 
 Mix:
 
+## Ingredients
+
 - 6 Tbsp liquid bluing
 - 6 Tbsp salt
 - 6 Tbsp water
+
+## Instructions
 
 Add 1 Tbsp ammonia
 

@@ -4,16 +4,17 @@ date: 2026-03-05T06:58:38-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["meat"]
-description: ""
+description: "Tender, campbell's shortcut spaghetti & meat sauce, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/30343602/pexels-photo-30343602.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/6545670/pexels-photo-6545670.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 Tbsp vegetable oil
 - ¾ lb ground beef, cooked and drained
@@ -23,6 +24,8 @@ notes: ""
 - ¾ cup water
 - 5 cups hot cooked spaghetti
 - ¼ cup grated Romano or Parmesan cheese
+
+## Instructions
 
 Heat oil at medium-high in large skillet and stir fry onions and celery until tender.
 

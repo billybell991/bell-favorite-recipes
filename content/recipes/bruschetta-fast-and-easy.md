@@ -4,16 +4,17 @@ date: 2026-03-05T06:55:01-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["appetizers"]
-description: ""
+description: "Bruschetta fast and easy, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/830894/pexels-photo-830894.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/2532006/pexels-photo-2532006.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 28-oz or 796 ml can diced tomatoes
 - 1 medium onion, chopped
@@ -22,6 +23,8 @@ notes: ""
 - 1 tsp garlic powder
 - 1 loaf French bread
 - 1 cup shredded mozzarella cheese
+
+## Instructions
 
 COMBINE tomatoes, onion and basil in large skillet. BRING to boil, simmer, uncovered, over medium heat until thickened – about 15 minutes, stirring occasionally.
 

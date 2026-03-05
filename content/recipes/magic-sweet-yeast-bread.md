@@ -4,7 +4,7 @@ date: 2026-03-05T06:55:30-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["breads", "bread"]
-description: ""
+description: "Rich, magic sweet yeast bread"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,7 +14,6 @@ servings: ""
 image: "https://images.pexels.com/photos/9099623/pexels-photo-9099623.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Combine in a cup:
 
 - 1/2 cup lukewarm Water
@@ -37,9 +36,13 @@ Mix in & Set aside to cool:
 
 Measure and sift together:
 
+## Ingredients
+
 - 5-1/2 cups all-purpose flour
 - 1 tsp salt
 - ¼ cup sugar
+
+## Instructions
 
 Combine with the milk, corn oil and syrup mixture …5 beaten eggs and 2 cups of the sifted flour, sugar, salt mixture. Mix to give a thick batter. Beat vigorously and stir in yeast.
 

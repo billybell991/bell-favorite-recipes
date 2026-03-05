@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:49-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cookies", "bread", "cookies"]
-description: ""
+description: "Traditional gingerbread man cookies, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,10 +14,11 @@ servings: ""
 image: "https://images.pexels.com/photos/8081573/pexels-photo-8081573.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Stephanie and Shawn Thomas
 
 Cousins of the Bride
+
+## Ingredients
 
 - 5 to 5 ½ cups all-purpose flour
 - 1 tsp baking soda
@@ -30,6 +31,8 @@ Cousins of the Bride
 - 1 cup sugar
 - 1 ¼ cups unsulphured molasses
 - 2 eggs, beaten
+
+## Instructions
 
 Preheat oven to 375 degrees. Thoroughly mix flour, soda, salt and spices.  Melt shortening in large saucepan. Cool slightly. Add sugar, molasses and eggs. Mix well. Add four cups of dry ingredients and mix well. Turn mixture onto lightly floured surface. Knead in remaining dry ingredients by hand. Add a little more flour, if necessary, to make a firm dough. Roll out on a lightly floured surface to ¼ inch thickness for cut-out cookies. Bake on an ungreased cookie sheet (small and medium-sized cookies for 6-10 minutes, large cookies for 10-15 minutes). One recipe of this dough will yield 2 to 3 dozen average-sized cookies.
 

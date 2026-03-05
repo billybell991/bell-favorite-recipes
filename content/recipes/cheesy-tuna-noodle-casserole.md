@@ -4,16 +4,17 @@ date: 2026-03-05T06:56:28-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["casseroles"]
-description: ""
+description: "Cheesy tuna noodle casserole, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/2337842/pexels-photo-2337842.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/35622190/pexels-photo-35622190.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 3 cups frozen vegetable blend with broccoli, carrots, cauliflower
 - 1 pkg Kraft Dinner Macaroni & Cheese
@@ -22,6 +23,8 @@ notes: ""
 - 2 tins (170 gr each) Clover Leaf Chunk White Tuna, drained
 - 1 cup Kraft Double
 - Cheddar Shredded Cheese Light, divided
+
+## Instructions
 
 PREHEAT oven to 375 F. Place vegetables in colander in sink. Cook Macaroni as directed on
 

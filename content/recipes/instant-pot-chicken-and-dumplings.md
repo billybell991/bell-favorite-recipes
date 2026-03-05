@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:10-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["chicken", "instant pot"]
-description: ""
+description: "Chicken and dumplings, pressure-cooked to perfection"
 source: ""
 creditUrl: ""
 credit: ""

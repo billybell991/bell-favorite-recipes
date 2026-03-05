@@ -4,7 +4,7 @@ date: 2026-03-05T06:56:36-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["casseroles"]
-description: ""
+description: "Mom's baked beans"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/5639274/pexels-photo-5639274.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 2 lbs. navy beans
 - 1 onion, cut in two
@@ -24,6 +25,8 @@ notes: ""
 - 4 Tbsp. molasses
 - Salt & Pepper to taste
 - ¼ cup shortening, in chunks
+
+## Instructions
 
 This is sort of the recipe for baked beans that I (Mom) started with. They do not have to be boiled beforehand. This recipe can be altered to many ways – every cook puts his/her own touch to it.
 

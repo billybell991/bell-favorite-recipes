@@ -4,7 +4,7 @@ date: 2026-03-05T06:56:36-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["casseroles"]
-description: ""
+description: "Maritime madness, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/32125954/pexels-photo-32125954.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 lb ground beef
 - 1 tin mushroom soup
@@ -26,6 +27,8 @@ notes: ""
 - 1 tbsp barbecue sauce
 - ½ tsp garlic powder
 - ½ cup rolled oats
+
+## Instructions
 
 Combine all ingredients in large bowl. Mix well. Pat down in 1-1/2 qt casserole. Bake
 

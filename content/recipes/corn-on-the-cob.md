@@ -4,14 +4,14 @@ date: 2026-03-05T06:53:05-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: []
-description: ""
+description: "Corn on the cob, pressure-cooked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/32795462/pexels-photo-32795462.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/12624419/pexels-photo-12624419.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

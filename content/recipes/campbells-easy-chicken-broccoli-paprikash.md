@@ -4,16 +4,17 @@ date: 2026-03-05T06:58:31-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["meat", "chicken"]
-description: ""
+description: "Campbell's easy chicken broccoli paprikash, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9219086/pexels-photo-9219086.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/10338435/pexels-photo-10338435.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 Tbsp vegetable oil
 - 4 boneless, skinless chicken breast halves,(about 1 pound/500 grams)
@@ -23,6 +24,8 @@ notes: ""
 - 2 cups hot cooked broccoli florets
 - 1/3 cup sour cream or plain yogurt
 - 4 cups hot cooked egg noodles
+
+## Instructions
 
 Heat oil at medium-high in large skillet. Add chicken and cook until browned on both sides. Set chicken aside. Reduce heat to medium.
 

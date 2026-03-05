@@ -4,7 +4,7 @@ date: 2026-03-05T06:56:39-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["casseroles", "rice"]
-description: ""
+description: "Oven fried rice, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/8956891/pexels-photo-8956891.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 2 cups uncooked long grain rice
 - 1 tbsp soya sauce
@@ -22,5 +23,7 @@ notes: ""
 - 2 10-oz cans mushrooms & liquid
 - Celery, onions and green pepper – to taste, chopped fine
 - 1 envelope onion soup mix
+
+## Instructions
 
 Mix all ingredients in small roaster and bake in 350 degree oven for 1-1/2 hours.

@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:49-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["shrimp"]
-description: ""
+description: "Sheet pan shrimp, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""

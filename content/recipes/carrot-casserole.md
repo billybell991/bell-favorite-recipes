@@ -4,20 +4,21 @@ date: 2026-03-05T06:59:36-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["casseroles"]
-description: ""
+description: "Carrot casserole, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6163259/pexels-photo-6163259.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/4768962/pexels-photo-4768962.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Judy and Lorne Pierce
 
 Sister and Brother-in-law of the Groom
+
+## Ingredients
 
 - 6 carrots, sliced (boil for about 10 minutes)
 - 1 medium onion
@@ -30,6 +31,8 @@ Sister and Brother-in-law of the Groom
 - 1/4 tsp dry mustard
 - 1/8 tsp celery salt
 - 1/8 tsp pepper
+
+## Instructions
 
 Cook onions in margarine in microwave for 5 minutes. Add flour and spices and mix. Add milk. Cook in milk until thick, about 5-10 minutes in microwave.
 

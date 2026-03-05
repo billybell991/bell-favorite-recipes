@@ -4,7 +4,7 @@ date: 2026-03-05T07:01:26-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["salads", "salad"]
-description: ""
+description: "Spinach salad with strawberries"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,7 +14,6 @@ servings: ""
 image: "https://images.pexels.com/photos/1152237/pexels-photo-1152237.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Patti and Darren Henri
 
 Cousins of the Bride
@@ -25,6 +24,8 @@ Cousins of the Bride
 
 Dressing:
 
+## Ingredients
+
 - ¼ to ½ cup of sugar
 - 2 tbsp sesame seeds
 - 1 tbsp poppy seeds
@@ -33,5 +34,7 @@ Dressing:
 - ¼ tsp paprika
 - ½ cup vegetable oil
 - ¼ cup cider vinegar
+
+## Instructions
 
 Make the dressing the day before. Pour over salad, toss and serve.

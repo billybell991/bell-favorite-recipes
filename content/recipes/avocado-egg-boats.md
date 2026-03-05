@@ -4,14 +4,14 @@ date: 2026-03-05T06:53:27-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: []
-description: ""
+description: "Avocado egg boats, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/32125954/pexels-photo-32125954.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/1305063/pexels-photo-1305063.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

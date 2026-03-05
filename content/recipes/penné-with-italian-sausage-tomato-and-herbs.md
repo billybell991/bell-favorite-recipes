@@ -4,7 +4,7 @@ date: 2026-03-05T07:01:02-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["pasta"]
-description: ""
+description: "Tender, penné with italian sausage, tomato, and herbs, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,10 +14,11 @@ servings: ""
 image: "https://images.pexels.com/photos/14537709/pexels-photo-14537709.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Sue and Don Lloyd
 
 Aunt and Uncle of the Bride
+
+## Ingredients
 
 - 4 hot or medium Italian sausages
 - 2 cups penné or corkscrew-shaped pasta
@@ -31,6 +32,8 @@ Aunt and Uncle of the Bride
 - pepper
 - 2 tbsp freshly grated parmesan cheese
 - 2-3 pinches of crushed red pepper
+
+## Instructions
 
 In skillet, cook sausage over medium heat for 15 to 20 minutes. Drain well. Cut into thin, round slices. Cook pasta until tender but firm. Drain and return to pot.
 

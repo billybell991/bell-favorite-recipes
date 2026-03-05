@@ -4,16 +4,17 @@ date: 2026-03-05T06:57:59-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["fish", "fish"]
-description: ""
+description: "Cheesy baked catfish"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/31043029/pexels-photo-31043029.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/2741457/pexels-photo-2741457.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 cup crushed cheese-flavored crackers
 - ¼ cup sesame seed
@@ -24,6 +25,8 @@ notes: ""
 - 2 tbsp shredded fresh Parmesan cheese
 - ¼ tsp pepper
 - ¼ tsp cayenne
+
+## Instructions
 
 Heat oven to 400 F. In shallow dish, combine crackers, sesame seed, parsley, salt, pepper and cayenne. Set aside.
 

@@ -4,7 +4,7 @@ date: 2026-03-05T07:00:40-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["meat"]
-description: ""
+description: "Sweet 'n' sour meatloaf, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,10 +14,11 @@ servings: ""
 image: "https://images.pexels.com/photos/10939223/pexels-photo-10939223.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Jeannine and Elmer Bell
 
 Parents of the Groom
+
+## Ingredients
 
 - 1 small onion, minced
 - ¼ cup crushed crackers (or bread crumbs)
@@ -29,6 +30,8 @@ Parents of the Groom
 - 2 lbs ground chuck
 - 1 ½ tsp salt
 - ¼ tsp pepper
+
+## Instructions
 
 Mix tomato sauce with sugar, vinegar and mustard until sugar is dissolved. Put ½ cup of sauce mixture aside.
 

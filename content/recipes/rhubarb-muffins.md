@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:24-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "muffins"]
-description: ""
+description: "Rhubarb muffins, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,7 +14,6 @@ servings: ""
 image: "https://images.pexels.com/photos/2764271/pexels-photo-2764271.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Marie and Will Sayer
 
 Cousins of the Bride
@@ -32,10 +31,14 @@ Cousins of the Bride
 
 Topping:
 
+## Ingredients
+
 - 1/2 cup brown sugar
 - 1/2 cup chopped nuts
 - 2 tbsp butter
 - 1 tsp cinnamon
+
+## Instructions
 
 In a large bowl, combine rhubarb, flours, brown sugar, baking soda and salt.
 

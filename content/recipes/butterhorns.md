@@ -4,16 +4,17 @@ date: 2026-03-05T06:55:21-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["breads"]
-description: ""
+description: "Butterhorns, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/2067626/pexels-photo-2067626.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/281260/pexels-photo-281260.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 Pkg or 1 Tbsp Yeast
 - ¼ cup lukewarm water
@@ -22,6 +23,8 @@ notes: ""
 - 1 tsp salt
 - ½ cup sugar
 - 6 cups all-purpose flour
+
+## Instructions
 
 In large bowl sprinkle yeast & add warm water & stir until dissolved. Add eggs, milk (or water), butter, salt, sugar and stir until well blended.
 

@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:58-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: []
-description: ""
+description: "Tasty cheese loaf"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,7 +14,6 @@ servings: ""
 image: "https://images.pexels.com/photos/2067626/pexels-photo-2067626.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 - 1/2 cup margarine (or butter), softened
 - 4 oz. block of cream cheese, softened
 - 1/4 tsp onion powder
@@ -31,6 +30,8 @@ Add Asiago cheese and parsley.  Stir.
 Spread cheese mixture on both sides of each bread slice.  Lay out long piece of foil on counter.  Keeping slices in order, reshape loaf towards 1 end of foil.  Wrap foil over loaf.  Folder ends to seal completely.  Bake in 375 degree Fahrenheit oven for 30 minutes until cheese it melted and bread is warmed through.  Makes about 15 slices.
 
 NOTES:
+
+## Ingredients
 
 - This was great.  We used mozzarella cheese instead of Asiago because we had mozzarella and have no idea what an Asiago is.  4 out of 5
 

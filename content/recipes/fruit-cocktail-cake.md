@@ -4,17 +4,16 @@ date: 2026-03-05T06:56:09-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["cakes and muffins", "cake"]
-description: ""
+description: "Fruit cocktail cake, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3650437/pexels-photo-3650437.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/17248963/pexels-photo-17248963.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 300 degrees   -   50 – 60 minutes
 
 Ingredients for Cake:
@@ -27,9 +26,13 @@ Ingredients for Cake:
 
 Ingredients for Topping:
 
+## Ingredients
+
 - 1-3/4 cup W. Sugar
 - ½ cup pure Carnation Milk
 - ½ cup butter or margarine
+
+## Instructions
 
 Directions for Cake: Beat eggs with Sugar. Put juice & Baking Soda in eggs & beat. Add Fruit Cocktail & beat. Add flour  & beat. Pour into a 13” x 15” well-greased pan. Bake for 50 -  60 minutes in a 300 degree oven. Test w/a toothpick for doneness.
 

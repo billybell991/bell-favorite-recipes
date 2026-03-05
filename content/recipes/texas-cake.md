@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:31-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "cake"]
-description: ""
+description: "Texas cake"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,7 +14,6 @@ servings: ""
 image: "https://images.pexels.com/photos/1028714/pexels-photo-1028714.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Sherry and Paul Beaulieu
 
 Cousins of the Bride
@@ -31,11 +30,15 @@ Combine all ingredients and place in a 9x13 inch glass pan. Cook at 325 degrees 
 
 Sauce:
 
+## Ingredients
+
 - 1/2  cup margarine
 - 1 cup brown sugar
 - 2/3 cup Carnation milk
 - 1 cup coconut
 - 1 tsp vanilla
+
+## Instructions
 
 Combine margarine, brown sugar and milk in a saucepan and bring to a boil. Continue boiling sauce for 5 minutes and then add coconut and vanilla.
 

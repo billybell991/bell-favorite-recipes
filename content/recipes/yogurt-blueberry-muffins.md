@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:33-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "muffins"]
-description: ""
+description: "Yogurt blueberry muffins, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,10 +14,11 @@ servings: ""
 image: "https://images.pexels.com/photos/4792403/pexels-photo-4792403.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Ruth Divver
 
 Aunt of the Groom
+
+## Ingredients
 
 - 1 cup plain yogurt
 - 2 tsp baking powder
@@ -28,6 +29,8 @@ Aunt of the Groom
 - 2 cups flour
 - ½ tsp vanilla
 - 1 cup blueberries
+
+## Instructions
 
 In a small bowl, mix yogurt andoneteaspoon of baking powder. Set aside.
 

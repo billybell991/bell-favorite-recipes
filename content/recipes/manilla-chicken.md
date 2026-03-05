@@ -4,7 +4,7 @@ date: 2026-03-05T07:00:22-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["meat", "chicken"]
-description: ""
+description: "Tender, manilla chicken, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,10 +14,11 @@ servings: ""
 image: "https://images.pexels.com/photos/145804/pexels-photo-145804.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Stephanie Lemaire and John Breton
 
 Friends of the Bride and Groom
+
+## Ingredients
 
 - 6 boneless, skinless chicken breasts
 - 1 cup onion, finely chopped
@@ -28,6 +29,8 @@ Friends of the Bride and Groom
 - 1/8 tsp garlic powder
 - 1/4 tsp salt
 - 1/8 tsp pepper
+
+## Instructions
 
 Arrange chicken breasts in a single layer in a large saucepan. Mix remaining 8 ingredients in a small bowl. Pour over chicken. Cover. Bring to a boil. Lower heat and simmer for
 

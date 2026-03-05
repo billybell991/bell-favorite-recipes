@@ -4,20 +4,21 @@ date: 2026-03-05T06:59:46-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cookies"]
-description: ""
+description: "Granny gosson's ginger sparklers, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4187558/pexels-photo-4187558.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/290522/pexels-photo-290522.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Heather Bell
 
 Bride
+
+## Ingredients
 
 - 2 cups flour
 - ¼ tsp salt
@@ -28,6 +29,8 @@ Bride
 - 1 egg
 - 1 ½ tsp baking soda
 - ½ tsp cinnamon
+
+## Instructions
 
 In a large bowl, cream sugar, margarine, egg and molasses. In a separate bowl, combine dry ingredients. Blend dry ingredients into cream mixture.
 

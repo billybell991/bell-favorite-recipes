@@ -4,7 +4,7 @@ date: 2026-03-05T06:56:43-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["casseroles", "rice"]
-description: ""
+description: "Spanish rice, sautéed to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/3926133/pexels-photo-3926133.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 cup rice
 - 4 tbsp butter
@@ -23,6 +24,8 @@ notes: ""
 - 1 red or green pepper, chopped
 - 1 tsp paprika
 - 2 tsp salt
+
+## Instructions
 
 Saute onions, garlic and pepper in butter. Add remaining ingredients and cook slowly on top of stove for 1 hour.
 

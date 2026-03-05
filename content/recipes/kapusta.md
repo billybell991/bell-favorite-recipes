@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:37-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["casseroles"]
-description: ""
+description: "Kapusta"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,10 +14,11 @@ servings: ""
 image: "https://images.pexels.com/photos/32125954/pexels-photo-32125954.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Rachel and Wayne Pigeau
 
 Godparents/Aunt and Uncle of the Bride
+
+## Ingredients
 
 - 3 or 4 onions, chopped
 - ¼ cup butter
@@ -25,6 +26,8 @@ Godparents/Aunt and Uncle of the Bride
 - 1 cup of Uncle Ben's rice
 - 2 cups of water
 - chicken cubes for broth
+
+## Instructions
 
 Cook onions in butter until soft. Mix chicken cubes in water. Add rice and cook for 20 minutes until water is absorbed.
 

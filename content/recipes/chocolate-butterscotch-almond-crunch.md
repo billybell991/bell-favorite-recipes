@@ -4,20 +4,21 @@ date: 2026-03-05T06:59:12-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares"]
-description: ""
+description: "Chocolate butterscotch almond crunch, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/12364904/pexels-photo-12364904.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5846199/pexels-photo-5846199.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Diane Laderoute
 
 Cousin of the Bride
+
+## Ingredients
 
 - 1 ¾ cup flour
 - ¾ cup white sugar
@@ -27,6 +28,8 @@ Cousin of the Bride
 - ½ tsp vanilla
 - 1 pkg milk chocolate chips
 - 1 cup slivered almonds
+
+## Instructions
 
 Combine flour and sugars. Mix margarine in until blended. Add egg yolk and vanilla. Mix until smooth.
 

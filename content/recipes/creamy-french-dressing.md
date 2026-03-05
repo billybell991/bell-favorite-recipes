@@ -4,16 +4,17 @@ date: 2026-03-05T06:57:31-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["diabetic recipes"]
-description: ""
+description: "Creamy french dressing"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1213710/pexels-photo-1213710.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5202246/pexels-photo-5202246.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 cup ketchup
 - ½ cup reduced-fat mayonnaise
@@ -25,6 +26,8 @@ notes: ""
 - ½ tsp ground mustard
 - ¼ tsp salt
 - Salad greens & vegetables of your choice
+
+## Instructions
 
 In a blender or food processor, combine the first nine ingredients; cover and process until blended. Serve over salad. Refrigerate leftovers. Yield: 1-3/4 cups
 

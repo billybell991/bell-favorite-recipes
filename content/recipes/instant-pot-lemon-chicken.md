@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:38-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["chicken", "instant pot"]
-description: ""
+description: "Golden brown and tender, lemon chicken, pressure-cooked to perfection"
 source: ""
 creditUrl: ""
 credit: ""

@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:21-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares"]
-description: ""
+description: "Pep's favorite brownies, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,10 +14,11 @@ servings: ""
 image: "https://images.pexels.com/photos/32268791/pexels-photo-32268791.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Colette and Mike Peplinskie
 
 Sister and Brother-in-law of the Groom
+
+## Ingredients
 
 - 1 ½ cup all purpose flour
 - 1 tsp salt
@@ -28,6 +29,8 @@ Sister and Brother-in-law of the Groom
 - 4 eggs
 - ¼ cup cold water
 - ½ cup (or more) chopped walnuts
+
+## Instructions
 
 Place all ingredients in a beater bowl in the order given, ending with walnuts. Beat on low speed or by hand until smooth. Do not beat for too long.
 

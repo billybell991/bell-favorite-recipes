@@ -4,20 +4,21 @@ date: 2026-03-05T06:59:06-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "bread"]
-description: ""
+description: "Tender, caramelized pear & apple bread pudding, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5836525/pexels-photo-5836525.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/9501562/pexels-photo-9501562.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Judy and Roger Lafreniere
 
 Aunt and Uncle of the Groom
+
+## Ingredients
 
 - 2 tbsp butter
 - 2 pears, peeled, cored and cut into ¼ inch wedges
@@ -31,6 +32,8 @@ Aunt and Uncle of the Groom
 - 2 tsp vanilla
 - 1 tsp nutmeg
 - 1 tsp cinnamon
+
+## Instructions
 
 In a large frying pan, melt butter over medium heat. Add fruit and cook , stirring occasionally until tender. Stir in brown sugar, increase heat and cook for 3 minutes. Remove from heat; stir in the bread, raisins and pecans. Set aside.
 

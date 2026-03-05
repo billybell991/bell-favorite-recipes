@@ -4,16 +4,17 @@ date: 2026-03-05T06:58:25-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["meat", "chicken"]
-description: ""
+description: "Tender, campbell's chicken & vegetable rotini"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3070968/pexels-photo-3070968.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/17942482/pexels-photo-17942482.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 Tbsp vegetable oil
 - 1 lb boneless, skinless chicken breasts,cut in chunks
@@ -21,6 +22,8 @@ notes: ""
 - 2-1/4 cups water2 cups fresh (cut-up) or frozen veggie mix
 - ½ tsp dried basil leaves
 - 2 cups uncooked rotini pasta
+
+## Instructions
 
 Heat oil at medium-high in large skillet. Add chicken and stir fry until cooked through.
 

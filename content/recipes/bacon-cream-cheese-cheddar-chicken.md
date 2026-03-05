@@ -4,14 +4,14 @@ date: 2026-03-05T06:53:28-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["chicken"]
-description: ""
+description: "Bacon, cream cheese, cheddar chicken, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6107772/pexels-photo-6107772.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/31450819/pexels-photo-31450819.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

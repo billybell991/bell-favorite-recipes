@@ -4,16 +4,17 @@ date: 2026-03-05T06:56:24-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["casseroles"]
-description: ""
+description: "7-layer dinner, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/32862467/pexels-photo-32862467.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/3848158/pexels-photo-3848158.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 3 potatoes, sliced thin
 - 1 onion, sliced thin
@@ -23,6 +24,8 @@ notes: ""
 - 12 sausages or wieners, sliced into l-inch pieces
 - 1 l0-oz tin tomato soup
 - 1 tin water
+
+## Instructions
 
 Put everything in casserole in order given. If using sausages, boil for l0 minutes first. Mix
 

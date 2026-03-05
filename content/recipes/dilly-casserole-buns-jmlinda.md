@@ -4,14 +4,14 @@ date: 2026-03-05T06:52:41-05:00
 draft: false
 categories: ["Family Recipes"]
 tags: []
-description: ""
+description: "Dilly casserole buns, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/32125955/pexels-photo-32125955.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/4202391/pexels-photo-4202391.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

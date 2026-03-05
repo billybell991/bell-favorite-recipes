@@ -4,14 +4,14 @@ date: 2026-03-05T06:53:31-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["salad"]
-description: ""
+description: "Big mac salad"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1152237/pexels-photo-1152237.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/12557595/pexels-photo-12557595.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

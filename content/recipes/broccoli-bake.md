@@ -4,20 +4,21 @@ date: 2026-03-05T06:59:35-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["casseroles"]
-description: ""
+description: "Broccoli bake"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4198421/pexels-photo-4198421.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/7837785/pexels-photo-7837785.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by David Henri
 
 Cousin of the Bride
+
+## Ingredients
 
 - 2 cups white Minute Rice, cooked
 - 1 can of cream of chicken soup
@@ -28,6 +29,8 @@ Cousin of the Bride
 - ¼ tsp curry powder or more as per your taste
 - 1 head of broccoli florets
 - 2-3 skinless, boneless, cooked chicken breasts
+
+## Instructions
 
 Place cut up, cooked chicken pieces on bottom of a 9x13 inch  baking dish. Place broccoli florets on top of chicken. Mix the rice, soup, mayonnaise, lemon juice and spices together. If rice mixture seems dry, add more mayonnaise. Pour over chicken and broccoli.
 

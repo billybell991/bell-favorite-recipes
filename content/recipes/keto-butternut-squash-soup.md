@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:39-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["soup", "keto"]
-description: ""
+description: "Tender, butternut squash soup, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""

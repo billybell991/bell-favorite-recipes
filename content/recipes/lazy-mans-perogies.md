@@ -4,7 +4,7 @@ date: 2026-03-05T06:56:33-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["casseroles"]
-description: ""
+description: "Golden brown and creamy, lazy man's perogies"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/2337842/pexels-photo-2337842.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 15 medium-sized potatoes
 - 400 gr cheddar cheese
@@ -23,6 +24,8 @@ notes: ""
 - 1 pkg lasagna noodles
 - Sour cream
 - Shred 2 pkg of cheeses together and set aside.
+
+## Instructions
 
 Dice bacon. Fry until almost cooked. Add diced onion and fry until golden brown. Set aside
 

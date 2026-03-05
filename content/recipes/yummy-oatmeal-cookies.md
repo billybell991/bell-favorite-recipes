@@ -4,7 +4,7 @@ date: 2026-03-05T06:57:13-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["cookies", "cookies"]
-description: ""
+description: "Crispy and fluffy, yummy oatmeal cookies, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/4187558/pexels-photo-4187558.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 cup butter or margarine
 - 1-1/2 cups brown sugar
@@ -28,6 +29,8 @@ notes: ""
 - 3 cups quick-cooking rolled oats
 - ½ cup raisins (optional)
 - ½ cup chopped walnuts or sliced almonds (optional)
+
+## Instructions
 
 Cream together butter and brown sugar. Add the vinegar to the milk and set it aside for one minute. Add eggs to the butter and sugar mixture one at a time, mixing until light and fluffy. Add the milk with vinegar and mix until well incorporated.
 

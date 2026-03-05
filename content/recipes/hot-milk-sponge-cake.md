@@ -4,16 +4,17 @@ date: 2026-03-05T06:56:12-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["cakes and muffins", "cake"]
-description: ""
+description: "Fluffy, hot milk sponge cake, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5836525/pexels-photo-5836525.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/1359319/pexels-photo-1359319.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 2 large eggs
 - 1 cup white sugar
@@ -23,6 +24,8 @@ notes: ""
 - 3 tbsp margarine or butter
 - 1 cup all-purpose-flour
 - 1 tsp baking powder
+
+## Instructions
 
 Into beater bowl break eggs and beat until fluffy then slowly add sugar until very light and doubled in bulk.  Beat in salt & vanilla.  In a pan heat together the milk and margarine OR butter to just below boiling point.  While very hot pour into egg mixture BEATING ALL THE TIME.  Remove beaters.
 

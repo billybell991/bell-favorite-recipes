@@ -4,20 +4,21 @@ date: 2026-03-05T06:59:44-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cookies", "cookies"]
-description: ""
+description: "Cookie candies"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4276480/pexels-photo-4276480.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/14133148/pexels-photo-14133148.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Michelle and Jesse Webster
 
 Cousins of the Groom
+
+## Ingredients
 
 - 1 cup soft butter
 - ¾ cup icing sugar
@@ -27,6 +28,8 @@ Cousins of the Groom
 - ½ cup semi sweet chocolate pieces
 - ½ cup milk
 - sprinkles of your choice
+
+## Instructions
 
 Mix butter, sugar and vanilla. Cream well. Add flour mixture (sifted) and rolled oats. With hands, make into balls, roll into logs or use cookie cutters. Cook at 325 degrees for 20 minutes.
 

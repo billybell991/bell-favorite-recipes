@@ -4,16 +4,17 @@ date: 2026-03-05T06:56:05-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["cakes and muffins", "bread"]
-description: ""
+description: "Corn bread, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/830894/pexels-photo-830894.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/4055122/pexels-photo-4055122.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1-1/2 cup cornmeal
 - ½ cup sugar (use more than this)
@@ -23,6 +24,8 @@ notes: ""
 - 1-1/2 cup milk
 - 1 egg, beaten
 - ½ cup oil or shortening
+
+## Instructions
 
 Heat oven to 425 F.  Mix corn meal, sugar, flour, baking powder and salt.  Add milk, eggs and oil stirring only to mix well.  Pour into a 9” baking dish or casserole.  Bake until light brown or about 25 minutes.  Test till it comes out clean.
 

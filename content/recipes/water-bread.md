@@ -4,7 +4,7 @@ date: 2026-03-05T06:55:43-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["breads", "bread"]
-description: ""
+description: "Water bread, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/5419309/pexels-photo-5419309.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - ½ cup lukewarm water
 - 1 tsp sugar
@@ -23,6 +24,8 @@ notes: ""
 - 1 tbsp dry yeast or 1 envelope
 - 7 – 8 cups all-purpose flour     (6 measured out to start with, then technique determines the rest - see below)
 - ¼ cup shortening or margarine
+
+## Instructions
 
 Pour 2 cups boiling water on salt, 2 tbsp sugar and shortening in bowl.  When shortening has melted, add 1 cup cold water.  Prepare yeast (see NOTE below).
 

@@ -4,16 +4,17 @@ date: 2026-03-05T06:57:33-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["diabetic recipes", "dip"]
-description: ""
+description: "Dilled garden dip"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6632286/pexels-photo-6632286.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5191819/pexels-photo-5191819.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 (16 oz) carton 1% low-fat cottage cheese
 - ½ tsp dried dillweed
@@ -23,6 +24,8 @@ notes: ""
 - Dash of coarsely ground pepper
 - 1 Tbsp dried parsley flakes
 - Fresh parsley sprigs (optional)
+
+## Instructions
 
 Place cottage cheese and vinegar in container of an electric blender or food processor; cover and process until smooth. Combine cottage cheese mixture, green onions, and next 4 ingredients in a medium bowl; stir well. Transfer cheese mixture to a small serving bowl; cover and chill. If desired, garnish with parsley sprigs and serve with Shrimp Dippers.
 

@@ -4,16 +4,17 @@ date: 2026-03-05T06:57:25-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["diabetic recipes", "soup"]
-description: ""
+description: "Bubbly, broccoli-cauliflower soup"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5644943/pexels-photo-5644943.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/6646157/pexels-photo-6646157.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1-1/2 cups water
 - ¼ tsp ground mace
@@ -25,6 +26,8 @@ notes: ""
 - ½ tsp salt
 - 2 tsp chicken-flavored bouillon granules
 - 1/8 tsp pepper
+
+## Instructions
 
 Combine first 5 ingredients in a Dutch oven; cover and bring to a boil. Cook 5 minutes or until (do not drain); stir in mace. Transfer in batches to container of an electric blender; cover and process until smooth. Return to Dutch oven. Dissolve cornstarch in ½ cup milk; stir into vegetable mixture. Add remaining 2-1/2 cups milk, salt and pepper; cook over medium heat until thickened and bubbly, stirring frequently. Yield: 15 (1/2 cup) servings.
 

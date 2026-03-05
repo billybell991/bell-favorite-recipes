@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:19-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: []
-description: ""
+description: "Montreal bagels"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,7 +14,6 @@ servings: ""
 image: "https://images.pexels.com/photos/2067626/pexels-photo-2067626.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 ## Montreal Style Bagels
 
 Dough
@@ -52,6 +51,8 @@ Boiling Liquid
 Billy's Notes:These were actually pretty easy, even though there are a few steps.  The one thing worth noting is that I only had them in for around 15 mins, but my oven seems to run hot.  Keep an eye on them!!
 
 Since we have a sesame allergy in the house and I didn't have any poppy seeds, I figured I'd ad lib toppings a bit.  Here's some stuff I tried:
+
+## Ingredients
 
 - Spicy Bagels - Found a really good cajun seasoning recipe that worked great for these.  Here's aLINKto it, but here is the actual mix:1 ½ teaspoons onion powder1 ½ teaspoons garlic powder1 tablespoonseasoning salt1 tablespoon paprika1 teaspoon ground black pepper1 teaspoon cayenne pepperadd more if you like more heat1 teaspoon oregano1 teaspoon thyme1/2 teaspoon red pepper flakes
 - Onion Bagels - Dry onion flakes and garlic salt.  These turned out really good.

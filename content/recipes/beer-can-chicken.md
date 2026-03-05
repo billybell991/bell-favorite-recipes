@@ -4,17 +4,16 @@ date: 2026-03-05T06:54:45-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: ["chicken"]
-description: ""
+description: "Beer-can chicken"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/34138804/pexels-photo-34138804.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/12714994/pexels-photo-12714994.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 - 1 can (12 oz.) beer
 - 1 chicken (3 1/2 to 4 lbs)
 - 2 tbsp or your favourite chicken rub (or Basic Barbecue Rub)
@@ -32,6 +31,8 @@ Stand the chicken up in the centre of the hot grate, over the drip pan and away 
 Using tongs, carefully transfer the chicken in its upright position on the beer can to a platter and present it to your guests.  Let rest 5 minutes, then carefully remove the chicken from the beer can.  Take care not to spill the hot beer or otherwise burn yourself.
 
 NOTES:
+
+## Ingredients
 
 - That last tip is a beauty.  The chicken is so tender that it's actually hard not to make a mess of it.  Pros and cons, right?  Just be careful.
 - Easily my favourite chicken recipe. 5 out of 5.

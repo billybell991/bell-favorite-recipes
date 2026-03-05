@@ -4,7 +4,7 @@ date: 2026-03-05T06:55:32-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["breads"]
-description: ""
+description: "Parker house buns, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/5419308/pexels-photo-5419308.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 4 cups lukewarm water
 - 4 tsp sugar
@@ -22,6 +23,8 @@ notes: ""
 - ½ cup melted shortening
 - ½ cup plus 3 tsp sugar
 - 9 cups (more or less) flour
+
+## Instructions
 
 Add water and sugar together then sprinkle yeast over top.  Let rise.
 

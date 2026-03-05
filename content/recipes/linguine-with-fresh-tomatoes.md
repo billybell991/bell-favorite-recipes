@@ -4,7 +4,7 @@ date: 2026-03-05T06:57:40-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["diabetic recipes"]
-description: ""
+description: "Linguine with fresh tomatoes"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/4079522/pexels-photo-4079522.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 8 oz uncooked linguine
 - 2 medium tomatoes, chopped
@@ -24,6 +25,8 @@ notes: ""
 - 1 tsp salt (reduce this, if necessary)
 - ½ tsp pepper
 - 3 Tbsp non-hydrogenated margarine
+
+## Instructions
 
 Cook pasta according to package directions, Meanwhile, in a large serving bowl, combine the tomatoes, onions, Parmesan cheese, basil, garlic, salt and pepper. Drain pasta and toss with margarine. Add to tomato mixture, toss to coat.
 

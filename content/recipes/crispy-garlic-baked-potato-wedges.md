@@ -4,14 +4,14 @@ date: 2026-03-05T06:54:10-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["potatoes"]
-description: ""
+description: "Crispy, crispy garlic baked potato wedges"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/253580/pexels-photo-253580.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/8250190/pexels-photo-8250190.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

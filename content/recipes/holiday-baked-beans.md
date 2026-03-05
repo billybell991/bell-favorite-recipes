@@ -4,14 +4,14 @@ date: 2026-03-05T06:53:07-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: []
-description: ""
+description: "Holiday baked beans, pressure-cooked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/30635687/pexels-photo-30635687.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/209415/pexels-photo-209415.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

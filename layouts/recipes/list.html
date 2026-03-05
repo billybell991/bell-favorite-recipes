@@ -27,34 +27,32 @@
       {{ $catClass := "" }}
       {{ with .Params.categories }}{{ $catClass = partial "cat-class.html" (index . 0) }}{{ end }}
       <article class="recipe-card {{ $catClass }}" data-title="{{ .Title }}" data-date="{{ .Date.Format "2006-01-02" }}">
-        {{ with .Params.image }}
-        <div class="card-image">
-          <a href="{{ $.RelPermalink }}">
+        <a href="{{ .RelPermalink }}" class="card-link">
+          {{ with .Params.image }}
+          <div class="card-image">
             <img src="{{ if hasPrefix . "http" }}{{ . }}{{ else }}{{ . | absURL }}{{ end }}" alt="{{ $.Title }}" loading="lazy">
-          </a>
-        </div>
-        {{ else }}
-        <div class="card-image card-image-placeholder">
-          <a href="{{ $.RelPermalink }}">
-            <span class="placeholder-icon">🍴</span>
-          </a>
-        </div>
-        {{ end }}
-        <div class="card-content">
-          {{ with .Params.categories }}
-          {{ $cc := partial "cat-class.html" (index . 0) }}
-          <span class="card-category {{ $cc }}">{{ index . 0 }}</span>
-          {{ end }}
-          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-          {{ with .Params.description }}
-          <p>{{ . | truncate 80 }}</p>
-          {{ end }}
-          <div class="card-meta">
-            {{ with .Params.source }}
-            <span class="meta-source">{{ . }}</span>
-            {{ end }}
           </div>
-        </div>
+          {{ else }}
+          <div class="card-image card-image-placeholder">
+            <span class="placeholder-icon">🍴</span>
+          </div>
+          {{ end }}
+          <div class="card-content">
+            {{ with .Params.categories }}
+            {{ $cc := partial "cat-class.html" (index . 0) }}
+            <span class="card-category {{ $cc }}">{{ index . 0 }}</span>
+            {{ end }}
+            <h3>{{ .Title }}</h3>
+            {{ with .Params.description }}
+            <p>{{ . | truncate 80 }}</p>
+            {{ end }}
+            <div class="card-meta">
+              {{ with .Params.source }}
+              <span class="meta-source">{{ . }}</span>
+              {{ end }}
+            </div>
+          </div>
+        </a>
       </article>
       {{ end }}
     </div>

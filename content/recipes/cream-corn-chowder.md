@@ -4,17 +4,16 @@ date: 2026-03-05T06:54:48-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: []
-description: ""
+description: "Cream corn chowder"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/17902588/pexels-photo-17902588.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 - 3 bacon slices, diced
 - 1/4 cup finely chopped onion
 - 1/4 cup finely chopped carrot
@@ -37,6 +36,8 @@ Sprinkle flour over onion mixture.  Stir.  Add milk mixture and bacon.  Add next
 Sprinkly chives over individual servings.  Makes 6 cups (1.5 L)
 
 NOTES:
+
+## Ingredients
 
 - This is one of my favorite recipes.  Easily a 5 out of 5!
 

@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:47-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["soup"]
-description: ""
+description: "Broccoli cheese soup"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,7 +14,6 @@ servings: ""
 image: "https://images.pexels.com/photos/5639476/pexels-photo-5639476.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 - 4 cups broccoli (cut into florets)
 - 3 cups chicken broth (or veggie broth)
 - 3 cups shredded cheddar cheese (a little extra for topping if you wish)
@@ -33,6 +32,8 @@ Remove from the heat once all of the cheese melts and enjoy immediately.
 Store any leftovers in the fridge for up to 5 days, or freeze for a later date.
 
 Billy's Notes:
+
+## Ingredients
 
 - I found this watery, so I took 1/2 cup of broth off the recipe for next time
 - I also added the 1/2 pack of cream cheese to cream it up (and thicken it up a bit)

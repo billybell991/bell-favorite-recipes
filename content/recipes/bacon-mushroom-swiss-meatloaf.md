@@ -4,20 +4,21 @@ date: 2026-03-05T07:00:08-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["meat"]
-description: ""
+description: "Crispy and tender, bacon mushroom swiss meatloaf, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/332784/pexels-photo-332784.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/6223183/pexels-photo-6223183.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Darcy Lloyd
 
 Cousin of the Bride
+
+## Ingredients
 
 - 12 ozs of bacon, diced
 - 4 medium white mushrooms, chopped
@@ -27,6 +28,8 @@ Cousin of the Bride
 - ¼ cup evaporated milk or half and half
 - 6 ozs shredded swiss cheese
 - ½ cup corn flake crumbs
+
+## Instructions
 
 In a large skillet, cook bacon until crisp but not burnt. Remove with a slotted spoon and place on a paper towel to drain and cool. Remove all but a tablespoon of the bacon fat from the skillet and sauté the mushrooms and onions until tender. Allow to cool slightly.
 

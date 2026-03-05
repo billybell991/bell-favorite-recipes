@@ -4,23 +4,37 @@ date: 2026-03-05T07:00:12-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["meat", "chicken"]
-description: ""
+description: "Chicken à la king"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/34138804/pexels-photo-34138804.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/2498892/pexels-photo-2498892.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 
-Submitted by Rachelle and Tom Pigeau
+Submitted by Rachelle and Tom Pigeau — Cousins of the Bride
 
-Cousins of the Bride
+## Ingredients
 
-Layer 2 cups of chopped, cooked chicken breast and frozen vegetables (vegetables are optional) in a medium baking dish. Mix 1 can of cream of chicken soup with ½ a can of milk (or water) and pour over top of chicken and vegetables. Shred ½ cup mozzarella cheese and spread over top of dish.
+- 2 cups chopped, cooked chicken breast
+- Frozen vegetables (optional)
+- 1 can cream of chicken soup
+- 1/2 can milk (or water)
+- 1/2 cup mozzarella cheese, shredded
+- 1 pouch Stove Top stuffing mix
+- 1 cup water
 
-Mix one pouch of STOVE TOP stuffing mix with 1 cup of water and spoon evenly over chicken and vegetables.
+## Instructions
 
-Bake at 375 degrees for approximately 30-35 minutes or until dressing is slightly browned.
+Layer chicken and frozen vegetables in a medium baking dish.
+
+Mix cream of chicken soup with 1/2 can of milk (or water) and pour over top of chicken and vegetables.
+
+Spread shredded mozzarella over the dish.
+
+Mix stuffing mix with 1 cup water and spoon evenly over chicken and vegetables.
+
+Bake at 375°F for 30–35 minutes or until dressing is slightly browned.

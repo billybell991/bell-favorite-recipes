@@ -4,14 +4,14 @@ date: 2026-03-05T06:53:59-05:00
 draft: false
 categories: ["Maya's Recipes"]
 tags: []
-description: ""
+description: "Bubbly, christmas crack, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/2377471/pexels-photo-2377471.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/216692/pexels-photo-216692.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

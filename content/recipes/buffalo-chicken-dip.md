@@ -4,14 +4,14 @@ date: 2026-03-05T06:54:46-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: ["chicken", "dip"]
-description: ""
+description: "Buffalo chicken dip, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8862753/pexels-photo-8862753.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/7734563/pexels-photo-7734563.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

@@ -4,16 +4,17 @@ date: 2026-03-05T06:57:34-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["diabetic recipes", "chicken", "dip"]
-description: ""
+description: "Dip'n chicken, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/145804/pexels-photo-145804.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/8250430/pexels-photo-8250430.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 250 gr tub spreadable cream cheese
 - ½ to ¾ cup sour cream
@@ -21,6 +22,8 @@ notes: ""
 - 1-1/2 cups grated Cheddar cheese
 - 1 cup cubed cooked chicken (use left-over chicken or grill up a chicken breast)
 - 1 bag bite-size Nacho chips
+
+## Instructions
 
 Preheat oven of 350 degrees. Blend cream cheese with sour cream until mixture is spreadable. Spread mixture into a 6-cup oven-safe serving dish.
 

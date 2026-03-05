@@ -4,7 +4,7 @@ date: 2026-03-05T06:55:31-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["breads", "bread"]
-description: ""
+description: "Old-fashioned bread dressing"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,8 +14,9 @@ servings: ""
 image: "https://images.pexels.com/photos/32125954/pexels-photo-32125954.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 ## Old-Fashioned Bread Dressing (Stuffing)
+
+## Ingredients
 
 - ½ cup chopped onion
 - ½ cup butter or margarine

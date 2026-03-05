@@ -4,7 +4,7 @@ date: 2026-03-05T06:52:49-05:00
 draft: false
 categories: ["Friends Recipes"]
 tags: ["rice"]
-description: ""
+description: "Jollof rice, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""

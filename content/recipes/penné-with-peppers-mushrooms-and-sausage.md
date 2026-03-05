@@ -4,7 +4,7 @@ date: 2026-03-05T07:01:03-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["pasta"]
-description: ""
+description: "Golden brown, penné with peppers, mushrooms, and sausage, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,10 +14,11 @@ servings: ""
 image: "https://images.pexels.com/photos/30635676/pexels-photo-30635676.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Marleen and Bill Tregenza
 
 Godparents of the Groom
+
+## Ingredients
 
 - 6 red bell peppers
 - 14 ozs fresh mushrooms
@@ -29,6 +30,8 @@ Godparents of the Groom
 - ½ cup fresh parsley
 - grated parmesan cheese
 - salt and pepper
+
+## Instructions
 
 Heat oven to 400 degrees. Cut peppers into ½ inch diagonal pieces. Place in a 9x13 inch baking dish. Drizzle with 1 tbsp of olive oil, salt and pepper to taste. Bake until charred (45 minutes), stir occasionally. Remove.
 

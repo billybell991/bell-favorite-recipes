@@ -4,7 +4,7 @@ date: 2026-03-05T06:52:42-05:00
 draft: false
 categories: ["Family Recipes"]
 tags: ["cake"]
-description: ""
+description: "Lemon coffee cake - pep's grandma, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""

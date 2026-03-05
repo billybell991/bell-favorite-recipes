@@ -4,22 +4,25 @@ date: 2026-03-05T06:53:35-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["keto"]
-description: ""
+description: "Dairy-free  latte"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/90894/pexels-photo-90894.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/20285568/pexels-photo-20285568.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 2 eggs
 - 2 tbsp coconut oil
 - 1½ cups boiling water
 - 1 pinch vanilla extract
 - 1 tsppumpkin pie spiceor ground ginger
+
+## Instructions
 
 Blend all ingredients in a blender. Drink immediately.
 

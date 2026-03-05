@@ -4,7 +4,7 @@ date: 2026-03-05T07:00:51-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["pastrypies", "pie"]
-description: ""
+description: "Meat pies, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,7 +14,6 @@ servings: ""
 image: "https://images.pexels.com/photos/4198421/pexels-photo-4198421.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Del Gosson
 
 Aunt of the Bride
@@ -31,7 +30,11 @@ Filling:
 
 Pie Crust:
 
+## Ingredients
+
 - 1 lb of shortening
+
+## Instructions
 
 Follow pastry recipe on shortening box. Add 2 extra cups of flour and enough water to hold the pastry together.
 

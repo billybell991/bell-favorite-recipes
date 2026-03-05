@@ -4,16 +4,17 @@ date: 2026-03-05T06:58:36-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["meat", "beef"]
-description: ""
+description: "Tender, campbell's shortcut beef stroganoff, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/30635676/pexels-photo-30635676.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/28503619/pexels-photo-28503619.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 Tbsp vegetable oil
 - 1 lb boneless beef sirloin or inside roundsteak, cut in strips
@@ -24,6 +25,8 @@ notes: ""
 - ¾ sup sour cream
 - 1/8 tsp ground black pepper
 - 4 cups hot cooked egg noodles
+
+## Instructions
 
 Heat oil at medium-high in large skillet. Add beef and cook until browned and cooked through. Add onions and stir fry until tender. Reduce heat to medium
 

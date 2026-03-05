@@ -4,14 +4,14 @@ date: 2026-03-05T06:52:42-05:00
 draft: false
 categories: ["Family Recipes"]
 tags: []
-description: ""
+description: "French toast bake"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6864212/pexels-photo-6864212.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/763138/pexels-photo-763138.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

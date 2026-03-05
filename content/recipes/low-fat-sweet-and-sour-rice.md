@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:35-05:00
 draft: false
 categories: ["Weight Watchers"]
 tags: ["rice"]
-description: ""
+description: "Low fat sweet and sour rice, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""

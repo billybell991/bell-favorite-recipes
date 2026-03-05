@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:18-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["dip"]
-description: ""
+description: "Spinach dip, sautéed to perfection"
 source: ""
 creditUrl: ""
 credit: ""

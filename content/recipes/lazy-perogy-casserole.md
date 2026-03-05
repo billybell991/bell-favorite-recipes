@@ -4,7 +4,7 @@ date: 2026-03-05T06:56:34-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["casseroles"]
-description: ""
+description: "Lazy perogy casserole, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/7625714/pexels-photo-7625714.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 15 lasagna noodles
 - 250 ml grated medium cheddar cheese
@@ -25,6 +26,8 @@ notes: ""
 - 1/8 tsp pepper
 - 1 cup butter or margarine
 - 1 cup chopped onions
+
+## Instructions
 
 *Add ½ - 1 lb crumbled cooked bacon to potato-cheese mixture
 

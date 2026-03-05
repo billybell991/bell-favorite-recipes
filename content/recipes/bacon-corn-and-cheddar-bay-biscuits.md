@@ -4,16 +4,17 @@ date: 2026-03-05T06:55:19-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["breads"]
-description: ""
+description: "Bacon corn and cheddar bay biscuits, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4114116/pexels-photo-4114116.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/139746/pexels-photo-139746.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 cup flour
 - 7/8 cup milk
@@ -25,6 +26,8 @@ notes: ""
 - 1 cup corn meal
 - 6 bacon slices
 - 1 egg
+
+## Instructions
 
 Preheat oven to 400 degrees. Line an 8x8x2-inch pan with bacon slices.
 

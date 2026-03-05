@@ -4,14 +4,14 @@ date: 2026-03-05T06:52:47-05:00
 draft: false
 categories: ["Friends Recipes"]
 tags: []
-description: ""
+description: "Cabbage rolls, roasted to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/19145679/pexels-photo-19145679.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/14935376/pexels-photo-14935376.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

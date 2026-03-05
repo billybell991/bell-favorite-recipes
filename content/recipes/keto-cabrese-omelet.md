@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:40-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["keto"]
-description: ""
+description: "Cabrese omelet, fried to perfection"
 source: ""
 creditUrl: ""
 credit: ""

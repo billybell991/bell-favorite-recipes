@@ -4,22 +4,25 @@ date: 2026-03-05T06:54:11-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["chicken"]
-description: ""
+description: "Crispy and golden brown, crispy chicken wings, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/20329551/pexels-photo-20329551.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - Dozen chicken wings
 - 1 tbsp baking powder
 - ½ tsp salt
 - 2 tsps garlic powder
 - Pinch of pepper
+
+## Instructions
 
 Adjust oven rack to upper-middle position and preheat oven to 450°F (230°C). Line a rimmed baking sheet with aluminium foil and set a heat-proof wire rack inside.
 

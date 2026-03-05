@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:18-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["cookies"]
-description: ""
+description: "Maya's cookie brownie recipe, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,8 +14,9 @@ servings: ""
 image: "https://images.pexels.com/photos/2067396/pexels-photo-2067396.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 ## Maya's Cookie Brownie Recipe (Blondies)
+
+## Ingredients
 
 - ½ cup unsalted butter
 - 2 teaspoons vanilla
@@ -25,6 +26,8 @@ notes: ""
 - 1 large egg
 - 1 cup all-purpose flour
 - ½ cup of chocolate chips
+
+## Instructions
 
 Instructions:
 

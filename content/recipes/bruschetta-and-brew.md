@@ -4,20 +4,21 @@ date: 2026-03-05T06:58:54-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["breads"]
-description: ""
+description: "Toasted, bruschetta and brew, broiled to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/830894/pexels-photo-830894.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/8743947/pexels-photo-8743947.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Tiffany Breton and Matt Rainville
 
 Friends of the Groom
+
+## Ingredients
 
 - ¼ cup white wine vinegar
 - 2 tbsp olive oil
@@ -31,6 +32,8 @@ Friends of the Groom
 - 1 cucumber, chopped
 - 1 french baguette (or bread)
 - feta cheese for topping
+
+## Instructions
 
 In a bowl, combine all ingredients (except cheese), stir, set aside.
 

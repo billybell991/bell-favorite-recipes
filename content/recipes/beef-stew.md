@@ -4,14 +4,14 @@ date: 2026-03-05T06:52:58-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["beef", "stew"]
-description: ""
+description: "Tender, beef stew"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/29145751/pexels-photo-29145751.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5863607/pexels-photo-5863607.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

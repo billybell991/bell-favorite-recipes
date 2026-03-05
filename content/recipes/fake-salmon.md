@@ -4,16 +4,17 @@ date: 2026-03-05T06:58:00-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["fish", "salmon"]
-description: ""
+description: "Fake salmon, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/31909815/pexels-photo-31909815.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/20457108/pexels-photo-20457108.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 7 lbs chopped pike
 - 1 cup vegetable oil
@@ -22,6 +23,8 @@ notes: ""
 - 1-1/2 tbsp salt
 - 1 tbsp pepper garlic powder – optional
 - Parsley – optional
+
+## Instructions
 
 Mix last seven ingredients together. Pour over chopped fish and leave in refrigerator overnight.
 

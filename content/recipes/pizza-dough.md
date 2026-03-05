@@ -4,7 +4,7 @@ date: 2026-03-05T07:00:55-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["pastrypies"]
-description: ""
+description: "Pizza dough, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,7 +14,6 @@ servings: ""
 image: "https://images.pexels.com/photos/30478775/pexels-photo-30478775.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Paulette and Mike Shank
 
 Cousins of the Bride
@@ -26,10 +25,14 @@ In a large bowl, combine:
 
 Let sit for 10-15 minutes. Mix well, then add:
 
+## Ingredients
+
 - 1 tbsp oil
 - 2 tbsp brown sugar
 - 3 cups flour (+1 cup if needed)
 - 1 tsp salt
+
+## Instructions
 
 Mix well and knead to form a ball. Cover and let rise in oven (heat off) for 1 hour.
 

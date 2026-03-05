@@ -4,16 +4,17 @@ date: 2026-03-05T06:55:25-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["breads"]
-description: ""
+description: "Doughnuts"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/2764271/pexels-photo-2764271.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/908177/pexels-photo-908177.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 cup sugar
 - 3 eggs
@@ -24,6 +25,8 @@ notes: ""
 - ½ tsp nutmeg
 - 1 tsp vanilla
 - 1 cup milk
+
+## Instructions
 
 Into beater bowl measure the sugar, eggs and butter and beat until blended and smooth. Stir and measure the flour, add the baking powder, salt and nutmeg to it and sift again Add to first mixture along with the vanilla and milk and beat until smooth. Scrape down sides of bowl. Cover snugly and refrigerate four hours or overnight. Cut dough into quarters, scoop out ¼ with rubber scraper and out on generously floured board to ¼” thickness. (Keep remainder of dough in refrigerator.
 

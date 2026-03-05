@@ -4,7 +4,7 @@ date: 2026-03-05T06:55:55-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["cake frosting"]
-description: ""
+description: "Creamy, simple caramel frosting"
 source: ""
 creditUrl: ""
 credit: ""

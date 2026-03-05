@@ -4,18 +4,19 @@ date: 2026-03-05T06:54:42-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: []
-description: ""
+description: "Basic waffles"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5710793/pexels-photo-5710793.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/7786846/pexels-photo-7786846.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 From the cookbook that came with our waffle iron.
+
+## Ingredients
 
 - 2 cups all-purpose flour
 - 2 tablespoons granulated sugar
@@ -25,6 +26,8 @@ From the cookbook that came with our waffle iron.
 - 1 1/3 cups reduced-fat milk
 - 6 tablespoons of vegetable oil
 - 2 large eggs
+
+## Instructions
 
 Place ingredients in large mixing bowl and combine until well blended and smooth.  Let batter rest 5 minutes before using.  Preheat your Waffle Iron on setting #3 (pretty specific to mine, so use your own judgement).
 

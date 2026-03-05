@@ -4,16 +4,17 @@ date: 2026-03-05T06:56:56-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["cookies", "cookies"]
-description: ""
+description: "Chocolate chip cookies, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/14133100/pexels-photo-14133100.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5847092/pexels-photo-5847092.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 2 eggs
 - ¼ cup white sugar
@@ -25,6 +26,8 @@ notes: ""
 - 1 tsp baking soda
 - 2-1/4 cups flour
 - Walnuts (optional)
+
+## Instructions
 
 Mix egg, butter, sugars, vanilla.
 

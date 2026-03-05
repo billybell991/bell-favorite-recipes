@@ -4,16 +4,17 @@ date: 2026-03-05T06:58:46-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["meat"]
-description: ""
+description: "Tender, fast cabbage roll skillet"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/19145679/pexels-photo-19145679.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/19585045/pexels-photo-19585045.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 lb medium ground beef or pork
 - 2 cloves garlic, crushed
@@ -26,6 +27,8 @@ notes: ""
 - ¼ tsp each salt and pepper
 - ½ head cabbage
 - sour cream
+
+## Instructions
 
 In large, wide saucepan over medium heat, cook meat and garlic, stirring often with fork to keep meat crumbly.  Add 1 or 2 tsp of vegetable oil if meat sticks.
 

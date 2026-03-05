@@ -4,19 +4,22 @@ date: 2026-03-05T06:56:06-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["cakes and muffins", "cake"]
-description: ""
+description: "Double strawberry sheet cake, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4040768/pexels-photo-4040768.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/11842152/pexels-photo-11842152.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 pkg strawberry cake mix
 - 1 pkg strawberry Jello (4 servings)
+
+## Instructions
 
 Dissolve Jello in ¾ cup boiling water.  Add ½ cup cold water; set aside.  Mix and bake cake as directed in a 9”x 13” pan.  Cool 20 – 25 minutes.  Poke deep holes about 1”apart in cake (still in pan) with a meat fork or large nail.
 

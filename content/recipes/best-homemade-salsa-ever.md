@@ -4,14 +4,14 @@ date: 2026-03-05T06:54:03-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: []
-description: ""
+description: "Best homemade salsa ever!"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7111387/pexels-photo-7111387.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/8763180/pexels-photo-8763180.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

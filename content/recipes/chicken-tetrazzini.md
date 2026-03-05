@@ -4,20 +4,21 @@ date: 2026-03-05T07:01:01-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["pasta", "chicken"]
-description: ""
+description: "Golden brown, chicken tetrazzini, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4079522/pexels-photo-4079522.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Christine Shank
 
 Cousin of the Bride
+
+## Ingredients
 
 - 1 boiling fowl (5 ½ - 6 lbs)
 - a few stalks of celery, chopped
@@ -30,6 +31,8 @@ Cousin of the Bride
 - 1 lb mushrooms
 - ½ cup parmesan cheese
 - salt and pepper to taste
+
+## Instructions
 
 Boil fowl. Take meat from bones and put stalks of celery, onions and salt and pepper to taste into chicken stock. Simmer.
 

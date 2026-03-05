@@ -4,7 +4,7 @@ date: 2026-03-05T07:00:28-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["meat", "pork"]
-description: ""
+description: "Crispy and tender, pork with broccoli stir fry, steamed to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,10 +14,11 @@ servings: ""
 image: "https://images.pexels.com/photos/5644943/pexels-photo-5644943.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Tina Sasyniuk and Kevin Long
 
 Friends of the Bride and Groom
+
+## Ingredients
 
 - ¾ lb lean, boneless pork
 - 1 tbsp cornstarch
@@ -29,6 +30,8 @@ Friends of the Bride and Groom
 - 2 tbsp minced gingerroot
 - ¼ cup water
 - 2 tbsp hoisin sauce (optional) 25ml
+
+## Instructions
 
 Slice pork thinly across the grain.
 

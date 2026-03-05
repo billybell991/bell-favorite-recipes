@@ -4,17 +4,16 @@ date: 2026-03-05T06:52:59-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["cake"]
-description: ""
+description: "Carrot cake oatmeal"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4725733/pexels-photo-4725733.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/4081539/pexels-photo-4081539.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 ### INGREDIENTS:
 
 - 1 tablespoon butter
@@ -42,8 +41,12 @@ Top with additional raisins, maple syrup, chopped nuts, and milk.
 
 Notes:
 
+## Ingredients
+
 - Seemed a little bit bland, but I guess all oatmeal kind of is.  Definitely tasted like carrot cake.  I wound up throwing a tsp of brown sugar in my bowl of it and a little shot of milk.  That made it better.
 - Rating - 3 out of 5
+
+## Instructions
 
 Here's the actual website for this recipe.  Credit to Taste of Home!
 

@@ -14,7 +14,6 @@ servings: ""
 image: "https://images.pexels.com/photos/1020585/pexels-photo-1020585.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 BAKER’S  CLAY  INSTRUCTIONS – Brown Bag Cookie Art
 
 You can make really nice ornaments out of Baker’s Clay. They are colorful, durable, easy, and fun to make. This is another project that is ideal to do with children.
@@ -28,7 +27,12 @@ You can make really nice ornaments out of Baker’s Clay. They are colorful, dur
 - acrylic or tempera paints
 - brushes*
 - spray gloss polyurethane or shellac
+
+## Ingredients
+
 - narrow ribbons
+
+## Instructions
 
 Mix the flour and alt together in a large bowl. Add the water and stir until the flour has been incorporated. Turn the dough out onto a smooth counter top and knead vigorously for about 5 minutes. If you don’t plan to use your Baker’s Clay right away, seal it in an airtight plastic bag so that the surface doesn’t dry and form a crust.
 

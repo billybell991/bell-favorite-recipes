@@ -4,7 +4,7 @@ date: 2026-03-05T07:01:23-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["salads", "salad", "rice"]
-description: ""
+description: "Rice greek salad"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,7 +14,6 @@ servings: ""
 image: "https://images.pexels.com/photos/7660428/pexels-photo-7660428.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Lynn Sayer
 
 Cousin of the Bride
@@ -29,6 +28,8 @@ Cousin of the Bride
 
 Dressing:
 
+## Ingredients
+
 - 1/3 cup olive oil
 - 1/4  cup red wine vinegar
 - 1 garlic, minced (about 1 tsp)
@@ -36,6 +37,8 @@ Dressing:
 - 1 tbsp lemon juice
 - 1/2 tsp salt
 - 1/2 tsp pepper
+
+## Instructions
 
 In a large bowl, combine cooked rice with all diced vegetables, diced cheese and olives.
 

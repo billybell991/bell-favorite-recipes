@@ -4,7 +4,7 @@ date: 2026-03-05T06:52:51-05:00
 draft: false
 categories: ["Friends Recipes"]
 tags: ["salad", "pasta"]
-description: ""
+description: "Pasta salad"
 source: ""
 creditUrl: ""
 credit: ""

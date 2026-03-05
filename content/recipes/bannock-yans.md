@@ -4,14 +4,14 @@ date: 2026-03-05T06:52:46-05:00
 draft: false
 categories: ["Friends Recipes"]
 tags: []
-description: ""
+description: "Golden brown, bannock, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5419309/pexels-photo-5419309.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/937495/pexels-photo-937495.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

@@ -4,7 +4,7 @@ date: 2026-03-05T06:56:48-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["chicken", "chicken"]
-description: ""
+description: "Oven barbecued chicken, broiled to perfection"
 source: ""
 creditUrl: ""
 credit: ""

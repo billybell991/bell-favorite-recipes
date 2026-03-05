@@ -4,19 +4,28 @@ date: 2026-03-05T06:55:08-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["appetizers", "dip"]
-description: ""
+description: "Hidden valley bacon & cheddar dip"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/36051529/pexels-photo-36051529.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/12261092/pexels-photo-12261092.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 
-1.      Mix 1-oz packet of Original Ranch Party Dip with 1 pint sour cream.
+## Ingredients
 
-2.      Add ¼ cup bacon bits & 1 cup shredded cheddar cheese.
+- 1 (1-oz) packet Original Ranch Party Dip
+- 1 pint sour cream
+- 1/4 cup bacon bits
+- 1 cup shredded cheddar cheese
 
-3.      Mix and serve.
+## Instructions
+
+Mix Ranch Party Dip with sour cream.
+
+Add bacon bits and shredded cheddar cheese.
+
+Mix and serve.

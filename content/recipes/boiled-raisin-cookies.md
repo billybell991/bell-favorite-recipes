@@ -4,17 +4,16 @@ date: 2026-03-05T06:59:43-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cookies", "cookies"]
-description: ""
+description: "Boiled raisin cookies, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1325467/pexels-photo-1325467.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/89690/pexels-photo-89690.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Jenny Navid
 
 Aunt of the Bride
@@ -23,6 +22,8 @@ Aunt of the Bride
 - 1 cup water
 
 Boil together for 5 minutes.
+
+## Ingredients
 
 - 4 cups flour
 - 1 tsp baking soda
@@ -35,6 +36,8 @@ Boil together for 5 minutes.
 - 1 tsp allspice
 - ½ cup chopped nuts
 - 2 tsp cinnamon
+
+## Instructions
 
 Mix dry ingredients. Add beaten eggs with the raisins and water. Drop by the tablespoon onto a cookie sheet.
 

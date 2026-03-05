@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:38-05:00
 draft: false
 categories: ["Weight Watchers"]
 tags: ["soup"]
-description: ""
+description: "Spicy black bean soup, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""

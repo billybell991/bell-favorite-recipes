@@ -4,17 +4,16 @@ date: 2026-03-05T06:59:09-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares"]
-description: ""
+description: "Cherry chews"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6163333/pexels-photo-6163333.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/13701783/pexels-photo-13701783.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Anne Mary and Jean-Paul Racine
 
 Aunt and Uncle of the Bride
@@ -45,9 +44,13 @@ Beat eggs. Stir in brown sugar, almond flavoring, flour, baking powder, salt, co
 
 Cherry Almond Icing:
 
+## Ingredients
+
 - 3 tbsp soft butter (or more)
 - 2 cups sifted icing sugar
 - 2 tbsp maraschino cherry juice
 - ¼  tsp almond extract
+
+## Instructions
 
 Blend butter and sugar. Add cherry juice and almond extract, using enough juice to make icing  easy to spread. Stir until smooth.

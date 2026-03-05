@@ -4,7 +4,7 @@ date: 2026-03-05T06:57:46-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["diabetic recipes"]
-description: ""
+description: "Tender, sweet pepper chowder, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 6 cups chicken broth
 - 6 medium potatoes, peeled & shredded
@@ -29,6 +30,8 @@ notes: ""
 - ¼ to ½ tsp pepper
 - 1 cup water
 - 4 cups 2% milk
+
+## Instructions
 
 In a Dutch oven or soup kettle, combine the broth, potatoes, carrots, celery and onion; bring to a boil. Reduce heat, cover and simmer for 20 minutes. Add the peppers; return to a boil. Reduce heat, cover and simmer for 10-15 minutes or until vegetables are tender. In a bowl, combine the flour, salt, Italian seasoning, Pepper and water until blended. Stir into the vegetable mixture. Bring to a boil, cook and stir for 2 minutes until thickened. Reduce heat.  Stir in milk, heat through (do not boil).
 

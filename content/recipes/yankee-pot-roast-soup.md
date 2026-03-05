@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:31-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["soup"]
-description: ""
+description: "Yankee pot roast soup, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""

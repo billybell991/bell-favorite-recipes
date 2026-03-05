@@ -4,7 +4,7 @@ date: 2026-03-05T06:56:15-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["cakes and muffins", "cake"]
-description: ""
+description: "Mix-in-the-pan carrot cake, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/7790871/pexels-photo-7790871.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 cup flour
 - ¾ cup sugar
@@ -26,6 +27,8 @@ notes: ""
 - 1/4 cup water
 - 1/2 tsp vanilla
 - icing sugar, optional
+
+## Instructions
 
 In 8”or 9”square pan with fork mix well flour, sugar, cinnamon, salt, baking soda, baking powder and nutmeg.  Add carrots, eggs, oil, water and vanilla.
 

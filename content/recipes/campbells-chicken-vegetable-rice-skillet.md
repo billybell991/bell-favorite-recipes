@@ -4,16 +4,17 @@ date: 2026-03-05T06:58:25-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["meat", "chicken", "rice"]
-description: ""
+description: "Campbell's chicken & vegetable rice skillet, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1703272/pexels-photo-1703272.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5305441/pexels-photo-5305441.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 Tbsp vegetable oil
 - 1 lb Boneless, skinless chicken breasthalves, cut in cubes
@@ -22,6 +23,8 @@ notes: ""
 - 1 pkg (6 oz/165 g) seasoned long-grainrice mix
 - 2 cups thinly sliced carrots
 - 2 green onions, sliced
+
+## Instructions
 
 Heat oil at medium-high heat in large skillet. Add chicken and cook until browned on all sides. Reduce heat to medium.
 

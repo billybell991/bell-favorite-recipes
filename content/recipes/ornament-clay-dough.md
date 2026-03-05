@@ -14,7 +14,6 @@ servings: ""
 image: "https://images.pexels.com/photos/1020585/pexels-photo-1020585.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 BAKEABLE “SALT CLAY”
 
 Stir together:
@@ -32,9 +31,13 @@ Use cookie cutters or mold salt clay by hand, then bake in a 300 degree oven for
 
 CLAY ORNAMENT DOUGH – good for ornaments
 
+## Ingredients
+
 - 4 cups flour
 - 1 cup salt
 - 1-1/2 cups water
 - 1 tsp powdered alum
+
+## Instructions
 
 It says to bake on 250 degrees for 30 minutes and flip for 1-1/2 hours.  The author left hers sitting in the classroom for a few hours and then baked them for 30 minutes and they were already hard.

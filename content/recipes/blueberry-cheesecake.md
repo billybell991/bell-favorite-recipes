@@ -4,17 +4,16 @@ date: 2026-03-05T06:59:03-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "cake"]
-description: ""
+description: "Blueberry cheesecake"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3323686/pexels-photo-3323686.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/7710242/pexels-photo-7710242.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Joanne and Greg Craig
 
 Cousins of the Bride
@@ -32,6 +31,8 @@ Topping:
 - ½ cup sugar
 
 Filling:
+
+## Ingredients
 
 - ¾ cup sugar
 - 1 tsp salt

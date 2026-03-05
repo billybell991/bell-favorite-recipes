@@ -4,16 +4,17 @@ date: 2026-03-05T06:57:24-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["diabetic recipes"]
-description: ""
+description: "Tender, barley casserole, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/18237488/pexels-photo-18237488.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/32657976/pexels-photo-32657976.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 2 celery ribs, chopped
 - 2 medium carrots, finely chopped
@@ -26,6 +27,8 @@ notes: ""
 - 4-1/2 cups chicken broth, divided
 - 2 Tbsp minced fresh parsley
 - ½ cup slivered almonds
+
+## Instructions
 
 In a large ovenproof Skillet, sauté the celery, carrots, onions and garlic in margarine until tender. Stir in the barley, salt and pa=epper. Stir in 2-1/2 cups broth. Cover and bake at 350 degrees for 30 minutes.
 

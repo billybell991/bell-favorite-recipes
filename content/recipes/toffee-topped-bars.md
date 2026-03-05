@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:32-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares"]
-description: ""
+description: "Toffee-topped bars, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,10 +14,11 @@ servings: ""
 image: "https://images.pexels.com/photos/2377471/pexels-photo-2377471.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Monique Racine-Theriault
 
 Cousin of the Bride
+
+## Ingredients
 
 - 2 cups firmly packed brown sugar
 - 2 cups flour
@@ -30,6 +31,8 @@ Cousin of the Bride
 - 1 cup semi-sweet chocolate chips
 - ½ cup walnuts
 - ¼ cup flaked unsweetened coconut
+
+## Instructions
 
 Mix the brown sugar and flour together. Using a pastry cutter or two knives, cut in the butter until mixture resembles coarse crumbs. Remove one cup of mixture and set aside.
 

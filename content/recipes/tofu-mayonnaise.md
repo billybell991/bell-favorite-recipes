@@ -4,7 +4,7 @@ date: 2026-03-05T06:57:50-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["diabetic recipes"]
-description: ""
+description: "Tofu mayonnaise"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,8 +14,9 @@ servings: ""
 image: "https://images.pexels.com/photos/724667/pexels-photo-724667.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Enjoy the richness of mayonnaise with only a fraction of the energy in our smooth mayonnaise-like dressing made with tofu (bean curd) as the base.
+
+## Ingredients
 
 - 1 cup drained, mashed tofu
 - 2 Tbsp vinegar
@@ -24,6 +25,8 @@ Enjoy the richness of mayonnaise with only a fraction of the energy in our smoot
 - 1 tsp dried parsley
 - ½ tsp garlic powder
 - ½ tsp salt
+
+## Instructions
 
 Combine tofu, vinegar, mustard, soy sauce, parsley, garlic powder and salt in container of blender or food processor. Process about 1 minute until smooth (or beat ingredients together until smooth). Place in screw-top jar. Store, covered, in the refrigerator up to 4 weeks.
 

@@ -4,14 +4,14 @@ date: 2026-03-05T06:52:37-05:00
 draft: false
 categories: ["Air Fryer Recipes"]
 tags: ["potatoes", "air fryer"]
-description: ""
+description: "Creamy cheddar-stuffed mashed potato balls rolled in panko breadcrumbs and air fried to a perfect golden crunch. Crispy on the outside, warm and cheesy on the inside — the ultimate comfort food appetizer."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/14734398/pexels-photo-14734398.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/31398314/pexels-photo-31398314.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

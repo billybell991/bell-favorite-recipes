@@ -4,20 +4,21 @@ date: 2026-03-05T06:58:53-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["breads", "bread"]
-description: ""
+description: "Banana bread, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4114120/pexels-photo-4114120.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5441033/pexels-photo-5441033.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Linda and Mike Gosson
 
 Parents of the Bride
+
+## Ingredients
 
 - 1 3/4 cups flour
 - 2 tsp baking powder
@@ -27,6 +28,8 @@ Parents of the Bride
 - 2/3 cup white sugar
 - 2 eggs, beaten
 - 1 cup mashed bananas
+
+## Instructions
 
 Blend flour, baking powder, baking soda and salt together. In another bowl, cream shortening and sugar together. Add beaten eggs and blend. Add dry ingredients alternately with bananas.
 

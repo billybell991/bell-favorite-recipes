@@ -4,22 +4,25 @@ date: 2026-03-05T06:53:04-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["chicken"]
-description: ""
+description: "Crispy, chicken wings, steamed to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8862753/pexels-photo-8862753.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/29908653/pexels-photo-29908653.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 ### Ingredients
+
+## Ingredients
 
 - 1 1/3 pound chicken wings about 12 wings
 - 4 tbs taco seasoning
 - 1 1/2 tsp smoked salt
+
+## Instructions
 
 ### Instructions
 

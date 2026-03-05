@@ -4,7 +4,7 @@ date: 2026-03-05T06:58:08-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["fish", "fish"]
-description: ""
+description: "Smoked whitefish"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/6608694/pexels-photo-6608694.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 6 cups water
 - 2/3 cup sugar
@@ -23,6 +24,8 @@ notes: ""
 - 2 cloves garlic, crushed
 - 1 tbsp pepper
 - 2 bay leaves, crushed
+
+## Instructions
 
 In 5-qt glass or plastic container, combine brine ingredients. Stir until sugar and salt are dissolved. Add fillets to brine. Cover and refrigerate 12 hours or overnight. Drain; discard brine from fillets. Rinse with water. Pat dry with paper towels. Arrange fillets on cooling racks. Aair dry for 1 hour or until fillets are shiny and dry.
 

@@ -4,14 +4,14 @@ date: 2026-03-05T06:53:15-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["chicken"]
-description: ""
+description: "Faux-tisserie chicken, pressure-cooked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4589138/pexels-photo-4589138.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/32100305/pexels-photo-32100305.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

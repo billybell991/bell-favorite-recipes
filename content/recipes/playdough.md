@@ -14,7 +14,6 @@ servings: ""
 image: "https://images.pexels.com/photos/1020585/pexels-photo-1020585.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 PLAY  DOUGH w/Kool-Aid
 
 - 1 cup flour
@@ -28,8 +27,12 @@ Mix flour, salt, cream of tartar and Kool-Aid in a medium saucepan.  Add water a
 
 EDIBLE PEANUT BUTTER PLAYDOUGH
 
+## Ingredients
+
 - ½ cup peanut butter
 - ½ cup honey
 - 1 cup powdered milk
+
+## Instructions
 
 Knead until smooth

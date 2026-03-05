@@ -4,14 +4,14 @@ date: 2026-03-05T06:52:38-05:00
 draft: false
 categories: ["Air Fryer Recipes"]
 tags: ["chicken", "air fryer"]
-description: ""
+description: "Thick, juicy chicken thighs triple-coated in seasoned flour, egg wash, and crispy panko breadcrumbs, then air fried to a deep golden crunch. All the satisfaction of fried chicken without the deep fryer."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/33143862/pexels-photo-33143862.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/14020911/pexels-photo-14020911.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

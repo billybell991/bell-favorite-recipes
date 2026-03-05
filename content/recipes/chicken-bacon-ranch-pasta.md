@@ -4,14 +4,14 @@ date: 2026-03-05T06:53:58-05:00
 draft: false
 categories: ["Maya's Recipes"]
 tags: ["chicken", "pasta"]
-description: ""
+description: "Chicken bacon ranch pasta"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9219086/pexels-photo-9219086.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/23021490/pexels-photo-23021490.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

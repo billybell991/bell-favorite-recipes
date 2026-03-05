@@ -4,16 +4,17 @@ date: 2026-03-05T06:58:27-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["meat", "chicken", "rice"]
-description: ""
+description: "Campbell's citrus skillet chicken & rice, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9219086/pexels-photo-9219086.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/34668500/pexels-photo-34668500.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 Tbsp vegetable oil
 - 4 boneless, skinless chicken breast halves,(about 1 lb/500 gr.)
@@ -24,6 +25,8 @@ notes: ""
 - 1-1/2 cups fresh (cut-up) or frozen greenbeans
 - 1 tsp grated orange peel
 - 3 Tbsp chopped fresh parsley or l Tbsp dried parsley flakes
+
+## Instructions
 
 Heat oil at medium-high in large skillet. Add chicken and cook until browned on both sides. Set chicken aside.
 

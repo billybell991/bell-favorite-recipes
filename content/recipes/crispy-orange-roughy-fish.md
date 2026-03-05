@@ -4,16 +4,17 @@ date: 2026-03-05T06:57:32-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["diabetic recipes", "fish"]
-description: ""
+description: "Crispy orange roughy"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6608694/pexels-photo-6608694.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/17760129/pexels-photo-17760129.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 2 egg whites, lightly beaten
 - ¼ tsp salt
@@ -27,6 +28,8 @@ notes: ""
 - Vegetable cooking spray
 - ½ tsp dried parsley flakes
 - 1 Tbsp vegetable oil
+
+## Instructions
 
 Combine egg whites and water in a shallow dish. Combine cornmeal and next 5 ingredients in a medium bowl; stir well. Sprinkle each side of fillet with flour, Dip fillets into egg white mixture, and dredge in cornmeal mixture. Coat a large nonstick skillet with cooking spray; add oil. Place skillet over medium-high heat until hot. Add fillets, and cook 4 to 5 minutes on each side or until golden and fish flakes easily and flakes easily when tested with a fork.
 

@@ -4,14 +4,14 @@ date: 2026-03-05T06:57:17-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["desserts"]
-description: ""
+description: "Date squares, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3071821/pexels-photo-3071821.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/1548976/pexels-photo-1548976.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

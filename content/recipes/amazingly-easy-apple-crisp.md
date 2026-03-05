@@ -4,14 +4,14 @@ date: 2026-03-05T06:57:14-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["desserts"]
-description: ""
+description: "Tender, amazingly easy apple crisp, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6163269/pexels-photo-6163269.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/31664633/pexels-photo-31664633.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

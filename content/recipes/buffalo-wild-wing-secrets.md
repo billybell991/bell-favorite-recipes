@@ -4,17 +4,16 @@ date: 2026-03-05T06:54:06-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: []
-description: ""
+description: "Buffalo wild wing secrets"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/33464606/pexels-photo-33464606.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Buffalo Wild Wing has to be one of the best chicken wing joints going.  Here are a handful of their cooking secrets and sauce recipes.
 
 How to fry your wings:
@@ -122,6 +121,8 @@ Asian Zing:
 - 1/4 teaspoon garlic powder
 
 Caribbean Jerk:
+
+## Ingredients
 
 - 1 Tablespoon of canola oil
 - 2 Tablespoons minced onion (white and light green parts only)

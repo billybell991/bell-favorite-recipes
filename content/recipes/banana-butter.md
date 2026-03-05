@@ -4,17 +4,16 @@ date: 2026-03-05T06:54:42-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: []
-description: ""
+description: "Banana butter"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4114145/pexels-photo-4114145.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/6659867/pexels-photo-6659867.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 - 1 Cup Mashed Banana
 - 1 Cup Canned Crushed Pineapple
 - 2 Tsp. Lemon Juice (Fresh or Bottled)
@@ -28,6 +27,8 @@ Measure first 5 ingredients into large saucepan.  Heat and stir constantly as yo
 Sitr in pectin.  Sitr and skim for 5 minutes so fruit won't float.  Pour into hot sterilized half pint jars to within 1/4 inch (0.5 cm) of top.  Place sterilized metal lids on jars and screw metal bands on securely.  For added assurance against spoilage, you may choose to process for 5 minutes in a boiling water bath.  Makes 4 half pints.
 
 NOTES:
+
+## Ingredients
 
 - This was really good.  4.5 out of 5.
 

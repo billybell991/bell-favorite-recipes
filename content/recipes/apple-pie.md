@@ -4,26 +4,29 @@ date: 2026-03-05T07:00:45-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["pastrypies", "pie"]
-description: ""
+description: "Golden brown and tender, apple pie, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6163263/pexels-photo-6163263.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5419097/pexels-photo-5419097.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Yolande and Dave Worthington
 
 Aunt and Uncle of the Groom
+
+## Ingredients
 
 - 4 VERY large Granny Smith apples (6 cups)
 - 2/3 to 1 cup white sugar, depending on tartness of apples
 - 1 tsp cinnamon
 - 1/8 tsp salt
 - 1 tbsp cornstarch
+
+## Instructions
 
 Prepare the “Never Fail Pastry” on page 92. Use 2 portions.
 

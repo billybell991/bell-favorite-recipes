@@ -4,7 +4,7 @@ date: 2026-03-05T07:00:38-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["meat"]
-description: ""
+description: "Sweet and sour meatballs, roasted to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,7 +14,6 @@ servings: ""
 image: "https://images.pexels.com/photos/29145751/pexels-photo-29145751.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Billy Bell
 
 Groom
@@ -29,11 +28,15 @@ Knead all ingredients together. Form meatballs and place on a cookie sheet. Cook
 
 Sauce:
 
+## Ingredients
+
 - 1 ½ cup brown sugar
 - 1 tsp dry mustard
 - ¾ cup ketchup
 - ¾ cup water
 - ¾ cup vinegar
+
+## Instructions
 
 Mix ingredients together in a sauce pan. Bring to a boil. Mix
 

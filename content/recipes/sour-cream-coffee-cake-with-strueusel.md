@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:26-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "cake"]
-description: ""
+description: "Fluffy, sour cream coffee cake with strueusel, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,7 +14,6 @@ servings: ""
 image: "https://images.pexels.com/photos/6148262/pexels-photo-6148262.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Christine and Graham Baker
 
 Cousins of the Bride
@@ -32,6 +31,8 @@ Mix together sugar, flour, and cinnamon. Blend in butter until crumbly.
 
 Cake:
 
+## Ingredients
+
 - ½  cup soft butter
 - 2 eggs
 - 2 cups all purpose flour
@@ -42,6 +43,8 @@ Cake:
 - 1 tsp baking powder
 - ½ tsp salt
 - 2 cups cranberries, fresh or frozen
+
+## Instructions
 
 Cream butter and sugar until light and fluffy. Beat in eggs one at a time, then vanilla. Sift together flour, baking powder, baking soda and salt. Add to creamed mixture. Add sour cream.
 

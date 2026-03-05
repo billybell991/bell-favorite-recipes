@@ -4,7 +4,7 @@ date: 2026-03-05T06:55:17-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["appetizers", "bread", "dip"]
-description: ""
+description: "Spinach bread dip"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/3070968/pexels-photo-3070968.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 10-oz pkg spinach
 - 1 cup mayonnaise
@@ -21,6 +22,8 @@ notes: ""
 - 1 pkg dry Knorr vegetable soup mix
 - 2 green onions
 - 1 small can water chestnuts
+
+## Instructions
 
 Cook spinach just lightly; drain and chop.  Chop onions and water chestnuts.  Mix all ingredients together and serve with small pieces of bread.
 

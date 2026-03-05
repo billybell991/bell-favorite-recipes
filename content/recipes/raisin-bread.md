@@ -4,7 +4,7 @@ date: 2026-03-05T06:55:37-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["breads", "bread"]
-description: ""
+description: "Raisin bread, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/830894/pexels-photo-830894.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - ½ cup lukewarm water
 - 1 pkg or 1 Tbsp yeast
@@ -26,6 +27,8 @@ notes: ""
 - 2 beaten eggs
 - 1 cup lightly floured raisins
 - Flour
+
+## Instructions
 
 Preheat oven to 350 degrees.         Dissolve sugar and yeast in 1stquantity of water
 

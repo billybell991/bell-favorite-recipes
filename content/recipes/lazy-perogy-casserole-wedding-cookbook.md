@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:38-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["casseroles"]
-description: ""
+description: "Lazy perogy casserole, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,10 +14,11 @@ servings: ""
 image: "https://images.pexels.com/photos/32862467/pexels-photo-32862467.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Joyce Roy
 
 Aunt of the Bride
+
+## Ingredients
 
 - 9 lasagna noodles
 - 2 cups (1-500 gm container) of cottage cheese
@@ -29,6 +30,8 @@ Aunt of the Bride
 - 1/8 tsp pepper
 - 1/2 cup butter or margarine
 - 1 cup chopped onions and bacon
+
+## Instructions
 
 Line a 9x13 inch pan with cooked noodles. Mix cottage cheese, egg and salt together. Spoon over noodles.
 

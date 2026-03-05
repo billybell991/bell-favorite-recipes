@@ -4,16 +4,17 @@ date: 2026-03-05T06:57:28-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["diabetic recipes"]
-description: ""
+description: "Chinese-style whole pickerel, fried to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/724667/pexels-photo-724667.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/6364884/pexels-photo-6364884.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 3 green onions
 - 2 Tbsp soya sauce
@@ -24,6 +25,8 @@ notes: ""
 - 1 clove garlic, minced
 - 3 lb whole pickerel, gutted & cleaned
 - 1 tsp finely grated ginger root (I (Mom) used ginger powder – about ¼ tsp)
+
+## Instructions
 
 To prepare sauce, cut the green onions and carrots into 2-inch pieces. Then thinly slice these pieces into very thin julienne strips, set aside. Heat oil in a small frying pan. Add garlic and ginger and sauté for a minute or two. Add the remaining ingredients, except fish and stir until sugar is dissolved and mixture is heated through. Remove from heat. Stir in vegetables.
 

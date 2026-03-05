@@ -4,16 +4,17 @@ date: 2026-03-05T06:58:41-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["meat", "pork"]
-description: ""
+description: "Campbell's zesty tomato pork chops, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/10939223/pexels-photo-10939223.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/7333262/pexels-photo-7333262.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 Tbsp vegetable oil
 - 4 pork chops (about 1 lb/500 gr.)
@@ -24,6 +25,8 @@ notes: ""
 - 1 Tbsp packed brown sugar
 - 1 Tbsp Worcestershire sauce
 - 3 cups hot cooked mini potatoes
+
+## Instructions
 
 Heat oil at medium-high in large skillet. Add pork chops and cook until browned on both sides. Set pork chops aside. Add pepper strips and stir fry – about 3 minutes. Drain fat. Reduce heat to medium.
 

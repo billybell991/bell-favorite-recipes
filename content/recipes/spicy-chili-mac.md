@@ -4,7 +4,7 @@ date: 2026-03-05T06:57:44-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["diabetic recipes"]
-description: ""
+description: "Tender, spicy chili mac, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/15881322/pexels-photo-15881322.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - Vegetable cooking spray
 - ½ lb firm tofu, drained and crumbled
@@ -26,6 +27,8 @@ notes: ""
 - 1 tsp ground cumin
 - ¼ plus 3 Tbsp (1-3/4 oz) shredded reduced-fat Cheddar cheese
 - ½ tsp dried crushed red pepper
+
+## Instructions
 
 Coat a Dutch oven with cooking spray; place over medium-high heat until hot. Add onion, green pepper, and garlic; sauté until tender. Add chili powder and next 2 ingredients; sauté 1 minute. Stir in tofu and tomatoes. Bring to a boil. Reduce heat; simmer, uncovered, 15 minutes. Add beans; cook 10 minutes or until thoroughly heated. Cook pasta according to package directions, omitting salt and fat. Drain. To serve, place pasta in individual bowls; top with bean mixture and cheese.
 

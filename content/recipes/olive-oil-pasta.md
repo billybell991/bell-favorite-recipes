@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:20-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["pasta"]
-description: ""
+description: "Olive oil pasta"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/29050589/pexels-photo-29050589.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 pound of spaghetti (I just guesstimated and used my own fettucini noodles)
 - 2 tbsp of salt
@@ -25,6 +26,8 @@ notes: ""
 - 2 tsp of parsley
 - 1/2 tsp of salt (or more to taste)
 - grated parmesan (to taste)
+
+## Instructions
 
 1)Bring a large pot of water to a boil. Add in 2 tablespoons salt to the water and cook the pasta according to package directions.
 

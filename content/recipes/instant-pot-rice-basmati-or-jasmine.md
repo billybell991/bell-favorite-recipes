@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:12-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["rice", "instant pot"]
-description: ""
+description: "Instant Pot Rice (Basmati or Jasmine)"
 source: ""
 creditUrl: ""
 credit: ""

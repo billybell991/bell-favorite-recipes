@@ -4,22 +4,25 @@ date: 2026-03-05T06:53:26-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["bread", "keto"]
-description: ""
+description: "90-second  bread in a mug"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/2067626/pexels-photo-2067626.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/13020544/pexels-photo-13020544.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 tablespoon butter
 - ⅓ cup blanched almond flour
 - 1 egg
 - ½ teaspoon baking powder
 - 1 pinch salt
+
+## Instructions
 
 Microwave butter in a microwave-safe mug until melted, about 15 seconds. Swirl the mug to coat with butter.
 

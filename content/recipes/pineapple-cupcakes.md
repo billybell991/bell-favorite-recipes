@@ -4,7 +4,7 @@ date: 2026-03-05T06:56:19-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["cakes and muffins", "cake"]
-description: ""
+description: "Creamy, pineapple cupcakes, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/230743/pexels-photo-230743.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - ½ cup shortening
 - ½ cup white sugar
@@ -25,6 +26,8 @@ notes: ""
 - ½ tsp vanilla
 - ½ cup crushed pineapple including some syrup
 - ½ cup water
+
+## Instructions
 
 Into beater bowl measure shortening and sugars and beat until creamy.  Beat in eggs.  Remove beaters.
 

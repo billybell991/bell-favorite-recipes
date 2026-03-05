@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:15-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: []
-description: ""
+description: "Glazed, mesquite ribs, pressure-cooked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,8 +14,9 @@ servings: ""
 image: "https://images.pexels.com/photos/29850152/pexels-photo-29850152.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 INGREDIENTS
+
+## Ingredients
 
 - 1 cup water
 - 2 tablespoons cider vinegar
@@ -23,6 +24,8 @@ INGREDIENTS
 - 4 pounds pork baby back ribs, cut into serving-size portions
 - 2 tablespoons mesquite seasoning
 - 3/4 cup barbecue sauce, divided
+
+## Instructions
 
 DIRECTIONS
 

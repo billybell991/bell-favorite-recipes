@@ -4,7 +4,7 @@ date: 2026-03-05T06:52:50-05:00
 draft: false
 categories: ["Friends Recipes"]
 tags: ["chicken"]
-description: ""
+description: "Oregano, sun-dried tomato, and chicken stuffed baguette"
 source: ""
 creditUrl: ""
 credit: ""

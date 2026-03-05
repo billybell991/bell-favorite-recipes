@@ -4,16 +4,17 @@ date: 2026-03-05T06:56:00-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["cakes and muffins", "muffins"]
-description: ""
+description: "Bran muffins, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/90607/pexels-photo-90607.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/3650437/pexels-photo-3650437.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - ¼ cup shortening
 - 1/2 cup firmly packed brown sugar
@@ -26,5 +27,7 @@ notes: ""
 - ¾ tsp salt
 - 1-1/2 cup Quaker Natural Wheat Bran (Green Box)
 - 1/2 cup raisins
+
+## Instructions
 
 Cream shortening and sugar together.  Add molasses and eggs and beat together well.  Add milk and then bran.  Combine flour, baking power, soda and salt together.  Add to liquid ingredients.  Add raisins if desired.  Place in greased muffin pans.  Bake in 400 degree oven for l8 – 20 minutes.  Makes l dozen large muffins.

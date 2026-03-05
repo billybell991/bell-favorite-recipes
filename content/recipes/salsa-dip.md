@@ -4,7 +4,7 @@ date: 2026-03-05T06:55:15-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["appetizers", "dip"]
-description: ""
+description: "Salsa dip"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/15881322/pexels-photo-15881322.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 500 ml sour cream
 - 440 gram jar salsa
@@ -21,6 +22,8 @@ notes: ""
 - chopped fresh tomatoes
 - chopped mild onions
 - chopped lettuce
+
+## Instructions
 
 Layer cheese/sour cream/salsa mix, chopped tomatoes, chopped onions and chopped lettuce.  Top with more grated cheese.
 

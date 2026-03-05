@@ -4,7 +4,7 @@ date: 2026-03-05T06:57:09-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["cookies", "cookies"]
-description: ""
+description: "Star sugar cookies, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/4187558/pexels-photo-4187558.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 cup shortening
 - 1 cup sugar
@@ -25,6 +26,8 @@ notes: ""
 - 1 tsp salt
 - Raisins
 - Fine sugar
+
+## Instructions
 
 Heat oven to 375 degrees. Blend shortening and sugar. Beat in eggs and vanilla. Blend in sifted dry ingredients. On lightly floured board, pat or roll dough to ¼-inch thickness. Cut in 3-inch rounds. Arrange on greased cookie sheet. Press 3 raisins in center of each cookie.
 

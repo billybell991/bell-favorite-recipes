@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:22-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: []
-description: ""
+description: "Pickled mushrooms"
 source: ""
 creditUrl: ""
 credit: ""

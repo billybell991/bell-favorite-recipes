@@ -4,16 +4,17 @@ date: 2026-03-05T06:56:53-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["cookies", "cookies"]
-description: ""
+description: "Fluffy, beautiful sugar cookies, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/2377471/pexels-photo-2377471.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/26938196/pexels-photo-26938196.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - ½ cup softened butter
 - ¾ cup sugar
@@ -22,6 +23,8 @@ notes: ""
 - 2 cups flour
 - ¼ tsp salt
 - ¼ tsp nutmeg or cinnamon
+
+## Instructions
 
 Thoroughly cream the butter by hand. Add sugar and mix until fluffy. Beat in the egg and then the milk.
 

@@ -4,16 +4,17 @@ date: 2026-03-05T06:57:22-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["diabetic recipes", "muffins"]
-description: ""
+description: "Applesauce oatmeal muffins, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/2764271/pexels-photo-2764271.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/374052/pexels-photo-374052.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - ½ cup all-purpose flour
 - ½ cup whole wheat flour
@@ -26,6 +27,8 @@ notes: ""
 - 1 egg ¼ cup oil
 - 1/3 cup milk
 - 2/3 cup applesauce
+
+## Instructions
 
 Mix dry ingredients well with a fork.
 

@@ -4,14 +4,14 @@ date: 2026-03-05T06:53:36-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["keto"]
-description: ""
+description: "Easy  cordon bleu, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6107757/pexels-photo-6107757.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/12568037/pexels-photo-12568037.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

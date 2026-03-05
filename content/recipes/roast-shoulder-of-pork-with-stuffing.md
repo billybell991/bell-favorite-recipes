@@ -4,7 +4,7 @@ date: 2026-03-05T07:00:34-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["meat", "pork"]
-description: ""
+description: "Crispy and tender, roast shoulder of pork with stuffing, roasted to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,12 +14,13 @@ servings: ""
 image: "https://images.pexels.com/photos/332784/pexels-photo-332784.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Pauline and Jim Cunningham
 
 Friends of the Groom’s Family (Uncle Jim)
 
 Stuffing:
+
+## Ingredients
 
 - 1/4 – 1/2 cup salt pork, diced
 - 5 apples, diced
@@ -28,6 +29,8 @@ Stuffing:
 - 1/2 cup onions, chopped
 - 2 cups dried bread crumbs
 - 1/4 cup fresh parsley, chopped
+
+## Instructions
 
 Fry salt pork until crisp. Remove from skillet. Cook celery, onion and parsley in fat for 5 minutes. Remove from skillet. Place apples in skillet and sprinkle with sugar. Cook covered until tender. Remove cover and continue to cook until juice evaporates. Add bread crumbs and other ingredients and mix well.
 

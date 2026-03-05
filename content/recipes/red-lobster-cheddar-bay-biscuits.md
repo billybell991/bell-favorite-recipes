@@ -4,7 +4,7 @@ date: 2026-03-05T06:55:38-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["breads"]
-description: ""
+description: "Red lobster cheddar bay biscuits"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,7 +14,6 @@ servings: ""
 image: "https://images.pexels.com/photos/4114116/pexels-photo-4114116.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 - 2-1/2 cups Bisquick baking mix
 - 4 Tbs cold butter or margarine
 - 1 heaping cup grated cheddar cheese
@@ -22,6 +21,8 @@ notes: ""
 - ¼ tsp garlic powder
 
 TOPPING:
+
+## Ingredients
 
 - 2 Tbs butter
 - ½ tsp garlic powder

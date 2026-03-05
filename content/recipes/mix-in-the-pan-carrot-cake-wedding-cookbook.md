@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:19-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "cake"]
-description: ""
+description: "Mix-in-the-pan carrot cake"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,7 +14,6 @@ servings: ""
 image: "https://images.pexels.com/photos/6163269/pexels-photo-6163269.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Jeannine and Elmer Bell
 
 Parents of the Groom
@@ -39,11 +38,15 @@ Cool in pan on rack. Sprinkle with icing sugar or ice with cream cheese icing.
 
 Cream Cheese Icing:
 
+## Ingredients
+
 - ¼ cup softened butter
 - 1 tsp vanilla
 - dash of salt
 - 2 ½ cups icing sugar
 - 4 oz (125 gr) softened cream cheese
+
+## Instructions
 
 Into cream cheese and butter, beat the vanilla and salt. Gradually add the icing sugar and blend well.
 

@@ -4,14 +4,14 @@ date: 2026-03-05T06:52:57-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["pork"]
-description: ""
+description: "Bbq pork ribs, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8250723/pexels-photo-8250723.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/7163989/pexels-photo-7163989.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

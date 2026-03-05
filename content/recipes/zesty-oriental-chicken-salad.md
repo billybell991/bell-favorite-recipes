@@ -4,7 +4,7 @@ date: 2026-03-05T07:01:30-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["salads", "chicken", "salad"]
-description: ""
+description: "Zesty asian chicken salad, broiled to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,10 +14,11 @@ servings: ""
 image: "https://images.pexels.com/photos/4506876/pexels-photo-4506876.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Isabelle Dorval
 
 Friend of the Bride and Groom
+
+## Ingredients
 
 - 1/3 cup rice vinegar
 - 8 tsp reduced sodium soy sauce
@@ -33,6 +34,8 @@ Friend of the Bride and Groom
 - 1 cup (6 ozs.) pitted prunes, snipped into halves
 - 3 green onions, sliced
 - 4 lettuce leaves
+
+## Instructions
 
 To make dressing/marinade, in medium bowl whisk vinegar, soy, cilantro, ginger, garlic, sesame oil, and pepper flakes. Remove 1/4 cup of mixture into a shallow 8 inch baking dish. Place chicken breasts in baking dish. Turn to coat both sides. Let chicken marinate for 30 minutes.
 

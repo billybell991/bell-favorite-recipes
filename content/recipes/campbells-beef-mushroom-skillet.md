@@ -4,16 +4,17 @@ date: 2026-03-05T06:58:22-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["meat", "beef"]
-description: ""
+description: "Tender, campbell's beef & mushroom skillet"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/30635676/pexels-photo-30635676.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/32599877/pexels-photo-32599877.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 2 Tbsp vegetable oil
 - 1 lb boneless beef sirloin or inside roundsteak, cut in strips
@@ -23,6 +24,8 @@ notes: ""
 - ½ cup water
 - 2 Tbsp Dijon-style mustard
 - 4 cups hot cooked rice
+
+## Instructions
 
 Heat half the oil in large skillet over medium high heat. Add beef and brown until cooked through. Set beef aside. Reduce heat to medium.
 

@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:47-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cookies"]
-description: ""
+description: "Golden brown, oile bolen, fried to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,10 +14,11 @@ servings: ""
 image: "https://images.pexels.com/photos/3650437/pexels-photo-3650437.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Audrey and John Gosson
 
 Cousins of the Bride
+
+## Ingredients
 
 - 3 eggs
 - ½ cup sugar
@@ -30,6 +31,8 @@ Cousins of the Bride
 - ½ cup milk
 - apples chopped in small pieces, raisins and candied fruit-
 - should equal 2 cups total
+
+## Instructions
 
 Beat egg yolks until thick. Add sugar gradually and then corn syrup. Mix shortening or oil with milk and stir into the egg and sugar mixture.
 

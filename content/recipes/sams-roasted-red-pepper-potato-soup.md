@@ -4,7 +4,7 @@ date: 2026-03-05T06:52:52-05:00
 draft: false
 categories: ["Friends Recipes"]
 tags: ["soup", "potatoes"]
-description: ""
+description: "Sam's roasted red pepper & potato soup, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""

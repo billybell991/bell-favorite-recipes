@@ -4,7 +4,7 @@ date: 2026-03-05T06:56:47-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["chicken"]
-description: ""
+description: "One pan cacciatore dinner"
 source: ""
 creditUrl: ""
 credit: ""
@@ -15,16 +15,27 @@ image: "https://images.pexels.com/photos/6107757/pexels-photo-6107757.jpeg?auto=
 notes: ""
 ---
 
-A traditional dinner ready in half the time. Just follow these 3 simple steps.
+## Ingredients
 
-1. COAT chicken pieces (a pound should do it for four) in flour, brown in a few tablespoons of olive oil.
+- 1 lb chicken pieces
+- Flour (for coating)
+- A few Tbsp olive oil
+- Handful of sliced peppers
+- Handful of sliced mushrooms
+- 1 can (19 oz) Aylmer Accents Italian Stewed Tomatoes
+- 2 cups cooked spaghetti noodles
+- Parmesan cheese for topping
 
-2. ADD a handful of sliced peppers and mushrooms; cook until tender, stirring occasionally.
+## Instructions
 
-3. POUR IN one can of (19 oz) Aylmer Accents Italian Stewed Tomatoes, cover and simmer for 30 minutes or until done.
+Coat chicken pieces in flour and brown in a few tablespoons of olive oil.
 
-4. SERVE over 2 cups of cooked Primo spaghetti noodles and top with a few shakes of Parmesan Grated Cheese.
+Add sliced peppers and mushrooms; cook until tender, stirring occasionally.
+
+Pour in one can of Italian Stewed Tomatoes, cover and simmer for 30 minutes or until done.
+
+Serve over cooked spaghetti noodles and top with Parmesan cheese.
 
 Serves 4.
 
-KRAFT KITCHEN TIP: Seal chicken in airtight freezer-safe plastic bag. Uncooked chicken can be kept frozen for up to 6 months; cooked chicken for up to 3 months.
+TIP: Uncooked chicken can be kept frozen in an airtight bag for up to 6 months; cooked chicken for up to 3 months.

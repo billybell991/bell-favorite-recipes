@@ -4,7 +4,7 @@ date: 2026-03-05T06:55:37-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["breads"]
-description: ""
+description: "Purity tea biscuits, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,14 +14,17 @@ servings: ""
 image: "https://images.pexels.com/photos/4114116/pexels-photo-4114116.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 A Tea Biscuit dough should be soft but not sticky.  Little kneading improves the quality of the biscuits, but should be done with a gentle touch as too much handling tends to make them tough.
 
 Preheat oven to 450 F.  Blend or sift together:
 
+## Ingredients
+
 - 2 cups all-purpose flour
 - 4 tsp baking powder
 - 1 tsp salt
+
+## Instructions
 
 Cut finely 1/3 cup shortening (or ¼ cup oil).
 

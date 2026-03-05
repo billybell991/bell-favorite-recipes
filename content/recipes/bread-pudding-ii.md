@@ -4,14 +4,14 @@ date: 2026-03-05T06:54:05-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["bread"]
-description: ""
+description: "Bread pudding ii, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/998237/pexels-photo-998237.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/9503819/pexels-photo-9503819.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

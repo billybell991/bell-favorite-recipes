@@ -4,7 +4,7 @@ date: 2026-03-05T06:58:05-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["fish", "salmon"]
-description: ""
+description: "Creamy and hearty, salmon bisque, sautéed to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/31909815/pexels-photo-31909815.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 3 Tbsp butter
 - 3-1/2 cups milk
@@ -22,6 +23,8 @@ notes: ""
 - 1 stalk celery, chopped
 - salt and pepper
 - 3 Tbsp flour
+
+## Instructions
 
 Melt butter in a saucepan and sauté onion and celery. Add flour and stir well. Add milk slowly, stirring constantly. Add salmon and season with salt and pepper. Cook over low heat until creamy and smooth.
 

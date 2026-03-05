@@ -4,7 +4,7 @@ date: 2026-03-05T06:56:16-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["cakes and muffins", "cake"]
-description: ""
+description: "Mock cheese cake, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,7 +14,6 @@ servings: ""
 image: "https://images.pexels.com/photos/35174214/pexels-photo-35174214.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 FILLING:
 
 - 1 14-oz fruit cocktail
@@ -25,8 +24,12 @@ Drain cocktail.  Set out on paper towel to dry off.  Mix with sour cream.  Set a
 
 MIX:
 
+## Ingredients
+
 - 1-1/2 cup graham wafer crumbs
 - ¼ cup sugar
 - ¼ cup melted butter
+
+## Instructions
 
 Press in 8”x 8”or 6”x 11”pan.  Bake until light brown.  Cool. Pour filling on cool shell.  Sprinkle remaining crumbs on top.  Store in refrigerator several hours or overnight.

@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:41-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["keto"]
-description: ""
+description: "Candy, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,11 +14,14 @@ servings: ""
 image: "https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1/2 cup + 2 tablespoonsbuttersalted
 - 1 cupgranulated sweetener of choiceI used allulose * See notes
 - 2/3 cups heavy cream
 - 1 teaspoonvanilla extractoptional
+
+## Instructions
 
 Line and grease an 8 x 8-inch baking pan with tin foil and set aside.
 

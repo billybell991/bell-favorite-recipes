@@ -4,14 +4,14 @@ date: 2026-03-05T06:53:03-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["chicken"]
-description: ""
+description: "Chicken pad thai, pressure-cooked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4079522/pexels-photo-4079522.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/35063430/pexels-photo-35063430.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

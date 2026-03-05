@@ -4,17 +4,16 @@ date: 2026-03-05T06:54:04-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: []
-description: ""
+description: "Golden brown and fluffy, blueberry buttermilk scones, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9009967/pexels-photo-9009967.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/718739/pexels-photo-718739.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 ### Ingredients
 
 For the scones
@@ -33,9 +32,13 @@ For the scones
 
 For the glaze
 
+## Ingredients
+
 - 1 cup confectioners' sugar
 - 2-3 tablespoons milk
 - 1/2 teaspoonvanilla extract
+
+## Instructions
 
 ### Instructions
 

@@ -4,7 +4,7 @@ date: 2026-03-05T07:00:30-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["meat"]
-description: ""
+description: "Rich's sweet balls, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,10 +14,11 @@ servings: ""
 image: "https://images.pexels.com/photos/14537709/pexels-photo-14537709.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Anya and Rich Pagé
 
 Friends of the Bride and Groom
+
+## Ingredients
 
 - 1 pkg of ground beef
 - ½ cup or so of bread crumbs
@@ -29,6 +30,8 @@ Friends of the Bride and Groom
 - butter or oil to grease frying pan
 - 1 jar of honey garlic sauce (available in Chinese food section
 - of grocery store)
+
+## Instructions
 
 In a large bowl, mix everything except honey garlic sauce and roll lovingly into balls. The balls like to be squeezed and played with so don’t hesitate to give them your full attention. If you drop a ball on the floor, throw it out, no one likes hairy balls.
 

@@ -4,16 +4,17 @@ date: 2026-03-05T06:57:54-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["fish", "fish"]
-description: ""
+description: "B. b. q. fish coating"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3763847/pexels-photo-3763847.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/11312771/pexels-photo-11312771.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - ¼ cup mayo
 - ¼ cup white wine

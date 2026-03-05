@@ -4,14 +4,14 @@ date: 2026-03-05T06:54:32-05:00
 draft: false
 categories: ["Weight Watchers"]
 tags: ["soup"]
-description: ""
+description: "Egg drop soup, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1406501/pexels-photo-1406501.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/12913641/pexels-photo-12913641.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

@@ -4,7 +4,7 @@ date: 2026-03-05T06:58:03-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["fish", "fish"]
-description: ""
+description: "Mary's guide service secret smoked fish recipe"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/20187069/pexels-photo-20187069.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 4 cups water
 - 2 cups soya sauce
@@ -24,5 +25,7 @@ notes: ""
 - 1 tsp garlic powder
 - 1 tsp onion powder
 - 3 lbs lake trout, or substitute fillets (8 oz each), 1 inch thick, skin on
+
+## Instructions
 
 Same instructions as recipe for Smoked Whitefish.

@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:26-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["cookies"]
-description: ""
+description: "Moist, the best chocolate chip cookie recipe ever, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""

@@ -4,16 +4,17 @@ date: 2026-03-05T06:57:21-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["diabetic recipes", "muffins"]
-description: ""
+description: "Applesauce bran muffins, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3650437/pexels-photo-3650437.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5441093/pexels-photo-5441093.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 1 cup All-Bran (Cereal)
 - ¼ cup milk
@@ -27,6 +28,8 @@ notes: ""
 - ½ tsp baking soda
 - 1 tsp cinnamon
 - 1/3 cup Brown Sugar Twin
+
+## Instructions
 
 Stir All-Bran, milk, applesauce, oil and egg together.
 

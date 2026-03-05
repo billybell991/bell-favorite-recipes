@@ -4,7 +4,7 @@ date: 2026-03-05T06:55:09-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["appetizers", "dip"]
-description: ""
+description: "Loney's express dip"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/3026019/pexels-photo-3026019.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 2 cups sour cream (500 ml)
 - 1 pouch Loney’s Onion Soup Mix
@@ -21,6 +22,8 @@ notes: ""
 - ½ tsp Tabasco spicy sauce
 - 2 tsp tomato ketchup
 - ½ tsp chili powder
+
+## Instructions
 
 In a medium-sized bowl mix Loney’s Onion Soup Mix with sour cream. Add remaining ingredients and mix thoroughly. Serve immediately with an assortment of raw vegetables.
 

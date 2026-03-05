@@ -4,7 +4,7 @@ date: 2026-03-05T07:01:24-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["salads", "salad"]
-description: ""
+description: "Salade d'amour"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,7 +14,6 @@ servings: ""
 image: "https://images.pexels.com/photos/4198015/pexels-photo-4198015.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Rachel and Wayne Pigeau
 
 Godparents/Aunt and Uncle of the Bride
@@ -33,8 +32,12 @@ Godparents/Aunt and Uncle of the Bride
 
 Dressing:
 
+## Ingredients
+
 - ¼ cup soya sauce
 - ½ cup oil
 - 2 garlic buds (or more if you like)
+
+## Instructions
 
 Put dressing in a jar and add raisins. Let stand overnight in refrigerator. Mix all ingredients together and pour dressing. Let sit in refrigerator for one hour before serving.

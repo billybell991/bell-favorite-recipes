@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:41-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["casseroles", "pork"]
-description: ""
+description: "Pork chop and vegetable casserole, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,10 +14,11 @@ servings: ""
 image: "https://images.pexels.com/photos/28996273/pexels-photo-28996273.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Linda and Mike Gosson
 
 Parents of the Bride
+
+## Ingredients
 
 - 4 pork chops
 - 4 medium potatoes, thinly sliced
@@ -30,6 +31,8 @@ Parents of the Bride
 - 2 chicken bouillon cubes
 - 1 ½ cups boiling water
 - 2 tbsp butter
+
+## Instructions
 
 Preheat oven to 375 degrees. Trim fat from chops. Brown chops on both sides, season with salt and pepper to taste.
 

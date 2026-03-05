@@ -4,14 +4,14 @@ date: 2026-03-05T06:56:01-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["cakes and muffins", "cake", "muffins"]
-description: ""
+description: "Carrot cake muffins, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/90607/pexels-photo-90607.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/18282821/pexels-photo-18282821.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

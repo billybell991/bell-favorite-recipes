@@ -4,7 +4,7 @@ date: 2026-03-05T06:56:42-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["casseroles", "stew"]
-description: ""
+description: "Tender, sausage and pepper stew, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/6163259/pexels-photo-6163259.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 2 Tbsp olive oil
 - 1 lb hot Italian sausage
@@ -24,6 +25,8 @@ notes: ""
 - 2/3 cup uncooked small pasta
 - 5 sprigs each: mint &amp; basil tied together
 - Salt and ground black pepper to taste
+
+## Instructions
 
 In a large skillet, heat oil; add sausage and onion. Cook until sausage is brown on all sides and onion is tender.
 

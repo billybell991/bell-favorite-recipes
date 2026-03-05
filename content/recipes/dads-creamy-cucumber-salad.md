@@ -4,14 +4,14 @@ date: 2026-03-05T06:54:12-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["salad"]
-description: ""
+description: "Dad's creamy cucumber salad"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/257816/pexels-photo-257816.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/4101804/pexels-photo-4101804.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

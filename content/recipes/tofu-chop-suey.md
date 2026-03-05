@@ -4,7 +4,7 @@ date: 2026-03-05T06:57:49-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["diabetic recipes"]
-description: ""
+description: "Crispy and tender, tofu chop suey"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,8 +14,9 @@ servings: ""
 image: "https://images.pexels.com/photos/724667/pexels-photo-724667.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Tofu supplies the protein, and tastes similar to chicken breasts, this quick-to-prepare, colorful vegetarian main dish.
+
+## Ingredients
 
 - 8 oz tofu
 - 2 tsp vegetable oil
@@ -27,6 +28,8 @@ Tofu supplies the protein, and tastes similar to chicken breasts, this quick-to-
 - 1-1/2 cups fresh bean sprouts, washed
 - 1 Tbsp soy sauce well drained
 - Freshly ground pepper and salt
+
+## Instructions
 
 Drain tofu; cut into ¼ “ pieces, place between layers of paper towel and weight down with a dinner plate; Let stand 10 minutes to compress and remove excess water. NOTE: I found this wasted too many paper towels; I placed tofu between two dinner plates, put a heavy weight on top and kept tipping the plates to pour off the water. It didn’t take long.). Heat oil, 2 Tbsp broth and ginger in a frypan. Add celery, onion and red pepper; stir-cook over medium heat 3 min.
 

@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:36-05:00
 draft: false
 categories: ["Weight Watchers"]
 tags: ["chicken"]
-description: ""
+description: "Melt in your mouth chicken breasts, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""

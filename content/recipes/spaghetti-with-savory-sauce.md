@@ -4,7 +4,7 @@ date: 2026-03-05T06:57:42-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["diabetic recipes"]
-description: ""
+description: "Spaghetti with savory sauce, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,6 +14,7 @@ servings: ""
 image: "https://images.pexels.com/photos/31779545/pexels-photo-31779545.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - Vegetable cooking spray
 - ¼ tsp salt
@@ -25,6 +26,8 @@ notes: ""
 - 1 Tbsp freshly grated Parmesan cheese
 - 2 tsp dried Italian seasoning
 - ¼ tsp garlic powder
+
+## Instructions
 
 Coat a large nonstick skillet with cooking spray; place over medium-high heat until hot. Add turley and onion; cook over medium heat until turkey is lightly browned, stirring to crumble.  Drain and pat dry with paper towels. Wipe drippings from skillet with a paper towel. Add turkey mixture, water, and next 4 ingredients to skillet. Bring to a boil. Reduce heat, and simmer 10 minutes or until thickened, stirring occasionally. Cook spaghetti according to package directions, omitting salt and fat; drain. Place on a serving platter; top with sauce.  Sprinkle with cheese.
 

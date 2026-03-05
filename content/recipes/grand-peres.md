@@ -4,18 +4,19 @@ date: 2026-03-05T06:57:18-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["desserts"]
-description: ""
+description: "Grand-peres, fried to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/998237/pexels-photo-998237.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/18900271/pexels-photo-18900271.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 A Favorite dessert in Quebec.
+
+## Ingredients
 
 - 2 Cups all-purpose flour
 - 4 tsp baking powder
@@ -25,6 +26,8 @@ A Favorite dessert in Quebec.
 - ¼ cup whole milk
 - 1 egg
 - 2 cups maple syrup (recipe for Mock Maple Syrup on Miscellaneous page)
+
+## Instructions
 
 Sift flour with baking powder, salt, nutmeg and sugar. Stirring constantly to avoid lumps,gently add oil, then milk and, finally, egg.
 

@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:39-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["casseroles"]
-description: ""
+description: "Perogy lazy boy, baked to perfection"
 source: ""
 creditUrl: ""
 credit: ""
@@ -14,10 +14,11 @@ servings: ""
 image: "https://images.pexels.com/photos/32125955/pexels-photo-32125955.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
-
 Submitted by Kim and Raymond Roy
 
 Cousins of the Bride
+
+## Ingredients
 
 - 10 lasagna noodles
 - 6 cups mashed potatoes (about 12 medium potatoes)
@@ -26,6 +27,8 @@ Cousins of the Bride
 - 1 ¼ cup butter or margarine
 - 2 cups chopped onions
 - bacon bits if desired
+
+## Instructions
 
 Cook noodles according to directions on the package.
 

@@ -4,16 +4,17 @@ date: 2026-03-05T06:57:27-05:00
 draft: false
 categories: ["Mom's Cookbook"]
 tags: ["diabetic recipes", "chicken", "soup"]
-description: ""
+description: "Chicken vegetable soup, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3559899/pexels-photo-3559899.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/10172749/pexels-photo-10172749.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
+## Ingredients
 
 - 3-1/2 cup water
 - 1 cup sliced carrot
@@ -27,6 +28,8 @@ notes: ""
 - 1 tsp paprika
 - ¾ tsp minced garlic
 - 2 Tbsp dry red wine
+
+## Instructions
 
 Combine first 7 ingredients in a Dutch oven. Bring to a boil; cover, reduce heat, and simmer 10 minutes. Add carrot; cover and simmer 10 minutes. Add mushrooms and remaining ingredients; simmer, uncovered, 8 minutes. Yield: 7 (1 cup) servings.
 

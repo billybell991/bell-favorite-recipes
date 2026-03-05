@@ -4,7 +4,7 @@ date: 2026-03-05T06:52:44-05:00
 draft: false
 categories: ["Family Recipes"]
 tags: []
-description: ""
+description: "Pickled eggs"
 source: ""
 creditUrl: ""
 credit: ""
