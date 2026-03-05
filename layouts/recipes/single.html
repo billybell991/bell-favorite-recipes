@@ -8,7 +8,7 @@
         <div class="recipe-meta">
           {{ with .Params.categories }}
             {{ range . }}
-            <a href="{{ "/categories/" | relURL }}{{ . | urlize }}/" class="recipe-category-tag {{ partial "cat-class.html" . }}">{{ . }}</a>
+            <a href="{{ "/categories/" | absURL }}{{ . | urlize }}/" class="recipe-category-tag {{ partial "cat-class.html" . }}">{{ . }}</a>
             {{ end }}
           {{ end }}
         </div>
@@ -44,7 +44,7 @@
 
       {{ with .Params.image }}
       <div class="recipe-image">
-        <img src="{{ if hasPrefix . "http" }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}" alt="{{ $.Title }}" loading="lazy">
+        <img src="{{ if hasPrefix . "http" }}{{ . }}{{ else }}{{ . | absURL }}{{ end }}" alt="{{ $.Title }}" loading="lazy">
       </div>
       {{ end }}
 
@@ -75,7 +75,7 @@
       <div class="recipe-tags">
         <strong>Tags:</strong>
         {{ range . }}
-        <a href="{{ "/tags/" | relURL }}{{ . | urlize }}/" class="tag">{{ . }}</a>
+        <a href="{{ "/tags/" | absURL }}{{ . | urlize }}/" class="tag">{{ . }}</a>
         {{ end }}
       </div>
       {{ end }}

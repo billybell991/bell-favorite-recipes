@@ -8,14 +8,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
   {{ block "head" . }}{{ end }}
 </head>
 <body>
   <header class="site-header">
     <div class="container">
       <div class="header-inner">
-        <a href="{{ "/" | relURL }}" class="site-logo">
+        <a href="{{ "/" | absURL }}" class="site-logo">
           <span class="logo-icon">🍽️</span>
           <span class="logo-text">{{ .Site.Title }}</span>
         </a>
@@ -43,21 +43,15 @@
             <button class="search-toggle" aria-label="Search recipes">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
             </button>
+            <div class="search-dropdown" id="search-dropdown">
+              <input type="text" id="search-input" placeholder="Search recipes..." aria-label="Search recipes" autocomplete="off">
+              <div id="search-results" class="search-results"></div>
+            </div>
           </div>
         </nav>
       </div>
     </div>
   </header>
-
-  <div id="search-overlay" class="search-overlay" role="dialog" aria-label="Search recipes" aria-hidden="true">
-    <div class="search-container">
-      <div class="search-header">
-        <input type="text" id="search-input" placeholder="Search recipes..." aria-label="Search recipes" autocomplete="off">
-        <button class="search-close" aria-label="Close search">&times;</button>
-      </div>
-      <div id="search-results" class="search-results"></div>
-    </div>
-  </div>
 
   <main>
     {{ block "main" . }}{{ end }}
@@ -71,8 +65,8 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
-  <script src="{{ "js/search.js" | relURL }}"></script>
-  <script src="{{ "js/main.js" | relURL }}"></script>
+  <script src="{{ "js/search.js" | absURL }}"></script>
+  <script src="{{ "js/main.js" | absURL }}"></script>
   {{ block "scripts" . }}{{ end }}
 </body>
 </html>

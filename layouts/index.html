@@ -1,11 +1,11 @@
 {{ define "main" }}
-<section class="hero">
+<section class="hero" style="background-image: url('{{ "images/hero-kitchen.jpg" | absURL }}');">
   <div class="container">
     <h1>Bell Favorite Recipes</h1>
     <p class="hero-subtitle">Favorite recipes from friends, family, and around the web</p>
     <div class="hero-search">
       <input type="text" id="hero-search-input" placeholder="Search for a recipe..." aria-label="Search recipes">
-      <button onclick="document.querySelector('.search-toggle').click(); document.getElementById('search-input').value = document.getElementById('hero-search-input').value; document.getElementById('search-input').dispatchEvent(new Event('input'));">Search</button>
+      <button onclick="var ns=document.querySelector('.nav-search'); ns.classList.add('open'); var si=document.getElementById('search-input'); si.value=document.getElementById('hero-search-input').value; si.dispatchEvent(new Event('input')); si.focus();">Search</button>
     </div>
   </div>
 </section>
@@ -18,7 +18,7 @@
       <article class="news-card">
         {{ with .Params.image }}
         <a href="{{ $.RelPermalink }}" class="news-card-image">
-          <img src="{{ if hasPrefix . "http" }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}" alt="{{ $.Title }}" loading="lazy">
+          <img src="{{ if hasPrefix . "http" }}{{ . }}{{ else }}{{ . | absURL }}{{ end }}" alt="{{ $.Title }}" loading="lazy">
         </a>
         {{ end }}
         <div class="news-card-content">

@@ -12,13 +12,19 @@
     });
   }
 
-  // Mobile dropdown toggle (touch devices)
+  // Dropdown toggle (click support for all devices)
   var dropdownToggle = document.querySelector('.nav-dropdown-toggle');
   if (dropdownToggle) {
     dropdownToggle.addEventListener('click', function (e) {
-      if (window.innerWidth <= 768) {
-        e.preventDefault();
-        this.parentElement.classList.toggle('open');
+      e.preventDefault();
+      this.parentElement.classList.toggle('open');
+    });
+
+    // Close dropdown when clicking outside
+    document.addEventListener('click', function (e) {
+      var dropdown = document.querySelector('.nav-dropdown');
+      if (dropdown && !dropdown.contains(e.target)) {
+        dropdown.classList.remove('open');
       }
     });
   }

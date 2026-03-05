@@ -3,17 +3,16 @@
   let fuse = null;
   let searchIndex = null;
 
-  const overlay = document.getElementById('search-overlay');
+  const navSearch = document.querySelector('.nav-search');
   const input = document.getElementById('search-input');
   const results = document.getElementById('search-results');
-  const toggleBtns = document.querySelectorAll('.search-toggle');
-  const closeBtn = document.querySelector('.search-close');
 
   // Load search index
   async function loadSearchIndex() {
     if (searchIndex) return;
     try {
-      const response = await fetch('/index.json');
+      const baseUrl = document.querySelector('link[rel="stylesheet"]').href.replace(/css\/style\.css.*/, '');
+      const response = await fetch(baseUrl + 'index.json');
       searchIndex = await response.json();
       fuse = new Fuse(searchIndex, {
         keys: [
@@ -33,17 +32,15 @@
   }
 
   function openSearch() {
-    overlay.classList.add('active');
-    overlay.setAttribute('aria-hidden', 'false');
-    input.focus();
+    if (navSearch) navSearch.classList.add('open');
     loadSearchIndex();
+    if (input) input.focus();
   }
 
   function closeSearch() {
-    overlay.classList.remove('active');
-    overlay.setAttribute('aria-hidden', 'true');
-    input.value = '';
-    results.innerHTML = '';
+    if (navSearch) navSearch.classList.remove('open');
+    if (input) input.value = '';
+    if (results) results.innerHTML = '';
   }
 
   function performSearch(query) {
@@ -73,20 +70,19 @@
     }).join('');
   }
 
-  // Event listeners
-  toggleBtns.forEach(function (btn) {
-    btn.addEventListener('click', openSearch);
-  });
-
-  if (closeBtn) {
-    closeBtn.addEventListener('click', closeSearch);
-  }
-
-  if (overlay) {
-    overlay.addEventListener('click', function (e) {
-      if (e.target === overlay) closeSearch();
+  // Event listeners — open on hover, preload index
+  if (navSearch) {
+    navSearch.addEventListener('mouseenter', function () {
+      loadSearchIndex();
     });
   }
+
+  // Close when clicking outside
+  document.addEventListener('click', function (e) {
+    if (navSearch && !navSearch.contains(e.target)) {
+      closeSearch();
+    }
+  });
 
   if (input) {
     input.addEventListener('input', function () {
