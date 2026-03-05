@@ -1,0 +1,24 @@
+---
+title: "Toasty Garlic Bread"
+date: 2026-03-05T06:55:42-05:00
+draft: false
+categories: ["Mom's Cookbook"]
+tags: ["breads", "bread"]
+description: ""
+source: ""
+creditUrl: ""
+credit: ""
+prepTime: ""
+cookTime: ""
+servings: ""
+image: "https://images.pexels.com/photos/5419309/pexels-photo-5419309.jpeg?auto=compress&cs=tinysrgb&w=600"
+notes: ""
+---
+
+- 1 French bread, 12 to 15”, cut into 1”cubes
+- ½ cup butter or margarine, softened
+- Parsley flakes
+- Grated Parmesan cheese
+- Garlic powder
+
+Spread both sides of bread with butter.  Place, cut side down, on a cookie sheet.  Sprinkle one side with cheese, parsley and garlic powder.  Broil 4 inches from the heat until light golden brown. Turn slices and repeat with other side.  Serve immediately.

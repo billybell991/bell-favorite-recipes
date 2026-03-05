@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+  {{ block "head" . }}{{ end }}
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="{{ "/" | relURL }}" class="site-logo">
+          <span class="logo-icon">🍽️</span>
+          <span class="logo-text">{{ .Site.Title }}</span>
+        </a>
+        <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-nav">
+          {{ range .Site.Menus.main }}
+            {{ if eq .URL "/categories/" }}
+            <div class="nav-dropdown">
+              <a href="{{ .URL }}" class="nav-dropdown-toggle {{ if $.IsMenuCurrent "main" . }}active{{ end }}">{{ .Name }}
+                <svg class="dropdown-arrow" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </a>
+              <div class="nav-dropdown-menu">
+                {{ range $.Site.Taxonomies.categories }}
+                <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+                {{ end }}
+              </div>
+            </div>
+            {{ else }}
+            <a href="{{ .URL }}" class="{{ if $.IsMenuCurrent "main" . }}active{{ end }}">{{ .Name }}</a>
+            {{ end }}
+          {{ end }}
+          <div class="nav-search">
+            <button class="search-toggle" aria-label="Search recipes">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div id="search-overlay" class="search-overlay" role="dialog" aria-label="Search recipes" aria-hidden="true">
+    <div class="search-container">
+      <div class="search-header">
+        <input type="text" id="search-input" placeholder="Search recipes..." aria-label="Search recipes" autocomplete="off">
+        <button class="search-close" aria-label="Close search">&times;</button>
+      </div>
+      <div id="search-results" class="search-results"></div>
+    </div>
+  </div>
+
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; {{ now.Year }} {{ .Site.Title }} &mdash; A Bell Family Collection</p>
+      <p class="footer-note">Made with ❤️ and a lot of taste-testing</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+  <script src="{{ "js/search.js" | relURL }}"></script>
+  <script src="{{ "js/main.js" | relURL }}"></script>
+  {{ block "scripts" . }}{{ end }}
+</body>
+</html>

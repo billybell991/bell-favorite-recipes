@@ -1,0 +1,31 @@
+---
+title: "Poor Man's Pasta"
+date: 2026-03-05T07:01:04-05:00
+draft: false
+categories: ["Wedding Cookbook"]
+tags: ["pasta", "pasta"]
+description: ""
+source: ""
+creditUrl: ""
+credit: ""
+prepTime: ""
+cookTime: ""
+servings: ""
+image: "https://images.pexels.com/photos/5949922/pexels-photo-5949922.jpeg?auto=compress&cs=tinysrgb&w=600"
+notes: ""
+---
+
+Submitted by Derek Forgie
+
+Friend of the Bride and Groom
+
+- Macaroni
+- Cheese Dust
+
+Fill a metal container with a water-like substance. Find a way to make it hot enough for the water to make a boiling noise. Place several noodles into the noisy water.
+
+Stir the noodles with a pointy or rounded stick until they become limpanized. Drain the leftover water into a plant that looks cold and thirsty.
+
+Place cheese dust evenly onto noodles. Stir until drowsy. YIELD!
+
+Eat dish while humming the A-Team theme song. Serves 30.

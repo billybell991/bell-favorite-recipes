@@ -1,0 +1,34 @@
+---
+title: "Classic Pickled Eggs (Colette's)"
+date: 2026-03-05T06:52:40-05:00
+draft: false
+categories: ["Family Recipes"]
+tags: []
+description: ""
+source: ""
+creditUrl: ""
+credit: ""
+prepTime: ""
+cookTime: ""
+servings: ""
+image: "https://images.pexels.com/photos/7625714/pexels-photo-7625714.jpeg?auto=compress&cs=tinysrgb&w=600"
+notes: ""
+---
+
+## CLASSIC PICKLED EGGS
+
+### Ingredients
+
+- 12small eggs
+- 3 cupswhite vinegar
+- ¼ cupwhite sugar
+- 1 Tbspsalt
+- 2 clovesgarlic
+- Cut up white onions(optional)
+- 1 bay leaf(optional)
+
+### Instructions
+
+1. Prepare the eggs:Place eggs in a saucepan and cover with water. Bring to a boil, remove from heat, and let eggs stand in hot water for 15 minutes. Remove eggs from hot water, cool under cold running water, and peel.
+2. Make the brine:Bring vinegar, sugar, and salt to a boil until sugar is dissolved. Remove from heat.
+3. Jar and refrigerate:Place peeled eggs, garlic, onions, and bay leaf in a 1 quart mason jar; top with the vinegar mixture. Seal the jar and refrigerate for at least 1 week before serving.

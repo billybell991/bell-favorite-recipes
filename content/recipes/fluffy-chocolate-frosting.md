@@ -1,0 +1,26 @@
+---
+title: "Fluffy Chocolate Frosting"
+date: 2026-03-05T06:55:49-05:00
+draft: false
+categories: ["Mom's Cookbook"]
+tags: ["cake frosting"]
+description: ""
+source: ""
+creditUrl: ""
+credit: ""
+prepTime: ""
+cookTime: ""
+servings: ""
+image: "https://images.pexels.com/photos/5386673/pexels-photo-5386673.jpeg?auto=compress&cs=tinysrgb&w=600"
+notes: ""
+---
+
+- 2 cups icing sugar
+- ¼ tsp salt
+- 6 tablespoons butter
+- ½ tsp vanilla
+- 4 squares bitter chocolate
+- ½ cup milk
+- 2 eggs
+
+Blend sugar, milk, eggs, salt and vanilla in a bowl over ice water.  Melt chocolate and butter together.  Add while warm to first mixture and beat until desired consistency.

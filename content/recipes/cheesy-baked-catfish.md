@@ -1,0 +1,32 @@
+---
+title: "Cheesy Baked Catfish"
+date: 2026-03-05T06:57:59-05:00
+draft: false
+categories: ["Mom's Cookbook"]
+tags: ["fish", "fish"]
+description: ""
+source: ""
+creditUrl: ""
+credit: ""
+prepTime: ""
+cookTime: ""
+servings: ""
+image: "https://images.pexels.com/photos/31043029/pexels-photo-31043029.jpeg?auto=compress&cs=tinysrgb&w=600"
+notes: ""
+---
+
+- 1 cup crushed cheese-flavored crackers
+- ¼ cup sesame seed
+- ½ cup butter or margarine
+- 1 tbsp snipped fresh parsley
+- 2-1/4 lbs catfish fillets, skin removed
+- ½ tsp salt
+- 2 tbsp shredded fresh Parmesan cheese
+- ¼ tsp pepper
+- ¼ tsp cayenne
+
+Heat oven to 400 F. In shallow dish, combine crackers, sesame seed, parsley, salt, pepper and cayenne. Set aside.
+
+In 1-quart saucepan, melt margarine over medium heat. Pour into another shallow dish. Dip each fillet first in margarine and then in crumb mixture, pressing lightly to coat.
+
+Arrange fillets in single layer in 13 x 9 baking dish. Bake for 20 to 25 minutes, or until fish is firm and opaque and just begins to flake. Sprinkle fillets evenly with Parmesan cheese.

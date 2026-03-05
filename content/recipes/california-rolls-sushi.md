@@ -1,0 +1,45 @@
+---
+title: "California Rolls (Sushi)"
+date: 2026-03-05T06:54:06-05:00
+draft: false
+categories: ["Misc Recipes - Internet"]
+tags: []
+description: ""
+source: ""
+creditUrl: ""
+credit: ""
+prepTime: ""
+cookTime: ""
+servings: ""
+image: "https://images.pexels.com/photos/29748127/pexels-photo-29748127.jpeg?auto=compress&cs=tinysrgb&w=600"
+notes: ""
+---
+
+### Ingredients
+
+- Juice of 1/2 lemon
+- 1 medium avocado, peeled, pitted, and sliced into 1/4-inch thick pieces
+- 4 sheets nori (dried seaweed paper)
+- Sushi rice - Recipe follows (or use this great Instant Pot recipe I use)
+- 1/3 cup sesame seeds, toasted
+- 1 small cucumber, peeled, seeded, and cut into matchstick-size pieces
+- 4 crabsticks, torn into pieces
+- Pickled ginger, for serving
+- Wasabi, for serving
+- Soy sauce, for serving
+
+### Directions
+
+Squeeze the lemon juice over the avocado to prevent browning.
+
+Cover a bamboo rolling mat with plastic wrap. Cut nori sheets in half crosswise. Lay 1 sheet of nori, shiny side down, on the plastic covered mat. Wet your fingers with water and spread about 1/2 cup of the rice evenly onto the nori. Sprinkle the rice with sesame seeds. Turn the sheet of nori over so that the rice side is down. Place 1/8 of the cucumber, avocado and crab sticks in the center of the sheet. Grab the edge of the mat closest to you, keeping the fillings in place with your fingers, and roll it into a tight cylinder, using the mat to shape the cylinder. Pull away the mat and set aside. Cover with a damp cloth. Repeat until all of the rice has been used. Cut each roll into 6 pieces. Serve with pickled ginger, wasabi and soy sauce.
+
+Sushi Rice:
+
+Place the rice into a mixing bowl and cover with cool water. Swirl the rice in the water, pour off and repeat 2 to 3 times or until the water is clear.
+
+Place the rice and 2 cups of water into a medium saucepan and place over high heat. Bring to a boil, uncovered. Once it begins to boil, reduce the heat to the lowest setting and cover. Cook for 15 minutes. Remove from the heat and let stand, covered, for 10 minutes.
+
+Combine the rice vinegar, sugar and salt in a small bowl and heat in the microwave on high for 30 to 45 seconds. Transfer the rice into a large wooden or glass mixing bowl and add the vinegar mixture. Fold thoroughly to combine and coat each grain of rice with the mixture. Allow to cool to room temperature before using to make sushi or sashimi.
+
+Yield: 4 cups

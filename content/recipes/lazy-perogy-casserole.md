@@ -1,0 +1,45 @@
+---
+title: "Lazy Perogy Casserole"
+date: 2026-03-05T06:56:34-05:00
+draft: false
+categories: ["Mom's Cookbook"]
+tags: ["casseroles"]
+description: ""
+source: ""
+creditUrl: ""
+credit: ""
+prepTime: ""
+cookTime: ""
+servings: ""
+image: "https://images.pexels.com/photos/7625714/pexels-photo-7625714.jpeg?auto=compress&cs=tinysrgb&w=600"
+notes: ""
+---
+
+- 15 lasagna noodles
+- 250 ml grated medium cheddar cheese
+- 500 ml cottage cheese
+- 500 ml mashed potatoes
+- 1 egg
+- ¼ tsp salt
+- ¼ tsp onion salt
+- 1/8 tsp pepper
+- 1 cup butter or margarine
+- 1 cup chopped onions
+
+*Add ½ - 1 lb crumbled cooked bacon to potato-cheese mixture
+
+Cook noodles as directed on package. Drain. Line bottom of 9 x 13 inch pan.. In medium size
+
+bowl, mix cottage cheese, egg and first amount of onion salt together. Spoon over noodles and
+
+spread. Cover with layer of noodles.
+
+In same bowl, mix cheddar cheese with potato, salt, second amount of onion salt and pepper.
+
+Spread over noodles. Cover with layer of noodles.
+
+Melt butter in frying pan. Saute onions slowly until clear and soft. Pour over noodles. Cover.
+
+Bake 30 minutes in 350 degree F. oven. Let stand 10 minutes before cutting. Serve with sour
+
+cream. Make 8 large servings.

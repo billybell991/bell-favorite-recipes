@@ -1,0 +1,33 @@
+{{ define "main" }}
+<div class="categories-page">
+  <div class="container">
+    <h1>Recipe Categories</h1>
+    <div class="category-grid">
+      {{ range .Data.Terms.Alphabetical }}
+      {{ $count := .Count }}
+      {{ $term := .Page }}
+      <a href="{{ $term.RelPermalink }}" class="category-card {{ partial "cat-class.html" $term.Title }}">
+        <div class="category-icon">
+          {{ $name := $term.Title }}
+          {{ if in $name "Air Fryer" }}🍗
+          {{ else if in $name "Instant Pot" }}🍲
+          {{ else if in $name "Keto" }}🥑
+          {{ else if in $name "Mom" }}📖
+          {{ else if in $name "Wedding" }}💒
+          {{ else if in $name "Family" }}👨‍👩‍👧‍👦
+          {{ else if in $name "Friend" }}🤝
+          {{ else if in $name "Internet" }}🌐
+          {{ else if in $name "Cookbook" }}📚
+          {{ else if in $name "Weight" }}⚖️
+          {{ else if in $name "Maya" }}👩‍🍳
+          {{ else if in $name "Maddy" }}👩‍🍳
+          {{ else }}🍴{{ end }}
+        </div>
+        <h3>{{ $term.Title }}</h3>
+        <span class="recipe-count">{{ $count }} {{ if eq $count 1 }}recipe{{ else }}recipes{{ end }}</span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

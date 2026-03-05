@@ -1,0 +1,112 @@
+{{ define "main" }}
+{{ $catClass := "" }}
+{{ with .Params.categories }}{{ $catClass = partial "cat-class.html" (index . 0) }}{{ end }}
+<div class="recipe-page {{ $catClass }}">
+  <div class="container">
+    <article class="recipe-single">
+      <header class="recipe-header">
+        <div class="recipe-meta">
+          {{ with .Params.categories }}
+            {{ range . }}
+            <a href="{{ "/categories/" | relURL }}{{ . | urlize }}/" class="recipe-category-tag {{ partial "cat-class.html" . }}">{{ . }}</a>
+            {{ end }}
+          {{ end }}
+        </div>
+        <h1>{{ .Title }}</h1>
+        {{ with .Params.description }}
+        <p class="recipe-description">{{ . }}</p>
+        {{ end }}
+        <div class="recipe-info">
+          {{ with .Params.source }}
+          <span class="recipe-source" title="Recipe source">📝 {{ . }}</span>
+          {{ end }}
+          {{ with .Params.prepTime }}
+          <span class="recipe-time" title="Prep time">⏱️ Prep: {{ . }}</span>
+          {{ end }}
+          {{ with .Params.cookTime }}
+          <span class="recipe-time" title="Cook time">🔥 Cook: {{ . }}</span>
+          {{ end }}
+          {{ with .Params.servings }}
+          <span class="recipe-servings" title="Servings">🍽️ Serves: {{ . }}</span>
+          {{ end }}
+        </div>
+        <div class="recipe-actions">
+          <button onclick="window.print()" class="btn btn-outline" title="Print this recipe">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect width="12" height="8" x="6" y="14"/></svg>
+            Print
+          </button>
+          <button onclick="exportPDF()" class="btn btn-outline" title="Save as PDF">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+            Save PDF
+          </button>
+        </div>
+      </header>
+
+      {{ with .Params.image }}
+      <div class="recipe-image">
+        <img src="{{ if hasPrefix . "http" }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}" alt="{{ $.Title }}" loading="lazy">
+      </div>
+      {{ end }}
+
+      <div class="recipe-content" id="recipe-content">
+        {{ .Content }}
+      </div>
+
+      {{ with .Params.credit }}
+      <div class="recipe-credit">
+        <p><strong>Credit:</strong> {{ . | markdownify }}</p>
+      </div>
+      {{ end }}
+
+      {{ with .Params.creditUrl }}
+      <div class="recipe-credit">
+        <p><a href="{{ . }}" target="_blank" rel="noopener noreferrer">View original recipe &rarr;</a></p>
+      </div>
+      {{ end }}
+
+      {{ with .Params.notes }}
+      <div class="recipe-notes">
+        <h3>Notes</h3>
+        <p>{{ . | markdownify }}</p>
+      </div>
+      {{ end }}
+
+      {{ with .Params.tags }}
+      <div class="recipe-tags">
+        <strong>Tags:</strong>
+        {{ range . }}
+        <a href="{{ "/tags/" | relURL }}{{ . | urlize }}/" class="tag">{{ . }}</a>
+        {{ end }}
+      </div>
+      {{ end }}
+    </article>
+
+    <nav class="recipe-nav">
+      {{ with .PrevInSection }}
+      <a href="{{ .RelPermalink }}" class="prev">&larr; {{ .Title }}</a>
+      {{ end }}
+      {{ with .NextInSection }}
+      <a href="{{ .RelPermalink }}" class="next">{{ .Title }} &rarr;</a>
+      {{ end }}
+    </nav>
+  </div>
+</div>
+{{ end }}
+
+{{ define "scripts" }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+<script>
+function exportPDF() {
+  const element = document.getElementById('recipe-content');
+  const title = document.querySelector('.recipe-header h1').textContent;
+  const opt = {
+    margin: [0.75, 0.75, 0.75, 0.75],
+    filename: title.replace(/[^a-z0-9]/gi, '_').toLowerCase() + '.pdf',
+    image: { type: 'jpeg', quality: 0.98 },
+    html2canvas: { scale: 2, useCORS: true },
+    jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+  };
+  html2pdf().set(opt).from(element).save();
+}
+</script>
+{{ end }}

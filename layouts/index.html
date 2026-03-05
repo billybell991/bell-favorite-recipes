@@ -1,0 +1,81 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="container">
+    <h1>Bell Favorite Recipes</h1>
+    <p class="hero-subtitle">Favorite recipes from friends, family, and around the web</p>
+    <div class="hero-search">
+      <input type="text" id="hero-search-input" placeholder="Search for a recipe..." aria-label="Search recipes">
+      <button onclick="document.querySelector('.search-toggle').click(); document.getElementById('search-input').value = document.getElementById('hero-search-input').value; document.getElementById('search-input').dispatchEvent(new Event('input'));">Search</button>
+    </div>
+  </div>
+</section>
+
+<section class="whats-new">
+  <div class="container">
+    <h2>What's New</h2>
+    <div class="news-grid">
+      {{ range first 6 (where .Site.RegularPages.ByDate.Reverse "Section" "recipes") }}
+      <article class="news-card">
+        {{ with .Params.image }}
+        <a href="{{ $.RelPermalink }}" class="news-card-image">
+          <img src="{{ if hasPrefix . "http" }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}" alt="{{ $.Title }}" loading="lazy">
+        </a>
+        {{ end }}
+        <div class="news-card-content">
+          <span class="news-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+          {{ with .Params.categories }}
+          {{ $cc := partial "cat-class.html" (index . 0) }}
+          <span class="news-category {{ $cc }}">{{ index . 0 }}</span>
+          {{ end }}
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          {{ with .Params.description }}
+          <p>{{ . | truncate 100 }}</p>
+          {{ end }}
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="categories-section">
+  <div class="container">
+    <h2>Browse by Category</h2>
+    <div class="category-grid">
+      {{ range .Site.Taxonomies.categories }}
+      {{ $category := .Page }}
+      <a href="{{ $category.RelPermalink }}" class="category-card {{ partial "cat-class.html" $category.Title }}">
+        <div class="category-icon">
+          {{ $name := $category.Title }}
+          {{ if in $name "Air Fryer" }}🍗
+          {{ else if in $name "Instant Pot" }}🍲
+          {{ else if in $name "Keto" }}🥑
+          {{ else if in $name "Mom" }}📖
+          {{ else if in $name "Wedding" }}💒
+          {{ else if in $name "Family" }}👨‍👩‍👧‍👦
+          {{ else if in $name "Friend" }}🤝
+          {{ else if in $name "Internet" }}🌐
+          {{ else if in $name "Cookbook" }}📚
+          {{ else if in $name "Weight" }}⚖️
+          {{ else if in $name "Maya" }}👩‍🍳
+          {{ else if in $name "Maddy" }}👩‍🍳
+          {{ else }}🍴{{ end }}
+        </div>
+        <h3>{{ $category.Title }}</h3>
+        <span class="recipe-count">{{ .Count }} {{ if eq .Count 1 }}recipe{{ else }}recipes{{ end }}</span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="about-section">
+  <div class="container">
+    <div class="about-content">
+      <h2>About This Site</h2>
+      <p>This is a collection of some of my favorite recipes from home and around the web. I'm not taking credit for any of these recipes &mdash; quite the opposite! I'm <strong>giving</strong> credit to the geniuses that came up with them.</p>
+      <p>Some are from experts around the internet, some are from family members, and some are from misc. cookbooks. Recipes are written to be shared, but if I'm violating any copyright rules by including or linking to your recipes, please let me know.</p>
+    </div>
+  </div>
+</section>
+{{ end }}

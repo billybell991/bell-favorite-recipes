@@ -1,0 +1,57 @@
+{{ define "main" }}
+<div class="taxonomy-page {{ partial "cat-class.html" .Title }}">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+
+    <div class="recipes-toolbar">
+      <div class="recipes-count">
+        <span>{{ len .Pages }} {{ if eq (len .Pages) 1 }}recipe{{ else }}recipes{{ end }}</span>
+      </div>
+      <div class="recipes-sort">
+        <button class="sort-btn active" data-sort="alpha">A–Z</button>
+        <button class="sort-btn" data-sort="date">Newest</button>
+      </div>
+      <div class="recipes-view">
+        <button class="view-btn active" data-view="grid" aria-label="Grid view">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+        </button>
+        <button class="view-btn" data-view="list" aria-label="List view">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="recipes-grid" id="recipes-grid">
+      {{ range .Pages.ByTitle }}
+      {{ $catClass := "" }}
+      {{ with .Params.categories }}{{ $catClass = partial "cat-class.html" (index . 0) }}{{ end }}
+      <article class="recipe-card {{ $catClass }}" data-title="{{ .Title }}" data-date="{{ .Date.Format "2006-01-02" }}">
+        {{ with .Params.image }}
+        <div class="card-image">
+          <a href="{{ $.RelPermalink }}">
+            <img src="{{ if hasPrefix . "http" }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}" alt="{{ $.Title }}" loading="lazy">
+          </a>
+        </div>
+        {{ else }}
+        <div class="card-image card-image-placeholder">
+          <a href="{{ .RelPermalink }}">
+            <span class="placeholder-icon">🍴</span>
+          </a>
+        </div>
+        {{ end }}
+        <div class="card-content">
+          {{ with .Params.categories }}
+          {{ $cc := partial "cat-class.html" (index . 0) }}
+          <span class="card-category {{ $cc }}">{{ index . 0 }}</span>
+          {{ end }}
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          {{ with .Params.description }}
+          <p>{{ . | truncate 80 }}</p>
+          {{ end }}
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,32 @@
+---
+title: "Refrigerator Balls"
+date: 2026-03-05T06:59:48-05:00
+draft: false
+categories: ["Wedding Cookbook"]
+tags: ["cookies"]
+description: ""
+source: ""
+creditUrl: ""
+credit: ""
+prepTime: ""
+cookTime: ""
+servings: ""
+image: "https://images.pexels.com/photos/11154961/pexels-photo-11154961.jpeg?auto=compress&cs=tinysrgb&w=600"
+notes: ""
+---
+
+Submitted by Buddy Pierce
+
+Nephew/Godson of the Groom
+
+- 1 can of Eaglebrand
+- 3 cups miniature marshmallows
+- ½ cup maraschino cherries, chopped
+- 1 tsp vanilla
+- 2 ½ cups graham cracker crumbs
+
+Mix all ingredients together. Butter hands and roll into 1 inch balls. Roll in fine coconut.
+
+Refrigerate. Makes about 60.
+
+Uncle Billy’s favorite!!

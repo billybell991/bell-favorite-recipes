@@ -1,0 +1,27 @@
+---
+title: "Chestnut & Bacon Roll-ups"
+date: 2026-03-05T06:55:03-05:00
+draft: false
+categories: ["Mom's Cookbook"]
+tags: ["appetizers"]
+description: ""
+source: ""
+creditUrl: ""
+credit: ""
+prepTime: ""
+cookTime: ""
+servings: ""
+image: "https://images.pexels.com/photos/36051529/pexels-photo-36051529.jpeg?auto=compress&cs=tinysrgb&w=600"
+notes: ""
+---
+
+- Quantity desired of bacon strips
+- Quantity desired of water chestnuts
+- Sugar
+- Soya Sauce
+
+In one bowl place granulated sugar and in second bowl place soya sauce.  Dip chestnuts firs in soya sauce and then into the sugar coat.
+
+Partly cook bacon to remove some of the grease but bacon is still limp.  Roll prepared chestnuts in bacon and secure with a toothpick.
+
+Place on a cookie sheet.  Just before serving, place in oven or under broiler to crisp bacon.
