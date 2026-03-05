@@ -12,15 +12,19 @@
     });
   }
 
-  // Dropdown toggle (click support for all devices)
+  // Dropdown toggle (click support for mobile/touch devices only)
   var dropdownToggle = document.querySelector('.nav-dropdown-toggle');
   if (dropdownToggle) {
     dropdownToggle.addEventListener('click', function (e) {
-      e.preventDefault();
-      this.parentElement.classList.toggle('open');
+      // On mobile (no hover), toggle the dropdown and prevent navigation
+      if (window.innerWidth <= 768) {
+        e.preventDefault();
+        this.parentElement.classList.toggle('open');
+      }
+      // On desktop, let the click navigate to the categories page
     });
 
-    // Close dropdown when clicking outside
+    // Close dropdown when clicking outside (mobile)
     document.addEventListener('click', function (e) {
       var dropdown = document.querySelector('.nav-dropdown');
       if (dropdown && !dropdown.contains(e.target)) {
