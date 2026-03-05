@@ -1,4 +1,4 @@
-$ErrorActionPreference = "Stop"
+$ErrorActionPreference = "Continue"
 $publicDir = Join-Path $PSScriptRoot "public"
 
 Write-Host "=== Cleaning up old .git in public ===" 
