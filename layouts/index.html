@@ -4,9 +4,10 @@
     <h1>Bell Favorite Recipes</h1>
     <p class="hero-subtitle">Favorite recipes from friends, family, and around the web</p>
     <div class="hero-search">
-      <input type="text" id="hero-search-input" placeholder="Search for a recipe..." aria-label="Search recipes">
-      <button onclick="var ns=document.querySelector('.nav-search'); ns.classList.add('open'); var si=document.getElementById('search-input'); si.value=document.getElementById('hero-search-input').value; si.dispatchEvent(new Event('input')); si.focus();">Search</button>
+      <input type="text" id="hero-search-input" placeholder="Search for a recipe..." aria-label="Search recipes" autocomplete="off">
+      <button id="hero-search-btn">Search</button>
     </div>
+    <div id="hero-search-results" class="hero-search-results"></div>
   </div>
 </section>
 

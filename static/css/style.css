@@ -242,7 +242,8 @@ h3 { font-size: 1.3rem; }
   transition: transform 0.2s;
 }
 
-.nav-dropdown:hover .dropdown-arrow {
+.nav-dropdown:hover .dropdown-arrow,
+.nav-dropdown.open .dropdown-arrow {
   transform: rotate(180deg);
 }
 
@@ -409,7 +410,6 @@ h3 { font-size: 1.3rem; }
   height: 8px;
 }
 
-.nav-search:hover .search-dropdown,
 .nav-search.open .search-dropdown {
   display: block;
 }
@@ -561,10 +561,90 @@ h3 { font-size: 1.3rem; }
   background: var(--color-primary-dark);
 }
 
+/* Hero inline search results */
+.hero-search-results {
+  max-width: 720px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+  display: none;
+}
+
+.hero-search-results.visible {
+  display: block;
+  margin-top: 1.2rem;
+}
+
+.hero-results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.75rem;
+  max-height: 60vh;
+  overflow-y: auto;
+  padding: 0.5rem;
+  background: rgba(255, 255, 255, 0.97);
+  border-radius: var(--radius);
+  box-shadow: 0 8px 36px rgba(0, 0, 0, 0.25);
+}
+
+.hero-result-card {
+  display: block;
+  background: white;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 1rem;
+  text-decoration: none;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.hero-result-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(58, 46, 40, 0.12);
+  border-color: var(--color-primary);
+}
+
+.hero-result-card h4 {
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 0.25rem;
+  line-height: 1.3;
+}
+
+.hero-result-card p {
+  font-size: 0.78rem;
+  color: var(--color-text-light);
+  line-height: 1.4;
+  margin: 0;
+}
+
+.hero-result-category {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-primary);
+  margin-bottom: 0.2rem;
+}
+
+.hero-search-results .search-no-results {
+  background: rgba(255, 255, 255, 0.97);
+  border-radius: var(--radius);
+  padding: 2rem 1rem;
+  text-align: center;
+  color: var(--color-text);
+  box-shadow: 0 8px 36px rgba(0, 0, 0, 0.25);
+}
+
 @media (max-width: 768px) {
   .hero { padding: 3rem 0; }
   .hero h1 { font-size: 2.2rem; }
   .hero-subtitle { font-size: 1rem; }
+  .hero-results-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* ============================================
