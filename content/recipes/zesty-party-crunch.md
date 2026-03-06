@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7033897/pexels-photo-7033897.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://ruhlman.com/wp-content/uploads/2021/02/IMG_0731-scaled.jpeg"
 notes: ""
 ---
 ## Ingredients
