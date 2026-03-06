@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8601703/pexels-photo-8601703.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://upload.wikimedia.org/wikipedia/commons/f/f2/Pickledeggs.jpg"
 notes: ""
 ---
 ## CLASSIC PICKLED EGGS

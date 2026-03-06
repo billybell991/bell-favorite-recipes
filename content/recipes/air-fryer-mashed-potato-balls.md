@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://pixabay.com/get/ged024fa59ddf8411e44e50a1b75a6da45591f2083fe890f6a97aabab783853262beb0b7bef1acf8efa9fb001c370a67868266bf37923cf3e0e5d022f836970c1_1280.jpg"
+image: "https://peasandcrayons.com/wp-content/uploads/2024/01/fried-mashed-potato-balls-recipe-5.jpg"
 notes: ""
 ---
 
