@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/298485/pexels-photo-298485.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5379521/pexels-photo-5379521.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 - 1 cup margarine or butter

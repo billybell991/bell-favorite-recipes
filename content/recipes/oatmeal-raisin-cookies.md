@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4276480/pexels-photo-4276480.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/8963382/pexels-photo-8963382.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 - 3/4 brown sugar

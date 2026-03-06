@@ -19,9 +19,10 @@ try {
     git add -A 2>$null | Out-Null
     
     Write-Host "=== Committing ==="
-    git commit -m "Deploy site" 2>$null | Out-Null
+    $commitOutput = git commit -m "Deploy site" 2>&1
     if ($LASTEXITCODE -ne 0) {
         Write-Host "ERROR: git commit failed with exit code $LASTEXITCODE"
+        Write-Host $commitOutput
         exit 1
     }
     

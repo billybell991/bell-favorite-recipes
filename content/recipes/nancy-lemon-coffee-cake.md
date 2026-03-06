@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5836525/pexels-photo-5836525.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/12035555/pexels-photo-12035555.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 - 1 large lemon or any flavour cake mix

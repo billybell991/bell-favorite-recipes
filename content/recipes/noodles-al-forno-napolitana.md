@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/18237488/pexels-photo-18237488.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/9908095/pexels-photo-9908095.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Get supper on the table in a flash using only six ingredients. Toss a salad, warm up an Italian bread stick and you have dinner fit for royalty in about 30 minutes.

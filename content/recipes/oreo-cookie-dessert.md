@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1325467/pexels-photo-1325467.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/13143739/pexels-photo-13143739.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Fern Henri

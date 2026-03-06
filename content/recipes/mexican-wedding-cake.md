@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4051584/pexels-photo-4051584.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/33050117/pexels-photo-33050117.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 - 2 cups flour

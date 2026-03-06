@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6163259/pexels-photo-6163259.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/16988258/pexels-photo-16988258.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 I've made this one so many times, I can recite it from memory.  A favorite of Pep's (and pretty much anyone else).  So good that it convinced my girls that tomatoes aren't the devil in stewed vegetable form.
