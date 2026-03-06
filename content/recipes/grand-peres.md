@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/18900271/pexels-photo-18900271.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/616360/pexels-photo-616360.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 A Favorite dessert in Quebec.

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/17248963/pexels-photo-17248963.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/6601705/pexels-photo-6601705.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 300 degrees   -   50 – 60 minutes

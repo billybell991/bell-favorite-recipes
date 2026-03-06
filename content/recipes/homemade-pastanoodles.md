@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/10049559/pexels-photo-10049559.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/28576166/pexels-photo-28576166.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 This is a mish-mash of a few different recipes for this I've seen on the web, along with a few different techniques.  No single one had all the ingredients and info in the same spot, so I figured I'd just write it up myself.  If it sucks, I'm sorry.  :(

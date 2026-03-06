@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/29075862/pexels-photo-29075862.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/16273766/pexels-photo-16273766.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 - 4 large potatoes

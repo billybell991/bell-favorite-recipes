@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5741176/pexels-photo-5741176.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5742673/pexels-photo-5742673.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 - 2 cups white sugar

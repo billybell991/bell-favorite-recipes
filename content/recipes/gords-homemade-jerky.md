@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8250275/pexels-photo-8250275.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/35470468/pexels-photo-35470468.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Patsy and Gord Bell

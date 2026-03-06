@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/12118044/pexels-photo-12118044.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/8025793/pexels-photo-8025793.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Margaret and Walter Smith

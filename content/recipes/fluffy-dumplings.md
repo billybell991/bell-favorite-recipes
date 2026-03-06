@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/33397171/pexels-photo-33397171.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/30648980/pexels-photo-30648980.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Flavor these dumplings with herbs like dill, caraway and basil for unique taste variations. These dumplings are not doughy at all, but become light and fluffy as they steam over simmering stew or soup.

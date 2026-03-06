@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/2252617/pexels-photo-2252617.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/9395563/pexels-photo-9395563.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 If you’d like to serve this as an appetizer, divide the crab mixture evenly into 16 small patties, These smaller versions will have about 31 calories each.

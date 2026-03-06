@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/2035740/pexels-photo-2035740.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/12407447/pexels-photo-12407447.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Gisele and Ronnie Roy

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1475260/pexels-photo-1475260.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/33042510/pexels-photo-33042510.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

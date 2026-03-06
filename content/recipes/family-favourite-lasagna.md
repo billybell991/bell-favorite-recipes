@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/31779545/pexels-photo-31779545.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/31119077/pexels-photo-31119077.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 - 1 lb lean ground beef
