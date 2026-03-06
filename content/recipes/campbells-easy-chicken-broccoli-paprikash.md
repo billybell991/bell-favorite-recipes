@@ -3,6 +3,7 @@ title: "Campbell's Easy Chicken Broccoli Paprikash"
 date: 2026-03-05T06:58:31-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Meat"
 tags: ["meat", "chicken"]
 description: "Campbell's easy chicken broccoli paprikash, simmered to perfection"
 source: ""

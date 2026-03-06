@@ -3,6 +3,7 @@ title: "Pineapple Cupcakes"
 date: 2026-03-05T06:56:19-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Cakes and Muffins"
 tags: ["cakes and muffins", "cake"]
 description: "Creamy, pineapple cupcakes, baked to perfection"
 source: ""

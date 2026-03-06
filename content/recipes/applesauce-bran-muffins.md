@@ -3,6 +3,7 @@ title: "Applesauce Bran Muffins"
 date: 2026-03-05T06:57:21-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Diabetic Recipes"
 tags: ["diabetic recipes", "muffins"]
 description: "Applesauce bran muffins, baked to perfection"
 source: ""

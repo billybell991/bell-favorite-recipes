@@ -3,6 +3,7 @@ title: "Honey Hoisin Chicken"
 date: 2026-03-05T06:56:46-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Chicken"
 tags: ["chicken", "chicken"]
 description: "Honey hoisin chicken, fried to perfection"
 source: ""

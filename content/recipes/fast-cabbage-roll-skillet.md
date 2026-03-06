@@ -3,6 +3,7 @@ title: "Fast Cabbage Roll Skillet"
 date: 2026-03-05T06:58:46-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Meat"
 tags: ["meat"]
 description: "Tender, fast cabbage roll skillet"
 source: ""

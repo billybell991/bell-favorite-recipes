@@ -3,6 +3,7 @@ title: "7-Layer Dinner"
 date: 2026-03-05T06:56:24-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Casseroles"
 tags: ["casseroles"]
 description: "7-layer dinner, baked to perfection"
 source: ""

@@ -3,6 +3,7 @@ title: "Spaghetti With Savory Sauce"
 date: 2026-03-05T06:57:42-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Diabetic Recipes"
 tags: ["diabetic recipes"]
 description: "Spaghetti with savory sauce, simmered to perfection"
 source: ""

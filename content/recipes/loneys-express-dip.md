@@ -3,6 +3,7 @@ title: "Loney's Express Dip"
 date: 2026-03-05T06:55:09-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Appetizers"
 tags: ["appetizers", "dip"]
 description: "Loney's express dip"
 source: ""

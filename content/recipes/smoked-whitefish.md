@@ -3,6 +3,7 @@ title: "Smoked Whitefish"
 date: 2026-03-05T06:58:08-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Fish"
 tags: ["fish", "fish"]
 description: "Smoked whitefish"
 source: ""

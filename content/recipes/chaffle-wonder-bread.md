@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:32-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["bread"]
-description: "Toasted, chaffle \, grilled to perfection"
+description: "Toasted chaffle, grilled to perfection"
 source: ""
 creditUrl: ""
 credit: ""

@@ -3,6 +3,7 @@ title: "Cheese and Onion Muffins"
 date: 2026-03-05T06:56:01-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Cakes and Muffins"
 tags: ["cakes and muffins", "muffins"]
 description: "Cheese and onion muffins, baked to perfection"
 source: ""

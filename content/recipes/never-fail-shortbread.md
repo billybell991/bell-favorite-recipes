@@ -3,6 +3,7 @@ title: "Never Fail Shortbread"
 date: 2026-03-05T06:57:05-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Cookies"
 tags: ["cookies", "bread"]
 description: "Never fail shortbread, baked to perfection"
 source: ""

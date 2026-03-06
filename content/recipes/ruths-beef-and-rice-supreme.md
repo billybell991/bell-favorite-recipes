@@ -3,6 +3,7 @@ title: "Ruth's Beef and Rice Supreme"
 date: 2026-03-05T06:56:41-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Casseroles"
 tags: ["casseroles", "beef", "rice"]
 description: "Ruth's beef and rice supreme, baked to perfection"
 source: ""

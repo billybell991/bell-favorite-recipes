@@ -3,6 +3,7 @@ title: "Super Moist Chocolate Mayo Cake"
 date: 2026-03-05T06:56:21-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Cakes and Muffins"
 tags: ["cakes and muffins", "cake"]
 description: "Super moist chocolate mayo cake, baked to perfection"
 source: ""

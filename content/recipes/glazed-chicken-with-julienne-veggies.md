@@ -3,6 +3,7 @@ title: "Glazed Chicken With Julienne Veggies"
 date: 2026-03-05T06:56:46-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Chicken"
 tags: ["chicken", "chicken"]
 description: "Crispy and tender, glazed chicken with julienne veggies, simmered to perfection"
 source: ""

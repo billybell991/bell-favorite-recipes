@@ -3,6 +3,7 @@ title: "Jell-O Seven Minute Frosting"
 date: 2026-03-05T06:55:49-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Cake Frosting"
 tags: ["cake frosting"]
 description: "Jell-o seven minute frosting"
 source: ""

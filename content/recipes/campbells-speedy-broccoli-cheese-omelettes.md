@@ -3,6 +3,7 @@ title: "Campbell's Speedy Broccoli Cheese Omelettes"
 date: 2026-03-05T06:58:40-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Meat"
 tags: ["meat"]
 description: "Moist, campbell's speedy broccoli cheese omelettes"
 source: ""

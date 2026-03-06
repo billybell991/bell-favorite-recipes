@@ -3,6 +3,7 @@ title: "Nugget 1942 Johnny Cake"
 date: 2026-03-05T06:56:18-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Cakes and Muffins"
 tags: ["cakes and muffins", "cake"]
 description: "Nugget 1942 johnny cake, baked to perfection"
 source: ""

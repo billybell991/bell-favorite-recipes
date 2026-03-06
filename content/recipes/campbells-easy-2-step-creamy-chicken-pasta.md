@@ -3,6 +3,7 @@ title: "Campbell's Easy 2-Step Creamy Chicken & Pasta"
 date: 2026-03-05T06:58:28-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Chicken"
 tags: ["chicken", "pasta"]
 description: "Creamy chicken and vegetable pasta in a rich chicken soup sauce"
 source: ""

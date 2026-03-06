@@ -3,6 +3,7 @@ title: "Fluffy Potato Casserole"
 date: 2026-03-05T06:56:31-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Casseroles"
 tags: ["casseroles", "potatoes"]
 description: "Fluffy, fluffy potato casserole, baked to perfection"
 source: ""

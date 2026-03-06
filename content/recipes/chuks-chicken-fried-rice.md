@@ -3,6 +3,7 @@ title: "Chuk's Chicken Fried Rice"
 date: 2026-03-05T06:56:30-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Casseroles"
 tags: ["casseroles", "chicken", "rice"]
 description: "Chuk's chicken fried rice, sautéed to perfection"
 source: ""

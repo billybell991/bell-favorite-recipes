@@ -3,6 +3,7 @@ title: "Beautiful Sugar Cookies"
 date: 2026-03-05T06:56:53-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Cookies"
 tags: ["cookies", "cookies"]
 description: "Fluffy, beautiful sugar cookies, baked to perfection"
 source: ""

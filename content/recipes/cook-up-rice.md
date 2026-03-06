@@ -4,7 +4,7 @@ date: 2026-03-05T07:01:07-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["rice", "rice"]
-description: "\, simmered to perfection"
+description: "Cook-up rice, simmered to perfection"
 source: ""
 creditUrl: ""
 credit: ""

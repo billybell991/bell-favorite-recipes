@@ -3,6 +3,7 @@ title: "California Coleslaw"
 date: 2026-03-05T06:57:26-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Diabetic Recipes"
 tags: ["diabetic recipes"]
 description: "California coleslaw"
 source: ""

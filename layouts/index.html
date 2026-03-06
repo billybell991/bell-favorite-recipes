@@ -16,10 +16,11 @@
     <h2>What's New</h2>
     <div class="news-grid">
       {{ range first 6 (where .Site.RegularPages.ByDate.Reverse "Section" "recipes") }}
+      {{ $recipe := . }}
       <article class="news-card">
         {{ with .Params.image }}
-        <a href="{{ $.RelPermalink }}" class="news-card-image">
-          <img src="{{ if hasPrefix . "http" }}{{ . }}{{ else }}{{ . | absURL }}{{ end }}" alt="{{ $.Title }}" loading="lazy">
+        <a href="{{ $recipe.RelPermalink }}" class="news-card-image">
+          <img src="{{ if hasPrefix . "http" }}{{ . }}{{ else }}{{ . | absURL }}{{ end }}" alt="{{ $recipe.Title }}" loading="lazy">
         </a>
         {{ end }}
         <div class="news-card-content">

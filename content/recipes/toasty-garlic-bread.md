@@ -3,6 +3,7 @@ title: "Toasty Garlic Bread"
 date: 2026-03-05T06:55:42-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Breads"
 tags: ["breads", "bread"]
 description: "Golden brown, toasty garlic bread, broiled to perfection"
 source: ""

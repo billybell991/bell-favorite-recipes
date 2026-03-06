@@ -3,6 +3,7 @@ title: "Campbell's Easy Macaroni and Cheese"
 date: 2026-03-05T06:56:26-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Casseroles"
 tags: ["casseroles"]
 description: "Campbell's easy macaroni and cheese, baked to perfection"
 source: ""

@@ -3,6 +3,7 @@ title: "Arthur Treacher-Style Fish"
 date: 2026-03-05T06:57:53-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Fish"
 tags: ["fish", "fish"]
 description: "Arthur treacher-style fish"
 source: ""

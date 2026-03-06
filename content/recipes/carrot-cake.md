@@ -3,6 +3,7 @@ title: "Carrot Cake"
 date: 2026-03-05T06:56:04-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Cakes and Muffins"
 tags: ["cakes and muffins", "cake"]
 description: "Carrot cake, baked to perfection"
 source: ""

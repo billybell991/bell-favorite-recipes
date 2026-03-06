@@ -3,6 +3,7 @@ title: "Yummy Oatmeal Cookies"
 date: 2026-03-05T06:57:13-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Cookies"
 tags: ["cookies", "cookies"]
 description: "Crispy and fluffy, yummy oatmeal cookies, baked to perfection"
 source: ""

@@ -3,6 +3,7 @@ title: "Chocolate Chip Cookies"
 date: 2026-03-05T06:56:56-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Cookies"
 tags: ["cookies", "cookies"]
 description: "Chocolate chip cookies, baked to perfection"
 source: ""

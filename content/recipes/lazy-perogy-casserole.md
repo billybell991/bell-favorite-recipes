@@ -3,6 +3,7 @@ title: "Lazy Perogy Casserole"
 date: 2026-03-05T06:56:34-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Casseroles"
 tags: ["casseroles"]
 description: "Lazy perogy casserole, baked to perfection"
 source: ""

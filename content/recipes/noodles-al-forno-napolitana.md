@@ -3,6 +3,7 @@ title: "Noodles Al Forno Napolitana"
 date: 2026-03-05T06:56:38-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Casseroles"
 tags: ["casseroles"]
 description: "Bubbly, noodles al forno napolitana, baked to perfection"
 source: ""

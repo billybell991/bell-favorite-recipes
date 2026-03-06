@@ -3,6 +3,7 @@ title: "Chili Beef Bake"
 date: 2026-03-05T06:56:29-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Casseroles"
 tags: ["casseroles", "beef"]
 description: "Chili beef bake"
 source: ""

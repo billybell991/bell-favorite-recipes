@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:53-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: ["soup", "potatoes"]
-description: "Loaded \"
+description: "Loaded baked potato soup"
 source: ""
 creditUrl: ""
 credit: ""

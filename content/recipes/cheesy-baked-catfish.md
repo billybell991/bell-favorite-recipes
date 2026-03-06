@@ -3,6 +3,7 @@ title: "Cheesy Baked Catfish"
 date: 2026-03-05T06:57:59-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Fish"
 tags: ["fish", "fish"]
 description: "Cheesy baked catfish"
 source: ""

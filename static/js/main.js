@@ -12,23 +12,73 @@
     });
   }
 
-  // Dropdown toggle (click support for mobile/touch devices only)
+  // Dropdown and submenu handling
+  var dropdown = document.querySelector('.nav-dropdown');
   var dropdownToggle = document.querySelector('.nav-dropdown-toggle');
-  if (dropdownToggle) {
-    dropdownToggle.addEventListener('click', function (e) {
-      // On mobile (no hover), toggle the dropdown and prevent navigation
-      if (window.innerWidth <= 768) {
-        e.preventDefault();
-        this.parentElement.classList.toggle('open');
-      }
-      // On desktop, let the click navigate to the categories page
-    });
 
-    // Close dropdown when clicking outside (mobile)
+  if (dropdown && dropdownToggle) {
+    if (window.innerWidth > 768) {
+      // Desktop: mouseenter/mouseleave with delay for forgiving hover
+      var dropdownHideTimer;
+      dropdown.addEventListener('mouseenter', function () {
+        clearTimeout(dropdownHideTimer);
+        dropdown.classList.add('open');
+      });
+      dropdown.addEventListener('mouseleave', function () {
+        dropdownHideTimer = setTimeout(function () {
+          dropdown.classList.remove('open');
+          // Also close any open submenus
+          document.querySelectorAll('.nav-submenu-item.open').forEach(function (item) {
+            item.classList.remove('open');
+          });
+        }, 250);
+      });
+
+      // Submenu items: mouseenter/mouseleave with delay
+      var submenuItems = document.querySelectorAll('.nav-submenu-item');
+      submenuItems.forEach(function (item) {
+        var subHideTimer;
+        item.addEventListener('mouseenter', function () {
+          clearTimeout(subHideTimer);
+          // Close other open submenus
+          document.querySelectorAll('.nav-submenu-item.open').forEach(function (other) {
+            if (other !== item) other.classList.remove('open');
+          });
+          item.classList.add('open');
+        });
+        item.addEventListener('mouseleave', function () {
+          subHideTimer = setTimeout(function () {
+            item.classList.remove('open');
+          }, 200);
+        });
+      });
+    } else {
+      // Mobile: click to toggle
+      dropdownToggle.addEventListener('click', function (e) {
+        e.preventDefault();
+        dropdown.classList.toggle('open');
+      });
+
+      var submenuLinks = document.querySelectorAll('.nav-submenu-link');
+      submenuLinks.forEach(function (link) {
+        link.addEventListener('click', function (e) {
+          e.preventDefault();
+          var item = this.closest('.nav-submenu-item');
+          document.querySelectorAll('.nav-submenu-item.open').forEach(function (other) {
+            if (other !== item) other.classList.remove('open');
+          });
+          item.classList.toggle('open');
+        });
+      });
+    }
+
+    // Close dropdown when clicking outside
     document.addEventListener('click', function (e) {
-      var dropdown = document.querySelector('.nav-dropdown');
       if (dropdown && !dropdown.contains(e.target)) {
         dropdown.classList.remove('open');
+        document.querySelectorAll('.nav-submenu-item.open').forEach(function (item) {
+          item.classList.remove('open');
+        });
       }
     });
   }
@@ -71,4 +121,44 @@
       grid.classList.toggle('list-view', viewType === 'list');
     });
   });
+
+  // Subcategory filtering (Mom's Cookbook)
+  const subCards = document.querySelectorAll('.subcategory-card');
+  if (subCards.length > 0) {
+    subCards.forEach(function (card) {
+      card.addEventListener('click', function (e) {
+        e.preventDefault();
+        subCards.forEach(function (c) { c.classList.remove('active'); });
+        card.classList.add('active');
+
+        var sub = card.getAttribute('data-subcategory');
+        var recipes = document.querySelectorAll('#recipes-grid .recipe-card');
+        var visibleCount = 0;
+
+        recipes.forEach(function (recipe) {
+          if (sub === 'all' || recipe.getAttribute('data-subcategory') === sub) {
+            recipe.classList.remove('subcategory-hidden');
+            visibleCount++;
+          } else {
+            recipe.classList.add('subcategory-hidden');
+          }
+        });
+
+        var countEl = document.getElementById('visible-count');
+        if (countEl) countEl.textContent = visibleCount;
+      });
+    });
+
+    // Auto-select subcategory from URL hash (e.g., #appetizers)
+    var hash = window.location.hash;
+    if (hash) {
+      var target = hash.substring(1).toLowerCase();
+      subCards.forEach(function (card) {
+        var sub = card.getAttribute('data-subcategory');
+        if (sub && sub.toLowerCase().replace(/\s+/g, '-') === target) {
+          card.click();
+        }
+      });
+    }
+  }
 })();

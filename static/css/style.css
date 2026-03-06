@@ -242,7 +242,6 @@ h3 { font-size: 1.3rem; }
   transition: transform 0.2s;
 }
 
-.nav-dropdown:hover .dropdown-arrow,
 .nav-dropdown.open .dropdown-arrow {
   transform: rotate(180deg);
 }
@@ -253,7 +252,9 @@ h3 { font-size: 1.3rem; }
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
-  min-width: 220px;
+  min-width: 240px;
+  max-height: 80vh;
+  overflow-y: auto;
   background: white;
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
@@ -272,23 +273,72 @@ h3 { font-size: 1.3rem; }
   height: 8px;
 }
 
-.nav-dropdown:hover .nav-dropdown-menu,
 .nav-dropdown.open .nav-dropdown-menu {
   display: block;
 }
 
-.nav-dropdown-menu a {
-  display: block;
+/* Category items inside the dropdown */
+.nav-submenu-item {
+  position: relative;
+}
+
+.nav-submenu-link {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
   padding: 0.5rem 1.25rem !important;
   font-size: 0.88rem !important;
-  font-weight: 400 !important;
+  font-weight: 500 !important;
   color: var(--color-text) !important;
   border-bottom: none !important;
   transition: background 0.15s, color 0.15s;
   white-space: nowrap;
+  cursor: pointer;
 }
 
-.nav-dropdown-menu a:hover {
+.submenu-arrow {
+  opacity: 0.4;
+  transition: opacity 0.2s, transform 0.2s;
+  flex-shrink: 0;
+  margin-left: 0.5rem;
+}
+
+.nav-submenu-item.open > .nav-submenu-link {
+  background: var(--color-primary-light);
+  color: var(--color-primary) !important;
+}
+
+.nav-submenu-item.open .submenu-arrow {
+  opacity: 1;
+  transform: rotate(90deg);
+}
+
+/* Inline expandable submenu (recipes/subcategories) */
+.nav-submenu {
+  display: none;
+  background: var(--color-bg);
+  padding: 0.25rem 0;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.nav-submenu-item.open > .nav-submenu {
+  display: block;
+}
+
+.nav-submenu a {
+  display: block;
+  padding: 0.35rem 1rem 0.35rem 2rem !important;
+  font-size: 0.82rem !important;
+  font-weight: 400 !important;
+  color: var(--color-text) !important;
+  border-bottom: none !important;
+  transition: background 0.15s, color 0.15s;
+  white-space: normal;
+  line-height: 1.3;
+}
+
+.nav-submenu a:hover {
   background: var(--color-primary-light);
   color: var(--color-primary) !important;
 }
@@ -349,6 +399,8 @@ h3 { font-size: 1.3rem; }
     margin-top: 0;
     padding: 0 0 0 1rem;
     min-width: auto;
+    max-height: none;
+    overflow-y: visible;
     display: none;
   }
 
@@ -360,8 +412,21 @@ h3 { font-size: 1.3rem; }
     display: none;
   }
 
-  .nav-dropdown-menu a {
+  .nav-submenu-link {
     padding: 0.5rem 0 !important;
+  }
+
+  .nav-submenu-item.open > .nav-submenu {
+    display: block;
+  }
+
+  .nav-submenu {
+    max-height: none;
+    padding-left: 1rem;
+  }
+
+  .nav-submenu a {
+    padding: 0.4rem 0 0.4rem 1rem !important;
   }
 
   .search-dropdown {
@@ -487,7 +552,8 @@ h3 { font-size: 1.3rem; }
   padding: 6rem 0;
   text-align: center;
   position: relative;
-  overflow: hidden;
+  z-index: 1;
+  overflow: visible;
 }
 
 .hero::before {
@@ -1472,6 +1538,75 @@ h3 { font-size: 1.3rem; }
 .page-content h1 {
   text-align: center;
   margin-bottom: 1.5rem;
+}
+
+/* ============================================
+   Subcategory Grid (Mom's Cookbook sections)
+   ============================================ */
+.subcategory-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.subcategory-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.25rem 1rem;
+  background: var(--color-bg-card);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius);
+  text-align: center;
+  text-decoration: none;
+  color: var(--color-text);
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  cursor: pointer;
+}
+
+.subcategory-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(58, 46, 40, 0.12);
+  border-color: var(--color-accent);
+}
+
+.subcategory-card.active {
+  border-color: var(--color-primary);
+  background: var(--color-primary-light);
+}
+
+.subcategory-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-cream);
+  border-radius: 50%;
+}
+
+.subcategory-card.active .subcategory-icon {
+  background: var(--color-primary);
+  filter: brightness(1.2);
+}
+
+.subcategory-card h3 {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 0 0 0.25rem;
+}
+
+.subcategory-card .recipe-count {
+  font-size: 0.75rem;
+  color: var(--color-text-light);
+}
+
+.recipe-card.subcategory-hidden {
+  display: none !important;
 }
 
 /* ============================================

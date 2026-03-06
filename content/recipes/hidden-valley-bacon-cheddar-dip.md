@@ -3,6 +3,7 @@ title: "Hidden Valley Bacon & Cheddar Dip"
 date: 2026-03-05T06:55:08-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Appetizers"
 tags: ["appetizers", "dip"]
 description: "Hidden valley bacon & cheddar dip"
 source: ""

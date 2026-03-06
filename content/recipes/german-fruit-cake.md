@@ -3,6 +3,7 @@ title: "German Fruit Cake"
 date: 2026-03-05T06:56:10-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Cakes and Muffins"
 tags: ["cakes and muffins", "cake"]
 description: "German fruit cake, baked to perfection"
 source: ""

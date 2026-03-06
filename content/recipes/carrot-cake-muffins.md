@@ -3,6 +3,7 @@ title: "Carrot Cake Muffins"
 date: 2026-03-05T06:56:01-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Cakes and Muffins"
 tags: ["cakes and muffins", "cake", "muffins"]
 description: "Carrot cake muffins, baked to perfection"
 source: ""

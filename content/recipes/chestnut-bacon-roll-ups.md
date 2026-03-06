@@ -3,6 +3,7 @@ title: "Chestnut & Bacon Roll-ups"
 date: 2026-03-05T06:55:03-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Appetizers"
 tags: ["appetizers"]
 description: "Crispy, chestnut & bacon roll-ups, broiled to perfection"
 source: ""

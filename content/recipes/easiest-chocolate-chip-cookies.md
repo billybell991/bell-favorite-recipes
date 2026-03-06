@@ -3,6 +3,7 @@ title: "Easiest Chocolate Chip Cookies"
 date: 2026-03-05T06:57:02-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Cookies"
 tags: ["cookies", "cookies"]
 description: "Golden brown, easiest chocolate chip cookies, baked to perfection"
 source: ""

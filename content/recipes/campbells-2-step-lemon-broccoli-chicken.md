@@ -3,6 +3,7 @@ title: "Campbell's 2-Step Lemon Broccoli Chicken"
 date: 2026-03-05T06:58:28-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Chicken"
 tags: ["chicken"]
 description: "Tender chicken breasts in a creamy broccoli lemon sauce"
 source: ""

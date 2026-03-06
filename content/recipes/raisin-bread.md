@@ -3,6 +3,7 @@ title: "Raisin Bread"
 date: 2026-03-05T06:55:37-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Breads"
 tags: ["breads", "bread"]
 description: "Raisin bread, baked to perfection"
 source: ""

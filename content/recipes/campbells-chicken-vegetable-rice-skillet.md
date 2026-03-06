@@ -3,6 +3,7 @@ title: "Campbell's Chicken & Vegetable Rice Skillet"
 date: 2026-03-05T06:58:25-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Meat"
 tags: ["meat", "chicken", "rice"]
 description: "Campbell's chicken & vegetable rice skillet, simmered to perfection"
 source: ""

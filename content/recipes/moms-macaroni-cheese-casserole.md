@@ -3,6 +3,7 @@ title: "Mom's Macaroni & Cheese Casserole"
 date: 2026-03-05T06:56:37-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Casseroles"
 tags: ["casseroles"]
 description: "Mom's macaroni & cheese casserole, baked to perfection"
 source: ""

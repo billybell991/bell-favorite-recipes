@@ -3,6 +3,7 @@ title: "Oven Fried Rice"
 date: 2026-03-05T06:56:39-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Casseroles"
 tags: ["casseroles", "rice"]
 description: "Oven fried rice, baked to perfection"
 source: ""

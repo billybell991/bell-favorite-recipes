@@ -3,6 +3,7 @@ title: "Coconut Macaroons"
 date: 2026-03-05T06:56:58-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Cookies"
 tags: ["cookies"]
 description: "Coconut macaroons, baked to perfection"
 source: ""

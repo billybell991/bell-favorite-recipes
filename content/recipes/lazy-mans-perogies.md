@@ -3,6 +3,7 @@ title: "Lazy Man's Perogies"
 date: 2026-03-05T06:56:33-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Casseroles"
 tags: ["casseroles"]
 description: "Golden brown and creamy, lazy man's perogies"
 source: ""

@@ -3,6 +3,7 @@ title: "Campbell's Chicken & Vegetable Rotini"
 date: 2026-03-05T06:58:25-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Meat"
 tags: ["meat", "chicken"]
 description: "Tender, campbell's chicken & vegetable rotini"
 source: ""

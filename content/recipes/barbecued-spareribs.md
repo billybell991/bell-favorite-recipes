@@ -3,6 +3,7 @@ title: "Barbecued Spareribs"
 date: 2026-03-05T06:58:20-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Meat"
 tags: ["meat"]
 description: "Barbecued spareribs, baked to perfection"
 source: ""

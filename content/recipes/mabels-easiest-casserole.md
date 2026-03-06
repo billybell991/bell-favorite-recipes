@@ -3,6 +3,7 @@ title: "Mabel's Easiest Casserole"
 date: 2026-03-05T06:56:35-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Casseroles"
 tags: ["casseroles"]
 description: "Tender, mabel's easiest casserole, baked to perfection"
 source: ""

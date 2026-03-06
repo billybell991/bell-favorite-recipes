@@ -3,6 +3,7 @@ title: "Campbell's Beef & Mushroom Skillet"
 date: 2026-03-05T06:58:22-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Meat"
 tags: ["meat", "beef"]
 description: "Tender, campbell's beef & mushroom skillet"
 source: ""

@@ -3,6 +3,7 @@ title: "Campbell's Broccoli Chicken Potato Parmesan"
 date: 2026-03-05T06:58:23-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Meat"
 tags: ["meat", "chicken", "potatoes"]
 description: "Crispy and tender, campbell's broccoli chicken potato parmesan, simmered to perfection"
 source: ""

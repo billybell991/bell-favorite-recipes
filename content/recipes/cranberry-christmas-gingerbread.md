@@ -3,6 +3,7 @@ title: "Cranberry Christmas Gingerbread"
 date: 2026-03-05T06:55:24-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Breads"
 tags: ["breads", "bread"]
 description: "Fluffy, cranberry christmas gingerbread, baked to perfection"
 source: ""

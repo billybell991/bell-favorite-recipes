@@ -3,6 +3,7 @@ title: "Bisquick Strawberry Shortcake"
 date: 2026-03-05T06:55:59-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Cakes and Muffins"
 tags: ["cakes and muffins", "cake"]
 description: "Bisquick strawberry shortcake, baked to perfection"
 source: ""

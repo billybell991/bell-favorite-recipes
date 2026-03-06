@@ -3,6 +3,7 @@ title: "Magic Sweet Yeast Bread"
 date: 2026-03-05T06:55:30-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Breads"
 tags: ["breads", "bread"]
 description: "Rich, magic sweet yeast bread"
 source: ""

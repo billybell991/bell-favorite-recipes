@@ -3,6 +3,7 @@ title: "Magic Chelsea Buns"
 date: 2026-03-05T06:55:29-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Breads"
 tags: ["breads"]
 description: "Magic chelsea buns, baked to perfection"
 source: ""

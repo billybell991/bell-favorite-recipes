@@ -3,6 +3,7 @@ title: "Campbell's Easy 2-Step Chicken"
 date: 2026-03-05T06:58:28-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Chicken"
 tags: ["chicken"]
 description: "Simple skillet chicken simmered in creamy mushroom soup"
 source: ""

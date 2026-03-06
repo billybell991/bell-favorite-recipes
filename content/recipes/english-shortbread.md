@@ -3,6 +3,7 @@ title: "English Shortbread"
 date: 2026-03-05T06:57:04-05:00
 draft: false
 categories: ["Mom's Cookbook"]
+subcategory: "Cookies"
 tags: ["cookies", "bread"]
 description: "English shortbread, baked to perfection"
 source: ""
