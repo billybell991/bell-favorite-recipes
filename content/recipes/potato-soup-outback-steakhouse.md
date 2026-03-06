@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1703272/pexels-photo-1703272.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/29075345/pexels-photo-29075345.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Outback Steakhouse Potato Soup

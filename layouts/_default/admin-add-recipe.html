@@ -252,7 +252,7 @@
           </div>
           <p id="modal-save-status" style="margin-top:0.5rem;"></p>
         </div>
-        <p style="text-align:right; font-size:0.75rem; color:#999; margin-top:0.25rem;">Photos by <a href="https://www.pexels.com" target="_blank" rel="noopener">Pexels</a></p>
+        <p id="modal-photo-attribution" style="text-align:right; font-size:0.75rem; color:#999; margin-top:0.25rem;">Photos by <a href="https://www.pexels.com" target="_blank" rel="noopener">Pexels</a></p>
       </div>
     </div>
 
@@ -317,8 +317,91 @@
 
   // --- Photo search ---
   var PEXELS_API_KEY = 'IWb1IE0Z8Fl5VzMKFE1c4RxMoQbgSVNEeK3cSgowbDCjnugx0SWnyCt3';
+  var PIXABAY_API_KEY = localStorage.getItem('pixabay_api_key') || '';
   var currentPhotoPage = 1;
   var currentPhotoQuery = '';
+
+  // --- Search cache (localStorage) ---
+  var CACHE_KEY = 'photo_search_cache';
+  var CACHE_MAX_AGE = 24 * 60 * 60 * 1000; // 24 hours
+  function getCachedSearch(key) {
+    try {
+      var cache = JSON.parse(localStorage.getItem(CACHE_KEY) || '{}');
+      var entry = cache[key];
+      if (entry && (Date.now() - entry.ts) < CACHE_MAX_AGE) return entry.data;
+      if (entry) { delete cache[key]; localStorage.setItem(CACHE_KEY, JSON.stringify(cache)); }
+    } catch(e) {}
+    return null;
+  }
+  function setCachedSearch(key, data) {
+    try {
+      var cache = JSON.parse(localStorage.getItem(CACHE_KEY) || '{}');
+      // Evict old entries if cache too large (keep last 100)
+      var keys = Object.keys(cache);
+      if (keys.length > 100) {
+        keys.sort(function(a,b) { return cache[a].ts - cache[b].ts; });
+        for (var i = 0; i < keys.length - 80; i++) delete cache[keys[i]];
+      }
+      cache[key] = { data: data, ts: Date.now() };
+      localStorage.setItem(CACHE_KEY, JSON.stringify(cache));
+    } catch(e) {}
+  }
+
+  // --- Pixabay fallback ---
+  function searchPixabay(query, page) {
+    if (!PIXABAY_API_KEY) {
+      var key = prompt('Pexels rate limit hit. Enter a free Pixabay API key to use as fallback.\\n\\nGet one free at: https://pixabay.com/api/docs/');
+      if (key) { PIXABAY_API_KEY = key.trim(); localStorage.setItem('pixabay_api_key', PIXABAY_API_KEY); }
+      else { return Promise.reject(new Error('Pexels rate limit reached. Try again in a few minutes, or add a Pixabay API key.')); }
+    }
+    return fetch('https://pixabay.com/api/?key=' + encodeURIComponent(PIXABAY_API_KEY) + '&q=' + encodeURIComponent(query) + '&image_type=photo&orientation=horizontal&per_page=9&page=' + page)
+      .then(function(r) { if (!r.ok) throw new Error('Pixabay error'); return r.json(); })
+      .then(function(data) {
+        return {
+          photos: (data.hits || []).map(function(h) {
+            return { src: { medium: h.webformatURL, large2x: h.largeImageURL, large: h.largeImageURL }, photographer: h.user, alt: h.tags, source: 'pixabay' };
+          }),
+          hasMore: (page * 9) < data.totalHits
+        };
+      });
+  }
+  function searchPexelsAPI(query, page) {
+    return fetch('https://api.pexels.com/v1/search?query=' + encodeURIComponent(query) + '&orientation=landscape&per_page=9&page=' + page, {
+      headers: { 'Authorization': PEXELS_API_KEY }
+    }).then(function(r) {
+      if (r.status === 429) throw { rateLimited: true };
+      if (!r.ok) throw new Error('Pexels error');
+      return r.json();
+    }).then(function(data) {
+      return {
+        photos: (data.photos || []).map(function(p) {
+          return { src: p.src, photographer: p.photographer, alt: p.alt || 'Photo', source: 'pexels' };
+        }),
+        hasMore: data.photos && data.photos.length === 9
+      };
+    });
+  }
+  function searchPhotosUnified(query, page) {
+    var cacheKey = query + '|' + page;
+    var cached = getCachedSearch(cacheKey);
+    if (cached) return Promise.resolve(cached);
+    return searchPexelsAPI(query, page).then(function(result) {
+      result.fromCache = false;
+      result.activeSource = 'pexels';
+      setCachedSearch(cacheKey, result);
+      return result;
+    }).catch(function(err) {
+      if (err && err.rateLimited) {
+        return searchPixabay(query, page).then(function(result) {
+          result.fromCache = false;
+          result.activeSource = 'pixabay';
+          setCachedSearch(cacheKey, result);
+          return result;
+        });
+      }
+      throw err;
+    });
+  }
 
   function searchPhotos(query, page) {
     var grid = document.getElementById('photo-grid');
@@ -333,21 +416,13 @@
     loadMore.style.display = 'none';
     if (page === 1) grid.innerHTML = '';
 
-    fetch('https://api.pexels.com/v1/search?query=' + encodeURIComponent(query) + '&orientation=landscape&per_page=9&page=' + page, {
-      headers: { 'Authorization': PEXELS_API_KEY }
-    }).then(function(r) {
-      if (!r.ok) {
-        if (r.status === 429) throw new Error('Pexels rate limit reached. The background image updater is using the API — try again in a few minutes.');
-        throw new Error('Pexels API error (HTTP ' + r.status + ')');
-      }
-      return r.json();
-    }).then(function(data) {
+    searchPhotosUnified(query, page).then(function(result) {
       loading.style.display = 'none';
-      if (!data.photos || data.photos.length === 0) {
+      if (!result.photos || result.photos.length === 0) {
         if (page === 1) noResults.style.display = 'block';
         return;
       }
-      data.photos.forEach(function(photo) {
+      result.photos.forEach(function(photo) {
         var card = document.createElement('div');
         card.style.cssText = 'cursor:pointer; border-radius:8px; overflow:hidden; border:3px solid transparent; transition:border-color 0.2s; position:relative;';
         card.innerHTML = '<img src="' + photo.src.medium + '" alt="' + (photo.alt || 'Photo').replace(/"/g, '&quot;') + '" style="width:100%; height:140px; object-fit:cover; display:block;">' +
@@ -355,11 +430,11 @@
         card.addEventListener('mouseenter', function() { card.style.borderColor = '#2c5530'; });
         card.addEventListener('mouseleave', function() { card.style.borderColor = 'transparent'; });
         card.addEventListener('click', function() {
-          selectPhoto(photo.src.large2x || photo.src.large || photo.src.original);
+          selectPhoto(photo.src.large2x || photo.src.large);
         });
         grid.appendChild(card);
       });
-      if (data.photos.length === 9) {
+      if (result.hasMore) {
         loadMore.style.display = 'block';
       }
     }).catch(function(err) {
@@ -759,31 +834,33 @@
     modalQuery = query;
     modalPage = page;
 
-    fetch('https://api.pexels.com/v1/search?query=' + encodeURIComponent(query) + '&orientation=landscape&per_page=9&page=' + page, {
-      headers: { 'Authorization': PEXELS_API_KEY }
-    }).then(function(r) {
-      if (!r.ok) {
-        if (r.status === 429) throw new Error('Pexels rate limit reached. Try again in a few minutes.');
-        throw new Error('Pexels API error (HTTP ' + r.status + ')');
-      }
-      return r.json();
-    }).then(function(data) {
+    searchPhotosUnified(query, page).then(function(result) {
       loading.style.display = 'none';
-      if (!data.photos || data.photos.length === 0) {
+      // Update attribution
+      var attrEl = document.getElementById('modal-photo-attribution');
+      if (attrEl) {
+        var src = result.activeSource || (result.photos[0] && result.photos[0].source) || 'pexels';
+        if (src === 'pixabay') {
+          attrEl.innerHTML = 'Photos by <a href="https://pixabay.com" target="_blank" rel="noopener">Pixabay</a>' + (result.fromCache === false ? '' : ' (cached)');
+        } else {
+          attrEl.innerHTML = 'Photos by <a href="https://www.pexels.com" target="_blank" rel="noopener">Pexels</a>' + (result.fromCache === false ? '' : ' (cached)');
+        }
+      }
+      if (!result.photos || result.photos.length === 0) {
         if (page === 1) noResults.style.display = 'block';
         return;
       }
-      data.photos.forEach(function(photo) {
+      result.photos.forEach(function(photo) {
         var card = document.createElement('div');
         card.className = 'modal-photo-card';
         card.innerHTML = '<img src="' + photo.src.medium + '" alt="' + (photo.alt || 'Photo').replace(/"/g, '&quot;') + '">' +
           '<div class="photo-credit">by ' + photo.photographer + '</div>';
         card.addEventListener('click', function() {
-          modalSelectPhoto(photo.src.large2x || photo.src.large || photo.src.original);
+          modalSelectPhoto(photo.src.large2x || photo.src.large);
         });
         grid.appendChild(card);
       });
-      if (data.photos.length === 9) loadMore.style.display = 'block';
+      if (result.hasMore) loadMore.style.display = 'block';
     }).catch(function(err) {
       loading.style.display = 'none';
       noResults.style.display = 'block';

@@ -16,13 +16,12 @@ try {
     git checkout -b gh-pages 2>$null | Out-Null
     
     Write-Host "=== Adding files ==="
-    git add -A 2>$null | Out-Null
+    git add -A
     
     Write-Host "=== Committing ==="
-    $commitOutput = git commit -m "Deploy site" 2>&1
+    git commit -m "Deploy site"
     if ($LASTEXITCODE -ne 0) {
         Write-Host "ERROR: git commit failed with exit code $LASTEXITCODE"
-        Write-Host $commitOutput
         exit 1
     }
     
