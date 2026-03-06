@@ -156,7 +156,6 @@
           <input type="hidden" id="image-url" value="">
           <div style="display:flex; gap:0.5rem; margin-bottom:0.5rem;">
             <select id="photo-source" style="width:auto; min-width:100px;">
-              <option value="bing">Bing</option>
               <option value="pexels">Pexels</option>
               <option value="pixabay">Pixabay</option>
               <option value="unsplash">Unsplash</option>
@@ -241,7 +240,6 @@
         </div>
         <div style="display:flex; gap:0.5rem; margin-bottom:0.75rem;">
           <select id="modal-photo-source" style="width:auto; min-width:100px;">
-            <option value="bing">Bing</option>
             <option value="pexels">Pexels</option>
             <option value="pixabay">Pixabay</option>
             <option value="unsplash">Unsplash</option>
@@ -335,7 +333,6 @@
   var PEXELS_API_KEY = 'IWb1IE0Z8Fl5VzMKFE1c4RxMoQbgSVNEeK3cSgowbDCjnugx0SWnyCt3';
   var PIXABAY_API_KEY = localStorage.getItem('pixabay_api_key') || '54917222-bd4433830443c0d361863c37a';
   var UNSPLASH_ACCESS_KEY = '58pva68jCF4yfSIJbhhiUwcJ-hptm6ptdpR_XJ88EmI';
-  var BING_API_KEY = '';
   var currentPhotoPage = 1;
   var currentPhotoQuery = '';
 
@@ -399,24 +396,6 @@
       };
     });
   }
-  function searchBing(query, page) {
-    var offset = (page - 1) * 9;
-    return fetch('https://api.bing.microsoft.com/v7.0/images/search?q=' + encodeURIComponent(query) + '&count=9&offset=' + offset + '&imageType=Photo', {
-      headers: { 'Ocp-Apim-Subscription-Key': BING_API_KEY }
-    }).then(function(r) {
-        if (r.status === 429) throw { rateLimited: true };
-        if (r.status === 401 || r.status === 403) throw new Error('Bing API key invalid or missing. Check your key.');
-        if (!r.ok) throw new Error('Bing search error');
-        return r.json();
-      }).then(function(data) {
-        return {
-          photos: (data.value || []).map(function(item) {
-            return { src: { medium: item.thumbnailUrl, large2x: item.contentUrl, large: item.contentUrl }, photographer: item.hostPageDomainFriendlyName || '', alt: item.name || 'Photo', source: 'bing' };
-          }),
-          hasMore: data.totalEstimatedMatches > (offset + 9)
-        };
-      });
-  }
   function searchPexelsAPI(query, page) {
     return fetch('https://api.pexels.com/v1/search?query=' + encodeURIComponent(query) + '&orientation=landscape&per_page=9&page=' + page, {
       headers: { 'Authorization': PEXELS_API_KEY }
@@ -438,7 +417,7 @@
     var cacheKey = source + '|' + query + '|' + page;
     var cached = getCachedSearch(cacheKey);
     if (cached) return Promise.resolve(cached);
-    var searchFn = source === 'bing' ? searchBing : (source === 'unsplash' ? searchUnsplash : (source === 'pixabay' ? searchPixabay : searchPexelsAPI));
+    var searchFn = source === 'unsplash' ? searchUnsplash : (source === 'pixabay' ? searchPixabay : searchPexelsAPI);
     return searchFn(query, page).then(function(result) {
       result.fromCache = false;
       result.activeSource = source;
