@@ -4,14 +4,14 @@ date: 2026-03-05T06:59:07-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "cake"]
-description: "Cherry cheesecake"
+description: "A show-stopping luscious cake with graham crumbs and ½ cup melted butter. Every forkful is pure, sweet indulgence — the recipe you'll be asked to share again and again."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/13749944/pexels-photo-13749944.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/213621/pexels-photo-213621.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Stella and Ben Daigle

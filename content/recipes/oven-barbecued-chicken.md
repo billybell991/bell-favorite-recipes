@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Chicken"]
 tags: ["chicken", "chicken"]
-description: "Oven barbecued chicken, broiled to perfection"
+description: "Sweet, satisfying melt-in-your-mouth squares with condensed tomato soup and worcestershire sauce. The recipe that turns a simple baking pan into a crowd-pleasing masterpiece."
 source: ""
 creditUrl: ""
 credit: ""

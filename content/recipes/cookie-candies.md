@@ -4,14 +4,14 @@ date: 2026-03-05T06:59:44-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cookies", "cookies"]
-description: "Cookie candies"
+description: "Homemade heavenly cookies with soft butter and ¾ cup icing sugar that snap, crumble, and melt exactly the way a great cookie should. Pure comfort in every bite."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/14133148/pexels-photo-14133148.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/6061611/pexels-photo-6061611.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Michelle and Jesse Webster

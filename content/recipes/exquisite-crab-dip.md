@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Appetizers"]
 tags: ["appetizers", "dip"]
-description: "Exquisite crab dip, baked to perfection"
+description: "Smooth, tangy zesty dip with pkg cream cheese and crabmeat — simple to throw together but guaranteed to be the most popular thing on the snack table."
 source: ""
 creditUrl: ""
 credit: ""

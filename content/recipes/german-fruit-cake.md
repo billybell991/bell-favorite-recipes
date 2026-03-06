@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cakes and Muffins"]
 tags: ["cakes and muffins", "cake"]
-description: "German fruit cake, baked to perfection"
+description: "Rich, tender sweet cake with pinch of salt that hits all the right notes. This is the cake that turns an ordinary day into a celebration."
 source: ""
 creditUrl: ""
 credit: ""

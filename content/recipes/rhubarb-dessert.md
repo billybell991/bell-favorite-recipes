@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Puddings"]
 tags: ["puddings"]
-description: "Golden brown, golden, Rhubarb Dessert, baked to perfection"
+description: "A pan of indulgent squares with ½ tsp salt and ¼ cup milk that's dangerously easy to make and even more dangerous to leave unattended on the counter."
 source: ""
 creditUrl: ""
 credit: ""

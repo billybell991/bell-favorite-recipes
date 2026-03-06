@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Breads"]
 tags: ["breads", "bread"]
-description: "Fluffy, cranberry christmas gingerbread, baked to perfection"
+description: "Warm, homemade toasty bread with sifted all-purpose flour and ground ginger — crusty on the outside, pillowy soft on the inside, and impossible to eat just one slice."
 source: ""
 creditUrl: ""
 credit: ""

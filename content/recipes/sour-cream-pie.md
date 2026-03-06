@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pies"]
 tags: ["pies"]
-description: "Sour Cream Pie, baked to perfection"
+description: "A beautiful sweet pie with thick sour cream and ½ cup sugar with a buttery crust and a filling so good you'll want to eat it by the spoonful."
 source: ""
 creditUrl: ""
 credit: ""

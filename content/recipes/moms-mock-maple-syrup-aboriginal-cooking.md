@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Native Cuisine"]
 tags: ["native cuisine"]
-description: "Mom’s Mock Maple Syrup, simmered to perfection"
+description: "Flavorful, satisfying satisfying comfort food with brown sugar and margarine or butter. The kind of recipe that gets dog-eared in the cookbook and passed down through generations."
 source: ""
 creditUrl: ""
 credit: ""

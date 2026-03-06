@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Miscellaneous"]
 tags: ["miscellaneous"]
-description: "Herbed Lemon Marinade – for Fish, Steaks, Scallops or Shrimp, grilled to perfection"
+description: "A rich, flavorful savory sauce with ¼ cup vegetable oil and ¼ cup realemon lemon juice that transforms anything it touches. The secret weapon every kitchen needs."
 source: ""
 creditUrl: ""
 credit: ""

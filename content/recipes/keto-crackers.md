@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:44-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["keto"]
-description: "Crispy, crackers"
+description: "Rich, flavorful rustic keto creation with almond flour and grated parmesan that doesn't sacrifice an ounce of taste for staying low-carb."
 source: ""
 creditUrl: ""
 credit: ""

@@ -4,14 +4,14 @@ date: 2026-03-05T07:00:14-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["meat", "chicken"]
-description: "Tender, chicken parmesan, baked to perfection"
+description: "Tender, perfectly seasoned robust chicken with boneless and ¼ cup parmesan cheese — proof that a great chicken dinner never goes out of style."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/13443376/pexels-photo-13443376.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/31064273/pexels-photo-31064273.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Charlene and Leonard Gillis

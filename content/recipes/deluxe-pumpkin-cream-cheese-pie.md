@@ -4,7 +4,7 @@ date: 2026-03-05T07:00:47-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["pastrypies", "pie"]
-description: "Deluxe pumpkin cream cheese pie, baked to perfection"
+description: "Homemade luscious pie with large pkg cream cheese and ½ cup white sugar. Golden crust, gorgeous filling, and the kind of satisfaction only a from-scratch pie can deliver."
 source: ""
 creditUrl: ""
 credit: ""

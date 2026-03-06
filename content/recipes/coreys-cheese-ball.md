@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Appetizers"]
 tags: ["appetizers"]
-description: "Corey's cheese ball"
+description: "A delicious homemade robust recipe with pkg cream cheese and ½ jar cheez whiz cheese — simple enough for any night of the week but special enough to remember."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/33434020/pexels-photo-33434020.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/35017894/pexels-photo-35017894.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pickles"]
 tags: ["pickles"]
-description: "Easy Peach-pear Salsa, simmered to perfection"
+description: "Smooth, tangy garden-fresh dip with l coarsely chopped peeled peaches and l chopped peeled pears — simple to throw together but guaranteed to be the most popular thing on the snack table."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7790871/pexels-photo-7790871.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/28956908/pexels-photo-28956908.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

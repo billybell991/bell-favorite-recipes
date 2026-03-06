@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:02-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["beef", "stew"]
-description: "Beef stew, simmered to perfection"
+description: "Rustic bold stew loaded with cubed beef stew meat, vegetable oil, and cubes beef bouillon, simmered until the kitchen fills with the most incredible aroma. Serve it with crusty bread and call it a perfect night."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cookies"]
 tags: ["cookies", "cookies"]
-description: "Rolled cut-out sugar cookies, baked to perfection"
+description: "Warm from the oven and loaded with butter or shortening, ¼ tsp salt, and vanilla or lemon extract, these luscious cookies are the ones everyone reaches for first at the bake sale."
 source: ""
 creditUrl: ""
 credit: ""

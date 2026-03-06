@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Carnation Five-minute Fudge, perfect for any occasion"
+description: "Melt-in-your-mouth sweet fudge loaded with granulated sugar, evaporated milk, and ½ tsp salt. A holiday tradition that disappears faster than you can box it up."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/12364904/pexels-photo-12364904.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/9501672/pexels-photo-9501672.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Desserts"]
 tags: ["desserts"]
-description: "Date squares, baked to perfection"
+description: "Sweet, satisfying luscious squares with of flour and of brown sugar. The recipe that turns a simple baking pan into a crowd-pleasing masterpiece."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1548976/pexels-photo-1548976.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5194464/pexels-photo-5194464.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

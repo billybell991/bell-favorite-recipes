@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Breads"]
 tags: ["breads"]
-description: "Bacon corn and cheddar bay biscuits, baked to perfection"
+description: "Soft, golden warm rolls with milted shortening or melted bacon fat and ½ tsp salt that pull apart like a dream. Perfect alongside any meal or slathered with butter straight from the oven."
 source: ""
 creditUrl: ""
 credit: ""

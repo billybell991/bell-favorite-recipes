@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Meat"]
 tags: ["meat"]
-description: "Batter franks"
+description: "Homemade rustic goodness with ½ cup milk and bisquick — made from scratch with real ingredients and a whole lot of love. This one's a keeper."
 source: ""
 creditUrl: ""
 credit: ""

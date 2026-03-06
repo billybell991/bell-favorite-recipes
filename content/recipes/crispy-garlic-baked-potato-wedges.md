@@ -4,14 +4,14 @@ date: 2026-03-05T06:54:10-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["potatoes"]
-description: "Crispy, crispy garlic baked potato wedges"
+description: "Hearty bold casserole packed with large russet potatoes, olive oil, and minced garlic — the ultimate one-dish dinner. Pop it in the oven and let it do all the work."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8250190/pexels-photo-8250190.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/18177341/pexels-photo-18177341.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

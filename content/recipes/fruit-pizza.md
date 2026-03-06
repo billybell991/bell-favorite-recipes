@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Golden brown, golden, Fruit Pizza, baked to perfection"
+description: "Homemade satisfying pizza loaded with variety of fruit, topping:, and crust:. Golden crust, melty cheese, and the satisfaction of making it yourself."
 source: ""
 creditUrl: ""
 credit: ""

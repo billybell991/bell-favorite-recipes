@@ -4,14 +4,14 @@ date: 2026-03-05T06:54:07-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["cookies"]
-description: "Fluffy, chewy chocolate cookies, baked to perfection"
+description: "Decadent cookies packed with vanilla extract, unsweetened cocoa powder, and semisweet chocolate chips — the kind you bake a double batch of because the first one disappears before they've cooled."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1342295/pexels-photo-1342295.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/10977081/pexels-photo-10977081.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

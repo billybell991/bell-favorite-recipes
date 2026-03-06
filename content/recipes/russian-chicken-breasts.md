@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Chicken"]
 tags: ["chicken", "chicken"]
-description: "Russian chicken breasts, baked to perfection"
+description: "Crispy-skinned, robust chicken with vegetable oil and small boneless skinless chicken breast halves cooked until golden and irresistible. This is the recipe that makes chicken exciting again."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Meat"]
 tags: ["meat"]
-description: "Barbecued spareribs, baked to perfection"
+description: "Rich, chewy sweet squares packed with spareribs, ¼ cup vinegar, and sliced onions. Cut them small because they're decadent, or cut them big because life is short."
 source: ""
 creditUrl: ""
 credit: ""

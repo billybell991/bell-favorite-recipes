@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Soups"]
 tags: ["soups"]
-description: "Smooth, Lena Langevin Creamy Potato Soup, warm and satisfying"
+description: "Hearty, comforting soup loaded with medium potatoes, small onion, and slices processed cheese. Ladle it into big bowls, grab some crusty bread, and settle in for the evening."
 source: ""
 creditUrl: ""
 credit: ""

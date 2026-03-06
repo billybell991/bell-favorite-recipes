@@ -4,14 +4,14 @@ date: 2026-03-05T06:54:12-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["salad"]
-description: "Dad's creamy cucumber salad"
+description: "A bright, crisp fresh salad with large cucumbers and sweet onion — fresh, colorful, and bursting with flavor. The side dish that steals the show."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4101804/pexels-photo-4101804.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/1059905/pexels-photo-1059905.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

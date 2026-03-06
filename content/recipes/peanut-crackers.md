@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Peanut Crackers, perfect for any occasion"
+description: "Homemade rustic goodness with ½ cup maple syrup and ½ cup peanut butter — made from scratch with real ingredients and a whole lot of love. This one's a keeper."
 source: ""
 creditUrl: ""
 credit: ""

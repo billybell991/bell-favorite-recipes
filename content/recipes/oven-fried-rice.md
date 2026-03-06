@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Casseroles"]
 tags: ["casseroles", "rice"]
-description: "Oven fried rice, baked to perfection"
+description: "Fluffy, fragrant robust rice with uncooked long grain rice and soya sauce — every grain perfectly cooked and packed with flavor. The side dish that steals the spotlight."
 source: ""
 creditUrl: ""
 credit: ""

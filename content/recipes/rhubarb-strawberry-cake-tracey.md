@@ -4,7 +4,7 @@ date: 2026-03-05T06:52:45-05:00
 draft: false
 categories: ["Family Recipes"]
 tags: ["cake"]
-description: "Crispy, rhubarb strawberry cake, baked to perfection"
+description: "Tracey's spring-into-summer masterpiece — a thick, jammy layer of strawberries and rhubarb tucked beneath a buttery oat crumble that bakes up golden and crispy. Tart, sweet, and gone before it cools."
 source: ""
 creditUrl: ""
 credit: ""

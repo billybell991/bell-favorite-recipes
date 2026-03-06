@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Salads and Dressings"]
 tags: ["salads and dressings"]
-description: "Patty Bartlett’s Noodle Salad, sautéed to perfection"
+description: "Irresistible melt-in-your-mouth squares with pkg ramen noodles and vinegar — layer upon layer of sweetness that cut into perfect little treats for sharing (or not sharing)."
 source: ""
 creditUrl: ""
 credit: ""

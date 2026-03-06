@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:36-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["keto"]
-description: "Easy  cordon bleu, baked to perfection"
+description: "Rich, flavorful bold keto creation with crumb topping and pork rinds that doesn't sacrifice an ounce of taste for staying low-carb."
 source: ""
 creditUrl: ""
 credit: ""

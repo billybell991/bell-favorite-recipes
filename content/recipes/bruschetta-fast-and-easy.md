@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Appetizers"]
 tags: ["appetizers"]
-description: "Bruschetta fast and easy, simmered to perfection"
+description: "A delicious homemade comforting recipe with or 796 ml can diced tomatoes and medium onion — simple enough for any night of the week but special enough to remember."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/2532006/pexels-photo-2532006.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/342230/pexels-photo-342230.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

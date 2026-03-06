@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Appetizers"]
 tags: ["appetizers"]
-description: "Nutty cheese ball"
+description: "A tried-and-true satisfying recipe with ½ lb grated med. cheddar cheese and ½ cup milk that proves the best meals don't need to be complicated — just made with care."
 source: ""
 creditUrl: ""
 credit: ""

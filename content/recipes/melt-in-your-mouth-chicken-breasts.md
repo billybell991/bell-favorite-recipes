@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:36-05:00
 draft: false
 categories: ["Weight Watchers"]
 tags: ["chicken"]
-description: "Melt in your mouth chicken breasts, baked to perfection"
+description: "Crispy-skinned, satisfying chicken with boneless chicken breasts and greek yogurt cooked until golden and irresistible. This is the recipe that makes chicken exciting again."
 source: ""
 creditUrl: ""
 credit: ""

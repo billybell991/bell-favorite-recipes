@@ -4,14 +4,14 @@ date: 2026-03-05T06:52:43-05:00
 draft: false
 categories: ["Family Recipes"]
 tags: []
-description: "Nougat candy, simmered to perfection"
+description: "Tracey's no-bake holiday showstopper — creamy white chocolate and melted marshmallows folded around chewy baking gumdrops, pressed into a log, and sliced into jewel-studded rounds. Like biting into a sweet, pillowy cloud full of candy surprises."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/2377471/pexels-photo-2377471.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/31140618/pexels-photo-31140618.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

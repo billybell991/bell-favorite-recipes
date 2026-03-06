@@ -4,7 +4,7 @@ date: 2026-03-05T07:01:04-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["pasta", "pasta"]
-description: "Poor man's pasta"
+description: "Tender pasta tossed with macaroni and cheese dust in a bold sauce that coats every strand. This is the dinner everyone asks for twice in one week."
 source: ""
 creditUrl: ""
 credit: ""

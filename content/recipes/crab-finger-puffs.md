@@ -4,14 +4,14 @@ date: 2026-03-05T06:58:48-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["appetizers"]
-description: "Crab finger puffs"
+description: "Crispy on the outside, melt-in-your-mouth tender inside — this comforting fish with light cream cheese and grated onion is weeknight fancy at its absolute best."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6185760/pexels-photo-6185760.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/8351888/pexels-photo-8351888.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Nancy and Mike Potvin

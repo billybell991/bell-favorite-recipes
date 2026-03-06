@@ -4,7 +4,7 @@ date: 2026-03-05T07:01:02-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["pasta"]
-description: "Tender, penné with italian sausage, tomato, and herbs, simmered to perfection"
+description: "Homemade satisfying goodness with hot or medium italian sausages and penné or corkscrew-shaped pasta — made from scratch with real ingredients and a whole lot of love. This one's a keeper."
 source: ""
 creditUrl: ""
 credit: ""

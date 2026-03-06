@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Native Cuisine"]
 tags: ["native cuisine"]
-description: "Pork Cassoulet, baked to perfection"
+description: "Rustic rustic stew loaded with cook time:- 1 hr. & 15 min., prep. time:- 10 min., and pork loin or sirloin roast, simmered until the kitchen fills with the most incredible aroma. Serve it with crusty bread and call it a perfect night."
 source: ""
 creditUrl: ""
 credit: ""

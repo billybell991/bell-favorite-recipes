@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Casseroles"]
 tags: ["casseroles"]
-description: "Golden brown and creamy, lazy man's perogies"
+description: "Flavorful, satisfying hearty comfort food with medium-sized potatoes and cheddar cheese. The kind of recipe that gets dog-eared in the cookbook and passed down through generations."
 source: ""
 creditUrl: ""
 credit: ""

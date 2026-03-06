@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Warm, Rocky Road Fudge, chilled to perfection"
+description: "Velvety heavenly fudge with chocolate chips and eagle brand milk — rich, dense, and indulgent. Cut into tiny squares because a little goes a long, long way."
 source: ""
 creditUrl: ""
 credit: ""

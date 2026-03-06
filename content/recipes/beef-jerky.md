@@ -4,14 +4,14 @@ date: 2026-03-05T06:54:44-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: ["beef"]
-description: "Beef jerky"
+description: "Rich, savory bold beef with soy sauce and tbs brown sugar — fork-tender and packed with deep, beefy flavor. Comfort food at its finest."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/16569553/pexels-photo-16569553.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/16569552/pexels-photo-16569552.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 - 1/3 Cup soy sauce

@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:29-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares"]
-description: "Sucre a creme"
+description: "A delicious homemade comforting recipe with tasses de sucre brun and tasses de sucre blanc — simple enough for any night of the week but special enough to remember."
 source: ""
 creditUrl: ""
 credit: ""

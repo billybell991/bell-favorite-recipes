@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:48-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cookies"]
-description: "Refrigerator balls"
+description: "A tried-and-true bold recipe with of eaglebrand and miniature marshmallows that proves the best meals don't need to be complicated — just made with care."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Casseroles"]
 tags: ["casseroles"]
-description: "Bubbly, noodles al forno napolitana, baked to perfection"
+description: "A comforting bowl of hearty pasta with broad egg noodles and can tomato sauce — saucy, satisfying, and ready to become a weeknight staple."
 source: ""
 creditUrl: ""
 credit: ""

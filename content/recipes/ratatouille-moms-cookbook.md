@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Vegetables"]
 tags: ["vegetables"]
-description: "Ratatouille, a delicious side dish"
+description: "Homemade satisfying goodness with about ½ cup olive oil and large onions — made from scratch with real ingredients and a whole lot of love. This one's a keeper."
 source: ""
 creditUrl: ""
 credit: ""

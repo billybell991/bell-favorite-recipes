@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Breads"]
 tags: ["breads"]
-description: "Doughnuts"
+description: "Flavorful, satisfying satisfying comfort food with ½ cup less 1 tbsp soft butter and sifted all-purpose flour. The kind of recipe that gets dog-eared in the cookbook and passed down through generations."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/908177/pexels-photo-908177.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/8477746/pexels-photo-8477746.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

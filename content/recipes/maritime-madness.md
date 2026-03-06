@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Casseroles"]
 tags: ["casseroles"]
-description: "Maritime madness, baked to perfection"
+description: "A delicious homemade savory recipe with ground beef and tin mushroom soup — simple enough for any night of the week but special enough to remember."
 source: ""
 creditUrl: ""
 credit: ""

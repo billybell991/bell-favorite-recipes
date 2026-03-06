@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:42-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: []
-description: "Basic waffles"
+description: "Fluffy, golden melt-in-your-mouth stacks with granulated sugar and reduced-fat milk — griddle-kissed and ready for a cascade of syrup. Weekend mornings were made for these."
 source: ""
 creditUrl: ""
 credit: ""

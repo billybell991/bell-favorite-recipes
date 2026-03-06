@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:30-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: []
-description: "Turkey stuffing burgers"
+description: "Rich, savory rustic beef with beaten egg and stove top stuffing mix — fork-tender and packed with deep, beefy flavor. Comfort food at its finest."
 source: ""
 creditUrl: ""
 credit: ""

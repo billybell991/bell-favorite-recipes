@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Breads"]
 tags: ["breads", "bread"]
-description: "Cheese bread, baked to perfection"
+description: "Homemade fragrant bread with ½ cup chopped onion and ½ cup milk that's surprisingly simple and outrageously delicious. Proof that the best things in life are warm and carb-filled."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/12664810/pexels-photo-12664810.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/10058789/pexels-photo-10058789.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Credit for this recipe goes to Table Treasures.

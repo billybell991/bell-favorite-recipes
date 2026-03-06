@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Salads and Dressings"]
 tags: ["salads and dressings"]
-description: "Smooth, Seven-up Salad, chilled to perfection"
+description: "A vibrant zesty salad with ½ bag marshmallows and large pkg lime jello that brings crunch, color, and flavor to any table. This one earns its spot next to the main course."
 source: ""
 creditUrl: ""
 credit: ""

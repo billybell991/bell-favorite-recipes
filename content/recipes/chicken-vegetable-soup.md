@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes", "chicken", "soup"]
-description: "Chicken vegetable soup, simmered to perfection"
+description: "Steaming bowls of bold soup packed with sliced carrot, chicken-flavored bouillon granules, and can mushroom stems and pieces. The recipe you reach for when the weather turns and comfort is non-negotiable."
 source: ""
 creditUrl: ""
 credit: ""

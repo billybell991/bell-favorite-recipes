@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:57-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["dips", "dip"]
-description: "Taco dip"
+description: "Smooth, tangy zesty dip with of cream cheese and envelope of taco seasoning — simple to throw together but guaranteed to be the most popular thing on the snack table."
 source: ""
 creditUrl: ""
 credit: ""

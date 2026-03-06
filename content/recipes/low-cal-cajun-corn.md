@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Low-cal Cajun Corn, perfect for any occasion"
+description: "Savory, colorful crisp vegetables — proof that the humble veggie side can absolutely steal the show."
 source: ""
 creditUrl: ""
 credit: ""

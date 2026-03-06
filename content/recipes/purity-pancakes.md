@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Breads"]
 tags: ["breads", "cake"]
-description: "Golden brown, purity pancakes, baked to perfection"
+description: "Fluffy, golden decadent stacks with – 2 tbsp sugar and beaten egg — griddle-kissed and ready for a cascade of syrup. Weekend mornings were made for these."
 source: ""
 creditUrl: ""
 credit: ""

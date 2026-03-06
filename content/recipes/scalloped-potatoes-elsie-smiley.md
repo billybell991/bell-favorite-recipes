@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Vegetables"]
 tags: ["vegetables"]
-description: "Scalloped Potatoes, baked to perfection"
+description: "Rich, buttery comforting potatoes loaded with raw potatoes, cream of mushroom soup or, and to 4 tbsp butter. Comfort food doesn't get much more comforting than this."
 source: ""
 creditUrl: ""
 credit: ""

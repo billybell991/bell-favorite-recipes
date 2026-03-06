@@ -4,7 +4,7 @@ date: 2026-03-05T06:52:51-05:00
 draft: false
 categories: ["Friends Recipes"]
 tags: ["salad", "pasta"]
-description: "Pasta salad"
+description: "A bright, crisp fresh salad with vinegar and concentrated orange juice — fresh, colorful, and bursting with flavor. The side dish that steals the show."
 source: ""
 creditUrl: ""
 credit: ""

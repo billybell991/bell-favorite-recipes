@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Crispy Chews, chilled to perfection"
+description: "Warm, heavenly dessert with brown sugar and rice krispies — golden and bubbling on top, tender and fruity underneath. Best served with a scoop of ice cream."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/2377471/pexels-photo-2377471.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/12317262/pexels-photo-12317262.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

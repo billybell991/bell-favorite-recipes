@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cake Frosting"]
 tags: ["cake frosting"]
-description: "Fluffy, marshmallow frosting"
+description: "Silky, sweet decadent frosting with granulated sugar and pinch of cream of tartar that spreads like a dream and makes any cake or cupcake irresistible."
 source: ""
 creditUrl: ""
 credit: ""

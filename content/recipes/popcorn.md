@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:16-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: []
-description: "Popcorn, sautéed to perfection"
+description: "Savory, colorful crisp vegetables with of coconut oil and of butter — proof that the humble veggie side can absolutely steal the show."
 source: ""
 creditUrl: ""
 credit: ""

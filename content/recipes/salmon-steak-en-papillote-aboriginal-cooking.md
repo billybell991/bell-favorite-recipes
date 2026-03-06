@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Native Cuisine"]
 tags: ["native cuisine"]
-description: "Salmon Steak “en Papillote”, a treasured traditional recipe"
+description: "A robust comforting beef dinner with for oven or bbq and marinade: that's big on flavor and bigger on satisfaction. The entrée everyone remembers."
 source: ""
 creditUrl: ""
 credit: ""

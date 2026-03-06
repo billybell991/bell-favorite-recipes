@@ -4,14 +4,14 @@ date: 2026-03-05T06:53:34-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["bread"]
-description: "Golden brown, cloud bread, baked to perfection"
+description: "Freshly baked golden-brown bread with cream cheese and cream of tartar that fills the kitchen with the most incredible aroma. The kind of recipe that makes you wonder why you ever bought store-bought."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1383908/pexels-photo-1383908.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/13806702/pexels-photo-13806702.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

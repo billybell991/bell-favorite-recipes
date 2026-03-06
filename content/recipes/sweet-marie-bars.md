@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Sweet Marie Bars, perfect for any occasion"
+description: "Rich, chewy indulgent squares packed with melt over heat:, ½ cup corn syrup, and ½ cup peanut butter. Cut them small because they're decadent, or cut them big because life is short."
 source: ""
 creditUrl: ""
 credit: ""

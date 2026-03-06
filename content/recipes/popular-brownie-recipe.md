@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Squares"]
 tags: ["squares"]
-description: "Smooth, Popular Brownie Recipe, baked to perfection"
+description: "A tried-and-true robust recipe with ½ cup cocoa and ¼ cup cold water that proves the best meals don't need to be complicated — just made with care."
 source: ""
 creditUrl: ""
 credit: ""

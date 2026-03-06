@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:42-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: []
-description: "Banana butter"
+description: "Homemade rustic goodness with mashed banana and canned crushed pineapple — made from scratch with real ingredients and a whole lot of love. This one's a keeper."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Vegetables"]
 tags: ["vegetables"]
-description: "Korny Spuds, baked to perfection"
+description: "A tried-and-true comforting recipe with potatoes and corn flakes that proves the best meals don't need to be complicated — just made with care."
 source: ""
 creditUrl: ""
 credit: ""

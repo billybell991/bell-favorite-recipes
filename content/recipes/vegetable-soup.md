@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:59-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: ["soup"]
-description: "Vegetable soup"
+description: "Rich, comforting rustic soup with tomato juice and large onion that's like a warm hug on a cold day. One pot, minimal effort, maximum satisfaction."
 source: ""
 creditUrl: ""
 credit: ""

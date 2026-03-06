@@ -4,14 +4,14 @@ date: 2026-03-05T06:54:47-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: ["muffins"]
-description: "Chocolate chip banana muffins"
+description: "Tender, domed rich muffins bursting with chocolate chips, ripe bananas, and these were pretty good! 4 out of 10 — the kind that make weekday mornings feel like a treat."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/34275122/pexels-photo-34275122.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/4051555/pexels-photo-4051555.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Dry Mixture:

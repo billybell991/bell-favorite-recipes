@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Meat"]
 tags: ["meat", "pork"]
-description: "Crispy and tender, aloha sweet & sour pork, fried to perfection"
+description: "Succulent rustic pork with lean boneless pork chops and clove garlic — slow-cooked (or quickly seared) to melt-in-your-mouth perfection. Every bite is a flavor bomb."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5848495/pexels-photo-5848495.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/7333262/pexels-photo-7333262.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 - 1 lb lean boneless pork chops, cut into thin strips

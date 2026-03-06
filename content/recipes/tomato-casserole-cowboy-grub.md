@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Vegetables"]
 tags: ["vegetables"]
-description: "Tomato Casserole, baked to perfection"
+description: "Tangy, savory comforting sauce with slices buttered bread and tin tomatoes. Drizzle it, dip it, pour it — this one makes everything taste better."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Vegetables"]
 tags: ["vegetables"]
-description: "Potato Pizza, a delicious side dish"
+description: "Homemade rustic pizza loaded with simple, honest ingredients. Golden crust, melty cheese, and the satisfaction of making it yourself."
 source: ""
 creditUrl: ""
 credit: ""

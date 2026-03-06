@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:39-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["soup", "keto"]
-description: "Tender, butternut squash soup, simmered to perfection"
+description: "Hearty, robust soup loaded with butternut squash peeled, cupsbroth, and frozen cauliflower thawed & cooked until soft. Ladle it into big bowls, grab some crusty bread, and settle in for the evening."
 source: ""
 creditUrl: ""
 credit: ""

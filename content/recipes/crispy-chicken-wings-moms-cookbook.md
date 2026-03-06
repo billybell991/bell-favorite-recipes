@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Appetizers"]
 tags: ["appetizers", "chicken"]
-description: "Crispy chicken wings, baked to perfection"
+description: "Juicy, flavorful robust chicken with chicken wings and ½ cup melted butter or margarine — golden on the outside, tender all the way through. The kind of dinner that earns a round of applause."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/35267276/pexels-photo-35267276.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/30648982/pexels-photo-30648982.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

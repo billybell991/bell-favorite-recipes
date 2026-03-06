@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Breads"]
 tags: ["breads", "bread", "rice"]
-description: "Tender and bubbly, wild rice many-grain bread, baked to perfection"
+description: "Freshly baked golden-brown bread with ½ cup wild rice and granulated sugar that fills the kitchen with the most incredible aroma. The kind of recipe that makes you wonder why you ever bought store-bought."
 source: ""
 creditUrl: ""
 credit: ""

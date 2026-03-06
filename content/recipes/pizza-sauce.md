@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Miscellaneous"]
 tags: ["miscellaneous"]
-description: "Pizza Sauce, a family favorite"
+description: "Homemade satisfying sauce with tin 213-ml tomato sauce and ½ tsp dried basil — so much better than store-bought that you'll never go back to the bottle."
 source: ""
 creditUrl: ""
 credit: ""

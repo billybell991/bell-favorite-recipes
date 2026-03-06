@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cake Frosting"]
 tags: ["cake frosting"]
-description: "Fluffy chocolate frosting"
+description: "Rich, creamy heavenly frosting with icing sugar and ¼ tsp salt — the finishing touch that turns good baking into something spectacular."
 source: ""
 creditUrl: ""
 credit: ""

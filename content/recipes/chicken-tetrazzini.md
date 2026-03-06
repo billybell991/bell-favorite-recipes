@@ -4,14 +4,14 @@ date: 2026-03-05T07:01:01-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["pasta", "chicken"]
-description: "Golden brown, chicken tetrazzini, baked to perfection"
+description: "Juicy, flavorful robust chicken with boiling fowl and a few stalks of celery — golden on the outside, tender all the way through. The kind of dinner that earns a round of applause."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/20241835/pexels-photo-20241835.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Christine Shank

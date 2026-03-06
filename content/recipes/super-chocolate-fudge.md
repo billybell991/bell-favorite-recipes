@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Smooth, Super Chocolate Fudge, perfect for any occasion"
+description: "Velvety luscious fudge with semi-sweet chocolate chips and eagle brand milk — rich, dense, and indulgent. Cut into tiny squares because a little goes a long, long way."
 source: ""
 creditUrl: ""
 credit: ""

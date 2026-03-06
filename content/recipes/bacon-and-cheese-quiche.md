@@ -4,14 +4,14 @@ date: 2026-03-05T06:54:40-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: []
-description: "Bacon and cheese quiche"
+description: "Homemade luscious pie with bacon slices and finely chopped onion. Golden crust, gorgeous filling, and the kind of satisfaction only a from-scratch pie can deliver."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/288264/pexels-photo-288264.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5419317/pexels-photo-5419317.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 - 8 bacon slices, diced

@@ -4,7 +4,7 @@ date: 2026-03-05T07:00:20-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["meat"]
-description: "Gord's homemade jerky"
+description: "A tried-and-true bold recipe with ½ kg meat and soya sauce that proves the best meals don't need to be complicated — just made with care."
 source: ""
 creditUrl: ""
 credit: ""

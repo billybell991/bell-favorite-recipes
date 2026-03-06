@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Appetizers"]
 tags: ["appetizers", "dip"]
-description: "Loney's express dip"
+description: "Creamy, addictive bright dip with sour cream and pouch loney’s onion soup mix — set it out with chips or veggies and watch it disappear before the party even starts."
 source: ""
 creditUrl: ""
 credit: ""

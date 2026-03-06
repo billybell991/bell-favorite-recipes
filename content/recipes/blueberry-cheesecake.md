@@ -4,14 +4,14 @@ date: 2026-03-05T06:59:03-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "cake"]
-description: "Blueberry cheesecake"
+description: "Rich, tender indulgent cake with ½ cup butter and graham crumbs that hits all the right notes. This is the cake that turns an ordinary day into a celebration."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7710242/pexels-photo-7710242.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/6133326/pexels-photo-6133326.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Joanne and Greg Craig

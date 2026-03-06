@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pies"]
 tags: ["pies"]
-description: "Impossible Lasagne Pie, baked to perfection"
+description: "Classic sweet pie with creamed cottage cheese and ground beef — every slice is a perfect balance of flaky pastry and luscious filling. Save room for seconds."
 source: ""
 creditUrl: ""
 credit: ""

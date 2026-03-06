@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:19-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: []
-description: "Stuffed cabbage casserole"
+description: "A bubbly, golden satisfying casserole with ground beef or ground sausage and c beef broth — layers of comfort baked until the top is crispy and the inside is meltingly good."
 source: ""
 creditUrl: ""
 credit: ""

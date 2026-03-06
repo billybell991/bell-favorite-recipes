@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:17-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "cake"]
-description: "Ice box cake"
+description: "Homemade heavenly cake with marshmallows and graham wafers that rises tall, stays unbelievably moist, and tastes like it took way more effort than it actually did."
 source: ""
 creditUrl: ""
 credit: ""

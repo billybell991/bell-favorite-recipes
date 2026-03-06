@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pickles"]
 tags: ["pickles"]
-description: "Tender, smooth, Mustard Bean Pickles, a classic homemade preserve"
+description: "Homemade bold preserves that capture the season in a jar. Better than anything on the store shelf and made with love."
 source: ""
 creditUrl: ""
 credit: ""

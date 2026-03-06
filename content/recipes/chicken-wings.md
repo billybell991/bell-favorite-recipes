@@ -4,14 +4,14 @@ date: 2026-03-05T06:53:04-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["chicken"]
-description: "Crispy, chicken wings, steamed to perfection"
+description: "Juicy, flavorful robust chicken with chicken wings about 12 wings and tbs taco seasoning — golden on the outside, tender all the way through. The kind of dinner that earns a round of applause."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/29908653/pexels-photo-29908653.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/7041784/pexels-photo-7041784.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ### Ingredients

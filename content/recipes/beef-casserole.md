@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Casseroles"]
 tags: ["casseroles", "beef"]
-description: "Beef casserole"
+description: "Warm, satisfying robust casserole with stewing beef and dry onion soup mix that feeds a crowd and tastes even better the next day. The definition of comfort food."
 source: ""
 creditUrl: ""
 credit: ""

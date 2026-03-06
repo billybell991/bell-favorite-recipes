@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Peanut Butter Marshmallow Goodies, chilled to perfection"
+description: "Homemade rustic goodness with peanut butter and ½ cup butter of margarine — made from scratch with real ingredients and a whole lot of love. This one's a keeper."
 source: ""
 creditUrl: ""
 credit: ""

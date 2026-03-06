@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pickles"]
 tags: ["pickles"]
-description: "Bread & Butter Pickles, a classic homemade preserve"
+description: "Homemade fragrant bread with cukes and rinse in cold water that's surprisingly simple and outrageously delicious. Proof that the best things in life are warm and carb-filled."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1565982/pexels-photo-1565982.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/8957090/pexels-photo-8957090.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

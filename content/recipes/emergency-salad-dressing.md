@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Salads and Dressings"]
 tags: ["salads and dressings"]
-description: "Emergency Salad Dressing, fresh and vibrant"
+description: "Crunchy, refreshing vibrant salad tossed with l tsp paprika, l/3 cup sugar, and lemon juice. Light enough for summer, hearty enough to stand on its own."
 source: ""
 creditUrl: ""
 credit: ""

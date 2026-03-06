@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:13-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["instant pot"]
-description: "Spaghetti squash"
+description: "A comforting bowl of savory pasta with medium spaghetti squash — saucy, satisfying, and ready to become a weeknight staple."
 source: ""
 creditUrl: ""
 credit: ""

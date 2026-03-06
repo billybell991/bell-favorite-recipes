@@ -3,6 +3,20 @@
   <div class="container">
     <h1>{{ .Title }}</h1>
 
+    {{/* Category intro/description from data/categories.yaml */}}
+    {{ $catSlug := .Title | urlize }}
+    {{ $catData := index .Site.Data.categories $catSlug }}
+    {{ with $catData }}
+    <div class="category-intro">
+      {{ with .image }}
+      <div class="category-intro-image">
+        <img src="{{ . | relURL }}" alt="">
+      </div>
+      {{ end }}
+      <p class="category-intro-text">{{ .description }}</p>
+    </div>
+    {{ end }}
+
     {{/* Check if this is Mom's Cookbook (has subcategories) */}}
     {{ if eq .Title "Mom's Cookbook" }}
     {{/* Show subcategory cards as links to separate pages */}}

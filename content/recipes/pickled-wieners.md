@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Appetizers"]
 tags: ["appetizers"]
-description: "Pickled wieners, simmered to perfection"
+description: "Old-fashioned hearty pickles with ” wieners or equivalent in smoked or polish sausage or pepperoni or knockwurst and white vinegar — crisp, tangy, and made the way grandma did it. Fill the pantry and count the days until they're ready."
 source: ""
 creditUrl: ""
 credit: ""

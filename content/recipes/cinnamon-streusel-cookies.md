@@ -4,14 +4,14 @@ date: 2026-03-05T06:53:57-05:00
 draft: false
 categories: ["Maya's Recipes"]
 tags: ["cookies"]
-description: "Fluffy, cinnamon streusel cookies, baked to perfection"
+description: "Perfectly sweet cookies studded with softened butter, vegetable oil, and brown sugar. Simple enough for a Tuesday, special enough for a holiday platter."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1740903/pexels-photo-1740903.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/1740898/pexels-photo-1740898.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

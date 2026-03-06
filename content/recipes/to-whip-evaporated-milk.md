@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Miscellaneous"]
 tags: ["miscellaneous"]
-description: "To Whip Evaporated Milk, a family favorite"
+description: "Homemade rustic goodness — made from scratch with real ingredients and a whole lot of love. This one's a keeper."
 source: ""
 creditUrl: ""
 credit: ""

@@ -4,7 +4,7 @@ date: 2026-03-05T07:01:15-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["salads"]
-description: "Good coleslaw"
+description: "A bright, crisp bright salad with medium cabbage and medium onion — fresh, colorful, and bursting with flavor. The side dish that steals the show."
 source: ""
 creditUrl: ""
 credit: ""

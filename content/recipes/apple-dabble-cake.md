@@ -4,14 +4,14 @@ date: 2026-03-05T06:54:39-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: ["cake"]
-description: "Apple dabble cake"
+description: "A stunning rich cake with vegetable oil and cinnamon — moist layers, rich flavor, and the kind of crumb that makes you close your eyes mid-bite."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/18403952/pexels-photo-18403952.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5662080/pexels-photo-5662080.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 - 2 cups sugar

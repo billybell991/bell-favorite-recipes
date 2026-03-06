@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cakes and Muffins"]
 tags: ["cakes and muffins", "cake"]
-description: "Double strawberry sheet cake, baked to perfection"
+description: "This decadent cake with strawberry cake mix and strawberry jello is the one people request by name. Tender, flavorful, and gorgeous enough for a celebration (or just a really good Tuesday)."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/11842152/pexels-photo-11842152.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/36414773/pexels-photo-36414773.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

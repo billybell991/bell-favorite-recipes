@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:01-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "cake"]
-description: "Birthday cake with german icing"
+description: "Rich, tender sweet cake with dash of salt and brown sugar that hits all the right notes. This is the cake that turns an ordinary day into a celebration."
 source: ""
 creditUrl: ""
 credit: ""

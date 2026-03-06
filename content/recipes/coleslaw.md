@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Salads and Dressings"]
 tags: ["salads and dressings"]
-description: "Chilled, Coleslaw, fresh and vibrant"
+description: "A vibrant zesty salad with qts finely shredded cabbage and coarse salt that brings crunch, color, and flavor to any table. This one earns its spot next to the main course."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4506876/pexels-photo-4506876.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5739585/pexels-photo-5739585.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

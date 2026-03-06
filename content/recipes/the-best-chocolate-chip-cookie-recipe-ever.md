@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:26-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["cookies"]
-description: "Moist, the best chocolate chip cookie recipe ever, baked to perfection"
+description: "Decadent cookies packed with cupsalted buttersoftened, cupgranulated sugar, and cuplight brown sugarpacked — the kind you bake a double batch of because the first one disappears before they've cooled."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Casseroles"]
 tags: ["casseroles"]
-description: "Tender, shipwreck, baked to perfection"
+description: "Flavorful, satisfying comforting comfort food with large onions and medium potatoes. The kind of recipe that gets dog-eared in the cookbook and passed down through generations."
 source: ""
 creditUrl: ""
 credit: ""

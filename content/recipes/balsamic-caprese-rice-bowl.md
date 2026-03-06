@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:41-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: ["rice"]
-description: "Balsamic caprese rice bowl, steamed to perfection"
+description: "A delicious homemade savory recipe with long-grain rice and broth or water — simple enough for any night of the week but special enough to remember."
 source: ""
 creditUrl: ""
 credit: ""

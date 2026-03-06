@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Puddings"]
 tags: ["puddings"]
-description: "Blanc Mange, rich and comforting"
+description: "A tried-and-true bold recipe with cornstarch and ¼ tsp salt that proves the best meals don't need to be complicated — just made with care."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/998237/pexels-photo-998237.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/4310979/pexels-photo-4310979.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

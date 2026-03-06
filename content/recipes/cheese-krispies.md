@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Appetizers"]
 tags: ["appetizers", "pie"]
-description: "Cheese krispies, baked to perfection"
+description: "A beautiful decadent pie with butter or margarine and imperial cheese with a buttery crust and a filling so good you'll want to eat it by the spoonful."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/636120/pexels-photo-636120.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/7965886/pexels-photo-7965886.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 This recipe came from Pat Johnston, who is Yolande's Friend

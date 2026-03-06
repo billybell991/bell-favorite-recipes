@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pies"]
 tags: ["pies"]
-description: "Impossible Breakfast Quiche, baked to perfection"
+description: "Homemade luscious pie with ¼ tsp salt and ½ cup bisquick. Golden crust, gorgeous filling, and the kind of satisfaction only a from-scratch pie can deliver."
 source: ""
 creditUrl: ""
 credit: ""

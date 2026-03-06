@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pies"]
 tags: ["pies"]
-description: "Warm, Impossible Coconut Pie, baked to perfection"
+description: "A beautiful decadent pie with ¾ cup sugar and ½ cup biscuit mix with a buttery crust and a filling so good you'll want to eat it by the spoonful."
 source: ""
 creditUrl: ""
 credit: ""

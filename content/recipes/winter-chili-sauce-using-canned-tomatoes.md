@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pickles"]
 tags: ["pickles"]
-description: "Winter Chili Sauce, a classic homemade preserve"
+description: "Bold, spicy savory chili loaded with z cans best quality tomatoes (drained 2 6-oz cans tomato paste, green peppers, and medium cooking onions — thick enough to stand a spoon in and packed with layers of smoky flavor."
 source: ""
 creditUrl: ""
 credit: ""

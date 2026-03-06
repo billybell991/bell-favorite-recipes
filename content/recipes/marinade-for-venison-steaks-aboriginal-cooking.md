@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Native Cuisine"]
 tags: ["native cuisine"]
-description: "Marinade for Venison Steaks, grilled to perfection"
+description: "Homemade bold sauce with dry white wine and olive oil — so much better than store-bought that you'll never go back to the bottle."
 source: ""
 creditUrl: ""
 credit: ""

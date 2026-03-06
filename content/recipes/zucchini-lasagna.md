@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:51-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: []
-description: "Zucchini lasagna, baked to perfection"
+description: "Hearty satisfying pasta with ½ pounds zucchini and olive oil — the kind of meal you want to curl up on the couch with. Simple, satisfying, and just right."
 source: ""
 creditUrl: ""
 credit: ""

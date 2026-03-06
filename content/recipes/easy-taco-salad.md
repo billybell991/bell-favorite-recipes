@@ -4,14 +4,14 @@ date: 2026-03-05T07:01:13-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["salads", "salad"]
-description: "Easy taco salad"
+description: "A vibrant garden-fresh salad with ground beef and large bag of doritos that brings crunch, color, and flavor to any table. This one earns its spot next to the main course."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/36145992/pexels-photo-36145992.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5454019/pexels-photo-5454019.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Sandra and Steve Pigeau

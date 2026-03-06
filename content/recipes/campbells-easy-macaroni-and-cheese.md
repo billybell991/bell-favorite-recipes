@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Casseroles"]
 tags: ["casseroles"]
-description: "Campbell's easy macaroni and cheese, baked to perfection"
+description: "A comforting bowl of savory pasta with cheddar cheese soup and ½ soup can milk — saucy, satisfying, and ready to become a weeknight staple."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9456721/pexels-photo-9456721.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/806357/pexels-photo-806357.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

@@ -4,7 +4,7 @@ date: 2026-03-05T06:52:52-05:00
 draft: false
 categories: ["Friends Recipes"]
 tags: ["soup", "potatoes"]
-description: "Sam's roasted red pepper & potato soup, simmered to perfection"
+description: "A soul-warming bowl of savory soup with red peppers and half a red onion — the kind that simmers low and slow and makes the whole house smell incredible."
 source: ""
 creditUrl: ""
 credit: ""

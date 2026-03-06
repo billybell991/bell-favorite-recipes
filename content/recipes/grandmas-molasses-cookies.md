@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Native Cuisine"]
 tags: ["native cuisine"]
-description: "Grandma’s Molasses Cookies, baked to perfection"
+description: "Warm from the oven and loaded with simple, honest ingredients, these luscious cookies are the ones everyone reaches for first at the bake sale."
 source: ""
 creditUrl: ""
 credit: ""

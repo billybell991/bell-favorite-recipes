@@ -4,7 +4,7 @@ date: 2026-03-05T07:00:32-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["meat"]
-description: "Roasted bull elephant"
+description: "A delicious homemade robust recipe with elephant roast and ½ boxcar of bread crumbs — simple enough for any night of the week but special enough to remember."
 source: ""
 creditUrl: ""
 credit: ""

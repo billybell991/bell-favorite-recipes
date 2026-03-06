@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:12-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares"]
-description: "Chocolate butterscotch almond crunch, baked to perfection"
+description: "Crunchy, addictive satisfying snack mix with ¾ cup flour and ¾ cup white sugar — once you start munching, there's no stopping. Perfect for parties or movie nights."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Miscellaneous"]
 tags: ["miscellaneous"]
-description: "Slu8h, a family favorite"
+description: "Flavorful, satisfying hearty comfort food with tin honeydew melon or strawberry daiquiri and tin frozen orange juice. The kind of recipe that gets dog-eared in the cookbook and passed down through generations."
 source: ""
 creditUrl: ""
 credit: ""

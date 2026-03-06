@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:41-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["keto"]
-description: "Candy, simmered to perfection"
+description: "Homemade indulgent candy studded with + 2 tablespoonsbuttersalted, cupgranulated sweetener of choicei used allulose * see notes, and heavy cream — prettier than store-bought and a hundred times more delicious."
 source: ""
 creditUrl: ""
 credit: ""

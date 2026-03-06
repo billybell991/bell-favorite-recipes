@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cake Frosting"]
 tags: ["cake frosting"]
-description: "Creamy, simple caramel frosting"
+description: "Sweet, homemade decadent candy with ¼ cup lightly salted butter and dark brown sugar — the kind of treat that makes you feel like a confectioner. Wrap them up for gifts or keep the whole batch."
 source: ""
 creditUrl: ""
 credit: ""

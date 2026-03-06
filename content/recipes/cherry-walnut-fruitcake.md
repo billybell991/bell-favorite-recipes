@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cakes and Muffins"]
 tags: ["cakes and muffins", "cake"]
-description: "Cherry walnut fruitcake, baked to perfection"
+description: "A stunning rich cake with mincemeat and tin sweetened condensed milk — moist layers, rich flavor, and the kind of crumb that makes you close your eyes mid-bite."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5626637/pexels-photo-5626637.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/2372521/pexels-photo-2372521.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 This fruitcake is an easy- to-make classic holiday offering. If you like, make it ahead, wrap and freeze for entertaining and gift-giving.

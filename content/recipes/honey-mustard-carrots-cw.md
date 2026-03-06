@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Vegetables"]
 tags: ["vegetables"]
-description: "Crispy, tender, Honey-mustard Carrots, a delicious side dish"
+description: "Simple, delicious garden-fresh vegetables with sliced or baby carrots and honey. Sometimes the best meals are built around what's growing in the garden."
 source: ""
 creditUrl: ""
 credit: ""

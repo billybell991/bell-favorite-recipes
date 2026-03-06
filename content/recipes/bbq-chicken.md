@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:43-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: ["chicken"]
-description: "Bbq chicken"
+description: "Crispy-skinned, bold chicken with chicken breasts and tomato soup cooked until golden and irresistible. This is the recipe that makes chicken exciting again."
 source: ""
 creditUrl: ""
 credit: ""

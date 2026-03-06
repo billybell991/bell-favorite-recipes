@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Native Cuisine"]
 tags: ["native cuisine"]
-description: "Golden brown, golden, Ann’s Indian Fry Bread, fried to perfection"
+description: "Freshly baked golden-brown bread with heaping tbsp baking powder and ½ tsp table salt that fills the kitchen with the most incredible aroma. The kind of recipe that makes you wonder why you ever bought store-bought."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5419309/pexels-photo-5419309.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/20446381/pexels-photo-20446381.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

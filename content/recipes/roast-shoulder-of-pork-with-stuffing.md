@@ -4,7 +4,7 @@ date: 2026-03-05T07:00:34-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["meat", "pork"]
-description: "Crispy and tender, roast shoulder of pork with stuffing, roasted to perfection"
+description: "Succulent rustic pork with – 1/2 cup salt pork and apples — slow-cooked (or quickly seared) to melt-in-your-mouth perfection. Every bite is a flavor bomb."
 source: ""
 creditUrl: ""
 credit: ""

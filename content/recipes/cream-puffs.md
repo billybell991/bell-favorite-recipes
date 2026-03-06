@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cookies"]
 tags: ["cookies"]
-description: "Cream puffs, baked to perfection"
+description: "A tried-and-true robust recipe with ½ cup butter that proves the best meals don't need to be complicated — just made with care."
 source: ""
 creditUrl: ""
 credit: ""

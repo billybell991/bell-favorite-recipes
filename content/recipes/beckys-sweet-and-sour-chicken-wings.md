@@ -4,14 +4,14 @@ date: 2026-03-05T07:00:10-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["meat", "chicken"]
-description: "Becky's sweet and sour chicken wings"
+description: "Juicy, flavorful savory chicken with large package of wings and ¾ cup of soya sauce — golden on the outside, tender all the way through. The kind of dinner that earns a round of applause."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5848535/pexels-photo-5848535.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/9650084/pexels-photo-9650084.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Becky and Darren Shackleton

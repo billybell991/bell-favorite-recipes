@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Miscellaneous"]
 tags: ["miscellaneous"]
-description: "Russian Tea, a family favorite"
+description: "A refreshing hearty drink with orange tang and ½ cup dry lemonade mix that's perfect for gatherings, holidays, or just a treat on a warm afternoon."
 source: ""
 creditUrl: ""
 credit: ""

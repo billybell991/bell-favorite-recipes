@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:46-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: ["chicken", "dip"]
-description: "Buffalo chicken dip, baked to perfection"
+description: "Creamy, addictive fresh dip with chicken breast and brick of cream cheese — set it out with chips or veggies and watch it disappear before the party even starts."
 source: ""
 creditUrl: ""
 credit: ""

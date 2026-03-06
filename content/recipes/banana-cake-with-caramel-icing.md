@@ -4,7 +4,7 @@ date: 2026-03-05T06:58:59-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "cake"]
-description: "Banana cake with caramel icing, simmered to perfection"
+description: "A show-stopping luscious cake with ½ cups flour and ½ tsp baking soda. Every forkful is pure, sweet indulgence — the recipe you'll be asked to share again and again."
 source: ""
 creditUrl: ""
 credit: ""

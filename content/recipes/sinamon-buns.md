@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:28-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares"]
-description: "Sinamon buns, baked to perfection"
+description: "Freshly baked toasty bread with butter or margarine and brown sugar that fills the kitchen with the most incredible aroma. The kind of recipe that makes you wonder why you ever bought store-bought."
 source: ""
 creditUrl: ""
 credit: ""

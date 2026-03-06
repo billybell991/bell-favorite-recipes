@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cake Frosting"]
 tags: ["cake frosting"]
-description: "Fluffy, rich butter icing"
+description: "Silky, sweet indulgent frosting with ¼ cup butter and or 2-3/4 cup sifted icing sugar that spreads like a dream and makes any cake or cupcake irresistible."
 source: ""
 creditUrl: ""
 credit: ""

@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:25-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares"]
-description: "Skor bars, baked to perfection"
+description: "Sweet, satisfying sweet squares with box of ritz crackers and skor chocolate bars. The recipe that turns a simple baking pan into a crowd-pleasing masterpiece."
 source: ""
 creditUrl: ""
 credit: ""

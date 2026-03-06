@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Breads"]
 tags: ["breads"]
-description: "Tea biscuits supreme, baked to perfection"
+description: "Homemade fragrant bread with stirred all-purpose flour and ½ cup butter of shortening that's surprisingly simple and outrageously delicious. Proof that the best things in life are warm and carb-filled."
 source: ""
 creditUrl: ""
 credit: ""

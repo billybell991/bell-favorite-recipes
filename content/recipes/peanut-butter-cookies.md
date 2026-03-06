@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cookies"]
 tags: ["cookies", "cookies"]
-description: "Peanut butter cookies, baked to perfection"
+description: "Homemade heavenly cookies with brown sugar and peanut butter that snap, crumble, and melt exactly the way a great cookie should. Pure comfort in every bite."
 source: ""
 creditUrl: ""
 credit: ""

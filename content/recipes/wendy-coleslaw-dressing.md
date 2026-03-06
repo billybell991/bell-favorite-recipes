@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Salads and Dressings"]
 tags: ["salads and dressings"]
-description: "Wendy Coleslaw Dressing, fresh and vibrant"
+description: "Crunchy, refreshing crisp salad tossed with finely shredded cabbage, finely shredded carrot, and mayonnaise. Light enough for summer, hearty enough to stand on its own."
 source: ""
 creditUrl: ""
 credit: ""

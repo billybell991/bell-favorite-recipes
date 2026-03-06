@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Fun Things"]
 tags: ["fun things"]
-description: ""
+description: "Homemade satisfying goodness with plain flour and to 1-1/2 cups cold water — made from scratch with real ingredients and a whole lot of love. This one's a keeper."
 source: ""
 creditUrl: ""
 credit: ""

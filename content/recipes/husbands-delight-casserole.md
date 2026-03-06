@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Casseroles"]
 tags: ["casseroles"]
-description: "Husband's delight casserole"
+description: "A bubbly, golden savory casserole with lean ground beef and cloves garlic — layers of comfort baked until the top is crispy and the inside is meltingly good."
 source: ""
 creditUrl: ""
 credit: ""

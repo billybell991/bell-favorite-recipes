@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:52-05:00
 draft: false
 categories: ["Maddy's Recipes"]
 tags: []
-description: "Golden brown, soft pretzels, baked to perfection"
+description: "A delicious homemade savory recipe with warm water and active dry yeast — simple enough for any night of the week but special enough to remember."
 source: ""
 creditUrl: ""
 credit: ""

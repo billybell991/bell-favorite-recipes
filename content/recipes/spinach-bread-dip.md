@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Appetizers"]
 tags: ["appetizers", "bread", "dip"]
-description: "Spinach bread dip"
+description: "Freshly baked golden-brown bread with pkg spinach and mayonnaise that fills the kitchen with the most incredible aroma. The kind of recipe that makes you wonder why you ever bought store-bought."
 source: ""
 creditUrl: ""
 credit: ""

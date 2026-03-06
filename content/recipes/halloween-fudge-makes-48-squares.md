@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Smooth, Hallowe’en Fudge, perfect for any occasion"
+description: "Sweet, satisfying luscious squares with cream cheese and powdered sugar. The recipe that turns a simple baking pan into a crowd-pleasing masterpiece."
 source: ""
 creditUrl: ""
 credit: ""

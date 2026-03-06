@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:35-05:00
 draft: false
 categories: ["Weight Watchers"]
 tags: ["rice"]
-description: "Low fat sweet and sour rice, simmered to perfection"
+description: "Fluffy, fragrant savory rice with low sodium soya sauce and rice vinegar — every grain perfectly cooked and packed with flavor. The side dish that steals the spotlight."
 source: ""
 creditUrl: ""
 credit: ""

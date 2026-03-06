@@ -4,7 +4,7 @@ date: 2026-03-05T07:01:28-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["salads", "soup", "salad"]
-description: "Tomato soup salad"
+description: "A soul-warming bowl of savory soup with lemon jello and tomato soup — the kind that simmers low and slow and makes the whole house smell incredible."
 source: ""
 creditUrl: ""
 credit: ""

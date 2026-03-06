@@ -4,14 +4,14 @@ date: 2026-03-05T06:53:05-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: []
-description: "Corn on the cob, pressure-cooked to perfection"
+description: "Savory, colorful crisp vegetables with ears corn on the cob and ears corn on the cob — proof that the humble veggie side can absolutely steal the show."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/12624419/pexels-photo-12624419.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/6034056/pexels-photo-6034056.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Meat"]
 tags: ["meat", "chicken", "rice"]
-description: "Campbell's chicken & vegetable rice skillet, simmered to perfection"
+description: "Succulent comforting chicken with vegetable oil and boneless that's simple enough for a weeknight but impressive enough for company. Every. Single. Time."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pies"]
 tags: ["pies"]
-description: "Sugar Pie, baked to perfection"
+description: "Homemade luscious pie with evaporated milk or cream and brown sugar. Golden crust, gorgeous filling, and the kind of satisfaction only a from-scratch pie can deliver."
 source: ""
 creditUrl: ""
 credit: ""

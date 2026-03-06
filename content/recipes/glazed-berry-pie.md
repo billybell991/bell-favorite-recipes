@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pies"]
 tags: ["pies"]
-description: "Glazed Berry Pie, baked to perfection"
+description: "Classic heavenly pie with baked 9- or 10-inch pie shell and blackberries — every slice is a perfect balance of flaky pastry and luscious filling. Save room for seconds."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cakes and Muffins"]
 tags: ["cakes and muffins", "cake"]
-description: "Rhubarb upside-down cake, baked to perfection"
+description: "A show-stopping luscious cake with sliced fresh rhubarb and unsalted butter. Every forkful is pure, sweet indulgence — the recipe you'll be asked to share again and again."
 source: ""
 creditUrl: ""
 credit: ""

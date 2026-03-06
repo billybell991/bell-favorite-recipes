@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Miscellaneous"]
 tags: ["miscellaneous"]
-description: "Warm, Jason’s Doggie Biscuits, baked to perfection"
+description: "Soft, golden buttery rolls with unbleached flour and whole wheat flour that pull apart like a dream. Perfect alongside any meal or slathered with butter straight from the oven."
 source: ""
 creditUrl: ""
 credit: ""

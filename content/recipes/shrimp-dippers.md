@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes", "shrimp", "dip"]
-description: "Shrimp dippers"
+description: "Creamy, addictive fresh dip with fresh snow pea pods and large cooked — set it out with chips or veggies and watch it disappear before the party even starts."
 source: ""
 creditUrl: ""
 credit: ""

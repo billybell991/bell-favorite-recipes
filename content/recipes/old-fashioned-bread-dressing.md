@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Breads"]
 tags: ["breads", "bread"]
-description: "Old-fashioned bread dressing"
+description: "Warm, homemade golden bread with ½ cup chopped onion and ½ cup butter or margarine — crusty on the outside, pillowy soft on the inside, and impossible to eat just one slice."
 source: ""
 creditUrl: ""
 credit: ""

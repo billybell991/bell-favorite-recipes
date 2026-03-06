@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:18-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["chicken", "pie"]
-description: "Golden brown, hurry up chicken pot pie, baked to perfection"
+description: "Flaky, golden crust cradling a rich filling with chopped cooked chicken breasts and hard-boiled eggs — the kind of pie that earns a permanent spot on the holiday table."
 source: ""
 creditUrl: ""
 credit: ""

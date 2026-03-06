@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Native Cuisine"]
 tags: ["native cuisine"]
-description: "Tarragon Roasted Chicken, roasted to perfection"
+description: "Tender, perfectly seasoned robust chicken with cloves of garlic and chicken — proof that a great chicken dinner never goes out of style."
 source: ""
 creditUrl: ""
 credit: ""

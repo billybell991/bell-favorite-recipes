@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Fish"]
 tags: ["fish", "fish"]
-description: "Blackened fish"
+description: "Light, flaky savory fish with paprika and onion powder — perfectly cooked with a golden crust and tender, moist flesh inside. Elegant made easy."
 source: ""
 creditUrl: ""
 credit: ""

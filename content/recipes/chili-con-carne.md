@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Casseroles"]
 tags: ["casseroles"]
-description: "Chili con carne"
+description: "A hearty pot of rustic chili with chopped onion and chopped green pepper that's perfect for game day, cold nights, or any time you need something warm and satisfying."
 source: ""
 creditUrl: ""
 credit: ""

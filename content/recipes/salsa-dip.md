@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Appetizers"]
 tags: ["appetizers", "dip"]
-description: "Salsa dip"
+description: "Smooth, tangy zesty dip with sour cream and jar salsa — simple to throw together but guaranteed to be the most popular thing on the snack table."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Breads"]
 tags: ["breads"]
-description: "Pearl's zucchini loaf, baked to perfection"
+description: "Simple, delicious zesty vegetables with shredded raw zucchini and each salt. Sometimes the best meals are built around what's growing in the garden."
 source: ""
 creditUrl: ""
 credit: ""

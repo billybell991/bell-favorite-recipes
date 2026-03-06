@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cookies"]
 tags: ["cookies"]
-description: "Coconut macaroons, baked to perfection"
+description: "Buttery, golden rich cookies with flaked coconut and eagle brand milk that come out of the oven soft in the middle and crispy at the edges. The cookie jar never stays full for long."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7474221/pexels-photo-7474221.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/30984652/pexels-photo-30984652.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

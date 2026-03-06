@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Salads and Dressings"]
 tags: ["salads and dressings"]
-description: "Caesar Salad Dressing, fresh and vibrant"
+description: "A bright, crisp bright salad with egg yolks and ½ clove garlic — fresh, colorful, and bursting with flavor. The side dish that steals the show."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/2821743/pexels-photo-2821743.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/35532838/pexels-photo-35532838.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

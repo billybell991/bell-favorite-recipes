@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:52-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: []
-description: "Honey garlic sauce"
+description: "Homemade bold sauce with brown sugar and cornstarch — so much better than store-bought that you'll never go back to the bottle."
 source: ""
 creditUrl: ""
 credit: ""

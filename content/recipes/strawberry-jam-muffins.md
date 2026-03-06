@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cakes and Muffins"]
 tags: ["cakes and muffins", "muffins"]
-description: "Strawberry jam muffins, baked to perfection"
+description: "Golden-topped indulgent muffins loaded with ¾ cup margarine, soda, and sifted flour. Mix the batter in one bowl, bake, and watch them vanish."
 source: ""
 creditUrl: ""
 credit: ""

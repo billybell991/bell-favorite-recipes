@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:24-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "muffins"]
-description: "Rhubarb muffins, baked to perfection"
+description: "Fluffy decadent muffins with rhubarb and whole wheat flour that rise tall and taste even better than the bakery. Best eaten warm with a smear of butter."
 source: ""
 creditUrl: ""
 credit: ""

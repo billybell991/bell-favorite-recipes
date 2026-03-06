@@ -4,7 +4,7 @@ date: 2026-03-05T06:58:53-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["breads", "bread"]
-description: "Banana bread, baked to perfection"
+description: "Freshly baked golden-brown bread with mashed bananas that fills the kitchen with the most incredible aroma. The kind of recipe that makes you wonder why you ever bought store-bought."
 source: ""
 creditUrl: ""
 credit: ""

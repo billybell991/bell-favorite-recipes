@@ -4,14 +4,14 @@ date: 2026-03-05T06:59:10-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares"]
-description: "Chipits chewy nut bars, baked to perfection"
+description: "Irresistible indulgent squares with ½ cup margarine and packed brown sugar — layer upon layer of sweetness that cut into perfect little treats for sharing (or not sharing)."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8793943/pexels-photo-8793943.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/8794099/pexels-photo-8794099.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Diane and Harold Bell

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Crispy, smooth, Rice Krispies Squares, perfect for any occasion"
+description: "Flaky, golden crust cradling a melt-in-your-mouth filling with ¼ cup margarine or butter and miniature marshmallows — the kind of pie that earns a permanent spot on the holiday table."
 source: ""
 creditUrl: ""
 credit: ""

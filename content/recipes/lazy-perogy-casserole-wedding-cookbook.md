@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:38-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["casseroles"]
-description: "Lazy perogy casserole, baked to perfection"
+description: "A bubbly, golden satisfying casserole with lasagna noodles and of cottage cheese — layers of comfort baked until the top is crispy and the inside is meltingly good."
 source: ""
 creditUrl: ""
 credit: ""

@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:49-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cookies", "bread", "cookies"]
-description: "Traditional gingerbread man cookies, baked to perfection"
+description: "A classic melt-in-your-mouth cookie recipe with to 5 ½ cups all-purpose flour and ginger — chewy centers, golden edges, and that irresistible homemade smell that fills every room in the house."
 source: ""
 creditUrl: ""
 credit: ""

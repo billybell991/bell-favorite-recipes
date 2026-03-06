@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes"]
-description: "Tender, three-bean cassoulet, baked to perfection"
+description: "A thick, hearty satisfying stew with stewed tomatoes and garbanzo beans or chickpeas — slow-simmered until everything is fall-apart tender and the gravy is rich as velvet."
 source: ""
 creditUrl: ""
 credit: ""

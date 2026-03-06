@@ -4,14 +4,14 @@ date: 2026-03-05T06:54:11-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["chicken"]
-description: "Crispy and golden brown, crispy chicken wings, baked to perfection"
+description: "Juicy, flavorful robust chicken with dozen chicken wings and ½ tsp salt — golden on the outside, tender all the way through. The kind of dinner that earns a round of applause."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/20329551/pexels-photo-20329551.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/12916881/pexels-photo-12916881.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

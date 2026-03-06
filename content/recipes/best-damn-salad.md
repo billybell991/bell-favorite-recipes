@@ -4,14 +4,14 @@ date: 2026-03-05T07:01:09-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["salads", "salad"]
-description: "Best damn salad"
+description: "A vibrant garden-fresh salad with head of lettuce and ribs of celery that brings crunch, color, and flavor to any table. This one earns its spot next to the main course."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/35627344/pexels-photo-35627344.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/35290622/pexels-photo-35290622.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Julie and Dave Pigeau

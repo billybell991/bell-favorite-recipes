@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Squares"]
 tags: ["squares"]
-description: "Ribbon Squares, baked to perfection"
+description: "Rich, chewy decadent squares packed with ½ cup melted butter or margarine, brown sugar, and quick cooking oatmeal. Cut them small because they're decadent, or cut them big because life is short."
 source: ""
 creditUrl: ""
 credit: ""

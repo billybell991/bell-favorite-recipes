@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Puddings"]
 tags: ["puddings"]
-description: "Warm, Caramel Dumplings, simmered to perfection"
+description: "Sweet, homemade rich candy with butter or margarine and packed brown sugar — the kind of treat that makes you feel like a confectioner. Wrap them up for gifts or keep the whole batch."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/30335662/pexels-photo-30335662.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/12001952/pexels-photo-12001952.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

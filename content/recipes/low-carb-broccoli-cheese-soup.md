@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:47-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["soup"]
-description: "Broccoli cheese soup"
+description: "Steaming bowls of satisfying soup packed with broccoli, chicken broth, and shredded cheddar cheese. The recipe you reach for when the weather turns and comfort is non-negotiable."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cakes and Muffins"]
 tags: ["cakes and muffins", "cake"]
-description: "Frontier kitchen triple fudge cake"
+description: "Rich, tender melt-in-your-mouth cake with chocolate pudding mix and chocolate or devil's food cake mix that hits all the right notes. This is the cake that turns an ordinary day into a celebration."
 source: ""
 creditUrl: ""
 credit: ""

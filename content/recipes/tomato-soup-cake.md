@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cakes and Muffins"]
 tags: ["cakes and muffins", "soup", "cake"]
-description: "Tomato soup cake, baked to perfection"
+description: "A stunning rich cake with ½ cup shortening and cinnamon — moist layers, rich flavor, and the kind of crumb that makes you close your eyes mid-bite."
 source: ""
 creditUrl: ""
 credit: ""

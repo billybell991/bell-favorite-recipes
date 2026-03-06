@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Appetizers"]
 tags: ["appetizers", "dip"]
-description: "Colette's spinach dip"
+description: "Smooth, tangy zesty dip with sour cream and mayonnaise — simple to throw together but guaranteed to be the most popular thing on the snack table."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/29908848/pexels-photo-29908848.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/27603326/pexels-photo-27603326.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

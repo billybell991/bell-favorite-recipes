@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:25-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["chicken"]
-description: "Teriyaki chicken sushi roll"
+description: "Juicy, flavorful savory chicken with chicken breast and sesame oil — golden on the outside, tender all the way through. The kind of dinner that earns a round of applause."
 source: ""
 creditUrl: ""
 credit: ""

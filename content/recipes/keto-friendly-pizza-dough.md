@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:45-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["keto"]
-description: "Friendly pizza dough, baked to perfection"
+description: "Homemade robust pizza loaded with shredded mozzarella cheese, almond flour, and cream cheese. Golden crust, melty cheese, and the satisfaction of making it yourself."
 source: ""
 creditUrl: ""
 credit: ""

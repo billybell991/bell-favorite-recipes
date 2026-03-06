@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:48-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: []
-description: "Cream cheese fudge"
+description: "Smooth, creamy decadent fudge with bakers unsweetened chocolate and package cream cheese softened that melts on your tongue and sets perfectly every time. The candy thermometer's finest hour."
 source: ""
 creditUrl: ""
 credit: ""

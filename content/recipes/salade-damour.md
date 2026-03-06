@@ -4,7 +4,7 @@ date: 2026-03-05T07:01:24-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["salads", "salad"]
-description: "Salade d'amour"
+description: "Crunchy, refreshing crisp salad tossed with cooked rice, ½ cup fresh, and stalks celery. Light enough for summer, hearty enough to stand on its own."
 source: ""
 creditUrl: ""
 credit: ""

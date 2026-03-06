@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes"]
-description: "Linguine with fresh tomatoes"
+description: "Tender pasta tossed with uncooked linguine, medium tomatoes, and green onions in a bold sauce that coats every strand. This is the dinner everyone asks for twice in one week."
 source: ""
 creditUrl: ""
 credit: ""

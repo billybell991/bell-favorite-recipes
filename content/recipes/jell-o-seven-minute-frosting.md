@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cake Frosting"]
 tags: ["cake frosting"]
-description: "Jell-o seven minute frosting"
+description: "Rich, creamy sweet frosting with egg whites and jell-o — the finishing touch that turns good baking into something spectacular."
 source: ""
 creditUrl: ""
 credit: ""

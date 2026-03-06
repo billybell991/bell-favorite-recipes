@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Chicken"]
 tags: ["chicken", "chicken"]
-description: "Crispy and tender, glazed chicken with julienne veggies, simmered to perfection"
+description: "Tangy, savory robust sauce with cornstarch and vegetable oil. Drizzle it, dip it, pour it — this one makes everything taste better."
 source: ""
 creditUrl: ""
 credit: ""

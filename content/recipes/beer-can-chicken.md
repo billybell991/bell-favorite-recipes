@@ -4,14 +4,14 @@ date: 2026-03-05T06:54:45-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: ["chicken"]
-description: "Beer-can chicken"
+description: "Crispy-skinned, bold chicken with beer and chicken cooked until golden and irresistible. This is the recipe that makes chicken exciting again."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/12714994/pexels-photo-12714994.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/20329551/pexels-photo-20329551.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 - 1 can (12 oz.) beer

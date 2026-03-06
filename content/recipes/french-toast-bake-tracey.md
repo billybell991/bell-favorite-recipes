@@ -4,14 +4,14 @@ date: 2026-03-05T06:52:42-05:00
 draft: false
 categories: ["Family Recipes"]
 tags: []
-description: "French toast bake"
+description: "Tracey's genius make-ahead breakfast — thick slices of Texas toast nestled in buttery brown sugar, soaked in a vanilla custard, and baked until caramelized and puffy. The kind of morning that makes everyone come downstairs twice."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/763138/pexels-photo-763138.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/28649684/pexels-photo-28649684.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

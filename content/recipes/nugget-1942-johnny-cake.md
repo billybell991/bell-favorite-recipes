@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cakes and Muffins"]
 tags: ["cakes and muffins", "cake"]
-description: "Nugget 1942 johnny cake, baked to perfection"
+description: "This sweet cake with yellow cornmeal and stirred but unsifted cake flour is the one people request by name. Tender, flavorful, and gorgeous enough for a celebration (or just a really good Tuesday)."
 source: ""
 creditUrl: ""
 credit: ""

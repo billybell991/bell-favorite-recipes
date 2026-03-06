@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cookies"]
 tags: ["cookies", "bread"]
-description: "English shortbread, baked to perfection"
+description: "Warm from the oven and loaded with fruit sugar, these luscious cookies are the ones everyone reaches for first at the bake sale."
 source: ""
 creditUrl: ""
 credit: ""

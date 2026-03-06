@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes"]
-description: "Tofu mayonnaise"
+description: "Flavorful, satisfying hearty comfort food with drained and vinegar. The kind of recipe that gets dog-eared in the cookbook and passed down through generations."
 source: ""
 creditUrl: ""
 credit: ""

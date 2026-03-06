@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:19-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: []
-description: "Montreal bagels"
+description: "Flavorful, satisfying comforting comfort food with lukewarm water and maple syrup. The kind of recipe that gets dog-eared in the cookbook and passed down through generations."
 source: ""
 creditUrl: ""
 credit: ""

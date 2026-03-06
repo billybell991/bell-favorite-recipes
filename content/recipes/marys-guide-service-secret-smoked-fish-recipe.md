@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Fish"]
 tags: ["fish", "fish"]
-description: "Mary's guide service secret smoked fish recipe"
+description: "Light, flaky hearty fish with soya sauce and apple juice — perfectly cooked with a golden crust and tender, moist flesh inside. Elegant made easy."
 source: ""
 creditUrl: ""
 credit: ""

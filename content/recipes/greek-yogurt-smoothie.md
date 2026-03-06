@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:34-05:00
 draft: false
 categories: ["Weight Watchers"]
 tags: []
-description: "Greek yogurt smoothie"
+description: "Mix up this robust beverage with unsweetened greek yogurt and unsweetened almond milk and watch it become everyone's favorite. Simple to make, impossible to stop sipping."
 source: ""
 creditUrl: ""
 credit: ""

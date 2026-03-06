@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Knox Blox, chilled to perfection"
+description: "A tried-and-true comforting recipe with envelopes knox unflavoured gelatine and flavoured gelatine that proves the best meals don't need to be complicated — just made with care."
 source: ""
 creditUrl: ""
 credit: ""

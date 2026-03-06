@@ -4,14 +4,14 @@ date: 2026-03-05T06:54:03-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: []
-description: "Best homemade salsa ever!"
+description: "Creamy, addictive bright dip with small jalapeno peppers and onion — set it out with chips or veggies and watch it disappear before the party even starts."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8763180/pexels-photo-8763180.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/6400001/pexels-photo-6400001.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

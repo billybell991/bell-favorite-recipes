@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Squares"]
 tags: ["squares"]
-description: "Lemon Squares, baked to perfection"
+description: "Rich, chewy decadent squares packed with ½ cup icing sugar. Cut them small because they're decadent, or cut them big because life is short."
 source: ""
 creditUrl: ""
 credit: ""

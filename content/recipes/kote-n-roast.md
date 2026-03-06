@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Miscellaneous"]
 tags: ["miscellaneous"]
-description: "Crispy, golden, Kote-n-roast, baked to perfection"
+description: "A tried-and-true satisfying recipe with slices white bread and ¼ cup dried red & green sweet pepper flakes that proves the best meals don't need to be complicated — just made with care."
 source: ""
 creditUrl: ""
 credit: ""

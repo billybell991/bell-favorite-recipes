@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:58-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: []
-description: "Tasty cheese loaf"
+description: "Flavorful, satisfying hearty comfort food with block of cream cheese and onion powder. The kind of recipe that gets dog-eared in the cookbook and passed down through generations."
 source: ""
 creditUrl: ""
 credit: ""

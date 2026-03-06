@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pies"]
 tags: ["pies"]
-description: "Impossible Pumpkin Pie, baked to perfection"
+description: "Classic heavenly pie with ¾ cup sugar and pumpkin — every slice is a perfect balance of flaky pastry and luscious filling. Save room for seconds."
 source: ""
 creditUrl: ""
 credit: ""

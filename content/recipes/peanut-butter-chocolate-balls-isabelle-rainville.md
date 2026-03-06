@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Peanut Butter Chocolate Balls – Isabelle Rainville, chilled to perfection"
+description: "Flavorful, satisfying satisfying comfort food with mix ½” slice off 1# butter and icing sugar. The kind of recipe that gets dog-eared in the cookbook and passed down through generations."
 source: ""
 creditUrl: ""
 credit: ""

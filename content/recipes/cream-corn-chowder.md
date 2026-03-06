@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:48-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: []
-description: "Cream corn chowder"
+description: "A soul-warming bowl of comforting soup with bacon slices and finely chopped onion — the kind that simmers low and slow and makes the whole house smell incredible."
 source: ""
 creditUrl: ""
 credit: ""

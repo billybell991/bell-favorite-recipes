@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Puddings"]
 tags: ["puddings"]
-description: "Golden, Fruity Bread Pudding, baked to perfection"
+description: "Warm, homemade golden bread with cubed bread and ½ cup chopped peeled apples — crusty on the outside, pillowy soft on the inside, and impossible to eat just one slice."
 source: ""
 creditUrl: ""
 credit: ""

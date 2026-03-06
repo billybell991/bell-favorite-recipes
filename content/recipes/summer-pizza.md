@@ -4,7 +4,7 @@ date: 2026-03-05T06:58:51-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["appetizers"]
-description: "Summer pizza"
+description: "Homemade rustic pizza loaded with ½ cup miracle whip, ½ cup hellman's mayonnaise, and hidden valley ranch dressing. Golden crust, melty cheese, and the satisfaction of making it yourself."
 source: ""
 creditUrl: ""
 credit: ""

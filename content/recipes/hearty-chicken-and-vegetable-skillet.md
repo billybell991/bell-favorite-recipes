@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:16-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["chicken"]
-description: "Tender, hearty chicken and vegetable skillet, simmered to perfection"
+description: "Juicy, flavorful savory chicken with boneless and olive oil — golden on the outside, tender all the way through. The kind of dinner that earns a round of applause."
 source: ""
 creditUrl: ""
 credit: ""

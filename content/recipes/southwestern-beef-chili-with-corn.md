@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:24-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["beef"]
-description: "Tender, southwestern beef chili with corn, simmered to perfection"
+description: "A hearty pot of bold chili with olive oil and carrots that's perfect for game day, cold nights, or any time you need something warm and satisfying."
 source: ""
 creditUrl: ""
 credit: ""

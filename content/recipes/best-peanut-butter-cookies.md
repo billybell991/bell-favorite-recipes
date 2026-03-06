@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cookies"]
 tags: ["cookies", "cookies"]
-description: "Best peanut butter cookies, baked to perfection"
+description: "Homemade melt-in-your-mouth cookies with soft butter and peanut butter that snap, crumble, and melt exactly the way a great cookie should. Pure comfort in every bite."
 source: ""
 creditUrl: ""
 credit: ""

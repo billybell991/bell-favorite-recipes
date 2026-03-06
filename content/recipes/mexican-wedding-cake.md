@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cakes and Muffins"]
 tags: ["cakes and muffins", "cake"]
-description: "Mexican wedding cake"
+description: "A stunning melt-in-your-mouth cake with walnuts and tin crushed pineapple — moist layers, rich flavor, and the kind of crumb that makes you close your eyes mid-bite."
 source: ""
 creditUrl: ""
 credit: ""

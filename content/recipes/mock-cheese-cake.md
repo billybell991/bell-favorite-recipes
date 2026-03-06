@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cakes and Muffins"]
 tags: ["cakes and muffins", "cake"]
-description: "Mock cheese cake, baked to perfection"
+description: "A stunning rich cake with fruit cocktail and small carton sour cream — moist layers, rich flavor, and the kind of crumb that makes you close your eyes mid-bite."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cake Frosting"]
 tags: ["cake frosting"]
-description: "Royal icing"
+description: "Silky, sweet decadent frosting with level tbsp meringue powder and sifted icing sugar that spreads like a dream and makes any cake or cupcake irresistible."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Meat"]
 tags: ["meat", "chicken"]
-description: "Tender, campbell's chicken & vegetable rotini"
+description: "Succulent hearty chicken with vegetable oil and boneless that's simple enough for a weeknight but impressive enough for company. Every. Single. Time."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/17942482/pexels-photo-17942482.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/9399946/pexels-photo-9399946.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

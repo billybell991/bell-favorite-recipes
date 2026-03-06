@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:22-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "cake"]
-description: "Fluffy, picnic cake"
+description: "Homemade heavenly cake with ½ cup margarine and all purpose flour that rises tall, stays unbelievably moist, and tastes like it took way more effort than it actually did."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Salads and Dressings"]
 tags: ["salads and dressings"]
-description: "Carrot & Raisin Salad, fresh and vibrant"
+description: "A bright, crisp bright salad — fresh, colorful, and bursting with flavor. The side dish that steals the show."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/32862467/pexels-photo-32862467.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/14001574/pexels-photo-14001574.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Instructions

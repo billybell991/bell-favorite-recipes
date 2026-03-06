@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Miscellaneous"]
 tags: ["miscellaneous"]
-description: "Hot Chocolate Mix, a family favorite"
+description: "Mix up this satisfying beverage with box non-fat dry milk and non-dairy coffee creamer and watch it become everyone's favorite. Simple to make, impossible to stop sipping."
 source: ""
 creditUrl: ""
 credit: ""

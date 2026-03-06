@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cake Frosting"]
 tags: ["cake frosting"]
-description: "Fluffy, dot's flour icing"
+description: "Silky, sweet sweet frosting with ½ cup butter and ½ cup shortening that spreads like a dream and makes any cake or cupcake irresistible."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7180597/pexels-photo-7180597.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/94443/pexels-photo-94443.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

@@ -4,14 +4,14 @@ date: 2026-03-05T06:58:54-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["breads"]
-description: "Toasted, bruschetta and brew, broiled to perfection"
+description: "Flavorful, satisfying hearty comfort food with ¼ cup white wine vinegar and olive oil. The kind of recipe that gets dog-eared in the cookbook and passed down through generations."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8743947/pexels-photo-8743947.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/10060232/pexels-photo-10060232.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Tiffany Breton and Matt Rainville

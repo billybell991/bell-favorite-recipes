@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:32-05:00
 draft: false
 categories: ["Weight Watchers"]
 tags: ["soup"]
-description: "Egg drop soup, simmered to perfection"
+description: "Hearty, hearty soup loaded with chicken broth, cold water, and corn starch. Ladle it into big bowls, grab some crusty bread, and settle in for the evening."
 source: ""
 creditUrl: ""
 credit: ""

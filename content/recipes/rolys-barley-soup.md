@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Soups"]
 tags: ["soups"]
-description: "Roly’s Barley Soup, warm and satisfying"
+description: "Sweet, satisfying luscious squares with soup bones and barley. The recipe that turns a simple baking pan into a crowd-pleasing masterpiece."
 source: ""
 creditUrl: ""
 credit: ""

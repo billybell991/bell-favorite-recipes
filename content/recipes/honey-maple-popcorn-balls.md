@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Honey-maple Popcorn Balls, perfect for any occasion"
+description: "Fresh, vibrant fresh vegetables with liquid honey and ¼ cup each of water or maple syrup — cooked just right so they're tender but still have that satisfying snap."
 source: ""
 creditUrl: ""
 credit: ""

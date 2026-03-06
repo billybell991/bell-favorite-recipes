@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Meat"]
 tags: ["meat"]
-description: "Moist, campbell's speedy broccoli cheese omelettes"
+description: "Savory, colorful vibrant vegetables with vegetable oil and broccoli & cheese soup — proof that the humble veggie side can absolutely steal the show."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/705127/pexels-photo-705127.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/12310569/pexels-photo-12310569.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

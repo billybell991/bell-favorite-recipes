@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:27-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: []
-description: "Avocado egg boats, baked to perfection"
+description: "Perfectly cooked, comforting eggs with avocados halved with pit removed and medium eggs — simple, satisfying, and endlessly versatile. Breakfast, lunch, or dinner worthy."
 source: ""
 creditUrl: ""
 credit: ""

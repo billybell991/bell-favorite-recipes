@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Breads"]
 tags: ["breads"]
-description: "Rich, drop doughnuts"
+description: "A delicious homemade satisfying recipe with ¾ cup white sugar and cake or pastry flour or 2-5/8 cups all-purpose flour — simple enough for any night of the week but special enough to remember."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/30023630/pexels-photo-30023630.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/908177/pexels-photo-908177.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

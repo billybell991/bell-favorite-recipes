@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Breads"]
 tags: ["breads", "cake"]
-description: "Johnny cake, baked to perfection"
+description: "A show-stopping melt-in-your-mouth cake with ½ tsp salt and cornmeal. Every forkful is pure, sweet indulgence — the recipe you'll be asked to share again and again."
 source: ""
 creditUrl: ""
 credit: ""

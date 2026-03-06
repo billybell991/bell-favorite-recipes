@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pies"]
 tags: ["pies"]
-description: "Fluffy, Pumpkin Pie, baked to perfection"
+description: "Flaky, golden crust cradling a melt-in-your-mouth filling with ½ cup brown sugar and l tbsp pumpkin pie spice — the kind of pie that earns a permanent spot on the holiday table."
 source: ""
 creditUrl: ""
 credit: ""

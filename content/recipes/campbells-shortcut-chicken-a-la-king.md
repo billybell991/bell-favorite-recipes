@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Meat"]
 tags: ["meat", "chicken"]
-description: "Crispy and tender, campbell's shortcut chicken a la king"
+description: "Succulent robust chicken with vegetable oil and ½ cup chopped red or green pepper that's simple enough for a weeknight but impressive enough for company. Every. Single. Time."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1059943/pexels-photo-1059943.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5444628/pexels-photo-5444628.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

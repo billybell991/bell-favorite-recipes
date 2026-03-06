@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cookies"]
 tags: ["cookies", "cookies"]
-description: "Dad's cookies, baked to perfection"
+description: "A classic indulgent cookie recipe with raisins and lard or shortening — chewy centers, golden edges, and that irresistible homemade smell that fills every room in the house."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8342328/pexels-photo-8342328.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/89690/pexels-photo-89690.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

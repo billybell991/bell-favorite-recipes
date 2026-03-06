@@ -4,14 +4,14 @@ date: 2026-03-05T06:54:05-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["bread"]
-description: "Bread pudding ii, baked to perfection"
+description: "Freshly baked golden-brown bread with slices day-old bread and raisins that fills the kitchen with the most incredible aroma. The kind of recipe that makes you wonder why you ever bought store-bought."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9503819/pexels-photo-9503819.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/4775238/pexels-photo-4775238.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

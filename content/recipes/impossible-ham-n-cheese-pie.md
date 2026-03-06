@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pies"]
 tags: ["pies"]
-description: "Golden brown, golden, Impossible Ham ‘n Cheese Pie, baked to perfection"
+description: "Homemade melt-in-your-mouth pie with cut-up fully cooked smoked ham and shredded natural swiss cheese. Golden crust, gorgeous filling, and the kind of satisfaction only a from-scratch pie can deliver."
 source: ""
 creditUrl: ""
 credit: ""

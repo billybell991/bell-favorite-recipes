@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cookies"]
 tags: ["cookies"]
-description: "Easy macaroons, baked to perfection"
+description: "A classic indulgent cookie recipe with pkgs shredded coconut and eagle brand — chewy centers, golden edges, and that irresistible homemade smell that fills every room in the house."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/947847/pexels-photo-947847.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/7474221/pexels-photo-7474221.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

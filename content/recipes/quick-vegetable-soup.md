@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Soups"]
 tags: ["soups"]
-description: "Tender, Quick Vegetable Soup, roasted to perfection"
+description: "A soul-warming bowl of savory soup with quart chicken broth or stock and can tomatoes — the kind that simmers low and slow and makes the whole house smell incredible."
 source: ""
 creditUrl: ""
 credit: ""

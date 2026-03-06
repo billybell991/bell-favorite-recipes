@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:19-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "cake"]
-description: "Mix-in-the-pan carrot cake"
+description: "A stunning rich cake with cinnamon and ½ cup shredded carrots — moist layers, rich flavor, and the kind of crumb that makes you close your eyes mid-bite."
 source: ""
 creditUrl: ""
 credit: ""

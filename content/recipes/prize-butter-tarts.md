@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pies"]
 tags: ["pies"]
-description: "Prize Butter Tarts, baked to perfection"
+description: "Flaky, golden crust cradling a rich filling with brown sugar — the kind of pie that earns a permanent spot on the holiday table."
 source: ""
 creditUrl: ""
 credit: ""

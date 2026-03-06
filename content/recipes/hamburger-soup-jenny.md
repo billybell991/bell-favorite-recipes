@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:50-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: ["soup"]
-description: "Hamburger soup, simmered to perfection"
+description: "Rich, comforting rustic soup with of lean hamburg and small onions that's like a warm hug on a cold day. One pot, minimal effort, maximum satisfaction."
 source: ""
 creditUrl: ""
 credit: ""

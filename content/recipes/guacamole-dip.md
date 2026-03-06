@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:51-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["dips", "dip"]
-description: "Guacamole dip"
+description: "Smooth, tangy garden-fresh dip with ripe avocados and lemon juice — simple to throw together but guaranteed to be the most popular thing on the snack table."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pies"]
 tags: ["pies"]
-description: "Smooth, Rhubarb Cream Pie, baked to perfection"
+description: "Homemade sweet pie with ¼ tsp nutmeg and beaten eggs. Golden crust, gorgeous filling, and the kind of satisfaction only a from-scratch pie can deliver."
 source: ""
 creditUrl: ""
 credit: ""

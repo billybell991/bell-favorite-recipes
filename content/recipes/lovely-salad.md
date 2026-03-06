@@ -4,7 +4,7 @@ date: 2026-03-05T07:01:17-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["salads", "salad"]
-description: "Lovely salad"
+description: "A vibrant garden-fresh salad with green pepper and red pepper that brings crunch, color, and flavor to any table. This one earns its spot next to the main course."
 source: ""
 creditUrl: ""
 credit: ""

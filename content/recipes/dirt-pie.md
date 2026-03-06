@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pies"]
 tags: ["pies"]
-description: "“dirt” Pie, with a perfectly flaky crust"
+description: "A beautiful decadent pie with jello chocolate and cold milk with a buttery crust and a filling so good you'll want to eat it by the spoonful."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6163268/pexels-photo-6163268.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/8444542/pexels-photo-8444542.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

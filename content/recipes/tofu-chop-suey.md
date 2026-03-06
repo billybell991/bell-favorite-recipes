@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes"]
-description: "Crispy and tender, tofu chop suey"
+description: "Succulent bold pork with tofu and vegetable oil — slow-cooked (or quickly seared) to melt-in-your-mouth perfection. Every bite is a flavor bomb."
 source: ""
 creditUrl: ""
 credit: ""

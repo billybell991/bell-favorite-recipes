@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:32-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares"]
-description: "Toffee-topped bars, baked to perfection"
+description: "Sweet, satisfying luscious squares with firmly packed brown sugar and ½ cup butter. The recipe that turns a simple baking pan into a crowd-pleasing masterpiece."
 source: ""
 creditUrl: ""
 credit: ""

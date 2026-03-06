@@ -4,14 +4,14 @@ date: 2026-03-05T07:00:59-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["pasta", "chicken", "pasta"]
-description: "Angel hair pasta with chicken, simmered to perfection"
+description: "A comforting bowl of hearty pasta with olive oil and boneless chicken breasts — saucy, satisfying, and ready to become a weeknight staple."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4730680/pexels-photo-4730680.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/10049135/pexels-photo-10049135.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Allison and Dave Rudback

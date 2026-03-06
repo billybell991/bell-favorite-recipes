@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:21-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: []
-description: "Pan seared steak with garlic butter"
+description: "Rich, savory satisfying beef with first start out by letting the steaks rest at room temperature for 30 minutes . and heat vegetable oil in a 12-inch cast iron skillet over medium-high heat . i like to turn on vent fan above stove. — fork-tender and packed with deep, beefy flavor. Comfort food at its finest."
 source: ""
 creditUrl: ""
 credit: ""

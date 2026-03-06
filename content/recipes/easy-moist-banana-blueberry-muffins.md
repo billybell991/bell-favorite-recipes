@@ -4,14 +4,14 @@ date: 2026-03-05T06:54:14-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["muffins"]
-description: "Easy moist banana blueberry muffins, baked to perfection"
+description: "Wholesome sweet muffins with large ripe bananas and of sugar — moist, tender, and perfect with a cup of coffee on a lazy morning."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/13425585/pexels-photo-13425585.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/4384242/pexels-photo-4384242.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

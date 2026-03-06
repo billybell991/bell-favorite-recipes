@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cakes and Muffins"]
 tags: ["cakes and muffins", "muffins"]
-description: "Golden brown, all-bran muffins - no. 2, baked to perfection"
+description: "Golden-topped heavenly muffins loaded with beaten eggs, buttermilk, and brown sugar. Mix the batter in one bowl, bake, and watch them vanish."
 source: ""
 creditUrl: ""
 credit: ""

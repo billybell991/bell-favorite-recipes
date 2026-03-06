@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:28-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: []
-description: "Toasted, the keg copycat cheesy garlic toast, baked to perfection"
+description: "Flavorful, satisfying hearty comfort food with loaf french or ciabatta type bread - sliced in half and butter - softened. The kind of recipe that gets dog-eared in the cookbook and passed down through generations."
 source: ""
 creditUrl: ""
 credit: ""

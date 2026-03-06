@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Vegetables"]
 tags: ["vegetables"]
-description: "Zucchini-tomato-onion Casserole, baked to perfection"
+description: "Warm, satisfying robust casserole with thinly sliced zucchini and tomato that feeds a crowd and tastes even better the next day. The definition of comfort food."
 source: ""
 creditUrl: ""
 credit: ""

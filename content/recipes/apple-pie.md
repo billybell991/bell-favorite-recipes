@@ -4,14 +4,14 @@ date: 2026-03-05T07:00:45-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["pastrypies", "pie"]
-description: "Golden brown and tender, apple pie, baked to perfection"
+description: "Classic heavenly pie with very large granny smith apples and to 1 cup white sugar — every slice is a perfect balance of flaky pastry and luscious filling. Save room for seconds."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5419097/pexels-photo-5419097.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/7005210/pexels-photo-7005210.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Yolande and Dave Worthington

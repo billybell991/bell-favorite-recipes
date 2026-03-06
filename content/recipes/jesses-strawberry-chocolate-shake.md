@@ -4,7 +4,7 @@ date: 2026-03-05T07:00:01-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["drinks"]
-description: "Jesse's strawberry chocolate shake"
+description: "Flavorful, satisfying comforting comfort food with ½ cup sliced strawberries and cocoa. The kind of recipe that gets dog-eared in the cookbook and passed down through generations."
 source: ""
 creditUrl: ""
 credit: ""

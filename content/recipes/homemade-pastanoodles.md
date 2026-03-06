@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:17-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["pasta"]
-description: "Homemade pasta/noodles"
+description: "Tender pasta tossed with of flour, olive oil, and of water in a bold sauce that coats every strand. This is the dinner everyone asks for twice in one week."
 source: ""
 creditUrl: ""
 credit: ""

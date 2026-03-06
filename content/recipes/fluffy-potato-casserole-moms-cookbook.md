@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Vegetables"]
 tags: ["vegetables"]
-description: "Fluffy, Fluffy Potato Casserole, baked to perfection"
+description: "Warm, satisfying robust casserole with hot or cold mashed potatoes and small onion that feeds a crowd and tastes even better the next day. The definition of comfort food."
 source: ""
 creditUrl: ""
 credit: ""

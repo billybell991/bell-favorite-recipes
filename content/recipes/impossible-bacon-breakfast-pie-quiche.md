@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pies"]
 tags: ["pies"]
-description: "Impossible Bacon Breakfast Pie, baked to perfection"
+description: "Flaky, golden crust cradling a melt-in-your-mouth filling with bacon and l can green chili — the kind of pie that earns a permanent spot on the holiday table."
 source: ""
 creditUrl: ""
 credit: ""

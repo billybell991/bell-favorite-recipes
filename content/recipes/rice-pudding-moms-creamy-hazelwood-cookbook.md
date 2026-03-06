@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Puddings"]
 tags: ["puddings"]
-description: "Rice Pudding, Mom’s Creamy, rich and comforting"
+description: "A luscious indulgent pudding with cooked rice and ½ cup raisins — smooth, rich, and the perfect ending to any meal."
 source: ""
 creditUrl: ""
 credit: ""

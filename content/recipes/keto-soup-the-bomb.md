@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:46-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["soup", "keto"]
-description: "Keto Soup (The bomb)"
+description: "Rich, comforting comforting soup with hamburg and block cream cheese that's like a warm hug on a cold day. One pot, minimal effort, maximum satisfaction."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Fun Things"]
 tags: ["fun things", "potatoes"]
-description: "Potato playdough"
+description: "Creamy, comforting rustic potatoes with or 5 potatoes and to 1-1/2 cups flour — the ultimate side dish that makes everything else on the plate better."
 source: ""
 creditUrl: ""
 credit: ""

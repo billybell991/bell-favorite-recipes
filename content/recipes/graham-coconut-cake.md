@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:15-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "cake"]
-description: "Graham coconut cake, baked to perfection"
+description: "This decadent cake with ½ cup butter and graham crumbs is the one people request by name. Tender, flavorful, and gorgeous enough for a celebration (or just a really good Tuesday)."
 source: ""
 creditUrl: ""
 credit: ""

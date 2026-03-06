@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Native Cuisine"]
 tags: ["native cuisine"]
-description: "Ruth’s Marinated Cucumbers and Onions, chilled to perfection"
+description: "Flavorful, satisfying comforting comfort food with ¼ cup vinegar and or 2 tbsp sugar. The kind of recipe that gets dog-eared in the cookbook and passed down through generations."
 source: ""
 creditUrl: ""
 credit: ""

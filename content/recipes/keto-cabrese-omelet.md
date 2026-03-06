@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:40-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["keto"]
-description: "Cabrese omelet, fried to perfection"
+description: "Golden, fluffy comforting eggs with salt and pepper and fresh basil or dried basil that prove the humble egg is anything but ordinary when treated right."
 source: ""
 creditUrl: ""
 credit: ""

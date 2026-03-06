@@ -1,0 +1,524 @@
+{{ define "head" }}
+<script>
+// Disable Hugo live-reload on this page so background file changes don't reset the form
+(function() {
+  var origWS = window.WebSocket;
+  window.WebSocket = function(url, protocols) {
+    if (url && url.indexOf('livereload') !== -1) {
+      return { close:function(){}, send:function(){}, addEventListener:function(){}, removeEventListener:function(){}, onmessage:null, onopen:null, onerror:null, onclose:null, readyState:3 };
+    }
+    return protocols ? new origWS(url, protocols) : new origWS(url);
+  };
+  window.WebSocket.CONNECTING = origWS.CONNECTING;
+  window.WebSocket.OPEN = origWS.OPEN;
+  window.WebSocket.CLOSING = origWS.CLOSING;
+  window.WebSocket.CLOSED = origWS.CLOSED;
+})();
+</script>
+{{ end }}
+
+{{ define "main" }}
+<div class="submit-page">
+  <div class="container">
+
+    <!-- Auth gate -->
+    <div id="auth-gate">
+      <h1>Admin: Add Recipe</h1>
+      <p class="submit-intro">Enter your GitHub Personal Access Token to continue.</p>
+      <form class="recipe-form" id="auth-form">
+        <div class="form-group">
+          <label for="gh-token">GitHub PAT</label>
+          <input type="password" id="gh-token" required placeholder="ghp_xxxxxxxxxxxx">
+        </div>
+        <div class="form-group" style="display:flex; gap:0.5rem; align-items:center;">
+          <input type="checkbox" id="remember-token" checked>
+          <label for="remember-token" style="margin:0; font-weight:normal;">Remember in this browser</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Authenticate</button>
+        <p id="auth-error" style="color:#c0392b; margin-top:1rem; display:none;"></p>
+      </form>
+    </div>
+
+    <!-- Recipe form (hidden until authenticated) -->
+    <div id="recipe-panel" style="display:none;">
+      <h1>Admin: Add Recipe</h1>
+      <p class="submit-intro">Fill in the details below. The recipe will be committed directly to the site.</p>
+
+      <form class="recipe-form" id="admin-recipe-form">
+
+        <div class="form-group">
+          <label for="recipe-title">Recipe Title *</label>
+          <input type="text" id="recipe-title" required placeholder="e.g., Grandma's Famous Apple Pie">
+        </div>
+
+        <div class="form-group">
+          <label for="recipe-category">Category *</label>
+          <select id="recipe-category" required>
+            <option value="">Select a category...</option>
+            <option value="Air Fryer Recipes">Air Fryer Recipes</option>
+            <option value="Family Recipes">Family Recipes</option>
+            <option value="Friends Recipes">Friends' Recipes</option>
+            <option value="Instant Pot Recipes">Instant Pot Recipes</option>
+            <option value="Keto & Low Carb">Keto &amp; Low Carb</option>
+            <option value="Misc Recipes - Cookbooks">Misc. Recipes (Cookbooks)</option>
+            <option value="Misc Recipes - Internet">Misc. Recipes (Internet)</option>
+            <option value="Mom's Cookbook">Mom's Cookbook</option>
+            <option value="Wedding Cookbook">Wedding Cookbook</option>
+            <option value="Weight Watchers">Weight Watchers</option>
+          </select>
+        </div>
+
+        <div class="form-group" id="subcategory-group" style="display:none;">
+          <label for="recipe-subcategory">Subcategory</label>
+          <select id="recipe-subcategory">
+            <option value="">None</option>
+            <option value="Appetizers">Appetizers</option>
+            <option value="Breads">Breads</option>
+            <option value="Cake Frosting">Cake Frosting</option>
+            <option value="Cakes and Muffins">Cakes and Muffins</option>
+            <option value="Casseroles">Casseroles</option>
+            <option value="Chicken">Chicken</option>
+            <option value="Cookies">Cookies</option>
+            <option value="Desserts">Desserts</option>
+            <option value="Diabetic Recipes">Diabetic Recipes</option>
+            <option value="Fish">Fish</option>
+            <option value="Fun Things">Fun Things</option>
+            <option value="Meat">Meat</option>
+            <option value="Miscellaneous">Miscellaneous</option>
+            <option value="Native Cuisine">Native Cuisine</option>
+            <option value="Pickles">Pickles</option>
+            <option value="Pies">Pies</option>
+            <option value="Puddings">Puddings</option>
+            <option value="Salads and Dressings">Salads and Dressings</option>
+            <option value="Sauces">Sauces</option>
+            <option value="Snacks">Snacks</option>
+            <option value="Soups">Soups</option>
+            <option value="Squares">Squares</option>
+            <option value="Vegetables">Vegetables</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="prep-time">Prep Time</label>
+            <input type="text" id="prep-time" placeholder="e.g., 15 minutes">
+          </div>
+          <div class="form-group">
+            <label for="cook-time">Cook Time</label>
+            <input type="text" id="cook-time" placeholder="e.g., 30 minutes">
+          </div>
+          <div class="form-group">
+            <label for="servings">Servings</label>
+            <input type="text" id="servings" placeholder="e.g., 4-6">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="description">Description / Blurb</label>
+          <textarea id="description" rows="3" placeholder="A short description of this recipe..."></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="ingredients">Ingredients * (one per line)</label>
+          <textarea id="ingredients" required rows="10" placeholder="2 cups flour&#10;1/2 cup sugar&#10;3 eggs&#10;1 tsp vanilla"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="instructions">Instructions * (one step per line)</label>
+          <textarea id="instructions" required rows="10" placeholder="Preheat oven to 350F.&#10;Mix dry ingredients together.&#10;Add wet ingredients and stir."></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="notes">Notes / Tips</label>
+          <textarea id="notes" rows="3" placeholder="Any special tips or substitutions..."></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="source-credit">Source / Credit</label>
+          <input type="text" id="source-credit" placeholder="e.g., allrecipes.com or Mom's old cookbook">
+        </div>
+
+        <div class="form-group">
+          <label for="source-url">Source URL</label>
+          <input type="url" id="source-url" placeholder="https://...">
+        </div>
+
+        <div class="form-group">
+          <label for="image-url">Recipe Photo</label>
+          <input type="hidden" id="image-url" value="">
+          <div style="display:flex; gap:0.5rem; margin-bottom:0.5rem;">
+            <input type="text" id="photo-search-input" placeholder="Search for a photo (e.g., apple pie, chicken soup)..." style="flex:1;">
+            <button type="button" id="photo-search-btn" class="btn btn-secondary">&#x1f50d; Search Photos</button>
+          </div>
+          <small class="form-help">Search <a href="https://www.pexels.com" target="_blank" rel="noopener">Pexels</a> for free photos. Click a photo to select it.</small>
+
+          <!-- Selected photo preview -->
+          <div id="image-preview" class="image-preview" style="display:none;">
+            <img id="preview-img" src="" alt="Preview">
+            <button type="button" id="clear-preview" class="clear-preview" title="Remove photo">&#x2715;</button>
+          </div>
+
+          <!-- Photo search results grid -->
+          <div id="photo-grid-wrapper" style="display:none; margin-top:0.75rem;">
+            <div id="photo-grid" style="display:grid; grid-template-columns:repeat(3,1fr); gap:0.5rem;"></div>
+            <div id="photo-loading" style="display:none; text-align:center; padding:1rem; color:#666;">Searching photos...</div>
+            <div id="photo-load-more" style="display:none; text-align:center; margin-top:0.75rem;">
+              <button type="button" id="load-more-btn" class="btn btn-secondary" style="font-size:0.85rem;">Load more photos</button>
+            </div>
+            <p id="photo-no-results" style="display:none; text-align:center; color:#999; padding:1rem;">No photos found. Try different search terms.</p>
+            <p style="text-align:right; font-size:0.75rem; color:#999; margin-top:0.25rem;">Photos provided by <a href="https://www.pexels.com" target="_blank" rel="noopener">Pexels</a></p>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="tags">Tags (comma-separated)</label>
+          <input type="text" id="tags" placeholder="e.g., comfort food, quick, holiday">
+        </div>
+
+        <!-- Preview -->
+        <details style="margin-bottom:1.5rem;">
+          <summary style="cursor:pointer; font-weight:600; color:var(--accent-color, #2c5530);">Preview generated .md file</summary>
+          <pre id="md-preview" style="background:#f5f5f5; padding:1rem; border-radius:8px; overflow-x:auto; font-size:0.85rem; margin-top:0.5rem; white-space:pre-wrap;"></pre>
+        </details>
+
+        <button type="submit" class="btn btn-primary" id="submit-btn">Add Recipe to Site</button>
+        <p id="submit-status" style="margin-top:1rem;"></p>
+      </form>
+    </div>
+
+    <!-- Success -->
+    <div id="form-success" class="form-success" style="display:none;">
+      <div class="success-icon">&#x2705;</div>
+      <h2>Recipe Added!</h2>
+      <p>The recipe has been committed to the repository. GitHub Pages will rebuild shortly (1-2 minutes).</p>
+      <p id="recipe-link-info"></p>
+      <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+        <button class="btn btn-primary" id="add-another-btn">Add Another Recipe</button>
+        <a href="{{ site.Home.RelPermalink }}" class="btn btn-secondary">Back to Home</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+</script>
+<script>
+(function() {
+  var REPO_OWNER = 'billybell991';
+  var REPO_NAME = 'bell-favorite-recipes';
+  var BRANCH = 'main';
+  var FILE_PATH_PREFIX = 'content/recipes/';
+
+  var token = localStorage.getItem('gh_admin_token') || '';
+
+  // --- Auth ---
+  if (token) {
+    verifyToken(token);
+  }
+
+  document.getElementById('auth-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    var t = document.getElementById('gh-token').value.trim();
+    if (!t) return;
+    verifyToken(t);
+  });
+
+  function verifyToken(t) {
+    var errEl = document.getElementById('auth-error');
+    errEl.style.display = 'none';
+    fetch('https://api.github.com/repos/' + REPO_OWNER + '/' + REPO_NAME, {
+      headers: { 'Authorization': 'Bearer ' + t }
+    }).then(function(r) {
+      if (!r.ok) throw new Error('Invalid token or no access');
+      return r.json();
+    }).then(function(data) {
+      token = t;
+      if (document.getElementById('remember-token').checked) {
+        localStorage.setItem('gh_admin_token', t);
+      }
+      document.getElementById('auth-gate').style.display = 'none';
+      document.getElementById('recipe-panel').style.display = 'block';
+    }).catch(function(err) {
+      errEl.textContent = err.message;
+      errEl.style.display = 'block';
+      localStorage.removeItem('gh_admin_token');
+    });
+  }
+
+  // --- Show subcategory for Mom's Cookbook ---
+  document.getElementById('recipe-category').addEventListener('change', function() {
+    var show = this.value.indexOf('Mom') === 0;
+    document.getElementById('subcategory-group').style.display = show ? 'block' : 'none';
+    if (!show) document.getElementById('recipe-subcategory').value = '';
+  });
+
+  // --- Photo search ---
+  var PEXELS_API_KEY = 'IWb1IE0Z8Fl5VzMKFE1c4RxMoQbgSVNEeK3cSgowbDCjnugx0SWnyCt3';
+  var currentPhotoPage = 1;
+  var currentPhotoQuery = '';
+
+  function searchPhotos(query, page) {
+    var grid = document.getElementById('photo-grid');
+    var wrapper = document.getElementById('photo-grid-wrapper');
+    var loading = document.getElementById('photo-loading');
+    var noResults = document.getElementById('photo-no-results');
+    var loadMore = document.getElementById('photo-load-more');
+
+    wrapper.style.display = 'block';
+    loading.style.display = 'block';
+    noResults.style.display = 'none';
+    loadMore.style.display = 'none';
+    if (page === 1) grid.innerHTML = '';
+
+    fetch('https://api.pexels.com/v1/search?query=' + encodeURIComponent(query) + '&orientation=landscape&per_page=9&page=' + page, {
+      headers: { 'Authorization': PEXELS_API_KEY }
+    }).then(function(r) {
+      if (!r.ok) {
+        if (r.status === 429) throw new Error('Pexels rate limit reached. The background image updater is using the API — try again in a few minutes.');
+        throw new Error('Pexels API error (HTTP ' + r.status + ')');
+      }
+      return r.json();
+    }).then(function(data) {
+      loading.style.display = 'none';
+      if (!data.photos || data.photos.length === 0) {
+        if (page === 1) noResults.style.display = 'block';
+        return;
+      }
+      data.photos.forEach(function(photo) {
+        var card = document.createElement('div');
+        card.style.cssText = 'cursor:pointer; border-radius:8px; overflow:hidden; border:3px solid transparent; transition:border-color 0.2s; position:relative;';
+        card.innerHTML = '<img src="' + photo.src.medium + '" alt="' + (photo.alt || 'Photo').replace(/"/g, '&quot;') + '" style="width:100%; height:140px; object-fit:cover; display:block;">' +
+          '<div style="font-size:0.7rem; color:#666; padding:2px 4px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">by ' + photo.photographer + '</div>';
+        card.addEventListener('mouseenter', function() { card.style.borderColor = '#2c5530'; });
+        card.addEventListener('mouseleave', function() { card.style.borderColor = 'transparent'; });
+        card.addEventListener('click', function() {
+          selectPhoto(photo.src.large2x || photo.src.large || photo.src.original);
+        });
+        grid.appendChild(card);
+      });
+      if (data.photos.length === 9) {
+        loadMore.style.display = 'block';
+      }
+    }).catch(function(err) {
+      loading.style.display = 'none';
+      noResults.style.display = 'block';
+      noResults.textContent = 'Error searching photos: ' + err.message;
+    });
+  }
+
+  function selectPhoto(url) {
+    document.getElementById('image-url').value = url;
+    document.getElementById('preview-img').src = url;
+    document.getElementById('image-preview').style.display = 'block';
+    document.getElementById('photo-grid-wrapper').style.display = 'none';
+    updatePreview();
+  }
+
+  document.getElementById('photo-search-btn').addEventListener('click', function() {
+    var q = document.getElementById('photo-search-input').value.trim();
+    if (!q) {
+      var title = document.getElementById('recipe-title').value.trim();
+      q = title ? title + ' food' : 'food';
+      document.getElementById('photo-search-input').value = q;
+    }
+    currentPhotoQuery = q;
+    currentPhotoPage = 1;
+    searchPhotos(q, 1);
+  });
+
+  document.getElementById('photo-search-input').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      document.getElementById('photo-search-btn').click();
+    }
+  });
+
+  document.getElementById('load-more-btn').addEventListener('click', function() {
+    currentPhotoPage++;
+    searchPhotos(currentPhotoQuery, currentPhotoPage);
+  });
+
+  document.getElementById('clear-preview').addEventListener('click', function() {
+    document.getElementById('image-url').value = '';
+    document.getElementById('image-preview').style.display = 'none';
+    document.getElementById('preview-img').src = '';
+    updatePreview();
+  });
+
+  // --- Slug generator ---
+  function slugify(text) {
+    return text
+      .toLowerCase()
+      .replace(/['']/g, '')
+      .replace(/&/g, '-')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '')
+      .replace(/-{2,}/g, '-');
+  }
+
+  // --- Build markdown content ---
+  function buildMarkdown() {
+    var title = document.getElementById('recipe-title').value.trim();
+    var category = document.getElementById('recipe-category').value;
+    var subcategory = document.getElementById('recipe-subcategory').value;
+    var prepTime = document.getElementById('prep-time').value.trim();
+    var cookTime = document.getElementById('cook-time').value.trim();
+    var servingsVal = document.getElementById('servings').value.trim();
+    var description = document.getElementById('description').value.trim();
+    var ingredients = document.getElementById('ingredients').value.trim();
+    var instructions = document.getElementById('instructions').value.trim();
+    var notes = document.getElementById('notes').value.trim();
+    var credit = document.getElementById('source-credit').value.trim();
+    var creditUrl = document.getElementById('source-url').value.trim();
+    var imageUrl = document.getElementById('image-url').value.trim();
+    var tags = document.getElementById('tags').value.trim();
+
+    var now = new Date().toISOString().replace(/\.\d{3}Z$/, '-05:00');
+
+    var fm = '---\n';
+    fm += 'title: "' + title.replace(/"/g, '\\"') + '"\n';
+    fm += 'date: ' + now + '\n';
+    fm += 'draft: false\n';
+    fm += 'categories: ["' + category + '"]\n';
+    if (subcategory) {
+      fm += 'subcategories: ["' + subcategory + '"]\n';
+    }
+    if (tags) {
+      var tagList = tags.split(',').map(function(t) { return '"' + t.trim() + '"'; }).join(', ');
+      fm += 'tags: [' + tagList + ']\n';
+    } else {
+      fm += 'tags: []\n';
+    }
+    fm += 'description: "' + description.replace(/"/g, '\\"') + '"\n';
+    fm += 'source: ""\n';
+    fm += 'creditUrl: "' + creditUrl + '"\n';
+    fm += 'credit: "' + credit.replace(/"/g, '\\"') + '"\n';
+    fm += 'prepTime: "' + prepTime + '"\n';
+    fm += 'cookTime: "' + cookTime + '"\n';
+    fm += 'servings: "' + servingsVal + '"\n';
+    fm += 'image: "' + imageUrl + '"\n';
+    fm += 'notes: "' + notes.replace(/"/g, '\\"').replace(/\n/g, ' ') + '"\n';
+    fm += '---\n\n';
+
+    // Ingredients
+    fm += '## Ingredients\n\n';
+    ingredients.split('\n').forEach(function(line) {
+      line = line.trim();
+      if (line) fm += '- ' + line + '\n';
+    });
+
+    // Instructions
+    fm += '\n## Instructions\n\n';
+    var stepNum = 1;
+    instructions.split('\n').forEach(function(line) {
+      line = line.trim();
+      if (!line) return;
+      // Strip leading number/dot if user already numbered
+      line = line.replace(/^\d+[\.\)]\s*/, '');
+      fm += stepNum + '. ' + line + '\n';
+      stepNum++;
+    });
+
+    return fm;
+  }
+
+  // --- Live preview ---
+  var formFields = document.querySelectorAll('#admin-recipe-form input, #admin-recipe-form textarea, #admin-recipe-form select');
+  formFields.forEach(function(field) {
+    field.addEventListener('input', updatePreview);
+    field.addEventListener('change', updatePreview);
+  });
+
+  function updatePreview() {
+    var pre = document.getElementById('md-preview');
+    try {
+      pre.textContent = buildMarkdown();
+    } catch(e) {
+      pre.textContent = '(fill in required fields to see preview)';
+    }
+  }
+
+  // --- Submit to GitHub ---
+  document.getElementById('admin-recipe-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    var title = document.getElementById('recipe-title').value.trim();
+    if (!title) return;
+
+    var slug = slugify(title);
+    var filename = slug + '.md';
+    var filePath = FILE_PATH_PREFIX + filename;
+    var content = buildMarkdown();
+
+    var btn = document.getElementById('submit-btn');
+    var status = document.getElementById('submit-status');
+    btn.disabled = true;
+    btn.textContent = 'Committing...';
+    status.textContent = '';
+    status.style.color = '';
+
+    // Base64 encode the content
+    var encoded = btoa(unescape(encodeURIComponent(content)));
+
+    fetch('https://api.github.com/repos/' + REPO_OWNER + '/' + REPO_NAME + '/contents/' + filePath, {
+      method: 'PUT',
+      headers: {
+        'Authorization': 'Bearer ' + token,
+        'Content-Type': 'application/json',
+        'Accept': 'application/vnd.github.v3+json'
+      },
+      body: JSON.stringify({
+        message: 'Add recipe: ' + title,
+        content: encoded,
+        branch: BRANCH
+      })
+    }).then(function(r) {
+      if (!r.ok) return r.json().then(function(d) {
+        var msg = d.message || 'API error';
+        if (msg.indexOf('Resource not accessible') !== -1) {
+          msg = 'Token lacks "Contents: Read and write" permission. Go to GitHub → Settings → Developer settings → Fine-grained tokens → edit your token → under Repository permissions, set Contents to "Read and write", then regenerate and re-authenticate here.';
+        }
+        throw new Error(msg);
+      });
+      return r.json();
+    }).then(function(data) {
+      document.getElementById('admin-recipe-form').style.display = 'none';
+      document.getElementById('recipe-panel').querySelector('h1').style.display = 'none';
+      document.getElementById('recipe-panel').querySelector('.submit-intro').style.display = 'none';
+      var successEl = document.getElementById('form-success');
+      successEl.style.display = 'block';
+      document.getElementById('recipe-link-info').innerHTML =
+        'Recipe file: <code>' + filename + '</code><br>' +
+        'It will be live at <strong>/bell-favorite-recipes/recipes/' + slug + '/</strong> after rebuild.';
+    }).catch(function(err) {
+      status.textContent = 'Error: ' + err.message;
+      status.style.color = '#c0392b';
+      btn.disabled = false;
+      btn.textContent = 'Add Recipe to Site';
+    });
+  });
+
+  // --- Add another ---
+  document.getElementById('add-another-btn').addEventListener('click', function() {
+    document.getElementById('form-success').style.display = 'none';
+    document.getElementById('admin-recipe-form').style.display = 'block';
+    document.getElementById('admin-recipe-form').reset();
+    document.getElementById('recipe-panel').querySelector('h1').style.display = '';
+    document.getElementById('recipe-panel').querySelector('.submit-intro').style.display = '';
+    document.getElementById('image-preview').style.display = 'none';
+    document.getElementById('photo-grid-wrapper').style.display = 'none';
+    document.getElementById('photo-grid').innerHTML = '';
+    document.getElementById('photo-search-input').value = '';
+    document.getElementById('submit-btn').disabled = false;
+    document.getElementById('submit-btn').textContent = 'Add Recipe to Site';
+    document.getElementById('submit-status').textContent = '';
+    document.getElementById('subcategory-group').style.display = 'none';
+    document.getElementById('md-preview').textContent = '';
+  });
+
+})();
+</script>
+{{ end }}

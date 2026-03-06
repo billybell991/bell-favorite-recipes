@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:52-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["dips", "dip"]
-description: "Hot crab dip, slow-cooked to perfection"
+description: "Creamy, addictive fresh dip with salsa and packages of cream cheese — set it out with chips or veggies and watch it disappear before the party even starts."
 source: ""
 creditUrl: ""
 credit: ""

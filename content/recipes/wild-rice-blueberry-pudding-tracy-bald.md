@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Native Cuisine"]
 tags: ["native cuisine"]
-description: "Wild Rice Blueberry Pudding, simmered to perfection"
+description: "A luscious indulgent pudding with cooked wild rice and cream or 2% evaporated milk — smooth, rich, and the perfect ending to any meal."
 source: ""
 creditUrl: ""
 credit: ""

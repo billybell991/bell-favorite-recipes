@@ -4,14 +4,14 @@ date: 2026-03-05T06:52:42-05:00
 draft: false
 categories: ["Family Recipes"]
 tags: ["cake"]
-description: "Lemon coffee cake - pep's grandma, baked to perfection"
+description: "Pep's Grandma knew what she was doing — a bright, citrusy cake made with lemon cake mix and instant pudding, topped with a cinnamon-sugar crumble that shatters with every bite. The recipe everyone asks for but she only shared with family."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6148262/pexels-photo-6148262.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/8876155/pexels-photo-8876155.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

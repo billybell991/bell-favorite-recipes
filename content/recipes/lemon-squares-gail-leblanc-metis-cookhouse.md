@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Native Cuisine"]
 tags: ["native cuisine"]
-description: "Fluffy, Lemon Squares, baked to perfection"
+description: "Irresistible rich squares with ½ cup butter or margarine and ¼ cup confectioners’ sugar — layer upon layer of sweetness that cut into perfect little treats for sharing (or not sharing)."
 source: ""
 creditUrl: ""
 credit: ""

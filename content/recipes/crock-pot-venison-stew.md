@@ -4,14 +4,14 @@ date: 2026-03-05T06:54:12-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["stew"]
-description: "Tender, crock pot venison stew"
+description: "Rustic rustic stew loaded with or 4 lb. venison roast, beef bouillon cubes, and onion, simmered until the kitchen fills with the most incredible aroma. Serve it with crusty bread and call it a perfect night."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/34837746/pexels-photo-34837746.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/30678525/pexels-photo-30678525.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:38-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["chicken", "instant pot"]
-description: "Golden brown and tender, lemon chicken, pressure-cooked to perfection"
+description: "Crispy-skinned, bold chicken with boneless chicken thighs and garlic powder cooked until golden and irresistible. This is the recipe that makes chicken exciting again."
 source: ""
 creditUrl: ""
 credit: ""

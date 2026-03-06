@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Casseroles"]
 tags: ["casseroles", "stew"]
-description: "Tender, sausage and pepper stew, simmered to perfection"
+description: "Rustic rustic stew loaded with olive oil, hot italian sausage, and medium onion, simmered until the kitchen fills with the most incredible aroma. Serve it with crusty bread and call it a perfect night."
 source: ""
 creditUrl: ""
 credit: ""

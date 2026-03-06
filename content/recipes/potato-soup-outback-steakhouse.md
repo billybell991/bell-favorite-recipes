@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:23-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["soup", "potatoes"]
-description: "Potato soup"
+description: "Steaming bowls of bold soup packed with potatoes, kosher salt, and vegetable oil. The recipe you reach for when the weather turns and comfort is non-negotiable."
 source: ""
 creditUrl: ""
 credit: ""

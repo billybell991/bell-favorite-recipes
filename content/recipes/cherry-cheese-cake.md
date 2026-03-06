@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cakes and Muffins"]
 tags: ["cakes and muffins", "cake"]
-description: "Cherry cheese cake"
+description: "Rich, tender indulgent cake with to 1 cup icing sugar and pkg cream cheese that hits all the right notes. This is the cake that turns an ordinary day into a celebration."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/18296426/pexels-photo-18296426.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5163947/pexels-photo-5163947.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 - 1/2 to 1 cup icing sugar

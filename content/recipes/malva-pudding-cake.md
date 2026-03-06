@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:18-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "cake"]
-description: "Rich, malva pudding cake"
+description: "A show-stopping luscious cake with apricot jam and l tsp baking soda. Every forkful is pure, sweet indulgence — the recipe you'll be asked to share again and again."
 source: ""
 creditUrl: ""
 credit: ""

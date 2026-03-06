@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:18-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["cookies"]
-description: "Maya's cookie brownie recipe, baked to perfection"
+description: "Perfectly sweet cookies studded with ½ cup unsalted butter, ¼ teaspoon to ½ salt, and ½ cup packed brown sugar. Simple enough for a Tuesday, special enough for a holiday platter."
 source: ""
 creditUrl: ""
 credit: ""

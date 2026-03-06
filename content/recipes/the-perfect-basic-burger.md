@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:29-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: []
-description: "The perfect basic burger"
+description: "A robust robust beef dinner with ground black pepper and ground beef that's big on flavor and bigger on satisfaction. The entrée everyone remembers."
 source: ""
 creditUrl: ""
 credit: ""

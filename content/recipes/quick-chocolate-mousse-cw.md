@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Puddings"]
 tags: ["puddings"]
-description: "Quick Chocolate Mousse, chilled to perfection"
+description: "Silky, rich pudding with eagle brand and instant chocolate pudding mix — pure comfort in a bowl. The kind of dessert that makes everyone feel like a kid again."
 source: ""
 creditUrl: ""
 credit: ""

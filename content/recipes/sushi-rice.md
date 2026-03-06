@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:20-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["rice"]
-description: "Sushi rice"
+description: "Fluffy, fragrant satisfying rice with sushi rice and hot water — every grain perfectly cooked and packed with flavor. The side dish that steals the spotlight."
 source: ""
 creditUrl: ""
 credit: ""

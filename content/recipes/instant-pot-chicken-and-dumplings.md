@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:10-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["chicken", "instant pot"]
-description: "Chicken and dumplings, pressure-cooked to perfection"
+description: "Juicy, flavorful savory chicken with olive oil and small onion — golden on the outside, tender all the way through. The kind of dinner that earns a round of applause."
 source: ""
 creditUrl: ""
 credit: ""

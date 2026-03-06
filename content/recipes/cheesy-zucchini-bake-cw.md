@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Vegetables"]
 tags: ["vegetables"]
-description: "Crispy, tender, Cheesy Zucchini Bake, baked to perfection"
+description: "Hearty rustic casserole packed with sliced zucchini, large onion, and minced garlic — the ultimate one-dish dinner. Pop it in the oven and let it do all the work."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/19145679/pexels-photo-19145679.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5639274/pexels-photo-5639274.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

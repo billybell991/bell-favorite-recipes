@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Meat"]
 tags: ["meat", "beef"]
-description: "Tender, campbell's beef & mushroom skillet"
+description: "A robust robust beef dinner with vegetable oil and boneless beef sirloin or inside roundsteak that's big on flavor and bigger on satisfaction. The entrée everyone remembers."
 source: ""
 creditUrl: ""
 credit: ""

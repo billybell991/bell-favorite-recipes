@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:13-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares"]
-description: "Chocolate eclair squares"
+description: "Irresistible sweet squares with container of chocolate icing and box of graham crackers — layer upon layer of sweetness that cut into perfect little treats for sharing (or not sharing)."
 source: ""
 creditUrl: ""
 credit: ""

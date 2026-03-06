@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:49-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: []
-description: "Family favourite lasagna"
+description: "Tender pasta tossed with lean ground beef, onions, and garlic cloves in a bold sauce that coats every strand. This is the dinner everyone asks for twice in one week."
 source: ""
 creditUrl: ""
 credit: ""

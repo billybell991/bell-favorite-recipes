@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:42-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["keto"]
-description: "Cheese roll-ups"
+description: "A satisfying, low-carb comforting recipe with cheddar cheese or provolone cheese or edam cheese — all the flavor, none of the guilt. Proof that keto eating can be absolutely delicious."
 source: ""
 creditUrl: ""
 credit: ""

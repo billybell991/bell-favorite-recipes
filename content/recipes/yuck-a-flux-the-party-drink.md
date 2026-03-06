@@ -4,7 +4,7 @@ date: 2026-03-05T07:00:05-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["drinks"]
-description: "Yuck-a-flux"
+description: "Homemade satisfying goodness with lemons and limes — made from scratch with real ingredients and a whole lot of love. This one's a keeper."
 source: ""
 creditUrl: ""
 credit: ""

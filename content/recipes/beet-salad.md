@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pickles"]
 tags: ["pickles"]
-description: "Beet Salad, a classic homemade preserve"
+description: "Crunchy, refreshing vibrant salad tossed with boil, ½ cup flour, and dry mustard. Light enough for summer, hearty enough to stand on its own."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1213710/pexels-photo-1213710.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/3774598/pexels-photo-3774598.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

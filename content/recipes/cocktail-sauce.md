@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Sauces"]
 tags: ["sauces"]
-description: "Cocktail Sauce, perfect for any dish"
+description: "Homemade rustic sauce with ketchup and lemon juice — so much better than store-bought that you'll never go back to the bottle."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/688802/pexels-photo-688802.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/16427476/pexels-photo-16427476.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

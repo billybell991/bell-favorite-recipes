@@ -4,7 +4,7 @@ date: 2026-03-05T07:00:22-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["meat", "chicken"]
-description: "Tender, manilla chicken, simmered to perfection"
+description: "Tender, perfectly seasoned comforting chicken with boneless and onion — proof that a great chicken dinner never goes out of style."
 source: ""
 creditUrl: ""
 credit: ""

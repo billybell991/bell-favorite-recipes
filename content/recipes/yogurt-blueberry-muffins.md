@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:33-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "muffins"]
-description: "Yogurt blueberry muffins, baked to perfection"
+description: "Tender, domed rich muffins bursting with plain yogurt, brown sugar, and ½ cup oil — the kind that make weekday mornings feel like a treat."
 source: ""
 creditUrl: ""
 credit: ""

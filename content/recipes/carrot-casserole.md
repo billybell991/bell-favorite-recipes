@@ -4,14 +4,14 @@ date: 2026-03-05T06:59:36-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["casseroles"]
-description: "Carrot casserole, baked to perfection"
+description: "Hearty rustic casserole packed with carrots, medium onion, and grated cheese — the ultimate one-dish dinner. Pop it in the oven and let it do all the work."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4768962/pexels-photo-4768962.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/30519773/pexels-photo-30519773.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Judy and Lorne Pierce

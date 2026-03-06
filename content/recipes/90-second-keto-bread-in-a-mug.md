@@ -4,14 +4,14 @@ date: 2026-03-05T06:53:26-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["bread", "keto"]
-description: "90-second  bread in a mug"
+description: "Warm, homemade toasty bread with ⅓ cup blanched almond flour and ½ teaspoon baking powder — crusty on the outside, pillowy soft on the inside, and impossible to eat just one slice."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/13020544/pexels-photo-13020544.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/31768242/pexels-photo-31768242.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

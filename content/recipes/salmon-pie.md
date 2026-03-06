@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Fish"]
 tags: ["fish", "salmon", "pie"]
-description: "Salmon pie, baked to perfection"
+description: "Flaky, golden crust cradling a rich filling with tin canned salmon and liquid — the kind of pie that earns a permanent spot on the holiday table."
 source: ""
 creditUrl: ""
 credit: ""

@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:22-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: []
-description: "Pickled mushrooms"
+description: "Homemade satisfying preserves with mushrooms and garlic cloves that capture the season in a jar. Better than anything on the store shelf and made with love."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Breads"]
 tags: ["breads"]
-description: "Purity tea biscuits, baked to perfection"
+description: "Homemade toasty bread that's surprisingly simple and outrageously delicious. Proof that the best things in life are warm and carb-filled."
 source: ""
 creditUrl: ""
 credit: ""

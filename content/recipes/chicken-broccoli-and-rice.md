@@ -4,14 +4,14 @@ date: 2026-03-05T06:53:01-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["chicken", "rice"]
-description: "Chicken broccoli and rice, sautéed to perfection"
+description: "Crispy-skinned, bold chicken with ½ - 2 pounds boneless skinless chicken breast cut into cubes and cloves garlic cooked until golden and irresistible. This is the recipe that makes chicken exciting again."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/32287751/pexels-photo-32287751.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5836771/pexels-photo-5836771.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

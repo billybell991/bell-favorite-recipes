@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Smooth, No-bake Peanut Butter Squares, baked to perfection"
+description: "Sweet, satisfying luscious squares with ½ cup butter or margarine and ½ cup lightly-packed brown sugar. The recipe that turns a simple baking pan into a crowd-pleasing masterpiece."
 source: ""
 creditUrl: ""
 credit: ""

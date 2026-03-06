@@ -4,7 +4,7 @@ date: 2026-03-05T06:58:49-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["appetizers"]
-description: "Gazpacho"
+description: "Homemade robust goodness with large tin tomato juice and diced tomatoesor3-4 ripe — made from scratch with real ingredients and a whole lot of love. This one's a keeper."
 source: ""
 creditUrl: ""
 credit: ""

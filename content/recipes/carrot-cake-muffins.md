@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cakes and Muffins"]
 tags: ["cakes and muffins", "cake", "muffins"]
-description: "Carrot cake muffins, baked to perfection"
+description: "Tender, domed rich muffins bursting with medium-sized carrots, ½ tsp salt, and ½ cup raisins — the kind that make weekday mornings feel like a treat."
 source: ""
 creditUrl: ""
 credit: ""

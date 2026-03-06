@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pies"]
 tags: ["pies"]
-description: "Quiche Crust, with a perfectly flaky crust"
+description: "Classic heavenly pie with l-l/2 cups cooked brown rice and chopped onion — every slice is a perfect balance of flaky pastry and luscious filling. Save room for seconds."
 source: ""
 creditUrl: ""
 credit: ""

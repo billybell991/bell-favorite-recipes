@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Breads"]
 tags: ["breads", "pie"]
-description: "Bubbly, pizza pie dough, baked to perfection"
+description: "Classic heavenly pie with bisquick and very hot water — every slice is a perfect balance of flaky pastry and luscious filling. Save room for seconds."
 source: ""
 creditUrl: ""
 credit: ""

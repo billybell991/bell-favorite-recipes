@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes", "salad", "potatoes"]
-description: "Tender, tarragon potato salad"
+description: "Crunchy, refreshing vibrant salad tossed with red potatoes, small clove garlic, and ¾ tsp dried tarragon. Light enough for summer, hearty enough to stand on its own."
 source: ""
 creditUrl: ""
 credit: ""

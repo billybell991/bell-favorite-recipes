@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Desserts"]
 tags: ["desserts"]
-description: "Caramel dumplings, simmered to perfection"
+description: "Sweet, homemade rich candy with ½ cup sugar and ½ tsp salt — the kind of treat that makes you feel like a confectioner. Wrap them up for gifts or keep the whole batch."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/29545366/pexels-photo-29545366.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/8793943/pexels-photo-8793943.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 DUMPLINGS:

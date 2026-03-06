@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes"]
-description: "Creamy french dressing"
+description: "A tangy, homemade bright dressing with ketchup and ½ cup reduced-fat mayonnaise that elevates any salad from side dish to star. So much better than bottled."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5202246/pexels-photo-5202246.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/19084215/pexels-photo-19084215.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

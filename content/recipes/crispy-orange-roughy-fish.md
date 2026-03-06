@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes", "fish"]
-description: "Crispy orange roughy"
+description: "Delicate, flavorful rustic fish with egg whites and ¼ tsp salt that comes together quickly and tastes like a night out. Seafood done right."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/17760129/pexels-photo-17760129.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/9831602/pexels-photo-9831602.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

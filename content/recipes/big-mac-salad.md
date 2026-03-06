@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:31-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["salad"]
-description: "Big mac salad"
+description: "Crunchy, refreshing crisp salad tossed with of ground beef, romaine lettuce, and red onion. Light enough for summer, hearty enough to stand on its own."
 source: ""
 creditUrl: ""
 credit: ""

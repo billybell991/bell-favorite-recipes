@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Frontier Kitchen Dolly Drops, perfect for any occasion"
+description: "A delicious homemade savory recipe with crisco — simple enough for any night of the week but special enough to remember."
 source: ""
 creditUrl: ""
 credit: ""

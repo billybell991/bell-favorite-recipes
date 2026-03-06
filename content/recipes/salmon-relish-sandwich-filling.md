@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Miscellaneous"]
 tags: ["miscellaneous"]
-description: "Salmon Relish Sandwich Filling, a family favorite"
+description: "Crunchy, tangy satisfying pickles with tin 3-3/4 oz salmon and sweet green relish — brined to briny perfection. Open a jar and taste summer all year long."
 source: ""
 creditUrl: ""
 credit: ""

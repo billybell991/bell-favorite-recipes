@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:50-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["cake", "keto"]
-description: "Strawberry cheesecake  fat bombs"
+description: "This decadent cake with = 120 ml = 2.5 oz = 70 g strawberries and = 180 ml = 5.3 oz = 150 g cream cheese is the one people request by name. Tender, flavorful, and gorgeous enough for a celebration (or just a really good Tuesday)."
 source: ""
 creditUrl: ""
 credit: ""

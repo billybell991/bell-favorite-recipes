@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Squares"]
 tags: ["squares"]
-description: "Fluffy, Uncle Paul’s Pumpkin Bars, baked to perfection"
+description: "Sweet, satisfying sweet squares with granulated sugar and cooking oil. The recipe that turns a simple baking pan into a crowd-pleasing masterpiece."
 source: ""
 creditUrl: ""
 credit: ""

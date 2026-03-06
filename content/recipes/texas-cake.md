@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:31-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "cake"]
-description: "Texas cake"
+description: "Homemade melt-in-your-mouth cake with can of crushed pineapple and brown sugar that rises tall, stays unbelievably moist, and tastes like it took way more effort than it actually did."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cookies"]
 tags: ["cookies", "cookies"]
-description: "Golden brown, easiest chocolate chip cookies, baked to perfection"
+description: "Perfectly sweet cookies studded with light or dark brown sugar, large egg, and chocolate chips. Simple enough for a Tuesday, special enough for a holiday platter."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/31116131/pexels-photo-31116131.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/34591953/pexels-photo-34591953.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

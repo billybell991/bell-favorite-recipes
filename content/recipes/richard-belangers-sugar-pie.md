@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pies"]
 tags: ["pies"]
-description: "Richard Belanger’s Sugar Pie, baked to perfection"
+description: "Homemade luscious pie with whipping cream and ¼ - ½ cup of carnation milk. Golden crust, gorgeous filling, and the kind of satisfaction only a from-scratch pie can deliver."
 source: ""
 creditUrl: ""
 credit: ""

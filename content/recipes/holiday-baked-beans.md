@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:07-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: []
-description: "Holiday baked beans, pressure-cooked to perfection"
+description: "Warm, satisfying comforting casserole with pounddried navy beans and tablespoonkosher salt that feeds a crowd and tastes even better the next day. The definition of comfort food."
 source: ""
 creditUrl: ""
 credit: ""

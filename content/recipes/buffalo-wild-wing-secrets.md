@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:06-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: []
-description: "Buffalo wild wing secrets"
+description: "Flavorful, satisfying comforting comfort food with heat oil or shortening in your fryer to 350°f. and fry wings for 10-12 minutes. The kind of recipe that gets dog-eared in the cookbook and passed down through generations."
 source: ""
 creditUrl: ""
 credit: ""

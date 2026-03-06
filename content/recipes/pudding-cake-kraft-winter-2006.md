@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Puddings"]
 tags: ["puddings"]
-description: "Warm, Pudding-cake, baked to perfection"
+description: "Homemade heavenly cake that rises tall, stays unbelievably moist, and tastes like it took way more effort than it actually did."
 source: ""
 creditUrl: ""
 credit: ""

@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:39-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["casseroles"]
-description: "Perogy lazy boy, baked to perfection"
+description: "Flavorful, satisfying hearty comfort food with lasagna noodles and mashed potatoes. The kind of recipe that gets dog-eared in the cookbook and passed down through generations."
 source: ""
 creditUrl: ""
 credit: ""

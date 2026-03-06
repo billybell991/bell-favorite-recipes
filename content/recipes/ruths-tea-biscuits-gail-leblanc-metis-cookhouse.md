@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Native Cuisine"]
 tags: ["native cuisine"]
-description: "Smooth, Ruth’s Tea Biscuits, baked to perfection"
+description: "Soft, golden warm rolls with ¼ cup sugar and ¼ cup oil or shortening that pull apart like a dream. Perfect alongside any meal or slathered with butter straight from the oven."
 source: ""
 creditUrl: ""
 credit: ""

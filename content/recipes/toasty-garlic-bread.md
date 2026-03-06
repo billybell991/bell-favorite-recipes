@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Breads"]
 tags: ["breads", "bread"]
-description: "Golden brown, toasty garlic bread, broiled to perfection"
+description: "Soft, golden warm rolls with french bread and ½ cup butter or margarine that pull apart like a dream. Perfect alongside any meal or slathered with butter straight from the oven."
 source: ""
 creditUrl: ""
 credit: ""

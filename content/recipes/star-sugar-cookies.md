@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cookies"]
 tags: ["cookies", "cookies"]
-description: "Star sugar cookies, baked to perfection"
+description: "A classic indulgent cookie recipe with cream of tartar and raisins — chewy centers, golden edges, and that irresistible homemade smell that fills every room in the house."
 source: ""
 creditUrl: ""
 credit: ""

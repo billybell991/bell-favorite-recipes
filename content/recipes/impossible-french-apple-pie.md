@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pies"]
 tags: ["pies"]
-description: "Smooth, Impossible French Apple Pie, baked to perfection"
+description: "A beautiful melt-in-your-mouth pie with sliced pared tart apples and ¾ cup milk with a buttery crust and a filling so good you'll want to eat it by the spoonful."
 source: ""
 creditUrl: ""
 credit: ""

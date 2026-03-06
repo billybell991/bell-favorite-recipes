@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Appetizers"]
 tags: ["appetizers", "salmon"]
-description: "Salmon cheese ball"
+description: "Delicate, flavorful rustic fish with cream cheese and tin salmon that comes together quickly and tastes like a night out. Seafood done right."
 source: ""
 creditUrl: ""
 credit: ""

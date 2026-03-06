@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Squares"]
 tags: ["squares"]
-description: "Golden brown, golden, Toffee Chocolate Chunk Almond Bars, baked to perfection"
+description: "Sweet, satisfying luscious squares with ½ tsp baking powder and ¼ tsp salt. The recipe that turns a simple baking pan into a crowd-pleasing masterpiece."
 source: ""
 creditUrl: ""
 credit: ""

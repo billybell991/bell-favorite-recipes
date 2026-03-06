@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes", "soup"]
-description: "Bubbly, broccoli-cauliflower soup"
+description: "Rich, comforting rustic soup with ¼ tsp ground mace and pkg frozen chopped broccoli that's like a warm hug on a cold day. One pot, minimal effort, maximum satisfaction."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6646157/pexels-photo-6646157.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/14774468/pexels-photo-14774468.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pies"]
 tags: ["pies"]
-description: "Smooth, Impossible Chicken Pie, baked to perfection"
+description: "Flaky, golden crust cradling a rich filling with cut-up chicken and ½ - 1 can mushrooms — the kind of pie that earns a permanent spot on the holiday table."
 source: ""
 creditUrl: ""
 credit: ""

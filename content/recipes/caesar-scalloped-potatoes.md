@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Vegetables"]
 tags: ["vegetables"]
-description: "Crispy, golden, Caesar Scalloped Potatoes, a delicious side dish"
+description: "Crispy, golden hearty potatoes with preparation: 10 minutes and cook: 22 minutes — crunchy on the outside, fluffy on the inside, and gone way faster than you'd expect."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7625714/pexels-photo-7625714.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/4661503/pexels-photo-4661503.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

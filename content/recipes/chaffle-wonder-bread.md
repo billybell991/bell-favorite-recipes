@@ -4,14 +4,14 @@ date: 2026-03-05T06:53:32-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["bread"]
-description: "Toasted chaffle, grilled to perfection"
+description: "A satisfying, low-carb hearty recipe with of egg white and heaping tsp of mayonnaise — all the flavor, none of the guilt. Proof that keto eating can be absolutely delicious."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7696923/pexels-photo-7696923.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/30681412/pexels-photo-30681412.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

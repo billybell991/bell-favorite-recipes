@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:21-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares"]
-description: "Peppermint squares"
+description: "Irresistible melt-in-your-mouth squares with ½ cup margarine or butter and ¼ cup white sugar — layer upon layer of sweetness that cut into perfect little treats for sharing (or not sharing)."
 source: ""
 creditUrl: ""
 credit: ""

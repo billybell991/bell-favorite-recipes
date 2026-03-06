@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Puddings"]
 tags: ["puddings"]
-description: "Rich, Malva Pudding, baked to perfection"
+description: "A luscious indulgent pudding with cake: 1 cup sugar and apricot jam — smooth, rich, and the perfect ending to any meal."
 source: ""
 creditUrl: ""
 credit: ""

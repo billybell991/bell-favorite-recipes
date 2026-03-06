@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cakes and Muffins"]
 tags: ["cakes and muffins", "muffins"]
-description: "Banana muffins, baked to perfection"
+description: "Golden-topped sweet muffins loaded with ¼ cup sugar, ¼ tsp salt, and chopped walnuts. Mix the batter in one bowl, bake, and watch them vanish."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1657343/pexels-photo-1657343.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/12064409/pexels-photo-12064409.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Preheat oven to 400 degrees.  Blend or sift together:

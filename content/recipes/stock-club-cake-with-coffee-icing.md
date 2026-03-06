@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:27-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "cake"]
-description: "Creamy, stock club cake with coffee icing"
+description: "Homemade sweet cake with soda and cocoa that rises tall, stays unbelievably moist, and tastes like it took way more effort than it actually did."
 source: ""
 creditUrl: ""
 credit: ""

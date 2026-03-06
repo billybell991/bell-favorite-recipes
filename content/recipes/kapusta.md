@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:37-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["casseroles"]
-description: "Kapusta"
+description: "Homemade rustic goodness with or 4 onions and ¼ cup butter — made from scratch with real ingredients and a whole lot of love. This one's a keeper."
 source: ""
 creditUrl: ""
 credit: ""

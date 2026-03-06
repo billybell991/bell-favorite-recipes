@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Meat"]
 tags: ["meat", "beef"]
-description: "Tender, campbell's shortcut beef stroganoff, simmered to perfection"
+description: "Hearty, satisfying satisfying beef with vegetable oil and boneless beef sirloin or inside roundsteak — the kind of meal that brings everyone to the table before you've even finished plating."
 source: ""
 creditUrl: ""
 credit: ""

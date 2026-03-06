@@ -4,7 +4,7 @@ date: 2026-03-05T07:00:53-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["pastrypies"]
-description: "Never fail pastry"
+description: "A tried-and-true robust recipe with ¾ tsp salt and brown sugar that proves the best meals don't need to be complicated — just made with care."
 source: ""
 creditUrl: ""
 credit: ""

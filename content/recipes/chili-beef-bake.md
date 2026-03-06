@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Casseroles"]
 tags: ["casseroles", "beef"]
-description: "Chili beef bake"
+description: "Rich, slow-simmered robust chili with hamburg and uncooked rice. Top it with cheese and sour cream and let the warmth spread from your belly outward."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6454810/pexels-photo-6454810.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/65175/pexels-photo-65175.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

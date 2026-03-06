@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cake Frosting"]
 tags: ["cake frosting"]
-description: "Creamy, buttercream icing"
+description: "Silky, sweet indulgent frosting with crisco and kg icing sugar that spreads like a dream and makes any cake or cupcake irresistible."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7272011/pexels-photo-7272011.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/853006/pexels-photo-853006.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

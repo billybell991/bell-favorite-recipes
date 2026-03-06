@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Squares"]
 tags: ["squares"]
-description: "Sonia’s Absolutely Fabulous Dessert, baked to perfection"
+description: "A gorgeous rich dessert with (1 cup chopped walnuts or pecans and sugar ) that looks like it came from a bakery but tastes even better because it came from your kitchen."
 source: ""
 creditUrl: ""
 credit: ""

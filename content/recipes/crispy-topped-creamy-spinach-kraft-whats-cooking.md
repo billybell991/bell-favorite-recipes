@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Vegetables"]
 tags: ["vegetables"]
-description: "Crispy Topped Creamy Spinach, baked to perfection"
+description: "Simple, delicious garden-fresh vegetables . Sometimes the best meals are built around what's growing in the garden."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1152237/pexels-photo-1152237.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/3987348/pexels-photo-3987348.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Instructions

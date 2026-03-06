@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pies"]
 tags: ["pies"]
-description: "Golden brown, golden, Frontier Kitchen Sugar Tarts, baked to perfection"
+description: "Homemade luscious pie with brown sugar and cream or milk. Golden crust, gorgeous filling, and the kind of satisfaction only a from-scratch pie can deliver."
 source: ""
 creditUrl: ""
 credit: ""

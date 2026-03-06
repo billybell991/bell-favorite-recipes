@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Vegetables"]
 tags: ["vegetables"]
-description: "Golden, Wedges, fried to perfection"
+description: "Crispy, golden hearty potatoes with curry powder and ½ tsp poultry seasoning — crunchy on the outside, fluffy on the inside, and gone way faster than you'd expect."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Creamy, smooth, Carnation “can’t Fail” 5-minute Fudge, perfect for any occasion"
+description: "Velvety heavenly fudge with undiluted carnation evaporated milk and diced marshmallows — rich, dense, and indulgent. Cut into tiny squares because a little goes a long, long way."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4306222/pexels-photo-4306222.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5978426/pexels-photo-5978426.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

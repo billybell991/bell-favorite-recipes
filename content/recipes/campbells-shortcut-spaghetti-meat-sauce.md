@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Meat"]
 tags: ["meat"]
-description: "Tender, campbell's shortcut spaghetti & meat sauce, simmered to perfection"
+description: "Homemade satisfying sauce with vegetable oil and ¾ lb ground beef — so much better than store-bought that you'll never go back to the bottle."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6545670/pexels-photo-6545670.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/6287525/pexels-photo-6287525.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

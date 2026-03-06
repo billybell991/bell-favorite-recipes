@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:15-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["chicken"]
-description: "Faux-tisserie chicken, pressure-cooked to perfection"
+description: "Juicy, flavorful comforting chicken with to 3 pound whole chicken and olive oil {divided} — golden on the outside, tender all the way through. The kind of dinner that earns a round of applause."
 source: ""
 creditUrl: ""
 credit: ""

@@ -4,14 +4,14 @@ date: 2026-03-05T06:53:00-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["chicken"]
-description: "Chicken breasts, sautéed to perfection"
+description: "Juicy, flavorful robust chicken with boneless and garlic salt per chicken breast — golden on the outside, tender all the way through. The kind of dinner that earns a round of applause."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8250430/pexels-photo-8250430.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5769384/pexels-photo-5769384.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ### Ingredients

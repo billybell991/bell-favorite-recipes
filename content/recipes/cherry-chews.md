@@ -4,14 +4,14 @@ date: 2026-03-05T06:59:09-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares"]
-description: "Cherry chews"
+description: "Flavorful, satisfying hearty comfort food with l cup sifted flour and rolled oats. The kind of recipe that gets dog-eared in the cookbook and passed down through generations."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/13701783/pexels-photo-13701783.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/6287235/pexels-photo-6287235.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Anne Mary and Jean-Paul Racine

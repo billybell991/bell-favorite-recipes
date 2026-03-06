@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Peanut Butter “sucre a La Crème” – Lucia Beaudoin, perfect for any occasion"
+description: "Flavorful, satisfying satisfying comfort food with ½ cup corn syrup or honey and ¾ cup peanut butter. The kind of recipe that gets dog-eared in the cookbook and passed down through generations."
 source: ""
 creditUrl: ""
 credit: ""

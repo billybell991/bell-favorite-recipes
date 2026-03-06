@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Casseroles"]
 tags: ["casseroles", "beef", "rice"]
-description: "Ruth's beef and rice supreme, baked to perfection"
+description: "Hearty, satisfying hearty beef with hamburg and rice — the kind of meal that brings everyone to the table before you've even finished plating."
 source: ""
 creditUrl: ""
 credit: ""

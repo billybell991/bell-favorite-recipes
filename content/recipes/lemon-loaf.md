@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:53-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: []
-description: "Lemon loaf"
+description: "Homemade rustic goodness with grated rind of 1 lemon and was a bit dry. maybe cook for 5-10 mins less next time. — made from scratch with real ingredients and a whole lot of love. This one's a keeper."
 source: ""
 creditUrl: ""
 credit: ""

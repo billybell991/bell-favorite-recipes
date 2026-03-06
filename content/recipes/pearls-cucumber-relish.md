@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pickles"]
 tags: ["pickles"]
-description: "Pearl’s Cucumber Relish, a classic homemade preserve"
+description: "Homemade rustic preserves with peel and remove seeds from cucumbers if desired and put through food chopper. should make about 12 – 13 cups of cukes and onions mixed. and add 3 tbsp salt and let stand for 4 hours. that capture the season in a jar. Better than anything on the store shelf and made with love."
 source: ""
 creditUrl: ""
 credit: ""

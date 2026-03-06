@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes", "chicken", "dip"]
-description: "Dip'n chicken, baked to perfection"
+description: "Smooth, tangy zesty dip with tub spreadable cream cheese and ½ to ¾ cup sour cream — simple to throw together but guaranteed to be the most popular thing on the snack table."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8250430/pexels-photo-8250430.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/29908848/pexels-photo-29908848.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Meat"]
 tags: ["beef"]
-description: "Beefy taco joes with tomato soup and salsa, topped with melted cheese"
+description: "A robust robust beef dinner with ground beef and tomato soup that's big on flavor and bigger on satisfaction. The entrée everyone remembers."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: "15 minutes"
 servings: "8 sandwiches"
-image: "https://images.pexels.com/photos/15822437/pexels-photo-15822437.jpeg?auto=compress&cs=tinysrgb&h=350"
+image: "https://images.pexels.com/photos/30793440/pexels-photo-30793440.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: "Also delicious served on a corn muffin or rice."
 ---
 

@@ -4,14 +4,14 @@ date: 2026-03-05T06:52:40-05:00
 draft: false
 categories: ["Family Recipes"]
 tags: []
-description: "Classic pickled eggs"
+description: "Colette's famous pickled eggs — tender hard-boiled eggs steeped in a tangy vinegar brine with garlic and a whisper of sugar, until they're briny, snappy, and completely addictive. A party tray classic that disappears first."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5266095/pexels-photo-5266095.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/8601703/pexels-photo-8601703.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## CLASSIC PICKLED EGGS

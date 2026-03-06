@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Appetizers"]
 tags: ["appetizers", "shrimp", "dip"]
-description: "Shrimp dip"
+description: "Creamy, addictive fresh dip with sour cream and cream cheese — set it out with chips or veggies and watch it disappear before the party even starts."
 source: ""
 creditUrl: ""
 credit: ""

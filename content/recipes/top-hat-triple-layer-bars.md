@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Squares"]
 tags: ["squares"]
-description: "Smooth, chilled, Top Hat Triple-layer Bars, baked to perfection"
+description: "A pan of sweet squares that's dangerously easy to make and even more dangerous to leave unattended on the counter."
 source: ""
 creditUrl: ""
 credit: ""

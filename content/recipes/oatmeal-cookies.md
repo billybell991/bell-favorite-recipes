@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cookies"]
 tags: ["cookies", "cookies"]
-description: "Golden brown, oatmeal cookies, baked to perfection"
+description: "Decadent cookies packed with margarine or butter, brown sugar, and oatmeal — the kind you bake a double batch of because the first one disappears before they've cooled."
 source: ""
 creditUrl: ""
 credit: ""

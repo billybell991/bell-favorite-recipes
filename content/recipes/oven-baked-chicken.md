@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:55-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: ["chicken"]
-description: "Oven-baked chicken"
+description: "Hearty rustic casserole packed with paprika, seasoned salt, and chicken drumsticks — the ultimate one-dish dinner. Pop it in the oven and let it do all the work."
 source: ""
 creditUrl: ""
 credit: ""

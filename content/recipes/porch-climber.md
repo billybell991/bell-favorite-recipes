@@ -4,7 +4,7 @@ date: 2026-03-05T07:00:02-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["drinks"]
-description: "Porch climber"
+description: "A delicious homemade savory recipe with big bucket and of ice — simple enough for any night of the week but special enough to remember."
 source: ""
 creditUrl: ""
 credit: ""

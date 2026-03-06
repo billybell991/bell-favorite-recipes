@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:20-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["pasta"]
-description: "Olive oil pasta"
+description: "Hearty comforting pasta with of spaghetti and of salt — the kind of meal you want to curl up on the couch with. Simple, satisfying, and just right."
 source: ""
 creditUrl: ""
 credit: ""

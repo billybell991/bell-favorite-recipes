@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pies"]
 tags: ["pies"]
-description: "Golden brown, golden, The Ultimate Tourtiere, baked to perfection"
+description: "Classic heavenly pie with ground pork and ¾ cup water — every slice is a perfect balance of flaky pastry and luscious filling. Save room for seconds."
 source: ""
 creditUrl: ""
 credit: ""

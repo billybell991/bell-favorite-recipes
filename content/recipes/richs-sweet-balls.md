@@ -4,7 +4,7 @@ date: 2026-03-05T07:00:30-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["meat"]
-description: "Rich's sweet balls, baked to perfection"
+description: "Homemade rustic goodness with of ground beef and ½ cup or so of bread crumbs — made from scratch with real ingredients and a whole lot of love. This one's a keeper."
 source: ""
 creditUrl: ""
 credit: ""

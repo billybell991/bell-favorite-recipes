@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Salads and Dressings"]
 tags: ["salads and dressings"]
-description: "Melody Dressing, chilled to perfection"
+description: "Creamy, zesty crisp dressing with paprika and lemon juice — whisk it together in minutes and taste the difference homemade makes."
 source: ""
 creditUrl: ""
 credit: ""

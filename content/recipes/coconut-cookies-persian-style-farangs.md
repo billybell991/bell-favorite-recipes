@@ -4,14 +4,14 @@ date: 2026-03-05T06:52:48-05:00
 draft: false
 categories: ["Friends Recipes"]
 tags: ["cookies"]
-description: "Coconut cookies, baked to perfection"
+description: "Warm from the oven and loaded with of ground coconut, of shredded coconut, and of powdered sugar, these luscious cookies are the ones everyone reaches for first at the bake sale."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/30984652/pexels-photo-30984652.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/29287003/pexels-photo-29287003.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Meat"]
 tags: ["meat", "chicken", "rice"]
-description: "Campbell's citrus skillet chicken & rice, simmered to perfection"
+description: "Juicy, flavorful comforting chicken with vegetable oil and boneless — golden on the outside, tender all the way through. The kind of dinner that earns a round of applause."
 source: ""
 creditUrl: ""
 credit: ""

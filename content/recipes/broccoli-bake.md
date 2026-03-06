@@ -4,14 +4,14 @@ date: 2026-03-05T06:59:35-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["casseroles"]
-description: "Broccoli bake"
+description: "Warm, satisfying comforting casserole with white minute rice and of cream of chicken soup that feeds a crowd and tastes even better the next day. The definition of comfort food."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7837785/pexels-photo-7837785.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/4768962/pexels-photo-4768962.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by David Henri

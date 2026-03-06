@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Breads"]
 tags: ["breads"]
-description: "Magic chelsea buns, baked to perfection"
+description: "Soft, golden buttery rolls with ¼ cup bee hive corn syrup and st. lawrence oil that pull apart like a dream. Perfect alongside any meal or slathered with butter straight from the oven."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Crispy, Sugared Nuts, baked to perfection"
+description: "A delicious homemade savory recipe with each cashews and ½ cup unsalted butter or margarine — simple enough for any night of the week but special enough to remember."
 source: ""
 creditUrl: ""
 credit: ""

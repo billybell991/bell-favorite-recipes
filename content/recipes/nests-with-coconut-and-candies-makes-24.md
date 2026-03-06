@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Smooth, Nests with Coconut and Candies, perfect for any occasion"
+description: "Homemade sweet candy studded with prep. time - 15 minutes, microwave: - 2 minutes, and butter or margarine — prettier than store-bought and a hundred times more delicious."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Breads"]
 tags: ["breads", "muffins"]
-description: "Bran muffins, baked to perfection"
+description: "Fluffy sweet muffins with all-bran and ½ cup sugar that rise tall and taste even better than the bakery. Best eaten warm with a smear of butter."
 source: ""
 creditUrl: ""
 credit: ""

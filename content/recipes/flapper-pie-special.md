@@ -4,7 +4,7 @@ date: 2026-03-05T07:00:49-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["pastrypies", "pie"]
-description: "Flapper pie special, baked to perfection"
+description: "Homemade indulgent pie with graham wafers and ¼ cup butter. Golden crust, gorgeous filling, and the kind of satisfaction only a from-scratch pie can deliver."
 source: ""
 creditUrl: ""
 credit: ""

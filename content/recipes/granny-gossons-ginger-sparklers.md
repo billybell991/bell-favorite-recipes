@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:46-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cookies"]
-description: "Granny gosson's ginger sparklers, baked to perfection"
+description: "Homemade satisfying goodness with ¼ tsp salt and ginger — made from scratch with real ingredients and a whole lot of love. This one's a keeper."
 source: ""
 creditUrl: ""
 credit: ""

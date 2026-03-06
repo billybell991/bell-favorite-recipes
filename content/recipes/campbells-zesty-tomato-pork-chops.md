@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Meat"]
 tags: ["meat", "pork"]
-description: "Campbell's zesty tomato pork chops, simmered to perfection"
+description: "Tender, juicy savory pork with vegetable oil and pork chops — caramelized edges, unbelievable flavor, and the kind of aroma that makes the neighbors jealous."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7333262/pexels-photo-7333262.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/7333266/pexels-photo-7333266.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

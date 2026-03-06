@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cookies"]
 tags: ["cookies"]
-description: "Golden brown, chocolate coconut macaroon logs, baked to perfection"
+description: "Melt-in-your-mouth cookies packed with sweetened condensed milk, unsweetened cocoa powder, and flaked coconut — the kind you bake a double batch of because the first one disappears before they've cooled."
 source: ""
 creditUrl: ""
 credit: ""

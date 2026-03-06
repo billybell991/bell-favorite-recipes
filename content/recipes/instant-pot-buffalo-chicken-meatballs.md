@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:37-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["chicken", "instant pot"]
-description: "Buffalo chicken meatballs, sautéed to perfection"
+description: "Succulent satisfying chicken with ground chicken and cupalmond meal that's simple enough for a weeknight but impressive enough for company. Every. Single. Time."
 source: ""
 creditUrl: ""
 credit: ""

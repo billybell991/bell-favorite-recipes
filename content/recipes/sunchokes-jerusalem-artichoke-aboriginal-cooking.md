@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Native Cuisine"]
 tags: ["native cuisine"]
-description: "Tender, fluffy, Sunchokes, a treasured traditional recipe"
+description: "A delicious homemade comforting recipe with these knotty tubers are the roots of a variety of the sunflower plant and were discovered by champlain in 1605 in the gardens of the indians in cape cod. they can be served raw or cooked. they are superb in salads and add an interesting touch to soups when thin slices are floated on top. — simple enough for any night of the week but special enough to remember."
 source: ""
 creditUrl: ""
 credit: ""

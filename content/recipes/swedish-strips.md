@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Squares"]
 tags: ["squares"]
-description: "Fluffy, Swedish Strips, easy to make and impossible to resist"
+description: "Flavorful, satisfying robust comfort food with l cup brown sugar and l egg. The kind of recipe that gets dog-eared in the cookbook and passed down through generations."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Fish"]
 tags: ["fish", "fish"]
-description: "Smoked whitefish"
+description: "Crispy on the outside, melt-in-your-mouth tender inside — this comforting fish with ½ cup packed brown sugar and ½ cup pickling salt is weeknight fancy at its absolute best."
 source: ""
 creditUrl: ""
 credit: ""

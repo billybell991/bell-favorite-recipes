@@ -4,7 +4,7 @@ date: 2026-03-05T06:52:57-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["pork"]
-description: "Bbq pork ribs, simmered to perfection"
+description: "Savory, golden robust pork with dry mustard and tbspsmoked paprika that's ridiculously easy to make and even more ridiculously delicious to eat."
 source: ""
 creditUrl: ""
 credit: ""

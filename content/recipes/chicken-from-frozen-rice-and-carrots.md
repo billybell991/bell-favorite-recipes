@@ -4,14 +4,14 @@ date: 2026-03-05T06:53:02-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["chicken", "rice"]
-description: "Chicken , rice, and carrots, steamed to perfection"
+description: "Juicy, flavorful comforting chicken with and 1/4 cups long grain white rice and unsalted chicken broth — golden on the outside, tender all the way through. The kind of dinner that earns a round of applause."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/20127885/pexels-photo-20127885.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/32287751/pexels-photo-32287751.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

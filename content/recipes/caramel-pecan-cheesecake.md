@@ -4,14 +4,14 @@ date: 2026-03-05T06:59:04-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "cake"]
-description: "Caramel pecan cheesecake, baked to perfection"
+description: "This sweet cake with ready-to-use graham pie crust and caramel squares is the one people request by name. Tender, flavorful, and gorgeous enough for a celebration (or just a really good Tuesday)."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5419218/pexels-photo-5419218.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/3071821/pexels-photo-3071821.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Sandra Stewart

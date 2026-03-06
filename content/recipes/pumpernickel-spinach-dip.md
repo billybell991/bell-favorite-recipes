@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Appetizers"]
 tags: ["appetizers", "dip"]
-description: "Pumpernickel spinach dip"
+description: "Smooth, tangy garden-fresh dip with pumpernickel and pkg of chopped spinach — simple to throw together but guaranteed to be the most popular thing on the snack table."
 source: ""
 creditUrl: ""
 credit: ""

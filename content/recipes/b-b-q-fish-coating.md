@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Fish"]
 tags: ["fish", "fish"]
-description: "B. b. q. fish coating"
+description: "A zesty BBQ fish coating with mayo, white wine, lemon juice, and garlic — perfect for grilling up tender, flavorful fish with a hint of cayenne kick."
 source: ""
 creditUrl: ""
 credit: ""

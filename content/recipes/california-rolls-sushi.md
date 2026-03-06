@@ -4,14 +4,14 @@ date: 2026-03-05T06:54:06-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: []
-description: "California rolls"
+description: "Soft, golden buttery rolls with juice of 1/2 lemon and medium avocado that pull apart like a dream. Perfect alongside any meal or slathered with butter straight from the oven."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5678887/pexels-photo-5678887.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/11009201/pexels-photo-11009201.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ### Ingredients

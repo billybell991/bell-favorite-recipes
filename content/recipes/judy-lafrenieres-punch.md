@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Miscellaneous"]
 tags: ["miscellaneous"]
-description: "Judy Lafreniere’s Punch, a family favorite"
+description: "A refreshing savory drink with pink lemonade and ½ bottle cranberry juice that's perfect for gatherings, holidays, or just a treat on a warm afternoon."
 source: ""
 creditUrl: ""
 credit: ""

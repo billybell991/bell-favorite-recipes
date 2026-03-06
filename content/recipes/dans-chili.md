@@ -4,14 +4,14 @@ date: 2026-03-05T07:00:18-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["meat"]
-description: "Dan's chili, simmered to perfection"
+description: "Bold, spicy savory chili loaded with onions, celery, and kidney beans — thick enough to stand a spoon in and packed with layers of smoky flavor."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/31603813/pexels-photo-31603813.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/29872932/pexels-photo-29872932.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Linda and Mike Gosson

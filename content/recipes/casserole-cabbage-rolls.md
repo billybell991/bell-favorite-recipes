@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Casseroles"]
 tags: ["casseroles"]
-description: "Casserole cabbage rolls, baked to perfection"
+description: "Soft, golden buttery rolls with ground chuck beef and cooking oil that pull apart like a dream. Perfect alongside any meal or slathered with butter straight from the oven."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3763621/pexels-photo-3763621.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/19585043/pexels-photo-19585043.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

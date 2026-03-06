@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cookies"]
 tags: ["cookies", "cookies"]
-description: "Beautiful ginger cookies, baked to perfection"
+description: "Warm from the oven and loaded with ½ cup softened butter, ½ cup packed dark brown sugar, and ¼ cup molasses, these luscious cookies are the ones everyone reaches for first at the bake sale."
 source: ""
 creditUrl: ""
 credit: ""

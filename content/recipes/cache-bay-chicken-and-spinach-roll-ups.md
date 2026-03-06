@@ -4,14 +4,14 @@ date: 2026-03-05T06:58:47-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["appetizers", "chicken"]
-description: "Cache bay chicken and spinach roll-ups, baked to perfection"
+description: "Juicy, flavorful comforting chicken with cloves garlic and spinach — golden on the outside, tender all the way through. The kind of dinner that earns a round of applause."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1860205/pexels-photo-1860205.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/9609832/pexels-photo-9609832.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Lorraine and Frank Nault

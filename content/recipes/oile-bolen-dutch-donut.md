@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:47-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cookies"]
-description: "Golden brown, oile bolen, fried to perfection"
+description: "Homemade comforting goodness with ½ cup sugar and ½ cup corn syrup — made from scratch with real ingredients and a whole lot of love. This one's a keeper."
 source: ""
 creditUrl: ""
 credit: ""

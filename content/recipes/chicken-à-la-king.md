@@ -4,14 +4,14 @@ date: 2026-03-05T07:00:12-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["meat", "chicken"]
-description: "Chicken à la king"
+description: "Succulent satisfying chicken with chopped and frozen vegetables that's simple enough for a weeknight but impressive enough for company. Every. Single. Time."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/2498892/pexels-photo-2498892.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/13111770/pexels-photo-13111770.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

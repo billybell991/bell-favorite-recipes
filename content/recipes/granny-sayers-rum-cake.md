@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:16-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "cake"]
-description: "Granny sayer's rum cake"
+description: "A show-stopping luscious cake with yellow duncan hines cake mix and small instant jello vanilla pudding. Every forkful is pure, sweet indulgence — the recipe you'll be asked to share again and again."
 source: ""
 creditUrl: ""
 credit: ""

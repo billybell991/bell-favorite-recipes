@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Vegetables"]
 tags: ["vegetables"]
-description: "Scalloped Potatoes, Cheezy, baked to perfection"
+description: "Crispy, golden satisfying potatoes with cream of celery soup and medium cooking onions — crunchy on the outside, fluffy on the inside, and gone way faster than you'd expect."
 source: ""
 creditUrl: ""
 credit: ""

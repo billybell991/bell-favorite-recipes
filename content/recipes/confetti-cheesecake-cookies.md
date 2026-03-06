@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:54-05:00
 draft: false
 categories: ["Maya's Recipes"]
 tags: ["cake", "cookies"]
-description: "Confetti cheesecake cookies"
+description: "Warm from the oven and loaded with block of cream cheese, powdered sugar, and vanilla extract, these melt-in-your-mouth cookies are the ones everyone reaches for first at the bake sale."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Chocolate Almond Bark, baked to perfection"
+description: "Rich, chewy sweet squares packed with soda crackers, chocolate chips, and chopped almonds. Cut them small because they're decadent, or cut them big because life is short."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/298485/pexels-photo-298485.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/12715961/pexels-photo-12715961.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

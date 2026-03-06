@@ -4,7 +4,7 @@ date: 2026-03-05T07:01:26-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["salads", "salad"]
-description: "Spinach salad with strawberries"
+description: "Crunchy, refreshing crisp salad tossed with spinach, pint of fresh strawberries, and ½ cup slivered almonds. Light enough for summer, hearty enough to stand on its own."
 source: ""
 creditUrl: ""
 credit: ""

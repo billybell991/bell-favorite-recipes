@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cookies"]
 tags: ["cookies", "cookies"]
-description: "Fluffy, beautiful sugar cookies, baked to perfection"
+description: "Decadent cookies packed with ½ cup softened butter, ¾ cup sugar, and medium or large egg — the kind you bake a double batch of because the first one disappears before they've cooled."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/26938196/pexels-photo-26938196.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/6996348/pexels-photo-6996348.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

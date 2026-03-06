@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Fish"]
 tags: ["fish", "salmon"]
-description: "Creamy and hearty, salmon bisque, sautéed to perfection"
+description: "A soul-warming bowl of savory soup with onion and tin salmon of 1 qt canned lake trout — the kind that simmers low and slow and makes the whole house smell incredible."
 source: ""
 creditUrl: ""
 credit: ""

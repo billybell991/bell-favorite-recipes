@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Pickled Eggs, perfect for any occasion"
+description: "Homemade rustic preserves with white vinegar and pepper berries that capture the season in a jar. Better than anything on the store shelf and made with love."
 source: ""
 creditUrl: ""
 credit: ""

@@ -4,7 +4,7 @@ date: 2026-03-05T06:52:59-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["beef", "stew"]
-description: "Beef stew 2, pressure-cooked to perfection"
+description: "Stick-to-your-ribs robust stew with beef chuck roast and sea salt — the kind of meal that turns a cold evening into something worth looking forward to."
 source: ""
 creditUrl: ""
 credit: ""

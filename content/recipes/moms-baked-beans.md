@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Casseroles"]
 tags: ["casseroles"]
-description: "Mom's baked beans"
+description: "Hearty satisfying casserole packed with navy beans, onion, and ¼ lb. salt pork — the ultimate one-dish dinner. Pop it in the oven and let it do all the work."
 source: ""
 creditUrl: ""
 credit: ""

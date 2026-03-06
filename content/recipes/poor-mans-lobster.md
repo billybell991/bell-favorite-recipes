@@ -4,7 +4,7 @@ date: 2026-03-05T07:00:26-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["meat"]
-description: "Poor man's lobster"
+description: "Light, flaky savory fish with fish filet and garlic butter — perfectly cooked with a golden crust and tender, moist flesh inside. Elegant made easy."
 source: ""
 creditUrl: ""
 credit: ""

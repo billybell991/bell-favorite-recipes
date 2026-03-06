@@ -4,7 +4,7 @@ date: 2026-03-05T06:58:50-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["appetizers"]
-description: "Ranch style tortilla roll-ups"
+description: "A delicious homemade satisfying recipe with philadelphia cream cheese and ranch style dry mix — simple enough for any night of the week but special enough to remember."
 source: ""
 creditUrl: ""
 credit: ""

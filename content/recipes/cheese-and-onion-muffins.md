@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cakes and Muffins"]
 tags: ["cakes and muffins", "muffins"]
-description: "Cheese and onion muffins, baked to perfection"
+description: "Tender, domed rich muffins bursting with ¼ tsp salt, shredded old cheddar cheese, and onion soup mix — the kind that make weekday mornings feel like a treat."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/35068395/pexels-photo-35068395.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/18713428/pexels-photo-18713428.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

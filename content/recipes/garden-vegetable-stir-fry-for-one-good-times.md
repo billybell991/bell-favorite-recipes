@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Vegetables"]
 tags: ["vegetables"]
-description: "Garden Vegetable Stir-fry, fried to perfection"
+description: "Fresh, vibrant bright vegetables with ½ cup vegetable and couscous — cooked just right so they're tender but still have that satisfying snap."
 source: ""
 creditUrl: ""
 credit: ""

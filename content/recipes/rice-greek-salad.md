@@ -4,7 +4,7 @@ date: 2026-03-05T07:01:23-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["salads", "salad", "rice"]
-description: "Rice greek salad"
+description: "A vibrant garden-fresh salad with cooked and cooled and english cucumber that brings crunch, color, and flavor to any table. This one earns its spot next to the main course."
 source: ""
 creditUrl: ""
 credit: ""

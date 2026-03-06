@@ -4,7 +4,7 @@ date: 2026-03-05T07:00:36-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["meat", "pork"]
-description: "Stuffed pork chops"
+description: "Savory, golden comforting pork with ½ pkg mushrooms and red pepper that's ridiculously easy to make and even more ridiculously delicious to eat."
 source: ""
 creditUrl: ""
 credit: ""

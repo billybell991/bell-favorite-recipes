@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cookies"]
 tags: ["cookies", "cookies"]
-description: "Thimble cookies, baked to perfection"
+description: "Buttery, golden rich cookies with ½ cup butter and sifted flour that come out of the oven soft in the middle and crispy at the edges. The cookie jar never stays full for long."
 source: ""
 creditUrl: ""
 credit: ""

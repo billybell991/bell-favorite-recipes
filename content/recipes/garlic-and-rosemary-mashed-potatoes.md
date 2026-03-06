@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:06-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["potatoes"]
-description: "Creamy, garlic and rosemary mashed potatoes"
+description: "Rich, buttery robust potatoes loaded with large potatoes peeled and cubed you can use more or less with the same cooking time, chicken broth, and cloves garlic. Comfort food doesn't get much more comforting than this."
 source: ""
 creditUrl: ""
 credit: ""

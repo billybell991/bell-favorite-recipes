@@ -4,14 +4,14 @@ date: 2026-03-05T06:53:58-05:00
 draft: false
 categories: ["Maya's Recipes"]
 tags: ["chicken", "pasta"]
-description: "Chicken bacon ranch pasta"
+description: "A comforting bowl of savory pasta with of shredded chicken and of dry ranch seasoning — saucy, satisfying, and ready to become a weeknight staple."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/23021490/pexels-photo-23021490.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/32538757/pexels-photo-32538757.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

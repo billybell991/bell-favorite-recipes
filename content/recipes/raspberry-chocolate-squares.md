@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Squares"]
 tags: ["squares"]
-description: "Golden brown, golden, Raspberry Chocolate Squares, baked to perfection"
+description: "Sweet, satisfying melt-in-your-mouth squares . The recipe that turns a simple baking pan into a crowd-pleasing masterpiece."
 source: ""
 creditUrl: ""
 credit: ""

@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:27-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: []
-description: "The best lemon bars, baked to perfection"
+description: "Irresistible rich squares with all purpose flour and lemons — layer upon layer of sweetness that cut into perfect little treats for sharing (or not sharing)."
 source: ""
 creditUrl: ""
 credit: ""

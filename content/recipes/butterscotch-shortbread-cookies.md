@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cookies"]
 tags: ["cookies", "bread", "cookies"]
-description: "Butterscotch shortbread cookies, baked to perfection"
+description: "Buttery, golden rich cookies with ½ lb butter and ½ cup brown sugar that come out of the oven soft in the middle and crispy at the edges. The cookie jar never stays full for long."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/574125/pexels-photo-574125.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5878306/pexels-photo-5878306.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

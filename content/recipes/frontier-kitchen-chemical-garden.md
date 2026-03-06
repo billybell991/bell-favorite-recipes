@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Fun Things"]
 tags: ["fun things"]
-description: ""
+description: "A delicious homemade satisfying recipe with liquid bluing — simple enough for any night of the week but special enough to remember."
 source: ""
 creditUrl: ""
 credit: ""

@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:35-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["keto"]
-description: "Dairy-free  latte"
+description: "Rich, flavorful robust keto creation with coconut oil and ½ cups boiling water that doesn't sacrifice an ounce of taste for staying low-carb."
 source: ""
 creditUrl: ""
 credit: ""

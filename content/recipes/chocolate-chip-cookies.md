@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cookies"]
 tags: ["cookies", "cookies"]
-description: "Chocolate chip cookies, baked to perfection"
+description: "Homemade heavenly cookies with ¼ cup white sugar and ¾ cup brown sugar that snap, crumble, and melt exactly the way a great cookie should. Pure comfort in every bite."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5847092/pexels-photo-5847092.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/31116131/pexels-photo-31116131.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Native Cuisine"]
 tags: ["native cuisine"]
-description: "Tender, New Potatoes with Herbs, a treasured traditional recipe"
+description: "Creamy, comforting bold potatoes with tiny new potatoes and tbs chopped chives — the ultimate side dish that makes everything else on the plate better."
 source: ""
 creditUrl: ""
 credit: ""

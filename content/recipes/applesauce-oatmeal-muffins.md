@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes", "muffins"]
-description: "Applesauce oatmeal muffins, baked to perfection"
+description: "Golden-topped heavenly muffins loaded with ½ cup all-purpose flour, ½ cup whole wheat flour, and ½ tsp cinnamon. Mix the batter in one bowl, bake, and watch them vanish."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/374052/pexels-photo-374052.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/4475558/pexels-photo-4475558.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

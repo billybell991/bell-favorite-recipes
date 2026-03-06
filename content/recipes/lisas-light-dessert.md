@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Desserts"]
 tags: ["desserts", "dessert"]
-description: "Lisa's light dessert"
+description: "Warm, luscious dessert with cherry jello and boiling water — golden and bubbling on top, tender and fruity underneath. Best served with a scoop of ice cream."
 source: ""
 creditUrl: ""
 credit: ""

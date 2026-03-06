@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes", "chicken"]
-description: "Zesty barbecued chicken, simmered to perfection"
+description: "Rich, chewy decadent squares packed with no-salt added tomato sauce, minced garlic, and ¼ cup plus. Cut them small because they're decadent, or cut them big because life is short."
 source: ""
 creditUrl: ""
 credit: ""

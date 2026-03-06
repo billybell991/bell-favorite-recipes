@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Fish"]
 tags: ["fish", "fish"]
-description: "Arthur treacher-style fish"
+description: "Crispy deep-fried fish fillets inspired by the classic Arthur Treacher's recipe — golden battered goodness with a satisfying crunch in every bite."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/30341461/pexels-photo-30341461.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/14924014/pexels-photo-14924014.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

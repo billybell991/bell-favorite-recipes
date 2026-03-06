@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Vegetables"]
 tags: ["vegetables"]
-description: "Crispy, spicy, Cavendish Farms Flavourcrisp Fries, baked to perfection"
+description: "Creamy, comforting bold potatoes with ingredients: 2 oz mozzarella cheese and onion — the ultimate side dish that makes everything else on the plate better."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7790871/pexels-photo-7790871.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/115740/pexels-photo-115740.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

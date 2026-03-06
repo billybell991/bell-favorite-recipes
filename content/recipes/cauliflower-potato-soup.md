@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Native Cuisine"]
 tags: ["native cuisine"]
-description: "Tender, creamy, Cauliflower Potato Soup, simmered to perfection"
+description: "Steaming bowls of bold soup packed with vegetable oil, crushed garlic, and chopped onions. The recipe you reach for when the weather turns and comfort is non-negotiable."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/724667/pexels-photo-724667.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/9218646/pexels-photo-9218646.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

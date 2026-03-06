@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Magic French Fudge, chilled to perfection"
+description: "Melt-in-your-mouth sweet fudge loaded with semi-sweet chocolate chips, eagle brand milk, and dash salt. A holiday tradition that disappears faster than you can box it up."
 source: ""
 creditUrl: ""
 credit: ""

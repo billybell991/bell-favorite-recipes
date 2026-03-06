@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Miscellaneous"]
 tags: ["miscellaneous"]
-description: "Warm, Plain Dandelion Wine, a family favorite"
+description: "Mix up this rustic beverage and watch it become everyone's favorite. Simple to make, impossible to stop sipping."
 source: ""
 creditUrl: ""
 credit: ""

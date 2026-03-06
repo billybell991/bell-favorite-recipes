@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Fish"]
 tags: ["fish", "salmon"]
-description: "Fake salmon, baked to perfection"
+description: "Delicate, flavorful rustic fish with chopped pike and vegetable oil that comes together quickly and tastes like a night out. Seafood done right."
 source: ""
 creditUrl: ""
 credit: ""

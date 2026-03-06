@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:37-05:00
 draft: false
 categories: ["Weight Watchers"]
 tags: ["salad"]
-description: "Mexican black bean and corn salad"
+description: "A bright, crisp bright salad with of black beans and of corn — fresh, colorful, and bursting with flavor. The side dish that steals the show."
 source: ""
 creditUrl: ""
 credit: ""

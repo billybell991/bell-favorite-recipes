@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Appetizers"]
 tags: ["appetizers"]
-description: "Crispy, chestnut & bacon roll-ups, broiled to perfection"
+description: "Succulent rustic pork with quantity desired of bacon strips and quantity desired of water chestnuts — slow-cooked (or quickly seared) to melt-in-your-mouth perfection. Every bite is a flavor bomb."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/263070/pexels-photo-263070.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/1927377/pexels-photo-1927377.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

@@ -4,7 +4,7 @@ date: 2026-03-05T06:52:53-05:00
 draft: false
 categories: ["Friends Recipes"]
 tags: ["pie"]
-description: "Seapie"
+description: "A beautiful melt-in-your-mouth pie with pack of beef and pack of pork with a buttery crust and a filling so good you'll want to eat it by the spoonful."
 source: ""
 creditUrl: ""
 credit: ""

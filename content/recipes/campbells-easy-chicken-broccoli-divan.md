@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Meat"]
 tags: ["meat", "chicken"]
-description: "Campbell's easy chicken & broccoli divan, baked to perfection"
+description: "Juicy, flavorful robust chicken with hot cooked broccoli spears and cooked chicken — golden on the outside, tender all the way through. The kind of dinner that earns a round of applause."
 source: ""
 creditUrl: ""
 credit: ""

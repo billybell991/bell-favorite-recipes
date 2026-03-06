@@ -4,7 +4,7 @@ date: 2026-03-05T07:00:55-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["pastrypies"]
-description: "Pizza dough, baked to perfection"
+description: "Crispy, bubbly savory pizza with ½ cup warm water and yeast — homemade crust, bold toppings, and the kind of flavor that puts delivery to shame."
 source: ""
 creditUrl: ""
 credit: ""

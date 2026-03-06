@@ -4,14 +4,14 @@ date: 2026-03-05T06:52:56-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: []
-description: "Apple crisp"
+description: "A gorgeous melt-in-your-mouth dessert with medium sized apples and tspcinnamon that looks like it came from a bakery but tastes even better because it came from your kitchen."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9392810/pexels-photo-9392810.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/7156080/pexels-photo-7156080.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

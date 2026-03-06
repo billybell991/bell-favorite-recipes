@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:17-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: []
-description: "Toasted, ratatouille, pressure-cooked to perfection"
+description: "Fall-apart tender satisfying deliciousness with small eggplant about 3 cups and tspkosher salt that the Instant Pot delivers in record time. One pot, one timer, one incredible meal."
 source: ""
 creditUrl: ""
 credit: ""

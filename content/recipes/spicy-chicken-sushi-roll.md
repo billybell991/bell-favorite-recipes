@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:24-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["chicken"]
-description: "Spicy chicken sushi roll"
+description: "Crispy-skinned, bold chicken with shredded chicken and ½ tablespoons mayo cooked until golden and irresistible. This is the recipe that makes chicken exciting again."
 source: ""
 creditUrl: ""
 credit: ""

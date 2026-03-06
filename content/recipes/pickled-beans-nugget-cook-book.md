@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pickles"]
 tags: ["pickles"]
-description: "Pickled Beans, a classic homemade preserve"
+description: "Crunchy, tangy robust pickles with qt basket string beans cut into 1” pieces and vinegar — brined to briny perfection. Open a jar and taste summer all year long."
 source: ""
 creditUrl: ""
 credit: ""

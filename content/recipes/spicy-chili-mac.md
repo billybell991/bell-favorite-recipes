@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes"]
-description: "Tender, spicy chili mac, simmered to perfection"
+description: "Rich, slow-simmered satisfying chili with vegetable cooking spray and ½ lb firm tofu. Top it with cheese and sour cream and let the warmth spread from your belly outward."
 source: ""
 creditUrl: ""
 credit: ""

@@ -4,7 +4,7 @@ date: 2026-03-05T06:58:56-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["breads", "bread"]
-description: "Zucchini bread, baked to perfection"
+description: "Soft, golden buttery rolls with grated zucchini and cinnamon that pull apart like a dream. Perfect alongside any meal or slathered with butter straight from the oven."
 source: ""
 creditUrl: ""
 credit: ""

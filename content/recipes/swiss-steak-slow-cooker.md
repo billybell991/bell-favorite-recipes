@@ -4,7 +4,7 @@ date: 2026-03-05T07:00:41-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["meat"]
-description: "Swiss steak slow cooker, slow-cooked to perfection"
+description: "Hearty, satisfying hearty beef with steaks and can of tomatoes — the kind of meal that brings everyone to the table before you've even finished plating."
 source: ""
 creditUrl: ""
 credit: ""

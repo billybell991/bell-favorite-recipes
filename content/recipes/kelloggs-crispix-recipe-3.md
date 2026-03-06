@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Crispy, warm, Kellogg’s Crispix Recipe #3, baked to perfection"
+description: "This sweet dessert with kellogg’s crispix cereal and vegetable oil is proof that simple ingredients, done right, create something truly magical."
 source: ""
 creditUrl: ""
 credit: ""

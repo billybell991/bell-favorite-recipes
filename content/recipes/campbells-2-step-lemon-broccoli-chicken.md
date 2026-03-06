@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Chicken"]
 tags: ["chicken"]
-description: "Tender chicken breasts in a creamy broccoli lemon sauce"
+description: "Tender, perfectly seasoned rustic chicken with boneless and condensed cream of broccoli soup — proof that a great chicken dinner never goes out of style."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: "4"
-image: "https://images.pexels.com/photos/16845749/pexels-photo-16845749.jpeg?auto=compress&cs=tinysrgb&h=350"
+image: "https://images.pexels.com/photos/16845749/pexels-photo-16845749.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: "Bone-in chicken may be substituted. Add about 5-10 minutes to cook time."
 ---
 

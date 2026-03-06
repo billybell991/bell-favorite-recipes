@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:12-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["rice", "instant pot"]
-description: "Instant Pot Rice (Basmati or Jasmine)"
+description: "Savory rustic rice studded with basmati rice — simple, satisfying, and the perfect base for whatever else lands on the plate."
 source: ""
 creditUrl: ""
 credit: ""

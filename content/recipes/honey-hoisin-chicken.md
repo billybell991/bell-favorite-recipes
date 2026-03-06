@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Chicken"]
 tags: ["chicken", "chicken"]
-description: "Honey hoisin chicken, fried to perfection"
+description: "Juicy, flavorful savory chicken with soya sauce and hoisin sauce — golden on the outside, tender all the way through. The kind of dinner that earns a round of applause."
 source: ""
 creditUrl: ""
 credit: ""

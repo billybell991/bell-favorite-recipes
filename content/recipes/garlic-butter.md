@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:15-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: []
-description: "Garlic butter, sautéed to perfection"
+description: "Flavorful, satisfying hearty comfort food with unsalted butter and cloves garlic - minced. The kind of recipe that gets dog-eared in the cookbook and passed down through generations."
 source: ""
 creditUrl: ""
 credit: ""

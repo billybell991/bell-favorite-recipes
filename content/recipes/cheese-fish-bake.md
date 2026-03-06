@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Fish"]
 tags: ["fish", "fish"]
-description: "Cheese fish bake"
+description: "Hearty bold casserole packed with fish fillets, shredded cheddar cheese, and cream of mushroom soup — the ultimate one-dish dinner. Pop it in the oven and let it do all the work."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8471700/pexels-photo-8471700.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/14062102/pexels-photo-14062102.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

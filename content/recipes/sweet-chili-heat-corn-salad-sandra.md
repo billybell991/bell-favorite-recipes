@@ -4,7 +4,7 @@ date: 2026-03-05T06:52:53-05:00
 draft: false
 categories: ["Friends Recipes"]
 tags: ["salad"]
-description: "Sweet chili heat corn salad"
+description: "Rich, slow-simmered comforting chili with an orange pepper and a red pepper. Top it with cheese and sour cream and let the warmth spread from your belly outward."
 source: ""
 creditUrl: ""
 credit: ""

@@ -4,14 +4,14 @@ date: 2026-03-05T06:52:58-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["beef", "stew"]
-description: "Tender, beef stew"
+description: "Rustic bold stew loaded with beef stew meat, stew seasoning of your choice, and potatoes chopped, simmered until the kitchen fills with the most incredible aroma. Serve it with crusty bread and call it a perfect night."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5863607/pexels-photo-5863607.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/3981486/pexels-photo-3981486.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

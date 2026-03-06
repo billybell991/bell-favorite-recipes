@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Miscellaneous"]
 tags: ["miscellaneous"]
-description: "Honey Garlic Marinade, a family favorite"
+description: "Tangy, savory comforting sauce with canola gold oil and light soy sauce. Drizzle it, dip it, pour it — this one makes everything taste better."
 source: ""
 creditUrl: ""
 credit: ""

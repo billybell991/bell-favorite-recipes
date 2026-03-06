@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pies"]
 tags: ["pies"]
-description: "Sparkling Strawberry Pie, with a perfectly flaky crust"
+description: "Flaky, golden crust cradling a rich filling with raspsberry or strawberry- and boiling water — the kind of pie that earns a permanent spot on the holiday table."
 source: ""
 creditUrl: ""
 credit: ""

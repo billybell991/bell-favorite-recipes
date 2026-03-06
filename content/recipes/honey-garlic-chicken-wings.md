@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:51-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: ["chicken"]
-description: "Honey garlic chicken wings"
+description: "Succulent hearty chicken with to 12 chicken wings and brown sugar that's simple enough for a weeknight but impressive enough for company. Every. Single. Time."
 source: ""
 creditUrl: ""
 credit: ""

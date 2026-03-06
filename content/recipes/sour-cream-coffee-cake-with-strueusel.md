@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:26-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "cake"]
-description: "Fluffy, sour cream coffee cake with strueusel, baked to perfection"
+description: "This sweet cake with ¾ cup lightly packed brown sugar and cinnamon is the one people request by name. Tender, flavorful, and gorgeous enough for a celebration (or just a really good Tuesday)."
 source: ""
 creditUrl: ""
 credit: ""

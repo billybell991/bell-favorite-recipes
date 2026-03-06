@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Desserts"]
 tags: ["desserts"]
-description: "Crispy and golden brown, apple crisp, baked to perfection"
+description: "A gorgeous melt-in-your-mouth dessert with rolled oats and lightly-packed brown sugar that looks like it came from a bakery but tastes even better because it came from your kitchen."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/34428635/pexels-photo-34428635.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/9502639/pexels-photo-9502639.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Preheat oven to 350 degrees.

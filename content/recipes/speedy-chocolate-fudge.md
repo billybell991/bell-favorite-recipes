@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Smooth, Speedy Chocolate Fudge, perfect for any occasion"
+description: "Smooth, creamy decadent fudge with ½ semi-sweet chocolate chips and ½ tsp salt that melts on your tongue and sets perfectly every time. The candy thermometer's finest hour."
 source: ""
 creditUrl: ""
 credit: ""

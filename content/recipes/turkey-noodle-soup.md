@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:22-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["soup"]
-description: "Turkey noodle soup, sautéed to perfection"
+description: "A soul-warming bowl of savory soup with small onion and clove garlic — the kind that simmers low and slow and makes the whole house smell incredible."
 source: ""
 creditUrl: ""
 credit: ""

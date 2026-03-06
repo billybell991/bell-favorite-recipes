@@ -4,14 +4,14 @@ date: 2026-03-05T06:59:06-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "bread"]
-description: "Tender, caramelized pear & apple bread pudding, baked to perfection"
+description: "Warm, homemade golden bread with pears and apples — crusty on the outside, pillowy soft on the inside, and impossible to eat just one slice."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9501562/pexels-photo-9501562.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/10539817/pexels-photo-10539817.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Judy and Roger Lafreniere

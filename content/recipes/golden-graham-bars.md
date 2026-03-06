@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Squares"]
 tags: ["squares"]
-description: "Golden, Golden Graham Bars, easy to make and impossible to resist"
+description: "Rich, chewy decadent squares packed with light corn syrup, margarine or butter, and pkg golden grahams. Cut them small because they're decadent, or cut them big because life is short."
 source: ""
 creditUrl: ""
 credit: ""

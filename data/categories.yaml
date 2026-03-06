@@ -1,0 +1,36 @@
+moms-cookbook:
+  image: "images/moms_note.jpg"
+  description: "Easiest to describe this section with her own words. All of Mom's favorites that she'd given us all on a little thumb drive. Pretty amazing that she typed up everything in that jackpot of a big red cookbook, but even more amazing that she shared them all so willingly with us."
+
+wedding-cookbook:
+  description: "These are the recipes that were gathered together for a special wedding cookbook — a collection of tried-and-true dishes contributed by family and friends to celebrate a new beginning. Every page carries a memory, a potluck supper, or a holiday table that brought people together."
+
+misc-recipes-internet:
+  description: "The best of the internet, gathered in one place. These are the recipes we stumbled across online, bookmarked, tried, and loved enough to keep. From food blogs to viral TikTok dishes, if it made it here, it earned its spot."
+
+instant-pot-recipes:
+  description: "Dinner in a fraction of the time — that's the magic of the Instant Pot. These pressure cooker recipes turn tough cuts tender, dried beans into soup, and a hectic weeknight into something manageable. Set it, walk away, and come back to something wonderful."
+
+keto-low-carb:
+  description: "Proof that cutting carbs doesn't mean cutting flavor. These keto and low-carb recipes keep things satisfying and delicious without the bread, pasta, or sugar. From hearty mains to guilt-free desserts, eating well never tasted so good."
+
+misc-recipes-cookbooks:
+  description: "The dog-eared pages, the splattered margins, the ones we copied down from cookbooks we've collected over the years. These recipes come from published collections that caught our eye and earned a permanent place in the rotation."
+
+friends-recipes:
+  description: "Some of the best recipes come from the people you share a table with. These dishes were handed over by friends — scribbled on napkins, shared after a dinner party, or passed along with a 'you have to try this.' Every one of them comes with a story."
+
+family-recipes:
+  description: "The recipes that run in the family — handed down, tweaked, and perfected over generations. These are the dishes that show up at every holiday, every birthday, every 'just because' Sunday dinner. They taste like home because they are home."
+
+mayas-recipes:
+  description: "Maya's personal collection of favorites — the dishes she's discovered, experimented with, and made her own. A growing recipe box that reflects her taste and creativity in the kitchen."
+
+weight-watchers:
+  description: "Eating well and watching your points doesn't have to be boring. These Weight Watchers-friendly recipes prove that smart eating can still be satisfying, flavorful, and worth looking forward to at every meal."
+
+air-fryer-recipes:
+  description: "Crispy, golden, and ready in minutes — without the deep fryer. These air fryer recipes deliver all the crunch and flavor you love with a fraction of the oil. Perfect for quick weeknight meals and snacks that don't compromise on taste."
+
+maddys-recipes:
+  description: "Maddy's own collection of go-to recipes — the ones she reaches for again and again. A curated mix of dishes that reflect her favorites and her own adventures in the kitchen."

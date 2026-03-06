@@ -4,14 +4,14 @@ date: 2026-03-05T06:52:47-05:00
 draft: false
 categories: ["Friends Recipes"]
 tags: []
-description: "Cabbage rolls, roasted to perfection"
+description: "Warm, homemade golden bread with of lean hamburg and of tomato juice — crusty on the outside, pillowy soft on the inside, and impossible to eat just one slice."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/14935376/pexels-photo-14935376.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/983297/pexels-photo-983297.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

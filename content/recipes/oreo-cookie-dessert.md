@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:20-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "cookies", "dessert"]
-description: "Oreo cookie dessert"
+description: "Perfectly sweet cookies studded with square box of vanilla ice cream and container of cool whip. Simple enough for a Tuesday, special enough for a holiday platter."
 source: ""
 creditUrl: ""
 credit: ""

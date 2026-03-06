@@ -4,7 +4,7 @@ date: 2026-03-05T07:01:19-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["salads", "salad", "pasta"]
-description: "Pasta salad"
+description: "A bright, crisp bright salad with ¼ cup oil and ¼ cup vinegar — fresh, colorful, and bursting with flavor. The side dish that steals the show."
 source: ""
 creditUrl: ""
 credit: ""

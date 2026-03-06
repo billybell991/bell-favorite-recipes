@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Appetizers"]
 tags: ["appetizers", "salmon"]
-description: "Salmon pate"
+description: "Crispy on the outside, melt-in-your-mouth tender inside — this robust fish with tin red salmon and ¼ or ½ lb butter is weeknight fancy at its absolute best."
 source: ""
 creditUrl: ""
 credit: ""

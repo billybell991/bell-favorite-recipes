@@ -4,7 +4,7 @@ date: 2026-03-05T06:52:49-05:00
 draft: false
 categories: ["Friends Recipes"]
 tags: ["rice"]
-description: "Jollof rice, simmered to perfection"
+description: "Fluffy, fragrant robust rice with bell peppers and roma tomatoes — every grain perfectly cooked and packed with flavor. The side dish that steals the spotlight."
 source: ""
 creditUrl: ""
 credit: ""

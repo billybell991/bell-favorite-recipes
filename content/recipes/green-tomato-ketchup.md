@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pickles"]
 tags: ["pickles"]
-description: "Green Tomato Ketchup, a classic homemade preserve"
+description: "Old-fashioned savory pickles with louise beaudry’s grandmother’s recipe and brown sugar — crisp, tangy, and made the way grandma did it. Fill the pantry and count the days until they're ready."
 source: ""
 creditUrl: ""
 credit: ""

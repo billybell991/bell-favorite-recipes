@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:15-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: []
-description: "Glazed, mesquite ribs, pressure-cooked to perfection"
+description: "Succulent rustic pork with cider vinegar and soy sauce — slow-cooked (or quickly seared) to melt-in-your-mouth perfection. Every bite is a flavor bomb."
 source: ""
 creditUrl: ""
 credit: ""

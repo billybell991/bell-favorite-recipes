@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Casseroles"]
 tags: ["casseroles"]
-description: "Lazy perogy casserole, baked to perfection"
+description: "A bubbly, golden satisfying casserole with lasagna noodles and grated medium cheddar cheese — layers of comfort baked until the top is crispy and the inside is meltingly good."
 source: ""
 creditUrl: ""
 credit: ""

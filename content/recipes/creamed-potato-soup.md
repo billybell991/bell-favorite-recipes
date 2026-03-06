@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes", "soup", "potatoes"]
-description: "Tender, creamed potato soup, simmered to perfection"
+description: "Rich, comforting rustic soup with medium round red potatoes and ½ tsp salt that's like a warm hug on a cold day. One pot, minimal effort, maximum satisfaction."
 source: ""
 creditUrl: ""
 credit: ""

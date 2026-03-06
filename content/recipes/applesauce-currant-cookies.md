@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes", "cookies"]
-description: "Fluffy, applesauce currant cookies, baked to perfection"
+description: "Decadent cookies packed with ½ cup vegetable oil, ¼ cup granulated sugar substitute, and ½ tsp baking soda — the kind you bake a double batch of because the first one disappears before they've cooled."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5441076/pexels-photo-5441076.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5441093/pexels-photo-5441093.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

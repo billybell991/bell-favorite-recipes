@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Fun Things"]
 tags: ["fun things"]
-description: ""
+description: "Warm, satisfying comforting casserole with unsifted all-purpose flour and table salt that feeds a crowd and tastes even better the next day. The definition of comfort food."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1020585/pexels-photo-1020585.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/12041758/pexels-photo-12041758.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 BAKER’S  CLAY  INSTRUCTIONS – Brown Bag Cookie Art

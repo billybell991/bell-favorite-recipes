@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Zesty Party Crunch, baked to perfection"
+description: "A savory rustic snack with ¾ cup margarine and italian seasoning that vanishes by the handful. Make a big batch because a small one won't last."
 source: ""
 creditUrl: ""
 credit: ""

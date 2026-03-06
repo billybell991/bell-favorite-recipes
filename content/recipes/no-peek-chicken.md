@@ -4,7 +4,7 @@ date: 2026-03-05T07:00:24-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["meat", "chicken"]
-description: "No peek chicken"
+description: "Crispy-skinned, bold chicken with ½ cups white rice and can condensed celery soup cooked until golden and irresistible. This is the recipe that makes chicken exciting again."
 source: ""
 creditUrl: ""
 credit: ""

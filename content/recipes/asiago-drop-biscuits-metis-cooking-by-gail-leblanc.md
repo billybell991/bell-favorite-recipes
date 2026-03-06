@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Native Cuisine"]
 tags: ["native cuisine"]
-description: "Asiago Drop Biscuits, baked to perfection"
+description: "Homemade fragrant bread with whole wheat flour and grated asiago cheese that's surprisingly simple and outrageously delicious. Proof that the best things in life are warm and carb-filled."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/2067626/pexels-photo-2067626.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/36134940/pexels-photo-36134940.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

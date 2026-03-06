@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Vegetables"]
 tags: ["vegetables"]
-description: "Rice and Zucchini Casserole, baked to perfection"
+description: "A bubbly, golden hearty casserole — layers of comfort baked until the top is crispy and the inside is meltingly good."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes"]
-description: "Strawberry raspberry trifle"
+description: "Silky, decadent pudding with cold fat-free milk and sliced fresh strawberries — pure comfort in a bowl. The kind of dessert that makes everyone feel like a kid again."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cookies"]
 tags: ["cookies", "cookies"]
-description: "Crispy and fluffy, yummy oatmeal cookies, baked to perfection"
+description: "Decadent cookies packed with butter or margarine, brown sugar, and ½ cup milk — the kind you bake a double batch of because the first one disappears before they've cooled."
 source: ""
 creditUrl: ""
 credit: ""

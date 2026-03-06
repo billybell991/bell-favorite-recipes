@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Miscellaneous"]
 tags: ["miscellaneous"]
-description: "Nancy’s Special Fruit Dip, a family favorite"
+description: "A rich, flavorful vibrant dip loaded with cream cheese, ½ cup sour cream, and ¼ cup white sugar. The appetizer that everyone parks themselves next to and never leaves."
 source: ""
 creditUrl: ""
 credit: ""

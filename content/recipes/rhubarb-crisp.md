@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Puddings"]
 tags: ["puddings"]
-description: "Rhubarb Crisp, baked to perfection"
+description: "A pan of indulgent squares with rhubarb and ½ cup white sugar that's dangerously easy to make and even more dangerous to leave unattended on the counter."
 source: ""
 creditUrl: ""
 credit: ""

@@ -4,7 +4,7 @@ date: 2026-03-05T06:52:55-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: []
-description: "5-ingredient mac 'n' cheese, pressure-cooked to perfection"
+description: "Tender pasta tossed with elbow macaroni, kosher salt, and can evaporated milk in a bold sauce that coats every strand. This is the dinner everyone asks for twice in one week."
 source: ""
 creditUrl: ""
 credit: ""

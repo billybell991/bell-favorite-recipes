@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes"]
-description: "Tender, spinach cups, baked to perfection"
+description: "Simple, delicious zesty vegetables with slices very thinly sliced whole wheat bread and ½ cup light process cream cheese. Sometimes the best meals are built around what's growing in the garden."
 source: ""
 creditUrl: ""
 credit: ""

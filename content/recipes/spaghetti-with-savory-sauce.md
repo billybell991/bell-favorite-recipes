@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes"]
-description: "Spaghetti with savory sauce, simmered to perfection"
+description: "Tangy, savory satisfying sauce with vegetable cooking spray and ¼ tsp salt. Drizzle it, dip it, pour it — this one makes everything taste better."
 source: ""
 creditUrl: ""
 credit: ""

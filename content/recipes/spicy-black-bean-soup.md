@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:38-05:00
 draft: false
 categories: ["Weight Watchers"]
 tags: ["soup"]
-description: "Spicy black bean soup, simmered to perfection"
+description: "Steaming bowls of bold soup packed with medium onion, garlic cloves, and red pepper flakes.. The recipe you reach for when the weather turns and comfort is non-negotiable."
 source: ""
 creditUrl: ""
 credit: ""

@@ -4,14 +4,14 @@ date: 2026-03-05T06:58:53-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["breads", "bread"]
-description: "Golden brown, beer bread, baked to perfection"
+description: "Homemade fragrant bread with self-rising flour and six-pack of beer that's surprisingly simple and outrageously delicious. Proof that the best things in life are warm and carb-filled."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4055115/pexels-photo-4055115.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/3324434/pexels-photo-3324434.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Billy Bell

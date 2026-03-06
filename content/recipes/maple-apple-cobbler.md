@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Desserts"]
 tags: ["desserts"]
-description: "Maple apple cobbler, baked to perfection"
+description: "This sweet dessert with cornstarch and apple juice is proof that simple ingredients, done right, create something truly magical."
 source: ""
 creditUrl: ""
 credit: ""

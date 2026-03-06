@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pies"]
 tags: ["pies"]
-description: "Smooth, Impossible Chicken ‘n Broccoli Pie, baked to perfection"
+description: "Classic indulgent pie with pkg frozen chopped broccoli and shredded cheddar cheese 8 oz. — every slice is a perfect balance of flaky pastry and luscious filling. Save room for seconds."
 source: ""
 creditUrl: ""
 credit: ""

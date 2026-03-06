@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Vegetables"]
 tags: ["vegetables"]
-description: "Crispy, tender, Microwave Carrot Casserole, a delicious side dish"
+description: "Hearty bold casserole packed with carrots, ¼ cup water, and tin condensed cream of celery soup — the ultimate one-dish dinner. Pop it in the oven and let it do all the work."
 source: ""
 creditUrl: ""
 credit: ""

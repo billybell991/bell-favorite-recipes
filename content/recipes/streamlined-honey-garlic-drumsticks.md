@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Chicken"]
 tags: ["chicken"]
-description: "Streamlined honey garlic drumsticks, baked to perfection"
+description: "Crispy-skinned, bold chicken with honey and soy sauce cooked until golden and irresistible. This is the recipe that makes chicken exciting again."
 source: ""
 creditUrl: ""
 credit: ""

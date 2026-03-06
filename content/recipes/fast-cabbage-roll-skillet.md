@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Meat"]
 tags: ["meat"]
-description: "Tender, fast cabbage roll skillet"
+description: "Fresh, vibrant bright vegetables with medium ground beef or pork and cloves garlic — cooked just right so they're tender but still have that satisfying snap."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Appetizers"]
 tags: ["appetizers", "dip"]
-description: "Hidden valley bacon & cheddar dip"
+description: "A rich, flavorful crisp dip loaded with packet original ranch party dip, pint sour cream, and bacon bits. The appetizer that everyone parks themselves next to and never leaves."
 source: ""
 creditUrl: ""
 credit: ""

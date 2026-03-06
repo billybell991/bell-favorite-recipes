@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:00-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["pie", "rice"]
-description: "Apple cider rice krispie squares"
+description: "Flaky, golden crust cradling a rich filling with cupunsalted butter and cupsapple cider or unfiltered apple juice — the kind of pie that earns a permanent spot on the holiday table."
 source: ""
 creditUrl: ""
 credit: ""

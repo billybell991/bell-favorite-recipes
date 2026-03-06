@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes"]
-description: "Fat-free gravy"
+description: "A rich, flavorful hearty sauce with beef broth and defatted roast drippings combined and cornstarch that transforms anything it touches. The secret weapon every kitchen needs."
 source: ""
 creditUrl: ""
 credit: ""

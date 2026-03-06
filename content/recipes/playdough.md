@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Fun Things"]
 tags: ["fun things"]
-description: ""
+description: "A tried-and-true bold recipe with vegetable oil and unsweetened kool-aid that proves the best meals don't need to be complicated — just made with care."
 source: ""
 creditUrl: ""
 credit: ""

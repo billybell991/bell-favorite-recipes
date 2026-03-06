@@ -4,14 +4,14 @@ date: 2026-03-05T06:52:59-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["cake"]
-description: "Carrot cake oatmeal"
+description: "This decadent cake with steel cut oats and grated carrots is the one people request by name. Tender, flavorful, and gorgeous enough for a celebration (or just a really good Tuesday)."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4081539/pexels-photo-4081539.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/6306540/pexels-photo-6306540.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ### INGREDIENTS:

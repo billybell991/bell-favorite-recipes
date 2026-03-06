@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Fish"]
 tags: ["fish", "fish"]
-description: "Fish scallop, baked to perfection"
+description: "Delicate, flavorful bold fish with large potatoes and thyme that comes together quickly and tastes like a night out. Seafood done right."
 source: ""
 creditUrl: ""
 credit: ""

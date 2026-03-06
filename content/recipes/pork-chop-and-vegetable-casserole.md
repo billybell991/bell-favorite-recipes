@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:41-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["casseroles", "pork"]
-description: "Pork chop and vegetable casserole, baked to perfection"
+description: "Warm, satisfying robust casserole with pork chops and medium potatoes that feeds a crowd and tastes even better the next day. The definition of comfort food."
 source: ""
 creditUrl: ""
 credit: ""

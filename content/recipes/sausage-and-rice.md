@@ -4,7 +4,7 @@ date: 2026-03-05T07:01:06-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["rice", "rice"]
-description: "Sausage and rice"
+description: "Savory rustic rice studded with of tomatoes, one onion, and beef bouillon — simple, satisfying, and the perfect base for whatever else lands on the plate."
 source: ""
 creditUrl: ""
 credit: ""

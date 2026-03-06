@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cookies"]
 tags: ["cookies", "cookies"]
-description: "Golden brown and fluffy, oatmeal snack cookies, baked to perfection"
+description: "Buttery, golden melt-in-your-mouth cookies with butter or margarine and packed brown sugar that come out of the oven soft in the middle and crispy at the edges. The cookie jar never stays full for long."
 source: ""
 creditUrl: ""
 credit: ""

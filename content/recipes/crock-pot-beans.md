@@ -4,14 +4,14 @@ date: 2026-03-05T07:00:16-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["meat"]
-description: "Crock pot beans"
+description: "Simple, delicious zesty vegetables with beans and onion. Sometimes the best meals are built around what's growing in the garden."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/34831923/pexels-photo-34831923.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/30635687/pexels-photo-30635687.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Tom Alexander

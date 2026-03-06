@@ -4,7 +4,7 @@ date: 2026-03-05T07:00:51-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["pastrypies", "pie"]
-description: "Meat pies, baked to perfection"
+description: "Flaky, golden crust cradling a indulgent filling with of beef and of pork — the kind of pie that earns a permanent spot on the holiday table."
 source: ""
 creditUrl: ""
 credit: ""

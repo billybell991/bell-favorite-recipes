@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:53-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: ["soup", "potatoes"]
-description: "Loaded baked potato soup"
+description: "Flavorful, satisfying hearty comfort food with medium baking potatoes and chicken broth. The kind of recipe that gets dog-eared in the cookbook and passed down through generations."
 source: ""
 creditUrl: ""
 credit: ""

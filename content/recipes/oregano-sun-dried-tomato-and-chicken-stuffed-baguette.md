@@ -4,7 +4,7 @@ date: 2026-03-05T06:52:50-05:00
 draft: false
 categories: ["Friends Recipes"]
 tags: ["chicken"]
-description: "Oregano, sun-dried tomato, and chicken stuffed baguette"
+description: "Succulent hearty chicken with pkg cream cheese and cloves of garlic that's simple enough for a weeknight but impressive enough for company. Every. Single. Time."
 source: ""
 creditUrl: ""
 credit: ""

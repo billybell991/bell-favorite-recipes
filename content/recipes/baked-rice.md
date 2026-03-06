@@ -4,7 +4,7 @@ date: 2026-03-05T07:01:05-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["rice", "rice"]
-description: "Baked rice, roasted to perfection"
+description: "A bubbly, golden hearty casserole with of uncle ben’s converted rice and ½ cup soya sauce — layers of comfort baked until the top is crispy and the inside is meltingly good."
 source: ""
 creditUrl: ""
 credit: ""

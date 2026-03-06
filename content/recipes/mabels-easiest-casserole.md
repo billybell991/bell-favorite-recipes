@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Casseroles"]
 tags: ["casseroles"]
-description: "Tender, mabel's easiest casserole, baked to perfection"
+description: "A bubbly, golden hearty casserole with ½ cup raw long grain rice and peeled and chopped tomatoes — layers of comfort baked until the top is crispy and the inside is meltingly good."
 source: ""
 creditUrl: ""
 credit: ""

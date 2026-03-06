@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Desserts"]
 tags: ["desserts"]
-description: "Tender, amazingly easy apple crisp, baked to perfection"
+description: "A gorgeous decadent dessert with to 8 baking apples and ½ tsp cinnamon that looks like it came from a bakery but tastes even better because it came from your kitchen."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/31664633/pexels-photo-31664633.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/6148264/pexels-photo-6148264.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

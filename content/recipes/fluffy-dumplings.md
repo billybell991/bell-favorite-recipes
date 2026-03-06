@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes"]
-description: "Fluffy dumplings, simmered to perfection"
+description: "A delicious homemade comforting recipe with ½ tsp salt and margarine or butter — simple enough for any night of the week but special enough to remember."
 source: ""
 creditUrl: ""
 credit: ""

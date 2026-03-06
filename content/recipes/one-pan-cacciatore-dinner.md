@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Chicken"]
 tags: ["chicken"]
-description: "One pan cacciatore dinner"
+description: "A tried-and-true bold recipe with chicken pieces and a few tbsp olive oil that proves the best meals don't need to be complicated — just made with care."
 source: ""
 creditUrl: ""
 credit: ""

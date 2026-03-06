@@ -4,14 +4,14 @@ date: 2026-03-05T07:01:07-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["rice", "rice"]
-description: "Cook-up rice, simmered to perfection"
+description: "Homemade rustic goodness with ½ lbs of skinless chicken and ½ cup rice — made from scratch with real ingredients and a whole lot of love. This one's a keeper."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1242348/pexels-photo-1242348.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/12916879/pexels-photo-12916879.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Naz and Brian Lloyd

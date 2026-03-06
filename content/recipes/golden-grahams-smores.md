@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Golden, Golden Grahams S’mores, perfect for any occasion"
+description: "Savory, golden satisfying pork with ¾ cup light corn syrup and golden grahams cereal that's ridiculously easy to make and even more ridiculously delicious to eat."
 source: ""
 creditUrl: ""
 credit: ""

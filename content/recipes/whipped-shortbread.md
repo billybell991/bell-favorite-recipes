@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cookies"]
 tags: ["cookies", "bread"]
-description: "Whipped shortbread, baked to perfection"
+description: "Buttery, golden rich cookies with ½ lb butter and ½ lb margarine that come out of the oven soft in the middle and crispy at the edges. The cookie jar never stays full for long."
 source: ""
 creditUrl: ""
 credit: ""

@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:29-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["chicken"]
-description: "Bacon-wrapped broccoli-stuff chicken, baked to perfection"
+description: "Crispy-skinned, bold chicken with chicken breasts and cream cheese cooked until golden and irresistible. This is the recipe that makes chicken exciting again."
 source: ""
 creditUrl: ""
 credit: ""

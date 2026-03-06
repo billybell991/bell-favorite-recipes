@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Meat"]
 tags: ["meat", "chicken", "potatoes"]
-description: "Crispy and tender, campbell's broccoli chicken potato parmesan, simmered to perfection"
+description: "Succulent hearty chicken with vegetable oil and mini red-skinned potatoes that's simple enough for a weeknight but impressive enough for company. Every. Single. Time."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes"]
-description: "Ziti with vegetables"
+description: "Fresh, vibrant fresh vegetables with uncooked ziti or other medium pasta and frozen broccoli — cooked just right so they're tender but still have that satisfying snap."
 source: ""
 creditUrl: ""
 credit: ""

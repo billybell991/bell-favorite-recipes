@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Crispy, Chipits Crunchies, chilled to perfection"
+description: "A savory bold snack with melt 6-oz pig chipits chocolate chips and 6-oz pkg chipits butterscotch chips in a 1-1/2 quart bowl over hot water. stir in 1 cup chow mein noodles and 1 cup peanuts. that vanishes by the handful. Make a big batch because a small one won't last."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/2377471/pexels-photo-2377471.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/2874990/pexels-photo-2874990.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

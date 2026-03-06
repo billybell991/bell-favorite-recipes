@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Soups"]
 tags: ["soups"]
-description: "Main Course Cabbage Soup, simmered to perfection"
+description: "Rich, comforting rustic soup with ground beef and – 28 oz can tomatoes that's like a warm hug on a cold day. One pot, minimal effort, maximum satisfaction."
 source: ""
 creditUrl: ""
 credit: ""

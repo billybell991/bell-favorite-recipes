@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes", "beef"]
-description: "Tender and bubbly, spicy beef chili, simmered to perfection"
+description: "A hearty pot of rustic chili with vegetable cooking spray and ½ tsp ground cumin that's perfect for game day, cold nights, or any time you need something warm and satisfying."
 source: ""
 creditUrl: ""
 credit: ""

@@ -4,7 +4,7 @@ date: 2026-03-05T07:00:28-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["meat", "pork"]
-description: "Crispy and tender, pork with broccoli stir fry, steamed to perfection"
+description: "Savory, golden comforting pork with ¾ lb lean and cornstarch that's ridiculously easy to make and even more ridiculously delicious to eat."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Native Cuisine"]
 tags: ["native cuisine"]
-description: "Fluffy, smooth, Oatmeal Pancakes, baked to perfection"
+description: "Light, airy heavenly breakfast with rolled oats and % milk that puffs up on the griddle and melts in your mouth. Short stack? Never."
 source: ""
 creditUrl: ""
 credit: ""

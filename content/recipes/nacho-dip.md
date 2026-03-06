@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:55-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["dips", "dip"]
-description: "Nacho dip"
+description: "A rich, flavorful vibrant dip loaded with philadelphia cream cheese, mayonnaise, and small jar salsa. The appetizer that everyone parks themselves next to and never leaves."
 source: ""
 creditUrl: ""
 credit: ""

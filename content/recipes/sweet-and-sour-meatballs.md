@@ -4,7 +4,7 @@ date: 2026-03-05T07:00:38-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["meat"]
-description: "Sweet and sour meatballs, roasted to perfection"
+description: "Hearty, satisfying hearty beef with hamburg and bread crumbs — the kind of meal that brings everyone to the table before you've even finished plating."
 source: ""
 creditUrl: ""
 credit: ""

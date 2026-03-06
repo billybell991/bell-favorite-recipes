@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Vegetables"]
 tags: ["vegetables"]
-description: "Crispy, golden, Onion Sauteed Potatoes, sautéed to perfection"
+description: "Creamy, comforting rustic potatoes with preparation: 5 minutes and cook: 20 minutes — the ultimate side dish that makes everything else on the plate better."
 source: ""
 creditUrl: ""
 credit: ""

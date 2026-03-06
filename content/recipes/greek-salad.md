@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Salads and Dressings"]
 tags: ["salads and dressings"]
-description: "Greek Salad, fresh and vibrant"
+description: "Crunchy, refreshing crisp salad tossed with ½ head lettuce, romaine lettuce, and tomatoes. Light enough for summer, hearty enough to stand on its own."
 source: ""
 creditUrl: ""
 credit: ""

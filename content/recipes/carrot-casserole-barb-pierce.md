@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Vegetables"]
 tags: ["vegetables"]
-description: "Carrot Casserole, baked to perfection"
+description: "Homemade luscious pie with carrots and medium onion. Golden crust, gorgeous filling, and the kind of satisfaction only a from-scratch pie can deliver."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/32125954/pexels-photo-32125954.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/103888/pexels-photo-103888.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

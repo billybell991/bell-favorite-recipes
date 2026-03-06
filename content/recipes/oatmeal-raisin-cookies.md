@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:54-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: ["cookies"]
-description: "Oatmeal raisin cookies"
+description: "Perfectly sweet cookies studded with brown sugar, all purpose flour, and cinnamon. Simple enough for a Tuesday, special enough for a holiday platter."
 source: ""
 creditUrl: ""
 credit: ""

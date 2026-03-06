@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cookies"]
 tags: ["cookies", "cookies"]
-description: "The ultimate chocolate chip cookie"
+description: "Decadent cookies packed with golden crisco, lightly packed brown sugar, and chocolate chips — the kind you bake a double batch of because the first one disappears before they've cooled."
 source: ""
 creditUrl: ""
 credit: ""

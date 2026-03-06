@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Breads"]
 tags: ["breads"]
-description: "Tender, stuffing balls, baked to perfection"
+description: "Flavorful, satisfying comforting comfort food with butter or margarine and ½ cup chopped celery. The kind of recipe that gets dog-eared in the cookbook and passed down through generations."
 source: ""
 creditUrl: ""
 credit: ""

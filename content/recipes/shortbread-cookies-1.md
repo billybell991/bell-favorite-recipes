@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:56-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: ["bread", "cookies"]
-description: "Shortbread cookies #1"
+description: "Decadent cookies packed with soft butter, cornstarch, and icing sugar — the kind you bake a double batch of because the first one disappears before they've cooled."
 source: ""
 creditUrl: ""
 credit: ""

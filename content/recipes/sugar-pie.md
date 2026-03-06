@@ -4,7 +4,7 @@ date: 2026-03-05T07:00:56-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["pastrypies", "pie"]
-description: "Sugar pie, baked to perfection"
+description: "Homemade luscious pie with ½ cup brown sugar and ½ tbsp flour. Golden crust, gorgeous filling, and the kind of satisfaction only a from-scratch pie can deliver."
 source: ""
 creditUrl: ""
 credit: ""

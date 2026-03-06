@@ -4,14 +4,14 @@ date: 2026-03-05T06:54:13-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["bread"]
-description: "Golden brown, dutch oven no-knead bread, baked to perfection"
+description: "Soft, golden toasty rolls with warm water and packet yeast that pull apart like a dream. Perfect alongside any meal or slathered with butter straight from the oven."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5764069/pexels-photo-5764069.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/11953880/pexels-photo-11953880.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

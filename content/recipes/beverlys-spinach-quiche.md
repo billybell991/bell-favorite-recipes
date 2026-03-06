@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pies"]
 tags: ["pies"]
-description: "Beverly’s Spinach Quiche, baked to perfection"
+description: "Flaky, golden crust cradling a rich filling with box chopped spinach or broccoli and l/2 chopped onion — the kind of pie that earns a permanent spot on the holiday table."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/19145679/pexels-photo-19145679.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/568370/pexels-photo-568370.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

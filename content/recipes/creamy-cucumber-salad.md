@@ -4,14 +4,14 @@ date: 2026-03-05T06:54:09-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["salad"]
-description: "Creamy cucumber salad"
+description: "Crunchy, refreshing vibrant salad tossed with long english cucumbers, of sour cream, and of mayonnaise. Light enough for summer, hearty enough to stand on its own."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4101804/pexels-photo-4101804.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/15946710/pexels-photo-15946710.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

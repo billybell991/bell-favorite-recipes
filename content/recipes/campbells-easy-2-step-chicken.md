@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Chicken"]
 tags: ["chicken"]
-description: "Simple skillet chicken simmered in creamy mushroom soup"
+description: "Crispy-skinned, bold chicken with boneless chicken breasts and cream of mushroom soup cooked until golden and irresistible. This is the recipe that makes chicken exciting again."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: "20 minutes"
 servings: "4"
-image: "https://images.pexels.com/photos/17321116/pexels-photo-17321116.jpeg?auto=compress&cs=tinysrgb&h=350"
+image: "https://images.pexels.com/photos/14020911/pexels-photo-14020911.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: "Also delicious with Cream of Chicken, Cream of Celery or Tomato with Roasted Garlic and Herbs soup."
 ---
 

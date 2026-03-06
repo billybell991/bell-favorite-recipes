@@ -4,14 +4,14 @@ date: 2026-03-05T06:53:31-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["chicken"]
-description: "Tender and bubbly, buffalo chicken spaghetti squash, baked to perfection"
+description: "A comforting bowl of hearty pasta with whole spaghetti squash and olive oil — saucy, satisfying, and ready to become a weeknight staple."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/16516728/pexels-photo-16516728.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/31769298/pexels-photo-31769298.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

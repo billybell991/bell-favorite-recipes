@@ -4,14 +4,14 @@ date: 2026-03-05T06:53:54-05:00
 draft: false
 categories: ["Maya's Recipes"]
 tags: ["pasta"]
-description: "Tender, boursin one dish pasta, baked to perfection"
+description: "Hearty robust pasta with of garlic and fine herbs boursin cheese and uncooked pasta — the kind of meal you want to curl up on the couch with. Simple, satisfying, and just right."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6287357/pexels-photo-6287357.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/55636/pexels-photo-55636.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

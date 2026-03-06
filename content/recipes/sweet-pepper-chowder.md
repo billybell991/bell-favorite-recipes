@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes"]
-description: "Tender, sweet pepper chowder, simmered to perfection"
+description: "Steaming bowls of robust soup packed with chicken broth, medium potatoes, and medium carrots. The recipe you reach for when the weather turns and comfort is non-negotiable."
 source: ""
 creditUrl: ""
 credit: ""

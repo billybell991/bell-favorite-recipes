@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Native Cuisine"]
 tags: ["native cuisine"]
-description: "Golden brown, golden, Wild Rice Stuffing for Game Birds, roasted to perfection"
+description: "Fluffy, fragrant satisfying rice with wild rice and chopped onions — every grain perfectly cooked and packed with flavor. The side dish that steals the spotlight."
 source: ""
 creditUrl: ""
 credit: ""

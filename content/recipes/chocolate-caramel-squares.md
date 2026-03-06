@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Squares"]
 tags: ["squares"]
-description: "Chocolate-caramel Squares, easy to make and impossible to resist"
+description: "A pan of indulgent squares with or 9-oz pkg cream-filled sugar wafer coolies and vanilla caramels that's dangerously easy to make and even more dangerous to leave unattended on the counter."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1028714/pexels-photo-1028714.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/4161223/pexels-photo-4161223.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

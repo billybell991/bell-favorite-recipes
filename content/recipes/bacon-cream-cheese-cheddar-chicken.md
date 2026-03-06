@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:28-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["chicken"]
-description: "Bacon, cream cheese, cheddar chicken, baked to perfection"
+description: "Crispy-skinned, comforting chicken with olive oil and chicken breasts cooked until golden and irresistible. This is the recipe that makes chicken exciting again."
 source: ""
 creditUrl: ""
 credit: ""

@@ -4,7 +4,7 @@ date: 2026-03-05T07:01:30-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["salads", "chicken", "salad"]
-description: "Zesty asian chicken salad, broiled to perfection"
+description: "A bright, crisp fresh salad with rice vinegar and reduced sodium soy sauce — fresh, colorful, and bursting with flavor. The side dish that steals the show."
 source: ""
 creditUrl: ""
 credit: ""

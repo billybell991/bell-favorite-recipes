@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:33-05:00
 draft: false
 categories: ["Weight Watchers"]
 tags: ["cake"]
-description: "Fruit protein pancake"
+description: "Fluffy, golden rich stacks with bananas and tbps rolled oats — griddle-kissed and ready for a cascade of syrup. Weekend mornings were made for these."
 source: ""
 creditUrl: ""
 credit: ""

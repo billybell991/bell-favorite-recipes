@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Native Cuisine"]
 tags: ["native cuisine"]
-description: "Wild Rice & Cheese Casserole, baked to perfection"
+description: "Hearty rustic casserole packed with wild rice, ½ cup chopped onion, and grated cheese — the ultimate one-dish dinner. Pop it in the oven and let it do all the work."
 source: ""
 creditUrl: ""
 credit: ""

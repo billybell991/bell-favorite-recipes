@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:31-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: ["soup"]
-description: "Yankee pot roast soup, simmered to perfection"
+description: "A soul-warming bowl of comforting soup with lbsstewing beef and teaspoonsalt — the kind that simmers low and slow and makes the whole house smell incredible."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Meat"]
 tags: ["pork"]
-description: "Tender pork chops smothered in creamy mushroom sauce"
+description: "Savory, golden comforting pork with pork chops and condensed cream of mushroom soup that's ridiculously easy to make and even more ridiculously delicious to eat."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: "4"
-image: "https://images.pexels.com/photos/7333262/pexels-photo-7333262.jpeg?auto=compress&cs=tinysrgb&h=350"
+image: "https://images.pexels.com/photos/17555546/pexels-photo-17555546.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

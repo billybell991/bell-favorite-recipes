@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Miscellaneous"]
 tags: ["miscellaneous"]
-description: "Festive Punch, chilled to perfection"
+description: "Mix up this bold beverage with qt club soda and can pink lemonade and watch it become everyone's favorite. Simple to make, impossible to stop sipping."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cakes and Muffins"]
 tags: ["cakes and muffins", "muffins"]
-description: "Bran muffins, baked to perfection"
+description: "Fluffy sweet muffins with ¼ cup shortening and firmly packed brown sugar that rise tall and taste even better than the bakery. Best eaten warm with a smear of butter."
 source: ""
 creditUrl: ""
 credit: ""

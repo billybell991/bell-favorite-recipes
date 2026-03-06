@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Salads and Dressings"]
 tags: ["salads and dressings"]
-description: "Crispy, Betty’s Caesar Salad Dressing, fresh and vibrant"
+description: "Crunchy, refreshing crisp salad tossed with ¾ cup salad oil, ¼ cup lemon juice, and garlic cloves. Light enough for summer, hearty enough to stand on its own."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3070968/pexels-photo-3070968.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/33674388/pexels-photo-33674388.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

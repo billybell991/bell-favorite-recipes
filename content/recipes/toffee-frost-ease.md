@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Squares"]
 tags: ["squares"]
-description: "Warm, Toffee Frost-ease, baked to perfection"
+description: "Homemade sweet candy studded with brown sugar, walnuts, and chocolate chips — prettier than store-bought and a hundred times more delicious."
 source: ""
 creditUrl: ""
 credit: ""

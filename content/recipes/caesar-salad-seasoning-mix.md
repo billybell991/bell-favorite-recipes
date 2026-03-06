@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Salads and Dressings"]
 tags: ["salads and dressings"]
-description: "Caesar Salad Seasoning Mix, fresh and vibrant"
+description: "Crunchy, refreshing vibrant salad tossed with ½ tsp salt, ½ tsp ground pepper, and ½ tsp dry mustard. Light enough for summer, hearty enough to stand on its own."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3070968/pexels-photo-3070968.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/14702298/pexels-photo-14702298.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes", "cake"]
-description: "Far east crab cakes"
+description: "Rich, tender indulgent cake with cans lump crabmeat and ½ cup finely chopped water chestnuts that hits all the right notes. This is the cake that turns an ordinary day into a celebration."
 source: ""
 creditUrl: ""
 credit: ""

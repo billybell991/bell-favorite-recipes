@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes", "muffins"]
-description: "Applesauce bran muffins, baked to perfection"
+description: "Tender, domed rich muffins bursting with all-bran, ¼ cup milk, and applesauce — the kind that make weekday mornings feel like a treat."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5441093/pexels-photo-5441093.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/29344476/pexels-photo-29344476.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

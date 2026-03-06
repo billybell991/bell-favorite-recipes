@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Sauces"]
 tags: ["sauces"]
-description: "Barbecue Sauce, perfect for any dish"
+description: "A pan of melt-in-your-mouth squares with ½ cup canola oil and ½ cup chili sauce that's dangerously easy to make and even more dangerous to leave unattended on the counter."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/42168/pexels-photo-42168.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/750947/pexels-photo-750947.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

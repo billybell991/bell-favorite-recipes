@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:18-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["dip"]
-description: "Spinach dip, sautéed to perfection"
+description: "A rich, flavorful vibrant dip loaded with cloves garlic, fresh spinach, and olive oil. The appetizer that everyone parks themselves next to and never leaves."
 source: ""
 creditUrl: ""
 credit: ""

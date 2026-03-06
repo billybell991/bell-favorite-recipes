@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Chicken"]
 tags: ["chicken"]
-description: "Chili flappers, baked to perfection"
+description: "Rich, slow-simmered satisfying chili with chicken wings and ½ cup dry bread crumbs. Top it with cheese and sour cream and let the warmth spread from your belly outward."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/36133755/pexels-photo-36133755.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/28872869/pexels-photo-28872869.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Preparation: 10 minutes Baking time: 30 minutes

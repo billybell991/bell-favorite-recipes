@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Miscellaneous"]
 tags: ["miscellaneous"]
-description: "Choke Cherry Wine, a family favorite"
+description: "A refreshing savory drink with of cherries to 1 gallon of hot water and acid blend that's perfect for gatherings, holidays, or just a treat on a warm afternoon."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4725733/pexels-photo-4725733.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/2187423/pexels-photo-2187423.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

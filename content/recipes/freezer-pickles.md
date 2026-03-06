@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pickles"]
 tags: ["pickles"]
-description: "Freezer Pickles, a classic homemade preserve"
+description: "Crunchy, tangy comforting pickles with sliced pickling cucumber and large onion — brined to briny perfection. Open a jar and taste summer all year long."
 source: ""
 creditUrl: ""
 credit: ""

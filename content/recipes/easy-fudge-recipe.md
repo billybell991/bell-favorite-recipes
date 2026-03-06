@@ -5,14 +5,14 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Easy Fudge Recipe, perfect for any occasion"
+description: "Smooth, creamy melt-in-your-mouth fudge with ½ cup milk and brown sugar that melts on your tongue and sets perfectly every time. The candy thermometer's finest hour."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4306222/pexels-photo-4306222.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/8927930/pexels-photo-8927930.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 ## Ingredients

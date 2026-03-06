@@ -4,14 +4,14 @@ date: 2026-03-05T06:58:58-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares"]
-description: "Apple crisp, baked to perfection"
+description: "A gorgeous melt-in-your-mouth dessert with ritz crackers and ½ cups brown sugar that looks like it came from a bakery but tastes even better because it came from your kitchen."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/142498/pexels-photo-142498.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/34489907/pexels-photo-34489907.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Heather Bell

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Snacks"]
 tags: ["snacks"]
-description: "Swedish Nuts, perfect for any occasion"
+description: "A delicious homemade savory recipe with ½ lbs blanches almonds and ½ lb walnut halves — simple enough for any night of the week but special enough to remember."
 source: ""
 creditUrl: ""
 credit: ""

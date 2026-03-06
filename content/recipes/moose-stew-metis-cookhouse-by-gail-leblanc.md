@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Native Cuisine"]
 tags: ["native cuisine"]
-description: "Tender, Moose Stew, simmered to perfection"
+description: "A thick, hearty hearty stew with moose and carrots — slow-simmered until everything is fall-apart tender and the gravy is rich as velvet."
 source: ""
 creditUrl: ""
 credit: ""

@@ -4,7 +4,7 @@ date: 2026-03-05T06:59:21-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares"]
-description: "Pep's favorite brownies, baked to perfection"
+description: "Homemade robust goodness with ½ cup all purpose flour and ½ cup cocoa — made from scratch with real ingredients and a whole lot of love. This one's a keeper."
 source: ""
 creditUrl: ""
 credit: ""

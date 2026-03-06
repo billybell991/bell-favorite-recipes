@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Soups"]
 tags: ["soups"]
-description: "Vegetable Burger Soup, simmered to perfection"
+description: "A soul-warming bowl of savory soup with ground beef and ½ cup dry onion soup mix — the kind that simmers low and slow and makes the whole house smell incredible."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Cookies"]
 tags: ["cookies", "bread"]
-description: "Never fail shortbread, baked to perfection"
+description: "Perfectly sweet cookies studded with ½ cup canadian corn starch, ½ cup icing sugar, and sifted all-purpose flour. Simple enough for a Tuesday, special enough for a holiday platter."
 source: ""
 creditUrl: ""
 credit: ""

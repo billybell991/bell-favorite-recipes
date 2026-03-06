@@ -4,7 +4,7 @@ date: 2026-03-05T07:01:21-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["salads", "salad"]
-description: "Party lime salad"
+description: "A bright, crisp bright salad with crushed pineapple and small package of lime jello — fresh, colorful, and bursting with flavor. The side dish that steals the show."
 source: ""
 creditUrl: ""
 credit: ""

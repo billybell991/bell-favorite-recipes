@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Soups"]
 tags: ["soups"]
-description: "Judy’s Miracle Soup, simmered to perfection"
+description: "Steaming bowls of bold soup packed with tins tomatoes, green peppers, and medium cabbage. The recipe you reach for when the weather turns and comfort is non-negotiable."
 source: ""
 creditUrl: ""
 credit: ""

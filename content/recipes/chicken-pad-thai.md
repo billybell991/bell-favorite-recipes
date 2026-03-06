@@ -4,14 +4,14 @@ date: 2026-03-05T06:53:03-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: ["chicken"]
-description: "Chicken pad thai, pressure-cooked to perfection"
+description: "Crispy-skinned, bold chicken with tbspolive oil and chicken breasts cooked until golden and irresistible. This is the recipe that makes chicken exciting again."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/35063430/pexels-photo-35063430.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/17760129/pexels-photo-17760129.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

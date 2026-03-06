@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Casseroles"]
 tags: ["casseroles", "potatoes"]
-description: "Fluffy, fluffy potato casserole, baked to perfection"
+description: "Warm, satisfying robust casserole with of mashed potatoes and g package of cream cheese that feeds a crowd and tastes even better the next day. The definition of comfort food."
 source: ""
 creditUrl: ""
 credit: ""

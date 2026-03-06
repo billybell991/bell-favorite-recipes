@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Pickles"]
 tags: ["pickles"]
-description: "Sweet & Sour Polish Dill Pickles, a classic homemade preserve"
+description: "Old-fashioned hearty pickles with brine: 4 cups vinegar and onions — crisp, tangy, and made the way grandma did it. Fill the pantry and count the days until they're ready."
 source: ""
 creditUrl: ""
 credit: ""

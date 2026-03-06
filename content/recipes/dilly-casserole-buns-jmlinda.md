@@ -4,14 +4,14 @@ date: 2026-03-05T06:52:41-05:00
 draft: false
 categories: ["Family Recipes"]
 tags: []
-description: "Dilly casserole buns, baked to perfection"
+description: "Pillowy homemade buns loaded with cottage cheese and flecked with fragrant dill — these no-knead beauties rise tall, bake golden, and fill the kitchen with the most incredible aroma. A family recipe from J.M. and Linda that's earned its place at every holiday table."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4202391/pexels-photo-4202391.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/4198018/pexels-photo-4198018.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 

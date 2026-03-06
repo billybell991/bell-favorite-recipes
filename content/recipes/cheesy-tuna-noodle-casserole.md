@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Casseroles"]
 tags: ["casseroles"]
-description: "Cheesy tuna noodle casserole, baked to perfection"
+description: "A comforting bowl of satisfying pasta with frozen vegetable blend with broccoli and kraft dinner macaroni & cheese — saucy, satisfying, and ready to become a weeknight staple."
 source: ""
 creditUrl: ""
 credit: ""

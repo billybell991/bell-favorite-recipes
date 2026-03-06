@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Desserts"]
 tags: ["desserts"]
-description: "Grand-peres, fried to perfection"
+description: "Homemade satisfying goodness with each salt & ground nutmeg would cut this down to ½ tsp each) and cooking oil — made from scratch with real ingredients and a whole lot of love. This one's a keeper."
 source: ""
 creditUrl: ""
 credit: ""

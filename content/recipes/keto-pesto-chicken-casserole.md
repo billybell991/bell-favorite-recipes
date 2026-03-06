@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:46-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["chicken", "keto"]
-description: "Golden brown and bubbly, pesto chicken casserole, baked to perfection"
+description: "Warm, satisfying comforting casserole with chicken thighs or chicken breasts and red pesto or green pesto that feeds a crowd and tastes even better the next day. The definition of comfort food."
 source: ""
 creditUrl: ""
 credit: ""

@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:30-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["chicken"]
-description: "Baked chicken drumsticks"
+description: "A bubbly, golden hearty casserole with chicken drumsticks and avocado oil — layers of comfort baked until the top is crispy and the inside is meltingly good."
 source: ""
 creditUrl: ""
 credit: ""

@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:55-05:00
 draft: false
 categories: ["Maya's Recipes"]
 tags: ["cake", "cookies"]
-description: "Carrot cake cheesecake cookies"
+description: "Melt-in-your-mouth cookies packed with block of cream cheese, powdered sugar, and vanilla extract — the kind you bake a double batch of because the first one disappears before they've cooled."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Casseroles"]
 tags: ["casseroles", "rice"]
-description: "Spanish rice, sautéed to perfection"
+description: "Fluffy, fragrant hearty rice with rice and – 4 onions — every grain perfectly cooked and packed with flavor. The side dish that steals the spotlight."
 source: ""
 creditUrl: ""
 credit: ""

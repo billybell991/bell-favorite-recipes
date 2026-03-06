@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Appetizers"]
 tags: ["appetizers", "chicken"]
-description: "Glazed, oxo honey garlic chicken wings, baked to perfection"
+description: "Juicy, flavorful robust chicken with chicken wings and honey — golden on the outside, tender all the way through. The kind of dinner that earns a round of applause."
 source: ""
 creditUrl: ""
 credit: ""

@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Casseroles"]
 tags: ["casseroles"]
-description: "Mom's macaroni & cheese casserole, baked to perfection"
+description: "Hearty comforting pasta with handfuls of elbow macaroni and brick of medium cheddar cheese — the kind of meal you want to curl up on the couch with. Simple, satisfying, and just right."
 source: ""
 creditUrl: ""
 credit: ""

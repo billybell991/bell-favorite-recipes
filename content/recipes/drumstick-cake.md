@@ -4,14 +4,14 @@ date: 2026-03-05T06:59:14-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["cakessquares", "cake"]
-description: "Drumstick cake"
+description: "Rich, tender melt-in-your-mouth cake with ½ cups vanilla or graham crumbs and ½ cup chopped peanuts or walnuts that hits all the right notes. This is the cake that turns an ordinary day into a celebration."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/241687/pexels-photo-241687.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/20214008/pexels-photo-20214008.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Kevin Roy

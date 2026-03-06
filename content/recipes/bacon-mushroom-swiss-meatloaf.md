@@ -4,14 +4,14 @@ date: 2026-03-05T07:00:08-05:00
 draft: false
 categories: ["Wedding Cookbook"]
 tags: ["meat"]
-description: "Crispy and tender, bacon mushroom swiss meatloaf, baked to perfection"
+description: "Rich, savory rustic beef with of bacon and medium white mushrooms — fork-tender and packed with deep, beefy flavor. Comfort food at its finest."
 source: ""
 creditUrl: ""
 credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6223183/pexels-photo-6223183.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/28902882/pexels-photo-28902882.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Darcy Lloyd

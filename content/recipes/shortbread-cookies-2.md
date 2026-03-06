@@ -4,7 +4,7 @@ date: 2026-03-05T06:54:57-05:00
 draft: false
 categories: ["Misc Recipes - Cookbooks"]
 tags: ["bread", "cookies"]
-description: "Shortbread cookies #2"
+description: "Warm from the oven and loaded with all purpose flour, cornstarch, and icing sugar, these luscious cookies are the ones everyone reaches for first at the bake sale."
 source: ""
 creditUrl: ""
 credit: ""

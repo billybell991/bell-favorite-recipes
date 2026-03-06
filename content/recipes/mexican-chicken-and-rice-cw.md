@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Vegetables"]
 tags: ["vegetables"]
-description: "Crispy, tender, Mexican Chicken and Rice, a delicious side dish"
+description: "Tender, perfectly seasoned satisfying chicken with boneless and medium green pepper — proof that a great chicken dinner never goes out of style."
 source: ""
 creditUrl: ""
 credit: ""
