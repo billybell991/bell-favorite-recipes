@@ -17,12 +17,16 @@
     if (indexLoaded) return Promise.resolve();
     if (indexLoading) return indexLoading;
     indexLoading = new Promise(function (resolve) {
-      // Build base URL from the current page location
-      var baseUrl = window.location.origin + '/';
-      // If running on GitHub Pages with a subpath, detect it from <link> tags
+      // Build base URL from the CSS link href (works with both relative and absolute URLs)
+      var baseUrl = '/';
       var cssLink = document.querySelector('link[href*="css/style.css"]');
       if (cssLink) {
-        baseUrl = cssLink.getAttribute('href').replace(/css\/style\.css.*/, '');
+        var href = cssLink.getAttribute('href');
+        // Strip to just the path portion (handles both relative and absolute URLs)
+        var match = href.match(/(\/[^?#]*\/)css\/style\.css/);
+        if (match) {
+          baseUrl = match[1];
+        }
       }
       var xhr = new XMLHttpRequest();
       xhr.open('GET', baseUrl + 'index.json');

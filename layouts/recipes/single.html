@@ -8,7 +8,7 @@
         <div class="recipe-meta">
           {{ with .Params.categories }}
             {{ range . }}
-            <a href="{{ "/categories/" | absURL }}{{ . | urlize }}/" class="recipe-category-tag {{ partial "cat-class.html" . }}">{{ . }}</a>
+            <a href="{{ printf "/categories/%s/" (. | urlize) | relLangURL }}" class="recipe-category-tag {{ partial "cat-class.html" . }}">{{ . }}</a>
             {{ end }}
           {{ end }}
         </div>
