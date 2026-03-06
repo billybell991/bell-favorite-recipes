@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4114116/pexels-photo-4114116.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/31768243/pexels-photo-31768243.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 - 2-1/2 cups Bisquick baking mix

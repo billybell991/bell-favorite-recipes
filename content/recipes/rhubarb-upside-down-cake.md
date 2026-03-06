@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3650434/pexels-photo-3650434.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/8477756/pexels-photo-8477756.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 - 3 cups sliced fresh rhubarb, ½” pieces

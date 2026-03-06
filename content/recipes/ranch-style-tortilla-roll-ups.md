@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5419309/pexels-photo-5419309.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/5531155/pexels-photo-5531155.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Linda and Darrell Lamothe

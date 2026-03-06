@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/2764271/pexels-photo-2764271.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/31024936/pexels-photo-31024936.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Marie and Will Sayer
