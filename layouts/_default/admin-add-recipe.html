@@ -39,8 +39,16 @@
       </form>
     </div>
 
+    <!-- Tab switcher (hidden until authenticated) -->
+    <div id="admin-tabs" style="display:none; margin-bottom:1.5rem;">
+      <div style="display:flex; gap:0; border-bottom:3px solid #2c5530;">
+        <button type="button" class="admin-tab active" data-tab="add-recipe" style="padding:0.75rem 1.5rem; border:none; background:#2c5530; color:#fff; font-weight:600; font-size:1rem; cursor:pointer; border-radius:8px 8px 0 0;">Add Recipe</button>
+        <button type="button" class="admin-tab" data-tab="update-image" style="padding:0.75rem 1.5rem; border:none; background:#e8e8e8; color:#333; font-weight:600; font-size:1rem; cursor:pointer; border-radius:8px 8px 0 0;">Update Recipe Image</button>
+      </div>
+    </div>
+
     <!-- Recipe form (hidden until authenticated) -->
-    <div id="recipe-panel" style="display:none;">
+    <div id="recipe-panel" class="admin-tab-panel" style="display:none;">
       <h1>Admin: Add Recipe</h1>
       <p class="submit-intro">Fill in the details below. The recipe will be committed directly to the site.</p>
 
@@ -198,6 +206,56 @@
       </div>
     </div>
 
+    <!-- Update Recipe Image panel -->
+    <div id="update-image-panel" class="admin-tab-panel" style="display:none;">
+      <h1>Update Recipe Images</h1>
+      <p class="submit-intro">Browse all recipes below. Click any image that looks "off" to pick a new one from Pexels.</p>
+
+      <div style="margin-bottom:1rem; display:flex; gap:0.5rem; align-items:center; flex-wrap:wrap;">
+        <input type="text" id="gallery-filter" placeholder="Filter recipes..." style="flex:1; min-width:200px;">
+        <select id="gallery-cat-filter" style="min-width:180px;">
+          <option value="">All Categories</option>
+        </select>
+        <span id="gallery-count" style="font-size:0.85rem; color:#666;"></span>
+      </div>
+
+      <div id="recipe-gallery" class="recipe-gallery"></div>
+    </div>
+
+    <!-- Pexels Picker Modal -->
+    <div id="pexels-modal" class="pexels-modal-overlay" style="display:none;">
+      <div class="pexels-modal">
+        <div class="pexels-modal-header">
+          <h2 id="modal-recipe-title" style="margin:0; font-size:1.2rem;"></h2>
+          <button type="button" id="modal-close" class="pexels-modal-close">&times;</button>
+        </div>
+        <div id="modal-current" style="margin-bottom:1rem;">
+          <span style="font-size:0.85rem; color:#666;">Current image:</span>
+          <img id="modal-current-img" src="" alt="Current" style="display:block; max-width:300px; max-height:180px; border-radius:8px; object-fit:cover; margin-top:0.25rem;">
+        </div>
+        <div style="display:flex; gap:0.5rem; margin-bottom:0.75rem;">
+          <input type="text" id="modal-search-input" placeholder="Search Pexels for a new photo..." style="flex:1;">
+          <button type="button" id="modal-search-btn" class="btn btn-secondary">&#x1f50d; Search</button>
+        </div>
+        <div id="modal-photo-grid" class="modal-photo-grid"></div>
+        <div id="modal-loading" style="display:none; text-align:center; padding:1rem; color:#666;">Searching photos...</div>
+        <div id="modal-load-more" style="display:none; text-align:center; margin-top:0.5rem;">
+          <button type="button" id="modal-load-more-btn" class="btn btn-secondary" style="font-size:0.85rem;">Load more</button>
+        </div>
+        <p id="modal-no-results" style="display:none; text-align:center; color:#999; padding:1rem;">No photos found. Try different search terms.</p>
+        <div id="modal-confirm" style="display:none; margin-top:1rem; padding:1rem; background:#f0f7f0; border-radius:8px;">
+          <p style="margin:0 0 0.5rem;"><strong>Selected new image:</strong></p>
+          <img id="modal-new-img" src="" alt="New" style="max-width:300px; max-height:180px; border-radius:8px; object-fit:cover;">
+          <div style="margin-top:0.75rem; display:flex; gap:0.5rem;">
+            <button type="button" id="modal-save-btn" class="btn btn-primary">&#x2705; Save to Recipe</button>
+            <button type="button" id="modal-pick-again" class="btn btn-secondary">Pick Different</button>
+          </div>
+          <p id="modal-save-status" style="margin-top:0.5rem;"></p>
+        </div>
+        <p style="text-align:right; font-size:0.75rem; color:#999; margin-top:0.25rem;">Photos by <a href="https://www.pexels.com" target="_blank" rel="noopener">Pexels</a></p>
+      </div>
+    </div>
+
   </div>
 </div>
 {{ end }}
@@ -240,7 +298,9 @@
         localStorage.setItem('gh_admin_token', t);
       }
       document.getElementById('auth-gate').style.display = 'none';
+      document.getElementById('admin-tabs').style.display = 'block';
       document.getElementById('recipe-panel').style.display = 'block';
+      loadRecipeList();
     }).catch(function(err) {
       errEl.textContent = err.message;
       errEl.style.display = 'block';
@@ -517,6 +577,328 @@
     document.getElementById('submit-status').textContent = '';
     document.getElementById('subcategory-group').style.display = 'none';
     document.getElementById('md-preview').textContent = '';
+  });
+
+  // =============================================
+  // Tab Switching
+  // =============================================
+  document.querySelectorAll('.admin-tab').forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      document.querySelectorAll('.admin-tab').forEach(function(t) {
+        t.style.background = '#e8e8e8';
+        t.style.color = '#333';
+        t.classList.remove('active');
+      });
+      this.style.background = '#2c5530';
+      this.style.color = '#fff';
+      this.classList.add('active');
+
+      document.querySelectorAll('.admin-tab-panel').forEach(function(p) { p.style.display = 'none'; });
+      var target = this.getAttribute('data-tab');
+      if (target === 'add-recipe') {
+        document.getElementById('recipe-panel').style.display = 'block';
+      } else if (target === 'update-image') {
+        document.getElementById('update-image-panel').style.display = 'block';
+        if (!galleryLoaded) loadGallery();
+      }
+    });
+  });
+
+  // =============================================
+  // Recipe Image Gallery
+  // =============================================
+  var allRecipes = [];
+  var galleryLoaded = false;
+  var PLACEHOLDER_IMG = 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120"><rect fill="#f0f0f0" width="200" height="120"/><text x="100" y="65" text-anchor="middle" fill="#bbb" font-size="14">No Image</text></svg>');
+
+  function loadRecipeList() {
+    // called after auth
+  }
+
+  function loadGallery() {
+    var gallery = document.getElementById('recipe-gallery');
+    gallery.innerHTML = '<p style="text-align:center; color:#666; padding:2rem;">Loading recipes...</p>';
+
+    var baseUrl = '{{ site.BaseURL }}'.replace(/\/$/, '');
+    fetch(baseUrl + '/index.json')
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        allRecipes = data.filter(function(r) {
+          return r.permalink && r.permalink.indexOf('/recipes/') !== -1 && r.title;
+        }).sort(function(a, b) {
+          return (a.title || '').localeCompare(b.title || '');
+        });
+
+        // Populate category filter
+        var cats = {};
+        allRecipes.forEach(function(r) {
+          if (r.categories) r.categories.forEach(function(c) { cats[c] = true; });
+        });
+        var catSelect = document.getElementById('gallery-cat-filter');
+        Object.keys(cats).sort().forEach(function(c) {
+          var opt = document.createElement('option');
+          opt.value = c;
+          opt.textContent = c;
+          catSelect.appendChild(opt);
+        });
+
+        galleryLoaded = true;
+        renderGallery();
+      })
+      .catch(function(err) {
+        gallery.innerHTML = '<p style="color:#c0392b; text-align:center;">Error loading recipes: ' + err.message + '</p>';
+      });
+  }
+
+  function renderGallery() {
+    var gallery = document.getElementById('recipe-gallery');
+    var filter = document.getElementById('gallery-filter').value.toLowerCase();
+    var catFilter = document.getElementById('gallery-cat-filter').value;
+
+    var filtered = allRecipes.filter(function(r) {
+      if (filter && (r.title || '').toLowerCase().indexOf(filter) === -1) return false;
+      if (catFilter && (!r.categories || r.categories.indexOf(catFilter) === -1)) return false;
+      return true;
+    });
+
+    document.getElementById('gallery-count').textContent = filtered.length + ' of ' + allRecipes.length + ' recipes';
+    gallery.innerHTML = '';
+
+    filtered.forEach(function(recipe) {
+      var card = document.createElement('div');
+      card.className = 'gallery-card' + (recipe.image ? '' : ' no-image');
+      var imgSrc = recipe.image || PLACEHOLDER_IMG;
+
+      var img = document.createElement('img');
+      img.src = imgSrc;
+      img.alt = recipe.title || '';
+      img.loading = 'lazy';
+      img.onerror = function() { this.src = PLACEHOLDER_IMG; };
+
+      var titleDiv = document.createElement('div');
+      titleDiv.className = 'gallery-title';
+      titleDiv.textContent = recipe.title;
+      titleDiv.title = recipe.title;
+
+      card.appendChild(img);
+      card.appendChild(titleDiv);
+      card.addEventListener('click', function() {
+        openPexelsModal(recipe, card);
+      });
+      gallery.appendChild(card);
+    });
+  }
+
+  document.getElementById('gallery-filter').addEventListener('input', renderGallery);
+  document.getElementById('gallery-cat-filter').addEventListener('change', renderGallery);
+
+  // =============================================
+  // Pexels Modal
+  // =============================================
+  var modalRecipe = null;
+  var modalCard = null;
+  var modalPage = 1;
+  var modalQuery = '';
+  var modalNewUrl = '';
+
+  function openPexelsModal(recipe, card) {
+    modalRecipe = recipe;
+    modalCard = card;
+    modalNewUrl = '';
+
+    document.getElementById('modal-recipe-title').textContent = recipe.title;
+    var curImg = document.getElementById('modal-current-img');
+    if (recipe.image) {
+      curImg.src = recipe.image;
+      curImg.style.display = 'block';
+    } else {
+      curImg.style.display = 'none';
+    }
+
+    // Pre-fill search with recipe title
+    var searchInput = document.getElementById('modal-search-input');
+    searchInput.value = (recipe.title || '').replace(/\(.*?\)/g, '').trim() + ' food';
+
+    // Reset state
+    document.getElementById('modal-photo-grid').innerHTML = '';
+    document.getElementById('modal-loading').style.display = 'none';
+    document.getElementById('modal-load-more').style.display = 'none';
+    document.getElementById('modal-no-results').style.display = 'none';
+    document.getElementById('modal-confirm').style.display = 'none';
+    document.getElementById('modal-save-status').textContent = '';
+
+    document.getElementById('pexels-modal').style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+
+    // Auto-search
+    searchInput.focus();
+    modalSearchPhotos(searchInput.value.trim(), 1);
+  }
+
+  function closePexelsModal() {
+    document.getElementById('pexels-modal').style.display = 'none';
+    document.body.style.overflow = '';
+    modalRecipe = null;
+  }
+
+  document.getElementById('modal-close').addEventListener('click', closePexelsModal);
+  document.getElementById('pexels-modal').addEventListener('click', function(e) {
+    if (e.target === this) closePexelsModal();
+  });
+
+  function modalSearchPhotos(query, page) {
+    var grid = document.getElementById('modal-photo-grid');
+    var loading = document.getElementById('modal-loading');
+    var noResults = document.getElementById('modal-no-results');
+    var loadMore = document.getElementById('modal-load-more');
+
+    loading.style.display = 'block';
+    noResults.style.display = 'none';
+    loadMore.style.display = 'none';
+    if (page === 1) grid.innerHTML = '';
+    modalQuery = query;
+    modalPage = page;
+
+    fetch('https://api.pexels.com/v1/search?query=' + encodeURIComponent(query) + '&orientation=landscape&per_page=9&page=' + page, {
+      headers: { 'Authorization': PEXELS_API_KEY }
+    }).then(function(r) {
+      if (!r.ok) {
+        if (r.status === 429) throw new Error('Pexels rate limit reached. Try again in a few minutes.');
+        throw new Error('Pexels API error (HTTP ' + r.status + ')');
+      }
+      return r.json();
+    }).then(function(data) {
+      loading.style.display = 'none';
+      if (!data.photos || data.photos.length === 0) {
+        if (page === 1) noResults.style.display = 'block';
+        return;
+      }
+      data.photos.forEach(function(photo) {
+        var card = document.createElement('div');
+        card.className = 'modal-photo-card';
+        card.innerHTML = '<img src="' + photo.src.medium + '" alt="' + (photo.alt || 'Photo').replace(/"/g, '&quot;') + '">' +
+          '<div class="photo-credit">by ' + photo.photographer + '</div>';
+        card.addEventListener('click', function() {
+          modalSelectPhoto(photo.src.large2x || photo.src.large || photo.src.original);
+        });
+        grid.appendChild(card);
+      });
+      if (data.photos.length === 9) loadMore.style.display = 'block';
+    }).catch(function(err) {
+      loading.style.display = 'none';
+      noResults.style.display = 'block';
+      noResults.textContent = err.message;
+    });
+  }
+
+  document.getElementById('modal-search-btn').addEventListener('click', function() {
+    var q = document.getElementById('modal-search-input').value.trim();
+    if (q) modalSearchPhotos(q, 1);
+  });
+  document.getElementById('modal-search-input').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      document.getElementById('modal-search-btn').click();
+    }
+  });
+  document.getElementById('modal-load-more-btn').addEventListener('click', function() {
+    modalSearchPhotos(modalQuery, modalPage + 1);
+  });
+
+  function modalSelectPhoto(url) {
+    modalNewUrl = url;
+    document.getElementById('modal-new-img').src = url;
+    document.getElementById('modal-confirm').style.display = 'block';
+    document.getElementById('modal-save-status').textContent = '';
+  }
+
+  document.getElementById('modal-pick-again').addEventListener('click', function() {
+    document.getElementById('modal-confirm').style.display = 'none';
+    modalNewUrl = '';
+  });
+
+  // =============================================
+  // Save Image via GitHub API
+  // =============================================
+  document.getElementById('modal-save-btn').addEventListener('click', function() {
+    if (!modalRecipe || !modalNewUrl || !token) return;
+
+    var btn = this;
+    var status = document.getElementById('modal-save-status');
+    btn.disabled = true;
+    btn.textContent = 'Saving...';
+    status.textContent = '';
+    status.style.color = '';
+
+    // Extract slug from permalink
+    var slug = modalRecipe.permalink.replace(/.*\/recipes\//, '').replace(/\/$/, '');
+    var filePath = FILE_PATH_PREFIX + slug + '.md';
+
+    // Step 1: Get current file from GitHub
+    fetch('https://api.github.com/repos/' + REPO_OWNER + '/' + REPO_NAME + '/contents/' + filePath + '?ref=' + BRANCH, {
+      headers: { 'Authorization': 'Bearer ' + token }
+    }).then(function(r) {
+      if (!r.ok) throw new Error('Could not fetch recipe file (HTTP ' + r.status + ')');
+      return r.json();
+    }).then(function(fileData) {
+      // Decode content
+      var content = decodeURIComponent(escape(atob(fileData.content.replace(/\n/g, ''))));
+
+      // Replace image line in front matter
+      var newContent = content.replace(
+        /^(image:\s*")[^"]*(")/m,
+        '$1' + modalNewUrl.replace(/\$/g, '$$$$') + '$2'
+      );
+
+      if (newContent === content) {
+        throw new Error('Could not find image field in recipe front matter');
+      }
+
+      // Step 2: Commit updated file
+      var encoded = btoa(unescape(encodeURIComponent(newContent)));
+      return fetch('https://api.github.com/repos/' + REPO_OWNER + '/' + REPO_NAME + '/contents/' + filePath, {
+        method: 'PUT',
+        headers: {
+          'Authorization': 'Bearer ' + token,
+          'Content-Type': 'application/json',
+          'Accept': 'application/vnd.github.v3+json'
+        },
+        body: JSON.stringify({
+          message: 'Update image: ' + modalRecipe.title,
+          content: encoded,
+          sha: fileData.sha,
+          branch: BRANCH
+        })
+      });
+    }).then(function(r) {
+      if (!r.ok) return r.json().then(function(d) {
+        var msg = d.message || 'API error';
+        if (msg.indexOf('Resource not accessible') !== -1) {
+          msg = 'Token lacks "Contents: Read and write" permission.';
+        }
+        throw new Error(msg);
+      });
+      return r.json();
+    }).then(function() {
+      // Success — update the card in-place
+      modalRecipe.image = modalNewUrl;
+      if (modalCard) {
+        var cardImg = modalCard.querySelector('img');
+        if (cardImg) cardImg.src = modalNewUrl;
+        modalCard.classList.remove('no-image');
+        modalCard.classList.add('just-updated');
+        setTimeout(function() { modalCard.classList.remove('just-updated'); }, 3000);
+      }
+      status.style.color = '#27ae60';
+      status.textContent = 'Image updated! Site will rebuild in 1-2 minutes.';
+      btn.textContent = '✅ Saved!';
+      setTimeout(closePexelsModal, 1500);
+    }).catch(function(err) {
+      status.style.color = '#c0392b';
+      status.textContent = 'Error: ' + err.message;
+      btn.disabled = false;
+      btn.textContent = '✅ Save to Recipe';
+    });
   });
 
 })();

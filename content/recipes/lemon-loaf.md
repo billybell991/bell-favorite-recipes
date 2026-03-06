@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4114116/pexels-photo-4114116.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/10770144/pexels-photo-10770144.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 - 1/2 cup butter

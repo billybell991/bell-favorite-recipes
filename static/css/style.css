@@ -1950,3 +1950,127 @@ h3 { font-size: 1.3rem; }
   opacity: 0.4;
   margin-bottom: 2rem;
 }
+
+/* ===== Admin Recipe Gallery ===== */
+.recipe-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.75rem;
+}
+.gallery-card {
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  background: #fff;
+}
+.gallery-card:hover {
+  border-color: #2c5530;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.gallery-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  display: block;
+  background: #f0f0f0;
+}
+.gallery-card .gallery-title {
+  padding: 0.4rem 0.5rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.gallery-card.no-image {
+  border-color: #f0c040;
+}
+.gallery-card.no-image img {
+  opacity: 0.4;
+}
+.gallery-card.just-updated {
+  border-color: #2c5530;
+  box-shadow: 0 0 0 3px rgba(44,85,48,0.3);
+}
+
+/* ===== Pexels Picker Modal ===== */
+.pexels-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.pexels-modal {
+  background: #fff;
+  border-radius: 12px;
+  max-width: 700px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 1.5rem;
+  position: relative;
+}
+.pexels-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.pexels-modal-close {
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #666;
+  line-height: 1;
+  padding: 0 0.25rem;
+}
+.pexels-modal-close:hover {
+  color: #c0392b;
+}
+.modal-photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+.modal-photo-grid .modal-photo-card {
+  cursor: pointer;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 3px solid transparent;
+  transition: border-color 0.2s;
+}
+.modal-photo-grid .modal-photo-card:hover {
+  border-color: #2c5530;
+}
+.modal-photo-grid .modal-photo-card img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  display: block;
+}
+.modal-photo-grid .modal-photo-card .photo-credit {
+  font-size: 0.7rem;
+  color: #666;
+  padding: 2px 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 600px) {
+  .recipe-gallery {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  }
+  .modal-photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
