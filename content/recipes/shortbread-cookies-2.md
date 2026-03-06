@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4276480/pexels-photo-4276480.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/14580492/pexels-photo-14580492.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 - 1 1/4 cups all purpose flour

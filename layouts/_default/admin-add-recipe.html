@@ -946,40 +946,43 @@
       // Decode content
       var content = decodeURIComponent(escape(atob(fileData.content.replace(/\n/g, ''))));
 
-      // Replace image line in front matter
-      var escapedUrl = modalNewUrl.replace(/\$/g, '$$$$');
-      var newContent = content.replace(
-        /^(image:\s*")[^"]*(")/m,
-        '$1' + escapedUrl + '$2'
-      );
+      // Replace image line using line-by-line approach (more robust than regex)
+      var lines = content.split('\n');
+      var imageLineIdx = -1;
+      var titleLineIdx = -1;
+      var firstDashIdx = -1;
+      var newImageLine = 'image: "' + modalNewUrl + '"';
 
-      // Try single quotes if double quotes didn't match
-      if (newContent === content) {
-        newContent = content.replace(
-          /^(image:\s*')[^']*(')/m,
-          '$1' + escapedUrl + '$2'
-        );
+      for (var i = 0; i < lines.length; i++) {
+        var trimmed = lines[i].replace(/\r$/, '').trim();
+        if (trimmed === '---' && firstDashIdx === -1) {
+          firstDashIdx = i;
+        }
+        if (/^image\s*:/i.test(trimmed)) {
+          imageLineIdx = i;
+        }
+        if (/^title\s*:/i.test(trimmed) && titleLineIdx === -1) {
+          titleLineIdx = i;
+        }
       }
 
-      // Try image: without quotes (bare value or empty)
-      if (newContent === content) {
-        newContent = content.replace(
-          /^image:\s*.*$/m,
-          'image: "' + modalNewUrl + '"'
-        );
+      if (imageLineIdx !== -1) {
+        // Preserve line ending style
+        var hadCR = lines[imageLineIdx].indexOf('\r') !== -1;
+        lines[imageLineIdx] = newImageLine + (hadCR ? '\r' : '');
+      } else if (titleLineIdx !== -1) {
+        // Insert after title line
+        var crStyle = lines[titleLineIdx].indexOf('\r') !== -1 ? '\r' : '';
+        lines.splice(titleLineIdx + 1, 0, newImageLine + crStyle);
+      } else if (firstDashIdx !== -1) {
+        // Insert after opening ---
+        var crStyle2 = lines[firstDashIdx].indexOf('\r') !== -1 ? '\r' : '';
+        lines.splice(firstDashIdx + 1, 0, newImageLine + crStyle2);
+      } else {
+        throw new Error('File has no front matter (no --- found). First 100 chars: ' + content.substring(0, 100));
       }
 
-      // If still no match, insert image field after title in front matter
-      if (newContent === content) {
-        newContent = content.replace(
-          /^(title:\s*.*$)/m,
-          '$1\nimage: "' + modalNewUrl + '"'
-        );
-      }
-
-      if (newContent === content) {
-        throw new Error('Could not find or add image field in recipe front matter');
-      }
+      var newContent = lines.join('\n');
 
       // Step 2: Commit updated file
       var encoded = btoa(unescape(encodeURIComponent(newContent)));
