@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/19145679/pexels-photo-19145679.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/10017/pexels-photo-10017.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 - 1 lb ground beef or ground sausage
