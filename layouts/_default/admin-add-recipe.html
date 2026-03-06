@@ -947,13 +947,38 @@
       var content = decodeURIComponent(escape(atob(fileData.content.replace(/\n/g, ''))));
 
       // Replace image line in front matter
+      var escapedUrl = modalNewUrl.replace(/\$/g, '$$$$');
       var newContent = content.replace(
         /^(image:\s*")[^"]*(")/m,
-        '$1' + modalNewUrl.replace(/\$/g, '$$$$') + '$2'
+        '$1' + escapedUrl + '$2'
       );
 
+      // Try single quotes if double quotes didn't match
       if (newContent === content) {
-        throw new Error('Could not find image field in recipe front matter');
+        newContent = content.replace(
+          /^(image:\s*')[^']*(')/m,
+          '$1' + escapedUrl + '$2'
+        );
+      }
+
+      // Try image: without quotes (bare value or empty)
+      if (newContent === content) {
+        newContent = content.replace(
+          /^image:\s*.*$/m,
+          'image: "' + modalNewUrl + '"'
+        );
+      }
+
+      // If still no match, insert image field after title in front matter
+      if (newContent === content) {
+        newContent = content.replace(
+          /^(title:\s*.*$)/m,
+          '$1\nimage: "' + modalNewUrl + '"'
+        );
+      }
+
+      if (newContent === content) {
+        throw new Error('Could not find or add image field in recipe front matter');
       }
 
       // Step 2: Commit updated file

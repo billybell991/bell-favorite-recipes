@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/42168/pexels-photo-42168.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/36293910/pexels-photo-36293910.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Lori Girard
