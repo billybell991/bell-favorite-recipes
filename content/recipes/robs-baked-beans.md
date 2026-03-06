@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/2337842/pexels-photo-2337842.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/30146171/pexels-photo-30146171.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Empty 5-lb. bag of beans into pot.

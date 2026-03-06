@@ -818,6 +818,9 @@
     document.getElementById('modal-no-results').style.display = 'none';
     document.getElementById('modal-confirm').style.display = 'none';
     document.getElementById('modal-save-status').textContent = '';
+    var saveBtn = document.getElementById('modal-save-btn');
+    saveBtn.disabled = false;
+    saveBtn.textContent = '\u2705 Save to Recipe';
 
     document.getElementById('pexels-modal').style.display = 'flex';
     document.body.style.overflow = 'hidden';
@@ -906,6 +909,9 @@
     document.getElementById('modal-new-img').src = url;
     document.getElementById('modal-confirm').style.display = 'block';
     document.getElementById('modal-save-status').textContent = '';
+    var saveBtn = document.getElementById('modal-save-btn');
+    saveBtn.disabled = false;
+    saveBtn.textContent = '\u2705 Save to Recipe';
   }
 
   document.getElementById('modal-pick-again').addEventListener('click', function() {
