@@ -122,43 +122,4 @@
     });
   });
 
-  // Subcategory filtering (Mom's Cookbook)
-  const subCards = document.querySelectorAll('.subcategory-card');
-  if (subCards.length > 0) {
-    subCards.forEach(function (card) {
-      card.addEventListener('click', function (e) {
-        e.preventDefault();
-        subCards.forEach(function (c) { c.classList.remove('active'); });
-        card.classList.add('active');
-
-        var sub = card.getAttribute('data-subcategory');
-        var recipes = document.querySelectorAll('#recipes-grid .recipe-card');
-        var visibleCount = 0;
-
-        recipes.forEach(function (recipe) {
-          if (sub === 'all' || recipe.getAttribute('data-subcategory') === sub) {
-            recipe.classList.remove('subcategory-hidden');
-            visibleCount++;
-          } else {
-            recipe.classList.add('subcategory-hidden');
-          }
-        });
-
-        var countEl = document.getElementById('visible-count');
-        if (countEl) countEl.textContent = visibleCount;
-      });
-    });
-
-    // Auto-select subcategory from URL hash (e.g., #appetizers)
-    var hash = window.location.hash;
-    if (hash) {
-      var target = hash.substring(1).toLowerCase();
-      subCards.forEach(function (card) {
-        var sub = card.getAttribute('data-subcategory');
-        if (sub && sub.toLowerCase().replace(/\s+/g, '-') === target) {
-          card.click();
-        }
-      });
-    }
-  }
 })();

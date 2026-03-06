@@ -3,7 +3,7 @@ title: "Peanut Butter Cookies"
 date: 2026-03-05T06:57:07-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Cookies"
+subcategories: ["Cookies"]
 tags: ["cookies", "cookies"]
 description: "Peanut butter cookies, baked to perfection"
 source: ""

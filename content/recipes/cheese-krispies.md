@@ -3,7 +3,7 @@ title: "Cheese Krispies"
 date: 2026-03-05T06:55:02-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Appetizers"
+subcategories: ["Appetizers"]
 tags: ["appetizers", "pie"]
 description: "Cheese krispies, baked to perfection"
 source: ""

@@ -1,0 +1,29 @@
+---
+title: "Sparkling Strawberry Pie - Cw"
+date: 2026-03-05T20:08:13-05:00
+draft: false
+categories: ["Mom's Cookbook"]
+subcategories: ["Pies"]
+tags: ["pies"]
+description: "Sparkling Strawberry Pie, with a perfectly flaky crust"
+source: ""
+creditUrl: ""
+credit: ""
+prepTime: ""
+cookTime: ""
+servings: ""
+image: "https://images.pexels.com/photos/15030594/pexels-photo-15030594.jpeg?auto=compress&cs=tinysrgb&w=600"
+notes: ""
+---
+## Ingredients
+
+- 2 pkg (3 oz ea.) raspsberry or strawberry-
+- 2 cups boiling water
+- flavoured Jello
+- 3-4 cups frozen whole strawberries
+- Whipped topping
+- 1 prepared pie crust
+
+## Instructions
+
+In a mixing bow, dissolve gelatin in water.  Add frozen berries and allow to set a few minutes to thicken. When partially set, spoon into pie shell.  Refrigerate.  Garnish with whipped topping.

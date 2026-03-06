@@ -3,7 +3,7 @@ title: "Hundred Dollar Cake"
 date: 2026-03-05T06:56:13-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Cakes and Muffins"
+subcategories: ["Cakes and Muffins"]
 tags: ["cakes and muffins", "cake"]
 description: "Hundred dollar cake, baked to perfection"
 source: ""

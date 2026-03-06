@@ -3,7 +3,7 @@ title: "All-Bran Muffins - No. 2"
 date: 2026-03-05T06:55:57-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Cakes and Muffins"
+subcategories: ["Cakes and Muffins"]
 tags: ["cakes and muffins", "muffins"]
 description: "Golden brown, all-bran muffins - no. 2, baked to perfection"
 source: ""

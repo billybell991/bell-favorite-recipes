@@ -3,7 +3,7 @@ title: "Tomato Soup Cake"
 date: 2026-03-05T06:56:22-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Cakes and Muffins"
+subcategories: ["Cakes and Muffins"]
 tags: ["cakes and muffins", "soup", "cake"]
 description: "Tomato soup cake, baked to perfection"
 source: ""

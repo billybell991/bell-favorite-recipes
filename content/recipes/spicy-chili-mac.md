@@ -3,7 +3,7 @@ title: "Spicy Chili Mac"
 date: 2026-03-05T06:57:44-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Diabetic Recipes"
+subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes"]
 description: "Tender, spicy chili mac, simmered to perfection"
 source: ""

@@ -3,7 +3,7 @@ title: "Baker's Clay Instructions"
 date: 2026-03-05T06:58:11-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Fun Things"
+subcategories: ["Fun Things"]
 tags: ["fun things"]
 description: ""
 source: ""

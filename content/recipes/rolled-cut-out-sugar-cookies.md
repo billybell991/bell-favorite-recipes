@@ -3,7 +3,7 @@ title: "Rolled Cut-Out Sugar Cookies"
 date: 2026-03-05T06:57:08-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Cookies"
+subcategories: ["Cookies"]
 tags: ["cookies", "cookies"]
 description: "Rolled cut-out sugar cookies, baked to perfection"
 source: ""

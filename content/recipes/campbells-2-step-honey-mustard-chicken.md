@@ -3,7 +3,7 @@ title: "Campbell's 2-Step Honey Mustard Chicken"
 date: 2026-03-05T06:58:28-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Chicken"
+subcategories: ["Chicken"]
 tags: ["chicken"]
 description: "Chicken breasts simmered in a sweet and tangy honey mustard cream sauce"
 source: ""

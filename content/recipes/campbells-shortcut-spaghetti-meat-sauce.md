@@ -3,7 +3,7 @@ title: "Campbell's Shortcut Spaghetti & Meat Sauce"
 date: 2026-03-05T06:58:38-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Meat"
+subcategories: ["Meat"]
 tags: ["meat"]
 description: "Tender, campbell's shortcut spaghetti & meat sauce, simmered to perfection"
 source: ""

@@ -1,0 +1,28 @@
+---
+title: "Quiche Crust (rice)"
+date: 2026-03-05T20:08:13-05:00
+draft: false
+categories: ["Mom's Cookbook"]
+subcategories: ["Pies"]
+tags: ["pies"]
+description: "Quiche Crust, with a perfectly flaky crust"
+source: ""
+creditUrl: ""
+credit: ""
+prepTime: ""
+cookTime: ""
+servings: ""
+image: "https://images.pexels.com/photos/32125954/pexels-photo-32125954.jpeg?auto=compress&cs=tinysrgb&w=600"
+notes: ""
+---
+## Ingredients
+
+- l-l/2 cups cooked brown rice
+- 2 tbsp butter, softened
+- 2 tbsp chopped onion
+- l/4 tsp basil
+- l egg, slightly beaten
+
+## Instructions
+
+Combine ingredients.  Press into bottom and sides of greased 9” pie plate.  Use any quiche filling.  Tuna tastes especially good in this crust.

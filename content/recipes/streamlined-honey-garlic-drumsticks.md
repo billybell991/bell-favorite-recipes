@@ -3,7 +3,7 @@ title: "Streamlined Honey Garlic Drumsticks"
 date: 2026-03-05T06:56:50-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Chicken"
+subcategories: ["Chicken"]
 tags: ["chicken"]
 description: "Streamlined honey garlic drumsticks, baked to perfection"
 source: ""

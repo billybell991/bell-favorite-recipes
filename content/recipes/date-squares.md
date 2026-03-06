@@ -3,7 +3,7 @@ title: "Date Squares"
 date: 2026-03-05T06:57:17-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Desserts"
+subcategories: ["Desserts"]
 tags: ["desserts"]
 description: "Date squares, baked to perfection"
 source: ""

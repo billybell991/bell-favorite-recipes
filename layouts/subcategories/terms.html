@@ -1,0 +1,44 @@
+{{ define "main" }}
+<div class="categories-page">
+  <div class="container">
+    <h1>Mom's Cookbook – Subcategories</h1>
+    <div class="category-grid">
+      {{ range .Data.Terms.Alphabetical }}
+      {{ $count := .Count }}
+      {{ $term := .Page }}
+      {{ $name := $term.Title }}
+      {{ $subIcon := "🍴" }}
+      {{ if eq $name "Appetizers" }}{{ $subIcon = "🥗" }}
+      {{ else if eq $name "Breads" }}{{ $subIcon = "🍞" }}
+      {{ else if eq $name "Cake Frosting" }}{{ $subIcon = "🎂" }}
+      {{ else if eq $name "Cakes and Muffins" }}{{ $subIcon = "🧁" }}
+      {{ else if eq $name "Casseroles" }}{{ $subIcon = "🥘" }}
+      {{ else if eq $name "Chicken" }}{{ $subIcon = "🍗" }}
+      {{ else if eq $name "Cookies" }}{{ $subIcon = "🍪" }}
+      {{ else if eq $name "Desserts" }}{{ $subIcon = "🍰" }}
+      {{ else if eq $name "Diabetic Recipes" }}{{ $subIcon = "💚" }}
+      {{ else if eq $name "Fish" }}{{ $subIcon = "🐟" }}
+      {{ else if eq $name "Fun Things" }}{{ $subIcon = "🎨" }}
+      {{ else if eq $name "Meat" }}{{ $subIcon = "🥩" }}
+      {{ else if eq $name "Miscellaneous" }}{{ $subIcon = "📋" }}
+      {{ else if eq $name "Native Cuisine" }}{{ $subIcon = "🪶" }}
+      {{ else if eq $name "Pickles" }}{{ $subIcon = "🥒" }}
+      {{ else if eq $name "Pies" }}{{ $subIcon = "🥧" }}
+      {{ else if eq $name "Puddings" }}{{ $subIcon = "🍮" }}
+      {{ else if eq $name "Salads and Dressings" }}{{ $subIcon = "🥗" }}
+      {{ else if eq $name "Sauces" }}{{ $subIcon = "🫙" }}
+      {{ else if eq $name "Snacks" }}{{ $subIcon = "🍿" }}
+      {{ else if eq $name "Soups" }}{{ $subIcon = "🍲" }}
+      {{ else if eq $name "Squares" }}{{ $subIcon = "🟫" }}
+      {{ else if eq $name "Vegetables" }}{{ $subIcon = "🥕" }}
+      {{ end }}
+      <a href="{{ $term.RelPermalink }}" class="category-card cat-moms-cookbook">
+        <div class="category-icon">{{ $subIcon }}</div>
+        <h3>{{ $name }}</h3>
+        <span class="recipe-count">{{ $count }} {{ if eq $count 1 }}recipe{{ else }}recipes{{ end }}</span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

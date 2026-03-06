@@ -3,7 +3,7 @@ title: "Amazingly Easy Apple Crisp"
 date: 2026-03-05T06:57:14-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Desserts"
+subcategories: ["Desserts"]
 tags: ["desserts"]
 description: "Tender, amazingly easy apple crisp, baked to perfection"
 source: ""

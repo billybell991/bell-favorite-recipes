@@ -3,7 +3,7 @@ title: "Potato \"Playdough\""
 date: 2026-03-05T06:58:16-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Fun Things"
+subcategories: ["Fun Things"]
 tags: ["fun things", "potatoes"]
 description: "Potato playdough"
 source: ""

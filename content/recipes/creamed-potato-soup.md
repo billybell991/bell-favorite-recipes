@@ -3,7 +3,7 @@ title: "Creamed Potato Soup"
 date: 2026-03-05T06:57:29-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Diabetic Recipes"
+subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes", "soup", "potatoes"]
 description: "Tender, creamed potato soup, simmered to perfection"
 source: ""

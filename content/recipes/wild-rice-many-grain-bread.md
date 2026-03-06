@@ -3,7 +3,7 @@ title: "Wild Rice Many-Grain Bread"
 date: 2026-03-05T06:55:44-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Breads"
+subcategories: ["Breads"]
 tags: ["breads", "bread", "rice"]
 description: "Tender and bubbly, wild rice many-grain bread, baked to perfection"
 source: ""

@@ -3,7 +3,7 @@ title: "Fruit Cocktail Cake"
 date: 2026-03-05T06:56:09-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Cakes and Muffins"
+subcategories: ["Cakes and Muffins"]
 tags: ["cakes and muffins", "cake"]
 description: "Fruit cocktail cake, baked to perfection"
 source: ""

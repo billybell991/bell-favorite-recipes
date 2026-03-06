@@ -3,7 +3,7 @@ title: "White Christmas Cake"
 date: 2026-03-05T06:56:23-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Cakes and Muffins"
+subcategories: ["Cakes and Muffins"]
 tags: ["cakes and muffins", "cake"]
 description: "White christmas cake, baked to perfection"
 source: ""

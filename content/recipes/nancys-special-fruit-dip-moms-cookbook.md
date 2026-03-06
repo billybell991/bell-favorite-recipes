@@ -1,0 +1,35 @@
+---
+title: "Nancy’s Special Fruit Dip"
+date: 2026-03-05T20:08:13-05:00
+draft: false
+categories: ["Mom's Cookbook"]
+subcategories: ["Miscellaneous"]
+tags: ["miscellaneous"]
+description: "Nancy’s Special Fruit Dip, a family favorite"
+source: ""
+creditUrl: ""
+credit: ""
+prepTime: ""
+cookTime: ""
+servings: ""
+image: "https://images.pexels.com/photos/3026019/pexels-photo-3026019.jpeg?auto=compress&cs=tinysrgb&w=600"
+notes: ""
+---
+## Ingredients
+
+- 250 gr. Cream cheese, softened
+- ½ cup sour cream
+- ¼ cup white sugar
+- ¼ cup packed brown sugar
+- 1 – 2 Tbsp real maple syrup
+
+## Instructions
+
+Mix all ingredients thoroughly. Garnish with maple sugar leaves, if desired.
+
+JUDY’S  ESPECIALLY  EASY  FRUIT  DIP
+
+250-gr. Pkg. Cream cheese, softened
+container of marshmallow cream for sundaes (microwave for about 10 seconds to soften, if necessary.
+
+Mix both ingredients thoroughly.

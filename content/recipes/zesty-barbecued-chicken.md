@@ -3,7 +3,7 @@ title: "Zesty Barbecued Chicken"
 date: 2026-03-05T06:57:51-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Diabetic Recipes"
+subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes", "chicken"]
 description: "Zesty barbecued chicken, simmered to perfection"
 source: ""

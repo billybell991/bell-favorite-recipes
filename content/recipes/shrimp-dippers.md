@@ -3,7 +3,7 @@ title: "Shrimp Dippers"
 date: 2026-03-05T06:57:41-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Diabetic Recipes"
+subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes", "shrimp", "dip"]
 description: "Shrimp dippers"
 source: ""

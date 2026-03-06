@@ -1,0 +1,32 @@
+---
+title: "Impossible Chicken Pie"
+date: 2026-03-05T20:08:13-05:00
+draft: false
+categories: ["Mom's Cookbook"]
+subcategories: ["Pies"]
+tags: ["pies"]
+description: "Smooth, Impossible Chicken Pie, baked to perfection"
+source: ""
+creditUrl: ""
+credit: ""
+prepTime: ""
+cookTime: ""
+servings: ""
+image: "https://images.pexels.com/photos/32125954/pexels-photo-32125954.jpeg?auto=compress&cs=tinysrgb&w=600"
+notes: ""
+---
+## Ingredients
+
+- 2 cups cut-up chicken
+- ½ - 1 can mushrooms, drained
+- ½ cup diced green onions
+- ½ tsp salt
+- 1 cup shredded Swiss or brick cheese
+- 1-1/2 cup milk
+- ¾ cup Bisquick
+
+## Instructions
+
+Heat oven to 400 degrees.  Grease pie plate and sprinkle with flour.  Into pie plate, place the chicken, mushrooms, onions, salt and cheese.  Beat remaining ingredients until smooth.  Pour over mixture in pie plate.  Bake until knife is clean when inserted into center of pie – 30 to 35 minutes.  If you wish you can sprinkle top of  pie with Parmesan cheese or corn flake crumbs.
+
+NOTE:  The Bisquick does to the bottom to form a crust.

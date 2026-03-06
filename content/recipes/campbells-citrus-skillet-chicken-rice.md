@@ -3,7 +3,7 @@ title: "Campbell's Citrus Skillet Chicken & Rice"
 date: 2026-03-05T06:58:27-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Meat"
+subcategories: ["Meat"]
 tags: ["meat", "chicken", "rice"]
 description: "Campbell's citrus skillet chicken & rice, simmered to perfection"
 source: ""

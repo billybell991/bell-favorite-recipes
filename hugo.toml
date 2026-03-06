@@ -41,6 +41,7 @@ title = 'Bell Favorite Recipes'
 [taxonomies]
   category = "categories"
   tag = "tags"
+  subcategory = "subcategories"
 
 [markup]
   [markup.goldmark]

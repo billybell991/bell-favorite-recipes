@@ -3,7 +3,7 @@ title: "Casserole Cabbage Rolls"
 date: 2026-03-05T06:56:27-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Casseroles"
+subcategories: ["Casseroles"]
 tags: ["casseroles"]
 description: "Casserole cabbage rolls, baked to perfection"
 source: ""

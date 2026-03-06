@@ -3,7 +3,7 @@ title: "Dip'n Chicken"
 date: 2026-03-05T06:57:34-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Diabetic Recipes"
+subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes", "chicken", "dip"]
 description: "Dip'n chicken, baked to perfection"
 source: ""

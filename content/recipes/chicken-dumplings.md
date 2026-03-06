@@ -3,7 +3,7 @@ title: "Chicken & Dumplings"
 date: 2026-03-05T06:58:44-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Meat"
+subcategories: ["Meat"]
 tags: ["meat", "chicken"]
 description: "Tender, chicken & dumplings, simmered to perfection"
 source: ""

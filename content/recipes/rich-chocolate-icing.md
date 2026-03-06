@@ -3,7 +3,7 @@ title: "Rich Chocolate Icing"
 date: 2026-03-05T06:55:54-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Cake Frosting"
+subcategories: ["Cake Frosting"]
 tags: ["cake frosting"]
 description: "Rich chocolate icing"
 source: ""

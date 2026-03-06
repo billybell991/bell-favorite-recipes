@@ -3,7 +3,7 @@ title: "Quick and Easy Icing"
 date: 2026-03-05T06:55:52-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Cake Frosting"
+subcategories: ["Cake Frosting"]
 tags: ["cake frosting"]
 description: "Quick and easy icing"
 source: ""

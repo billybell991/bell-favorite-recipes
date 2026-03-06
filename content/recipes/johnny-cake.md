@@ -3,7 +3,7 @@ title: "Johnny Cake"
 date: 2026-03-05T06:55:28-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Breads"
+subcategories: ["Breads"]
 tags: ["breads", "cake"]
 description: "Johnny cake, baked to perfection"
 source: ""

@@ -3,7 +3,7 @@ title: "Salsa Dip"
 date: 2026-03-05T06:55:15-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Appetizers"
+subcategories: ["Appetizers"]
 tags: ["appetizers", "dip"]
 description: "Salsa dip"
 source: ""

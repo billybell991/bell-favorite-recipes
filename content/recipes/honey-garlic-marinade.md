@@ -1,0 +1,29 @@
+---
+title: "Honey Garlic Marinade"
+date: 2026-03-05T20:08:13-05:00
+draft: false
+categories: ["Mom's Cookbook"]
+subcategories: ["Miscellaneous"]
+tags: ["miscellaneous"]
+description: "Honey Garlic Marinade, a family favorite"
+source: ""
+creditUrl: ""
+credit: ""
+prepTime: ""
+cookTime: ""
+servings: ""
+image: "https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg?auto=compress&cs=tinysrgb&w=600"
+notes: ""
+---
+## Ingredients
+
+- 7 ml Canola Gold Oil
+- 25 ml light soy sauce
+- 50 ml liquid honey
+- 2 cloves garlic
+
+## Instructions
+
+Combine Canola Gold, soy sauce, honey and garlic in a small bowl. Mix well.
+
+Marinade for 2 to 4 hours in the refrigerator. Excellent for chicken, turkey or pork. While cooking, turn frequently to avoid burning.

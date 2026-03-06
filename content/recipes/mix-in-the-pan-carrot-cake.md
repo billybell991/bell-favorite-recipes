@@ -3,7 +3,7 @@ title: "Mix-in-the-pan Carrot Cake"
 date: 2026-03-05T06:56:15-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Cakes and Muffins"
+subcategories: ["Cakes and Muffins"]
 tags: ["cakes and muffins", "cake"]
 description: "Mix-in-the-pan carrot cake, baked to perfection"
 source: ""

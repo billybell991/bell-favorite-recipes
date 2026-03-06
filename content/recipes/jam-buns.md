@@ -3,7 +3,7 @@ title: "Jam Buns"
 date: 2026-03-05T06:55:27-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Breads"
+subcategories: ["Breads"]
 tags: ["breads"]
 description: "Jam buns, baked to perfection"
 source: ""

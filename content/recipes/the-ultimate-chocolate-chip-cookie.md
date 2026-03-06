@@ -3,7 +3,7 @@ title: "The Ultimate Chocolate Chip Cookie"
 date: 2026-03-05T06:57:10-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Cookies"
+subcategories: ["Cookies"]
 tags: ["cookies", "cookies"]
 description: "The ultimate chocolate chip cookie"
 source: ""

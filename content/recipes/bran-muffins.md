@@ -3,7 +3,7 @@ title: "Bran Muffins"
 date: 2026-03-05T06:55:20-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Breads"
+subcategories: ["Breads"]
 tags: ["breads", "muffins"]
 description: "Bran muffins, baked to perfection"
 source: ""

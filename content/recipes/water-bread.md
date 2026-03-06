@@ -3,7 +3,7 @@ title: "Water Bread"
 date: 2026-03-05T06:55:43-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Breads"
+subcategories: ["Breads"]
 tags: ["breads", "bread"]
 description: "Water bread, baked to perfection"
 source: ""

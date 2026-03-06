@@ -3,7 +3,7 @@ title: "Batter Franks"
 date: 2026-03-05T06:58:21-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Meat"
+subcategories: ["Meat"]
 tags: ["meat"]
 description: "Batter franks"
 source: ""

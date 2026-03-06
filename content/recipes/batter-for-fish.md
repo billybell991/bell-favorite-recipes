@@ -3,7 +3,7 @@ title: "Batter For Fish"
 date: 2026-03-05T06:57:55-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Fish"
+subcategories: ["Fish"]
 tags: ["fish", "fish"]
 description: "Batter for fish"
 source: ""

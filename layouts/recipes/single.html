@@ -6,13 +6,8 @@
     <article class="recipe-single">
       <header class="recipe-header">
         <div class="recipe-meta">
-          {{ with .Params.categories }}
-            {{ range . }}
-            {{ $catPage := $.Site.GetPage (printf "/categories/%s" (. | urlize)) }}
-            {{ if $catPage }}
-            <a href="{{ $catPage.RelPermalink }}" class="recipe-category-tag {{ partial "cat-class.html" . }}">{{ . }}</a>
-            {{ end }}
-            {{ end }}
+          {{ range .GetTerms "categories" }}
+          <a href="{{ .RelPermalink }}" class="recipe-category-tag {{ partial "cat-class.html" .Title }}">{{ .Title }}</a>
           {{ end }}
         </div>
         <h1>{{ .Title }}</h1>

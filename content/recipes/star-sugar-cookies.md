@@ -3,7 +3,7 @@ title: "Star Sugar Cookies"
 date: 2026-03-05T06:57:09-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Cookies"
+subcategories: ["Cookies"]
 tags: ["cookies", "cookies"]
 description: "Star sugar cookies, baked to perfection"
 source: ""

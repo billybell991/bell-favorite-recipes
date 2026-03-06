@@ -3,7 +3,7 @@ title: "Chili Con Carne"
 date: 2026-03-05T06:56:29-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Casseroles"
+subcategories: ["Casseroles"]
 tags: ["casseroles"]
 description: "Chili con carne"
 source: ""

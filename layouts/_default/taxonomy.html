@@ -3,58 +3,49 @@
   <div class="container">
     <h1>{{ .Title }}</h1>
 
-    {{/* Check if this category has subcategories (Mom's Cookbook) */}}
-    {{ $hasSubcategories := false }}
-    {{ $subcategories := slice }}
-    {{ range .Pages }}
-      {{ with .Params.subcategory }}
-        {{ if not (in $subcategories .) }}
-          {{ $subcategories = $subcategories | append . }}
-        {{ end }}
-        {{ $hasSubcategories = true }}
-      {{ end }}
-    {{ end }}
-    {{ $subcategories = sort $subcategories }}
-
-    {{ if $hasSubcategories }}
-    {{/* Show subcategory filter cards */}}
+    {{/* Check if this is Mom's Cookbook (has subcategories) */}}
+    {{ if eq .Title "Mom's Cookbook" }}
+    {{/* Show subcategory cards as links to separate pages */}}
     <div class="subcategory-grid">
-      <a href="#" class="subcategory-card active" data-subcategory="all">
-        <div class="subcategory-icon">📖</div>
-        <h3>All Recipes</h3>
-        <span class="recipe-count">{{ len .Pages }} recipes</span>
-      </a>
-      {{ range $subcategories }}
-      {{ $sub := . }}
+      {{ range $.Site.Taxonomies.subcategories.Alphabetical }}
+      {{ $term := .Page }}
+      {{ $count := .Count }}
+      {{ $name := $term.Title }}
       {{ $subIcon := "🍴" }}
-      {{ if eq $sub "Appetizers" }}{{ $subIcon = "🥗" }}
-      {{ else if eq $sub "Breads" }}{{ $subIcon = "🍞" }}
-      {{ else if eq $sub "Cake Frosting" }}{{ $subIcon = "🎂" }}
-      {{ else if eq $sub "Cakes and Muffins" }}{{ $subIcon = "🧁" }}
-      {{ else if eq $sub "Casseroles" }}{{ $subIcon = "🥘" }}
-      {{ else if eq $sub "Chicken" }}{{ $subIcon = "🍗" }}
-      {{ else if eq $sub "Cookies" }}{{ $subIcon = "🍪" }}
-      {{ else if eq $sub "Desserts" }}{{ $subIcon = "🍰" }}
-      {{ else if eq $sub "Diabetic Recipes" }}{{ $subIcon = "💚" }}
-      {{ else if eq $sub "Fish" }}{{ $subIcon = "🐟" }}
-      {{ else if eq $sub "Fun Things" }}{{ $subIcon = "🎨" }}
-      {{ else if eq $sub "Meat" }}{{ $subIcon = "🥩" }}
+      {{ if eq $name "Appetizers" }}{{ $subIcon = "🥗" }}
+      {{ else if eq $name "Breads" }}{{ $subIcon = "🍞" }}
+      {{ else if eq $name "Cake Frosting" }}{{ $subIcon = "🎂" }}
+      {{ else if eq $name "Cakes and Muffins" }}{{ $subIcon = "🧁" }}
+      {{ else if eq $name "Casseroles" }}{{ $subIcon = "🥘" }}
+      {{ else if eq $name "Chicken" }}{{ $subIcon = "🍗" }}
+      {{ else if eq $name "Cookies" }}{{ $subIcon = "🍪" }}
+      {{ else if eq $name "Desserts" }}{{ $subIcon = "🍰" }}
+      {{ else if eq $name "Diabetic Recipes" }}{{ $subIcon = "💚" }}
+      {{ else if eq $name "Fish" }}{{ $subIcon = "🐟" }}
+      {{ else if eq $name "Fun Things" }}{{ $subIcon = "🎨" }}
+      {{ else if eq $name "Meat" }}{{ $subIcon = "🥩" }}
+      {{ else if eq $name "Miscellaneous" }}{{ $subIcon = "📋" }}
+      {{ else if eq $name "Native Cuisine" }}{{ $subIcon = "🪶" }}
+      {{ else if eq $name "Pickles" }}{{ $subIcon = "🥒" }}
+      {{ else if eq $name "Pies" }}{{ $subIcon = "🥧" }}
+      {{ else if eq $name "Puddings" }}{{ $subIcon = "🍮" }}
+      {{ else if eq $name "Salads and Dressings" }}{{ $subIcon = "🥗" }}
+      {{ else if eq $name "Sauces" }}{{ $subIcon = "🫙" }}
+      {{ else if eq $name "Snacks" }}{{ $subIcon = "🍿" }}
+      {{ else if eq $name "Soups" }}{{ $subIcon = "🍲" }}
+      {{ else if eq $name "Squares" }}{{ $subIcon = "🟫" }}
+      {{ else if eq $name "Vegetables" }}{{ $subIcon = "🥕" }}
       {{ end }}
-      <a href="#" class="subcategory-card" data-subcategory="{{ $sub }}">
+      <a href="{{ $term.RelPermalink }}" class="subcategory-card">
         <div class="subcategory-icon">{{ $subIcon }}</div>
-        <h3>{{ $sub }}</h3>
-        <span class="recipe-count">
-          {{ $count := 0 }}
-          {{ range $.Pages }}
-            {{ if eq .Params.subcategory $sub }}{{ $count = add $count 1 }}{{ end }}
-          {{ end }}
-          {{ $count }} {{ if eq $count 1 }}recipe{{ else }}recipes{{ end }}
-        </span>
+        <h3>{{ $name }}</h3>
+        <span class="recipe-count">{{ $count }} {{ if eq $count 1 }}recipe{{ else }}recipes{{ end }}</span>
       </a>
       {{ end }}
     </div>
-    {{ end }}
 
+    {{ else }}
+    {{/* Normal category: show recipes toolbar and grid */}}
     <div class="recipes-toolbar">
       <div class="recipes-count">
         <span id="visible-count">{{ len .Pages }}</span>
@@ -78,7 +69,7 @@
       {{ range .Pages.ByTitle }}
       {{ $catClass := "" }}
       {{ with .Params.categories }}{{ $catClass = partial "cat-class.html" (index . 0) }}{{ end }}
-      <article class="recipe-card {{ $catClass }}" data-title="{{ .Title }}" data-date="{{ .Date.Format "2006-01-02" }}" {{ with .Params.subcategory }}data-subcategory="{{ . }}"{{ end }}>
+      <article class="recipe-card {{ $catClass }}" data-title="{{ .Title }}" data-date="{{ .Date.Format "2006-01-02" }}">
         <a href="{{ .RelPermalink }}" class="card-link">
           {{ with .Params.image }}
           <div class="card-image">
@@ -90,13 +81,9 @@
           </div>
           {{ end }}
           <div class="card-content">
-            {{ with .Params.subcategory }}
-            <span class="card-category cat-moms-cookbook">{{ . }}</span>
-            {{ else }}
             {{ with .Params.categories }}
             {{ $cc := partial "cat-class.html" (index . 0) }}
             <span class="card-category {{ $cc }}">{{ index . 0 }}</span>
-            {{ end }}
             {{ end }}
             <h3>{{ .Title }}</h3>
             {{ with .Params.description }}
@@ -107,6 +94,7 @@
       </article>
       {{ end }}
     </div>
+    {{ end }}
   </div>
 </div>
 {{ end }}

@@ -3,7 +3,7 @@ title: "Pearl's Zucchini Loaf"
 date: 2026-03-05T06:55:33-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Breads"
+subcategories: ["Breads"]
 tags: ["breads"]
 description: "Pearl's zucchini loaf, baked to perfection"
 source: ""

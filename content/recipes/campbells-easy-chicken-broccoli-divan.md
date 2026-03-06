@@ -3,7 +3,7 @@ title: "Campbell's Easy Chicken & Broccoli Divan"
 date: 2026-03-05T06:58:29-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Meat"
+subcategories: ["Meat"]
 tags: ["meat", "chicken"]
 description: "Campbell's easy chicken & broccoli divan, baked to perfection"
 source: ""

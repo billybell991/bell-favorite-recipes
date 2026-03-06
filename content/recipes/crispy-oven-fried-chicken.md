@@ -3,7 +3,7 @@ title: "Crispy Oven-Fried Chicken"
 date: 2026-03-05T06:57:32-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Diabetic Recipes"
+subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes", "chicken"]
 description: "Tender, crispy oven-fried chicken, baked to perfection"
 source: ""

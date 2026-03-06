@@ -3,7 +3,7 @@ title: "Salmon Bisque"
 date: 2026-03-05T06:58:05-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Fish"
+subcategories: ["Fish"]
 tags: ["fish", "salmon"]
 description: "Creamy and hearty, salmon bisque, sautéed to perfection"
 source: ""

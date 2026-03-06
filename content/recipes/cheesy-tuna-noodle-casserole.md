@@ -3,7 +3,7 @@ title: "Cheesy Tuna Noodle Casserole"
 date: 2026-03-05T06:56:28-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Casseroles"
+subcategories: ["Casseroles"]
 tags: ["casseroles"]
 description: "Cheesy tuna noodle casserole, baked to perfection"
 source: ""

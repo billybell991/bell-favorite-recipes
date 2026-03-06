@@ -3,7 +3,7 @@ title: "Chili Flappers"
 date: 2026-03-05T06:56:45-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Chicken"
+subcategories: ["Chicken"]
 tags: ["chicken"]
 description: "Chili flappers, baked to perfection"
 source: ""

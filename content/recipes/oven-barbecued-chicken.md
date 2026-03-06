@@ -3,7 +3,7 @@ title: "Oven Barbecued Chicken"
 date: 2026-03-05T06:56:48-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Chicken"
+subcategories: ["Chicken"]
 tags: ["chicken", "chicken"]
 description: "Oven barbecued chicken, broiled to perfection"
 source: ""

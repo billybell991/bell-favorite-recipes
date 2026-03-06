@@ -3,7 +3,7 @@ title: "Crispy Chicken Wings"
 date: 2026-03-05T06:55:06-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Appetizers"
+subcategories: ["Appetizers"]
 tags: ["appetizers", "chicken"]
 description: "Crispy chicken wings, baked to perfection"
 source: ""

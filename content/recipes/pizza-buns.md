@@ -3,7 +3,7 @@ title: "Pizza Buns"
 date: 2026-03-05T06:55:34-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Breads"
+subcategories: ["Breads"]
 tags: ["breads"]
 description: "Bubbly, pizza buns, broiled to perfection"
 source: ""

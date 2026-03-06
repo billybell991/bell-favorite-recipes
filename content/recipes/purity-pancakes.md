@@ -3,7 +3,7 @@ title: "Purity Pancakes"
 date: 2026-03-05T06:55:36-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Breads"
+subcategories: ["Breads"]
 tags: ["breads", "cake"]
 description: "Golden brown, purity pancakes, baked to perfection"
 source: ""

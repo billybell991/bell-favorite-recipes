@@ -1648,6 +1648,29 @@ h3 { font-size: 1.3rem; }
 }
 
 /* ============================================
+   Subcategory Page Header (back link + title)
+   ============================================ */
+.subcategory-page-header {
+  margin-bottom: 1.5rem;
+}
+
+.back-to-moms {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  transition: color 0.2s;
+}
+
+.back-to-moms:hover {
+  color: var(--color-accent);
+}
+
+/* ============================================
    Footer
    ============================================ */
 .site-footer {

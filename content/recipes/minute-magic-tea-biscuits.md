@@ -3,7 +3,7 @@ title: "Minute Magic Tea Biscuits"
 date: 2026-03-05T06:55:31-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Breads"
+subcategories: ["Breads"]
 tags: ["breads"]
 description: "Minute magic tea biscuits, baked to perfection"
 source: ""

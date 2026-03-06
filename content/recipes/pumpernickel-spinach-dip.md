@@ -3,7 +3,7 @@ title: "Pumpernickel Spinach Dip"
 date: 2026-03-05T06:55:13-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Appetizers"
+subcategories: ["Appetizers"]
 tags: ["appetizers", "dip"]
 description: "Pumpernickel spinach dip"
 source: ""

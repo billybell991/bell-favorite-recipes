@@ -3,7 +3,7 @@ title: "Spanish Rice"
 date: 2026-03-05T06:56:43-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Casseroles"
+subcategories: ["Casseroles"]
 tags: ["casseroles", "rice"]
 description: "Spanish rice, sautéed to perfection"
 source: ""

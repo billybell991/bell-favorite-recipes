@@ -3,7 +3,7 @@ title: "Frontier Kitchen Carrot Cake"
 date: 2026-03-05T06:56:08-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Cakes and Muffins"
+subcategories: ["Cakes and Muffins"]
 tags: ["cakes and muffins", "cake"]
 description: "Frontier kitchen carrot cake"
 source: ""

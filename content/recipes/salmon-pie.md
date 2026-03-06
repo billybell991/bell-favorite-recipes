@@ -3,7 +3,7 @@ title: "Salmon Pie"
 date: 2026-03-05T06:58:06-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Fish"
+subcategories: ["Fish"]
 tags: ["fish", "salmon", "pie"]
 description: "Salmon pie, baked to perfection"
 source: ""

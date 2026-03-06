@@ -3,7 +3,7 @@ title: "Campbell's Shortcut Beef Stroganoff"
 date: 2026-03-05T06:58:36-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Meat"
+subcategories: ["Meat"]
 tags: ["meat", "beef"]
 description: "Tender, campbell's shortcut beef stroganoff, simmered to perfection"
 source: ""

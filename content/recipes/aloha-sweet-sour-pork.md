@@ -3,7 +3,7 @@ title: "Aloha Sweet & Sour Pork"
 date: 2026-03-05T06:58:18-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Meat"
+subcategories: ["Meat"]
 tags: ["meat", "pork"]
 description: "Crispy and tender, aloha sweet & sour pork, fried to perfection"
 source: ""

@@ -3,7 +3,7 @@ title: "Best Peanut Butter Cookies"
 date: 2026-03-05T06:56:54-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Cookies"
+subcategories: ["Cookies"]
 tags: ["cookies", "cookies"]
 description: "Best peanut butter cookies, baked to perfection"
 source: ""

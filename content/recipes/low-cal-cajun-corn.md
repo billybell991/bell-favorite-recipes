@@ -1,0 +1,34 @@
+---
+title: "Low-cal Cajun Corn"
+date: 2026-03-05T20:08:13-05:00
+draft: false
+categories: ["Mom's Cookbook"]
+subcategories: ["Snacks"]
+tags: ["snacks"]
+description: "Low-cal Cajun Corn, perfect for any occasion"
+source: ""
+creditUrl: ""
+credit: ""
+prepTime: ""
+cookTime: ""
+servings: ""
+image: "https://images.pexels.com/photos/7111387/pexels-photo-7111387.jpeg?auto=compress&cs=tinysrgb&w=600"
+notes: ""
+---
+## Instructions
+
+Mix together:
+1 tsp garlic powder	½ tsp dried oregano
+½ tsp dried thyme	½ tsp dried lemon peel
+¼ tsp slt	Pinch cayenne
+Pinch white pepper
+
+Pop
+½ cup popping corn
+
+Melt
+2 Tbsp butter
+
+Pour melted butter over popped corn and toss until well coated.  Sprinkle mixed seasoning over corn and toss again until well coated.
+
+Makes 12 – 16 cups – 35 cal. Per cup

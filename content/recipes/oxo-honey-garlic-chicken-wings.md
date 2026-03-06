@@ -3,7 +3,7 @@ title: "Oxo Honey Garlic Chicken Wings"
 date: 2026-03-05T06:55:11-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Appetizers"
+subcategories: ["Appetizers"]
 tags: ["appetizers", "chicken"]
 description: "Glazed, oxo honey garlic chicken wings, baked to perfection"
 source: ""

@@ -3,7 +3,7 @@ title: "Cheese Bread"
 date: 2026-03-05T06:55:22-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Breads"
+subcategories: ["Breads"]
 tags: ["breads", "bread"]
 description: "Cheese bread, baked to perfection"
 source: ""

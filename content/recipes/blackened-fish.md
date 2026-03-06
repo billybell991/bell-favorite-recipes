@@ -3,7 +3,7 @@ title: "Blackened Fish"
 date: 2026-03-05T06:57:56-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Fish"
+subcategories: ["Fish"]
 tags: ["fish", "fish"]
 description: "Blackened fish"
 source: ""

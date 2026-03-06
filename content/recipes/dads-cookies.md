@@ -3,7 +3,7 @@ title: "Dad's Cookies"
 date: 2026-03-05T06:57:01-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Cookies"
+subcategories: ["Cookies"]
 tags: ["cookies", "cookies"]
 description: "Dad's cookies, baked to perfection"
 source: ""

@@ -3,7 +3,7 @@ title: "Campbell's Easy 2-Step Beefy Taco Joes"
 date: 2026-03-05T06:58:28-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Meat"
+subcategories: ["Meat"]
 tags: ["beef"]
 description: "Beefy taco joes with tomato soup and salsa, topped with melted cheese"
 source: ""

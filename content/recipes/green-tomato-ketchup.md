@@ -1,0 +1,34 @@
+---
+title: "Green Tomato Ketchup"
+date: 2026-03-05T20:08:13-05:00
+draft: false
+categories: ["Mom's Cookbook"]
+subcategories: ["Pickles"]
+tags: ["pickles"]
+description: "Green Tomato Ketchup, a classic homemade preserve"
+source: ""
+creditUrl: ""
+credit: ""
+prepTime: ""
+cookTime: ""
+servings: ""
+image: "https://images.pexels.com/photos/1565982/pexels-photo-1565982.jpeg?auto=compress&cs=tinysrgb&w=600"
+notes: ""
+---
+## Ingredients
+
+- Louise Beaudry’s Grandmother’s recipe
+- 5 cups brown sugar
+- 8 onions, sliced  (5 cups)
+- 34 cups (24) lg green tomatoes, sliced
+- 4 cups white vinegar
+- 2 cups water
+- 4 tbsp pickling spice
+
+## Instructions
+
+Soak tomato and onion slices overnight in 1 cup of coarse salt and 12 cups water.
+In the morning, rinse tomato and onion slices well.
+Add brown sugar, vinegar, water and cheese cloth bag of pickling spices.
+Boil gently until tomato slices start to fall apart.
+Pour hot into sterilized jars and seal.

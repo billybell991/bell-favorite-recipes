@@ -3,7 +3,7 @@ title: "Mary's Guide Service Secret Smoked Fish Recipe"
 date: 2026-03-05T06:58:03-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Fish"
+subcategories: ["Fish"]
 tags: ["fish", "fish"]
 description: "Mary's guide service secret smoked fish recipe"
 source: ""

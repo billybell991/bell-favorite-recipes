@@ -3,7 +3,7 @@ title: "Drop Doughnuts (Revolving Spudniks)"
 date: 2026-03-05T06:55:26-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Breads"
+subcategories: ["Breads"]
 tags: ["breads"]
 description: "Rich, drop doughnuts"
 source: ""

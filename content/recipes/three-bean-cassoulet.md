@@ -3,7 +3,7 @@ title: "Three-Bean Cassoulet"
 date: 2026-03-05T06:57:48-05:00
 draft: false
 categories: ["Mom's Cookbook"]
-subcategory: "Diabetic Recipes"
+subcategories: ["Diabetic Recipes"]
 tags: ["diabetic recipes"]
 description: "Tender, three-bean cassoulet, baked to perfection"
 source: ""
