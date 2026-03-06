@@ -158,7 +158,6 @@
             <select id="photo-source" style="width:auto; min-width:100px;">
               <option value="pexels">Pexels</option>
               <option value="pixabay">Pixabay</option>
-              <option value="unsplash">Unsplash</option>
             </select>
             <input type="text" id="photo-search-input" placeholder="Search for a photo (e.g., apple pie, chicken soup)..." style="flex:1;">
             <button type="button" id="photo-search-btn" class="btn btn-secondary">&#x1f50d; Search</button>
@@ -242,7 +241,6 @@
           <select id="modal-photo-source" style="width:auto; min-width:100px;">
             <option value="pexels">Pexels</option>
             <option value="pixabay">Pixabay</option>
-            <option value="unsplash">Unsplash</option>
           </select>
           <input type="text" id="modal-search-input" placeholder="Search for a new photo..." style="flex:1;">
           <button type="button" id="modal-search-btn" class="btn btn-secondary">&#x1f50d; Search</button>
@@ -417,7 +415,7 @@
     var cacheKey = source + '|' + query + '|' + page;
     var cached = getCachedSearch(cacheKey);
     if (cached) return Promise.resolve(cached);
-    var searchFn = source === 'unsplash' ? searchUnsplash : (source === 'pixabay' ? searchPixabay : searchPexelsAPI);
+    var searchFn = source === 'pixabay' ? searchPixabay : searchPexelsAPI;
     return searchFn(query, page).then(function(result) {
       result.fromCache = false;
       result.activeSource = source;
