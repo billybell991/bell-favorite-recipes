@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/11198924/pexels-photo-11198924.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/10518222/pexels-photo-10518222.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Blend together:

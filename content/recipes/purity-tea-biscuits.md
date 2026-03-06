@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4114116/pexels-photo-4114116.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/1758207/pexels-photo-1758207.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 A Tea Biscuit dough should be soft but not sticky.  Little kneading improves the quality of the biscuits, but should be done with a gentle touch as too much handling tends to make them tough.
