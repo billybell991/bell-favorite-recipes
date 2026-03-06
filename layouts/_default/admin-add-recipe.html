@@ -156,6 +156,7 @@
           <input type="hidden" id="image-url" value="">
           <div style="display:flex; gap:0.5rem; margin-bottom:0.5rem;">
             <select id="photo-source" style="width:auto; min-width:100px;">
+              <option value="google">Google</option>
               <option value="pexels">Pexels</option>
               <option value="pixabay">Pixabay</option>
               <option value="unsplash">Unsplash</option>
@@ -240,6 +241,7 @@
         </div>
         <div style="display:flex; gap:0.5rem; margin-bottom:0.75rem;">
           <select id="modal-photo-source" style="width:auto; min-width:100px;">
+            <option value="google">Google</option>
             <option value="pexels">Pexels</option>
             <option value="pixabay">Pixabay</option>
             <option value="unsplash">Unsplash</option>
@@ -333,6 +335,8 @@
   var PEXELS_API_KEY = 'IWb1IE0Z8Fl5VzMKFE1c4RxMoQbgSVNEeK3cSgowbDCjnugx0SWnyCt3';
   var PIXABAY_API_KEY = localStorage.getItem('pixabay_api_key') || '54917222-bd4433830443c0d361863c37a';
   var UNSPLASH_ACCESS_KEY = '58pva68jCF4yfSIJbhhiUwcJ-hptm6ptdpR_XJ88EmI';
+  var GOOGLE_CSE_API_KEY = 'AIzaSyCEDrhwwn-51MGtoMJHkXSslfX6ewl0D8E';
+  var GOOGLE_CSE_CX = '92a5693fd975d4b43';
   var currentPhotoPage = 1;
   var currentPhotoQuery = '';
 
@@ -396,6 +400,22 @@
       };
     });
   }
+  function searchGoogle(query, page) {
+    var start = ((page - 1) * 9) + 1;
+    return fetch('https://www.googleapis.com/customsearch/v1?key=' + encodeURIComponent(GOOGLE_CSE_API_KEY) + '&cx=' + encodeURIComponent(GOOGLE_CSE_CX) + '&q=' + encodeURIComponent(query) + '&searchType=image&imgType=photo&num=9&start=' + start)
+      .then(function(r) {
+        if (r.status === 429) throw { rateLimited: true };
+        if (!r.ok) throw new Error('Google search error');
+        return r.json();
+      }).then(function(data) {
+        return {
+          photos: (data.items || []).map(function(item) {
+            return { src: { medium: item.image.thumbnailLink, large2x: item.link, large: item.link }, photographer: item.displayLink, alt: item.title || 'Photo', source: 'google' };
+          }),
+          hasMore: data.queries && data.queries.nextPage && data.queries.nextPage.length > 0
+        };
+      });
+  }
   function searchPexelsAPI(query, page) {
     return fetch('https://api.pexels.com/v1/search?query=' + encodeURIComponent(query) + '&orientation=landscape&per_page=9&page=' + page, {
       headers: { 'Authorization': PEXELS_API_KEY }
@@ -417,7 +437,7 @@
     var cacheKey = source + '|' + query + '|' + page;
     var cached = getCachedSearch(cacheKey);
     if (cached) return Promise.resolve(cached);
-    var searchFn = source === 'unsplash' ? searchUnsplash : (source === 'pixabay' ? searchPixabay : searchPexelsAPI);
+    var searchFn = source === 'google' ? searchGoogle : (source === 'unsplash' ? searchUnsplash : (source === 'pixabay' ? searchPixabay : searchPexelsAPI));
     return searchFn(query, page).then(function(result) {
       result.fromCache = false;
       result.activeSource = source;

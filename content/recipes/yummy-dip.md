@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3026019/pexels-photo-3026019.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/9650080/pexels-photo-9650080.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Francine Massicotte

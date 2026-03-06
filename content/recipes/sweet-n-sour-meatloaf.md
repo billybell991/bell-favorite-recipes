@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/10939223/pexels-photo-10939223.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/28895968/pexels-photo-28895968.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Jeannine and Elmer Bell
