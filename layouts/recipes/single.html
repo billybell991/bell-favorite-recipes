@@ -8,7 +8,10 @@
         <div class="recipe-meta">
           {{ with .Params.categories }}
             {{ range . }}
-            <a href="{{ printf "/categories/%s/" (. | urlize) | relLangURL }}" class="recipe-category-tag {{ partial "cat-class.html" . }}">{{ . }}</a>
+            {{ $catPage := $.Site.GetPage (printf "/categories/%s" (. | urlize)) }}
+            {{ if $catPage }}
+            <a href="{{ $catPage.RelPermalink }}" class="recipe-category-tag {{ partial "cat-class.html" . }}">{{ . }}</a>
+            {{ end }}
             {{ end }}
           {{ end }}
         </div>
