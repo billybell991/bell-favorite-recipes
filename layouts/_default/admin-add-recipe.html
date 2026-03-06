@@ -245,6 +245,10 @@
           <input type="text" id="modal-search-input" placeholder="Search for a new photo..." style="flex:1;">
           <button type="button" id="modal-search-btn" class="btn btn-secondary">&#x1f50d; Search</button>
         </div>
+        <div style="display:flex; gap:0.5rem; margin-bottom:0.75rem; align-items:center;">
+          <input type="text" id="modal-custom-url" placeholder="Or paste an image URL here..." style="flex:1;">
+          <button type="button" id="modal-custom-url-btn" class="btn btn-secondary" style="white-space:nowrap;">&#x1f517; Use URL</button>
+        </div>
         <div id="modal-photo-grid" class="modal-photo-grid"></div>
         <div id="modal-loading" style="display:none; text-align:center; padding:1rem; color:#666;">Searching photos...</div>
         <div id="modal-load-more" style="display:none; text-align:center; margin-top:0.5rem;">
@@ -818,6 +822,7 @@
     document.getElementById('modal-no-results').style.display = 'none';
     document.getElementById('modal-confirm').style.display = 'none';
     document.getElementById('modal-save-status').textContent = '';
+    document.getElementById('modal-custom-url').value = '';
     var saveBtn = document.getElementById('modal-save-btn');
     saveBtn.disabled = false;
     saveBtn.textContent = '\u2705 Save to Recipe';
@@ -917,6 +922,31 @@
   document.getElementById('modal-pick-again').addEventListener('click', function() {
     document.getElementById('modal-confirm').style.display = 'none';
     modalNewUrl = '';
+  });
+
+  // Extract direct image URL from Google Images result links or other wrappers
+  function extractImageUrl(raw) {
+    raw = raw.trim();
+    // Google Images: extract imgurl param
+    try {
+      var u = new URL(raw);
+      var imgurl = u.searchParams.get('imgurl');
+      if (imgurl) return imgurl;
+    } catch(e) {}
+    return raw;
+  }
+
+  document.getElementById('modal-custom-url-btn').addEventListener('click', function() {
+    var raw = document.getElementById('modal-custom-url').value.trim();
+    if (!raw) return;
+    var url = extractImageUrl(raw);
+    modalSelectPhoto(url);
+  });
+
+  document.getElementById('modal-custom-url').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') {
+      document.getElementById('modal-custom-url-btn').click();
+    }
   });
 
   // =============================================

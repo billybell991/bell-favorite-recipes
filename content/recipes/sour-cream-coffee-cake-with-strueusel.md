@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6148262/pexels-photo-6148262.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://images.pexels.com/photos/17172215/pexels-photo-17172215.jpeg?auto=compress&cs=tinysrgb&w=600"
 notes: ""
 ---
 Submitted by Christine and Graham Baker
