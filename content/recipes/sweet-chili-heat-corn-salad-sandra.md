@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8251070/pexels-photo-8251070.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://www.thegunnysack.com/wp-content/uploads/2018/05/Corn-Salad-With-Doritos-SQ-300x300.jpg"
 notes: ""
 ---
 ## Ingredients
