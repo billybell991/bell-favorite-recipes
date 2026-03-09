@@ -44,6 +44,7 @@
       <div style="display:flex; gap:0; border-bottom:3px solid #2c5530;">
         <button type="button" class="admin-tab active" data-tab="add-recipe" style="padding:0.75rem 1.5rem; border:none; background:#2c5530; color:#fff; font-weight:600; font-size:1rem; cursor:pointer; border-radius:8px 8px 0 0;">Add Recipe</button>
         <button type="button" class="admin-tab" data-tab="update-image" style="padding:0.75rem 1.5rem; border:none; background:#e8e8e8; color:#333; font-weight:600; font-size:1rem; cursor:pointer; border-radius:8px 8px 0 0;">Update Recipe Image</button>
+        <button type="button" class="admin-tab" data-tab="delete-recipe" style="padding:0.75rem 1.5rem; border:none; background:#e8e8e8; color:#333; font-weight:600; font-size:1rem; cursor:pointer; border-radius:8px 8px 0 0;">Delete Recipe</button>
       </div>
     </div>
 
@@ -224,6 +225,35 @@
       </div>
 
       <div id="recipe-gallery" class="recipe-gallery"></div>
+    </div>
+
+    <!-- Delete Recipe panel -->
+    <div id="delete-recipe-panel" class="admin-tab-panel" style="display:none;">
+      <h1>Delete Recipe</h1>
+      <div style="background:#fff3cd; border:1px solid #ffc107; border-radius:8px; padding:1rem; margin-bottom:1.5rem; color:#856404;">
+        ⚠️ <strong>Warning:</strong> Deleting a recipe permanently removes it from the site. This cannot be undone.
+      </div>
+      <div style="margin-bottom:1rem; display:flex; gap:0.5rem; align-items:center; flex-wrap:wrap;">
+        <input type="text" id="delete-filter" placeholder="Filter recipes..." style="flex:1; min-width:200px;">
+        <select id="delete-cat-filter" style="min-width:180px;">
+          <option value="">All Categories</option>
+        </select>
+        <span id="delete-count" style="font-size:0.85rem; color:#666;"></span>
+      </div>
+      <div id="delete-recipe-list"></div>
+    </div>
+
+    <!-- Delete Confirmation Modal -->
+    <div id="delete-confirm-overlay" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.55); z-index:10000; align-items:center; justify-content:center;">
+      <div style="background:#fff; border-radius:12px; padding:2rem; max-width:480px; width:90%; box-shadow:0 8px 32px rgba(0,0,0,0.3);">
+        <h2 style="margin:0 0 1rem; color:#c0392b;">Confirm Delete</h2>
+        <p id="delete-confirm-text" style="margin:0 0 1.5rem; font-size:1rem;"></p>
+        <div style="display:flex; gap:0.75rem; justify-content:flex-end;">
+          <button type="button" id="delete-cancel-btn" class="btn btn-secondary">Cancel</button>
+          <button type="button" id="delete-confirm-btn" style="background:#c0392b; color:#fff; border:none; padding:0.6rem 1.25rem; border-radius:6px; font-weight:600; font-size:1rem; cursor:pointer;">🗑 Delete</button>
+        </div>
+        <p id="delete-status" style="margin-top:0.75rem; font-size:0.9rem;"></p>
+      </div>
     </div>
 
     <!-- Pexels Picker Modal -->
@@ -713,6 +743,9 @@
       } else if (target === 'update-image') {
         document.getElementById('update-image-panel').style.display = 'block';
         if (!galleryLoaded) loadGallery();
+      } else if (target === 'delete-recipe') {
+        document.getElementById('delete-recipe-panel').style.display = 'block';
+        if (!deleteListLoaded) loadDeleteList();
       }
     });
   });
@@ -1077,6 +1110,170 @@
       btn.textContent = '✅ Save to Recipe';
     });
   });
+
+  // =============================================
+  // Delete Recipe
+  // =============================================
+  var deleteListLoaded = false;
+  var deleteRecipePending = null;
+  var deleteAllRecipes = [];
+
+  function loadDeleteList() {
+    var listEl = document.getElementById('delete-recipe-list');
+    listEl.innerHTML = '<p style="text-align:center; color:#666; padding:2rem;">Loading recipes...</p>';
+
+    var source = allRecipes.length > 0
+      ? Promise.resolve(allRecipes.slice())
+      : (function() {
+          var baseUrl = '{{ site.BaseURL }}'.replace(/\/$/, '');
+          return fetch(baseUrl + '/index.json')
+            .then(function(r) { return r.json(); })
+            .then(function(data) {
+              return data.filter(function(r) {
+                return r.permalink && r.permalink.indexOf('/recipes/') !== -1 && r.title;
+              }).sort(function(a, b) { return (a.title || '').localeCompare(b.title || ''); });
+            });
+        })();
+
+    source.then(function(recipes) {
+      deleteAllRecipes = recipes;
+      deleteListLoaded = true;
+      var catSelect = document.getElementById('delete-cat-filter');
+      if (catSelect.options.length <= 1) {
+        var cats = {};
+        recipes.forEach(function(r) {
+          if (r.categories) r.categories.forEach(function(c) { cats[c] = true; });
+        });
+        Object.keys(cats).sort().forEach(function(c) {
+          var opt = document.createElement('option');
+          opt.value = c;
+          opt.textContent = c;
+          catSelect.appendChild(opt);
+        });
+      }
+      renderDeleteList();
+    }).catch(function(err) {
+      listEl.innerHTML = '<p style="color:#c0392b; text-align:center;">Error loading recipes: ' + err.message + '</p>';
+    });
+  }
+
+  function renderDeleteList() {
+    var filter = document.getElementById('delete-filter').value.toLowerCase();
+    var catFilter = document.getElementById('delete-cat-filter').value;
+    var filtered = deleteAllRecipes.filter(function(r) {
+      if (filter && (r.title || '').toLowerCase().indexOf(filter) === -1) return false;
+      if (catFilter && (!r.categories || r.categories.indexOf(catFilter) === -1)) return false;
+      return true;
+    });
+    document.getElementById('delete-count').textContent = filtered.length + ' of ' + deleteAllRecipes.length + ' recipes';
+    var listEl = document.getElementById('delete-recipe-list');
+    listEl.innerHTML = '';
+    if (filtered.length === 0) {
+      listEl.innerHTML = '<p style="text-align:center; color:#999; padding:2rem;">No recipes match your filter.</p>';
+      return;
+    }
+    filtered.forEach(function(recipe) {
+      var row = document.createElement('div');
+      row.style.cssText = 'display:flex; align-items:center; padding:0.6rem 0.75rem; border-bottom:1px solid #eee; gap:0.75rem;';
+      var titleSpan = document.createElement('span');
+      titleSpan.style.cssText = 'flex:1; font-weight:500;';
+      titleSpan.textContent = recipe.title;
+      var catSpan = document.createElement('span');
+      catSpan.style.cssText = 'font-size:0.78rem; color:#666; min-width:160px;';
+      catSpan.textContent = (recipe.categories || []).join(', ');
+      var delBtn = document.createElement('button');
+      delBtn.type = 'button';
+      delBtn.textContent = '🗑 Delete';
+      delBtn.style.cssText = 'background:#c0392b; color:#fff; border:none; padding:0.35rem 0.9rem; border-radius:6px; font-size:0.85rem; cursor:pointer; white-space:nowrap; flex-shrink:0;';
+      delBtn.addEventListener('click', function() { confirmDeleteRecipe(recipe); });
+      row.appendChild(titleSpan);
+      row.appendChild(catSpan);
+      row.appendChild(delBtn);
+      listEl.appendChild(row);
+    });
+  }
+
+  function confirmDeleteRecipe(recipe) {
+    deleteRecipePending = recipe;
+    document.getElementById('delete-confirm-text').textContent =
+      'Delete "' + recipe.title + '"? This will permanently remove the recipe file and cannot be undone.';
+    document.getElementById('delete-status').textContent = '';
+    document.getElementById('delete-status').style.color = '';
+    document.getElementById('delete-confirm-btn').disabled = false;
+    document.getElementById('delete-confirm-btn').textContent = '🗑 Delete';
+    document.getElementById('delete-confirm-overlay').style.display = 'flex';
+  }
+
+  document.getElementById('delete-cancel-btn').addEventListener('click', function() {
+    document.getElementById('delete-confirm-overlay').style.display = 'none';
+    deleteRecipePending = null;
+  });
+
+  document.getElementById('delete-confirm-overlay').addEventListener('click', function(e) {
+    if (e.target === this) {
+      document.getElementById('delete-confirm-overlay').style.display = 'none';
+      deleteRecipePending = null;
+    }
+  });
+
+  document.getElementById('delete-confirm-btn').addEventListener('click', function() {
+    if (!deleteRecipePending || !token) return;
+    var recipe = deleteRecipePending;
+    var btn = this;
+    var status = document.getElementById('delete-status');
+    btn.disabled = true;
+    btn.textContent = 'Deleting...';
+    status.textContent = '';
+    status.style.color = '';
+
+    var slug = recipe.permalink.replace(/.*\/recipes\//, '').replace(/\/$/, '');
+    var filePath = FILE_PATH_PREFIX + slug + '.md';
+
+    fetch('https://api.github.com/repos/' + REPO_OWNER + '/' + REPO_NAME + '/contents/' + filePath + '?ref=' + BRANCH, {
+      headers: { 'Authorization': 'Bearer ' + token }
+    }).then(function(r) {
+      if (!r.ok) throw new Error('Could not fetch recipe file (HTTP ' + r.status + ')');
+      return r.json();
+    }).then(function(fileData) {
+      return fetch('https://api.github.com/repos/' + REPO_OWNER + '/' + REPO_NAME + '/contents/' + filePath, {
+        method: 'DELETE',
+        headers: {
+          'Authorization': 'Bearer ' + token,
+          'Content-Type': 'application/json',
+          'Accept': 'application/vnd.github.v3+json'
+        },
+        body: JSON.stringify({
+          message: 'Delete recipe: ' + recipe.title,
+          sha: fileData.sha,
+          branch: BRANCH
+        })
+      });
+    }).then(function(r) {
+      if (!r.ok) return r.json().then(function(d) { throw new Error(d.message || 'API error'); });
+      return r.json();
+    }).then(function() {
+      var idx = deleteAllRecipes.indexOf(recipe);
+      if (idx !== -1) deleteAllRecipes.splice(idx, 1);
+      var galleryIdx = allRecipes.indexOf(recipe);
+      if (galleryIdx !== -1) allRecipes.splice(galleryIdx, 1);
+      status.style.color = '#27ae60';
+      status.textContent = '"' + recipe.title + '" deleted. Site will rebuild in 1-2 minutes.';
+      btn.textContent = '✅ Deleted!';
+      deleteRecipePending = null;
+      setTimeout(function() {
+        document.getElementById('delete-confirm-overlay').style.display = 'none';
+        renderDeleteList();
+      }, 2000);
+    }).catch(function(err) {
+      status.style.color = '#c0392b';
+      status.textContent = 'Error: ' + err.message;
+      btn.disabled = false;
+      btn.textContent = '🗑 Delete';
+    });
+  });
+
+  document.getElementById('delete-filter').addEventListener('input', renderDeleteList);
+  document.getElementById('delete-cat-filter').addEventListener('change', renderDeleteList);
 
 })();
 </script>
