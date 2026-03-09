@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.ricardocuisine.com/services/recipes/4387.jpg"
+image: "https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_744,ar_5:4/v1/img/recipes/42/70/64/picDVoTek.jpg"
 notes: ""
 ---
 ## Ingredients

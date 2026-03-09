@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5737361/pexels-photo-5737361.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "https://onepotrecipes.com/wp-content/uploads/2019/01/Easy-Chili-Mac-Recipe.jpg"
 notes: ""
 ---
 ## Ingredients
