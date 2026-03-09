@@ -1,727 +1,86 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tags | Bell Favorite Recipes</title>
-  <meta name="description" content="Favorite recipes from friends, family, and around the web">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/bell-favorite-recipes/css/style.css">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👩‍🍳</text></svg>">
-  
-</head>
-<body>
-  <header class="site-header">
-    <div class="container">
-      <div class="header-inner">
-        <a href="https://billybell991.github.io/bell-favorite-recipes/" class="site-logo">
-          <span class="logo-icon">👩‍🍳</span>
-          <span class="logo-text">Bell Favorite Recipes</span>
-        </a>
-        <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
-          <span></span><span></span><span></span>
-        </button>
-        <nav class="site-nav" id="site-nav">
-          
-            
-            <a href="/bell-favorite-recipes/" class="">Home</a>
-            
-          
-            
-            <a href="/bell-favorite-recipes/recipes/" class="">All Recipes</a>
-            
-          
-            
-            <div class="nav-dropdown">
-              <a href="/bell-favorite-recipes/categories/" class="nav-dropdown-toggle ">Categories
-                <svg class="dropdown-arrow" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-              </a>
-              <div class="nav-dropdown-menu">
-                
-                
-                
-                <a href="/bell-favorite-recipes/categories/air-fryer-recipes/" class="nav-dropdown-link">Air Fryer Recipes</a>
-                
-                
-                
-                
-                <a href="/bell-favorite-recipes/categories/family-recipes/" class="nav-dropdown-link">Family Recipes</a>
-                
-                
-                
-                
-                <a href="/bell-favorite-recipes/categories/friends-recipes/" class="nav-dropdown-link">Friends Recipes</a>
-                
-                
-                
-                
-                <a href="/bell-favorite-recipes/categories/instant-pot-recipes/" class="nav-dropdown-link">Instant Pot Recipes</a>
-                
-                
-                
-                
-                <a href="/bell-favorite-recipes/categories/keto--low-carb/" class="nav-dropdown-link">Keto &amp; Low Carb</a>
-                
-                
-                
-                
-                <a href="/bell-favorite-recipes/categories/maddys-recipes/" class="nav-dropdown-link">Maddy&#39;s Recipes</a>
-                
-                
-                
-                
-                <a href="/bell-favorite-recipes/categories/mayas-recipes/" class="nav-dropdown-link">Maya&#39;s Recipes</a>
-                
-                
-                
-                
-                <a href="/bell-favorite-recipes/categories/misc-recipes---cookbooks/" class="nav-dropdown-link">Misc Recipes - Cookbooks</a>
-                
-                
-                
-                
-                <a href="/bell-favorite-recipes/categories/misc-recipes---internet/" class="nav-dropdown-link">Misc Recipes - Internet</a>
-                
-                
-                
-                
-                <div class="nav-submenu-item">
-                  <a href="/bell-favorite-recipes/categories/moms-cookbook/" class="nav-submenu-link">Mom&#39;s Cookbook
-                    <svg class="submenu-arrow" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
-                  </a>
-                  <div class="nav-submenu">
-                    
-                    <a href="/bell-favorite-recipes/subcategories/appetizers/">Appetizers</a>
-                    
-                    <a href="/bell-favorite-recipes/subcategories/breads/">Breads</a>
-                    
-                    <a href="/bell-favorite-recipes/subcategories/cake-frosting/">Cake Frosting</a>
-                    
-                    <a href="/bell-favorite-recipes/subcategories/cakes-and-muffins/">Cakes and Muffins</a>
-                    
-                    <a href="/bell-favorite-recipes/subcategories/casseroles/">Casseroles</a>
-                    
-                    <a href="/bell-favorite-recipes/subcategories/chicken/">Chicken</a>
-                    
-                    <a href="/bell-favorite-recipes/subcategories/cookies/">Cookies</a>
-                    
-                    <a href="/bell-favorite-recipes/subcategories/desserts/">Desserts</a>
-                    
-                    <a href="/bell-favorite-recipes/subcategories/diabetic-recipes/">Diabetic Recipes</a>
-                    
-                    <a href="/bell-favorite-recipes/subcategories/fish/">Fish</a>
-                    
-                    <a href="/bell-favorite-recipes/subcategories/fun-things/">Fun Things</a>
-                    
-                    <a href="/bell-favorite-recipes/subcategories/meat/">Meat</a>
-                    
-                    <a href="/bell-favorite-recipes/subcategories/miscellaneous/">Miscellaneous</a>
-                    
-                    <a href="/bell-favorite-recipes/subcategories/native-cuisine/">Native Cuisine</a>
-                    
-                    <a href="/bell-favorite-recipes/subcategories/pickles/">Pickles</a>
-                    
-                    <a href="/bell-favorite-recipes/subcategories/pies/">Pies</a>
-                    
-                    <a href="/bell-favorite-recipes/subcategories/puddings/">Puddings</a>
-                    
-                    <a href="/bell-favorite-recipes/subcategories/salads-and-dressings/">Salads and Dressings</a>
-                    
-                    <a href="/bell-favorite-recipes/subcategories/sauces/">Sauces</a>
-                    
-                    <a href="/bell-favorite-recipes/subcategories/snacks/">Snacks</a>
-                    
-                    <a href="/bell-favorite-recipes/subcategories/soups/">Soups</a>
-                    
-                    <a href="/bell-favorite-recipes/subcategories/squares/">Squares</a>
-                    
-                    <a href="/bell-favorite-recipes/subcategories/vegetables/">Vegetables</a>
-                    
-                  </div>
-                </div>
-                
-                
-                
-                
-                <a href="/bell-favorite-recipes/categories/wedding-cookbook/" class="nav-dropdown-link">Wedding Cookbook</a>
-                
-                
-                
-                
-                <a href="/bell-favorite-recipes/categories/weight-watchers/" class="nav-dropdown-link">Weight Watchers</a>
-                
-                
-              </div>
-            </div>
-            
-          
-            
-            <a href="/bell-favorite-recipes/submit/" class="">Submit a Recipe</a>
-            
-          
-            
-            <a href="/bell-favorite-recipes/contact/" class="">Contact</a>
-            
-          
-          <div class="nav-search">
-            <button class="search-toggle" aria-label="Search recipes">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-            </button>
-            <div class="search-dropdown" id="search-dropdown">
-              <input type="text" id="search-input" placeholder="Search recipes..." aria-label="Search recipes" autocomplete="off">
-              <div id="search-results" class="search-results"></div>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </div>
-  </header>
-
-  <main>
-    
-<div class="categories-page">
-  <div class="container">
-    <h1>Recipe Categories</h1>
-    <div class="category-grid">
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/air-fryer/" class="category-card cat-air-fryer">
-        <div class="category-icon">
-          
-          🍗
-          
-        </div>
-        <h3>Air Fryer</h3>
-        <span class="recipe-count">3 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/appetizers/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Appetizers</h3>
-        <span class="recipe-count">25 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/beef/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Beef</h3>
-        <span class="recipe-count">13 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/bread/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Bread</h3>
-        <span class="recipe-count">29 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/breads/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Breads</h3>
-        <span class="recipe-count">34 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/cake/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Cake</h3>
-        <span class="recipe-count">51 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/cake-frosting/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Cake Frosting</h3>
-        <span class="recipe-count">13 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/cakes-and-muffins/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Cakes and Muffins</h3>
-        <span class="recipe-count">31 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/cakessquares/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Cakessquares</h3>
-        <span class="recipe-count">30 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/casseroles/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Casseroles</h3>
-        <span class="recipe-count">30 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/chicken/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Chicken</h3>
-        <span class="recipe-count">69 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/cookies/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Cookies</h3>
-        <span class="recipe-count">42 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/dessert/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Dessert</h3>
-        <span class="recipe-count">2 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/desserts/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Desserts</h3>
-        <span class="recipe-count">7 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/diabetic-recipes/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Diabetic Recipes</h3>
-        <span class="recipe-count">33 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/dip/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Dip</h3>
-        <span class="recipe-count">21 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/dips/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Dips</h3>
-        <span class="recipe-count">8 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/drinks/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Drinks</h3>
-        <span class="recipe-count">3 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/fish/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Fish</h3>
-        <span class="recipe-count">13 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/fun-things/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Fun Things</h3>
-        <span class="recipe-count">5 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/instant-pot/" class="category-card cat-instant-pot">
-        <div class="category-icon">
-          
-          🍲
-          
-        </div>
-        <h3>Instant Pot</h3>
-        <span class="recipe-count">8 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/keto/" class="category-card cat-keto">
-        <div class="category-icon">
-          
-          🥑
-          
-        </div>
-        <h3>Keto</h3>
-        <span class="recipe-count">15 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/meat/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Meat</h3>
-        <span class="recipe-count">41 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/miscellaneous/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Miscellaneous</h3>
-        <span class="recipe-count">30 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/muffins/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Muffins</h3>
-        <span class="recipe-count">13 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/native-cuisine/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Native Cuisine</h3>
-        <span class="recipe-count">34 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/pasta/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Pasta</h3>
-        <span class="recipe-count">12 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/pastrypies/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Pastrypies</h3>
-        <span class="recipe-count">7 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/pickles/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Pickles</h3>
-        <span class="recipe-count">15 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/pie/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Pie</h3>
-        <span class="recipe-count">12 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/pies/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Pies</h3>
-        <span class="recipe-count">35 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/pork/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Pork</h3>
-        <span class="recipe-count">9 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/potatoes/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Potatoes</h3>
-        <span class="recipe-count">12 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/puddings/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Puddings</h3>
-        <span class="recipe-count">10 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/rice/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Rice</h3>
-        <span class="recipe-count">20 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/salad/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Salad</h3>
-        <span class="recipe-count">18 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/salads/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Salads</h3>
-        <span class="recipe-count">12 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/salads-and-dressings/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Salads and Dressings</h3>
-        <span class="recipe-count">20 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/salmon/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Salmon</h3>
-        <span class="recipe-count">5 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/sauces/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Sauces</h3>
-        <span class="recipe-count">3 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/shrimp/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Shrimp</h3>
-        <span class="recipe-count">3 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/snacks/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Snacks</h3>
-        <span class="recipe-count">44 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/soup/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Soup</h3>
-        <span class="recipe-count">18 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/soups/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Soups</h3>
-        <span class="recipe-count">6 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/squares/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Squares</h3>
-        <span class="recipe-count">21 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/stew/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Stew</h3>
-        <span class="recipe-count">5 recipes</span>
-      </a>
-      
-      
-      
-      <a href="/bell-favorite-recipes/tags/vegetables/" class="category-card ">
-        <div class="category-icon">
-          
-          🍴
-        </div>
-        <h3>Vegetables</h3>
-        <span class="recipe-count">22 recipes</span>
-      </a>
-      
-    </div>
-  </div>
-</div>
-
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>&copy; 2026 Bell Favorite Recipes &mdash; A Bell Family Collection</p>
-      <p class="footer-note">Made with <a href="/bell-favorite-recipes/admin/add-recipe/" style="text-decoration:none;color:inherit">❤️</a> and a lot of taste-testing</p>
-    </div>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
-  <script src="/bell-favorite-recipes/js/search.js"></script>
-  <script src="/bell-favorite-recipes/js/main.js"></script>
-  
-</body>
-</html>
+<!doctype html><html lang=en><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Tags | Bell Favorite Recipes</title><meta name=description content="Favorite recipes from friends, family, and around the web"><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel=stylesheet><link rel=stylesheet href=/bell-favorite-recipes/css/style.css><link rel=icon href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👩‍🍳</text></svg>"></head><body><header class=site-header><div class=container><div class=header-inner><a href=https://billybell991.github.io/bell-favorite-recipes/ class=site-logo><span class=logo-icon>👩‍🍳</span>
+<span class=logo-text>Bell Favorite Recipes</span>
+</a><button class=mobile-menu-toggle aria-label="Toggle menu" aria-expanded=false>
+<span></span><span></span><span></span></button><nav class=site-nav id=site-nav><a href=/bell-favorite-recipes/>Home</a>
+<a href=/bell-favorite-recipes/recipes/>All Recipes</a><div class=nav-dropdown><a href=/bell-favorite-recipes/categories/ class=nav-dropdown-toggle>Categories
+<svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></a><div class=nav-dropdown-menu><a href=/bell-favorite-recipes/categories/air-fryer-recipes/ class=nav-dropdown-link>Air Fryer Recipes</a>
+<a href=/bell-favorite-recipes/categories/family-recipes/ class=nav-dropdown-link>Family Recipes</a>
+<a href=/bell-favorite-recipes/categories/friends-recipes/ class=nav-dropdown-link>Friends Recipes</a>
+<a href=/bell-favorite-recipes/categories/instant-pot-recipes/ class=nav-dropdown-link>Instant Pot Recipes</a>
+<a href=/bell-favorite-recipes/categories/keto--low-carb/ class=nav-dropdown-link>Keto & Low Carb</a>
+<a href=/bell-favorite-recipes/categories/maddys-recipes/ class=nav-dropdown-link>Maddy's Recipes</a>
+<a href=/bell-favorite-recipes/categories/mayas-recipes/ class=nav-dropdown-link>Maya's Recipes</a>
+<a href=/bell-favorite-recipes/categories/misc-recipes---cookbooks/ class=nav-dropdown-link>Misc Recipes - Cookbooks</a>
+<a href=/bell-favorite-recipes/categories/misc-recipes---internet/ class=nav-dropdown-link>Misc Recipes - Internet</a><div class=nav-submenu-item><a href=/bell-favorite-recipes/categories/moms-cookbook/ class=nav-submenu-link>Mom's Cookbook
+<svg class="submenu-arrow" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></a><div class=nav-submenu><a href=/bell-favorite-recipes/subcategories/appetizers/>Appetizers</a>
+<a href=/bell-favorite-recipes/subcategories/breads/>Breads</a>
+<a href=/bell-favorite-recipes/subcategories/cake-frosting/>Cake Frosting</a>
+<a href=/bell-favorite-recipes/subcategories/cakes-and-muffins/>Cakes and Muffins</a>
+<a href=/bell-favorite-recipes/subcategories/casseroles/>Casseroles</a>
+<a href=/bell-favorite-recipes/subcategories/chicken/>Chicken</a>
+<a href=/bell-favorite-recipes/subcategories/cookies/>Cookies</a>
+<a href=/bell-favorite-recipes/subcategories/desserts/>Desserts</a>
+<a href=/bell-favorite-recipes/subcategories/diabetic-recipes/>Diabetic Recipes</a>
+<a href=/bell-favorite-recipes/subcategories/fish/>Fish</a>
+<a href=/bell-favorite-recipes/subcategories/fun-things/>Fun Things</a>
+<a href=/bell-favorite-recipes/subcategories/meat/>Meat</a>
+<a href=/bell-favorite-recipes/subcategories/miscellaneous/>Miscellaneous</a>
+<a href=/bell-favorite-recipes/subcategories/native-cuisine/>Native Cuisine</a>
+<a href=/bell-favorite-recipes/subcategories/pickles/>Pickles</a>
+<a href=/bell-favorite-recipes/subcategories/pies/>Pies</a>
+<a href=/bell-favorite-recipes/subcategories/puddings/>Puddings</a>
+<a href=/bell-favorite-recipes/subcategories/salads-and-dressings/>Salads and Dressings</a>
+<a href=/bell-favorite-recipes/subcategories/sauces/>Sauces</a>
+<a href=/bell-favorite-recipes/subcategories/snacks/>Snacks</a>
+<a href=/bell-favorite-recipes/subcategories/soups/>Soups</a>
+<a href=/bell-favorite-recipes/subcategories/squares/>Squares</a>
+<a href=/bell-favorite-recipes/subcategories/vegetables/>Vegetables</a></div></div><a href=/bell-favorite-recipes/categories/wedding-cookbook/ class=nav-dropdown-link>Wedding Cookbook</a>
+<a href=/bell-favorite-recipes/categories/weight-watchers/ class=nav-dropdown-link>Weight Watchers</a></div></div><a href=/bell-favorite-recipes/submit/>Submit a Recipe</a>
+<a href=/bell-favorite-recipes/contact/>Contact</a><div class=nav-search><button class=search-toggle aria-label="Search recipes">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></button><div class=search-dropdown id=search-dropdown><input type=text id=search-input placeholder="Search recipes..." aria-label="Search recipes" autocomplete=off><div id=search-results class=search-results></div></div></div></nav></div></div></header><main><div class=categories-page><div class=container><h1>Recipe Categories</h1><div class=category-grid><a href=/bell-favorite-recipes/tags/air-fryer/ class="category-card cat-air-fryer"><div class=category-icon>🍗</div><h3>Air Fryer</h3><span class=recipe-count>3 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/appetizers/ class=category-card><div class=category-icon>🍴</div><h3>Appetizers</h3><span class=recipe-count>25 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/beef/ class=category-card><div class=category-icon>🍴</div><h3>Beef</h3><span class=recipe-count>13 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/bread/ class=category-card><div class=category-icon>🍴</div><h3>Bread</h3><span class=recipe-count>29 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/breads/ class=category-card><div class=category-icon>🍴</div><h3>Breads</h3><span class=recipe-count>34 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/cake/ class=category-card><div class=category-icon>🍴</div><h3>Cake</h3><span class=recipe-count>51 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/cake-frosting/ class=category-card><div class=category-icon>🍴</div><h3>Cake Frosting</h3><span class=recipe-count>13 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/cakes-and-muffins/ class=category-card><div class=category-icon>🍴</div><h3>Cakes and Muffins</h3><span class=recipe-count>31 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/cakessquares/ class=category-card><div class=category-icon>🍴</div><h3>Cakessquares</h3><span class=recipe-count>30 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/casseroles/ class=category-card><div class=category-icon>🍴</div><h3>Casseroles</h3><span class=recipe-count>30 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/chicken/ class=category-card><div class=category-icon>🍴</div><h3>Chicken</h3><span class=recipe-count>69 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/cookies/ class=category-card><div class=category-icon>🍴</div><h3>Cookies</h3><span class=recipe-count>42 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/dessert/ class=category-card><div class=category-icon>🍴</div><h3>Dessert</h3><span class=recipe-count>2 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/desserts/ class=category-card><div class=category-icon>🍴</div><h3>Desserts</h3><span class=recipe-count>7 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/diabetic-recipes/ class=category-card><div class=category-icon>🍴</div><h3>Diabetic Recipes</h3><span class=recipe-count>33 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/dip/ class=category-card><div class=category-icon>🍴</div><h3>Dip</h3><span class=recipe-count>21 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/dips/ class=category-card><div class=category-icon>🍴</div><h3>Dips</h3><span class=recipe-count>8 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/drinks/ class=category-card><div class=category-icon>🍴</div><h3>Drinks</h3><span class=recipe-count>3 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/fish/ class=category-card><div class=category-icon>🍴</div><h3>Fish</h3><span class=recipe-count>13 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/fun-things/ class=category-card><div class=category-icon>🍴</div><h3>Fun Things</h3><span class=recipe-count>5 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/instant-pot/ class="category-card cat-instant-pot"><div class=category-icon>🍲</div><h3>Instant Pot</h3><span class=recipe-count>8 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/keto/ class="category-card cat-keto"><div class=category-icon>🥑</div><h3>Keto</h3><span class=recipe-count>15 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/meat/ class=category-card><div class=category-icon>🍴</div><h3>Meat</h3><span class=recipe-count>41 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/miscellaneous/ class=category-card><div class=category-icon>🍴</div><h3>Miscellaneous</h3><span class=recipe-count>30 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/muffins/ class=category-card><div class=category-icon>🍴</div><h3>Muffins</h3><span class=recipe-count>13 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/native-cuisine/ class=category-card><div class=category-icon>🍴</div><h3>Native Cuisine</h3><span class=recipe-count>34 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/pasta/ class=category-card><div class=category-icon>🍴</div><h3>Pasta</h3><span class=recipe-count>12 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/pastrypies/ class=category-card><div class=category-icon>🍴</div><h3>Pastrypies</h3><span class=recipe-count>7 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/pickles/ class=category-card><div class=category-icon>🍴</div><h3>Pickles</h3><span class=recipe-count>15 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/pie/ class=category-card><div class=category-icon>🍴</div><h3>Pie</h3><span class=recipe-count>12 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/pies/ class=category-card><div class=category-icon>🍴</div><h3>Pies</h3><span class=recipe-count>35 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/pork/ class=category-card><div class=category-icon>🍴</div><h3>Pork</h3><span class=recipe-count>9 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/potatoes/ class=category-card><div class=category-icon>🍴</div><h3>Potatoes</h3><span class=recipe-count>12 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/puddings/ class=category-card><div class=category-icon>🍴</div><h3>Puddings</h3><span class=recipe-count>10 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/rice/ class=category-card><div class=category-icon>🍴</div><h3>Rice</h3><span class=recipe-count>20 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/salad/ class=category-card><div class=category-icon>🍴</div><h3>Salad</h3><span class=recipe-count>18 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/salads/ class=category-card><div class=category-icon>🍴</div><h3>Salads</h3><span class=recipe-count>12 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/salads-and-dressings/ class=category-card><div class=category-icon>🍴</div><h3>Salads and Dressings</h3><span class=recipe-count>20 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/salmon/ class=category-card><div class=category-icon>🍴</div><h3>Salmon</h3><span class=recipe-count>5 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/sauces/ class=category-card><div class=category-icon>🍴</div><h3>Sauces</h3><span class=recipe-count>3 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/shrimp/ class=category-card><div class=category-icon>🍴</div><h3>Shrimp</h3><span class=recipe-count>3 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/snacks/ class=category-card><div class=category-icon>🍴</div><h3>Snacks</h3><span class=recipe-count>44 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/soup/ class=category-card><div class=category-icon>🍴</div><h3>Soup</h3><span class=recipe-count>18 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/soups/ class=category-card><div class=category-icon>🍴</div><h3>Soups</h3><span class=recipe-count>6 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/squares/ class=category-card><div class=category-icon>🍴</div><h3>Squares</h3><span class=recipe-count>21 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/stew/ class=category-card><div class=category-icon>🍴</div><h3>Stew</h3><span class=recipe-count>5 recipes</span>
+</a><a href=/bell-favorite-recipes/tags/vegetables/ class=category-card><div class=category-icon>🍴</div><h3>Vegetables</h3><span class=recipe-count>22 recipes</span></a></div></div></div></main><footer class=site-footer><div class=container><p>&copy; 2026 Bell Favorite Recipes &mdash; A Bell Family Collection</p><p class=footer-note>Made with <a href=/bell-favorite-recipes/admin/add-recipe/ style=text-decoration:none;color:inherit>❤️</a> and a lot of taste-testing</p></div></footer><script src=https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js></script><script src=/bell-favorite-recipes/js/search.js></script><script src=/bell-favorite-recipes/js/main.js></script></body></html>
