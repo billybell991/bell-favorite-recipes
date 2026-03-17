@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3999111/pexels-photo-3999111.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/playdough.png"
 notes: ""
 ---
 PLAY  DOUGH w/Kool-Aid

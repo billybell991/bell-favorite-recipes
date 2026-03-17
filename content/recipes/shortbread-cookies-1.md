@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/10511210/pexels-photo-10511210.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/shortbread-cookies-1.png"
 notes: ""
 ---
 - 1 cup soft butter

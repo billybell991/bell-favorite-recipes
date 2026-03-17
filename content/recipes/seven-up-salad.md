@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9213878/pexels-photo-9213878.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/seven-up-salad.png"
 notes: ""
 ---
 ## Ingredients

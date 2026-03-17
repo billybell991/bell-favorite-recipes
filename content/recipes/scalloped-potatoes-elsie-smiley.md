@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/30146061/pexels-photo-30146061.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/scalloped-potatoes-elsie-smiley.png"
 notes: ""
 ---
 ## Ingredients

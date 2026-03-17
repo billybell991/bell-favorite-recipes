@@ -1567,3 +1567,1453 @@
 04:11:10  INFO        Updated frontmatter → images/recipes/freezer-pickles.png
 04:11:14  INFO      [314/736] French Toast Bake (Tracey)
 04:11:14  INFO      AFC is enabled with max remote calls: 10.
+07:42:06  INFO      Found 736 recipe files
+07:42:06  INFO      Using relay at http://127.0.0.1:5000/relay/image
+07:42:06  WARNING   Skipping blueberry-muffins.md (can't parse)
+07:42:06  INFO      [92/736] Broccoli Bake
+07:42:08  WARNING     Generation failed (attempt 1/3): Relay unreachable: [WinError 10061] No connection could be made because the target machine actively refused it
+07:42:14  WARNING     Generation failed (attempt 2/3): Relay unreachable: [WinError 10061] No connection could be made because the target machine actively refused it
+07:42:20  WARNING     Generation failed (attempt 3/3): Relay unreachable: [WinError 10061] No connection could be made because the target machine actively refused it
+07:42:20  ERROR       FAILED: Broccoli Bake
+07:42:24  INFO      [97/736] Bruschetta Fast and Easy
+07:42:26  WARNING     Generation failed (attempt 1/3): Relay unreachable: [WinError 10061] No connection could be made because the target machine actively refused it
+07:42:32  WARNING     Generation failed (attempt 2/3): Relay unreachable: [WinError 10061] No connection could be made because the target machine actively refused it
+07:42:38  WARNING     Generation failed (attempt 3/3): Relay unreachable: [WinError 10061] No connection could be made because the target machine actively refused it
+07:42:38  ERROR       FAILED: Bruschetta Fast and Easy
+07:42:42  INFO      [117/736] California Coleslaw
+07:42:44  WARNING     Generation failed (attempt 1/3): Relay unreachable: [WinError 10061] No connection could be made because the target machine actively refused it
+07:42:51  WARNING     Generation failed (attempt 2/3): Relay unreachable: [WinError 10061] No connection could be made because the target machine actively refused it
+07:42:57  WARNING     Generation failed (attempt 3/3): Relay unreachable: [WinError 10061] No connection could be made because the target machine actively refused it
+07:42:57  ERROR       FAILED: California Coleslaw
+07:43:01  INFO      [240/736] Cranberry Chutney – (aboriginal Cooking)
+07:43:03  WARNING     Generation failed (attempt 1/3): Relay unreachable: [WinError 10061] No connection could be made because the target machine actively refused it
+07:47:02  INFO      Found 736 recipe files
+07:47:02  INFO      Using relay at http://127.0.0.1:5000/relay/image
+07:47:02  WARNING   Skipping blueberry-muffins.md (can't parse)
+07:47:02  INFO      [92/736] Broccoli Bake
+07:47:07  INFO        Saved: broccoli-bake.png (1344 KB)
+07:47:07  INFO        Updated frontmatter → images/recipes/broccoli-bake.png
+07:47:11  INFO      [97/736] Bruschetta Fast and Easy
+07:47:14  INFO        Saved: bruschetta-fast-and-easy.png (1321 KB)
+07:47:14  INFO        Updated frontmatter → images/recipes/bruschetta-fast-and-easy.png
+07:47:18  INFO      [117/736] California Coleslaw
+07:47:25  INFO        Saved: california-coleslaw.png (1530 KB)
+07:47:25  INFO        Updated frontmatter → images/recipes/california-coleslaw.png
+07:47:29  INFO      [240/736] Cranberry Chutney – (aboriginal Cooking)
+07:47:36  INFO        Saved: cranberry-chutney-aboriginal-cooking.png (1607 KB)
+07:47:36  INFO        Updated frontmatter → images/recipes/cranberry-chutney-aboriginal-cooking.png
+07:47:40  INFO      [314/736] French Toast Bake (Tracey)
+07:47:46  INFO        Saved: french-toast-bake-tracey.png (1600 KB)
+07:47:46  INFO        Updated frontmatter → images/recipes/french-toast-bake-tracey.png
+07:47:50  INFO      [315/736] Frontier Kitchen Carrot Cake
+07:47:56  INFO        Saved: frontier-kitchen-carrot-cake.png (1546 KB)
+07:47:56  INFO        Updated frontmatter → images/recipes/frontier-kitchen-carrot-cake.png
+07:48:00  INFO      [316/736] Frontier Kitchen Chemical Garden
+07:48:01  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+07:48:12  INFO        Saved: frontier-kitchen-chemical-garden.png (1518 KB)
+07:48:12  INFO        Updated frontmatter → images/recipes/frontier-kitchen-chemical-garden.png
+07:48:16  INFO      [317/736] Frontier Kitchen Dolly Drops
+07:48:24  INFO        Saved: frontier-kitchen-dolly-drops.png (1566 KB)
+07:48:24  INFO        Updated frontmatter → images/recipes/frontier-kitchen-dolly-drops.png
+07:48:28  INFO      [318/736] Frontier Kitchen Never Fail Hot Water Partry
+07:48:36  INFO        Saved: frontier-kitchen-never-fail-hot-water-partry.png (1504 KB)
+07:48:36  INFO        Updated frontmatter → images/recipes/frontier-kitchen-never-fail-hot-water-partry.png
+07:48:40  INFO      [319/736] Frontier Kitchen Sugar Tarts
+07:48:47  INFO        Saved: frontier-kitchen-sugar-tarts.png (1587 KB)
+07:48:47  INFO        Updated frontmatter → images/recipes/frontier-kitchen-sugar-tarts.png
+07:48:51  INFO      [320/736] Frontier Kitchen Triple Fudge Cake
+07:48:57  INFO        Saved: frontier-kitchen-triple-fudge-cake.png (1606 KB)
+07:48:57  INFO        Updated frontmatter → images/recipes/frontier-kitchen-triple-fudge-cake.png
+07:49:01  INFO      [321/736] Frozen Pops
+07:49:08  INFO        Saved: frozen-pops.png (1537 KB)
+07:49:08  INFO        Updated frontmatter → images/recipes/frozen-pops.png
+07:49:12  INFO      [322/736] Fruit Cocktail Cake
+07:49:18  INFO        Saved: fruit-cocktail-cake.png (1550 KB)
+07:49:18  INFO        Updated frontmatter → images/recipes/fruit-cocktail-cake.png
+07:49:22  INFO      [323/736] Fruit Pizza
+07:49:32  INFO        Saved: fruit-pizza.png (1536 KB)
+07:49:32  INFO        Updated frontmatter → images/recipes/fruit-pizza.png
+07:49:36  INFO      [324/736] Fruit Protein Pancake
+07:49:42  INFO        Saved: fruit-protein-pancake.png (1569 KB)
+07:49:42  INFO        Updated frontmatter → images/recipes/fruit-protein-pancake.png
+07:49:46  INFO      [325/736] Fruity Bread Pudding for Two
+07:49:53  INFO        Saved: fruity-bread-pudding-for-two.png (1570 KB)
+07:49:53  INFO        Updated frontmatter → images/recipes/fruity-bread-pudding-for-two.png
+07:49:57  INFO      [326/736] Garden Vegetable Stir-fry for One – (good Times)
+07:50:03  INFO        Saved: garden-vegetable-stir-fry-for-one-good-times.png (1421 KB)
+07:50:03  INFO        Updated frontmatter → images/recipes/garden-vegetable-stir-fry-for-one-good-times.png
+07:50:07  INFO      [327/736] Garlic and Rosemary Mashed Potatoes
+07:50:14  INFO        Saved: garlic-and-rosemary-mashed-potatoes.png (1470 KB)
+07:50:14  INFO        Updated frontmatter → images/recipes/garlic-and-rosemary-mashed-potatoes.png
+07:50:18  INFO      [328/736] Garlic Butter
+07:50:29  INFO        Saved: garlic-butter.png (1590 KB)
+07:50:29  INFO        Updated frontmatter → images/recipes/garlic-butter.png
+07:50:33  INFO      [330/736] Gazpacho
+07:50:42  INFO        Saved: gazpacho.png (1471 KB)
+07:50:42  INFO        Updated frontmatter → images/recipes/gazpacho.png
+07:50:46  INFO      [331/736] German Fruit Cake
+07:50:52  INFO        Saved: german-fruit-cake.png (1511 KB)
+07:50:52  INFO        Updated frontmatter → images/recipes/german-fruit-cake.png
+07:50:56  INFO      [332/736] Glazed Berry Pie
+07:51:01  INFO        Saved: glazed-berry-pie.png (1487 KB)
+07:51:01  INFO        Updated frontmatter → images/recipes/glazed-berry-pie.png
+07:51:05  INFO      [333/736] Glazed Chicken With Julienne Veggies
+07:51:11  INFO        Saved: glazed-chicken-with-julienne-veggies.png (1530 KB)
+07:51:11  INFO        Updated frontmatter → images/recipes/glazed-chicken-with-julienne-veggies.png
+07:51:15  INFO      [334/736] Golden Graham Bars
+07:51:22  INFO        Saved: golden-graham-bars.png (1654 KB)
+07:51:22  INFO        Updated frontmatter → images/recipes/golden-graham-bars.png
+07:51:26  INFO      [335/736] Golden Grahams S’mores
+07:51:32  INFO        Saved: golden-grahams-smores.png (1521 KB)
+07:51:32  INFO        Updated frontmatter → images/recipes/golden-grahams-smores.png
+07:51:36  INFO      [336/736] Good Coleslaw
+07:51:37  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+07:51:47  INFO        Saved: good-coleslaw.png (1515 KB)
+07:51:47  INFO        Updated frontmatter → images/recipes/good-coleslaw.png
+07:51:51  INFO      [337/736] Gord's Homemade Jerky
+07:51:57  INFO        Saved: gords-homemade-jerky.png (1579 KB)
+07:51:57  INFO        Updated frontmatter → images/recipes/gords-homemade-jerky.png
+07:52:01  INFO      [338/736] Graham Coconut Cake
+07:52:08  INFO        Saved: graham-coconut-cake.png (1521 KB)
+07:52:08  INFO        Updated frontmatter → images/recipes/graham-coconut-cake.png
+07:52:12  INFO      [339/736] Grand-Peres
+07:52:18  INFO        Saved: grand-peres.png (1570 KB)
+07:52:18  INFO        Updated frontmatter → images/recipes/grand-peres.png
+07:52:22  INFO      [340/736] Grandma’s Molasses Cookies
+07:52:28  INFO        Saved: grandmas-molasses-cookies.png (1626 KB)
+07:52:28  INFO        Updated frontmatter → images/recipes/grandmas-molasses-cookies.png
+07:52:32  INFO      [341/736] Granny Gosson's Ginger Sparklers
+07:52:41  INFO        Saved: granny-gossons-ginger-sparklers.png (1617 KB)
+07:52:41  INFO        Updated frontmatter → images/recipes/granny-gossons-ginger-sparklers.png
+07:52:45  INFO      [342/736] Granny Sayer's Rum Cake
+07:52:52  INFO        Saved: granny-sayers-rum-cake.png (1575 KB)
+07:52:52  INFO        Updated frontmatter → images/recipes/granny-sayers-rum-cake.png
+07:52:56  INFO      [343/736] Greek Salad
+07:53:02  INFO        Saved: greek-salad.png (1545 KB)
+07:53:02  INFO        Updated frontmatter → images/recipes/greek-salad.png
+07:53:06  INFO      [344/736] Greek Yogurt Smoothie
+07:53:13  INFO        Saved: greek-yogurt-smoothie.png (1497 KB)
+07:53:13  INFO        Updated frontmatter → images/recipes/greek-yogurt-smoothie.png
+07:53:17  INFO      [345/736] Green Tomato Ketchup
+07:53:24  INFO        Saved: green-tomato-ketchup.png (1521 KB)
+07:53:24  INFO        Updated frontmatter → images/recipes/green-tomato-ketchup.png
+07:53:28  INFO      [346/736] Guacamole Dip
+07:53:34  INFO        Saved: guacamole-dip.png (1561 KB)
+07:53:34  INFO        Updated frontmatter → images/recipes/guacamole-dip.png
+07:53:38  INFO      [347/736] Gumdrop Cake
+07:53:44  INFO        Saved: gumdrop-cake.png (1582 KB)
+07:53:44  INFO        Updated frontmatter → images/recipes/gumdrop-cake.png
+07:53:48  INFO      [348/736] Hallowe’en Fudge – Makes 48 Squares
+07:53:55  INFO        Saved: halloween-fudge-makes-48-squares.png (1635 KB)
+07:53:55  INFO        Updated frontmatter → images/recipes/halloween-fudge-makes-48-squares.png
+07:53:59  INFO      [349/736] Hamburger Soup (Jenny)
+07:54:05  INFO        Saved: hamburger-soup-jenny.png (1591 KB)
+07:54:05  INFO        Updated frontmatter → images/recipes/hamburger-soup-jenny.png
+07:54:09  INFO      [350/736] Hard Boiled Eggs
+07:54:15  INFO        Saved: hard-boiled-eggs.png (1414 KB)
+07:54:15  INFO        Updated frontmatter → images/recipes/hard-boiled-eggs.png
+07:54:19  INFO      [351/736] Hearty Chicken and Vegetable Skillet
+07:54:24  INFO        Saved: hearty-chicken-and-vegetable-skillet.png (1457 KB)
+07:54:24  INFO        Updated frontmatter → images/recipes/hearty-chicken-and-vegetable-skillet.png
+07:54:28  INFO      [352/736] Herbed Lemon Marinade – for Fish, Steaks, Scallops or Shrimp
+07:54:35  INFO        Saved: herbed-lemon-marinade-for-fish-steaks-scallops-or-shrimp.png (1631 KB)
+07:54:35  INFO        Updated frontmatter → images/recipes/herbed-lemon-marinade-for-fish-steaks-scallops-or-shrimp.png
+07:54:39  INFO      [353/736] Hidden Valley Bacon & Cheddar Dip
+07:54:45  INFO        Saved: hidden-valley-bacon-cheddar-dip.png (1540 KB)
+07:54:45  INFO        Updated frontmatter → images/recipes/hidden-valley-bacon-cheddar-dip.png
+07:54:49  INFO      [354/736] Holiday Baked Beans
+07:54:57  INFO        Saved: holiday-baked-beans.png (1538 KB)
+07:54:57  INFO        Updated frontmatter → images/recipes/holiday-baked-beans.png
+07:55:01  INFO      [355/736] Homemade Pasta/Noodles
+07:55:07  INFO        Saved: homemade-pastanoodles.png (1476 KB)
+07:55:07  INFO        Updated frontmatter → images/recipes/homemade-pastanoodles.png
+07:55:11  INFO      [356/736] Homemade Soap – (from the Hazelwood Cookbook)
+07:55:18  INFO        Saved: homemade-soap-from-the-hazelwood-cookbook.png (1548 KB)
+07:55:18  INFO        Updated frontmatter → images/recipes/homemade-soap-from-the-hazelwood-cookbook.png
+07:55:22  INFO      [357/736] Honey Garlic Chicken Wings
+07:55:23  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+07:55:34  INFO        Saved: honey-garlic-chicken-wings.png (1571 KB)
+07:55:34  INFO        Updated frontmatter → images/recipes/honey-garlic-chicken-wings.png
+07:55:38  INFO      [358/736] Honey Garlic Marinade
+07:55:44  INFO        Saved: honey-garlic-marinade.png (1653 KB)
+07:55:44  INFO        Updated frontmatter → images/recipes/honey-garlic-marinade.png
+07:55:48  INFO      [359/736] Honey Garlic Sauce
+07:55:55  INFO        Saved: honey-garlic-sauce.png (1408 KB)
+07:55:55  INFO        Updated frontmatter → images/recipes/honey-garlic-sauce.png
+07:55:59  INFO      [360/736] Honey Hoisin Chicken
+07:56:10  INFO        Saved: honey-hoisin-chicken.png (1546 KB)
+07:56:10  INFO        Updated frontmatter → images/recipes/honey-hoisin-chicken.png
+07:56:14  INFO      [361/736] Honey-maple Popcorn Balls
+07:56:22  INFO        Saved: honey-maple-popcorn-balls.png (1547 KB)
+07:56:22  INFO        Updated frontmatter → images/recipes/honey-maple-popcorn-balls.png
+07:56:26  INFO      [362/736] Honey-mustard Carrots (cw)
+07:56:32  INFO        Saved: honey-mustard-carrots-cw.png (1533 KB)
+07:56:32  INFO        Updated frontmatter → images/recipes/honey-mustard-carrots-cw.png
+07:56:36  INFO      [363/736] Hot Chocolate Mix - Cw
+07:56:44  INFO        Saved: hot-chocolate-mix-cw.png (1598 KB)
+07:56:44  INFO        Updated frontmatter → images/recipes/hot-chocolate-mix-cw.png
+07:56:48  INFO      [364/736] Hot Crab Dip
+07:56:54  INFO        Saved: hot-crab-dip.png (1652 KB)
+07:56:54  INFO        Updated frontmatter → images/recipes/hot-crab-dip.png
+07:56:58  INFO      [365/736] Hot Milk Sponge Cake
+07:57:09  INFO        Saved: hot-milk-sponge-cake.png (1578 KB)
+07:57:09  INFO        Updated frontmatter → images/recipes/hot-milk-sponge-cake.png
+07:57:13  INFO      [366/736] Hundred Dollar Cake
+07:57:26  INFO        Saved: hundred-dollar-cake.png (1592 KB)
+07:57:26  INFO        Updated frontmatter → images/recipes/hundred-dollar-cake.png
+07:57:30  INFO      [367/736] Hurry Up Chicken Pot Pie
+07:57:41  INFO        Saved: hurry-up-chicken-pot-pie.png (1558 KB)
+07:57:41  INFO        Updated frontmatter → images/recipes/hurry-up-chicken-pot-pie.png
+07:57:45  INFO      [368/736] Husband's Delight Casserole
+07:57:57  INFO        Saved: husbands-delight-casserole.png (1562 KB)
+07:57:57  INFO        Updated frontmatter → images/recipes/husbands-delight-casserole.png
+07:58:01  INFO      [369/736] Ice Box Cake
+07:58:12  INFO        Saved: ice-box-cake.png (1726 KB)
+07:58:12  INFO        Updated frontmatter → images/recipes/ice-box-cake.png
+07:58:16  INFO      [370/736] Impossible Bacon Breakfast Pie (quiche)
+07:58:32  INFO        Saved: impossible-bacon-breakfast-pie-quiche.png (1637 KB)
+07:58:32  INFO        Updated frontmatter → images/recipes/impossible-bacon-breakfast-pie-quiche.png
+07:58:36  INFO      [371/736] Impossible Breakfast Quiche
+07:58:52  INFO        Saved: impossible-breakfast-quiche.png (1553 KB)
+07:58:52  INFO        Updated frontmatter → images/recipes/impossible-breakfast-quiche.png
+07:58:56  INFO      [372/736] Impossible Chicken ‘n Broccoli Pie
+07:59:02  INFO        Saved: impossible-chicken-n-broccoli-pie.png (1519 KB)
+07:59:02  INFO        Updated frontmatter → images/recipes/impossible-chicken-n-broccoli-pie.png
+07:59:07  INFO      [373/736] Impossible Chicken Pie
+07:59:14  INFO        Saved: impossible-chicken-pie.png (1628 KB)
+07:59:14  INFO        Updated frontmatter → images/recipes/impossible-chicken-pie.png
+07:59:18  INFO      [374/736] Impossible Coconut Pie
+07:59:24  INFO        Saved: impossible-coconut-pie.png (1542 KB)
+07:59:24  INFO        Updated frontmatter → images/recipes/impossible-coconut-pie.png
+07:59:28  INFO      [375/736] Impossible French Apple Pie
+07:59:34  INFO        Saved: impossible-french-apple-pie.png (1573 KB)
+07:59:34  INFO        Updated frontmatter → images/recipes/impossible-french-apple-pie.png
+07:59:38  INFO      [376/736] Impossible Ham ‘n Cheese Pie
+07:59:45  INFO        Saved: impossible-ham-n-cheese-pie.png (1453 KB)
+07:59:45  INFO        Updated frontmatter → images/recipes/impossible-ham-n-cheese-pie.png
+07:59:49  INFO      [377/736] Impossible Lasagne Pie
+07:59:57  INFO        Saved: impossible-lasagne-pie.png (1641 KB)
+07:59:57  INFO        Updated frontmatter → images/recipes/impossible-lasagne-pie.png
+08:00:01  INFO      [378/736] Impossible Pumpkin Pie
+08:00:08  INFO        Saved: impossible-pumpkin-pie.png (1547 KB)
+08:00:08  INFO        Updated frontmatter → images/recipes/impossible-pumpkin-pie.png
+08:00:12  INFO      [379/736] Instant Pot Brussels Sprouts
+08:00:18  INFO        Saved: instant-pot-brussels-sprouts.png (1596 KB)
+08:00:18  INFO        Updated frontmatter → images/recipes/instant-pot-brussels-sprouts.png
+08:00:22  INFO      [380/736] Instant Pot Buffalo Chicken Meatballs
+08:00:28  INFO        Saved: instant-pot-buffalo-chicken-meatballs.png (1540 KB)
+08:00:28  INFO        Updated frontmatter → images/recipes/instant-pot-buffalo-chicken-meatballs.png
+08:00:32  INFO      [381/736] Instant Pot Chicken and Dumplings
+08:00:39  INFO        Saved: instant-pot-chicken-and-dumplings.png (1466 KB)
+08:00:39  INFO        Updated frontmatter → images/recipes/instant-pot-chicken-and-dumplings.png
+08:00:43  INFO      [382/736] Instant Pot Lemon Chicken
+08:00:52  INFO        Saved: instant-pot-lemon-chicken.png (1564 KB)
+08:00:52  INFO        Updated frontmatter → images/recipes/instant-pot-lemon-chicken.png
+08:00:56  INFO      [383/736] Instant Pot Pulled Pork
+08:01:02  INFO        Saved: instant-pot-pulled-pork.png (1614 KB)
+08:01:02  INFO        Updated frontmatter → images/recipes/instant-pot-pulled-pork.png
+08:01:06  INFO      [384/736] Instant Pot Rice (Basmati or Jasmine)
+08:01:12  INFO        Saved: instant-pot-rice-basmati-or-jasmine.png (1367 KB)
+08:01:12  INFO        Updated frontmatter → images/recipes/instant-pot-rice-basmati-or-jasmine.png
+08:01:16  INFO      [385/736] Instant Pot Spaghetti Squash
+08:01:22  INFO        Saved: instant-pot-spaghetti-squash.png (1485 KB)
+08:01:22  INFO        Updated frontmatter → images/recipes/instant-pot-spaghetti-squash.png
+08:01:26  INFO      [386/736] Instant Pot White Rice
+08:01:32  INFO        Saved: instant-pot-white-rice.png (1408 KB)
+08:01:32  INFO        Updated frontmatter → images/recipes/instant-pot-white-rice.png
+08:01:36  INFO      [387/736] Jam Buns
+08:01:42  INFO        Saved: jam-buns.png (1560 KB)
+08:01:42  INFO        Updated frontmatter → images/recipes/jam-buns.png
+08:01:46  INFO      [388/736] Jason’s Doggie Biscuits
+08:01:53  INFO        Saved: jasons-doggie-biscuits.png (1737 KB)
+08:01:53  INFO        Updated frontmatter → images/recipes/jasons-doggie-biscuits.png
+08:01:57  INFO      [389/736] Jell-O Seven Minute Frosting
+08:02:03  INFO        Saved: jell-o-seven-minute-frosting.png (1391 KB)
+08:02:03  INFO        Updated frontmatter → images/recipes/jell-o-seven-minute-frosting.png
+08:02:07  INFO      [390/736] Jesse's Strawberry Chocolate Shake
+08:02:15  INFO        Saved: jesses-strawberry-chocolate-shake.png (1597 KB)
+08:02:15  INFO        Updated frontmatter → images/recipes/jesses-strawberry-chocolate-shake.png
+08:02:19  INFO      [391/736] Johnny Cake
+08:02:25  INFO        Saved: johnny-cake.png (1573 KB)
+08:02:25  INFO        Updated frontmatter → images/recipes/johnny-cake.png
+08:02:29  INFO      [392/736] Jollof Rice (Yan's)
+08:02:35  INFO        Saved: jollof-rice-yans.png (1497 KB)
+08:02:35  INFO        Updated frontmatter → images/recipes/jollof-rice-yans.png
+08:02:39  INFO      [393/736] Judy Lafreniere’s Punch
+08:02:44  INFO        Saved: judy-lafrenieres-punch.png (1523 KB)
+08:02:44  INFO        Updated frontmatter → images/recipes/judy-lafrenieres-punch.png
+08:02:48  INFO      [394/736] Judy’s Miracle Soup
+08:02:55  INFO        Saved: judys-miracle-soup.png (1565 KB)
+08:02:55  INFO        Updated frontmatter → images/recipes/judys-miracle-soup.png
+08:02:59  INFO      [395/736] Kapusta
+08:03:04  INFO        Saved: kapusta.png (1500 KB)
+08:03:04  INFO        Updated frontmatter → images/recipes/kapusta.png
+08:03:08  INFO      [396/736] Kellogg’s Crispix Recipe #3
+08:03:15  INFO        Saved: kelloggs-crispix-recipe-3.png (1537 KB)
+08:03:15  INFO        Updated frontmatter → images/recipes/kelloggs-crispix-recipe-3.png
+08:03:19  INFO      [397/736] Keto Butternut Squash Soup
+08:03:27  INFO        Saved: keto-butternut-squash-soup.png (1506 KB)
+08:03:27  INFO        Updated frontmatter → images/recipes/keto-butternut-squash-soup.png
+08:03:31  INFO      [398/736] Keto Cabrese Omelet
+08:03:38  INFO        Saved: keto-cabrese-omelet.png (1497 KB)
+08:03:38  INFO        Updated frontmatter → images/recipes/keto-cabrese-omelet.png
+08:03:42  INFO      [399/736] Keto Candy
+08:03:49  INFO        Saved: keto-candy.png (1513 KB)
+08:03:49  INFO        Updated frontmatter → images/recipes/keto-candy.png
+08:03:53  INFO      [400/736] Keto Cheese Roll-ups
+08:04:01  INFO        Saved: keto-cheese-roll-ups.png (1598 KB)
+08:04:01  INFO        Updated frontmatter → images/recipes/keto-cheese-roll-ups.png
+08:04:05  INFO      [401/736] Keto Cheesy Bread
+08:04:15  INFO        Saved: keto-cheesy-bread.png (1636 KB)
+08:04:15  INFO        Updated frontmatter → images/recipes/keto-cheesy-bread.png
+08:04:19  INFO      [402/736] Keto Crackers
+08:04:27  INFO        Saved: keto-crackers.png (1692 KB)
+08:04:27  INFO        Updated frontmatter → images/recipes/keto-crackers.png
+08:04:31  INFO      [403/736] Keto-Friendly Pizza Dough
+08:04:43  INFO        Saved: keto-friendly-pizza-dough.png (1606 KB)
+08:04:43  INFO        Updated frontmatter → images/recipes/keto-friendly-pizza-dough.png
+08:04:47  INFO      [404/736] Keto Meat Pie
+08:04:55  INFO        Saved: keto-meat-pie.png (1552 KB)
+08:04:55  INFO        Updated frontmatter → images/recipes/keto-meat-pie.png
+08:04:59  INFO      [405/736] Keto Pesto Chicken Casserole
+08:05:09  INFO        Saved: keto-pesto-chicken-casserole.png (1645 KB)
+08:05:09  INFO        Updated frontmatter → images/recipes/keto-pesto-chicken-casserole.png
+08:05:13  INFO      [406/736] Keto Soup (The bomb)
+08:05:25  INFO        Saved: keto-soup-the-bomb.png (1517 KB)
+08:05:25  INFO        Updated frontmatter → images/recipes/keto-soup-the-bomb.png
+08:05:29  INFO      [407/736] Knox Blox
+08:05:34  INFO        Saved: knox-blox.png (1508 KB)
+08:05:34  INFO        Updated frontmatter → images/recipes/knox-blox.png
+08:05:38  INFO      [408/736] Korny Spuds
+08:05:45  INFO        Saved: korny-spuds.png (1477 KB)
+08:05:45  INFO        Updated frontmatter → images/recipes/korny-spuds.png
+08:05:49  INFO      [409/736] Kote-n-roast
+08:05:59  INFO        Saved: kote-n-roast.png (1758 KB)
+08:05:59  INFO        Updated frontmatter → images/recipes/kote-n-roast.png
+08:06:03  INFO      [410/736] Lazy Man's Perogies
+08:06:11  INFO        Saved: lazy-mans-perogies.png (1477 KB)
+08:06:11  INFO        Updated frontmatter → images/recipes/lazy-mans-perogies.png
+08:06:15  INFO      [411/736] Lazy Perogy Casserole
+08:06:31  INFO        Saved: lazy-perogy-casserole-wedding-cookbook.png (1562 KB)
+08:06:31  INFO        Updated frontmatter → images/recipes/lazy-perogy-casserole-wedding-cookbook.png
+08:06:35  INFO      [412/736] Lazy Perogy Casserole
+08:06:51  INFO        Saved: lazy-perogy-casserole.png (1628 KB)
+08:06:51  INFO        Updated frontmatter → images/recipes/lazy-perogy-casserole.png
+08:06:55  INFO      [413/736] Lemon Coffee Cake - Pep's Grandma
+08:07:02  INFO        Saved: lemon-coffee-cake-peps-grandma.png (1515 KB)
+08:07:02  INFO        Updated frontmatter → images/recipes/lemon-coffee-cake-peps-grandma.png
+08:07:06  INFO      [414/736] Lemon Loaf
+08:07:15  INFO        Saved: lemon-loaf.png (1596 KB)
+08:07:15  INFO        Updated frontmatter → images/recipes/lemon-loaf.png
+08:07:19  INFO      [415/736] Lemon Squares - (gail Leblanc – Metis Cookhouse
+08:07:26  INFO        Saved: lemon-squares-gail-leblanc-metis-cookhouse.png (1565 KB)
+08:07:26  INFO        Updated frontmatter → images/recipes/lemon-squares-gail-leblanc-metis-cookhouse.png
+08:07:30  INFO      [416/736] Lemon Squares
+08:07:37  INFO        Saved: lemon-squares.png (1605 KB)
+08:07:37  INFO        Updated frontmatter → images/recipes/lemon-squares.png
+08:07:41  INFO      [417/736] Lemon Turkey Cutlets
+08:07:48  INFO        Saved: lemon-turkey-cutlets.png (1435 KB)
+08:07:48  INFO        Updated frontmatter → images/recipes/lemon-turkey-cutlets.png
+08:07:52  INFO      [418/736] Lena Langevin Creamy Potato Soup
+08:08:02  INFO        Saved: lena-langevin-creamy-potato-soup.png (1511 KB)
+08:08:02  INFO        Updated frontmatter → images/recipes/lena-langevin-creamy-potato-soup.png
+08:08:06  INFO      [419/736] Linguine With Fresh Tomatoes
+08:08:19  INFO        Saved: linguine-with-fresh-tomatoes.png (1531 KB)
+08:08:19  INFO        Updated frontmatter → images/recipes/linguine-with-fresh-tomatoes.png
+08:08:23  INFO      [420/736] Lisa's Light Dessert
+08:08:34  INFO        Saved: lisas-light-dessert.png (1565 KB)
+08:08:34  INFO        Updated frontmatter → images/recipes/lisas-light-dessert.png
+08:08:38  INFO      [421/736] Liz’s Cabbage Slaw
+08:08:56  INFO        Saved: lizs-cabbage-slaw.png (1534 KB)
+08:08:56  INFO        Updated frontmatter → images/recipes/lizs-cabbage-slaw.png
+08:09:00  INFO      [422/736] Loaded \"Baked Potato\" Soup
+08:09:07  INFO        Saved: loaded-baked-potato-soup.png (1537 KB)
+08:09:07  INFO        Updated frontmatter → images/recipes/loaded-baked-potato-soup.png
+08:09:11  INFO      [423/736] Loney's Express Dip
+08:09:17  INFO        Saved: loneys-express-dip.png (1426 KB)
+08:09:17  INFO        Updated frontmatter → images/recipes/loneys-express-dip.png
+08:09:21  INFO      [424/736] Lovely Salad
+08:09:27  INFO        Saved: lovely-salad.png (1610 KB)
+08:09:27  INFO        Updated frontmatter → images/recipes/lovely-salad.png
+08:09:31  INFO      [425/736] Low-cal Cajun Corn
+08:09:51  INFO        Saved: low-cal-cajun-corn.png (1565 KB)
+08:09:51  INFO        Updated frontmatter → images/recipes/low-cal-cajun-corn.png
+08:09:55  INFO      [426/736] Low Carb Broccoli Cheese Soup
+08:10:05  INFO        Saved: low-carb-broccoli-cheese-soup.png (1522 KB)
+08:10:05  INFO        Updated frontmatter → images/recipes/low-carb-broccoli-cheese-soup.png
+08:10:09  INFO      [427/736] Low Carb Cream Cheese Fudge
+08:10:18  INFO        Saved: low-carb-cream-cheese-fudge.png (1399 KB)
+08:10:18  INFO        Updated frontmatter → images/recipes/low-carb-cream-cheese-fudge.png
+08:10:22  INFO      [428/736] Low Fat Sweet and Sour Rice
+08:10:37  INFO        Saved: low-fat-sweet-and-sour-rice.png (1433 KB)
+08:10:37  INFO        Updated frontmatter → images/recipes/low-fat-sweet-and-sour-rice.png
+08:10:41  INFO      [429/736] Mabel's Easiest Casserole
+08:10:44  INFO        Saved: mabels-easiest-casserole.png (1392 KB)
+08:10:44  INFO        Updated frontmatter → images/recipes/mabels-easiest-casserole.png
+08:10:48  INFO      [430/736] Magic Chelsea Buns
+08:10:55  INFO        Saved: magic-chelsea-buns.png (1707 KB)
+08:10:55  INFO        Updated frontmatter → images/recipes/magic-chelsea-buns.png
+08:10:59  INFO      [431/736] Magic French Fudge
+08:11:05  INFO        Saved: magic-french-fudge.png (1618 KB)
+08:11:05  INFO        Updated frontmatter → images/recipes/magic-french-fudge.png
+08:11:09  INFO      [432/736] Magic Sweet Yeast Bread
+08:11:15  INFO        Saved: magic-sweet-yeast-bread.png (1569 KB)
+08:11:15  INFO        Updated frontmatter → images/recipes/magic-sweet-yeast-bread.png
+08:11:19  INFO      [433/736] Main Course Cabbage Soup
+08:11:26  INFO        Saved: main-course-cabbage-soup.png (1537 KB)
+08:11:26  INFO        Updated frontmatter → images/recipes/main-course-cabbage-soup.png
+08:11:30  INFO      [434/736] Malva Pudding Cake
+08:11:36  INFO        Saved: malva-pudding-cake.png (1528 KB)
+08:11:36  INFO        Updated frontmatter → images/recipes/malva-pudding-cake.png
+08:11:40  INFO      [435/736] Malva Pudding (claire Massicotte)
+08:11:47  INFO        Saved: malva-pudding-claire-massicotte.png (1550 KB)
+08:11:47  INFO        Updated frontmatter → images/recipes/malva-pudding-claire-massicotte.png
+08:11:51  INFO      [436/736] Manilla Chicken
+08:11:57  INFO        Saved: manilla-chicken.png (1549 KB)
+08:11:57  INFO        Updated frontmatter → images/recipes/manilla-chicken.png
+08:12:01  INFO      [437/736] Maple Apple Cobbler
+08:12:07  INFO        Saved: maple-apple-cobbler.png (1661 KB)
+08:12:07  INFO        Updated frontmatter → images/recipes/maple-apple-cobbler.png
+08:12:11  INFO      [438/736] Maple Butter Tarts
+08:12:17  INFO        Saved: maple-butter-tarts.png (1552 KB)
+08:12:17  INFO        Updated frontmatter → images/recipes/maple-butter-tarts.png
+08:12:21  INFO      [439/736] Maple Creamy Fondue
+08:12:28  INFO        Saved: maple-creamy-fondue.png (1551 KB)
+08:12:28  INFO        Updated frontmatter → images/recipes/maple-creamy-fondue.png
+08:12:32  INFO      [440/736] Marinade for Venison Steaks – (aboriginal Cooking)
+08:12:39  INFO        Saved: marinade-for-venison-steaks-aboriginal-cooking.png (1627 KB)
+08:12:39  INFO        Updated frontmatter → images/recipes/marinade-for-venison-steaks-aboriginal-cooking.png
+08:12:43  INFO      [441/736] Maritime Madness
+08:12:51  INFO        Saved: maritime-madness.png (1543 KB)
+08:12:51  INFO        Updated frontmatter → images/recipes/maritime-madness.png
+08:12:55  INFO      [442/736] Marshmallow Frosting
+08:13:01  INFO        Saved: marshmallow-frosting.png (1461 KB)
+08:13:01  INFO        Updated frontmatter → images/recipes/marshmallow-frosting.png
+08:13:05  INFO      [443/736] Marshmallow Rolls
+08:13:11  INFO        Saved: marshmallow-rolls.png (1619 KB)
+08:13:11  INFO        Updated frontmatter → images/recipes/marshmallow-rolls.png
+08:13:15  INFO      [444/736] Mary's Guide Service Secret Smoked Fish Recipe
+08:13:22  INFO        Saved: marys-guide-service-secret-smoked-fish-recipe.png (1542 KB)
+08:13:22  INFO        Updated frontmatter → images/recipes/marys-guide-service-secret-smoked-fish-recipe.png
+08:13:26  INFO      [445/736] Maya's Cookie Brownie Recipe
+08:13:29  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+08:13:41  INFO        Saved: mayas-cookie-brownie-recipe.png (1603 KB)
+08:13:41  INFO        Updated frontmatter → images/recipes/mayas-cookie-brownie-recipe.png
+08:13:45  INFO      [446/736] Meat Pies
+08:13:54  INFO        Saved: meat-pies.png (1506 KB)
+08:13:54  INFO        Updated frontmatter → images/recipes/meat-pies.png
+08:13:58  INFO      [447/736] Melody Dressing
+08:14:05  INFO        Saved: melody-dressing.png (1519 KB)
+08:14:05  INFO        Updated frontmatter → images/recipes/melody-dressing.png
+08:14:09  INFO      [448/736] Melt In Your Mouth Chicken Breasts
+08:14:17  INFO        Saved: melt-in-your-mouth-chicken-breasts.png (1502 KB)
+08:14:17  INFO        Updated frontmatter → images/recipes/melt-in-your-mouth-chicken-breasts.png
+08:14:21  INFO      [449/736] Mesquite Ribs
+08:14:28  INFO        Saved: mesquite-ribs.png (1539 KB)
+08:14:28  INFO        Updated frontmatter → images/recipes/mesquite-ribs.png
+08:14:32  INFO      [450/736] Mexi-Dip
+08:14:40  INFO        Saved: mexi-dip.png (1562 KB)
+08:14:40  INFO        Updated frontmatter → images/recipes/mexi-dip.png
+08:14:44  INFO      [451/736] Mexican Black Bean and Corn Salad
+08:14:56  INFO        Saved: mexican-black-bean-and-corn-salad.png (1506 KB)
+08:14:56  INFO        Updated frontmatter → images/recipes/mexican-black-bean-and-corn-salad.png
+08:15:00  INFO      [452/736] Mexican Chicken and Rice (cw)
+08:15:12  INFO        Saved: mexican-chicken-and-rice-cw.png (1458 KB)
+08:15:12  INFO        Updated frontmatter → images/recipes/mexican-chicken-and-rice-cw.png
+08:15:16  INFO      [453/736] Mexican Wedding Cake
+08:15:25  INFO        Saved: mexican-wedding-cake.png (1628 KB)
+08:15:25  INFO        Updated frontmatter → images/recipes/mexican-wedding-cake.png
+08:15:29  INFO      [454/736] Microwave Carrot Casserole (cw)
+08:15:40  INFO        Saved: microwave-carrot-casserole-cw.png (1550 KB)
+08:15:40  INFO        Updated frontmatter → images/recipes/microwave-carrot-casserole-cw.png
+08:15:44  INFO      [455/736] Minute Magic Tea Biscuits
+08:15:51  INFO        Saved: minute-magic-tea-biscuits.png (1605 KB)
+08:15:51  INFO        Updated frontmatter → images/recipes/minute-magic-tea-biscuits.png
+08:15:55  INFO      [456/736] Miracle Icing
+08:16:02  INFO        Saved: miracle-icing.png (1418 KB)
+08:16:02  INFO        Updated frontmatter → images/recipes/miracle-icing.png
+08:16:06  INFO      [457/736] Mirsh's Chocolate Zucchini Cake
+08:16:13  INFO        Saved: mirshs-chocolate-zucchini-cake.png (1487 KB)
+08:16:13  INFO        Updated frontmatter → images/recipes/mirshs-chocolate-zucchini-cake.png
+08:16:17  INFO      [458/736] Mix-In-The-Pan Carrot Cake
+08:16:23  INFO        Saved: mix-in-the-pan-carrot-cake-wedding-cookbook.png (1619 KB)
+08:16:23  INFO        Updated frontmatter → images/recipes/mix-in-the-pan-carrot-cake-wedding-cookbook.png
+08:16:27  INFO      [459/736] Mix-in-the-pan Carrot Cake
+08:16:34  INFO        Saved: mix-in-the-pan-carrot-cake.png (1673 KB)
+08:16:34  INFO        Updated frontmatter → images/recipes/mix-in-the-pan-carrot-cake.png
+08:16:38  INFO      [460/736] M.n.r. Sugar Pie
+08:16:44  INFO        Saved: mnr-sugar-pie.png (1539 KB)
+08:16:44  INFO        Updated frontmatter → images/recipes/mnr-sugar-pie.png
+08:16:48  INFO      [461/736] Mock Cheese Cake
+08:16:58  INFO        Saved: mock-cheese-cake.png (1444 KB)
+08:16:58  INFO        Updated frontmatter → images/recipes/mock-cheese-cake.png
+08:17:02  INFO      [462/736] Mock Maple Syrup
+08:17:08  INFO        Saved: mock-maple-syrup.png (1599 KB)
+08:17:08  INFO        Updated frontmatter → images/recipes/mock-maple-syrup.png
+08:17:12  INFO      [463/736] Momma’s Pickled Beets
+08:17:19  INFO        Saved: mommas-pickled-beets.png (1590 KB)
+08:17:19  INFO        Updated frontmatter → images/recipes/mommas-pickled-beets.png
+08:17:23  INFO      [464/736] Mom's Baked Beans
+08:17:35  INFO        Saved: moms-baked-beans.png (1570 KB)
+08:17:35  INFO        Updated frontmatter → images/recipes/moms-baked-beans.png
+08:17:39  INFO      [465/736] Mom's Macaroni & Cheese Casserole
+08:17:44  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+08:17:57  INFO        Saved: moms-macaroni-cheese-casserole.png (1576 KB)
+08:17:57  INFO        Updated frontmatter → images/recipes/moms-macaroni-cheese-casserole.png
+08:18:01  INFO      [466/736] Mom’s Mock Maple Syrup – Aboriginal Cooking
+08:18:03  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+08:18:15  INFO        Saved: moms-mock-maple-syrup-aboriginal-cooking.png (1363 KB)
+08:18:15  INFO        Updated frontmatter → images/recipes/moms-mock-maple-syrup-aboriginal-cooking.png
+08:18:19  INFO      [467/736] Montreal Bagels
+08:18:26  INFO        Saved: montreal-bagels.png (1631 KB)
+08:18:26  INFO        Updated frontmatter → images/recipes/montreal-bagels.png
+08:18:30  INFO      [468/736] Moose Stew - (metis Cookhouse by Gail Leblanc
+08:18:37  INFO        Saved: moose-stew-metis-cookhouse-by-gail-leblanc.png (1459 KB)
+08:18:37  INFO        Updated frontmatter → images/recipes/moose-stew-metis-cookhouse-by-gail-leblanc.png
+08:18:41  INFO      [469/736] Mustard Bean Pickles (purity Cook Book)
+08:18:49  INFO        Saved: mustard-bean-pickles-purity-cook-book.png (1548 KB)
+08:18:49  INFO        Updated frontmatter → images/recipes/mustard-bean-pickles-purity-cook-book.png
+08:18:53  INFO      [470/736] Nacho Dip
+08:19:03  INFO        Saved: nacho-dip.png (1533 KB)
+08:19:03  INFO        Updated frontmatter → images/recipes/nacho-dip.png
+08:19:07  INFO      [471/736] Nancy Lemon Coffee Cake
+08:19:14  INFO        Saved: nancy-lemon-coffee-cake.png (1562 KB)
+08:19:14  INFO        Updated frontmatter → images/recipes/nancy-lemon-coffee-cake.png
+08:19:18  INFO      [472/736] Nancy’s Special Fruit Dip
+08:19:24  INFO        Saved: nancys-special-fruit-dip-moms-cookbook.png (1471 KB)
+08:19:24  INFO        Updated frontmatter → images/recipes/nancys-special-fruit-dip-moms-cookbook.png
+08:19:28  INFO      [473/736] Nancy’s Special Fruit Dip
+08:19:36  INFO        Saved: nancys-special-fruit-dip.png (1499 KB)
+08:19:36  INFO        Updated frontmatter → images/recipes/nancys-special-fruit-dip.png
+08:19:40  INFO      [474/736] Nests with Coconut and Candies – Makes 24
+08:19:47  INFO        Saved: nests-with-coconut-and-candies-makes-24.png (1704 KB)
+08:19:47  INFO        Updated frontmatter → images/recipes/nests-with-coconut-and-candies-makes-24.png
+08:19:51  INFO      [475/736] Never Fail Pastry
+08:19:59  INFO        Saved: never-fail-pastry.png (1586 KB)
+08:19:59  INFO        Updated frontmatter → images/recipes/never-fail-pastry.png
+08:20:03  INFO      [476/736] Never-fail Pie Crust
+08:20:14  INFO        Saved: never-fail-pie-crust.png (1496 KB)
+08:20:14  INFO        Updated frontmatter → images/recipes/never-fail-pie-crust.png
+08:20:18  INFO      [477/736] Never Fail Shortbread
+08:20:28  INFO        Saved: never-fail-shortbread.png (1519 KB)
+08:20:28  INFO        Updated frontmatter → images/recipes/never-fail-shortbread.png
+08:20:32  INFO      [478/736] New Potatoes with Herbs – (aboriginal Cooking – Gail Leblanc
+08:20:40  INFO        Saved: new-potatoes-with-herbs-aboriginal-cooking-gail-leblanc.png (1605 KB)
+08:20:40  INFO        Updated frontmatter → images/recipes/new-potatoes-with-herbs-aboriginal-cooking-gail-leblanc.png
+08:20:44  INFO      [479/736] No-bake Peanut Butter Squares
+08:20:56  INFO        Saved: no-bake-peanut-butter-squares.png (1587 KB)
+08:20:56  INFO        Updated frontmatter → images/recipes/no-bake-peanut-butter-squares.png
+08:21:00  INFO      [480/736] No Peek Chicken
+08:21:10  INFO        Saved: no-peek-chicken.png (1622 KB)
+08:21:10  INFO        Updated frontmatter → images/recipes/no-peek-chicken.png
+08:21:14  INFO      [481/736] Noodles Al Forno Napolitana
+08:21:14  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+08:21:25  INFO        Saved: noodles-al-forno-napolitana.png (1572 KB)
+08:21:25  INFO        Updated frontmatter → images/recipes/noodles-al-forno-napolitana.png
+08:21:29  INFO      [482/736] Nougat Candy (Tracey)
+08:21:36  INFO        Saved: nougat-candy-tracey.png (1478 KB)
+08:21:36  INFO        Updated frontmatter → images/recipes/nougat-candy-tracey.png
+08:21:40  INFO      [483/736] Nugget 1942 Johnny Cake
+08:21:46  INFO        Saved: nugget-1942-johnny-cake.png (1545 KB)
+08:21:46  INFO        Updated frontmatter → images/recipes/nugget-1942-johnny-cake.png
+08:21:50  INFO      [484/736] Nutty Cheese Ball
+08:22:00  INFO        Saved: nutty-cheese-ball.png (1620 KB)
+08:22:00  INFO        Updated frontmatter → images/recipes/nutty-cheese-ball.png
+08:22:04  INFO      [485/736] Oatmeal Cookies
+08:22:19  INFO        Saved: oatmeal-cookies.png (1588 KB)
+08:22:19  INFO        Updated frontmatter → images/recipes/oatmeal-cookies.png
+08:22:23  INFO      [486/736] Oatmeal Pancakes – (aboriginal Cooking)
+08:22:36  INFO        Saved: oatmeal-pancakes-aboriginal-cooking.png (1521 KB)
+08:22:36  INFO        Updated frontmatter → images/recipes/oatmeal-pancakes-aboriginal-cooking.png
+08:22:40  INFO      [487/736] Oatmeal Raisin Cookies
+08:22:47  INFO        Saved: oatmeal-raisin-cookies.png (1620 KB)
+08:22:47  INFO        Updated frontmatter → images/recipes/oatmeal-raisin-cookies.png
+08:22:51  INFO      [488/736] Oatmeal Snack Cookies
+08:22:58  INFO        Saved: oatmeal-snack-cookies.png (1590 KB)
+08:22:58  INFO        Updated frontmatter → images/recipes/oatmeal-snack-cookies.png
+08:23:02  INFO      [489/736] Oile Bolen (Dutch Donut)
+08:23:08  INFO        Saved: oile-bolen-dutch-donut.png (1578 KB)
+08:23:08  INFO        Updated frontmatter → images/recipes/oile-bolen-dutch-donut.png
+08:23:12  INFO      [490/736] Old-Fashioned Bread Dressing
+08:23:20  INFO        Saved: old-fashioned-bread-dressing.png (1565 KB)
+08:23:20  INFO        Updated frontmatter → images/recipes/old-fashioned-bread-dressing.png
+08:23:24  INFO      [491/736] Olive Oil Pasta
+08:23:31  INFO        Saved: olive-oil-pasta.png (1401 KB)
+08:23:31  INFO        Updated frontmatter → images/recipes/olive-oil-pasta.png
+08:23:35  INFO      [492/736] One Pan Cacciatore Dinner
+08:23:42  INFO        Saved: one-pan-cacciatore-dinner.png (1541 KB)
+08:23:42  INFO        Updated frontmatter → images/recipes/one-pan-cacciatore-dinner.png
+08:23:46  INFO      [493/736] Onion Sauteed Potatoes
+08:23:53  INFO        Saved: onion-sauteed-potatoes.png (1491 KB)
+08:23:53  INFO        Updated frontmatter → images/recipes/onion-sauteed-potatoes.png
+08:23:57  INFO      [494/736] Oregano, Sun-Dried Tomato, and Chicken Stuffed Baguette
+08:24:03  INFO        Saved: oregano-sun-dried-tomato-and-chicken-stuffed-baguette.png (1642 KB)
+08:24:03  INFO        Updated frontmatter → images/recipes/oregano-sun-dried-tomato-and-chicken-stuffed-baguette.png
+08:24:07  INFO      [495/736] OREO Cookie Dessert
+08:24:14  INFO        Saved: oreo-cookie-dessert.png (1478 KB)
+08:24:14  INFO        Updated frontmatter → images/recipes/oreo-cookie-dessert.png
+08:24:18  INFO      [496/736] Ornament Clay Dough
+08:24:25  INFO        Saved: ornament-clay-dough.png (1506 KB)
+08:24:25  INFO        Updated frontmatter → images/recipes/ornament-clay-dough.png
+08:24:29  INFO      [497/736] Oven-Baked Chicken
+08:24:30  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+08:24:41  INFO        Saved: oven-baked-chicken.png (1688 KB)
+08:24:41  INFO        Updated frontmatter → images/recipes/oven-baked-chicken.png
+08:24:45  INFO      [498/736] Oven Barbecued Chicken
+08:24:52  INFO        Saved: oven-barbecued-chicken.png (1578 KB)
+08:24:52  INFO        Updated frontmatter → images/recipes/oven-barbecued-chicken.png
+08:24:56  INFO      [499/736] Oven Fried Rice
+08:25:03  INFO        Saved: oven-fried-rice.png (1656 KB)
+08:25:03  INFO        Updated frontmatter → images/recipes/oven-fried-rice.png
+08:25:07  INFO      [500/736] Oxo Honey Garlic Chicken Wings
+08:25:16  INFO        Saved: oxo-honey-garlic-chicken-wings.png (1462 KB)
+08:25:16  INFO        Updated frontmatter → images/recipes/oxo-honey-garlic-chicken-wings.png
+08:25:20  INFO      [501/736] Pan Seared Steak with Garlic Butter
+08:25:27  INFO        Saved: pan-seared-steak-with-garlic-butter.png (1544 KB)
+08:25:27  INFO        Updated frontmatter → images/recipes/pan-seared-steak-with-garlic-butter.png
+08:25:31  INFO      [502/736] Parker House Buns
+08:25:38  INFO        Saved: parker-house-buns.png (1547 KB)
+08:25:38  INFO        Updated frontmatter → images/recipes/parker-house-buns.png
+08:25:42  INFO      [503/736] Party Cheese Ball
+08:25:48  INFO        Saved: party-cheese-ball.png (1665 KB)
+08:25:48  INFO        Updated frontmatter → images/recipes/party-cheese-ball.png
+08:25:52  INFO      [504/736] Party Lime Salad
+08:25:58  INFO        Saved: party-lime-salad.png (1625 KB)
+08:25:58  INFO        Updated frontmatter → images/recipes/party-lime-salad.png
+08:26:02  INFO      [505/736] Pasta Salad (Nandini)
+08:26:08  INFO        Saved: pasta-salad-nandini.png (1490 KB)
+08:26:08  INFO        Updated frontmatter → images/recipes/pasta-salad-nandini.png
+08:26:12  INFO      [506/736] Pasta Salad
+08:26:24  INFO        Saved: pasta-salad.png (1664 KB)
+08:26:24  INFO        Updated frontmatter → images/recipes/pasta-salad.png
+08:26:28  INFO      [507/736] Patty Bartlett’s Noodle Salad
+08:26:34  INFO        Saved: patty-bartletts-noodle-salad.png (1576 KB)
+08:26:34  INFO        Updated frontmatter → images/recipes/patty-bartletts-noodle-salad.png
+08:26:38  INFO      [508/736] Peanut Butter Balls - (gail Leblanc – Metis Cookhouse)
+08:26:44  INFO        Saved: peanut-butter-balls-gail-leblanc-metis-cookhouse.png (1692 KB)
+08:26:44  INFO        Updated frontmatter → images/recipes/peanut-butter-balls-gail-leblanc-metis-cookhouse.png
+08:26:48  INFO      [509/736] Peanut Butter Chocolate Balls – Isabelle Rainville
+08:26:54  INFO        Saved: peanut-butter-chocolate-balls-isabelle-rainville.png (1553 KB)
+08:26:54  INFO        Updated frontmatter → images/recipes/peanut-butter-chocolate-balls-isabelle-rainville.png
+08:26:58  INFO      [510/736] Peanut Butter Cookies
+08:27:06  INFO        Saved: peanut-butter-cookies.png (1633 KB)
+08:27:06  INFO        Updated frontmatter → images/recipes/peanut-butter-cookies.png
+08:27:10  INFO      [511/736] Peanut Butter Cups (native Cuisine)
+08:27:19  INFO        Saved: peanut-butter-cups-native-cuisine.png (1515 KB)
+08:27:19  INFO        Updated frontmatter → images/recipes/peanut-butter-cups-native-cuisine.png
+08:27:23  INFO      [512/736] Peanut Butter Marshmallow Goodies
+08:27:29  INFO        Saved: peanut-butter-marshmallow-goodies.png (1560 KB)
+08:27:29  INFO        Updated frontmatter → images/recipes/peanut-butter-marshmallow-goodies.png
+08:27:33  INFO      [513/736] Peanut Butter “sucre a La Crème” – Lucia Beaudoin
+08:27:40  INFO        Saved: peanut-butter-sucre-a-la-crème-lucia-beaudoin.png (1572 KB)
+08:27:40  INFO        Updated frontmatter → images/recipes/peanut-butter-sucre-a-la-crème-lucia-beaudoin.png
+08:27:44  INFO      [514/736] Peanut Crackers
+08:27:51  INFO        Saved: peanut-crackers.png (1575 KB)
+08:27:51  INFO        Updated frontmatter → images/recipes/peanut-crackers.png
+08:27:55  INFO      [515/736] Pearl’s Cucumber Relish
+08:28:02  INFO        Saved: pearls-cucumber-relish.png (1450 KB)
+08:28:02  INFO        Updated frontmatter → images/recipes/pearls-cucumber-relish.png
+08:28:06  INFO      [516/736] Pearl's Zucchini Loaf
+08:28:15  INFO        Saved: pearls-zucchini-loaf.png (1636 KB)
+08:28:15  INFO        Updated frontmatter → images/recipes/pearls-zucchini-loaf.png
+08:28:19  INFO      [517/736] Penné with Italian Sausage, Tomato, and Herbs
+08:28:26  INFO        Saved: penné-with-italian-sausage-tomato-and-herbs.png (1564 KB)
+08:28:26  INFO        Updated frontmatter → images/recipes/penné-with-italian-sausage-tomato-and-herbs.png
+08:28:30  INFO      [518/736] Penné with Peppers, Mushrooms, and Sausage
+08:28:38  INFO        Saved: penné-with-peppers-mushrooms-and-sausage.png (1623 KB)
+08:28:38  INFO        Updated frontmatter → images/recipes/penné-with-peppers-mushrooms-and-sausage.png
+08:28:42  INFO      [519/736] Peppermint Squares
+08:28:50  INFO        Saved: peppermint-squares.png (1572 KB)
+08:28:50  INFO        Updated frontmatter → images/recipes/peppermint-squares.png
+08:28:54  INFO      [520/736] Pep's Favorite Brownies
+08:28:57  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+08:29:11  INFO        Saved: peps-favorite-brownies.png (1705 KB)
+08:29:11  INFO        Updated frontmatter → images/recipes/peps-favorite-brownies.png
+08:29:15  INFO      [521/736] Perogy Lazy Boy
+08:29:23  INFO        Saved: perogy-lazy-boy.png (1586 KB)
+08:29:23  INFO        Updated frontmatter → images/recipes/perogy-lazy-boy.png
+08:29:27  INFO      [522/736] Pickled Beans (nugget Cook Book)
+08:29:35  INFO        Saved: pickled-beans-nugget-cook-book.png (1618 KB)
+08:29:35  INFO        Updated frontmatter → images/recipes/pickled-beans-nugget-cook-book.png
+08:29:39  INFO      [523/736] Pickled Eggs (Mom's)
+08:29:48  INFO        Saved: pickled-eggs-moms.png (1451 KB)
+08:29:48  INFO        Updated frontmatter → images/recipes/pickled-eggs-moms.png
+08:29:52  INFO      [524/736] Pickled Eggs
+08:29:59  INFO        Saved: pickled-eggs.png (1514 KB)
+08:29:59  INFO        Updated frontmatter → images/recipes/pickled-eggs.png
+08:30:03  INFO      [525/736] Pickled Mushrooms
+08:30:16  INFO        Saved: pickled-mushrooms.png (1616 KB)
+08:30:16  INFO        Updated frontmatter → images/recipes/pickled-mushrooms.png
+08:30:21  INFO      [526/736] Pickled Wieners
+08:30:23  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+08:30:35  INFO        Saved: pickled-wieners.png (1532 KB)
+08:30:35  INFO        Updated frontmatter → images/recipes/pickled-wieners.png
+08:30:39  INFO      [527/736] Picnic Cake
+08:30:57  INFO        Saved: picnic-cake.png (1656 KB)
+08:30:57  INFO        Updated frontmatter → images/recipes/picnic-cake.png
+08:31:01  INFO      [528/736] Pineapple Cupcakes
+08:31:12  INFO        Saved: pineapple-cupcakes.png (1446 KB)
+08:31:12  INFO        Updated frontmatter → images/recipes/pineapple-cupcakes.png
+08:31:16  INFO      [529/736] Pizza Buns
+08:33:16  WARNING     Generation failed (attempt 1/3): timed out
+08:33:23  WARNING     Generation failed (attempt 2/3): Relay error 502: {"detail":"All image models failed"}
+08:33:27  WARNING     Generation failed (attempt 3/3): Relay error 502: {"detail":"All image models failed"}
+08:33:27  ERROR       FAILED: Pizza Buns
+08:33:31  INFO      [530/736] Pizza Dough
+08:33:31  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+08:33:35  WARNING     Generation failed (attempt 2/3): Relay error 502: {"detail":"All image models failed"}
+08:35:32  WARNING     Generation failed (attempt 3/3): Relay error 502: {"detail":"All image models failed"}
+08:35:32  ERROR       FAILED: Pizza Dough
+08:35:36  INFO      [531/736] Pizza Pie Dough
+08:35:36  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+08:35:40  WARNING     Generation failed (attempt 2/3): Relay error 502: {"detail":"All image models failed"}
+08:35:44  WARNING     Generation failed (attempt 3/3): Relay error 502: {"detail":"All image models failed"}
+08:35:44  ERROR       FAILED: Pizza Pie Dough
+08:35:48  INFO      [532/736] Pizza Sauce
+08:35:48  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+08:35:52  WARNING     Generation failed (attempt 2/3): Relay error 502: {"detail":"All image models failed"}
+08:35:56  WARNING     Generation failed (attempt 3/3): Relay error 502: {"detail":"All image models failed"}
+08:35:56  ERROR       FAILED: Pizza Sauce
+08:36:00  INFO      [533/736] Plain Dandelion Wine
+08:36:01  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+08:36:05  WARNING     Generation failed (attempt 2/3): Relay error 502: {"detail":"All image models failed"}
+08:36:09  WARNING     Generation failed (attempt 3/3): Relay error 502: {"detail":"All image models failed"}
+08:36:09  ERROR       FAILED: Plain Dandelion Wine
+08:36:13  INFO      [534/736] Playdough
+08:36:13  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+08:36:17  WARNING     Generation failed (attempt 2/3): Relay error 502: {"detail":"All image models failed"}
+08:36:21  WARNING     Generation failed (attempt 3/3): Relay error 502: {"detail":"All image models failed"}
+08:36:21  ERROR       FAILED: Playdough
+08:36:25  INFO      [535/736] Poor Man's Lobster
+08:36:25  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+08:36:30  WARNING     Generation failed (attempt 2/3): Relay error 502: {"detail":"All image models failed"}
+08:36:34  WARNING     Generation failed (attempt 3/3): Relay error 502: {"detail":"All image models failed"}
+08:36:34  ERROR       FAILED: Poor Man's Lobster
+08:36:38  INFO      [536/736] Poor Man's Pasta
+08:36:38  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+08:36:54  INFO        Saved: poor-mans-pasta.png (1488 KB)
+08:36:54  INFO        Updated frontmatter → images/recipes/poor-mans-pasta.png
+08:36:58  INFO      [537/736] Popcorn
+08:37:00  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+08:37:11  INFO        Saved: popcorn.png (1652 KB)
+08:37:11  INFO        Updated frontmatter → images/recipes/popcorn.png
+08:37:15  INFO      [538/736] Popular Brownie Recipe
+08:37:23  INFO        Saved: popular-brownie-recipe.png (1623 KB)
+08:37:23  INFO        Updated frontmatter → images/recipes/popular-brownie-recipe.png
+08:37:27  INFO      [539/736] Porch Climber
+08:37:39  INFO        Saved: porch-climber.png (1631 KB)
+08:37:40  INFO        Updated frontmatter → images/recipes/porch-climber.png
+08:37:44  INFO      [540/736] Pork Cassoulet (from Metis Newspaper)
+08:37:55  INFO        Saved: pork-cassoulet-from-metis-newspaper.png (1523 KB)
+08:37:55  INFO        Updated frontmatter → images/recipes/pork-cassoulet-from-metis-newspaper.png
+08:37:59  INFO      [541/736] Pork Chop and Vegetable Casserole
+08:38:11  INFO        Saved: pork-chop-and-vegetable-casserole.png (1594 KB)
+08:38:11  INFO        Updated frontmatter → images/recipes/pork-chop-and-vegetable-casserole.png
+08:38:15  INFO      [542/736] Pork With Broccoli Stir Fry
+08:38:22  INFO        Saved: pork-with-broccoli-stir-fry.png (1544 KB)
+08:38:22  INFO        Updated frontmatter → images/recipes/pork-with-broccoli-stir-fry.png
+08:38:26  INFO      [543/736] Potato Pizza (serves 4)
+08:38:33  INFO        Saved: potato-pizza-serves-4.png (1590 KB)
+08:38:33  INFO        Updated frontmatter → images/recipes/potato-pizza-serves-4.png
+08:38:37  INFO      [544/736] Potato \"Playdough\"
+08:38:47  INFO        Saved: potato-playdough.png (1455 KB)
+08:38:47  INFO        Updated frontmatter → images/recipes/potato-playdough.png
+08:38:51  INFO      [545/736] Potato Soup (Outback Steakhouse)
+08:38:57  INFO        Saved: potato-soup-outback-steakhouse.png (1570 KB)
+08:38:57  INFO        Updated frontmatter → images/recipes/potato-soup-outback-steakhouse.png
+08:39:01  INFO      [546/736] Prize Butter Tarts
+08:39:08  INFO        Saved: prize-butter-tarts.png (1410 KB)
+08:39:08  INFO        Updated frontmatter → images/recipes/prize-butter-tarts.png
+08:39:12  INFO      [547/736] Pudding-cake (kraft Winter 2006)
+08:39:20  INFO        Saved: pudding-cake-kraft-winter-2006.png (1573 KB)
+08:39:20  INFO        Updated frontmatter → images/recipes/pudding-cake-kraft-winter-2006.png
+08:39:24  INFO      [548/736] Pumpernickel Spinach Dip
+08:39:38  INFO        Saved: pumpernickel-spinach-dip.png (1744 KB)
+08:39:38  INFO        Updated frontmatter → images/recipes/pumpernickel-spinach-dip.png
+08:39:42  INFO      [549/736] Pumpkin Bread – Gail Leblanc
+08:39:48  INFO        Saved: pumpkin-bread-gail-leblanc.png (1684 KB)
+08:39:48  INFO        Updated frontmatter → images/recipes/pumpkin-bread-gail-leblanc.png
+08:39:52  INFO      [550/736] Pumpkin Pie
+08:40:00  INFO        Saved: pumpkin-pie.png (1706 KB)
+08:40:00  INFO        Updated frontmatter → images/recipes/pumpkin-pie.png
+08:40:04  INFO      [551/736] Purity Pancakes
+08:40:16  INFO        Saved: purity-pancakes.png (1553 KB)
+08:40:16  INFO        Updated frontmatter → images/recipes/purity-pancakes.png
+08:40:20  INFO      [552/736] Purity Tea Biscuits
+08:40:28  INFO        Saved: purity-tea-biscuits.png (1606 KB)
+08:40:28  INFO        Updated frontmatter → images/recipes/purity-tea-biscuits.png
+08:40:32  INFO      [553/736] Quiche Crust (rice)
+08:40:41  INFO        Saved: quiche-crust-rice.png (1546 KB)
+08:40:41  INFO        Updated frontmatter → images/recipes/quiche-crust-rice.png
+08:40:45  INFO      [554/736] Quick and Easy Icing
+08:40:56  INFO        Saved: quick-and-easy-icing.png (1452 KB)
+08:40:56  INFO        Updated frontmatter → images/recipes/quick-and-easy-icing.png
+08:41:00  INFO      [555/736] Quick Chocolate Mousse - Cw
+08:41:08  INFO        Saved: quick-chocolate-mousse-cw.png (1382 KB)
+08:41:08  INFO        Updated frontmatter → images/recipes/quick-chocolate-mousse-cw.png
+08:41:12  INFO      [556/736] Quick Sweet and Sour Sauce
+08:41:23  INFO        Saved: quick-sweet-and-sour-sauce.png (1568 KB)
+08:41:23  INFO        Updated frontmatter → images/recipes/quick-sweet-and-sour-sauce.png
+08:41:27  INFO      [557/736] Quick Vegetable Soup
+08:41:33  INFO        Saved: quick-vegetable-soup.png (1546 KB)
+08:41:33  INFO        Updated frontmatter → images/recipes/quick-vegetable-soup.png
+08:41:37  INFO      [558/736] Raisin Bread
+08:41:49  INFO        Saved: raisin-bread.png (1585 KB)
+08:41:49  INFO        Updated frontmatter → images/recipes/raisin-bread.png
+08:41:53  INFO      [559/736] Ranch Style Tortilla Roll-Ups
+08:41:58  INFO        Saved: ranch-style-tortilla-roll-ups.png (1609 KB)
+08:41:58  INFO        Updated frontmatter → images/recipes/ranch-style-tortilla-roll-ups.png
+08:42:02  INFO      [560/736] Raspberry Chocolate Squares
+08:42:08  INFO        Saved: raspberry-chocolate-squares.png (1659 KB)
+08:42:08  INFO        Updated frontmatter → images/recipes/raspberry-chocolate-squares.png
+08:42:12  INFO      [561/736] Raspberry Vinaigrette (community Voices)
+08:42:23  INFO        Saved: raspberry-vinaigrette-community-voices.png (1478 KB)
+08:42:23  INFO        Updated frontmatter → images/recipes/raspberry-vinaigrette-community-voices.png
+08:42:27  INFO      [562/736] Raspberry Vinegar #2 (community Voices)
+08:42:37  INFO        Saved: raspberry-vinegar-2-community-voices.png (1499 KB)
+08:42:37  INFO        Updated frontmatter → images/recipes/raspberry-vinegar-2-community-voices.png
+08:42:41  INFO      [563/736] Raspberry Vinegar
+08:43:02  INFO        Saved: raspberry-vinegar.png (1475 KB)
+08:43:02  INFO        Updated frontmatter → images/recipes/raspberry-vinegar.png
+08:43:06  INFO      [564/736] Ratatouille
+08:43:23  INFO        Saved: ratatouille-moms-cookbook.png (1476 KB)
+08:43:23  INFO        Updated frontmatter → images/recipes/ratatouille-moms-cookbook.png
+08:43:27  INFO      [565/736] Ratatouille
+08:44:05  INFO        Saved: ratatouille.png (1424 KB)
+08:44:05  INFO        Updated frontmatter → images/recipes/ratatouille.png
+08:44:09  INFO      [566/736] Red Lobster Cheddar Bay Biscuits
+08:44:36  INFO        Saved: red-lobster-cheddar-bay-biscuits.png (1628 KB)
+08:44:36  INFO        Updated frontmatter → images/recipes/red-lobster-cheddar-bay-biscuits.png
+08:44:40  INFO      [567/736] Refrigerator Balls
+08:45:05  INFO        Saved: refrigerator-balls.png (1561 KB)
+08:45:05  INFO        Updated frontmatter → images/recipes/refrigerator-balls.png
+08:45:09  INFO      [568/736] Rhubarb Cream Pie
+08:45:33  INFO        Saved: rhubarb-cream-pie.png (1493 KB)
+08:45:33  INFO        Updated frontmatter → images/recipes/rhubarb-cream-pie.png
+08:45:37  INFO      [569/736] Rhubarb Crisp
+08:46:46  INFO        Saved: rhubarb-crisp.png (1665 KB)
+08:46:46  INFO        Updated frontmatter → images/recipes/rhubarb-crisp.png
+08:46:50  INFO      [570/736] Rhubarb Dessert
+08:47:54  INFO        Saved: rhubarb-dessert.png (1621 KB)
+08:47:54  INFO        Updated frontmatter → images/recipes/rhubarb-dessert.png
+08:47:58  INFO      [571/736] Rhubarb Muffins
+08:48:19  INFO        Saved: rhubarb-muffins.png (1580 KB)
+08:48:19  INFO        Updated frontmatter → images/recipes/rhubarb-muffins.png
+08:48:23  INFO      [572/736] Rhubarb Strawberry Cake (Tracey)
+08:48:39  INFO        Saved: rhubarb-strawberry-cake-tracey.png (1582 KB)
+08:48:39  INFO        Updated frontmatter → images/recipes/rhubarb-strawberry-cake-tracey.png
+08:48:43  INFO      [573/736] Rhubarb Upside-Down Cake
+08:48:53  INFO        Saved: rhubarb-upside-down-cake.png (1678 KB)
+08:48:53  INFO        Updated frontmatter → images/recipes/rhubarb-upside-down-cake.png
+08:48:57  INFO      [574/736] Ribbon Squares
+08:49:11  INFO        Saved: ribbon-squares.png (1628 KB)
+08:49:11  INFO        Updated frontmatter → images/recipes/ribbon-squares.png
+08:49:15  INFO      [575/736] Rice and Zucchini Casserole
+08:49:39  INFO        Saved: rice-and-zucchini-casserole.png (1655 KB)
+08:49:39  INFO        Updated frontmatter → images/recipes/rice-and-zucchini-casserole.png
+08:49:43  INFO      [576/736] Rice Greek Salad
+08:50:19  INFO        Saved: rice-greek-salad.png (1541 KB)
+08:50:19  INFO        Updated frontmatter → images/recipes/rice-greek-salad.png
+08:50:23  INFO      [577/736] Rice Krispie Squares (large Quantity)
+08:51:04  INFO        Saved: rice-krispie-squares-large-quantity.png (1606 KB)
+08:51:04  INFO        Updated frontmatter → images/recipes/rice-krispie-squares-large-quantity.png
+08:51:08  INFO      [578/736] Rice Krispies Squares
+08:51:37  INFO        Saved: rice-krispies-squares.png (1562 KB)
+08:51:37  INFO        Updated frontmatter → images/recipes/rice-krispies-squares.png
+08:51:41  INFO      [579/736] Rice Pudding, Mom’s Creamy – (hazelwood Cookbook)
+08:52:02  INFO        Saved: rice-pudding-moms-creamy-hazelwood-cookbook.png (1535 KB)
+08:52:02  INFO        Updated frontmatter → images/recipes/rice-pudding-moms-creamy-hazelwood-cookbook.png
+08:52:06  INFO      [580/736] Rich Butter Icing
+08:52:15  INFO        Saved: rich-butter-icing.png (1379 KB)
+08:52:15  INFO        Updated frontmatter → images/recipes/rich-butter-icing.png
+08:52:19  INFO      [581/736] Rich Chocolate Icing
+08:52:33  INFO        Saved: rich-chocolate-icing.png (1639 KB)
+08:52:33  INFO        Updated frontmatter → images/recipes/rich-chocolate-icing.png
+08:52:37  INFO      [582/736] Richard Belanger’s Sugar Pie
+08:52:49  INFO        Saved: richard-belangers-sugar-pie.png (1504 KB)
+08:52:49  INFO        Updated frontmatter → images/recipes/richard-belangers-sugar-pie.png
+08:52:53  INFO      [583/736] Richard’s Excellent Fudge
+08:53:11  INFO        Saved: richards-excellent-fudge.png (1491 KB)
+08:53:11  INFO        Updated frontmatter → images/recipes/richards-excellent-fudge.png
+08:53:15  INFO      [584/736] Rich's Sweet Balls
+08:53:46  INFO        Saved: richs-sweet-balls.png (1639 KB)
+08:53:46  INFO        Updated frontmatter → images/recipes/richs-sweet-balls.png
+08:53:50  INFO      [585/736] Roast Shoulder of Pork With Stuffing
+08:54:36  INFO        Saved: roast-shoulder-of-pork-with-stuffing.png (1648 KB)
+08:54:36  INFO        Updated frontmatter → images/recipes/roast-shoulder-of-pork-with-stuffing.png
+08:54:40  INFO      [586/736] Roasted Bull Elephant
+08:54:51  INFO        Saved: roasted-bull-elephant.png (1857 KB)
+08:54:51  INFO        Updated frontmatter → images/recipes/roasted-bull-elephant.png
+08:54:55  INFO      [587/736] Rob's Baked Beans
+08:55:14  INFO        Saved: robs-baked-beans.png (1662 KB)
+08:55:14  INFO        Updated frontmatter → images/recipes/robs-baked-beans.png
+08:55:18  INFO      [588/736] Rocky Road Fudge
+08:55:30  INFO        Saved: rocky-road-fudge.png (1558 KB)
+08:55:30  INFO        Updated frontmatter → images/recipes/rocky-road-fudge.png
+08:55:34  INFO      [589/736] Rolled Cut-Out Sugar Cookies
+08:55:48  INFO        Saved: rolled-cut-out-sugar-cookies.png (1630 KB)
+08:55:48  INFO        Updated frontmatter → images/recipes/rolled-cut-out-sugar-cookies.png
+08:55:52  INFO      [590/736] Roly’s Barley Soup
+08:56:02  INFO        Saved: rolys-barley-soup.png (1605 KB)
+08:56:02  INFO        Updated frontmatter → images/recipes/rolys-barley-soup.png
+08:56:06  INFO      [591/736] Royal Icing
+08:56:31  INFO        Saved: royal-icing.png (1568 KB)
+08:56:31  INFO        Updated frontmatter → images/recipes/royal-icing.png
+08:56:35  INFO      [592/736] Russian Chicken Breasts
+08:56:49  INFO        Saved: russian-chicken-breasts.png (1651 KB)
+08:56:49  INFO        Updated frontmatter → images/recipes/russian-chicken-breasts.png
+08:56:53  INFO      [593/736] Russian Tea
+08:58:13  INFO        Saved: russian-tea.png (1630 KB)
+08:58:13  INFO        Updated frontmatter → images/recipes/russian-tea.png
+08:58:17  INFO      [594/736] Ruth's Beef and Rice Supreme
+08:58:27  INFO        Saved: ruths-beef-and-rice-supreme.png (1506 KB)
+08:58:27  INFO        Updated frontmatter → images/recipes/ruths-beef-and-rice-supreme.png
+08:58:31  INFO      [595/736] Ruth’s Marinated Cucumbers and Onions – (gail Leblanc)
+08:58:55  INFO        Saved: ruths-marinated-cucumbers-and-onions-gail-leblanc.png (1487 KB)
+08:58:55  INFO        Updated frontmatter → images/recipes/ruths-marinated-cucumbers-and-onions-gail-leblanc.png
+08:58:59  INFO      [596/736] Ruth’s Tea Biscuits - (gail Leblanc – Metis Cookhouse)
+08:59:13  INFO        Saved: ruths-tea-biscuits-gail-leblanc-metis-cookhouse.png (1545 KB)
+08:59:13  INFO        Updated frontmatter → images/recipes/ruths-tea-biscuits-gail-leblanc-metis-cookhouse.png
+08:59:17  INFO      [597/736] Salad Dressing
+08:59:45  INFO        Saved: salad-dressing.png (1543 KB)
+08:59:45  INFO        Updated frontmatter → images/recipes/salad-dressing.png
+08:59:49  INFO      [598/736] Salade d'Amour
+09:00:21  INFO        Saved: salade-damour.png (1648 KB)
+09:00:21  INFO        Updated frontmatter → images/recipes/salade-damour.png
+09:00:25  INFO      [599/736] Salmon Bisque
+09:00:46  INFO        Saved: salmon-bisque.png (1486 KB)
+09:00:46  INFO        Updated frontmatter → images/recipes/salmon-bisque.png
+09:00:50  INFO      [600/736] Salmon Cheese Ball
+09:01:02  INFO        Saved: salmon-cheese-ball.png (1657 KB)
+09:01:02  INFO        Updated frontmatter → images/recipes/salmon-cheese-ball.png
+09:01:06  INFO      [601/736] Salmon Pate
+09:03:06  WARNING     Generation failed (attempt 1/3): timed out
+09:05:10  WARNING     Generation failed (attempt 2/3): timed out
+09:07:14  WARNING     Generation failed (attempt 3/3): timed out
+09:07:14  ERROR       FAILED: Salmon Pate
+09:07:18  INFO      [602/736] Salmon Pie
+09:09:18  WARNING     Generation failed (attempt 1/3): timed out
+09:11:22  WARNING     Generation failed (attempt 2/3): timed out
+09:13:26  WARNING     Generation failed (attempt 3/3): timed out
+09:13:26  ERROR       FAILED: Salmon Pie
+09:13:30  INFO      [603/736] Salmon Relish Sandwich Filling
+09:15:30  WARNING     Generation failed (attempt 1/3): timed out
+09:16:03  WARNING     Generation failed (attempt 2/3): Relay error 502: {"detail":"All image models failed"}
+09:16:07  WARNING     Generation failed (attempt 3/3): Relay error 502: {"detail":"All image models failed"}
+09:16:07  ERROR       FAILED: Salmon Relish Sandwich Filling
+09:16:11  INFO      [604/736] Salmon Steak “en Papillote” – (aboriginal Cooking)
+09:16:11  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+09:16:15  WARNING     Generation failed (attempt 2/3): Relay error 502: {"detail":"All image models failed"}
+09:16:19  WARNING     Generation failed (attempt 3/3): Relay error 502: {"detail":"All image models failed"}
+09:16:19  ERROR       FAILED: Salmon Steak “en Papillote” – (aboriginal Cooking)
+09:16:23  INFO      [605/736] Salsa Dip
+09:16:23  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+09:16:27  WARNING     Generation failed (attempt 2/3): Relay error 502: {"detail":"All image models failed"}
+09:16:31  WARNING     Generation failed (attempt 3/3): Relay error 502: {"detail":"All image models failed"}
+09:16:31  ERROR       FAILED: Salsa Dip
+09:16:35  INFO      [606/736] Sam's Roasted Red Pepper & Potato Soup
+09:16:35  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+09:16:39  WARNING     Generation failed (attempt 2/3): Relay error 502: {"detail":"All image models failed"}
+09:16:43  WARNING     Generation failed (attempt 3/3): Relay error 502: {"detail":"All image models failed"}
+09:16:43  ERROR       FAILED: Sam's Roasted Red Pepper & Potato Soup
+09:16:47  INFO      [607/736] Sausage and Pepper Stew
+09:16:47  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+09:16:51  WARNING     Generation failed (attempt 2/3): Relay error 502: {"detail":"All image models failed"}
+09:16:55  WARNING     Generation failed (attempt 3/3): Relay error 502: {"detail":"All image models failed"}
+09:16:55  ERROR       FAILED: Sausage and Pepper Stew
+09:16:59  INFO      [608/736] Sausage and Rice
+09:16:59  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+09:17:03  WARNING     Generation failed (attempt 2/3): Relay error 502: {"detail":"All image models failed"}
+09:17:07  WARNING     Generation failed (attempt 3/3): Relay error 502: {"detail":"All image models failed"}
+09:17:07  ERROR       FAILED: Sausage and Rice
+09:17:11  INFO      [609/736] Scalloped Potatoes, Cheezy
+09:17:16  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+09:17:20  WARNING     Generation failed (attempt 2/3): Relay error 502: {"detail":"All image models failed"}
+09:17:36  WARNING     Generation failed (attempt 3/3): Relay error 502: {"detail":"All image models failed"}
+09:17:36  ERROR       FAILED: Scalloped Potatoes, Cheezy
+09:17:40  INFO      [610/736] Scalloped Potatoes – (elsie Smiley)
+09:17:40  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+09:17:44  WARNING     Generation failed (attempt 2/3): Relay error 502: {"detail":"All image models failed"}
+09:17:48  WARNING     Generation failed (attempt 3/3): Relay error 502: {"detail":"All image models failed"}
+09:17:48  ERROR       FAILED: Scalloped Potatoes – (elsie Smiley)
+09:17:52  INFO      [611/736] Seapie (Yan's)
+09:17:52  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+09:17:56  WARNING     Generation failed (attempt 2/3): Relay error 502: {"detail":"All image models failed"}
+09:18:00  WARNING     Generation failed (attempt 3/3): Relay error 502: {"detail":"All image models failed"}
+09:18:00  ERROR       FAILED: Seapie (Yan's)
+09:18:04  INFO      [612/736] Seven-up Salad
+09:18:04  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+09:18:08  WARNING     Generation failed (attempt 2/3): Relay error 502: {"detail":"All image models failed"}
+09:18:12  WARNING     Generation failed (attempt 3/3): Relay error 502: {"detail":"All image models failed"}
+09:18:12  ERROR       FAILED: Seven-up Salad
+09:18:16  INFO      [613/736] Sheet Pan Shrimp
+09:18:16  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+09:18:20  WARNING     Generation failed (attempt 2/3): Relay error 502: {"detail":"All image models failed"}
+09:18:24  WARNING     Generation failed (attempt 3/3): Relay error 502: {"detail":"All image models failed"}
+09:18:24  ERROR       FAILED: Sheet Pan Shrimp
+09:18:28  INFO      [614/736] Shining Tree Corn Bread
+09:18:28  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+09:18:32  WARNING     Generation failed (attempt 2/3): Relay error 502: {"detail":"All image models failed"}
+09:18:36  WARNING     Generation failed (attempt 3/3): Relay error 502: {"detail":"All image models failed"}
+09:18:36  ERROR       FAILED: Shining Tree Corn Bread
+09:18:40  INFO      [615/736] Shipwreck
+09:18:40  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+09:18:44  WARNING     Generation failed (attempt 2/3): Relay error 502: {"detail":"All image models failed"}
+09:18:48  WARNING     Generation failed (attempt 3/3): Relay error 502: {"detail":"All image models failed"}
+09:18:48  ERROR       FAILED: Shipwreck
+09:18:52  INFO      [616/736] Shortbread Cookies #1
+09:18:52  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+09:18:56  WARNING     Generation failed (attempt 2/3): Relay error 502: {"detail":"All image models failed"}
+09:19:00  WARNING     Generation failed (attempt 3/3): Relay error 502: {"detail":"All image models failed"}
+09:19:00  ERROR       FAILED: Shortbread Cookies #1
+09:19:04  INFO      [617/736] Shortbread Cookies #2
+09:21:04  WARNING     Generation failed (attempt 1/3): timed out
+09:23:08  WARNING     Generation failed (attempt 2/3): timed out
+09:25:12  WARNING     Generation failed (attempt 3/3): timed out
+09:25:12  ERROR       FAILED: Shortbread Cookies #2
+09:25:16  INFO      [618/736] Shrimp Dip
+09:27:16  WARNING     Generation failed (attempt 1/3): timed out
+09:29:20  WARNING     Generation failed (attempt 2/3): timed out
+09:30:28  INFO        Saved: shrimp-dip.png (1503 KB)
+09:30:28  INFO        Updated frontmatter → images/recipes/shrimp-dip.png
+09:30:32  INFO      [619/736] Shrimp Dippers
+09:30:39  INFO        Saved: shrimp-dippers.png (1500 KB)
+09:30:39  INFO        Updated frontmatter → images/recipes/shrimp-dippers.png
+09:30:43  INFO      [620/736] Simple Caramel Frosting
+09:30:49  INFO        Saved: simple-caramel-frosting.png (1552 KB)
+09:30:49  INFO        Updated frontmatter → images/recipes/simple-caramel-frosting.png
+09:30:53  INFO      [621/736] SINamon Buns
+09:31:02  INFO        Saved: sinamon-buns.png (1654 KB)
+09:31:02  INFO        Updated frontmatter → images/recipes/sinamon-buns.png
+09:31:06  INFO      [622/736] Skor Bars
+09:31:12  INFO        Saved: skor-bars.png (1696 KB)
+09:31:12  INFO        Updated frontmatter → images/recipes/skor-bars.png
+09:31:16  INFO      [623/736] Slu8h
+09:31:23  INFO        Saved: slu8h.png (1545 KB)
+09:31:23  INFO        Updated frontmatter → images/recipes/slu8h.png
+09:31:27  INFO      [624/736] Smoked Whitefish
+09:31:34  INFO        Saved: smoked-whitefish.png (1618 KB)
+09:31:34  INFO        Updated frontmatter → images/recipes/smoked-whitefish.png
+09:31:38  INFO      [625/736] Soft Pretzels
+09:31:44  INFO        Saved: soft-pretzels.png (1586 KB)
+09:31:44  INFO        Updated frontmatter → images/recipes/soft-pretzels.png
+09:31:48  INFO      [626/736] Sonia’s Absolutely Fabulous Dessert
+09:31:55  INFO        Saved: sonias-absolutely-fabulous-dessert.png (1592 KB)
+09:31:55  INFO        Updated frontmatter → images/recipes/sonias-absolutely-fabulous-dessert.png
+09:31:59  INFO      [627/736] Sour Cream Apple Pie
+09:32:05  INFO        Saved: sour-cream-apple-pie.png (1460 KB)
+09:32:05  INFO        Updated frontmatter → images/recipes/sour-cream-apple-pie.png
+09:32:09  INFO      [628/736] Sour Cream Coffee Cake with Strueusel
+09:32:16  INFO        Saved: sour-cream-coffee-cake-with-strueusel.png (1585 KB)
+09:32:16  INFO        Updated frontmatter → images/recipes/sour-cream-coffee-cake-with-strueusel.png
+09:32:20  INFO      [629/736] Sour Cream Pie
+09:32:26  INFO        Saved: sour-cream-pie.png (1483 KB)
+09:32:26  INFO        Updated frontmatter → images/recipes/sour-cream-pie.png
+09:32:30  INFO      [630/736] Southern Pecan Pie
+09:32:40  INFO        Saved: southern-pecan-pie.png (1484 KB)
+09:32:40  INFO        Updated frontmatter → images/recipes/southern-pecan-pie.png
+09:32:44  INFO      [631/736] Southwestern Beef Chili with Corn
+09:32:50  INFO        Saved: southwestern-beef-chili-with-corn.png (1506 KB)
+09:32:50  INFO        Updated frontmatter → images/recipes/southwestern-beef-chili-with-corn.png
+09:32:54  INFO      [632/736] Spaghetti With Savory Sauce
+09:33:02  INFO        Saved: spaghetti-with-savory-sauce.png (1510 KB)
+09:33:02  INFO        Updated frontmatter → images/recipes/spaghetti-with-savory-sauce.png
+09:33:06  INFO      [633/736] Spanish Rice
+09:33:12  INFO        Saved: spanish-rice.png (1508 KB)
+09:33:12  INFO        Updated frontmatter → images/recipes/spanish-rice.png
+09:33:16  INFO      [634/736] Sparkling Strawberry Pie - Cw
+09:33:23  INFO        Saved: sparkling-strawberry-pie-cw.png (1529 KB)
+09:33:23  INFO        Updated frontmatter → images/recipes/sparkling-strawberry-pie-cw.png
+09:33:27  INFO      [635/736] Speedy Bean Salad - Cw
+09:33:33  INFO        Saved: speedy-bean-salad-cw.png (1560 KB)
+09:33:33  INFO        Updated frontmatter → images/recipes/speedy-bean-salad-cw.png
+09:33:37  INFO      [636/736] Speedy Chocolate Fudge
+09:33:44  INFO        Saved: speedy-chocolate-fudge.png (1515 KB)
+09:33:44  INFO        Updated frontmatter → images/recipes/speedy-chocolate-fudge.png
+09:33:48  INFO      [637/736] Spiced Pickled Beets (purity Cook Book)
+09:33:54  INFO        Saved: spiced-pickled-beets-purity-cook-book.png (1551 KB)
+09:33:54  INFO        Updated frontmatter → images/recipes/spiced-pickled-beets-purity-cook-book.png
+09:33:58  INFO      [638/736] Spicy Beef Chili
+09:34:08  INFO        Saved: spicy-beef-chili.png (1574 KB)
+09:34:08  INFO        Updated frontmatter → images/recipes/spicy-beef-chili.png
+09:34:12  INFO      [639/736] Spicy Black Bean Soup
+09:34:18  INFO        Saved: spicy-black-bean-soup.png (1596 KB)
+09:34:18  INFO        Updated frontmatter → images/recipes/spicy-black-bean-soup.png
+09:34:22  INFO      [640/736] Spicy Chicken Sushi Roll
+09:34:29  INFO        Saved: spicy-chicken-sushi-roll.png (1559 KB)
+09:34:29  INFO        Updated frontmatter → images/recipes/spicy-chicken-sushi-roll.png
+09:34:33  INFO      [641/736] Spicy Chili Mac
+09:34:39  INFO        Saved: spicy-chili-mac.png (1522 KB)
+09:34:39  INFO        Updated frontmatter → images/recipes/spicy-chili-mac.png
+09:34:43  INFO      [642/736] Spinach Bread Dip
+09:34:51  INFO        Saved: spinach-bread-dip.png (1644 KB)
+09:34:51  INFO        Updated frontmatter → images/recipes/spinach-bread-dip.png
+09:34:55  INFO      [643/736] Spinach Cups
+09:35:03  INFO        Saved: spinach-cups.png (1585 KB)
+09:35:03  INFO        Updated frontmatter → images/recipes/spinach-cups.png
+09:35:07  INFO      [644/736] Spinach Dip
+09:35:13  INFO        Saved: spinach-dip.png (1513 KB)
+09:35:13  INFO        Updated frontmatter → images/recipes/spinach-dip.png
+09:35:17  INFO      [645/736] Spinach Salad with Strawberries
+09:35:27  INFO        Saved: spinach-salad-with-strawberries.png (1533 KB)
+09:35:27  INFO        Updated frontmatter → images/recipes/spinach-salad-with-strawberries.png
+09:35:31  INFO      [646/736] Spinach Salad W/strawberry & Poppy Seed Dressing
+09:35:37  INFO        Saved: spinach-salad-wstrawberry-poppy-seed-dressing.png (1588 KB)
+09:35:37  INFO        Updated frontmatter → images/recipes/spinach-salad-wstrawberry-poppy-seed-dressing.png
+09:35:41  INFO      [647/736] Star Sugar Cookies
+09:35:49  INFO        Saved: star-sugar-cookies.png (1514 KB)
+09:35:49  INFO        Updated frontmatter → images/recipes/star-sugar-cookies.png
+09:35:53  INFO      [648/736] Stock Club Cake with Coffee Icing
+09:36:00  INFO        Saved: stock-club-cake-with-coffee-icing.png (1571 KB)
+09:36:00  INFO        Updated frontmatter → images/recipes/stock-club-cake-with-coffee-icing.png
+09:36:04  INFO      [649/736] Strawberry Cheesecake Keto Fat Bombs
+09:36:10  INFO        Saved: strawberry-cheesecake-keto-fat-bombs.png (1622 KB)
+09:36:10  INFO        Updated frontmatter → images/recipes/strawberry-cheesecake-keto-fat-bombs.png
+09:36:14  INFO      [650/736] Strawberry Jam Muffins
+09:36:21  INFO        Saved: strawberry-jam-muffins.png (1581 KB)
+09:36:21  INFO        Updated frontmatter → images/recipes/strawberry-jam-muffins.png
+09:36:25  INFO      [651/736] Strawberry Raspberry Trifle
+09:36:32  INFO        Saved: strawberry-raspberry-trifle.png (1455 KB)
+09:36:32  INFO        Updated frontmatter → images/recipes/strawberry-raspberry-trifle.png
+09:36:36  INFO      [652/736] Streamlined Honey Garlic Drumsticks
+09:36:43  INFO        Saved: streamlined-honey-garlic-drumsticks.png (1638 KB)
+09:36:43  INFO        Updated frontmatter → images/recipes/streamlined-honey-garlic-drumsticks.png
+09:36:47  INFO      [653/736] Stuffed Cabbage Casserole
+09:36:53  INFO        Saved: stuffed-cabbage-casserole.png (1665 KB)
+09:36:53  INFO        Updated frontmatter → images/recipes/stuffed-cabbage-casserole.png
+09:36:57  INFO      [654/736] Stuffed Pork Chops
+09:37:03  INFO        Saved: stuffed-pork-chops.png (1512 KB)
+09:37:03  INFO        Updated frontmatter → images/recipes/stuffed-pork-chops.png
+09:37:07  INFO      [655/736] Stuffing Balls
+09:37:13  INFO        Saved: stuffing-balls.png (1541 KB)
+09:37:13  INFO        Updated frontmatter → images/recipes/stuffing-balls.png
+09:37:17  INFO      [656/736] Sucre a creme
+09:37:26  INFO        Saved: sucre-a-creme.png (1469 KB)
+09:37:26  INFO        Updated frontmatter → images/recipes/sucre-a-creme.png
+09:37:30  INFO      [657/736] Sucre a La Crème
+09:37:36  INFO        Saved: sucre-a-la-crème.png (1570 KB)
+09:37:36  INFO        Updated frontmatter → images/recipes/sucre-a-la-crème.png
+09:37:40  INFO      [658/736] Sugar Pie
+09:37:47  INFO        Saved: sugar-pie-moms-cookbook.png (1504 KB)
+09:37:47  INFO        Updated frontmatter → images/recipes/sugar-pie-moms-cookbook.png
+09:37:51  INFO      [659/736] Sugar Pie
+09:37:57  INFO        Saved: sugar-pie.png (1382 KB)
+09:37:57  INFO        Updated frontmatter → images/recipes/sugar-pie.png
+09:38:01  INFO      [660/736] Sugared Nuts
+09:38:07  INFO        Saved: sugared-nuts.png (1735 KB)
+09:38:07  INFO        Updated frontmatter → images/recipes/sugared-nuts.png
+09:38:11  INFO      [661/736] Summer Pizza
+09:38:19  INFO        Saved: summer-pizza.png (1664 KB)
+09:38:19  INFO        Updated frontmatter → images/recipes/summer-pizza.png
+09:38:23  INFO      [662/736] Sunchokes (jerusalem Artichoke) – (aboriginal Cooking)
+09:38:30  INFO        Saved: sunchokes-jerusalem-artichoke-aboriginal-cooking.png (1519 KB)
+09:38:30  INFO        Updated frontmatter → images/recipes/sunchokes-jerusalem-artichoke-aboriginal-cooking.png
+09:38:34  INFO      [663/736] Super Chocolate Fudge
+09:38:41  INFO        Saved: super-chocolate-fudge.png (1621 KB)
+09:38:41  INFO        Updated frontmatter → images/recipes/super-chocolate-fudge.png
+09:38:45  INFO      [664/736] Super Moist Chocolate Mayo Cake
+09:38:51  INFO        Saved: super-moist-chocolate-mayo-cake.png (1498 KB)
+09:38:51  INFO        Updated frontmatter → images/recipes/super-moist-chocolate-mayo-cake.png
+09:38:55  INFO      [665/736] Sushi Rice
+09:39:01  INFO        Saved: sushi-rice.png (1470 KB)
+09:39:01  INFO        Updated frontmatter → images/recipes/sushi-rice.png
+09:39:05  INFO      [666/736] Swedish Nuts
+09:39:12  INFO        Saved: swedish-nuts.png (1569 KB)
+09:39:12  INFO        Updated frontmatter → images/recipes/swedish-nuts.png
+09:39:16  INFO      [667/736] Swedish Strips
+09:39:23  INFO        Saved: swedish-strips.png (1558 KB)
+09:39:23  INFO        Updated frontmatter → images/recipes/swedish-strips.png
+09:39:27  INFO      [668/736] Sweet and Sour Meatballs
+09:39:34  INFO        Saved: sweet-and-sour-meatballs.png (1573 KB)
+09:39:34  INFO        Updated frontmatter → images/recipes/sweet-and-sour-meatballs.png
+09:39:38  INFO      [669/736] Sweet Chili Heat Corn Salad (Sandra)
+09:39:46  INFO        Saved: sweet-chili-heat-corn-salad-sandra.png (1597 KB)
+09:39:46  INFO        Updated frontmatter → images/recipes/sweet-chili-heat-corn-salad-sandra.png
+09:39:50  INFO      [670/736] Sweet Marie Bars
+09:39:56  INFO        Saved: sweet-marie-bars.png (1572 KB)
+09:39:56  INFO        Updated frontmatter → images/recipes/sweet-marie-bars.png
+09:40:00  INFO      [671/736] Sweet 'n' Sour Meatloaf
+09:40:07  INFO        Saved: sweet-n-sour-meatloaf.png (1530 KB)
+09:40:07  INFO        Updated frontmatter → images/recipes/sweet-n-sour-meatloaf.png
+09:40:11  INFO      [672/736] Sweet Pepper Chowder
+09:40:18  INFO        Saved: sweet-pepper-chowder.png (1552 KB)
+09:40:18  INFO        Updated frontmatter → images/recipes/sweet-pepper-chowder.png
+09:40:22  INFO      [673/736] Sweet & Sour Polish Dill Pickles –(louise Chalifoux)
+09:40:28  INFO        Saved: sweet-sour-polish-dill-pickles-louise-chalifoux.png (1689 KB)
+09:40:28  INFO        Updated frontmatter → images/recipes/sweet-sour-polish-dill-pickles-louise-chalifoux.png
+09:40:32  INFO      [674/736] Swiss Steak Slow Cooker
+09:40:40  INFO        Saved: swiss-steak-slow-cooker.png (1519 KB)
+09:40:40  INFO        Updated frontmatter → images/recipes/swiss-steak-slow-cooker.png
+09:40:44  INFO      [675/736] Taco Dip
+09:40:53  INFO        Saved: taco-dip.png (1578 KB)
+09:40:53  INFO        Updated frontmatter → images/recipes/taco-dip.png
+09:40:57  INFO      [676/736] Tarragon Potato Salad
+09:41:04  INFO        Saved: tarragon-potato-salad.png (1564 KB)
+09:41:04  INFO        Updated frontmatter → images/recipes/tarragon-potato-salad.png
+09:41:08  INFO      [677/736] Tarragon Roasted Chicken – (aboriginal Cooking –gail Leblanc
+09:41:14  INFO        Saved: tarragon-roasted-chicken-aboriginal-cooking-gail-leblanc.png (1645 KB)
+09:41:14  INFO        Updated frontmatter → images/recipes/tarragon-roasted-chicken-aboriginal-cooking-gail-leblanc.png
+09:41:18  INFO      [678/736] Tarte Au Sucre (pauline Dupuis)
+09:41:25  INFO        Saved: tarte-au-sucre-pauline-dupuis.png (1551 KB)
+09:41:25  INFO        Updated frontmatter → images/recipes/tarte-au-sucre-pauline-dupuis.png
+09:41:29  INFO      [679/736] Tasty Cheese Loaf
+09:41:36  INFO        Saved: tasty-cheese-loaf.png (1586 KB)
+09:41:36  INFO        Updated frontmatter → images/recipes/tasty-cheese-loaf.png
+09:41:40  INFO      [680/736] Tea Biscuit Mix
+09:41:47  INFO        Saved: tea-biscuit-mix.png (1603 KB)
+09:41:47  INFO        Updated frontmatter → images/recipes/tea-biscuit-mix.png
+09:41:51  INFO      [681/736] Tea Biscuits Supreme
+09:41:57  INFO        Saved: tea-biscuits-supreme.png (1615 KB)
+09:41:57  INFO        Updated frontmatter → images/recipes/tea-biscuits-supreme.png
+09:42:01  INFO      [682/736] Teriyaki Chicken Sushi Roll
+09:42:09  INFO        Saved: teriyaki-chicken-sushi-roll.png (1540 KB)
+09:42:09  INFO        Updated frontmatter → images/recipes/teriyaki-chicken-sushi-roll.png
+09:42:13  INFO      [683/736] Texas Cake
+09:42:20  INFO        Saved: texas-cake.png (1564 KB)
+09:42:20  INFO        Updated frontmatter → images/recipes/texas-cake.png
+09:42:24  INFO      [684/736] The Best Chocolate Chip Cookie Recipe Ever
+09:42:31  INFO        Saved: the-best-chocolate-chip-cookie-recipe-ever.png (1671 KB)
+09:42:31  INFO        Updated frontmatter → images/recipes/the-best-chocolate-chip-cookie-recipe-ever.png
+09:42:35  INFO      [685/736] The Best Lemon Bars
+09:42:42  INFO        Saved: the-best-lemon-bars.png (1641 KB)
+09:42:42  INFO        Updated frontmatter → images/recipes/the-best-lemon-bars.png
+09:42:46  INFO      [686/736] The Keg Copycat Cheesy Garlic Toast
+09:42:54  INFO        Saved: the-keg-copycat-cheesy-garlic-toast.png (1446 KB)
+09:42:54  INFO        Updated frontmatter → images/recipes/the-keg-copycat-cheesy-garlic-toast.png
+09:42:58  INFO      [687/736] The Perfect Basic Burger
+09:43:08  INFO        Saved: the-perfect-basic-burger.png (1548 KB)
+09:43:08  INFO        Updated frontmatter → images/recipes/the-perfect-basic-burger.png
+09:43:12  INFO      [688/736] The Ultimate Chocolate Chip Cookie
+09:43:19  INFO        Saved: the-ultimate-chocolate-chip-cookie.png (1493 KB)
+09:43:19  INFO        Updated frontmatter → images/recipes/the-ultimate-chocolate-chip-cookie.png
+09:43:23  INFO      [689/736] The Ultimate Tourtiere
+09:43:30  INFO        Saved: the-ultimate-tourtiere.png (1542 KB)
+09:43:30  INFO        Updated frontmatter → images/recipes/the-ultimate-tourtiere.png
+09:43:34  INFO      [690/736] Thimble Cookies
+09:43:42  INFO        Saved: thimble-cookies.png (1579 KB)
+09:43:42  INFO        Updated frontmatter → images/recipes/thimble-cookies.png
+09:43:46  INFO      [691/736] Three-Bean Cassoulet
+09:43:52  INFO        Saved: three-bean-cassoulet.png (1513 KB)
+09:43:52  INFO        Updated frontmatter → images/recipes/three-bean-cassoulet.png
+09:43:56  INFO      [692/736] Three Sisters Soup – (from Take-5 Workshop by Lise Malette)
+09:44:03  INFO        Saved: three-sisters-soup-from-take-5-workshop-by-lise-malette.png (1487 KB)
+09:44:03  INFO        Updated frontmatter → images/recipes/three-sisters-soup-from-take-5-workshop-by-lise-malette.png
+09:44:07  INFO      [693/736] To Whip Evaporated Milk
+09:44:13  INFO        Saved: to-whip-evaporated-milk.png (1528 KB)
+09:44:14  INFO        Updated frontmatter → images/recipes/to-whip-evaporated-milk.png
+09:44:18  INFO      [694/736] Toasty Garlic Bread
+09:44:23  INFO        Saved: toasty-garlic-bread.png (1589 KB)
+09:44:23  INFO        Updated frontmatter → images/recipes/toasty-garlic-bread.png
+09:44:27  INFO      [695/736] Toffee Chocolate Chunk Almond Bars
+09:44:34  INFO        Saved: toffee-chocolate-chunk-almond-bars.png (1634 KB)
+09:44:34  INFO        Updated frontmatter → images/recipes/toffee-chocolate-chunk-almond-bars.png
+09:44:38  INFO      [696/736] Toffee Frost-ease
+09:44:45  INFO        Saved: toffee-frost-ease.png (1597 KB)
+09:44:45  INFO        Updated frontmatter → images/recipes/toffee-frost-ease.png
+09:44:49  INFO      [697/736] Toffee-Topped Bars
+09:44:56  INFO        Saved: toffee-topped-bars.png (1683 KB)
+09:44:56  INFO        Updated frontmatter → images/recipes/toffee-topped-bars.png
+09:45:00  INFO      [698/736] Tofu Chop Suey
+09:45:06  INFO        Saved: tofu-chop-suey.png (1613 KB)
+09:45:06  INFO        Updated frontmatter → images/recipes/tofu-chop-suey.png
+09:45:10  INFO      [699/736] Tofu Mayonnaise
+09:45:21  INFO        Saved: tofu-mayonnaise.png (1516 KB)
+09:45:21  INFO        Updated frontmatter → images/recipes/tofu-mayonnaise.png
+09:45:25  INFO      [700/736] Tomato Casserole - (cowboy Grub)
+09:45:31  INFO        Saved: tomato-casserole-cowboy-grub.png (1704 KB)
+09:45:31  INFO        Updated frontmatter → images/recipes/tomato-casserole-cowboy-grub.png
+09:45:35  INFO      [701/736] Tomato Soup Cake
+09:45:41  INFO        Saved: tomato-soup-cake.png (1621 KB)
+09:45:41  INFO        Updated frontmatter → images/recipes/tomato-soup-cake.png
+09:45:45  INFO      [702/736] Tomato Soup Potatoes
+09:45:52  INFO        Saved: tomato-soup-potatoes.png (1565 KB)
+09:45:52  INFO        Updated frontmatter → images/recipes/tomato-soup-potatoes.png
+09:45:56  INFO      [703/736] Tomato Soup Salad
+09:46:03  INFO        Saved: tomato-soup-salad.png (1484 KB)
+09:46:03  INFO        Updated frontmatter → images/recipes/tomato-soup-salad.png
+09:46:07  INFO      [704/736] Top Hat Triple-layer Bars
+09:46:13  INFO        Saved: top-hat-triple-layer-bars.png (1565 KB)
+09:46:13  INFO        Updated frontmatter → images/recipes/top-hat-triple-layer-bars.png
+09:46:17  INFO      [705/736] Tourtiere
+09:46:23  INFO        Saved: tourtiere.png (1459 KB)
+09:46:23  INFO        Updated frontmatter → images/recipes/tourtiere.png
+09:46:27  INFO      [706/736] Traditional Gingerbread Man Cookies
+09:46:34  INFO        Saved: traditional-gingerbread-man-cookies.png (1606 KB)
+09:46:34  INFO        Updated frontmatter → images/recipes/traditional-gingerbread-man-cookies.png
+09:46:38  INFO      [707/736] Turkey Noodle Soup
+09:46:45  INFO        Saved: turkey-noodle-soup.png (1480 KB)
+09:46:45  INFO        Updated frontmatter → images/recipes/turkey-noodle-soup.png
+09:46:49  INFO      [708/736] Turkey Stuffing Burgers
+09:46:56  INFO        Saved: turkey-stuffing-burgers.png (1598 KB)
+09:46:56  INFO        Updated frontmatter → images/recipes/turkey-stuffing-burgers.png
+09:47:00  INFO      [709/736] Uncle Paul’s Pumpkin Bars – (creation Unique)
+09:47:01  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+09:47:12  INFO        Saved: uncle-pauls-pumpkin-bars-creation-unique.png (1525 KB)
+09:47:12  INFO        Updated frontmatter → images/recipes/uncle-pauls-pumpkin-bars-creation-unique.png
+09:47:16  INFO      [710/736] Vegetable Burger Soup
+09:47:17  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+09:47:22  WARNING     Generation failed (attempt 2/3): Relay error 502: {"detail":"All image models failed"}
+09:47:32  INFO        Saved: vegetable-burger-soup.png (1526 KB)
+09:47:32  INFO        Updated frontmatter → images/recipes/vegetable-burger-soup.png
+09:47:36  INFO      [711/736] Vegetable Soup
+09:47:44  INFO        Saved: vegetable-soup.png (1507 KB)
+09:47:44  INFO        Updated frontmatter → images/recipes/vegetable-soup.png
+09:47:48  INFO      [712/736] Vegetable/Chip Dip
+09:47:54  INFO        Saved: vegetablechip-dip.png (1536 KB)
+09:47:54  INFO        Updated frontmatter → images/recipes/vegetablechip-dip.png
+09:47:58  INFO      [713/736] Water Bread
+09:48:04  INFO        Saved: water-bread.png (1569 KB)
+09:48:04  INFO        Updated frontmatter → images/recipes/water-bread.png
+09:48:08  INFO      [714/736] Wedges (potatoes)
+09:48:16  INFO        Saved: wedges-potatoes.png (1528 KB)
+09:48:16  INFO        Updated frontmatter → images/recipes/wedges-potatoes.png
+09:48:20  INFO      [715/736] Wendy Coleslaw Dressing
+09:48:26  INFO        Saved: wendy-coleslaw-dressing.png (1553 KB)
+09:48:26  INFO        Updated frontmatter → images/recipes/wendy-coleslaw-dressing.png
+09:48:30  INFO      [716/736] Whipped Shortbread
+09:48:36  INFO        Saved: whipped-shortbread.png (1488 KB)
+09:48:36  INFO        Updated frontmatter → images/recipes/whipped-shortbread.png
+09:48:40  INFO      [717/736] White Christmas Cake
+09:48:49  INFO        Saved: white-christmas-cake.png (1505 KB)
+09:48:49  INFO        Updated frontmatter → images/recipes/white-christmas-cake.png
+09:48:53  INFO      [718/736] Whole Wheat Blueberry Biscuits
+09:49:00  INFO        Saved: whole-wheat-blueberry-biscuits.png (1645 KB)
+09:49:00  INFO        Updated frontmatter → images/recipes/whole-wheat-blueberry-biscuits.png
+09:49:04  INFO      [719/736] Wild Bluebarry Smoothies (community Voices)
+09:49:10  INFO        Saved: wild-bluebarry-smoothies-community-voices.png (1655 KB)
+09:49:10  INFO        Updated frontmatter → images/recipes/wild-bluebarry-smoothies-community-voices.png
+09:49:14  INFO      [720/736] Wild Rice Blueberry Pudding - (tracy Bald)
+09:49:22  INFO        Saved: wild-rice-blueberry-pudding-tracy-bald.png (1547 KB)
+09:49:22  INFO        Updated frontmatter → images/recipes/wild-rice-blueberry-pudding-tracy-bald.png
+09:49:26  INFO      [721/736] Wild Rice & Cheese Casserole – (metis Cooking by Gail Leblanc
+09:49:34  INFO        Saved: wild-rice-cheese-casserole-metis-cooking-by-gail-leblanc.png (1578 KB)
+09:49:34  INFO        Updated frontmatter → images/recipes/wild-rice-cheese-casserole-metis-cooking-by-gail-leblanc.png
+09:49:38  INFO      [722/736] Wild Rice Many-Grain Bread
+09:49:44  INFO        Saved: wild-rice-many-grain-bread.png (1605 KB)
+09:49:44  INFO        Updated frontmatter → images/recipes/wild-rice-many-grain-bread.png
+09:49:48  INFO      [723/736] Wild Rice Stuffing for Game Birds – (by Gail Leblanc)
+09:49:55  INFO        Saved: wild-rice-stuffing-for-game-birds-by-gail-leblanc.png (1666 KB)
+09:49:55  INFO        Updated frontmatter → images/recipes/wild-rice-stuffing-for-game-birds-by-gail-leblanc.png
+09:49:59  INFO      [724/736] Winter Chili Sauce – Using Canned Tomatoes
+09:50:05  INFO        Saved: winter-chili-sauce-using-canned-tomatoes.png (1571 KB)
+09:50:05  INFO        Updated frontmatter → images/recipes/winter-chili-sauce-using-canned-tomatoes.png
+09:50:09  INFO      [725/736] Yankee Pot Roast Soup
+09:50:15  INFO        Saved: yankee-pot-roast-soup.png (1538 KB)
+09:50:15  INFO        Updated frontmatter → images/recipes/yankee-pot-roast-soup.png
+09:50:19  INFO      [726/736] Yogurt Blueberry Muffins
+09:50:25  INFO        Saved: yogurt-blueberry-muffins.png (1623 KB)
+09:50:25  INFO        Updated frontmatter → images/recipes/yogurt-blueberry-muffins.png
+09:50:29  INFO      [727/736] Yuck-a-Flux (The Party Drink)
+09:50:35  INFO        Saved: yuck-a-flux-the-party-drink.png (1567 KB)
+09:50:35  INFO        Updated frontmatter → images/recipes/yuck-a-flux-the-party-drink.png
+09:50:40  INFO      [728/736] Yummy Dip
+09:50:46  INFO        Saved: yummy-dip.png (1450 KB)
+09:50:46  INFO        Updated frontmatter → images/recipes/yummy-dip.png
+09:50:50  INFO      [729/736] Yummy Oatmeal Cookies
+09:50:56  INFO        Saved: yummy-oatmeal-cookies.png (1637 KB)
+09:50:56  INFO        Updated frontmatter → images/recipes/yummy-oatmeal-cookies.png
+09:51:00  INFO      [730/736] Zesty Barbecued Chicken
+09:51:06  INFO        Saved: zesty-barbecued-chicken.png (1470 KB)
+09:51:06  INFO        Updated frontmatter → images/recipes/zesty-barbecued-chicken.png
+09:51:10  INFO      [731/736] Zesty Asian Chicken Salad
+09:51:17  INFO        Saved: zesty-oriental-chicken-salad.png (1572 KB)
+09:51:17  INFO        Updated frontmatter → images/recipes/zesty-oriental-chicken-salad.png
+09:51:21  INFO      [732/736] Zesty Party Crunch
+09:51:30  INFO        Saved: zesty-party-crunch.png (1575 KB)
+09:51:30  INFO        Updated frontmatter → images/recipes/zesty-party-crunch.png
+09:51:34  INFO      [733/736] Ziti With Vegetables
+09:51:40  INFO        Saved: ziti-with-vegetables.png (1548 KB)
+09:51:40  INFO        Updated frontmatter → images/recipes/ziti-with-vegetables.png
+09:51:44  INFO      [734/736] Zucchini Bread
+09:51:51  INFO        Saved: zucchini-bread.png (1626 KB)
+09:51:51  INFO        Updated frontmatter → images/recipes/zucchini-bread.png
+09:51:55  INFO      [735/736] Zucchini Lasagna
+09:52:01  INFO        Saved: zucchini-lasagna.png (1552 KB)
+09:52:01  INFO        Updated frontmatter → images/recipes/zucchini-lasagna.png
+09:52:05  INFO      [736/736] Zucchini-tomato-onion Casserole
+09:52:13  INFO        Saved: zucchini-tomato-onion-casserole.png (1608 KB)
+09:52:13  INFO        Updated frontmatter → images/recipes/zucchini-tomato-onion-casserole.png
+09:52:17  INFO      Done! Success: 402, Failed: 24, Skipped: 310
+10:14:18  INFO      Found 736 recipe files
+10:14:18  INFO      Using relay at http://127.0.0.1:5000/relay/image
+10:14:18  INFO      [1/736] Blueberry Muffins
+10:14:24  INFO        Saved: blueberry-muffins.png (1504 KB)
+10:14:24  INFO        Updated frontmatter → images/recipes/blueberry-muffins.png
+10:14:24  INFO      Done! Success: 1, Failed: 0, Skipped: 0
+10:18:10  INFO      Found 736 recipe files
+10:18:10  INFO      Using relay at http://127.0.0.1:5000/relay/image
+10:18:11  INFO      [529/736] Pizza Buns
+10:18:18  INFO        Saved: pizza-buns.png (1675 KB)
+10:18:18  INFO        Updated frontmatter → images/recipes/pizza-buns.png
+10:18:22  INFO      [530/736] Pizza Dough
+10:18:28  INFO        Saved: pizza-dough.png (1522 KB)
+10:18:28  INFO        Updated frontmatter → images/recipes/pizza-dough.png
+10:18:32  INFO      [531/736] Pizza Pie Dough
+10:18:39  INFO        Saved: pizza-pie-dough.png (1618 KB)
+10:18:39  INFO        Updated frontmatter → images/recipes/pizza-pie-dough.png
+10:18:43  INFO      [532/736] Pizza Sauce
+10:18:50  INFO        Saved: pizza-sauce.png (1463 KB)
+10:18:50  INFO        Updated frontmatter → images/recipes/pizza-sauce.png
+10:18:54  INFO      [533/736] Plain Dandelion Wine
+10:19:03  INFO        Saved: plain-dandelion-wine.png (1616 KB)
+10:19:03  INFO        Updated frontmatter → images/recipes/plain-dandelion-wine.png
+10:19:07  INFO      [534/736] Playdough
+10:19:14  INFO        Saved: playdough.png (1589 KB)
+10:19:14  INFO        Updated frontmatter → images/recipes/playdough.png
+10:19:18  INFO      [535/736] Poor Man's Lobster
+10:19:24  INFO        Saved: poor-mans-lobster.png (1462 KB)
+10:19:24  INFO        Updated frontmatter → images/recipes/poor-mans-lobster.png
+10:19:28  INFO      [601/736] Salmon Pate
+10:19:35  INFO        Saved: salmon-pate.png (1561 KB)
+10:19:35  INFO        Updated frontmatter → images/recipes/salmon-pate.png
+10:19:39  INFO      [602/736] Salmon Pie
+10:19:45  INFO        Saved: salmon-pie.png (1524 KB)
+10:19:45  INFO        Updated frontmatter → images/recipes/salmon-pie.png
+10:19:49  INFO      [603/736] Salmon Relish Sandwich Filling
+10:19:55  INFO        Saved: salmon-relish-sandwich-filling.png (1520 KB)
+10:19:55  INFO        Updated frontmatter → images/recipes/salmon-relish-sandwich-filling.png
+10:19:59  INFO      [604/736] Salmon Steak “en Papillote” – (aboriginal Cooking)
+10:20:00  WARNING     Generation failed (attempt 1/3): Relay error 502: {"detail":"All image models failed"}
+10:20:06  WARNING     Generation failed (attempt 2/3): Relay error 502: {"detail":"All image models failed"}
+10:20:11  WARNING     Generation failed (attempt 3/3): Relay error 502: {"detail":"All image models failed"}
+10:20:11  ERROR       FAILED: Salmon Steak “en Papillote” – (aboriginal Cooking)
+10:20:15  INFO      [605/736] Salsa Dip
+10:20:22  INFO        Saved: salsa-dip.png (1616 KB)
+10:20:22  INFO        Updated frontmatter → images/recipes/salsa-dip.png
+10:20:26  INFO      [606/736] Sam's Roasted Red Pepper & Potato Soup
+10:20:32  INFO        Saved: sams-roasted-red-pepper-potato-soup.png (1435 KB)
+10:20:32  INFO        Updated frontmatter → images/recipes/sams-roasted-red-pepper-potato-soup.png
+10:20:36  INFO      [607/736] Sausage and Pepper Stew
+10:20:43  INFO        Saved: sausage-and-pepper-stew.png (1555 KB)
+10:20:43  INFO        Updated frontmatter → images/recipes/sausage-and-pepper-stew.png
+10:20:47  INFO      [608/736] Sausage and Rice
+10:20:53  INFO        Saved: sausage-and-rice.png (1609 KB)
+10:20:53  INFO        Updated frontmatter → images/recipes/sausage-and-rice.png
+10:20:57  INFO      [609/736] Scalloped Potatoes, Cheezy
+10:21:03  INFO        Saved: scalloped-potatoes-cheezy.png (1625 KB)
+10:21:03  INFO        Updated frontmatter → images/recipes/scalloped-potatoes-cheezy.png
+10:21:07  INFO      [610/736] Scalloped Potatoes – (elsie Smiley)
+10:21:14  INFO        Saved: scalloped-potatoes-elsie-smiley.png (1511 KB)
+10:21:14  INFO        Updated frontmatter → images/recipes/scalloped-potatoes-elsie-smiley.png
+10:21:18  INFO      [611/736] Seapie (Yan's)
+10:21:25  INFO        Saved: seapie-yans.png (1591 KB)
+10:21:25  INFO        Updated frontmatter → images/recipes/seapie-yans.png
+10:21:29  INFO      [612/736] Seven-up Salad
+10:21:35  INFO        Saved: seven-up-salad.png (1467 KB)
+10:21:35  INFO        Updated frontmatter → images/recipes/seven-up-salad.png
+10:21:39  INFO      [613/736] Sheet Pan Shrimp
+10:21:46  INFO        Saved: sheet-pan-shrimp.png (1602 KB)
+10:21:46  INFO        Updated frontmatter → images/recipes/sheet-pan-shrimp.png
+10:21:50  INFO      [614/736] Shining Tree Corn Bread
+10:21:57  INFO        Saved: shining-tree-corn-bread.png (1538 KB)
+10:21:57  INFO        Updated frontmatter → images/recipes/shining-tree-corn-bread.png
+10:22:01  INFO      [615/736] Shipwreck
+10:22:10  INFO        Saved: shipwreck.png (1550 KB)
+10:22:10  INFO        Updated frontmatter → images/recipes/shipwreck.png
+10:22:14  INFO      [616/736] Shortbread Cookies #1
+10:22:20  INFO        Saved: shortbread-cookies-1.png (1512 KB)
+10:22:20  INFO        Updated frontmatter → images/recipes/shortbread-cookies-1.png
+10:22:24  INFO      [617/736] Shortbread Cookies #2
+10:22:31  INFO        Saved: shortbread-cookies-2.png (1510 KB)
+10:22:31  INFO        Updated frontmatter → images/recipes/shortbread-cookies-2.png
+10:22:35  INFO      Done! Success: 23, Failed: 1, Skipped: 712

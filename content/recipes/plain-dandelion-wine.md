@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7597560/pexels-photo-7597560.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/plain-dandelion-wine.png"
 notes: ""
 ---
 ## Instructions

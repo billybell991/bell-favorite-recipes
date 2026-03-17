@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/14580492/pexels-photo-14580492.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/shortbread-cookies-2.png"
 notes: ""
 ---
 - 1 1/4 cups all purpose flour

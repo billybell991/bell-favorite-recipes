@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6441795/pexels-photo-6441795.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/salmon-relish-sandwich-filling.png"
 notes: ""
 ---
 ## Ingredients

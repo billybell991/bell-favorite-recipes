@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/31043029/pexels-photo-31043029.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/salmon-pie.png"
 notes: ""
 ---
 ## Ingredients

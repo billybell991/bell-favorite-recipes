@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/14979839/pexels-photo-14979839.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/scalloped-potatoes-cheezy.png"
 notes: ""
 ---
 ## Ingredients

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5899673/pexels-photo-5899673.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/salsa-dip.png"
 notes: ""
 ---
 ## Ingredients
