@@ -1,5 +1,5 @@
 """
-Regenerate all recipe images using Gemini/Imagen AI.
+Regenerate all recipe images using the local Gemini relay bridge.
 
 Replaces generic Pexels stock photos with AI-generated food photography
 that's tailored to each recipe's actual title and ingredients.
@@ -14,29 +14,27 @@ TODO: Run a full pass to regenerate images for ALL recipes (use --resume to skip
       Command: python regenerate_images_gemini.py --resume
 """
 
-import os
 import re
 import sys
 import time
 import argparse
 import logging
 from pathlib import Path
-
-from dotenv import load_dotenv
-from google import genai as google_genai
-from google.genai import types as genai_types
+import json
+import base64
+import urllib.request
+import urllib.error
 
 # ---------------------------------------------------------------------------
 # Config
 # ---------------------------------------------------------------------------
-RELAY_ENV = Path(r"c:\Stuff\ai_relay_server\.env")
+RELAY_URL = "http://127.0.0.1:5000/relay/image"
+RELAY_TIMEOUT = 120
 CONTENT_DIR = Path(__file__).parent / "content" / "recipes"
 IMAGE_DIR = Path(__file__).parent / "static" / "images" / "recipes"
 LOG_FILE = Path(__file__).parent / "image_regen_log.txt"
 
 # Model choices (in order of preference)
-IMAGE_MODEL = "imagen-4.0-fast-generate-001"
-FALLBACK_MODEL = "gemini-2.5-flash-image"  # Supports image output
 ASPECT_RATIO = "16:9"  # Landscape for food photos
 
 # Rate limiting
@@ -56,17 +54,11 @@ log = logging.getLogger("regen-images")
 
 
 # ---------------------------------------------------------------------------
-# Gemini client setup
+# Relay client setup
 # ---------------------------------------------------------------------------
-def init_client():
-    load_dotenv(RELAY_ENV)
-    api_key = os.getenv("GEMINI_API_KEY", "")
-    if not api_key:
-        log.error("GEMINI_API_KEY not found in %s", RELAY_ENV)
-        sys.exit(1)
-    client = google_genai.Client(api_key=api_key)
-    log.info("Gemini client initialized")
-    return client
+def check_relay():
+    log.info("Using relay at %s", RELAY_URL)
+
 
 
 # ---------------------------------------------------------------------------
@@ -164,51 +156,41 @@ def build_food_prompt(recipe: dict) -> str:
 # ---------------------------------------------------------------------------
 # Image generation
 # ---------------------------------------------------------------------------
-def generate_image(client, prompt: str, output_path: Path, model: str = IMAGE_MODEL) -> bool:
-    """Generate and save a single image. Returns True on success."""
+def request_image(prompt: str) -> bytes:
+    payload = {
+        "prompt": prompt,
+        "aspect_ratio": ASPECT_RATIO,
+    }
+    data = json.dumps(payload).encode("utf-8")
+    req = urllib.request.Request(
+        RELAY_URL,
+        data=data,
+        headers={"Content-Type": "application/json"},
+        method="POST",
+    )
+
     try:
-        if model.startswith("imagen"):
-            result = client.models.generate_images(
-                model=model,
-                prompt=prompt,
-                config=genai_types.GenerateImagesConfig(
-                    number_of_images=1,
-                    aspect_ratio=ASPECT_RATIO,
-                ),
-            )
-            if not result.generated_images:
-                return False
-            image_data = result.generated_images[0].image.image_bytes
-        else:
-            result = client.models.generate_content(
-                model=model,
-                contents=prompt,
-                config=genai_types.GenerateContentConfig(
-                    response_modalities=["IMAGE", "TEXT"],
-                ),
-            )
-            image_data = None
-            if result.candidates:
-                for part in result.candidates[0].content.parts:
-                    if part.inline_data and part.inline_data.mime_type.startswith("image/"):
-                        image_data = part.inline_data.data
-                        break
-            if not image_data:
-                return False
+        with urllib.request.urlopen(req, timeout=RELAY_TIMEOUT) as resp:
+            raw = resp.read()
+    except urllib.error.HTTPError as e:
+        err_text = e.read().decode("utf-8", errors="ignore")
+        raise RuntimeError(f"Relay error {e.code}: {err_text}") from e
+    except urllib.error.URLError as e:
+        raise RuntimeError(f"Relay unreachable: {e.reason}") from e
 
-        output_path.parent.mkdir(parents=True, exist_ok=True)
-        output_path.write_bytes(image_data)
-        size_kb = len(image_data) / 1024
-        log.info("  Saved: %s (%.0f KB)", output_path.name, size_kb)
-        return True
+    result = json.loads(raw.decode("utf-8"))
+    image_b64 = result.get("image_base64", "")
+    if not image_b64:
+        raise RuntimeError("Relay returned no image data")
 
-    except Exception as e:
-        err_str = str(e)
-        if "RESOURCE_EXHAUSTED" in err_str or "429" in err_str:
-            log.warning("  Quota exhausted for model %s", model)
-            raise  # Let caller handle quota exhaustion
-        log.warning("  Generation failed: %s", e)
-        return False
+    return base64.b64decode(image_b64)
+
+
+def save_image_bytes(image_bytes: bytes, output_path: Path) -> None:
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_bytes(image_bytes)
+    size_kb = len(image_bytes) / 1024
+    log.info("  Saved: %s (%.0f KB)", output_path.name, size_kb)
 
 
 def update_frontmatter(filepath: Path, new_image_path: str):
@@ -241,17 +223,14 @@ def main():
     recipe_files = [f for f in recipe_files if f.name != "_index.md"]
     log.info("Found %d recipe files", len(recipe_files))
 
-    client = None
     if not args.dry_run:
-        client = init_client()
+        check_relay()
 
     IMAGE_DIR.mkdir(parents=True, exist_ok=True)
 
     success = 0
     failed = 0
     skipped = 0
-    imagen_quota_hit = False  # Once Imagen quota is exhausted, skip it for all remaining
-
     for i, filepath in enumerate(recipe_files):
         recipe = parse_recipe(filepath)
         if not recipe or not recipe.get("title"):
@@ -286,30 +265,17 @@ def main():
                 break
             continue
 
-        # Generate with retry + fallback
         ok = False
-        quota_hit = False
-        models_to_try = [FALLBACK_MODEL] if imagen_quota_hit else [IMAGE_MODEL, FALLBACK_MODEL]
-
-        for model in models_to_try:
+        for attempt in range(MAX_RETRIES + 1):
             try:
-                ok = generate_image(client, prompt, out_path, model=model)
-            except Exception:
-                # Quota exhausted
-                if model == IMAGE_MODEL:
-                    imagen_quota_hit = True
-                    log.info("  Imagen quota hit, switching to %s", FALLBACK_MODEL)
-                    continue
-                else:
-                    quota_hit = True
-                    break
-            if ok:
+                image_bytes = request_image(prompt)
+                save_image_bytes(image_bytes, out_path)
+                ok = True
                 break
-            time.sleep(DELAY_BETWEEN_CALLS)
-
-        if quota_hit:
-            log.warning("All model quotas exhausted. Stopping. Use --resume to continue later.")
-            break
+            except Exception as exc:
+                log.warning("  Generation failed (attempt %d/%d): %s", attempt + 1, MAX_RETRIES + 1, exc)
+                if attempt < MAX_RETRIES:
+                    time.sleep(DELAY_BETWEEN_CALLS)
 
         if ok:
             # Update frontmatter to point to local image
