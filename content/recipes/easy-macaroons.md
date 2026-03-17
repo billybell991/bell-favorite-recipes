@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7474221/pexels-photo-7474221.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/easy-macaroons.png"
 notes: ""
 ---
 ## Ingredients

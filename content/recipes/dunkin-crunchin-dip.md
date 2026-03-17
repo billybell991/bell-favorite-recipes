@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/10535388/pexels-photo-10535388.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/dunkin-crunchin-dip.png"
 notes: ""
 ---
 ## Instructions

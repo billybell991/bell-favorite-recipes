@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/35809379/pexels-photo-35809379.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/edna-nadons-mustard-beans.png"
 notes: ""
 ---
 ## Ingredients

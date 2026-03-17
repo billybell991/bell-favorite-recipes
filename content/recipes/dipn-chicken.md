@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/29908848/pexels-photo-29908848.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/dipn-chicken.png"
 notes: ""
 ---
 ## Ingredients

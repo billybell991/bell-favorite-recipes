@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/30678525/pexels-photo-30678525.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/crock-pot-venison-stew.png"
 notes: ""
 ---
 ## Ingredients

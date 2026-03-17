@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/16936596/pexels-photo-16936596.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/crispy-oven-fried-chicken.png"
 notes: ""
 ---
 ## Ingredients

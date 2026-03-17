@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/94443/pexels-photo-94443.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/dots-flour-icing.png"
 notes: ""
 ---
 ## Ingredients

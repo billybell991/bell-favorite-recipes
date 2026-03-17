@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3026801/pexels-photo-3026801.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/ednas-lemon-cake.png"
 notes: ""
 ---
 All who attended Creation Unique’s Camp Wanna-sew enjoyed Edna’s Lemon Cake.

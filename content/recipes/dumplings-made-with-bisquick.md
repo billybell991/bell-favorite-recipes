@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7251843/pexels-photo-7251843.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/dumplings-made-with-bisquick.png"
 notes: ""
 ---
 ## Instructions

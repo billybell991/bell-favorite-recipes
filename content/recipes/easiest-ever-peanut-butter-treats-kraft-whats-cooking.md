@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/23384624/pexels-photo-23384624.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/easiest-ever-peanut-butter-treats-kraft-whats-cooking.png"
 notes: ""
 ---
 ## Instructions

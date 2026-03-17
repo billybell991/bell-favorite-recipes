@@ -1158,3 +1158,52 @@
 03:56:52  INFO        Updated frontmatter → images/recipes/coras-creme-anglaise.png
 03:56:56  INFO      [232/736] Corey's Cheese Ball
 03:56:56  INFO      AFC is enabled with max remote calls: 10.
+03:57:02  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+03:57:02  INFO        Saved: coreys-cheese-ball.png (1539 KB)
+03:57:02  INFO        Updated frontmatter → images/recipes/coreys-cheese-ball.png
+03:57:06  INFO      [233/736] Corey's Chicken Wings
+03:57:06  INFO      AFC is enabled with max remote calls: 10.
+03:57:13  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+03:57:13  INFO        Saved: coreys-chicken-wings.png (1486 KB)
+03:57:13  INFO        Updated frontmatter → images/recipes/coreys-chicken-wings.png
+03:57:17  INFO      [234/736] Corn Bread
+03:57:17  INFO      AFC is enabled with max remote calls: 10.
+03:57:23  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+03:57:23  INFO        Saved: corn-bread-moms-cookbook.png (1586 KB)
+03:57:23  INFO        Updated frontmatter → images/recipes/corn-bread-moms-cookbook.png
+03:57:27  INFO      [235/736] Corn Bread
+03:57:27  INFO      AFC is enabled with max remote calls: 10.
+03:57:33  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+03:57:33  INFO        Saved: corn-bread.png (1517 KB)
+03:57:33  INFO        Updated frontmatter → images/recipes/corn-bread.png
+03:57:37  INFO      [236/736] Corn on the Cob
+03:57:37  INFO      AFC is enabled with max remote calls: 10.
+03:57:45  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+03:57:45  INFO        Saved: corn-on-the-cob.png (1633 KB)
+03:57:45  INFO        Updated frontmatter → images/recipes/corn-on-the-cob.png
+03:57:49  INFO      [237/736] Cornmeal and Herb Chicken Coating
+03:57:49  INFO      AFC is enabled with max remote calls: 10.
+03:57:55  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+03:57:55  INFO        Saved: cornmeal-and-herb-chicken-coating.png (1574 KB)
+03:57:55  INFO        Updated frontmatter → images/recipes/cornmeal-and-herb-chicken-coating.png
+03:57:59  INFO      [238/736] Crab Finger Puffs
+03:57:59  INFO      AFC is enabled with max remote calls: 10.
+03:58:06  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+03:58:06  INFO        Saved: crab-finger-puffs.png (1493 KB)
+03:58:06  INFO        Updated frontmatter → images/recipes/crab-finger-puffs.png
+03:58:10  INFO      [239/736] Cranberry Christmas Gingerbread
+03:58:10  INFO      AFC is enabled with max remote calls: 10.
+03:58:16  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+03:58:16  INFO        Saved: cranberry-christmas-gingerbread.png (1581 KB)
+03:58:16  INFO        Updated frontmatter → images/recipes/cranberry-christmas-gingerbread.png
+03:58:20  INFO      [240/736] Cranberry Chutney – (aboriginal Cooking)
+03:58:20  INFO      AFC is enabled with max remote calls: 10.
+03:58:21  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+03:58:25  ERROR       FAILED: Cranberry Chutney – (aboriginal Cooking)
+03:58:29  INFO      [241/736] Cream Cheese Frosting
+03:58:29  INFO      AFC is enabled with max remote calls: 10.
+03:58:36  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+03:58:36  INFO        Saved: cream-cheese-frosting.png (1384 KB)
+03:58:36  INFO        Updated frontmatter → images/recipes/cream-cheese-frosting.png
+03:58:40  INFO      [242/736] Cream Corn Chowder
+03:58:40  INFO      AFC is enabled with max remote calls: 10.

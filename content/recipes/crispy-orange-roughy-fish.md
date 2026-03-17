@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9831602/pexels-photo-9831602.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/crispy-orange-roughy-fish.png"
 notes: ""
 ---
 ## Ingredients

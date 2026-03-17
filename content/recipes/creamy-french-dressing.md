@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/19084215/pexels-photo-19084215.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/creamy-french-dressing.png"
 notes: ""
 ---
 ## Ingredients

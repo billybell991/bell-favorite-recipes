@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7640058/pexels-photo-7640058.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/do-das.png"
 notes: ""
 ---
 ## Ingredients

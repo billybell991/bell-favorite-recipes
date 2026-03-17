@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/11953880/pexels-photo-11953880.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/dutch-oven-no-knead-bread.png"
 notes: ""
 ---
 

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5639261/pexels-photo-5639261.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/fabulously-flawless-chocolate-fudge.png"
 notes: ""
 ---
 ## Ingredients

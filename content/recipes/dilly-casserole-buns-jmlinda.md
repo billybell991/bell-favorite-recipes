@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4198018/pexels-photo-4198018.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/dilly-casserole-buns-jmlinda.png"
 notes: ""
 ---
 

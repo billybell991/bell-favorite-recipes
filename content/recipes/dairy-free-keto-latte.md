@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/20285568/pexels-photo-20285568.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/dairy-free-keto-latte.png"
 notes: ""
 ---
 ## Ingredients

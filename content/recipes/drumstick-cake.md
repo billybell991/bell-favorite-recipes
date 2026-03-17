@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/20214008/pexels-photo-20214008.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/drumstick-cake.png"
 notes: ""
 ---
 Submitted by Kevin Roy

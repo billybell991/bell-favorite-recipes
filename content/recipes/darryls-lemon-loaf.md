@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4193800/pexels-photo-4193800.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/darryls-lemon-loaf.png"
 notes: ""
 ---
 ## Ingredients

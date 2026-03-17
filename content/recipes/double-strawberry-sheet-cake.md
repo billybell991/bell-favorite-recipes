@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/36414773/pexels-photo-36414773.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/double-strawberry-sheet-cake.png"
 notes: ""
 ---
 ## Ingredients

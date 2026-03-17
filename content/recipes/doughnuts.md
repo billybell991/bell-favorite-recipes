@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8477746/pexels-photo-8477746.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/doughnuts.png"
 notes: ""
 ---
 ## Ingredients

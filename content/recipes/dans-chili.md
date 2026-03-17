@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/29872932/pexels-photo-29872932.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/dans-chili.png"
 notes: ""
 ---
 Submitted by Linda and Mike Gosson

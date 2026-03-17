@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5706373/pexels-photo-5706373.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/deluxe-pumpkin-cream-cheese-pie.png"
 notes: ""
 ---
 Submitted by Charleen and Jim Martin

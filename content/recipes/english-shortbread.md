@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/14757515/pexels-photo-14757515.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/english-shortbread.png"
 notes: ""
 ---
 ## Ingredients

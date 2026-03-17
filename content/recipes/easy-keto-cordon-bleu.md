@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/12568037/pexels-photo-12568037.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/easy-keto-cordon-bleu.png"
 notes: ""
 ---
 

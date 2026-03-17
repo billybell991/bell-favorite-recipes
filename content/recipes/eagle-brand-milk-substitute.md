@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3735192/pexels-photo-3735192.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/eagle-brand-milk-substitute.png"
 notes: ""
 ---
 ## Ingredients

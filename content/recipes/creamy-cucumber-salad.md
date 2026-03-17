@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/15946710/pexels-photo-15946710.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/creamy-cucumber-salad.png"
 notes: ""
 ---
 

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/30648982/pexels-photo-30648982.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/crispy-chicken-wings-moms-cookbook.png"
 notes: ""
 ---
 ## Ingredients

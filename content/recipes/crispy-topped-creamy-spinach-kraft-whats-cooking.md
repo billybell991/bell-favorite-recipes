@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3987348/pexels-photo-3987348.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/crispy-topped-creamy-spinach-kraft-whats-cooking.png"
 notes: ""
 ---
 ## Instructions

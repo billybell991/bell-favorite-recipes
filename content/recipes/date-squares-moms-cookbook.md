@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3872352/pexels-photo-3872352.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/date-squares-moms-cookbook.png"
 notes: ""
 ---
 ## Ingredients

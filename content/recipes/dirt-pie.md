@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8444542/pexels-photo-8444542.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/dirt-pie.png"
 notes: ""
 ---
 ## Ingredients

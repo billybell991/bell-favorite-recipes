@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/89690/pexels-photo-89690.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/dads-cookies.png"
 notes: ""
 ---
 ## Ingredients

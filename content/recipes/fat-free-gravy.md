@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/32986967/pexels-photo-32986967.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/fat-free-gravy.png"
 notes: ""
 ---
 Call this a waist-watcher gravy. There are only 16 calories in one serving. Serve it over meatloaf, roast meat and mashed potatoes.

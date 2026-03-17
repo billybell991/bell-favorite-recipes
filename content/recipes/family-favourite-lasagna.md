@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/31119077/pexels-photo-31119077.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/family-favourite-lasagna.png"
 notes: ""
 ---
 - 1 lb lean ground beef

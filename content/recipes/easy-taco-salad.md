@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5454019/pexels-photo-5454019.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/easy-taco-salad.png"
 notes: ""
 ---
 Submitted by Sandra and Steve Pigeau
