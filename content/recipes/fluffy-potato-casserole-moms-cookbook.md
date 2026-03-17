@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/13422423/pexels-photo-13422423.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/fluffy-potato-casserole-moms-cookbook.png"
 notes: ""
 ---
 ## Ingredients

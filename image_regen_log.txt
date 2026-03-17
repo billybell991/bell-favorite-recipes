@@ -1207,3 +1207,363 @@
 03:58:36  INFO        Updated frontmatter → images/recipes/cream-cheese-frosting.png
 03:58:40  INFO      [242/736] Cream Corn Chowder
 03:58:40  INFO      AFC is enabled with max remote calls: 10.
+03:58:46  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+03:58:46  INFO        Saved: cream-corn-chowder.png (1582 KB)
+03:58:46  INFO        Updated frontmatter → images/recipes/cream-corn-chowder.png
+03:58:50  INFO      [243/736] Cream Puffs
+03:58:50  INFO      AFC is enabled with max remote calls: 10.
+03:58:55  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+03:58:55  INFO        Saved: cream-puffs.png (1476 KB)
+03:58:55  INFO        Updated frontmatter → images/recipes/cream-puffs.png
+03:58:59  INFO      [244/736] Creamed Codfish – (from Metis Cookhouse by Gail Lebland_
+03:58:59  INFO      AFC is enabled with max remote calls: 10.
+03:59:05  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+03:59:05  INFO        Saved: creamed-codfish-from-metis-cookhouse-by-gail-lebland.png (1614 KB)
+03:59:05  INFO        Updated frontmatter → images/recipes/creamed-codfish-from-metis-cookhouse-by-gail-lebland.png
+03:59:09  INFO      [245/736] Creamed Potato Soup
+03:59:09  INFO      AFC is enabled with max remote calls: 10.
+03:59:17  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+03:59:17  INFO        Saved: creamed-potato-soup.png (1595 KB)
+03:59:17  INFO        Updated frontmatter → images/recipes/creamed-potato-soup.png
+03:59:21  INFO      [246/736] Creamy Coleslaw
+03:59:21  INFO      AFC is enabled with max remote calls: 10.
+03:59:27  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+03:59:28  INFO        Saved: creamy-coleslaw.png (1494 KB)
+03:59:28  INFO        Updated frontmatter → images/recipes/creamy-coleslaw.png
+03:59:32  INFO      [247/736] Creamy Cucumber Salad
+03:59:32  INFO      AFC is enabled with max remote calls: 10.
+03:59:38  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+03:59:38  INFO        Saved: creamy-cucumber-salad.png (1497 KB)
+03:59:38  INFO        Updated frontmatter → images/recipes/creamy-cucumber-salad.png
+03:59:42  INFO      [248/736] Creamy French Dressing
+03:59:42  INFO      AFC is enabled with max remote calls: 10.
+03:59:48  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+03:59:48  INFO        Saved: creamy-french-dressing.png (1514 KB)
+03:59:48  INFO        Updated frontmatter → images/recipes/creamy-french-dressing.png
+03:59:52  INFO      [249/736] Creamy Strawberry Icing
+03:59:52  INFO      AFC is enabled with max remote calls: 10.
+03:59:58  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+03:59:58  INFO        Saved: creamy-strawberry-icing.png (1604 KB)
+03:59:58  INFO        Updated frontmatter → images/recipes/creamy-strawberry-icing.png
+04:00:02  INFO      [250/736] Crispy Chews
+04:00:02  INFO      AFC is enabled with max remote calls: 10.
+04:00:11  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:00:11  INFO        Saved: crispy-chews.png (1622 KB)
+04:00:11  INFO        Updated frontmatter → images/recipes/crispy-chews.png
+04:00:15  INFO      [251/736] Crispy Chicken Wings
+04:00:15  INFO      AFC is enabled with max remote calls: 10.
+04:00:21  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:00:22  INFO        Saved: crispy-chicken-wings-moms-cookbook.png (1625 KB)
+04:00:22  INFO        Updated frontmatter → images/recipes/crispy-chicken-wings-moms-cookbook.png
+04:00:26  INFO      [252/736] Crispy Chicken Wings
+04:00:26  INFO      AFC is enabled with max remote calls: 10.
+04:00:32  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:00:32  INFO        Saved: crispy-chicken-wings.png (1605 KB)
+04:00:32  INFO        Updated frontmatter → images/recipes/crispy-chicken-wings.png
+04:00:36  INFO      [253/736] Crispy Garlic Baked Potato Wedges
+04:00:36  INFO      AFC is enabled with max remote calls: 10.
+04:00:43  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:00:43  INFO        Saved: crispy-garlic-baked-potato-wedges.png (1590 KB)
+04:00:43  INFO        Updated frontmatter → images/recipes/crispy-garlic-baked-potato-wedges.png
+04:00:47  INFO      [254/736] Crispy Orange Roughy (Fish)
+04:00:47  INFO      AFC is enabled with max remote calls: 10.
+04:00:53  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:00:53  INFO        Saved: crispy-orange-roughy-fish.png (1643 KB)
+04:00:53  INFO        Updated frontmatter → images/recipes/crispy-orange-roughy-fish.png
+04:00:57  INFO      [255/736] Crispy Oven-Fried Chicken
+04:00:57  INFO      AFC is enabled with max remote calls: 10.
+04:01:04  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:01:04  INFO        Saved: crispy-oven-fried-chicken.png (1613 KB)
+04:01:04  INFO        Updated frontmatter → images/recipes/crispy-oven-fried-chicken.png
+04:01:08  INFO      [256/736] Crispy Topped Creamy Spinach (kraft What’s Cooking)
+04:01:08  INFO      AFC is enabled with max remote calls: 10.
+04:01:14  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:01:14  INFO        Saved: crispy-topped-creamy-spinach-kraft-whats-cooking.png (1661 KB)
+04:01:14  INFO        Updated frontmatter → images/recipes/crispy-topped-creamy-spinach-kraft-whats-cooking.png
+04:01:18  INFO      [257/736] Crock Pot Beans
+04:01:18  INFO      AFC is enabled with max remote calls: 10.
+04:01:24  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:01:24  INFO        Saved: crock-pot-beans.png (1547 KB)
+04:01:24  INFO        Updated frontmatter → images/recipes/crock-pot-beans.png
+04:01:28  INFO      [258/736] Crock Pot Venison Stew
+04:01:28  INFO      AFC is enabled with max remote calls: 10.
+04:01:37  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:01:38  INFO        Saved: crock-pot-venison-stew.png (1564 KB)
+04:01:38  INFO        Updated frontmatter → images/recipes/crock-pot-venison-stew.png
+04:01:42  INFO      [259/736] Crumb Coating
+04:01:42  INFO      AFC is enabled with max remote calls: 10.
+04:01:49  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:01:50  INFO        Saved: crumb-coating.png (1571 KB)
+04:01:50  INFO        Updated frontmatter → images/recipes/crumb-coating.png
+04:01:54  INFO      [260/736] Crunchy Fudge Sandwiches
+04:01:54  INFO      AFC is enabled with max remote calls: 10.
+04:02:00  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:02:00  INFO        Saved: crunchy-fudge-sandwiches.png (1492 KB)
+04:02:00  INFO        Updated frontmatter → images/recipes/crunchy-fudge-sandwiches.png
+04:02:04  INFO      [261/736] Dad's Cookies
+04:02:04  INFO      AFC is enabled with max remote calls: 10.
+04:02:10  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:02:10  INFO        Saved: dads-cookies.png (1641 KB)
+04:02:10  INFO        Updated frontmatter → images/recipes/dads-cookies.png
+04:02:14  INFO      [262/736] Dad's Creamy Cucumber Salad
+04:02:14  INFO      AFC is enabled with max remote calls: 10.
+04:02:20  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:02:20  INFO        Saved: dads-creamy-cucumber-salad.png (1494 KB)
+04:02:20  INFO        Updated frontmatter → images/recipes/dads-creamy-cucumber-salad.png
+04:02:24  INFO      [263/736] Dairy-free Keto Latte
+04:02:24  INFO      AFC is enabled with max remote calls: 10.
+04:02:31  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:02:31  INFO        Saved: dairy-free-keto-latte.png (1467 KB)
+04:02:31  INFO        Updated frontmatter → images/recipes/dairy-free-keto-latte.png
+04:02:35  INFO      [264/736] Dandy Dog Bone Biscuits
+04:02:35  INFO      AFC is enabled with max remote calls: 10.
+04:02:40  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:02:41  INFO        Saved: dandy-dog-bone-biscuits.png (1567 KB)
+04:02:41  INFO        Updated frontmatter → images/recipes/dandy-dog-bone-biscuits.png
+04:02:45  INFO      [265/736] Dan's Chili
+04:02:45  INFO      AFC is enabled with max remote calls: 10.
+04:02:50  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:02:50  INFO        Saved: dans-chili.png (1532 KB)
+04:02:50  INFO        Updated frontmatter → images/recipes/dans-chili.png
+04:02:54  INFO      [266/736] Darryl's Lemon Loaf
+04:02:54  INFO      AFC is enabled with max remote calls: 10.
+04:03:00  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:03:00  INFO        Saved: darryls-lemon-loaf.png (1572 KB)
+04:03:00  INFO        Updated frontmatter → images/recipes/darryls-lemon-loaf.png
+04:03:04  INFO      [267/736] Date Squares
+04:03:04  INFO      AFC is enabled with max remote calls: 10.
+04:03:11  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:03:12  INFO        Saved: date-squares-moms-cookbook.png (1600 KB)
+04:03:12  INFO        Updated frontmatter → images/recipes/date-squares-moms-cookbook.png
+04:03:16  INFO      [268/736] Date Squares
+04:03:16  INFO      AFC is enabled with max remote calls: 10.
+04:03:22  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:03:22  INFO        Saved: date-squares.png (1618 KB)
+04:03:22  INFO        Updated frontmatter → images/recipes/date-squares.png
+04:03:26  INFO      [269/736] Deluxe Pumpkin Cream Cheese Pie
+04:03:26  INFO      AFC is enabled with max remote calls: 10.
+04:03:32  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:03:32  INFO        Saved: deluxe-pumpkin-cream-cheese-pie.png (1539 KB)
+04:03:32  INFO        Updated frontmatter → images/recipes/deluxe-pumpkin-cream-cheese-pie.png
+04:03:36  INFO      [270/736] Dilled Garden Dip
+04:03:36  INFO      AFC is enabled with max remote calls: 10.
+04:03:42  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:03:42  INFO        Saved: dilled-garden-dip.png (1536 KB)
+04:03:42  INFO        Updated frontmatter → images/recipes/dilled-garden-dip.png
+04:03:46  INFO      [271/736] Dilly Casserole Buns (J.M./Linda)
+04:03:46  INFO      AFC is enabled with max remote calls: 10.
+04:03:52  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:03:52  INFO        Saved: dilly-casserole-buns-jmlinda.png (1558 KB)
+04:03:52  INFO        Updated frontmatter → images/recipes/dilly-casserole-buns-jmlinda.png
+04:03:56  INFO      [272/736] Dip'n Chicken
+04:03:56  INFO      AFC is enabled with max remote calls: 10.
+04:04:02  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:04:02  INFO        Saved: dipn-chicken.png (1641 KB)
+04:04:02  INFO        Updated frontmatter → images/recipes/dipn-chicken.png
+04:04:06  INFO      [273/736] “dirt” Pie
+04:04:06  INFO      AFC is enabled with max remote calls: 10.
+04:04:13  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:04:13  INFO        Saved: dirt-pie.png (1584 KB)
+04:04:13  INFO        Updated frontmatter → images/recipes/dirt-pie.png
+04:04:17  INFO      [274/736] Do-das
+04:04:17  INFO      AFC is enabled with max remote calls: 10.
+04:04:22  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:04:23  INFO        Saved: do-das.png (1435 KB)
+04:04:23  INFO        Updated frontmatter → images/recipes/do-das.png
+04:04:27  INFO      [275/736] Dot's Flour Icing
+04:04:27  INFO      AFC is enabled with max remote calls: 10.
+04:04:33  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:04:33  INFO        Saved: dots-flour-icing.png (1406 KB)
+04:04:33  INFO        Updated frontmatter → images/recipes/dots-flour-icing.png
+04:04:37  INFO      [276/736] Double Strawberry Sheet Cake
+04:04:37  INFO      AFC is enabled with max remote calls: 10.
+04:04:43  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:04:43  INFO        Saved: double-strawberry-sheet-cake.png (1580 KB)
+04:04:43  INFO        Updated frontmatter → images/recipes/double-strawberry-sheet-cake.png
+04:04:47  INFO      [277/736] Doughnuts
+04:04:47  INFO      AFC is enabled with max remote calls: 10.
+04:04:52  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:04:53  INFO        Saved: doughnuts.png (1642 KB)
+04:04:53  INFO        Updated frontmatter → images/recipes/doughnuts.png
+04:04:57  INFO      [278/736] Drop Doughnuts (Revolving Spudniks)
+04:04:57  INFO      AFC is enabled with max remote calls: 10.
+04:05:03  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:05:03  INFO        Saved: drop-doughnuts-revolving-spudniks.png (1586 KB)
+04:05:03  INFO        Updated frontmatter → images/recipes/drop-doughnuts-revolving-spudniks.png
+04:05:07  INFO      [279/736] Drumstick Cake
+04:05:07  INFO      AFC is enabled with max remote calls: 10.
+04:05:13  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:05:13  INFO        Saved: drumstick-cake.png (1539 KB)
+04:05:13  INFO        Updated frontmatter → images/recipes/drumstick-cake.png
+04:05:18  INFO      [280/736] Dumplings (made with Bisquick)
+04:05:18  INFO      AFC is enabled with max remote calls: 10.
+04:05:25  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:05:25  INFO        Saved: dumplings-made-with-bisquick.png (1455 KB)
+04:05:25  INFO        Updated frontmatter → images/recipes/dumplings-made-with-bisquick.png
+04:05:29  INFO      [281/736] Dunkin’ Crunchin’ Dip
+04:05:29  INFO      AFC is enabled with max remote calls: 10.
+04:05:35  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:05:36  INFO        Saved: dunkin-crunchin-dip.png (1568 KB)
+04:05:36  INFO        Updated frontmatter → images/recipes/dunkin-crunchin-dip.png
+04:05:40  INFO      [282/736] Dutch Oven No-Knead Bread
+04:05:40  INFO      AFC is enabled with max remote calls: 10.
+04:05:46  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:05:46  INFO        Saved: dutch-oven-no-knead-bread.png (1605 KB)
+04:05:46  INFO        Updated frontmatter → images/recipes/dutch-oven-no-knead-bread.png
+04:05:50  INFO      [283/736] Eagle Brand Milk Substitute
+04:05:50  INFO      AFC is enabled with max remote calls: 10.
+04:05:56  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:05:56  INFO        Saved: eagle-brand-milk-substitute.png (1482 KB)
+04:05:56  INFO        Updated frontmatter → images/recipes/eagle-brand-milk-substitute.png
+04:06:00  INFO      [284/736] Easiest Chocolate Chip Cookies
+04:06:00  INFO      AFC is enabled with max remote calls: 10.
+04:06:08  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:06:09  INFO        Saved: easiest-chocolate-chip-cookies.png (1657 KB)
+04:06:09  INFO        Updated frontmatter → images/recipes/easiest-chocolate-chip-cookies.png
+04:06:13  INFO      [285/736] Easiest Ever Lemon Squares
+04:06:13  INFO      AFC is enabled with max remote calls: 10.
+04:06:19  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:06:20  INFO        Saved: easiest-ever-lemon-squares.png (1702 KB)
+04:06:20  INFO        Updated frontmatter → images/recipes/easiest-ever-lemon-squares.png
+04:06:24  INFO      [286/736] Easiest Ever Peanut Butter Treats (kraft What’s Cooking)
+04:06:24  INFO      AFC is enabled with max remote calls: 10.
+04:06:30  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:06:30  INFO        Saved: easiest-ever-peanut-butter-treats-kraft-whats-cooking.png (1538 KB)
+04:06:30  INFO        Updated frontmatter → images/recipes/easiest-ever-peanut-butter-treats-kraft-whats-cooking.png
+04:06:34  INFO      [287/736] Easy Fudge Recipe
+04:06:34  INFO      AFC is enabled with max remote calls: 10.
+04:06:40  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:06:40  INFO        Saved: easy-fudge-recipe.png (1552 KB)
+04:06:40  INFO        Updated frontmatter → images/recipes/easy-fudge-recipe.png
+04:06:44  INFO      [288/736] Easy Keto Cordon Bleu
+04:06:44  INFO      AFC is enabled with max remote calls: 10.
+04:06:50  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:06:51  INFO        Saved: easy-keto-cordon-bleu.png (1441 KB)
+04:06:51  INFO        Updated frontmatter → images/recipes/easy-keto-cordon-bleu.png
+04:06:55  INFO      [289/736] Easy Macaroons
+04:06:55  INFO      AFC is enabled with max remote calls: 10.
+04:07:00  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:07:01  INFO        Saved: easy-macaroons.png (1535 KB)
+04:07:01  INFO        Updated frontmatter → images/recipes/easy-macaroons.png
+04:07:05  INFO      [290/736] Easy Moist Banana Blueberry Muffins
+04:07:05  INFO      AFC is enabled with max remote calls: 10.
+04:07:11  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:07:11  INFO        Saved: easy-moist-banana-blueberry-muffins.png (1512 KB)
+04:07:11  INFO        Updated frontmatter → images/recipes/easy-moist-banana-blueberry-muffins.png
+04:07:15  INFO      [291/736] Easy Peach-pear Salsa – (nugget Thursday Food Page)
+04:07:15  INFO      AFC is enabled with max remote calls: 10.
+04:07:22  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:07:23  INFO        Saved: easy-peach-pear-salsa-nugget-thursday-food-page.png (1520 KB)
+04:07:23  INFO        Updated frontmatter → images/recipes/easy-peach-pear-salsa-nugget-thursday-food-page.png
+04:07:27  INFO      [292/736] Easy Taco Salad
+04:07:27  INFO      AFC is enabled with max remote calls: 10.
+04:07:32  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:07:32  INFO        Saved: easy-taco-salad.png (1523 KB)
+04:07:32  INFO        Updated frontmatter → images/recipes/easy-taco-salad.png
+04:07:36  INFO      [293/736] Edna Nadon’s Mustard Beans
+04:07:36  INFO      AFC is enabled with max remote calls: 10.
+04:07:43  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:07:43  INFO        Saved: edna-nadons-mustard-beans.png (1517 KB)
+04:07:43  INFO        Updated frontmatter → images/recipes/edna-nadons-mustard-beans.png
+04:07:47  INFO      [294/736] Edna's Lemon Cake
+04:07:47  INFO      AFC is enabled with max remote calls: 10.
+04:07:54  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:07:54  INFO        Saved: ednas-lemon-cake.png (1613 KB)
+04:07:54  INFO        Updated frontmatter → images/recipes/ednas-lemon-cake.png
+04:07:58  INFO      [295/736] Egg Drop Soup
+04:07:58  INFO      AFC is enabled with max remote calls: 10.
+04:08:04  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:08:07  INFO        Saved: egg-drop-soup.png (1532 KB)
+04:08:07  INFO        Updated frontmatter → images/recipes/egg-drop-soup.png
+04:08:11  INFO      [296/736] Emergency Salad Dressing
+04:08:11  INFO      AFC is enabled with max remote calls: 10.
+04:08:17  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:08:17  INFO        Saved: emergency-salad-dressing.png (1540 KB)
+04:08:17  INFO        Updated frontmatter → images/recipes/emergency-salad-dressing.png
+04:08:21  INFO      [297/736] English Shortbread
+04:08:21  INFO      AFC is enabled with max remote calls: 10.
+04:08:27  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:08:27  INFO        Saved: english-shortbread.png (1565 KB)
+04:08:27  INFO        Updated frontmatter → images/recipes/english-shortbread.png
+04:08:31  INFO      [298/736] Exquisite Crab Dip
+04:08:31  INFO      AFC is enabled with max remote calls: 10.
+04:08:38  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:08:38  INFO        Saved: exquisite-crab-dip.png (1576 KB)
+04:08:38  INFO        Updated frontmatter → images/recipes/exquisite-crab-dip.png
+04:08:42  INFO      [299/736] Fabulously Flawless Chocolate Fudge
+04:08:42  INFO      AFC is enabled with max remote calls: 10.
+04:08:48  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:08:48  INFO        Saved: fabulously-flawless-chocolate-fudge.png (1525 KB)
+04:08:48  INFO        Updated frontmatter → images/recipes/fabulously-flawless-chocolate-fudge.png
+04:08:52  INFO      [300/736] Fake Salmon
+04:08:52  INFO      AFC is enabled with max remote calls: 10.
+04:08:58  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:08:58  INFO        Saved: fake-salmon.png (1574 KB)
+04:08:58  INFO        Updated frontmatter → images/recipes/fake-salmon.png
+04:09:02  INFO      [301/736] Family Favourite Lasagna
+04:09:02  INFO      AFC is enabled with max remote calls: 10.
+04:09:08  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:09:08  INFO        Saved: family-favourite-lasagna.png (1456 KB)
+04:09:08  INFO        Updated frontmatter → images/recipes/family-favourite-lasagna.png
+04:09:12  INFO      [302/736] Far East Crab Cakes
+04:09:12  INFO      AFC is enabled with max remote calls: 10.
+04:09:19  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:09:19  INFO        Saved: far-east-crab-cakes.png (1572 KB)
+04:09:19  INFO        Updated frontmatter → images/recipes/far-east-crab-cakes.png
+04:09:23  INFO      [303/736] Fast Cabbage Roll Skillet
+04:09:23  INFO      AFC is enabled with max remote calls: 10.
+04:09:29  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:09:29  INFO        Saved: fast-cabbage-roll-skillet.png (1467 KB)
+04:09:29  INFO        Updated frontmatter → images/recipes/fast-cabbage-roll-skillet.png
+04:09:33  INFO      [304/736] Fat-Free Gravy
+04:09:33  INFO      AFC is enabled with max remote calls: 10.
+04:09:39  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:09:39  INFO        Saved: fat-free-gravy.png (1515 KB)
+04:09:39  INFO        Updated frontmatter → images/recipes/fat-free-gravy.png
+04:09:43  INFO      [305/736] Faux-tisserie Chicken
+04:09:43  INFO      AFC is enabled with max remote calls: 10.
+04:09:48  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:09:49  INFO        Saved: faux-tisserie-chicken.png (1636 KB)
+04:09:49  INFO        Updated frontmatter → images/recipes/faux-tisserie-chicken.png
+04:09:53  INFO      [306/736] Festive Punch
+04:09:53  INFO      AFC is enabled with max remote calls: 10.
+04:09:58  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:09:59  INFO        Saved: festive-punch.png (1608 KB)
+04:09:59  INFO        Updated frontmatter → images/recipes/festive-punch.png
+04:10:03  INFO      [307/736] Fish Scallop
+04:10:03  INFO      AFC is enabled with max remote calls: 10.
+04:10:08  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:10:09  INFO        Saved: fish-scallop.png (1516 KB)
+04:10:09  INFO        Updated frontmatter → images/recipes/fish-scallop.png
+04:10:13  INFO      [308/736] Flapper Pie Special
+04:10:13  INFO      AFC is enabled with max remote calls: 10.
+04:10:19  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:10:20  INFO        Saved: flapper-pie-special.png (1422 KB)
+04:10:20  INFO        Updated frontmatter → images/recipes/flapper-pie-special.png
+04:10:24  INFO      [309/736] Fluffy Chocolate Frosting
+04:10:24  INFO      AFC is enabled with max remote calls: 10.
+04:10:29  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:10:29  INFO        Saved: fluffy-chocolate-frosting.png (1469 KB)
+04:10:29  INFO        Updated frontmatter → images/recipes/fluffy-chocolate-frosting.png
+04:10:33  INFO      [310/736] Fluffy Dumplings
+04:10:33  INFO      AFC is enabled with max remote calls: 10.
+04:10:39  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:10:39  INFO        Saved: fluffy-dumplings.png (1566 KB)
+04:10:39  INFO        Updated frontmatter → images/recipes/fluffy-dumplings.png
+04:10:43  INFO      [311/736] Fluffy Potato Casserole
+04:10:43  INFO      AFC is enabled with max remote calls: 10.
+04:10:49  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:10:50  INFO        Saved: fluffy-potato-casserole-moms-cookbook.png (1584 KB)
+04:10:50  INFO        Updated frontmatter → images/recipes/fluffy-potato-casserole-moms-cookbook.png
+04:10:54  INFO      [312/736] Fluffy Potato Casserole
+04:10:54  INFO      AFC is enabled with max remote calls: 10.
+04:10:59  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:10:59  INFO        Saved: fluffy-potato-casserole.png (1592 KB)
+04:11:00  INFO        Updated frontmatter → images/recipes/fluffy-potato-casserole.png
+04:11:04  INFO      [313/736] Freezer Pickles
+04:11:04  INFO      AFC is enabled with max remote calls: 10.
+04:11:10  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+04:11:10  INFO        Saved: freezer-pickles.png (1583 KB)
+04:11:10  INFO        Updated frontmatter → images/recipes/freezer-pickles.png
+04:11:14  INFO      [314/736] French Toast Bake (Tracey)
+04:11:14  INFO      AFC is enabled with max remote calls: 10.

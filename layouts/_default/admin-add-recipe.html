@@ -43,14 +43,7 @@
     <div id="admin-tabs" style="display:none; margin-bottom:1.5rem;">
       <div style="display:flex; gap:0; border-bottom:3px solid #2c5530;">
         <button type="button" class="admin-tab active" data-tab="add-recipe" style="padding:0.75rem 1.5rem; border:none; background:#2c5530; color:#fff; font-weight:600; font-size:1rem; cursor:pointer; border-radius:8px 8px 0 0;">Add Recipe</button>
-        <!-- TODO: Merge "Update Recipe Image", "Delete Recipe", and "Edit Recipe" tabs into a single "Maintain Recipe" tab.
-             Each recipe row should have three buttons: [✏️ Edit] [🖼 Update Image] [🗑 Delete].
-             Delete should show an inline "Are you sure?" confirm before triggering the existing delete confirm modal.
-             Remove the separate update-image-panel and delete-recipe-panel and edit-recipe-panel;
-             replace with a single maintain-recipe-panel that has one searchable recipe list. -->
-        <button type="button" class="admin-tab" data-tab="update-image" style="padding:0.75rem 1.5rem; border:none; background:#e8e8e8; color:#333; font-weight:600; font-size:1rem; cursor:pointer; border-radius:8px 8px 0 0;">Update Recipe Image</button>
-        <button type="button" class="admin-tab" data-tab="delete-recipe" style="padding:0.75rem 1.5rem; border:none; background:#e8e8e8; color:#333; font-weight:600; font-size:1rem; cursor:pointer; border-radius:8px 8px 0 0;">Delete Recipe</button>
-        <button type="button" class="admin-tab" data-tab="edit-recipe" style="padding:0.75rem 1.5rem; border:none; background:#e8e8e8; color:#333; font-weight:600; font-size:1rem; cursor:pointer; border-radius:8px 8px 0 0;">Edit Recipe</button>
+        <button type="button" class="admin-tab" data-tab="maintain-recipe" style="padding:0.75rem 1.5rem; border:none; background:#e8e8e8; color:#333; font-weight:600; font-size:1rem; cursor:pointer; border-radius:8px 8px 0 0;">Maintain Recipe</button>
       </div>
     </div>
 
@@ -217,56 +210,25 @@
       </div>
     </div>
 
-    <!-- Update Recipe Image panel -->
-    <div id="update-image-panel" class="admin-tab-panel" style="display:none;">
-      <h1>Update Recipe Images</h1>
-      <p class="submit-intro">Browse all recipes below. Click any image that looks "off" to pick a new one from Pexels.</p>
-
-      <div style="margin-bottom:1rem; display:flex; gap:0.5rem; align-items:center; flex-wrap:wrap;">
-        <input type="text" id="gallery-filter" placeholder="Filter recipes..." style="flex:1; min-width:200px;">
-        <select id="gallery-cat-filter" style="min-width:180px;">
-          <option value="">All Categories</option>
-        </select>
-        <span id="gallery-count" style="font-size:0.85rem; color:#666;"></span>
-      </div>
-
-      <div id="recipe-gallery" class="recipe-gallery"></div>
-    </div>
-
-    <!-- Delete Recipe panel -->
-    <div id="delete-recipe-panel" class="admin-tab-panel" style="display:none;">
-      <h1>Delete Recipe</h1>
-      <div style="background:#fff3cd; border:1px solid #ffc107; border-radius:8px; padding:1rem; margin-bottom:1.5rem; color:#856404;">
-        ⚠️ <strong>Warning:</strong> Deleting a recipe permanently removes it from the site. This cannot be undone.
-      </div>
-      <div style="margin-bottom:1rem; display:flex; gap:0.5rem; align-items:center; flex-wrap:wrap;">
-        <input type="text" id="delete-filter" placeholder="Filter recipes..." style="flex:1; min-width:200px;">
-        <select id="delete-cat-filter" style="min-width:180px;">
-          <option value="">All Categories</option>
-        </select>
-        <span id="delete-count" style="font-size:0.85rem; color:#666;"></span>
-      </div>
-      <div id="delete-recipe-list"></div>
-    </div>
-
-    <!-- Edit Recipe panel -->
-    <div id="edit-recipe-panel" class="admin-tab-panel" style="display:none;">
-
-      <!-- Step 1: Recipe selection list -->
-      <div id="edit-select-section">
-        <h1>Edit Recipe</h1>
-        <p class="submit-intro">Select a recipe to edit its details.</p>
+    <!-- Maintain Recipe panel -->
+    <div id="maintain-recipe-panel" class="admin-tab-panel" style="display:none;">
+      <div id="maintain-list-section">
+        <h1>Maintain Recipe</h1>
+        <p class="submit-intro">Edit, update images, or delete recipes from one list.</p>
+        <div style="background:#fff3cd; border:1px solid #ffc107; border-radius:8px; padding:1rem; margin-bottom:1.5rem; color:#856404;">
+          ⚠️ <strong>Warning:</strong> Deleting a recipe permanently removes it from the site. This cannot be undone.
+        </div>
         <div style="margin-bottom:1rem; display:flex; gap:0.5rem; align-items:center; flex-wrap:wrap;">
-          <input type="text" id="edit-filter" placeholder="Filter recipes..." style="flex:1; min-width:200px;">
-          <select id="edit-cat-filter" style="min-width:180px;">
+          <input type="text" id="maintain-filter" placeholder="Filter recipes..." style="flex:1; min-width:200px;">
+          <select id="maintain-cat-filter" style="min-width:180px;">
             <option value="">All Categories</option>
           </select>
-          <span id="edit-count" style="font-size:0.85rem; color:#666;"></span>
+          <span id="maintain-count" style="font-size:0.85rem; color:#666;"></span>
         </div>
-        <div id="edit-recipe-list"></div>
+        <div id="maintain-recipe-list"></div>
       </div>
 
-      <!-- Step 2: Edit form (hidden until recipe selected) -->
+      <!-- Edit form (hidden until recipe selected) -->
       <div id="edit-form-section" style="display:none;">
         <div style="display:flex; align-items:center; gap:1rem; margin-bottom:1.5rem; flex-wrap:wrap;">
           <button type="button" id="edit-back-btn" class="btn btn-secondary">&larr; Back to List</button>
@@ -887,106 +849,180 @@
       var target = this.getAttribute('data-tab');
       if (target === 'add-recipe') {
         document.getElementById('recipe-panel').style.display = 'block';
-      } else if (target === 'update-image') {
-        document.getElementById('update-image-panel').style.display = 'block';
-        if (!galleryLoaded) loadGallery();
-      } else if (target === 'delete-recipe') {
-        document.getElementById('delete-recipe-panel').style.display = 'block';
-        if (!deleteListLoaded) loadDeleteList();
-      } else if (target === 'edit-recipe') {
-        document.getElementById('edit-recipe-panel').style.display = 'block';
-        if (!editListLoaded) loadEditList();
+      } else if (target === 'maintain-recipe') {
+        document.getElementById('maintain-recipe-panel').style.display = 'block';
+        if (!maintainLoaded) loadMaintainList();
       }
     });
   });
 
   // =============================================
-  // Recipe Image Gallery
+  // Maintain Recipe List
   // =============================================
   var allRecipes = [];
-  var galleryLoaded = false;
+  var maintainLoaded = false;
+  var maintainAllRecipes = [];
+  var openInlineDelete = null;
   var PLACEHOLDER_IMG = 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120"><rect fill="#f0f0f0" width="200" height="120"/><text x="100" y="65" text-anchor="middle" fill="#bbb" font-size="14">No Image</text></svg>');
 
   function loadRecipeList() {
-    // called after auth
+    if (!maintainLoaded) loadMaintainList();
   }
 
-  function loadGallery() {
-    var gallery = document.getElementById('recipe-gallery');
-    gallery.innerHTML = '<p style="text-align:center; color:#666; padding:2rem;">Loading recipes...</p>';
+  function loadMaintainList() {
+    var listEl = document.getElementById('maintain-recipe-list');
+    listEl.innerHTML = '<p style="text-align:center; color:#666; padding:2rem;">Loading recipes...</p>';
 
     var baseUrl = '{{ site.BaseURL }}'.replace(/\/$/, '');
     fetch(baseUrl + '/index.json')
       .then(function(r) { return r.json(); })
       .then(function(data) {
-        allRecipes = data.filter(function(r) {
+        maintainAllRecipes = data.filter(function(r) {
           return r.permalink && r.permalink.indexOf('/recipes/') !== -1 && r.title;
         }).sort(function(a, b) {
           return (a.title || '').localeCompare(b.title || '');
         });
 
-        // Populate category filter
-        var cats = {};
-        allRecipes.forEach(function(r) {
-          if (r.categories) r.categories.forEach(function(c) { cats[c] = true; });
-        });
-        var catSelect = document.getElementById('gallery-cat-filter');
-        Object.keys(cats).sort().forEach(function(c) {
-          var opt = document.createElement('option');
-          opt.value = c;
-          opt.textContent = c;
-          catSelect.appendChild(opt);
-        });
+        allRecipes = maintainAllRecipes;
 
-        galleryLoaded = true;
-        renderGallery();
+        var catSelect = document.getElementById('maintain-cat-filter');
+        if (catSelect.options.length <= 1) {
+          var cats = {};
+          maintainAllRecipes.forEach(function(r) {
+            if (r.categories) r.categories.forEach(function(c) { cats[c] = true; });
+          });
+          Object.keys(cats).sort().forEach(function(c) {
+            var opt = document.createElement('option');
+            opt.value = c;
+            opt.textContent = c;
+            catSelect.appendChild(opt);
+          });
+        }
+
+        maintainLoaded = true;
+        renderMaintainList();
       })
       .catch(function(err) {
-        gallery.innerHTML = '<p style="color:#c0392b; text-align:center;">Error loading recipes: ' + err.message + '</p>';
+        listEl.innerHTML = '<p style="color:#c0392b; text-align:center;">Error loading recipes: ' + err.message + '</p>';
       });
   }
 
-  function renderGallery() {
-    var gallery = document.getElementById('recipe-gallery');
-    var filter = document.getElementById('gallery-filter').value.toLowerCase();
-    var catFilter = document.getElementById('gallery-cat-filter').value;
-
-    var filtered = allRecipes.filter(function(r) {
+  function renderMaintainList() {
+    var filter = document.getElementById('maintain-filter').value.toLowerCase();
+    var catFilter = document.getElementById('maintain-cat-filter').value;
+    var filtered = maintainAllRecipes.filter(function(r) {
       if (filter && (r.title || '').toLowerCase().indexOf(filter) === -1) return false;
       if (catFilter && (!r.categories || r.categories.indexOf(catFilter) === -1)) return false;
       return true;
     });
 
-    document.getElementById('gallery-count').textContent = filtered.length + ' of ' + allRecipes.length + ' recipes';
-    gallery.innerHTML = '';
+    document.getElementById('maintain-count').textContent = filtered.length + ' of ' + maintainAllRecipes.length + ' recipes';
+    var listEl = document.getElementById('maintain-recipe-list');
+    listEl.innerHTML = '';
+    openInlineDelete = null;
+
+    if (filtered.length === 0) {
+      listEl.innerHTML = '<p style="text-align:center; color:#999; padding:2rem;">No recipes match your filter.</p>';
+      return;
+    }
 
     filtered.forEach(function(recipe) {
-      var card = document.createElement('div');
-      card.className = 'gallery-card' + (recipe.image ? '' : ' no-image');
-      var imgSrc = recipe.image || PLACEHOLDER_IMG;
+      var wrapper = document.createElement('div');
+      wrapper.style.cssText = 'border-bottom:1px solid #eee; padding:0.6rem 0.75rem;';
+
+      var row = document.createElement('div');
+      row.style.cssText = 'display:flex; align-items:center; gap:0.75rem; flex-wrap:wrap;';
 
       var img = document.createElement('img');
-      img.src = imgSrc;
+      img.src = recipe.image || PLACEHOLDER_IMG;
       img.alt = recipe.title || '';
       img.loading = 'lazy';
       img.onerror = function() { this.src = PLACEHOLDER_IMG; };
+      img.style.cssText = 'width:64px; height:48px; object-fit:cover; border-radius:6px; border:1px solid #eee;';
 
-      var titleDiv = document.createElement('div');
-      titleDiv.className = 'gallery-title';
-      titleDiv.textContent = recipe.title;
-      titleDiv.title = recipe.title;
+      var titleWrap = document.createElement('div');
+      titleWrap.style.cssText = 'flex:1; min-width:180px;';
+      var titleSpan = document.createElement('div');
+      titleSpan.textContent = recipe.title;
+      titleSpan.style.cssText = 'font-weight:600;';
+      var catSpan = document.createElement('div');
+      catSpan.textContent = (recipe.categories || []).join(', ');
+      catSpan.style.cssText = 'font-size:0.78rem; color:#666;';
+      titleWrap.appendChild(titleSpan);
+      titleWrap.appendChild(catSpan);
 
-      card.appendChild(img);
-      card.appendChild(titleDiv);
-      card.addEventListener('click', function() {
-        openPexelsModal(recipe, card);
+      var actions = document.createElement('div');
+      actions.style.cssText = 'display:flex; align-items:center; gap:0.4rem; flex-wrap:wrap;';
+
+      var editBtn = document.createElement('button');
+      editBtn.type = 'button';
+      editBtn.textContent = '✏️ Edit';
+      editBtn.style.cssText = 'background:#2c5530; color:#fff; border:none; padding:0.35rem 0.9rem; border-radius:6px; font-size:0.85rem; cursor:pointer; white-space:nowrap;';
+      editBtn.addEventListener('click', function() { openEditForm(recipe); });
+
+      var imageBtn = document.createElement('button');
+      imageBtn.type = 'button';
+      imageBtn.textContent = '🖼 Update Image';
+      imageBtn.style.cssText = 'background:#2471a3; color:#fff; border:none; padding:0.35rem 0.9rem; border-radius:6px; font-size:0.85rem; cursor:pointer; white-space:nowrap;';
+      imageBtn.addEventListener('click', function() { openPexelsModal(recipe, wrapper); });
+
+      var deleteBtn = document.createElement('button');
+      deleteBtn.type = 'button';
+      deleteBtn.textContent = '🗑 Delete';
+      deleteBtn.style.cssText = 'background:#c0392b; color:#fff; border:none; padding:0.35rem 0.9rem; border-radius:6px; font-size:0.85rem; cursor:pointer; white-space:nowrap;';
+
+      actions.appendChild(editBtn);
+      actions.appendChild(imageBtn);
+      actions.appendChild(deleteBtn);
+
+      row.appendChild(img);
+      row.appendChild(titleWrap);
+      row.appendChild(actions);
+
+      var confirmRow = document.createElement('div');
+      confirmRow.style.cssText = 'display:none; margin-top:0.5rem; background:#fff3cd; border:1px solid #ffc107; border-radius:6px; padding:0.5rem; align-items:center; gap:0.5rem;';
+      var confirmText = document.createElement('span');
+      confirmText.textContent = 'Are you sure you want to delete this recipe?';
+      confirmText.style.cssText = 'font-size:0.85rem; color:#856404;';
+      var confirmYes = document.createElement('button');
+      confirmYes.type = 'button';
+      confirmYes.textContent = 'Yes, delete';
+      confirmYes.style.cssText = 'background:#c0392b; color:#fff; border:none; padding:0.25rem 0.75rem; border-radius:6px; font-size:0.8rem; cursor:pointer; white-space:nowrap;';
+      var confirmNo = document.createElement('button');
+      confirmNo.type = 'button';
+      confirmNo.textContent = 'Cancel';
+      confirmNo.style.cssText = 'background:#e8e8e8; color:#333; border:none; padding:0.25rem 0.75rem; border-radius:6px; font-size:0.8rem; cursor:pointer; white-space:nowrap;';
+
+      confirmYes.addEventListener('click', function() {
+        confirmRow.style.display = 'none';
+        openInlineDelete = null;
+        confirmDeleteRecipe(recipe);
       });
-      gallery.appendChild(card);
+      confirmNo.addEventListener('click', function() {
+        confirmRow.style.display = 'none';
+        openInlineDelete = null;
+      });
+
+      confirmRow.appendChild(confirmText);
+      confirmRow.appendChild(confirmYes);
+      confirmRow.appendChild(confirmNo);
+
+      deleteBtn.addEventListener('click', function() {
+        if (openInlineDelete && openInlineDelete !== confirmRow) {
+          openInlineDelete.style.display = 'none';
+        }
+        confirmRow.style.display = 'flex';
+        openInlineDelete = confirmRow;
+      });
+
+      wrapper.appendChild(row);
+      wrapper.appendChild(confirmRow);
+      listEl.appendChild(wrapper);
     });
   }
 
-  document.getElementById('gallery-filter').addEventListener('input', renderGallery);
-  document.getElementById('gallery-cat-filter').addEventListener('change', renderGallery);
+  document.getElementById('maintain-filter').addEventListener('input', renderMaintainList);
+  document.getElementById('maintain-cat-filter').addEventListener('change', renderMaintainList);
 
   // =============================================
   // Pexels Modal
@@ -1264,84 +1300,7 @@
   // =============================================
   // Delete Recipe
   // =============================================
-  var deleteListLoaded = false;
   var deleteRecipePending = null;
-  var deleteAllRecipes = [];
-
-  function loadDeleteList() {
-    var listEl = document.getElementById('delete-recipe-list');
-    listEl.innerHTML = '<p style="text-align:center; color:#666; padding:2rem;">Loading recipes...</p>';
-
-    var source = allRecipes.length > 0
-      ? Promise.resolve(allRecipes.slice())
-      : (function() {
-          var baseUrl = '{{ site.BaseURL }}'.replace(/\/$/, '');
-          return fetch(baseUrl + '/index.json')
-            .then(function(r) { return r.json(); })
-            .then(function(data) {
-              return data.filter(function(r) {
-                return r.permalink && r.permalink.indexOf('/recipes/') !== -1 && r.title;
-              }).sort(function(a, b) { return (a.title || '').localeCompare(b.title || ''); });
-            });
-        })();
-
-    source.then(function(recipes) {
-      deleteAllRecipes = recipes;
-      deleteListLoaded = true;
-      var catSelect = document.getElementById('delete-cat-filter');
-      if (catSelect.options.length <= 1) {
-        var cats = {};
-        recipes.forEach(function(r) {
-          if (r.categories) r.categories.forEach(function(c) { cats[c] = true; });
-        });
-        Object.keys(cats).sort().forEach(function(c) {
-          var opt = document.createElement('option');
-          opt.value = c;
-          opt.textContent = c;
-          catSelect.appendChild(opt);
-        });
-      }
-      renderDeleteList();
-    }).catch(function(err) {
-      listEl.innerHTML = '<p style="color:#c0392b; text-align:center;">Error loading recipes: ' + err.message + '</p>';
-    });
-  }
-
-  function renderDeleteList() {
-    var filter = document.getElementById('delete-filter').value.toLowerCase();
-    var catFilter = document.getElementById('delete-cat-filter').value;
-    var filtered = deleteAllRecipes.filter(function(r) {
-      if (filter && (r.title || '').toLowerCase().indexOf(filter) === -1) return false;
-      if (catFilter && (!r.categories || r.categories.indexOf(catFilter) === -1)) return false;
-      return true;
-    });
-    document.getElementById('delete-count').textContent = filtered.length + ' of ' + deleteAllRecipes.length + ' recipes';
-    var listEl = document.getElementById('delete-recipe-list');
-    listEl.innerHTML = '';
-    if (filtered.length === 0) {
-      listEl.innerHTML = '<p style="text-align:center; color:#999; padding:2rem;">No recipes match your filter.</p>';
-      return;
-    }
-    filtered.forEach(function(recipe) {
-      var row = document.createElement('div');
-      row.style.cssText = 'display:flex; align-items:center; padding:0.6rem 0.75rem; border-bottom:1px solid #eee; gap:0.75rem;';
-      var titleSpan = document.createElement('span');
-      titleSpan.style.cssText = 'flex:1; font-weight:500;';
-      titleSpan.textContent = recipe.title;
-      var catSpan = document.createElement('span');
-      catSpan.style.cssText = 'font-size:0.78rem; color:#666; min-width:160px;';
-      catSpan.textContent = (recipe.categories || []).join(', ');
-      var delBtn = document.createElement('button');
-      delBtn.type = 'button';
-      delBtn.textContent = '🗑 Delete';
-      delBtn.style.cssText = 'background:#c0392b; color:#fff; border:none; padding:0.35rem 0.9rem; border-radius:6px; font-size:0.85rem; cursor:pointer; white-space:nowrap; flex-shrink:0;';
-      delBtn.addEventListener('click', function() { confirmDeleteRecipe(recipe); });
-      row.appendChild(titleSpan);
-      row.appendChild(catSpan);
-      row.appendChild(delBtn);
-      listEl.appendChild(row);
-    });
-  }
 
   function confirmDeleteRecipe(recipe) {
     deleteRecipePending = recipe;
@@ -1402,8 +1361,8 @@
       if (!r.ok) return r.json().then(function(d) { throw new Error(d.message || 'API error'); });
       return r.json();
     }).then(function() {
-      var idx = deleteAllRecipes.indexOf(recipe);
-      if (idx !== -1) deleteAllRecipes.splice(idx, 1);
+      var idx = maintainAllRecipes.indexOf(recipe);
+      if (idx !== -1) maintainAllRecipes.splice(idx, 1);
       var galleryIdx = allRecipes.indexOf(recipe);
       if (galleryIdx !== -1) allRecipes.splice(galleryIdx, 1);
       status.style.color = '#27ae60';
@@ -1412,7 +1371,7 @@
       deleteRecipePending = null;
       setTimeout(function() {
         document.getElementById('delete-confirm-overlay').style.display = 'none';
-        renderDeleteList();
+        renderMaintainList();
       }, 2000);
     }).catch(function(err) {
       status.style.color = '#c0392b';
@@ -1422,92 +1381,13 @@
     });
   });
 
-  document.getElementById('delete-filter').addEventListener('input', renderDeleteList);
-  document.getElementById('delete-cat-filter').addEventListener('change', renderDeleteList);
 
   // =============================================
   // Edit Recipe
   // =============================================
-  var editListLoaded = false;
-  var editAllRecipes = [];
   var editCurrentRecipe = null;
   var editCurrentSha = null;
   var editOriginalDate = null;
-
-  function loadEditList() {
-    var listEl = document.getElementById('edit-recipe-list');
-    listEl.innerHTML = '<p style="text-align:center; color:#666; padding:2rem;">Loading recipes...</p>';
-
-    var source = allRecipes.length > 0
-      ? Promise.resolve(allRecipes.slice())
-      : (function() {
-          var baseUrl = '{{ site.BaseURL }}'.replace(/\/$/, '');
-          return fetch(baseUrl + '/index.json')
-            .then(function(r) { return r.json(); })
-            .then(function(data) {
-              return data.filter(function(r) {
-                return r.permalink && r.permalink.indexOf('/recipes/') !== -1 && r.title;
-              }).sort(function(a, b) { return (a.title || '').localeCompare(b.title || ''); });
-            });
-        })();
-
-    source.then(function(recipes) {
-      editAllRecipes = recipes;
-      editListLoaded = true;
-      var catSelect = document.getElementById('edit-cat-filter');
-      if (catSelect.options.length <= 1) {
-        var cats = {};
-        recipes.forEach(function(r) {
-          if (r.categories) r.categories.forEach(function(c) { cats[c] = true; });
-        });
-        Object.keys(cats).sort().forEach(function(c) {
-          var opt = document.createElement('option');
-          opt.value = c;
-          opt.textContent = c;
-          catSelect.appendChild(opt);
-        });
-      }
-      renderEditList();
-    }).catch(function(err) {
-      listEl.innerHTML = '<p style="color:#c0392b; text-align:center;">Error loading recipes: ' + err.message + '</p>';
-    });
-  }
-
-  function renderEditList() {
-    var filter = document.getElementById('edit-filter').value.toLowerCase();
-    var catFilter = document.getElementById('edit-cat-filter').value;
-    var filtered = editAllRecipes.filter(function(r) {
-      if (filter && (r.title || '').toLowerCase().indexOf(filter) === -1) return false;
-      if (catFilter && (!r.categories || r.categories.indexOf(catFilter) === -1)) return false;
-      return true;
-    });
-    document.getElementById('edit-count').textContent = filtered.length + ' of ' + editAllRecipes.length + ' recipes';
-    var listEl = document.getElementById('edit-recipe-list');
-    listEl.innerHTML = '';
-    if (filtered.length === 0) {
-      listEl.innerHTML = '<p style="text-align:center; color:#999; padding:2rem;">No recipes match your filter.</p>';
-      return;
-    }
-    filtered.forEach(function(recipe) {
-      var row = document.createElement('div');
-      row.style.cssText = 'display:flex; align-items:center; padding:0.6rem 0.75rem; border-bottom:1px solid #eee; gap:0.75rem;';
-      var titleSpan = document.createElement('span');
-      titleSpan.style.cssText = 'flex:1; font-weight:500;';
-      titleSpan.textContent = recipe.title;
-      var catSpan = document.createElement('span');
-      catSpan.style.cssText = 'font-size:0.78rem; color:#666; min-width:160px;';
-      catSpan.textContent = (recipe.categories || []).join(', ');
-      var editBtn = document.createElement('button');
-      editBtn.type = 'button';
-      editBtn.textContent = '✏️ Edit';
-      editBtn.style.cssText = 'background:#2c5530; color:#fff; border:none; padding:0.35rem 0.9rem; border-radius:6px; font-size:0.85rem; cursor:pointer; white-space:nowrap; flex-shrink:0;';
-      editBtn.addEventListener('click', function() { openEditForm(recipe); });
-      row.appendChild(titleSpan);
-      row.appendChild(catSpan);
-      row.appendChild(editBtn);
-      listEl.appendChild(row);
-    });
-  }
 
   function openEditForm(recipe) {
     var slug = recipe.permalink.replace(/.*\/recipes\//, '').replace(/\/$/, '');
@@ -1515,7 +1395,7 @@
     var statusEl = document.getElementById('edit-submit-status');
     statusEl.textContent = 'Loading recipe...';
     statusEl.style.color = '#666';
-    document.getElementById('edit-select-section').style.display = 'none';
+    document.getElementById('maintain-list-section').style.display = 'none';
     document.getElementById('edit-form-section').style.display = 'block';
     document.getElementById('edit-recipe-heading').textContent = recipe.title;
     document.getElementById('edit-submit-btn').disabled = true;
@@ -1691,7 +1571,7 @@
 
   document.getElementById('edit-back-btn').addEventListener('click', function() {
     document.getElementById('edit-form-section').style.display = 'none';
-    document.getElementById('edit-select-section').style.display = 'block';
+    document.getElementById('maintain-list-section').style.display = 'block';
     document.getElementById('edit-submit-status').textContent = '';
     editCurrentRecipe = null;
     editCurrentSha = null;
@@ -1742,7 +1622,9 @@
       editCurrentSha = data.content && data.content.sha ? data.content.sha : editCurrentSha;
       // Update the name in edit heading if title changed
       editCurrentRecipe.title = newTitle;
+      editCurrentRecipe.categories = [document.getElementById('edit-category').value];
       document.getElementById('edit-recipe-heading').textContent = newTitle;
+      renderMaintainList();
       status.style.color = '#27ae60';
       status.textContent = 'Saved! Site will rebuild in 1-2 minutes.';
       btn.disabled = false;
@@ -1755,8 +1637,7 @@
     });
   });
 
-  document.getElementById('edit-filter').addEventListener('input', renderEditList);
-  document.getElementById('edit-cat-filter').addEventListener('change', renderEditList);
+  
 
 })();
 </script>

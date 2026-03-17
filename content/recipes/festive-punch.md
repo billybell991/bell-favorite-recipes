@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1516418/pexels-photo-1516418.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/festive-punch.png"
 notes: ""
 ---
 ## Ingredients

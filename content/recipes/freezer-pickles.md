@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9025060/pexels-photo-9025060.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/freezer-pickles.png"
 notes: ""
 ---
 ## Ingredients
