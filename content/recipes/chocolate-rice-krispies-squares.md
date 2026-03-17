@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4113296/pexels-photo-4113296.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/chocolate-rice-krispies-squares.png"
 notes: ""
 ---
 ## Ingredients

@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/13922384/pexels-photo-13922384.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/confetti-cheesecake-cookies.png"
 notes: ""
 ---
 

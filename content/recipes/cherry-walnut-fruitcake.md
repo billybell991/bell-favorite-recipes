@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/2372521/pexels-photo-2372521.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/cherry-walnut-fruitcake.png"
 notes: ""
 ---
 This fruitcake is an easy- to-make classic holiday offering. If you like, make it ahead, wrap and freeze for entertaining and gift-giving.

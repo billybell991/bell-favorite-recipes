@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9200395/pexels-photo-9200395.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/cornmeal-and-herb-chicken-coating.png"
 notes: ""
 ---
 ## Ingredients

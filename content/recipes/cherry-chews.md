@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6287235/pexels-photo-6287235.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/cherry-chews.png"
 notes: ""
 ---
 Submitted by Anne Mary and Jean-Paul Racine

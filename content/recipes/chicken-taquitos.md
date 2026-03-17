@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9760210/pexels-photo-9760210.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/chicken-taquitos.png"
 notes: ""
 ---
 

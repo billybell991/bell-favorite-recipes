@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5848204/pexels-photo-5848204.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/colettes-skeanut-butter-cookies.png"
 notes: ""
 ---
 ## Ingredients

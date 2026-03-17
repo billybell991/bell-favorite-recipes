@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9356997/pexels-photo-9356997.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/chinese-style-whole-pickerel.png"
 notes: ""
 ---
 ## Ingredients

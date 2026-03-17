@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/28872869/pexels-photo-28872869.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/chili-flappers.png"
 notes: ""
 ---
 Preparation: 10 minutes Baking time: 30 minutes

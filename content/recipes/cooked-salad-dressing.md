@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/29333552/pexels-photo-29333552.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/cooked-salad-dressing.png"
 notes: ""
 ---
 ## Ingredients

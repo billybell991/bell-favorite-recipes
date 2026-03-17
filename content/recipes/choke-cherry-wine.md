@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/2187423/pexels-photo-2187423.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/choke-cherry-wine.png"
 notes: ""
 ---
 ## Ingredients

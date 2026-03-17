@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4113305/pexels-photo-4113305.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/chocolate-chip-bars.png"
 notes: ""
 ---
 ## Ingredients

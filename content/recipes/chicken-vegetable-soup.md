@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/10172749/pexels-photo-10172749.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/chicken-vegetable-soup.png"
 notes: ""
 ---
 ## Ingredients

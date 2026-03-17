@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4051555/pexels-photo-4051555.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/chocolate-chip-banana-muffins.png"
 notes: ""
 ---
 Dry Mixture:

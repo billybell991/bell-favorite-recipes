@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/32066903/pexels-photo-32066903.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/chewy-chip-squares.png"
 notes: ""
 ---
 ## Ingredients

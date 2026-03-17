@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5769384/pexels-photo-5769384.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/chicken-breasts.png"
 notes: ""
 ---
 ### Ingredients

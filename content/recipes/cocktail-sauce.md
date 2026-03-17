@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/16427476/pexels-photo-16427476.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/cocktail-sauce.png"
 notes: ""
 ---
 ## Ingredients

@@ -9,6 +9,9 @@ Usage:
     python regenerate_images_gemini.py --limit 5    # Process first 5 only (test run)
     python regenerate_images_gemini.py --dry-run    # Show prompts without generating
     python regenerate_images_gemini.py --resume     # Skip already-generated images
+
+TODO: Run a full pass to regenerate images for ALL recipes (use --resume to skip already-done ones).
+      Command: python regenerate_images_gemini.py --resume
 """
 
 import os

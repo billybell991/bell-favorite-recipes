@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/262945/pexels-photo-262945.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/chicken-a-la-chuk.png"
 notes: ""
 ---
 ## Ingredients

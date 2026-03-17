@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6061611/pexels-photo-6061611.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/cookie-candies.png"
 notes: ""
 ---
 Submitted by Michelle and Jesse Webster

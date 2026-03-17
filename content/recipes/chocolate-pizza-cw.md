@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/31094828/pexels-photo-31094828.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/chocolate-pizza-cw.png"
 notes: ""
 ---
 ## Ingredients

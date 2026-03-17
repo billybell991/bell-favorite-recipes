@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/10748639/pexels-photo-10748639.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/chuks-chicken-fried-rice.png"
 notes: ""
 ---
 ## Ingredients

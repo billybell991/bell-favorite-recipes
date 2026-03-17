@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/699372/pexels-photo-699372.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/cranberry-christmas-gingerbread.png"
 notes: ""
 ---
 ## Ingredients

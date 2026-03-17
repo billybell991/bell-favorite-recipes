@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7041784/pexels-photo-7041784.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/chicken-wings.png"
 notes: ""
 ---
 ### Ingredients

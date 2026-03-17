@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/2874990/pexels-photo-2874990.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/chipits-crunchies.png"
 notes: ""
 ---
 ## Ingredients

@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8351888/pexels-photo-8351888.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/crab-finger-puffs.png"
 notes: ""
 ---
 Submitted by Nancy and Mike Potvin

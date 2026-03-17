@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1740898/pexels-photo-1740898.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/cinnamon-streusel-cookies.png"
 notes: ""
 ---
 

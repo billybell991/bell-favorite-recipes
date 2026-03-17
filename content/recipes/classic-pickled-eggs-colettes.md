@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://upload.wikimedia.org/wikipedia/commons/f/f2/Pickledeggs.jpg"
+image: "images/recipes/classic-pickled-eggs-colettes.png"
 notes: ""
 ---
 ## CLASSIC PICKLED EGGS

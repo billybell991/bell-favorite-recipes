@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/32287751/pexels-photo-32287751.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/chicken-from-frozen-rice-and-carrots.png"
 notes: ""
 ---
 ## Ingredients

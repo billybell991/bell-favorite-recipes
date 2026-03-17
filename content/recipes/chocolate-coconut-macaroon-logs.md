@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/30600169/pexels-photo-30600169.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/chocolate-coconut-macaroon-logs.png"
 notes: ""
 ---
 ## Ingredients

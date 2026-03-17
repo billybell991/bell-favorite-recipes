@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7287696/pexels-photo-7287696.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/chicken-dumplings.png"
 notes: ""
 ---
 ## Ingredients

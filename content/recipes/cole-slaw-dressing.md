@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9045146/pexels-photo-9045146.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/cole-slaw-dressing.png"
 notes: ""
 ---
 ## Instructions

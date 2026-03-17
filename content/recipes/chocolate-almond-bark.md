@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/12715961/pexels-photo-12715961.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/chocolate-almond-bark.png"
 notes: ""
 ---
 ## Ingredients

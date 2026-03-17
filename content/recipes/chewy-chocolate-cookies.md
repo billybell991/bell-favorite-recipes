@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/10977081/pexels-photo-10977081.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/chewy-chocolate-cookies.png"
 notes: ""
 ---
 

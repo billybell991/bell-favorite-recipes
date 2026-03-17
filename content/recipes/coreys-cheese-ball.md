@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/35017894/pexels-photo-35017894.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/coreys-cheese-ball.png"
 notes: ""
 ---
 ## Ingredients

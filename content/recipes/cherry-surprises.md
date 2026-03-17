@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7180269/pexels-photo-7180269.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/cherry-surprises.png"
 notes: ""
 ---
 ## Ingredients

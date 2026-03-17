@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5739585/pexels-photo-5739585.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/coleslaw.png"
 notes: ""
 ---
 ## Ingredients

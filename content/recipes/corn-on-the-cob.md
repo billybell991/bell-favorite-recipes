@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6034056/pexels-photo-6034056.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/corn-on-the-cob.png"
 notes: ""
 ---
 

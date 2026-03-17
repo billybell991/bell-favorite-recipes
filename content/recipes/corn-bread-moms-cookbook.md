@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4828349/pexels-photo-4828349.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/corn-bread-moms-cookbook.png"
 notes: ""
 ---
 ## Ingredients

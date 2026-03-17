@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8823721/pexels-photo-8823721.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/corn-bread.png"
 notes: ""
 ---
 ## Ingredients

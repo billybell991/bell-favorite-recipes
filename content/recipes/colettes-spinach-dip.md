@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/27603326/pexels-photo-27603326.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/colettes-spinach-dip.png"
 notes: ""
 ---
 ## Ingredients

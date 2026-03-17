@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5060449/pexels-photo-5060449.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/coras-creme-anglaise.png"
 notes: ""
 ---
 Also known as custard or English creme, this stuff is really good when you dip fruit it in it or put it on a waffle.

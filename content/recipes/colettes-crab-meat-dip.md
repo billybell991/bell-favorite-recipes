@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/36317045/pexels-photo-36317045.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/colettes-crab-meat-dip.png"
 notes: ""
 ---
 ## Ingredients

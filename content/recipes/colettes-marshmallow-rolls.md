@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7149030/pexels-photo-7149030.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/colettes-marshmallow-rolls.png"
 notes: ""
 ---
 ## Ingredients

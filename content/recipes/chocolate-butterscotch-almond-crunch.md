@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5846199/pexels-photo-5846199.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/chocolate-butterscotch-almond-crunch.png"
 notes: ""
 ---
 Submitted by Diane Laderoute

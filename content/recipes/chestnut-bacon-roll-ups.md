@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1927377/pexels-photo-1927377.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/chestnut-bacon-roll-ups.png"
 notes: ""
 ---
 ## Ingredients

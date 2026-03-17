@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/17760129/pexels-photo-17760129.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/chicken-pad-thai.png"
 notes: ""
 ---
 

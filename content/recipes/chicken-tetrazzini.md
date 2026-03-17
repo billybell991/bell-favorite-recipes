@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/20241835/pexels-photo-20241835.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/chicken-tetrazzini.png"
 notes: ""
 ---
 Submitted by Christine Shank
