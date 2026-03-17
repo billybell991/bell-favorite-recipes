@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6565740/pexels-photo-6565740.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/bisquick-strawberry-shortcake.png"
 notes: ""
 ---
 ## Ingredients

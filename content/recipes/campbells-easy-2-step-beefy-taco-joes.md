@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: "15 minutes"
 servings: "8 sandwiches"
-image: "https://images.pexels.com/photos/30793440/pexels-photo-30793440.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/campbells-easy-2-step-beefy-taco-joes.png"
 notes: "Also delicious served on a corn muffin or rice."
 ---
 

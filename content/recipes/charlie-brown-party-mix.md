@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7965943/pexels-photo-7965943.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/charlie-brown-party-mix.png"
 notes: ""
 ---
 ## Ingredients

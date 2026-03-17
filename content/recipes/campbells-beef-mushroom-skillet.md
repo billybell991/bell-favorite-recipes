@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/32599877/pexels-photo-32599877.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/campbells-beef-mushroom-skillet.png"
 notes: ""
 ---
 ## Ingredients

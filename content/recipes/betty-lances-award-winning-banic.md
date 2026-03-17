@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7005627/pexels-photo-7005627.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/betty-lances-award-winning-banic.png"
 notes: ""
 ---
 ## Ingredients

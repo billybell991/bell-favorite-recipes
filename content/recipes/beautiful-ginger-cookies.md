@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/30468106/pexels-photo-30468106.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/beautiful-ginger-cookies.png"
 notes: ""
 ---
 ## Ingredients

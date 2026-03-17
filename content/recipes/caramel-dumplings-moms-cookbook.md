@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/12001952/pexels-photo-12001952.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/caramel-dumplings-moms-cookbook.png"
 notes: ""
 ---
 ## Ingredients

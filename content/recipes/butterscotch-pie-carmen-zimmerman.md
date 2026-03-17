@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5419100/pexels-photo-5419100.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/butterscotch-pie-carmen-zimmerman.png"
 notes: ""
 ---
 ## Ingredients

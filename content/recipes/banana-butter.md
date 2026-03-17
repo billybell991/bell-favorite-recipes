@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6659867/pexels-photo-6659867.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/banana-butter.png"
 notes: ""
 ---
 - 1 Cup Mashed Banana

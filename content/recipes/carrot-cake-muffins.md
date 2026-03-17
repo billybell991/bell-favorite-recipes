@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/18282821/pexels-photo-18282821.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/carrot-cake-muffins.png"
 notes: ""
 ---
 

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/12064409/pexels-photo-12064409.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/banana-muffins.png"
 notes: ""
 ---
 Preheat oven to 400 degrees.  Blend or sift together:

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6996348/pexels-photo-6996348.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/beautiful-sugar-cookies.png"
 notes: ""
 ---
 ## Ingredients

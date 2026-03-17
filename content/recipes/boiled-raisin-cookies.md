@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1626666/pexels-photo-1626666.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/boiled-raisin-cookies.png"
 notes: ""
 ---
 Submitted by Jenny Navid

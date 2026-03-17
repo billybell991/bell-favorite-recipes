@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://peasandcrayons.com/wp-content/uploads/2024/01/fried-mashed-potato-balls-recipe-5.jpg"
+image: "images/recipes/air-fryer-mashed-potato-balls.png"
 notes: ""
 ---
 

@@ -1,0 +1,92 @@
+05:39:55  INFO      Found 736 recipe files
+05:39:55  INFO      [1/736] 5-Ingredient Mac 'n' Cheese
+05:39:55  INFO      [2/736] 7-Layer Dinner
+05:39:55  INFO      [3/736] 90-Second Keto Bread in a Mug
+05:39:55  INFO      Done! Success: 3, Failed: 0, Skipped: 0
+05:40:02  INFO      Found 736 recipe files
+05:40:02  INFO      Gemini client initialized
+05:40:02  INFO      [1/736] 5-Ingredient Mac 'n' Cheese
+05:40:03  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-fast-generate-001:predict "HTTP/1.1 429 Too Many Requests"
+05:40:03  WARNING     Generation failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/predict_requests_per_model_per_day_paid_tier_1, limit: 70, model: imagen-4.0-fast-generate', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/predict_requests_per_model_per_day_paid_tier_1', 'quotaId': 'PredictRequestsPerDayPerProjectPerModelPaidTier1', 'quotaDimensions': {'location': 'global', 'model': 'imagen-4.0-fast-generate'}, 'quotaValue': '70'}]}]}}
+05:40:03  INFO        Retrying with imagen-4.0-fast-generate-001...
+05:40:05  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-fast-generate-001:predict "HTTP/1.1 429 Too Many Requests"
+05:40:05  WARNING     Generation failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/predict_requests_per_model_per_day_paid_tier_1, limit: 70, model: imagen-4.0-fast-generate', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/predict_requests_per_model_per_day_paid_tier_1', 'quotaId': 'PredictRequestsPerDayPerProjectPerModelPaidTier1', 'quotaDimensions': {'location': 'global', 'model': 'imagen-4.0-fast-generate'}, 'quotaValue': '70'}]}]}}
+05:40:05  INFO        Retrying with gemini-2.5-flash-preview-05-20...
+05:40:07  INFO      AFC is enabled with max remote calls: 10.
+05:40:07  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent "HTTP/1.1 404 Not Found"
+05:40:07  WARNING     Generation failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.5-flash-preview-05-20 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+05:40:07  ERROR       FAILED: 5-Ingredient Mac 'n' Cheese
+05:40:07  INFO      Done! Success: 0, Failed: 1, Skipped: 0
+05:40:43  INFO      Found 736 recipe files
+05:40:44  INFO      Gemini client initialized
+05:40:44  INFO      [1/736] 5-Ingredient Mac 'n' Cheese
+05:40:44  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-fast-generate-001:predict "HTTP/1.1 429 Too Many Requests"
+05:40:44  WARNING     Quota exhausted for model imagen-4.0-fast-generate-001
+05:40:44  INFO        Trying fallback model gemini-2.0-flash-exp...
+05:40:48  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-fast-generate-001:predict "HTTP/1.1 429 Too Many Requests"
+05:40:48  WARNING     Quota exhausted for model imagen-4.0-fast-generate-001
+05:40:48  INFO        Trying fallback model gemini-2.0-flash-exp...
+05:40:52  INFO      AFC is enabled with max remote calls: 10.
+05:40:52  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 404 Not Found"
+05:40:52  WARNING     Generation failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+05:40:52  ERROR       FAILED: 5-Ingredient Mac 'n' Cheese
+05:40:52  INFO      Done! Success: 0, Failed: 1, Skipped: 0
+05:41:16  INFO      Found 736 recipe files
+05:41:17  INFO      Gemini client initialized
+05:41:17  INFO      [1/736] 5-Ingredient Mac 'n' Cheese
+05:41:17  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-fast-generate-001:predict "HTTP/1.1 429 Too Many Requests"
+05:41:17  WARNING     Quota exhausted for model imagen-4.0-fast-generate-001
+05:41:17  INFO        Trying fallback model gemini-2.5-flash-image...
+05:41:21  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-fast-generate-001:predict "HTTP/1.1 429 Too Many Requests"
+05:41:21  WARNING     Quota exhausted for model imagen-4.0-fast-generate-001
+05:41:21  INFO        Trying fallback model gemini-2.5-flash-image...
+05:41:25  INFO      AFC is enabled with max remote calls: 10.
+05:41:31  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+05:41:31  INFO        Saved: 5-ingredient-mac-n-cheese.png (1435 KB)
+05:41:31  INFO        Updated frontmatter → /images/recipes/5-ingredient-mac-n-cheese.png
+05:41:31  INFO      Done! Success: 1, Failed: 0, Skipped: 0
+05:42:09  INFO      Found 736 recipe files
+05:42:09  INFO      Gemini client initialized
+05:42:09  INFO      [2/736] 7-Layer Dinner
+05:42:10  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-fast-generate-001:predict "HTTP/1.1 429 Too Many Requests"
+05:42:10  WARNING     Quota exhausted for model imagen-4.0-fast-generate-001
+05:42:10  INFO        Imagen quota hit, switching to gemini-2.5-flash-image
+05:42:10  INFO      AFC is enabled with max remote calls: 10.
+05:42:16  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+05:42:16  INFO        Saved: 7-layer-dinner.png (1595 KB)
+05:42:16  INFO        Updated frontmatter → /images/recipes/7-layer-dinner.png
+05:42:20  INFO      [3/736] 90-Second Keto Bread in a Mug
+05:42:20  INFO      AFC is enabled with max remote calls: 10.
+05:42:27  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+05:42:28  INFO        Saved: 90-second-keto-bread-in-a-mug.png (1493 KB)
+05:42:28  INFO        Updated frontmatter → /images/recipes/90-second-keto-bread-in-a-mug.png
+05:42:32  INFO      [4/736] Air Fryer Chicken Thighs
+05:42:32  INFO      AFC is enabled with max remote calls: 10.
+05:42:37  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent "HTTP/1.1 200 OK"
+05:42:37  INFO        Saved: air-fryer-chicken-thighs.png (1579 KB)
+05:42:37  INFO        Updated frontmatter → /images/recipes/air-fryer-chicken-thighs.png
+05:42:37  INFO      Done! Success: 3, Failed: 0, Skipped: 1
+02:41:18  INFO      Found 736 recipe files
+02:41:19  INFO      Gemini client initialized
+02:41:19  WARNING   Skipping blueberry-muffins.md (can't parse)
+02:41:19  INFO      [2/736] Garlick Sauce (George's)
+02:41:22  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-fast-generate-001:predict "HTTP/1.1 200 OK"
+02:41:22  INFO        Saved: garlick-sauce-georges.png (1158 KB)
+02:41:22  INFO        Updated frontmatter → /images/recipes/garlick-sauce-georges.png
+02:41:22  INFO      Done! Success: 1, Failed: 0, Skipped: 1
+03:02:22  INFO      Found 736 recipe files
+03:02:22  WARNING   Skipping blueberry-muffins.md (can't parse)
+03:02:22  INFO      [2/736] Garlick Sauce (George's)
+03:02:22  INFO      Done! Success: 1, Failed: 0, Skipped: 1
+03:03:10  INFO      Found 736 recipe files
+03:03:10  WARNING   Skipping blueberry-muffins.md (can't parse)
+03:03:10  INFO      [2/736] Garlick Sauce (George's)
+03:03:10  INFO      Done! Success: 1, Failed: 0, Skipped: 1
+03:04:12  INFO      Found 736 recipe files
+03:04:13  INFO      Gemini client initialized
+03:04:13  WARNING   Skipping blueberry-muffins.md (can't parse)
+03:04:13  INFO      [2/736] Garlick Sauce (George's)
+03:04:16  INFO      HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-fast-generate-001:predict "HTTP/1.1 200 OK"
+03:04:16  INFO        Saved: garlick-sauce-georges.png (1060 KB)
+03:04:16  INFO        Updated frontmatter → images/recipes/garlick-sauce-georges.png
+03:04:16  INFO      Done! Success: 1, Failed: 0, Skipped: 1

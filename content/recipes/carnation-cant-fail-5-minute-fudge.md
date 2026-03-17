@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5978426/pexels-photo-5978426.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/carnation-cant-fail-5-minute-fudge.png"
 notes: ""
 ---
 ## Ingredients

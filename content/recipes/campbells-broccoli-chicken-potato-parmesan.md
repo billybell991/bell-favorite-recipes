@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1309595/pexels-photo-1309595.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/campbells-broccoli-chicken-potato-parmesan.png"
 notes: ""
 ---
 ## Ingredients

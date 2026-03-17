@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/17429051/pexels-photo-17429051.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/bbq-chicken.png"
 notes: ""
 ---
 - 2 lb chicken breasts

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5635340/pexels-photo-5635340.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/barbecued-spareribs.png"
 notes: ""
 ---
 ## Ingredients

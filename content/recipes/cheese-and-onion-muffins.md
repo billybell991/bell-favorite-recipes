@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/18713428/pexels-photo-18713428.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/cheese-and-onion-muffins.png"
 notes: ""
 ---
 ## Ingredients

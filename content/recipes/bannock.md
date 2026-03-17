@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6594899/pexels-photo-6594899.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/bannock.png"
 notes: ""
 ---
 ## Ingredients

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/115740/pexels-photo-115740.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/cavendish-farms-flavourcrisp-fries.png"
 notes: ""
 ---
 ## Ingredients

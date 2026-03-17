@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6324764/pexels-photo-6324764.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/apple-cider-rice-krispie-squares.png"
 notes: ""
 ---
 

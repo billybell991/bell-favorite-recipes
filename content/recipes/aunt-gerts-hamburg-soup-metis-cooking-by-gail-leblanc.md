@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8743817/pexels-photo-8743817.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/aunt-gerts-hamburg-soup-metis-cooking-by-gail-leblanc.png"
 notes: ""
 ---
 ## Ingredients

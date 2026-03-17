@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/33756111/pexels-photo-33756111.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/almond-bars.png"
 notes: ""
 ---
 ## Ingredients

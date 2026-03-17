@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3025236/pexels-photo-3025236.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/carrots-and-pineapple-cw.png"
 notes: ""
 ---
 ## Ingredients

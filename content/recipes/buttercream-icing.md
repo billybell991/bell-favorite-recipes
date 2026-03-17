@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/853006/pexels-photo-853006.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/buttercream-icing.png"
 notes: ""
 ---
 ## Ingredients

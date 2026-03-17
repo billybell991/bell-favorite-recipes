@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/10059904/pexels-photo-10059904.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/career-girls-spaghetti.png"
 notes: ""
 ---
 ## Ingredients

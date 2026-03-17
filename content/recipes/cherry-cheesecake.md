@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/213621/pexels-photo-213621.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/cherry-cheesecake.png"
 notes: ""
 ---
 Submitted by Stella and Ben Daigle

@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/31450819/pexels-photo-31450819.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/bacon-cream-cheese-cheddar-chicken.png"
 notes: ""
 ---
 

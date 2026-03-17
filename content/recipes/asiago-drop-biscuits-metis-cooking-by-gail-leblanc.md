@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/36134940/pexels-photo-36134940.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/asiago-drop-biscuits-metis-cooking-by-gail-leblanc.png"
 notes: ""
 ---
 ## Ingredients

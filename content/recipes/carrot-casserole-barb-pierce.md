@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/103888/pexels-photo-103888.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/carrot-casserole-barb-pierce.png"
 notes: ""
 ---
 ## Ingredients

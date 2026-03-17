@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/14702298/pexels-photo-14702298.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/caesar-salad-seasoning-mix.png"
 notes: ""
 ---
 ## Ingredients

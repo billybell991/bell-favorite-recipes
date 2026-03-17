@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6133326/pexels-photo-6133326.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/blueberry-cheesecake.png"
 notes: ""
 ---
 Submitted by Joanne and Greg Craig

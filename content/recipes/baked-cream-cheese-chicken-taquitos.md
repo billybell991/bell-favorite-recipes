@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/32449863/pexels-photo-32449863.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/baked-cream-cheese-chicken-taquitos.png"
 notes: ""
 ---
 ## Ingredients

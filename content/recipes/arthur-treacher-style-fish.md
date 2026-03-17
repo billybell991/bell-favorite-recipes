@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/14924014/pexels-photo-14924014.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/arthur-treacher-style-fish.png"
 notes: ""
 ---
 

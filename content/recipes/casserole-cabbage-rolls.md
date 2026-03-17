@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/19585043/pexels-photo-19585043.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/casserole-cabbage-rolls.png"
 notes: ""
 ---
 ## Ingredients

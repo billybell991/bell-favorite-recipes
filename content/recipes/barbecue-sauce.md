@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/750947/pexels-photo-750947.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/barbecue-sauce.png"
 notes: ""
 ---
 ## Ingredients

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/12041758/pexels-photo-12041758.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/bakers-clay-instructions.png"
 notes: ""
 ---
 BAKER’S  CLAY  INSTRUCTIONS – Brown Bag Cookie Art

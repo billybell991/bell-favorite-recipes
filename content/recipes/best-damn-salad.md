@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/35290622/pexels-photo-35290622.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/best-damn-salad.png"
 notes: ""
 ---
 Submitted by Julie and Dave Pigeau

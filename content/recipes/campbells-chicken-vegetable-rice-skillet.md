@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5305441/pexels-photo-5305441.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/campbells-chicken-vegetable-rice-skillet.png"
 notes: ""
 ---
 ## Ingredients

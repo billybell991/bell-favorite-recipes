@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/35283657/pexels-photo-35283657.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/campbells-broth-for-savoury-rice.png"
 notes: ""
 ---
 ## Instructions

@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8621808/pexels-photo-8621808.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/banana-cake-with-caramel-icing.png"
 notes: ""
 ---
 Submitted by Shirley and Dave Jodouin

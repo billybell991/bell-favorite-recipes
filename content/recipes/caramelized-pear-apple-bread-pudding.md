@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/10539817/pexels-photo-10539817.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/caramelized-pear-apple-bread-pudding.png"
 notes: ""
 ---
 Submitted by Judy and Roger Lafreniere

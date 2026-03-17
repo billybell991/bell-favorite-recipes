@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1080314/pexels-photo-1080314.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "images/recipes/bush-bread-bannock-for-1-scone.png"
 notes: ""
 ---
 ## Ingredients

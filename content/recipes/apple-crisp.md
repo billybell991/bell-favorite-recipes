@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7156080/pexels-photo-7156080.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/apple-crisp.png"
 notes: ""
 ---
 

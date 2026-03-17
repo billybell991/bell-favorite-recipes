@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/10049135/pexels-photo-10049135.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/angel-hair-pasta-with-chicken.png"
 notes: ""
 ---
 Submitted by Allison and Dave Rudback

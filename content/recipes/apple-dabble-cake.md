@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5662080/pexels-photo-5662080.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/apple-dabble-cake.png"
 notes: ""
 ---
 - 2 cups sugar

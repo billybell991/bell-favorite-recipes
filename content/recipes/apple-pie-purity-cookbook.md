@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6163333/pexels-photo-6163333.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/apple-pie-purity-cookbook.png"
 notes: ""
 ---
 ## Instructions

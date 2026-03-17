@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6287525/pexels-photo-6287525.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/campbells-shortcut-spaghetti-meat-sauce.png"
 notes: ""
 ---
 ## Ingredients

@@ -43,8 +43,14 @@
     <div id="admin-tabs" style="display:none; margin-bottom:1.5rem;">
       <div style="display:flex; gap:0; border-bottom:3px solid #2c5530;">
         <button type="button" class="admin-tab active" data-tab="add-recipe" style="padding:0.75rem 1.5rem; border:none; background:#2c5530; color:#fff; font-weight:600; font-size:1rem; cursor:pointer; border-radius:8px 8px 0 0;">Add Recipe</button>
+        <!-- TODO: Merge "Update Recipe Image", "Delete Recipe", and "Edit Recipe" tabs into a single "Maintain Recipe" tab.
+             Each recipe row should have three buttons: [✏️ Edit] [🖼 Update Image] [🗑 Delete].
+             Delete should show an inline "Are you sure?" confirm before triggering the existing delete confirm modal.
+             Remove the separate update-image-panel and delete-recipe-panel and edit-recipe-panel;
+             replace with a single maintain-recipe-panel that has one searchable recipe list. -->
         <button type="button" class="admin-tab" data-tab="update-image" style="padding:0.75rem 1.5rem; border:none; background:#e8e8e8; color:#333; font-weight:600; font-size:1rem; cursor:pointer; border-radius:8px 8px 0 0;">Update Recipe Image</button>
         <button type="button" class="admin-tab" data-tab="delete-recipe" style="padding:0.75rem 1.5rem; border:none; background:#e8e8e8; color:#333; font-weight:600; font-size:1rem; cursor:pointer; border-radius:8px 8px 0 0;">Delete Recipe</button>
+        <button type="button" class="admin-tab" data-tab="edit-recipe" style="padding:0.75rem 1.5rem; border:none; background:#e8e8e8; color:#333; font-weight:600; font-size:1rem; cursor:pointer; border-radius:8px 8px 0 0;">Edit Recipe</button>
       </div>
     </div>
 
@@ -241,6 +247,147 @@
         <span id="delete-count" style="font-size:0.85rem; color:#666;"></span>
       </div>
       <div id="delete-recipe-list"></div>
+    </div>
+
+    <!-- Edit Recipe panel -->
+    <div id="edit-recipe-panel" class="admin-tab-panel" style="display:none;">
+
+      <!-- Step 1: Recipe selection list -->
+      <div id="edit-select-section">
+        <h1>Edit Recipe</h1>
+        <p class="submit-intro">Select a recipe to edit its details.</p>
+        <div style="margin-bottom:1rem; display:flex; gap:0.5rem; align-items:center; flex-wrap:wrap;">
+          <input type="text" id="edit-filter" placeholder="Filter recipes..." style="flex:1; min-width:200px;">
+          <select id="edit-cat-filter" style="min-width:180px;">
+            <option value="">All Categories</option>
+          </select>
+          <span id="edit-count" style="font-size:0.85rem; color:#666;"></span>
+        </div>
+        <div id="edit-recipe-list"></div>
+      </div>
+
+      <!-- Step 2: Edit form (hidden until recipe selected) -->
+      <div id="edit-form-section" style="display:none;">
+        <div style="display:flex; align-items:center; gap:1rem; margin-bottom:1.5rem; flex-wrap:wrap;">
+          <button type="button" id="edit-back-btn" class="btn btn-secondary">&larr; Back to List</button>
+          <h2 id="edit-recipe-heading" style="margin:0; font-size:1.3rem; color:#2c5530;"></h2>
+        </div>
+
+        <form class="recipe-form" id="edit-recipe-form">
+
+          <div class="form-group">
+            <label for="edit-title">Recipe Title *</label>
+            <input type="text" id="edit-title" required>
+          </div>
+
+          <div class="form-group">
+            <label for="edit-category">Category *</label>
+            <select id="edit-category" required>
+              <option value="">Select a category...</option>
+              <option value="Air Fryer Recipes">Air Fryer Recipes</option>
+              <option value="Family Recipes">Family Recipes</option>
+              <option value="Friends Recipes">Friends' Recipes</option>
+              <option value="Instant Pot Recipes">Instant Pot Recipes</option>
+              <option value="Keto & Low Carb">Keto &amp; Low Carb</option>
+              <option value="Misc Recipes - Cookbooks">Misc. Recipes (Cookbooks)</option>
+              <option value="Misc Recipes - Internet">Misc. Recipes (Internet)</option>
+              <option value="Mom's Cookbook">Mom's Cookbook</option>
+              <option value="Wedding Cookbook">Wedding Cookbook</option>
+              <option value="Weight Watchers">Weight Watchers</option>
+            </select>
+          </div>
+
+          <div class="form-group" id="edit-subcategory-group" style="display:none;">
+            <label for="edit-subcategory">Subcategory</label>
+            <select id="edit-subcategory">
+              <option value="">None</option>
+              <option value="Appetizers">Appetizers</option>
+              <option value="Breads">Breads</option>
+              <option value="Cake Frosting">Cake Frosting</option>
+              <option value="Cakes and Muffins">Cakes and Muffins</option>
+              <option value="Casseroles">Casseroles</option>
+              <option value="Chicken">Chicken</option>
+              <option value="Cookies">Cookies</option>
+              <option value="Desserts">Desserts</option>
+              <option value="Diabetic Recipes">Diabetic Recipes</option>
+              <option value="Fish">Fish</option>
+              <option value="Fun Things">Fun Things</option>
+              <option value="Meat">Meat</option>
+              <option value="Miscellaneous">Miscellaneous</option>
+              <option value="Native Cuisine">Native Cuisine</option>
+              <option value="Pickles">Pickles</option>
+              <option value="Pies">Pies</option>
+              <option value="Puddings">Puddings</option>
+              <option value="Salads and Dressings">Salads and Dressings</option>
+              <option value="Sauces">Sauces</option>
+              <option value="Snacks">Snacks</option>
+              <option value="Soups">Soups</option>
+              <option value="Squares">Squares</option>
+              <option value="Vegetables">Vegetables</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="edit-prep-time">Prep Time</label>
+              <input type="text" id="edit-prep-time" placeholder="e.g., 15 minutes">
+            </div>
+            <div class="form-group">
+              <label for="edit-cook-time">Cook Time</label>
+              <input type="text" id="edit-cook-time" placeholder="e.g., 30 minutes">
+            </div>
+            <div class="form-group">
+              <label for="edit-servings">Servings</label>
+              <input type="text" id="edit-servings" placeholder="e.g., 4-6">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="edit-description">Description / Blurb</label>
+            <textarea id="edit-description" rows="3"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="edit-ingredients">Ingredients (one per line)</label>
+            <textarea id="edit-ingredients" rows="10"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="edit-instructions">Instructions (one step per line)</label>
+            <textarea id="edit-instructions" rows="10"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="edit-notes">Notes / Tips</label>
+            <textarea id="edit-notes" rows="3"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="edit-source-credit">Source / Credit</label>
+            <input type="text" id="edit-source-credit">
+          </div>
+
+          <div class="form-group">
+            <label for="edit-source-url">Source URL</label>
+            <input type="url" id="edit-source-url" placeholder="https://...">
+          </div>
+
+          <div class="form-group">
+            <label for="edit-image-url">Image URL</label>
+            <input type="text" id="edit-image-url" placeholder="images/recipes/slug.png">
+            <small class="form-help">Leave as-is to keep the current image.</small>
+          </div>
+
+          <div class="form-group">
+            <label for="edit-tags">Tags (comma-separated)</label>
+            <input type="text" id="edit-tags">
+          </div>
+
+          <button type="submit" class="btn btn-primary" id="edit-submit-btn">Save Changes</button>
+          <p id="edit-submit-status" style="margin-top:1rem;"></p>
+
+        </form>
+      </div>
     </div>
 
     <!-- Delete Confirmation Modal -->
@@ -746,6 +893,9 @@
       } else if (target === 'delete-recipe') {
         document.getElementById('delete-recipe-panel').style.display = 'block';
         if (!deleteListLoaded) loadDeleteList();
+      } else if (target === 'edit-recipe') {
+        document.getElementById('edit-recipe-panel').style.display = 'block';
+        if (!editListLoaded) loadEditList();
       }
     });
   });
@@ -1274,6 +1424,339 @@
 
   document.getElementById('delete-filter').addEventListener('input', renderDeleteList);
   document.getElementById('delete-cat-filter').addEventListener('change', renderDeleteList);
+
+  // =============================================
+  // Edit Recipe
+  // =============================================
+  var editListLoaded = false;
+  var editAllRecipes = [];
+  var editCurrentRecipe = null;
+  var editCurrentSha = null;
+  var editOriginalDate = null;
+
+  function loadEditList() {
+    var listEl = document.getElementById('edit-recipe-list');
+    listEl.innerHTML = '<p style="text-align:center; color:#666; padding:2rem;">Loading recipes...</p>';
+
+    var source = allRecipes.length > 0
+      ? Promise.resolve(allRecipes.slice())
+      : (function() {
+          var baseUrl = '{{ site.BaseURL }}'.replace(/\/$/, '');
+          return fetch(baseUrl + '/index.json')
+            .then(function(r) { return r.json(); })
+            .then(function(data) {
+              return data.filter(function(r) {
+                return r.permalink && r.permalink.indexOf('/recipes/') !== -1 && r.title;
+              }).sort(function(a, b) { return (a.title || '').localeCompare(b.title || ''); });
+            });
+        })();
+
+    source.then(function(recipes) {
+      editAllRecipes = recipes;
+      editListLoaded = true;
+      var catSelect = document.getElementById('edit-cat-filter');
+      if (catSelect.options.length <= 1) {
+        var cats = {};
+        recipes.forEach(function(r) {
+          if (r.categories) r.categories.forEach(function(c) { cats[c] = true; });
+        });
+        Object.keys(cats).sort().forEach(function(c) {
+          var opt = document.createElement('option');
+          opt.value = c;
+          opt.textContent = c;
+          catSelect.appendChild(opt);
+        });
+      }
+      renderEditList();
+    }).catch(function(err) {
+      listEl.innerHTML = '<p style="color:#c0392b; text-align:center;">Error loading recipes: ' + err.message + '</p>';
+    });
+  }
+
+  function renderEditList() {
+    var filter = document.getElementById('edit-filter').value.toLowerCase();
+    var catFilter = document.getElementById('edit-cat-filter').value;
+    var filtered = editAllRecipes.filter(function(r) {
+      if (filter && (r.title || '').toLowerCase().indexOf(filter) === -1) return false;
+      if (catFilter && (!r.categories || r.categories.indexOf(catFilter) === -1)) return false;
+      return true;
+    });
+    document.getElementById('edit-count').textContent = filtered.length + ' of ' + editAllRecipes.length + ' recipes';
+    var listEl = document.getElementById('edit-recipe-list');
+    listEl.innerHTML = '';
+    if (filtered.length === 0) {
+      listEl.innerHTML = '<p style="text-align:center; color:#999; padding:2rem;">No recipes match your filter.</p>';
+      return;
+    }
+    filtered.forEach(function(recipe) {
+      var row = document.createElement('div');
+      row.style.cssText = 'display:flex; align-items:center; padding:0.6rem 0.75rem; border-bottom:1px solid #eee; gap:0.75rem;';
+      var titleSpan = document.createElement('span');
+      titleSpan.style.cssText = 'flex:1; font-weight:500;';
+      titleSpan.textContent = recipe.title;
+      var catSpan = document.createElement('span');
+      catSpan.style.cssText = 'font-size:0.78rem; color:#666; min-width:160px;';
+      catSpan.textContent = (recipe.categories || []).join(', ');
+      var editBtn = document.createElement('button');
+      editBtn.type = 'button';
+      editBtn.textContent = '✏️ Edit';
+      editBtn.style.cssText = 'background:#2c5530; color:#fff; border:none; padding:0.35rem 0.9rem; border-radius:6px; font-size:0.85rem; cursor:pointer; white-space:nowrap; flex-shrink:0;';
+      editBtn.addEventListener('click', function() { openEditForm(recipe); });
+      row.appendChild(titleSpan);
+      row.appendChild(catSpan);
+      row.appendChild(editBtn);
+      listEl.appendChild(row);
+    });
+  }
+
+  function openEditForm(recipe) {
+    var slug = recipe.permalink.replace(/.*\/recipes\//, '').replace(/\/$/, '');
+    var filePath = FILE_PATH_PREFIX + slug + '.md';
+    var statusEl = document.getElementById('edit-submit-status');
+    statusEl.textContent = 'Loading recipe...';
+    statusEl.style.color = '#666';
+    document.getElementById('edit-select-section').style.display = 'none';
+    document.getElementById('edit-form-section').style.display = 'block';
+    document.getElementById('edit-recipe-heading').textContent = recipe.title;
+    document.getElementById('edit-submit-btn').disabled = true;
+
+    fetch('https://api.github.com/repos/' + REPO_OWNER + '/' + REPO_NAME + '/contents/' + filePath + '?ref=' + BRANCH, {
+      headers: { 'Authorization': 'Bearer ' + token }
+    }).then(function(r) {
+      if (!r.ok) throw new Error('Could not fetch recipe file (HTTP ' + r.status + ')');
+      return r.json();
+    }).then(function(fileData) {
+      editCurrentRecipe = recipe;
+      editCurrentSha = fileData.sha;
+      var content = decodeURIComponent(escape(atob(fileData.content.replace(/\n/g, ''))));
+      var parsed = parseFrontmatter(content);
+      editOriginalDate = parsed.date;
+      prefillEditForm(parsed);
+      statusEl.textContent = '';
+      document.getElementById('edit-submit-btn').disabled = false;
+    }).catch(function(err) {
+      statusEl.textContent = 'Error loading recipe: ' + err.message;
+      statusEl.style.color = '#c0392b';
+      document.getElementById('edit-submit-btn').disabled = false;
+    });
+  }
+
+  function parseFrontmatter(content) {
+    var result = {
+      title: '', category: '', subcategory: '', description: '',
+      prepTime: '', cookTime: '', servings: '', notes: '',
+      credit: '', creditUrl: '', image: '', tags: [],
+      date: '', source: '', ingredients: [], instructions: []
+    };
+    var lines = content.split('\n');
+    var inFm = false;
+    var fmEndIdx = -1;
+
+    for (var i = 0; i < lines.length; i++) {
+      var line = lines[i].replace(/\r$/, '');
+      if (i === 0 && line.trim() === '---') { inFm = true; continue; }
+      if (inFm) {
+        if (line.trim() === '---') { inFm = false; fmEndIdx = i; continue; }
+        var m;
+        if ((m = line.match(/^title:\s*"?(.*?)"?\s*$/)) && m[1] !== undefined) result.title = m[1].replace(/\\"/g, '"');
+        else if ((m = line.match(/^date:\s*(.*?)\s*$/))) result.date = m[1];
+        else if ((m = line.match(/^categories:\s*\["?([^"\]]*)"?\]/))) result.category = m[1];
+        else if ((m = line.match(/^subcategories:\s*\["?([^"\]]*)"?\]/))) result.subcategory = m[1];
+        else if ((m = line.match(/^description:\s*"?(.*?)"?\s*$/)) && m[1] !== undefined) result.description = m[1].replace(/\\"/g, '"');
+        else if ((m = line.match(/^source:\s*"?(.*?)"?\s*$/))) result.source = m[1];
+        else if ((m = line.match(/^creditUrl:\s*"?(.*?)"?\s*$/))) result.creditUrl = m[1];
+        else if ((m = line.match(/^credit:\s*"?(.*?)"?\s*$/)) && m[1] !== undefined) result.credit = m[1].replace(/\\"/g, '"');
+        else if ((m = line.match(/^prepTime:\s*"?(.*?)"?\s*$/))) result.prepTime = m[1];
+        else if ((m = line.match(/^cookTime:\s*"?(.*?)"?\s*$/))) result.cookTime = m[1];
+        else if ((m = line.match(/^servings:\s*"?(.*?)"?\s*$/))) result.servings = m[1];
+        else if ((m = line.match(/^image:\s*"?(.*?)"?\s*$/))) result.image = m[1];
+        else if ((m = line.match(/^notes:\s*"?(.*?)"?\s*$/)) && m[1] !== undefined) result.notes = m[1].replace(/\\"/g, '"');
+        else if ((m = line.match(/^tags:\s*\[(.*?)\]\s*$/))) {
+          result.tags = m[1].split(',').map(function(t) {
+            return t.trim().replace(/^["']|["']$/g, '');
+          }).filter(function(t) { return t.length > 0; });
+        }
+      }
+    }
+
+    var bodyLines = fmEndIdx >= 0 ? lines.slice(fmEndIdx + 1) : lines;
+    var section = '';
+    bodyLines.forEach(function(bl) {
+      bl = bl.replace(/\r$/, '');
+      if (/^##\s+Ingredients/i.test(bl)) { section = 'ingredients'; return; }
+      if (/^##\s+Instructions/i.test(bl)) { section = 'instructions'; return; }
+      if (/^##/.test(bl)) { section = ''; return; }
+      var m2;
+      if (section === 'ingredients' && (m2 = bl.match(/^[-*]\s+(.*)/)) && m2[1].trim()) {
+        result.ingredients.push(m2[1].trim());
+      } else if (section === 'instructions' && (m2 = bl.match(/^\d+[\.\)]\s+(.*)/)) && m2[1].trim()) {
+        result.instructions.push(m2[1].trim());
+      }
+    });
+
+    return result;
+  }
+
+  function prefillEditForm(data) {
+    document.getElementById('edit-title').value = data.title || '';
+    document.getElementById('edit-prep-time').value = data.prepTime || '';
+    document.getElementById('edit-cook-time').value = data.cookTime || '';
+    document.getElementById('edit-servings').value = data.servings || '';
+    document.getElementById('edit-description').value = data.description || '';
+    document.getElementById('edit-ingredients').value = data.ingredients.join('\n');
+    document.getElementById('edit-instructions').value = data.instructions.join('\n');
+    document.getElementById('edit-notes').value = data.notes || '';
+    document.getElementById('edit-source-credit').value = data.credit || '';
+    document.getElementById('edit-source-url').value = data.creditUrl || '';
+    document.getElementById('edit-image-url').value = data.image || '';
+    document.getElementById('edit-tags').value = data.tags.join(', ');
+
+    var catSel = document.getElementById('edit-category');
+    catSel.value = data.category || '';
+
+    var showSub = data.category && data.category.indexOf('Mom') === 0;
+    document.getElementById('edit-subcategory-group').style.display = showSub ? 'block' : 'none';
+    if (showSub) {
+      document.getElementById('edit-subcategory').value = data.subcategory || '';
+    } else {
+      document.getElementById('edit-subcategory').value = '';
+    }
+  }
+
+  function buildEditMarkdown() {
+    var title = document.getElementById('edit-title').value.trim();
+    var category = document.getElementById('edit-category').value;
+    var subcategory = document.getElementById('edit-subcategory').value;
+    var prepTime = document.getElementById('edit-prep-time').value.trim();
+    var cookTime = document.getElementById('edit-cook-time').value.trim();
+    var servingsVal = document.getElementById('edit-servings').value.trim();
+    var description = document.getElementById('edit-description').value.trim();
+    var ingredients = document.getElementById('edit-ingredients').value.trim();
+    var instructions = document.getElementById('edit-instructions').value.trim();
+    var notes = document.getElementById('edit-notes').value.trim();
+    var credit = document.getElementById('edit-source-credit').value.trim();
+    var creditUrl = document.getElementById('edit-source-url').value.trim();
+    var imageUrl = document.getElementById('edit-image-url').value.trim();
+    var tags = document.getElementById('edit-tags').value.trim();
+
+    var dateStr = editOriginalDate || new Date().toISOString().replace(/\.\d{3}Z$/, '-05:00');
+
+    var fm = '---\n';
+    fm += 'title: "' + title.replace(/"/g, '\\"') + '"\n';
+    fm += 'date: ' + dateStr + '\n';
+    fm += 'draft: false\n';
+    fm += 'categories: ["' + category + '"]\n';
+    if (subcategory) fm += 'subcategories: ["' + subcategory + '"]\n';
+    if (tags) {
+      var tagList = tags.split(',').map(function(t) { return '"' + t.trim() + '"'; }).join(', ');
+      fm += 'tags: [' + tagList + ']\n';
+    } else {
+      fm += 'tags: []\n';
+    }
+    fm += 'description: "' + description.replace(/"/g, '\\"') + '"\n';
+    fm += 'source: ""\n';
+    fm += 'creditUrl: "' + creditUrl + '"\n';
+    fm += 'credit: "' + credit.replace(/"/g, '\\"') + '"\n';
+    fm += 'prepTime: "' + prepTime + '"\n';
+    fm += 'cookTime: "' + cookTime + '"\n';
+    fm += 'servings: "' + servingsVal + '"\n';
+    fm += 'image: "' + imageUrl + '"\n';
+    fm += 'notes: "' + notes.replace(/"/g, '\\"').replace(/\n/g, ' ') + '"\n';
+    fm += '---\n\n';
+
+    fm += '## Ingredients\n\n';
+    ingredients.split('\n').forEach(function(line) {
+      line = line.trim();
+      if (line) fm += '- ' + line + '\n';
+    });
+
+    fm += '\n## Instructions\n\n';
+    var stepNum = 1;
+    instructions.split('\n').forEach(function(line) {
+      line = line.trim();
+      if (!line) return;
+      line = line.replace(/^\d+[\.\)]\s*/, '');
+      fm += stepNum + '. ' + line + '\n';
+      stepNum++;
+    });
+
+    return fm;
+  }
+
+  document.getElementById('edit-category').addEventListener('change', function() {
+    var show = this.value.indexOf('Mom') === 0;
+    document.getElementById('edit-subcategory-group').style.display = show ? 'block' : 'none';
+    if (!show) document.getElementById('edit-subcategory').value = '';
+  });
+
+  document.getElementById('edit-back-btn').addEventListener('click', function() {
+    document.getElementById('edit-form-section').style.display = 'none';
+    document.getElementById('edit-select-section').style.display = 'block';
+    document.getElementById('edit-submit-status').textContent = '';
+    editCurrentRecipe = null;
+    editCurrentSha = null;
+    editOriginalDate = null;
+  });
+
+  document.getElementById('edit-recipe-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    if (!editCurrentRecipe || !editCurrentSha || !token) return;
+
+    var btn = document.getElementById('edit-submit-btn');
+    var status = document.getElementById('edit-submit-status');
+    btn.disabled = true;
+    btn.textContent = 'Saving...';
+    status.textContent = '';
+    status.style.color = '';
+
+    var slug = editCurrentRecipe.permalink.replace(/.*\/recipes\//, '').replace(/\/$/, '');
+    var filePath = FILE_PATH_PREFIX + slug + '.md';
+    var newTitle = document.getElementById('edit-title').value.trim();
+    var content = buildEditMarkdown();
+    var encoded = btoa(unescape(encodeURIComponent(content)));
+
+    fetch('https://api.github.com/repos/' + REPO_OWNER + '/' + REPO_NAME + '/contents/' + filePath, {
+      method: 'PUT',
+      headers: {
+        'Authorization': 'Bearer ' + token,
+        'Content-Type': 'application/json',
+        'Accept': 'application/vnd.github.v3+json'
+      },
+      body: JSON.stringify({
+        message: 'Update recipe: ' + newTitle,
+        content: encoded,
+        sha: editCurrentSha,
+        branch: BRANCH
+      })
+    }).then(function(r) {
+      if (!r.ok) return r.json().then(function(d) {
+        var msg = d.message || 'API error';
+        if (msg.indexOf('Resource not accessible') !== -1) {
+          msg = 'Token lacks "Contents: Read and write" permission.';
+        }
+        throw new Error(msg);
+      });
+      return r.json();
+    }).then(function(data) {
+      // Update SHA so a second save in the same session works
+      editCurrentSha = data.content && data.content.sha ? data.content.sha : editCurrentSha;
+      // Update the name in edit heading if title changed
+      editCurrentRecipe.title = newTitle;
+      document.getElementById('edit-recipe-heading').textContent = newTitle;
+      status.style.color = '#27ae60';
+      status.textContent = 'Saved! Site will rebuild in 1-2 minutes.';
+      btn.disabled = false;
+      btn.textContent = 'Save Changes';
+    }).catch(function(err) {
+      status.style.color = '#c0392b';
+      status.textContent = 'Error: ' + err.message;
+      btn.disabled = false;
+      btn.textContent = 'Save Changes';
+    });
+  });
+
+  document.getElementById('edit-filter').addEventListener('input', renderEditList);
+  document.getElementById('edit-cat-filter').addEventListener('change', renderEditList);
 
 })();
 </script>

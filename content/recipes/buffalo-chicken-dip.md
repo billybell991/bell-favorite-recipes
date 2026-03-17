@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7734563/pexels-photo-7734563.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/buffalo-chicken-dip.png"
 notes: ""
 ---
 

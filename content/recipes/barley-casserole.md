@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/35440206/pexels-photo-35440206.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/barley-casserole.png"
 notes: ""
 ---
 ## Ingredients

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6189294/pexels-photo-6189294.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/bread-pudding.png"
 notes: ""
 ---
 ## Ingredients

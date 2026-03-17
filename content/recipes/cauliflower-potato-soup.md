@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9218646/pexels-photo-9218646.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/cauliflower-potato-soup.png"
 notes: ""
 ---
 ## Ingredients

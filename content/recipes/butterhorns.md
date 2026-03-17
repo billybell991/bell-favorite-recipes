@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4031868/pexels-photo-4031868.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/butterhorns.png"
 notes: ""
 ---
 ## Ingredients

@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/12065625/pexels-photo-12065625.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/birthday-cake-with-german-icing.png"
 notes: ""
 ---
 Submitted by Louise and Dan Pigeau

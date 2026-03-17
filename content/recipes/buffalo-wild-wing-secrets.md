@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/33464606/pexels-photo-33464606.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/buffalo-wild-wing-secrets.png"
 notes: ""
 ---
 Buffalo Wild Wing has to be one of the best chicken wing joints going.  Here are a handful of their cooking secrets and sauce recipes.

@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7786846/pexels-photo-7786846.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/basic-waffles.png"
 notes: ""
 ---
 From the cookbook that came with our waffle iron.

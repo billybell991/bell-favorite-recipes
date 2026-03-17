@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: "20 minutes"
 servings: "4"
-image: "https://images.pexels.com/photos/14020911/pexels-photo-14020911.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/campbells-easy-2-step-chicken.png"
 notes: "Also delicious with Cream of Chicken, Cream of Celery or Tomato with Roasted Garlic and Herbs soup."
 ---
 

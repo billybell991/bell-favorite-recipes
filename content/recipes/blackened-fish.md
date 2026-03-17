@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/20067063/pexels-photo-20067063.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/blackened-fish.png"
 notes: ""
 ---
 ## Ingredients

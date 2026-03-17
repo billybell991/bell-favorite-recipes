@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/236296/pexels-photo-236296.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/batter-franks.png"
 notes: ""
 ---
 ## Ingredients

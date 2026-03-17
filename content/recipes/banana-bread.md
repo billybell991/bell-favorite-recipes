@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/30911414/pexels-photo-30911414.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/banana-bread.png"
 notes: ""
 ---
 ## Ingredients

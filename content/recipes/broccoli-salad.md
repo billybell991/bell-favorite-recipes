@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/11485287/pexels-photo-11485287.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/broccoli-salad.png"
 notes: ""
 ---
 Submitted by Tracey and Pierre Beaudry

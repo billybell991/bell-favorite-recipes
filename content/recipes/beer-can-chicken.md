@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/20329551/pexels-photo-20329551.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/beer-can-chicken.png"
 notes: ""
 ---
 - 1 can (12 oz.) beer

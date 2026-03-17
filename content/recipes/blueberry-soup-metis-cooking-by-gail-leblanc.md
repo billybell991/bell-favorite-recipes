@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/30900617/pexels-photo-30900617.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/blueberry-soup-metis-cooking-by-gail-leblanc.png"
 notes: ""
 ---
 ## Ingredients

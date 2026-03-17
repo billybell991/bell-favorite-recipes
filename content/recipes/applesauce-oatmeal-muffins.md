@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4475558/pexels-photo-4475558.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/applesauce-oatmeal-muffins.png"
 notes: ""
 ---
 ## Ingredients

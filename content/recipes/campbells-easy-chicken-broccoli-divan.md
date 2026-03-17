@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3586056/pexels-photo-3586056.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/campbells-easy-chicken-broccoli-divan.png"
 notes: ""
 ---
 ## Ingredients

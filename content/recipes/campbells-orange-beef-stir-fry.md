@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/34429557/pexels-photo-34429557.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/campbells-orange-beef-stir-fry.png"
 notes: ""
 ---
 ## Ingredients

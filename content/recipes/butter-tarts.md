@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/10733514/pexels-photo-10733514.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/butter-tarts.png"
 notes: ""
 ---
 ## Ingredients

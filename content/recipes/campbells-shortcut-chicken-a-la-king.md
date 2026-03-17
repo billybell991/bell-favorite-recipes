@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5444628/pexels-photo-5444628.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/campbells-shortcut-chicken-a-la-king.png"
 notes: ""
 ---
 ## Ingredients

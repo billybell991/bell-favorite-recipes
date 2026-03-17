@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: "4"
-image: "https://images.pexels.com/photos/8250430/pexels-photo-8250430.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/campbells-2-step-honey-mustard-chicken.png"
 notes: ""
 ---
 

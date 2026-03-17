@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3324434/pexels-photo-3324434.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/beer-bread.png"
 notes: ""
 ---
 Submitted by Billy Bell

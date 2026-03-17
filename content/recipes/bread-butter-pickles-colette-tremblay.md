@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8957090/pexels-photo-8957090.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/bread-butter-pickles-colette-tremblay.png"
 notes: ""
 ---
 ## Ingredients

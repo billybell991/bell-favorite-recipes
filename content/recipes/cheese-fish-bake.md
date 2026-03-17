@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/14062102/pexels-photo-14062102.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/cheese-fish-bake.png"
 notes: ""
 ---
 ## Ingredients

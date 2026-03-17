@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7163989/pexels-photo-7163989.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/bbq-pork-ribs.png"
 notes: ""
 ---
 

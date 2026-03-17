@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/16569552/pexels-photo-16569552.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/beef-jerky.png"
 notes: ""
 ---
 - 1/3 Cup soy sauce

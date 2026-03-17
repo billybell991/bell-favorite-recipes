@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: "4"
-image: "https://images.pexels.com/photos/16845749/pexels-photo-16845749.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/campbells-2-step-lemon-broccoli-chicken.png"
 notes: "Bone-in chicken may be substituted. Add about 5-10 minutes to cook time."
 ---
 

@@ -31,7 +31,7 @@
         <a href="{{ .RelPermalink }}" class="card-link">
           {{ with .Params.image }}
           <div class="card-image">
-            <img src="{{ if hasPrefix . "http" }}{{ . }}{{ else }}{{ . | absURL }}{{ end }}" alt="{{ $.Title }}" loading="lazy">
+            <img src="{{ if hasPrefix . "http" }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}" alt="{{ $.Title }}" loading="lazy">
           </div>
           {{ else }}
           <div class="card-image card-image-placeholder">

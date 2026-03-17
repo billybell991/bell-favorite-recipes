@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5441033/pexels-photo-5441033.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/banana-bread-wedding-cookbook.png"
 notes: ""
 ---
 Submitted by Linda and Mike Gosson

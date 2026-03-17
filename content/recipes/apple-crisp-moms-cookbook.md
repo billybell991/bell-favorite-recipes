@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9502639/pexels-photo-9502639.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/apple-crisp-moms-cookbook.png"
 notes: ""
 ---
 Preheat oven to 350 degrees.

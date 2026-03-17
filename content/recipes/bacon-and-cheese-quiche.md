@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5419317/pexels-photo-5419317.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/bacon-and-cheese-quiche.png"
 notes: ""
 ---
 - 8 bacon slices, diced

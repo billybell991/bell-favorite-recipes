@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://www.troprockin.com/wp-content/uploads/2022/06/air-fryer-panko-chicken-thighs-recipe-320x320.jpg"
+image: "images/recipes/air-fryer-panko-chicken-thighs.png"
 notes: ""
 ---
 

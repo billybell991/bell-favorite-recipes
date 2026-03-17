@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/31769298/pexels-photo-31769298.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/buffalo-chicken-spaghetti-squash.png"
 notes: ""
 ---
 

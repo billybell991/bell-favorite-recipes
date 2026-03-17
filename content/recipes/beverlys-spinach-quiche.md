@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/568370/pexels-photo-568370.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/beverlys-spinach-quiche.png"
 notes: ""
 ---
 ## Ingredients

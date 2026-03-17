@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9650084/pexels-photo-9650084.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/beckys-sweet-and-sour-chicken-wings.png"
 notes: ""
 ---
 Submitted by Becky and Darren Shackleton

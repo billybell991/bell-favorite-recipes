@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: "4"
-image: "https://images.pexels.com/photos/17555546/pexels-photo-17555546.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/campbells-2-step-mushroom-pork-chops.png"
 notes: ""
 ---
 

@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/144432/pexels-photo-144432.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/bacon-wrapped-broccoli-stuff-chicken.png"
 notes: ""
 ---
 ## Bacon-Wrapped Broccoli-Stuffed Chicken

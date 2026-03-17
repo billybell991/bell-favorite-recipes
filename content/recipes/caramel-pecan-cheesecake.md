@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3071821/pexels-photo-3071821.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/caramel-pecan-cheesecake.png"
 notes: ""
 ---
 Submitted by Sandra Stewart

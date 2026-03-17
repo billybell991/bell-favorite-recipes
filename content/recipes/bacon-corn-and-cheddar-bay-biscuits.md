@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/139746/pexels-photo-139746.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/bacon-corn-and-cheddar-bay-biscuits.png"
 notes: ""
 ---
 ## Ingredients

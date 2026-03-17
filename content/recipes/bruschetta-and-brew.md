@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/10060232/pexels-photo-10060232.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/bruschetta-and-brew.png"
 notes: ""
 ---
 Submitted by Tiffany Breton and Matt Rainville

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/10296274/pexels-photo-10296274.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/campbells-easy-santa-fe-chicken.png"
 notes: ""
 ---
 ## Ingredients

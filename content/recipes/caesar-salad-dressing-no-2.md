@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/35532838/pexels-photo-35532838.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/caesar-salad-dressing-no-2.png"
 notes: ""
 ---
 ## Ingredients

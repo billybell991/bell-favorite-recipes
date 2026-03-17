@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9609832/pexels-photo-9609832.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/cache-bay-chicken-and-spinach-roll-ups.png"
 notes: ""
 ---
 Submitted by Lorraine and Frank Nault

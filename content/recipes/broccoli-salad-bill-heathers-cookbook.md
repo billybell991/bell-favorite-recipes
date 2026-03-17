@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/11509871/pexels-photo-11509871.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/broccoli-salad-bill-heathers-cookbook.png"
 notes: ""
 ---
 ## Ingredients

@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/30681412/pexels-photo-30681412.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/chaffle-wonder-bread.png"
 notes: ""
 ---
 

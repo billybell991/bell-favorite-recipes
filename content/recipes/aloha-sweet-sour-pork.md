@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7333262/pexels-photo-7333262.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/aloha-sweet-sour-pork.png"
 notes: ""
 ---
 - 1 lb lean boneless pork chops, cut into thin strips

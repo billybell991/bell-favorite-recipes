@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4310979/pexels-photo-4310979.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/blanc-mange.png"
 notes: ""
 ---
 ## Ingredients

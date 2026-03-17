@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5441093/pexels-photo-5441093.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/applesauce-currant-cookies.png"
 notes: ""
 ---
 ## Ingredients

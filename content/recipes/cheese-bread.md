@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/10058789/pexels-photo-10058789.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/cheese-bread.png"
 notes: ""
 ---
 Credit for this recipe goes to Table Treasures.

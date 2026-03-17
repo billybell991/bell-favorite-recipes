@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/11312771/pexels-photo-11312771.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/b-b-q-fish-coating.png"
 notes: ""
 ---
 ## Ingredients

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/32667184/pexels-photo-32667184.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "images/recipes/baked-chili.png"
 notes: ""
 ---
 ## Ingredients

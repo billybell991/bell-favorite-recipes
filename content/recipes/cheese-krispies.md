@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7965886/pexels-photo-7965886.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/cheese-krispies.png"
 notes: ""
 ---
 This recipe came from Pat Johnston, who is Yolande's Friend

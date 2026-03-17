@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5163947/pexels-photo-5163947.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/cherry-cheese-cake.png"
 notes: ""
 ---
 - 1/2 to 1 cup icing sugar

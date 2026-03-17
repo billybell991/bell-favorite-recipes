@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/11009201/pexels-photo-11009201.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/california-rolls-sushi.png"
 notes: ""
 ---
 ### Ingredients

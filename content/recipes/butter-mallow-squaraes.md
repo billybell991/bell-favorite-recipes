@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/29749685/pexels-photo-29749685.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/butter-mallow-squaraes.png"
 notes: ""
 ---
 ## Instructions

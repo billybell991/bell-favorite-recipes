@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/29344476/pexels-photo-29344476.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/bran-muffins.png"
 notes: ""
 ---
 Credit for this recipe goes to Clara Therrien

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/12916865/pexels-photo-12916865.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/cheesy-baked-catfish.png"
 notes: ""
 ---
 ## Ingredients

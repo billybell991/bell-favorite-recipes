@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5639274/pexels-photo-5639274.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/cheesy-zucchini-bake-cw.png"
 notes: ""
 ---
 ## Ingredients

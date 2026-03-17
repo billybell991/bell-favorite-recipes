@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/55636/pexels-photo-55636.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/boursin-one-dish-pasta.png"
 notes: ""
 ---
 

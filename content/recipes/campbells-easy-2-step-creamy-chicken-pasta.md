@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: "20 minutes"
 servings: "4"
-image: "https://images.pexels.com/photos/9760214/pexels-photo-9760214.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/campbells-easy-2-step-creamy-chicken-pasta.png"
 notes: "Also delicious with Cream of Mushroom or Cream of Celery Soups."
 ---
 

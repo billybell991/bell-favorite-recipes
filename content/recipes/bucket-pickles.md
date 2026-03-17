@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/33460771/pexels-photo-33460771.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/bucket-pickles.png"
 notes: ""
 ---
 ## Ingredients

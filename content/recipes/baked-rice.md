@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1122915/pexels-photo-1122915.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/baked-rice.png"
 notes: ""
 ---
 Submitted by Linda Desrochers

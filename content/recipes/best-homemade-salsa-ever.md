@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6400001/pexels-photo-6400001.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/best-homemade-salsa-ever.png"
 notes: ""
 ---
 

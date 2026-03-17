@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/20446381/pexels-photo-20446381.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/anns-indian-fry-bread.png"
 notes: ""
 ---
 ## Ingredients

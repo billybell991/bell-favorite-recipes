@@ -20,7 +20,7 @@
       <article class="news-card">
         {{ with .Params.image }}
         <a href="{{ $recipe.RelPermalink }}" class="news-card-image">
-          <img src="{{ if hasPrefix . "http" }}{{ . }}{{ else }}{{ . | absURL }}{{ end }}" alt="{{ $recipe.Title }}" loading="lazy">
+          <img src="{{ if hasPrefix . "http" }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}" alt="{{ $recipe.Title }}" loading="lazy">
         </a>
         {{ end }}
         <div class="news-card-content">

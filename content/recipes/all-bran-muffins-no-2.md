@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5105467/pexels-photo-5105467.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/all-bran-muffins-no-2.png"
 notes: ""
 ---
 Combine together:
