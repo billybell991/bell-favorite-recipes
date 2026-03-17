@@ -1,5 +1,5 @@
 ---
-title: "Garlick Sauce (George's)"
+title: "Garlic Sauce (George's)"
 date: 2026-03-15T21:13:30-05:00
 draft: false
 categories: ["Friends Recipes"]
