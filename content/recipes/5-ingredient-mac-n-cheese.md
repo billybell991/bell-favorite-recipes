@@ -25,7 +25,7 @@ notes: ""
 
 ## Instructions
 
-1. Combine the macaroni, 4 cups water and 1 tablespoon salt in an Instant PotÂ® (see note). Follow the manufacturer's guide for locking the lid and preparing to cook. Set to pressure cook on high for 4 minutes.
+1. Combine the macaroni, 4 cups water and 1 tablespoon salt in an Instant Pot® (see note). Follow the manufacturer's guide for locking the lid and preparing to cook. Set to pressure cook on high for 4 minutes.
 
 2. After the pressure cook cycle is complete follow the manufacturer's guide for quick release and wait until the quick release cycle is complete. Careful of any remaining steam, unlock and remove the lid and switch to low saute setting.
 
@@ -38,4 +38,4 @@ NOTES:
 
 Here's a link to the actual website. Credit to Food Network:
 
-[5-Ingredient Instant PotÂ® Mac and Cheese Recipes | Food Network CanadaWe love multi-purpose kitchen gadgets that make life easier, so that's why the Instant PotÂ® (a slow cooker, pressure cooker and stove-top stand-in, all in one) is a go-to for quick meals. Especially this creamy kid-friendly mac and cheese, which cooks up in no time. And after it's been gobbled up, you'll only have one pot to clean!](http://www.foodnetwork.ca/recipe/5-ingredient-instant-pot-mac-and-cheese/20170/)
+[5-Ingredient Instant Pot® Mac and Cheese Recipes | Food Network CanadaWe love multi-purpose kitchen gadgets that make life easier, so that's why the Instant Pot® (a slow cooker, pressure cooker and stove-top stand-in, all in one) is a go-to for quick meals. Especially this creamy kid-friendly mac and cheese, which cooks up in no time. And after it's been gobbled up, you'll only have one pot to clean!](http://www.foodnetwork.ca/recipe/5-ingredient-instant-pot-mac-and-cheese/20170/)

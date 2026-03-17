@@ -4,7 +4,7 @@ date: 2026-03-05T06:53:26-05:00
 draft: false
 categories: ["Keto & Low Carb"]
 tags: ["bread", "keto"]
-description: "Warm, homemade toasty bread with â…“ cup blanched almond flour and Â½ teaspoon baking powder â€” crusty on the outside, pillowy soft on the inside, and impossible to eat just one slice."
+description: "Warm, homemade toasty bread with 1/3 cup blanched almond flour and 1/2 teaspoon baking powder — crusty on the outside, pillowy soft on the inside, and impossible to eat just one slice."
 source: ""
 creditUrl: ""
 credit: ""
@@ -17,9 +17,9 @@ notes: ""
 ## Ingredients
 
 - 1 tablespoon butter
-- â…“ cup blanched almond flour
+- 1/3 cup blanched almond flour
 - 1 egg
-- Â½ teaspoon baking powder
+- 1/2 teaspoon baking powder
 - 1 pinch salt
 
 ## Instructions

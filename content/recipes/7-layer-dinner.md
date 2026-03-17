@@ -5,7 +5,7 @@ draft: false
 categories: ["Mom's Cookbook"]
 subcategories: ["Casseroles"]
 tags: ["casseroles"]
-description: "A delicious homemade savory recipe with potatoes and onion â€” simple enough for any night of the week but special enough to remember."
+description: "A delicious homemade savory recipe with potatoes and onion — simple enough for any night of the week but special enough to remember."
 source: ""
 creditUrl: ""
 credit: ""
