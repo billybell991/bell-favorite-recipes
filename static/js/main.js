@@ -55,19 +55,39 @@
     } else {
       // Mobile: click to toggle
       dropdownToggle.addEventListener('click', function (e) {
-        e.preventDefault();
-        dropdown.classList.toggle('open');
+        var isOpen = dropdown.classList.contains('open');
+
+        // First tap: open dropdown but stay on page
+        if (!isOpen) {
+          e.preventDefault();
+          dropdown.classList.add('open');
+          return;
+        }
+
+        // Second tap when already open: allow navigation
+        // (no preventDefault here)
       });
 
       var submenuLinks = document.querySelectorAll('.nav-submenu-link');
       submenuLinks.forEach(function (link) {
         link.addEventListener('click', function (e) {
-          e.preventDefault();
           var item = this.closest('.nav-submenu-item');
-          document.querySelectorAll('.nav-submenu-item.open').forEach(function (other) {
-            if (other !== item) other.classList.remove('open');
-          });
-          item.classList.toggle('open');
+          if (!item) return;
+
+          var isOpen = item.classList.contains('open');
+
+          // First tap: open this submenu (and close others) but stay on page
+          if (!isOpen) {
+            e.preventDefault();
+            document.querySelectorAll('.nav-submenu-item.open').forEach(function (other) {
+              if (other !== item) other.classList.remove('open');
+            });
+            item.classList.add('open');
+            return;
+          }
+
+          // Second tap on an already-open item: allow navigation to the parent page
+          // (no preventDefault here so the browser follows the link normally)
         });
       });
     }
