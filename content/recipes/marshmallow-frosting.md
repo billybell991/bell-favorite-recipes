@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6545619/pexels-photo-6545619.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/marshmallow-frosting.png"
 notes: ""
 ---
 ## Ingredients

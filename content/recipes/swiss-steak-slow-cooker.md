@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/19774527/pexels-photo-19774527.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/swiss-steak-slow-cooker.png"
 notes: ""
 ---
 Submitted by Murdena and Robert Burton

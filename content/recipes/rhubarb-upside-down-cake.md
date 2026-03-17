@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8477756/pexels-photo-8477756.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/rhubarb-upside-down-cake.png"
 notes: ""
 ---
 - 3 cups sliced fresh rhubarb, ½” pieces

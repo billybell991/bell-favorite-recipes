@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7368043/pexels-photo-7368043.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/keto-meat-pie.png"
 notes: ""
 ---
 

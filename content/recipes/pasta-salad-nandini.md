@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/10059916/pexels-photo-10059916.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/pasta-salad-nandini.png"
 notes: ""
 ---
 

@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7788311/pexels-photo-7788311.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/honey-garlic-chicken-wings.png"
 notes: ""
 ---
 - 10 to 12 chicken wings, cut into 2 pieces

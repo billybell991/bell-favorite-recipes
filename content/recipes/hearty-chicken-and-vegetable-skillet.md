@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/27294733/pexels-photo-27294733.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/hearty-chicken-and-vegetable-skillet.png"
 notes: ""
 ---
 

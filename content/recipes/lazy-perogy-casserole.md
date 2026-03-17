@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4078163/pexels-photo-4078163.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/lazy-perogy-casserole.png"
 notes: ""
 ---
 ## Ingredients

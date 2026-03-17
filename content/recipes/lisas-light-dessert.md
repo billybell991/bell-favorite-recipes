@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/12861927/pexels-photo-12861927.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/lisas-light-dessert.png"
 notes: ""
 ---
 ## Ingredients

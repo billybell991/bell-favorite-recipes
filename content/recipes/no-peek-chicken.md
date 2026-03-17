@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/15985538/pexels-photo-15985538.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/no-peek-chicken.png"
 notes: ""
 ---
 Submitted by Lacey Pigeau

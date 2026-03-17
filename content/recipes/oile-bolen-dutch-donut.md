@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6332057/pexels-photo-6332057.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/oile-bolen-dutch-donut.png"
 notes: ""
 ---
 Submitted by Audrey and John Gosson

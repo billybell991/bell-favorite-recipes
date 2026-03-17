@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3821252/pexels-photo-3821252.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/peppermint-squares.png"
 notes: ""
 ---
 Submitted by Chantal and Angus Muir

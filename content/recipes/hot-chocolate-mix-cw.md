@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7407255/pexels-photo-7407255.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/hot-chocolate-mix-cw.png"
 notes: ""
 ---
 ## Ingredients

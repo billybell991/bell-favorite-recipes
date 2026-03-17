@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5379466/pexels-photo-5379466.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/oatmeal-snack-cookies.png"
 notes: ""
 ---
 ## Ingredients

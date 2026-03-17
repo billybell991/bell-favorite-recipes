@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6390673/pexels-photo-6390673.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/raspberry-chocolate-squares.png"
 notes: ""
 ---
 ## Instructions

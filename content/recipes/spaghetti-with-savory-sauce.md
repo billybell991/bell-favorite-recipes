@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6287534/pexels-photo-6287534.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/spaghetti-with-savory-sauce.png"
 notes: ""
 ---
 ## Ingredients

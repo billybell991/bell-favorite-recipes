@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/12737918/pexels-photo-12737918.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/kapusta.png"
 notes: ""
 ---
 Submitted by Rachel and Wayne Pigeau

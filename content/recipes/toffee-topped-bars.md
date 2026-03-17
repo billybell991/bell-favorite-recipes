@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8793929/pexels-photo-8793929.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/toffee-topped-bars.png"
 notes: ""
 ---
 Submitted by Monique Racine-Theriault

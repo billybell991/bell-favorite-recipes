@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8093419/pexels-photo-8093419.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/ornament-clay-dough.png"
 notes: ""
 ---
 BAKEABLE “SALT CLAY”

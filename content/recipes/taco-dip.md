@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/27365279/pexels-photo-27365279.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/taco-dip.png"
 notes: ""
 ---
 Submitted by Diana Bell

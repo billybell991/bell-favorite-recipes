@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/31597686/pexels-photo-31597686.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/raisin-bread.png"
 notes: ""
 ---
 ## Ingredients

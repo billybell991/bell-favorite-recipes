@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/32151434/pexels-photo-32151434.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/sunchokes-jerusalem-artichoke-aboriginal-cooking.png"
 notes: ""
 ---
 ## Ingredients

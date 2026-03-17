@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/616404/pexels-photo-616404.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/lovely-salad.png"
 notes: ""
 ---
 Submitted by Ellie and Mike Bell

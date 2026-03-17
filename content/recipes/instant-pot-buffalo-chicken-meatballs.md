@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/14382401/pexels-photo-14382401.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/instant-pot-buffalo-chicken-meatballs.png"
 notes: ""
 ---
 

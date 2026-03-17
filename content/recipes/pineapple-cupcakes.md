@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7099977/pexels-photo-7099977.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/pineapple-cupcakes.png"
 notes: ""
 ---
 ## Ingredients

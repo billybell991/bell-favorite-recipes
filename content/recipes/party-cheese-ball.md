@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/36304985/pexels-photo-36304985.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/party-cheese-ball.png"
 notes: ""
 ---
 Submitted by Kelly and Kyle Jolley

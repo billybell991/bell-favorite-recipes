@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/34834552/pexels-photo-34834552.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/spicy-black-bean-soup.png"
 notes: ""
 ---
 

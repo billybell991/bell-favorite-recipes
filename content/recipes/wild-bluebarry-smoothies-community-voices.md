@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6327137/pexels-photo-6327137.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/wild-bluebarry-smoothies-community-voices.png"
 notes: ""
 ---
 ## Instructions

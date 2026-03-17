@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9045273/pexels-photo-9045273.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/never-fail-pastry.png"
 notes: ""
 ---
 Submitted by Yolande and Dave Worthington

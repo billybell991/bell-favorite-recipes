@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1618906/pexels-photo-1618906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "images/recipes/winter-chili-sauce-using-canned-tomatoes.png"
 notes: ""
 ---
 ## Ingredients

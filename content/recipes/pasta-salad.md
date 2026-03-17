@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/326279/pexels-photo-326279.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/pasta-salad.png"
 notes: ""
 ---
 Submitted by Billy Bell

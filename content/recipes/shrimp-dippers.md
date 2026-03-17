@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4963963/pexels-photo-4963963.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/shrimp-dippers.png"
 notes: ""
 ---
 

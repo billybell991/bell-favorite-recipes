@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5859377/pexels-photo-5859377.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/porch-climber.png"
 notes: ""
 ---
 Submitted by Susy Boulanger and Craig Lavigne

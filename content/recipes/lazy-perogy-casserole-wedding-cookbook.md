@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/12331836/pexels-photo-12331836.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/lazy-perogy-casserole-wedding-cookbook.png"
 notes: ""
 ---
 Submitted by Joyce Roy

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/15794018/pexels-photo-15794018.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/rice-pudding-moms-creamy-hazelwood-cookbook.png"
 notes: ""
 ---
 ## Ingredients

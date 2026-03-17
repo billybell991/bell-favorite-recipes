@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/33756110/pexels-photo-33756110.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/the-best-chocolate-chip-cookie-recipe-ever.png"
 notes: ""
 ---
 

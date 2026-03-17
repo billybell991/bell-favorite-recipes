@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/11112771/pexels-photo-11112771.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/mabels-easiest-casserole.png"
 notes: ""
 ---
 ## Ingredients

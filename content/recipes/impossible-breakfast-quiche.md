@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5419174/pexels-photo-5419174.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/impossible-breakfast-quiche.png"
 notes: ""
 ---
 ## Ingredients

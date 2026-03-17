@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6810747/pexels-photo-6810747.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/spinach-cups.png"
 notes: ""
 ---
 These vegetables-filled bread cups can be refrigerated up to 2 hours before baking without getting soggy.

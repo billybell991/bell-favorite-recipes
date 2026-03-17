@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/34224587/pexels-photo-34224587.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/peanut-butter-chocolate-balls-isabelle-rainville.png"
 notes: ""
 ---
 ## Ingredients

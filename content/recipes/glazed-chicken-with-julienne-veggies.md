@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/10361458/pexels-photo-10361458.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/glazed-chicken-with-julienne-veggies.png"
 notes: ""
 ---
 

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/10518222/pexels-photo-10518222.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/purity-pancakes.png"
 notes: ""
 ---
 Blend together:

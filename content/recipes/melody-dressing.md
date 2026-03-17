@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/24245999/pexels-photo-24245999.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/melody-dressing.png"
 notes: ""
 ---
 ## Ingredients

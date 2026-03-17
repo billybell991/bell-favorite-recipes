@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9650080/pexels-photo-9650080.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/yummy-dip.png"
 notes: ""
 ---
 Submitted by Francine Massicotte

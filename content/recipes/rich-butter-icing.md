@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/752496/pexels-photo-752496.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/rich-butter-icing.png"
 notes: ""
 ---
 ## Ingredients

@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5741176/pexels-photo-5741176.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/mix-in-the-pan-carrot-cake-wedding-cookbook.png"
 notes: ""
 ---
 Submitted by Jeannine and Elmer Bell

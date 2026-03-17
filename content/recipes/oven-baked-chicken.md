@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/13823350/pexels-photo-13823350.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/oven-baked-chicken.png"
 notes: ""
 ---
 - 1/3 cup all-purpose flour

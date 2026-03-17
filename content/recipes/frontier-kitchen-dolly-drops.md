@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/28532579/pexels-photo-28532579.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/frontier-kitchen-dolly-drops.png"
 notes: ""
 ---
 ## Ingredients

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5353457/pexels-photo-5353457.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/sweet-sour-polish-dill-pickles-louise-chalifoux.png"
 notes: ""
 ---
 ## Ingredients

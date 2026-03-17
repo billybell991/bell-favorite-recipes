@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5981929/pexels-photo-5981929.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/summer-pizza.png"
 notes: ""
 ---
 Submitted by Danielle Beaudry

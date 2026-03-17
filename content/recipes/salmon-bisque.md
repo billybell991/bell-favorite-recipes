@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/688802/pexels-photo-688802.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/salmon-bisque.png"
 notes: ""
 ---
 ## Ingredients

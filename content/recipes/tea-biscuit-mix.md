@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8136884/pexels-photo-8136884.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/tea-biscuit-mix.png"
 notes: ""
 ---
 ## Ingredients

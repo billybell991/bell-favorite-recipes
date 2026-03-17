@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/797761/pexels-photo-797761.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/thimble-cookies.png"
 notes: ""
 ---
 ## Ingredients

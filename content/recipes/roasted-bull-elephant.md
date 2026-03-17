@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9014065/pexels-photo-9014065.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/roasted-bull-elephant.png"
 notes: ""
 ---
 Submitted by Lorraine and Frank Nault

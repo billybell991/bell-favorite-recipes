@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/18510422/pexels-photo-18510422.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/wedges-potatoes.png"
 notes: ""
 ---
 ## Ingredients

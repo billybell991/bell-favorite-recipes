@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/26510357/pexels-photo-26510357.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/turkey-noodle-soup.png"
 notes: ""
 ---
 ## Ingredients

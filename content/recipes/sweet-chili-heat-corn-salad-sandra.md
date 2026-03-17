@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://www.thegunnysack.com/wp-content/uploads/2018/05/Corn-Salad-With-Doritos-SQ-300x300.jpg"
+image: "images/recipes/sweet-chili-heat-corn-salad-sandra.png"
 notes: ""
 ---
 ## Ingredients

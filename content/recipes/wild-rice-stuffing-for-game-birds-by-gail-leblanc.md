@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/35105775/pexels-photo-35105775.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/wild-rice-stuffing-for-game-birds-by-gail-leblanc.png"
 notes: ""
 ---
 ## Ingredients

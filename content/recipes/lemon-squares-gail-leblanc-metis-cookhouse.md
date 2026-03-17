@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9569398/pexels-photo-9569398.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/lemon-squares-gail-leblanc-metis-cookhouse.png"
 notes: ""
 ---
 ## Ingredients

@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/11527494/pexels-photo-11527494.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/stock-club-cake-with-coffee-icing.png"
 notes: ""
 ---
 Submitted by Dean Pigeau and Karen Cosgrove

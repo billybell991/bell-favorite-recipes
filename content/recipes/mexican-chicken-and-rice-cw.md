@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/32371267/pexels-photo-32371267.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/mexican-chicken-and-rice-cw.png"
 notes: ""
 ---
 ## Ingredients

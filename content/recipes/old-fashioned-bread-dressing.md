@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5908036/pexels-photo-5908036.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/old-fashioned-bread-dressing.png"
 notes: ""
 ---
 ## Old-Fashioned Bread Dressing (Stuffing)

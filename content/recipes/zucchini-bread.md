@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/351962/pexels-photo-351962.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/zucchini-bread.png"
 notes: ""
 ---
 Submitted by Patti and Ray Racine

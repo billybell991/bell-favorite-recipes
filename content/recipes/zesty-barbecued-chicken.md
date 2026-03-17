@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://pixabay.com/get/gbc5bc2c34b0018beccc1896d93c69a5ad1b2458eae4d05c4477e1c038d736dbf66d3df8e6fe6511f6de598201fffb353d701565e85e744344b87c3f8f6b91619_1280.jpg"
+image: "images/recipes/zesty-barbecued-chicken.png"
 notes: ""
 ---
 ## Ingredients

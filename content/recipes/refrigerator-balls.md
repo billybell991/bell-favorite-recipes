@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/29243682/pexels-photo-29243682.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/refrigerator-balls.png"
 notes: ""
 ---
 Submitted by Buddy Pierce

@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9588849/pexels-photo-9588849.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/sweet-and-sour-meatballs.png"
 notes: ""
 ---
 Submitted by Billy Bell

@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/35018799/pexels-photo-35018799.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/sinamon-buns.png"
 notes: ""
 ---
 Submitted by Louise Dubyk and Don Broughtor

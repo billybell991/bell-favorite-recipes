@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/34249415/pexels-photo-34249415.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/hot-milk-sponge-cake.png"
 notes: ""
 ---
 ## Ingredients

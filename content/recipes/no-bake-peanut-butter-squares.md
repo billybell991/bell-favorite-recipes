@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6612694/pexels-photo-6612694.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/no-bake-peanut-butter-squares.png"
 notes: ""
 ---
 ## Ingredients

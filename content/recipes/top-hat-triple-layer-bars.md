@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5897507/pexels-photo-5897507.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/top-hat-triple-layer-bars.png"
 notes: ""
 ---
 ## Instructions

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6001776/pexels-photo-6001776.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/pearls-cucumber-relish.png"
 notes: ""
 ---
 ## Ingredients

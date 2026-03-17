@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/36227428/pexels-photo-36227428.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/hard-boiled-eggs.png"
 notes: ""
 ---
 

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/965243/pexels-photo-965243.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/knox-blox.png"
 notes: ""
 ---
 ## Ingredients

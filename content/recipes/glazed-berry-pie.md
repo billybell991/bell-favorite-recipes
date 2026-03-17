@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7368050/pexels-photo-7368050.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/glazed-berry-pie.png"
 notes: ""
 ---
 ## Ingredients

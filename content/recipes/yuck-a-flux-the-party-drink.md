@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/32149715/pexels-photo-32149715.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/yuck-a-flux-the-party-drink.png"
 notes: ""
 ---
 Submitted by Kathy and Sean Demarce

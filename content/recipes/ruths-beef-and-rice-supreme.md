@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5720891/pexels-photo-5720891.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/ruths-beef-and-rice-supreme.png"
 notes: ""
 ---
 ## Ingredients

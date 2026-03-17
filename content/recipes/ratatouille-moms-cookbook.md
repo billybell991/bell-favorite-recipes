@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6399818/pexels-photo-6399818.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/ratatouille-moms-cookbook.png"
 notes: ""
 ---
 ## Ingredients

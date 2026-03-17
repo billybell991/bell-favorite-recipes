@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7525148/pexels-photo-7525148.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/strawberry-jam-muffins.png"
 notes: ""
 ---
 Yield: 24 muffins                                                  Baking Time: 20-25 minutes

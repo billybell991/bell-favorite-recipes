@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/12616001/pexels-photo-12616001.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/sonias-absolutely-fabulous-dessert.png"
 notes: ""
 ---
 ## Ingredients

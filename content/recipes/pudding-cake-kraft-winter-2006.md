@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/34307863/pexels-photo-34307863.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/pudding-cake-kraft-winter-2006.png"
 notes: ""
 ---
 ## Instructions

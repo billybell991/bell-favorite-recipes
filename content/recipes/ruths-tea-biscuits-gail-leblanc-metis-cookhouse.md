@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7113114/pexels-photo-7113114.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/ruths-tea-biscuits-gail-leblanc-metis-cookhouse.png"
 notes: ""
 ---
 ## Ingredients

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5618033/pexels-photo-5618033.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/rolled-cut-out-sugar-cookies.png"
 notes: ""
 ---
 ## Ingredients

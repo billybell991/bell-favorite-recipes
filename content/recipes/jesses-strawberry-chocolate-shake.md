@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5005919/pexels-photo-5005919.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/jesses-strawberry-chocolate-shake.png"
 notes: ""
 ---
 Submitted by Jesse Beaudry

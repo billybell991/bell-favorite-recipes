@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/897817/pexels-photo-897817.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/frontier-kitchen-never-fail-hot-water-partry.png"
 notes: ""
 ---
 ## Ingredients

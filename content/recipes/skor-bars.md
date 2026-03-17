@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/2241838/pexels-photo-2241838.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/skor-bars.png"
 notes: ""
 ---
 Submitted by Lisa and Derry Thibeault

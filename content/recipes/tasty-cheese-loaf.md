@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9139120/pexels-photo-9139120.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/tasty-cheese-loaf.png"
 notes: ""
 ---
 - 1/2 cup margarine (or butter), softened

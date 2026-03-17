@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5840163/pexels-photo-5840163.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/mnr-sugar-pie.png"
 notes: ""
 ---
 ## Ingredients

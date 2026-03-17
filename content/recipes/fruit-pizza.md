@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7813579/pexels-photo-7813579.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/fruit-pizza.png"
 notes: ""
 ---
 ## Ingredients

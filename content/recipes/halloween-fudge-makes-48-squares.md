@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/33674421/pexels-photo-33674421.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/halloween-fudge-makes-48-squares.png"
 notes: ""
 ---
 ## Ingredients

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5863604/pexels-photo-5863604.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/maple-butter-tarts.png"
 notes: ""
 ---
 ## Ingredients

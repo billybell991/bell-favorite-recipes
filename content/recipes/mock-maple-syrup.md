@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/29547752/pexels-photo-29547752.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/mock-maple-syrup.png"
 notes: ""
 ---
 ## Ingredients

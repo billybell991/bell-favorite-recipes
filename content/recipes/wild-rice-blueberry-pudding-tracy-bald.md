@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/33088382/pexels-photo-33088382.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/wild-rice-blueberry-pudding-tracy-bald.png"
 notes: ""
 ---
 ## Ingredients

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7362673/pexels-photo-7362673.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/california-coleslaw.png"
 notes: ""
 ---
 ## Ingredients

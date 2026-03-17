@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8527224/pexels-photo-8527224.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/minute-magic-tea-biscuits.png"
 notes: ""
 ---
 ## Ingredients

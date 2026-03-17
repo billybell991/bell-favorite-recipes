@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4509482/pexels-photo-4509482.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/mock-cheese-cake.png"
 notes: ""
 ---
 FILLING:

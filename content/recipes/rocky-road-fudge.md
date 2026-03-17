@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/33813613/pexels-photo-33813613.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/rocky-road-fudge.png"
 notes: ""
 ---
 ## Ingredients

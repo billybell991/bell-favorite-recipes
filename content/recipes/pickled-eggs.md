@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/36244782/pexels-photo-36244782.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/pickled-eggs.png"
 notes: ""
 ---
 ## Ingredients

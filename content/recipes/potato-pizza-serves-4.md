@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/33592995/pexels-photo-33592995.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/potato-pizza-serves-4.png"
 notes: ""
 ---
 ## Instructions

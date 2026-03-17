@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/574125/pexels-photo-574125.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/never-fail-shortbread.png"
 notes: ""
 ---
 ## Ingredients

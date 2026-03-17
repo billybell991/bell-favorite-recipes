@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5419091/pexels-photo-5419091.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/hurry-up-chicken-pot-pie.png"
 notes: ""
 ---
 

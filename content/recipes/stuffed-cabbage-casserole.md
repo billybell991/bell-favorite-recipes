@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/10017/pexels-photo-10017.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/stuffed-cabbage-casserole.png"
 notes: ""
 ---
 - 1 lb ground beef or ground sausage

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4377522/pexels-photo-4377522.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/toasty-garlic-bread.png"
 notes: ""
 ---
 ## Ingredients

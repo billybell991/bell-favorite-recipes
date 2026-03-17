@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8837035/pexels-photo-8837035.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/yummy-oatmeal-cookies.png"
 notes: ""
 ---
 ## Ingredients

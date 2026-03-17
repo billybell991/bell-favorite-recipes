@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4627563/pexels-photo-4627563.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/russian-chicken-breasts.png"
 notes: ""
 ---
 Prep: 10 min. Total Time: 55 min.

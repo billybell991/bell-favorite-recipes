@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3740237/pexels-photo-3740237.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/mirshs-chocolate-zucchini-cake.png"
 notes: ""
 ---
 ## Ingredients

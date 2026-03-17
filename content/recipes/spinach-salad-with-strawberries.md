@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1684376/pexels-photo-1684376.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/spinach-salad-with-strawberries.png"
 notes: ""
 ---
 Submitted by Patti and Darren Henri

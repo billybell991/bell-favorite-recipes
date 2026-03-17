@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/128641/pexels-photo-128641.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/perogy-lazy-boy.png"
 notes: ""
 ---
 Submitted by Kim and Raymond Roy

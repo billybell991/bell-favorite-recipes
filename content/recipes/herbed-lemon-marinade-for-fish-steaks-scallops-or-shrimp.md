@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5863611/pexels-photo-5863611.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/herbed-lemon-marinade-for-fish-steaks-scallops-or-shrimp.png"
 notes: ""
 ---
 ## Ingredients

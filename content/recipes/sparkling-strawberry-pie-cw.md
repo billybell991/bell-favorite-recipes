@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6574740/pexels-photo-6574740.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/sparkling-strawberry-pie-cw.png"
 notes: ""
 ---
 ## Ingredients

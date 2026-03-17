@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/13774718/pexels-photo-13774718.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/lizs-cabbage-slaw.png"
 notes: ""
 ---
 ## Ingredients

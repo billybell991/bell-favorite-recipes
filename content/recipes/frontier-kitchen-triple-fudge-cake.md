@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/18140853/pexels-photo-18140853.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/frontier-kitchen-triple-fudge-cake.png"
 notes: ""
 ---
 

@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/13827647/pexels-photo-13827647.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/pickled-mushrooms.png"
 notes: ""
 ---
 

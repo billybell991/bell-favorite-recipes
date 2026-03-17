@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4968343/pexels-photo-4968343.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/gazpacho.png"
 notes: ""
 ---
 Submitted by Linda and Joe Albrechtas

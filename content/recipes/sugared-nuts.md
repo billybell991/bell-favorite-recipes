@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7717492/pexels-photo-7717492.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/sugared-nuts.png"
 notes: ""
 ---
 ## Ingredients

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7245426/pexels-photo-7245426.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/raspberry-vinegar.png"
 notes: ""
 ---
 ## Ingredients

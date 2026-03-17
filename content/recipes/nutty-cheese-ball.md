@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6659611/pexels-photo-6659611.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/nutty-cheese-ball.png"
 notes: ""
 ---
 ## Ingredients

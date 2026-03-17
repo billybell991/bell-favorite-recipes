@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5191832/pexels-photo-5191832.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/new-potatoes-with-herbs-aboriginal-cooking-gail-leblanc.png"
 notes: ""
 ---
 ## Ingredients

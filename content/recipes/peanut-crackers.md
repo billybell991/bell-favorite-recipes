@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9646388/pexels-photo-9646388.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/peanut-crackers.png"
 notes: ""
 ---
 ## Ingredients

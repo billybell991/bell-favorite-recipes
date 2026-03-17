@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/oxo-honey-garlic-chicken-wings.png"
 notes: ""
 ---
 ## Ingredients

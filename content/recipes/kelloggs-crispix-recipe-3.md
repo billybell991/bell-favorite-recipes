@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/12586412/pexels-photo-12586412.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/kelloggs-crispix-recipe-3.png"
 notes: ""
 ---
 ## Ingredients

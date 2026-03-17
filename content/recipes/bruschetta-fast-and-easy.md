@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/342230/pexels-photo-342230.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/bruschetta-fast-and-easy.png"
 notes: ""
 ---
 ## Ingredients

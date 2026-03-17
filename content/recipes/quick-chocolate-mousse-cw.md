@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3810779/pexels-photo-3810779.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/quick-chocolate-mousse-cw.png"
 notes: ""
 ---
 ## Ingredients

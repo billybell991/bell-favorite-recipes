@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6400006/pexels-photo-6400006.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/vegetablechip-dip.png"
 notes: ""
 ---
 Submitted by Brenda and Denis Arsenault

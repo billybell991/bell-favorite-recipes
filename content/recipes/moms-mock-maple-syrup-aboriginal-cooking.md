@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/29696100/pexels-photo-29696100.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/moms-mock-maple-syrup-aboriginal-cooking.png"
 notes: ""
 ---
 ## Ingredients

@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/16009811/pexels-photo-16009811.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/holiday-baked-beans.png"
 notes: ""
 ---
 

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4182678/pexels-photo-4182678.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/gumdrop-cake.png"
 notes: ""
 ---
 ## Ingredients

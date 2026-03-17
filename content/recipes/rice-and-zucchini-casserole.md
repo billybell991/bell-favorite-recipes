@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/262662/pexels-photo-262662.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/rice-and-zucchini-casserole.png"
 notes: ""
 ---
 ## Instructions

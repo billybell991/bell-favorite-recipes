@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8996058/pexels-photo-8996058.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/keto-cabrese-omelet.png"
 notes: ""
 ---
 

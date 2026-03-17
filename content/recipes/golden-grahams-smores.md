@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/19831877/pexels-photo-19831877.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/golden-grahams-smores.png"
 notes: ""
 ---
 ## Ingredients

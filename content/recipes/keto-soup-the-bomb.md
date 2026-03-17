@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/33888144/pexels-photo-33888144.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/keto-soup-the-bomb.png"
 notes: ""
 ---
 ## Ingredients

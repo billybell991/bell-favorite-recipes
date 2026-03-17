@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6148194/pexels-photo-6148194.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/sour-cream-apple-pie.png"
 notes: ""
 ---
 ## Ingredients

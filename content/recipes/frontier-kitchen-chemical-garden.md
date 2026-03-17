@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5427863/pexels-photo-5427863.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/frontier-kitchen-chemical-garden.png"
 notes: ""
 ---
 FRONTIER KITCHEN CHEMICAL GARDEN

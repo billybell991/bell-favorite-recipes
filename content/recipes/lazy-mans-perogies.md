@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/28872596/pexels-photo-28872596.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/lazy-mans-perogies.png"
 notes: ""
 ---
 ## Ingredients

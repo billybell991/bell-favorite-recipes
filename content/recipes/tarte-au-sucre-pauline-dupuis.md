@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5840154/pexels-photo-5840154.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/tarte-au-sucre-pauline-dupuis.png"
 notes: ""
 ---
 ## Ingredients

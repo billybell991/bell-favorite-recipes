@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/17312402/pexels-photo-17312402.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/tomato-soup-potatoes.png"
 notes: ""
 ---
 Submitted by Hazel Pigeau

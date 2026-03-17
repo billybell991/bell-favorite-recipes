@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5639476/pexels-photo-5639476.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/low-carb-broccoli-cheese-soup.png"
 notes: ""
 ---
 - 4 cups broccoli (cut into florets)

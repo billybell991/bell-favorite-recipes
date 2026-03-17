@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8250846/pexels-photo-8250846.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/royal-icing.png"
 notes: ""
 ---
 - 3 level Tbsp meringue powder

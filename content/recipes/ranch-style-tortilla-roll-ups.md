@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5531155/pexels-photo-5531155.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/ranch-style-tortilla-roll-ups.png"
 notes: ""
 ---
 Submitted by Linda and Darrell Lamothe

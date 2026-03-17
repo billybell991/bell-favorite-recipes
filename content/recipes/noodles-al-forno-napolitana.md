@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9908095/pexels-photo-9908095.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/noodles-al-forno-napolitana.png"
 notes: ""
 ---
 Get supper on the table in a flash using only six ingredients. Toss a salad, warm up an Italian bread stick and you have dinner fit for royalty in about 30 minutes.

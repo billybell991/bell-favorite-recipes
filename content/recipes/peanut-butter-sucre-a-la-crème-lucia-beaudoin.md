@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6659880/pexels-photo-6659880.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/peanut-butter-sucre-a-la-crème-lucia-beaudoin.png"
 notes: ""
 ---
 ## Ingredients

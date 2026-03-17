@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/175745/pexels-photo-175745.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/pickled-eggs-moms.png"
 notes: ""
 ---
 

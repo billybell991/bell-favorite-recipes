@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/11633654/pexels-photo-11633654.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/fruity-bread-pudding-for-two.png"
 notes: ""
 ---
 ## Ingredients

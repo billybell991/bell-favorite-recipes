@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/13707355/pexels-photo-13707355.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/pickled-beans-nugget-cook-book.png"
 notes: ""
 ---
 ## Ingredients

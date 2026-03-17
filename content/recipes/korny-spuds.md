@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3727184/pexels-photo-3727184.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/korny-spuds.png"
 notes: ""
 ---
 ## Ingredients

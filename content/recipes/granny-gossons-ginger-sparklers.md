@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/290522/pexels-photo-290522.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/granny-gossons-ginger-sparklers.png"
 notes: ""
 ---
 Submitted by Heather Bell

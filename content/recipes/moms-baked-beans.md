@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6705625/pexels-photo-6705625.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/moms-baked-beans.png"
 notes: ""
 ---
 ## Ingredients

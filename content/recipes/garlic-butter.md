@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/35476003/pexels-photo-35476003.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/garlic-butter.png"
 notes: ""
 ---
 Billy's Notes:  I figured I'd mention, before this recipe, that I didn't make it like the recipe states and it turned out really good.  I'm sure the recipe is good, but I wanted garlic butter that I could put in the fridge and use whenever (not a sauce).  I mixed all the ingredients together as there recipe states, but then formed it into a log in parchment paper and put it in the fridge to harden.  It freezes well and then you can just cut off chunks as you need them

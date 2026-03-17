@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7100619/pexels-photo-7100619.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/rhubarb-cream-pie.png"
 notes: ""
 ---
 ## Ingredients

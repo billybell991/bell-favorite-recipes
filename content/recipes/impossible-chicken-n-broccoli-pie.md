@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/20150367/pexels-photo-20150367.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/impossible-chicken-n-broccoli-pie.png"
 notes: ""
 ---
 ## Ingredients

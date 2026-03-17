@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/27420469/pexels-photo-27420469.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/rolys-barley-soup.png"
 notes: ""
 ---
 ## Ingredients

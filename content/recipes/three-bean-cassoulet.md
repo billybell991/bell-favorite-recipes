@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5863607/pexels-photo-5863607.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/three-bean-cassoulet.png"
 notes: ""
 ---
 ## Ingredients

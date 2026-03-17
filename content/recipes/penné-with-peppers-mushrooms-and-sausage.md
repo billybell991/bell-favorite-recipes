@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5627898/pexels-photo-5627898.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/penné-with-peppers-mushrooms-and-sausage.png"
 notes: ""
 ---
 Submitted by Marleen and Bill Tregenza

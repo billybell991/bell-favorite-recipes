@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/34637993/pexels-photo-34637993.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/texas-cake.png"
 notes: ""
 ---
 Submitted by Sherry and Paul Beaulieu

@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/36159697/pexels-photo-36159697.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/pan-seared-steak-with-garlic-butter.png"
 notes: ""
 ---
 - First start out by letting the steaks rest at room temperature for 30 minutes (this brings them a little closer to room temp to cook more evenly).

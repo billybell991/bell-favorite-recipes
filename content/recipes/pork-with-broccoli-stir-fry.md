@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/12100417/pexels-photo-12100417.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/pork-with-broccoli-stir-fry.png"
 notes: ""
 ---
 Submitted by Tina Sasyniuk and Kevin Long

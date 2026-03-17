@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/13086550/pexels-photo-13086550.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/magic-chelsea-buns.png"
 notes: ""
 ---
 Roll out one portion of the Sweet Yeast Bread (recipe foundHERE) to a large rectangle 14” x 10”. Spread with the following mixture to within about ½” of the edge.

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6601705/pexels-photo-6601705.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/fruit-cocktail-cake.png"
 notes: ""
 ---
 300 degrees   -   50 – 60 minutes

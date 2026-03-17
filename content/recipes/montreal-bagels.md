@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/946543/pexels-photo-946543.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/montreal-bagels.png"
 notes: ""
 ---
 ## Montreal Style Bagels

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/2064126/pexels-photo-2064126.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/nests-with-coconut-and-candies-makes-24.png"
 notes: ""
 ---
 ## Ingredients

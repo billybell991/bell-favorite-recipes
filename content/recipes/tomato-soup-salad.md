@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/34636461/pexels-photo-34636461.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/tomato-soup-salad.png"
 notes: ""
 ---
 Submitted by Emily and Robert Desbois

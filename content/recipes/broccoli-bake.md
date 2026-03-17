@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4768962/pexels-photo-4768962.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/broccoli-bake.png"
 notes: ""
 ---
 Submitted by David Henri

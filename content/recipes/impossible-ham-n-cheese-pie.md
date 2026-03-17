@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/11176610/pexels-photo-11176610.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/impossible-ham-n-cheese-pie.png"
 notes: ""
 ---
 ## Ingredients

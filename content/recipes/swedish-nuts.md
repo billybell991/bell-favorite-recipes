@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/258109/pexels-photo-258109.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/swedish-nuts.png"
 notes: ""
 ---
 ## Ingredients

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6659693/pexels-photo-6659693.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/peanut-butter-balls-gail-leblanc-metis-cookhouse.png"
 notes: ""
 ---
 ## Ingredients

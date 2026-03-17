@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/22764446/pexels-photo-22764446.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/meat-pies.png"
 notes: ""
 ---
 Submitted by Del Gosson

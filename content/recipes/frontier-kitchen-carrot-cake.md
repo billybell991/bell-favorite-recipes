@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5742673/pexels-photo-5742673.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/frontier-kitchen-carrot-cake.png"
 notes: ""
 ---
 - 2 cups white sugar

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6092835/pexels-photo-6092835.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/patty-bartletts-noodle-salad.png"
 notes: ""
 ---
 ## Ingredients

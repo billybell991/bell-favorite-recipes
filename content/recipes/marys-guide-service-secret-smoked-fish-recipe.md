@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/22860442/pexels-photo-22860442.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/marys-guide-service-secret-smoked-fish-recipe.png"
 notes: ""
 ---
 ## Ingredients

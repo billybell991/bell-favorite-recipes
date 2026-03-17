@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/724664/pexels-photo-724664.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/tofu-mayonnaise.png"
 notes: ""
 ---
 Enjoy the richness of mayonnaise with only a fraction of the energy in our smooth mayonnaise-like dressing made with tofu (bean curd) as the base.

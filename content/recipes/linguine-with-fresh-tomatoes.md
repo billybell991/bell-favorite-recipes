@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4039789/pexels-photo-4039789.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/linguine-with-fresh-tomatoes.png"
 notes: ""
 ---
 ## Ingredients

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5419097/pexels-photo-5419097.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/impossible-coconut-pie.png"
 notes: ""
 ---
 ## Ingredients

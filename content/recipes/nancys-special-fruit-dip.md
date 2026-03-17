@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9044119/pexels-photo-9044119.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/nancys-special-fruit-dip.png"
 notes: ""
 ---
 ## Ingredients

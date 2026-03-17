@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8794094/pexels-photo-8794094.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/nougat-candy-tracey.png"
 notes: ""
 ---
 

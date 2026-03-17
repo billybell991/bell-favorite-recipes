@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8780994/pexels-photo-8780994.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/salade-damour.png"
 notes: ""
 ---
 Submitted by Rachel and Wayne Pigeau

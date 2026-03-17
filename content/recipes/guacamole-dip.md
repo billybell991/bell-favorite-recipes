@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5737254/pexels-photo-5737254.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/guacamole-dip.png"
 notes: ""
 ---
 Submitted by Margot Bell and Darryl Fleguel

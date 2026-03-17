@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/31064139/pexels-photo-31064139.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/garlic-and-rosemary-mashed-potatoes.png"
 notes: ""
 ---
 ### Ingredients

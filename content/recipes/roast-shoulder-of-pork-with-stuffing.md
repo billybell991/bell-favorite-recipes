@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/16416161/pexels-photo-16416161.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/roast-shoulder-of-pork-with-stuffing.png"
 notes: ""
 ---
 Submitted by Pauline and Jim Cunningham

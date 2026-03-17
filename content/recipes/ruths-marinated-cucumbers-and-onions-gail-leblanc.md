@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/12386415/pexels-photo-12386415.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/ruths-marinated-cucumbers-and-onions-gail-leblanc.png"
 notes: ""
 ---
 ## Ingredients

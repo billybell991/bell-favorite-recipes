@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8738016/pexels-photo-8738016.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/keto-cheese-roll-ups.png"
 notes: ""
 ---
 

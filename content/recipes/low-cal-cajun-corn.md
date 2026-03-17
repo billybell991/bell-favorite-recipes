@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/35896424/pexels-photo-35896424.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/low-cal-cajun-corn.png"
 notes: ""
 ---
 ## Instructions

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/18743143/pexels-photo-18743143.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/pickled-wieners.png"
 notes: ""
 ---
 ## Ingredients

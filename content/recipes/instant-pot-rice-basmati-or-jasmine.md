@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/35553000/pexels-photo-35553000.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/instant-pot-rice-basmati-or-jasmine.png"
 notes: ""
 ---
 

@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/30500751/pexels-photo-30500751.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/vegetable-burger-soup.png"
 notes: ""
 ---
 ## Ingredients

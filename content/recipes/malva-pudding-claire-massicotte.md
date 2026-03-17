@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/27628808/pexels-photo-27628808.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/malva-pudding-claire-massicotte.png"
 notes: ""
 ---
 ## Ingredients

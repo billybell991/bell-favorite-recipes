@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7937485/pexels-photo-7937485.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/greek-yogurt-smoothie.png"
 notes: ""
 ---
 ## Ingredients

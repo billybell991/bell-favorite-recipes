@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/20408441/pexels-photo-20408441.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/tomato-soup-cake.png"
 notes: ""
 ---
 ## Ingredients

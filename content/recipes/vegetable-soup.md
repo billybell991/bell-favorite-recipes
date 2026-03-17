@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/6262224/pexels-photo-6262224.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/vegetable-soup.png"
 notes: ""
 ---
 - 3 cups water

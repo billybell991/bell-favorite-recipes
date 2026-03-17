@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/878014/pexels-photo-878014.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/garden-vegetable-stir-fry-for-one-good-times.png"
 notes: ""
 ---
 ## Ingredients

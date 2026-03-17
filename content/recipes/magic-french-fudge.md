@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9501658/pexels-photo-9501658.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/magic-french-fudge.png"
 notes: ""
 ---
 ## Ingredients

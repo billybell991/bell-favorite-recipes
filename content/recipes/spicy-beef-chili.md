@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7111387/pexels-photo-7111387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+image: "images/recipes/spicy-beef-chili.png"
 notes: ""
 ---
 ## Ingredients

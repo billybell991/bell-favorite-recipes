@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/33050117/pexels-photo-33050117.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/mexican-wedding-cake.png"
 notes: ""
 ---
 - 2 cups flour

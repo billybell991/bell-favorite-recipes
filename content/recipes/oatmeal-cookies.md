@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5379521/pexels-photo-5379521.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/oatmeal-cookies.png"
 notes: ""
 ---
 - 1 cup margarine or butter

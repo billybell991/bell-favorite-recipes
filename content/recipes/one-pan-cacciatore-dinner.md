@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5474676/pexels-photo-5474676.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/one-pan-cacciatore-dinner.png"
 notes: ""
 ---
 

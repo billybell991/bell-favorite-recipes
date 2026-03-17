@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/33756116/pexels-photo-33756116.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/keto-crackers.png"
 notes: ""
 ---
 ## Ingredients

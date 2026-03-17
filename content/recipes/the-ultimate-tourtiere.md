@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/27394929/pexels-photo-27394929.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/the-ultimate-tourtiere.png"
 notes: ""
 ---
 ## Ingredients

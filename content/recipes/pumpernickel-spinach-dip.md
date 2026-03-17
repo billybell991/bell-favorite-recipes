@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/15476839/pexels-photo-15476839.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/pumpernickel-spinach-dip.png"
 notes: ""
 ---
 ## Ingredients

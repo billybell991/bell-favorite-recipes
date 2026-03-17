@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/28913737/pexels-photo-28913737.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/hamburger-soup-jenny.png"
 notes: ""
 ---
 - 1.5 lbs. of lean hamburg

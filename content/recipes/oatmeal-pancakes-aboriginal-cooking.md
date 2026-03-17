@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7144693/pexels-photo-7144693.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/oatmeal-pancakes-aboriginal-cooking.png"
 notes: ""
 ---
 ## Ingredients

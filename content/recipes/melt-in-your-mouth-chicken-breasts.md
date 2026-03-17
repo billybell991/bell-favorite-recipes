@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/12408948/pexels-photo-12408948.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/melt-in-your-mouth-chicken-breasts.png"
 notes: ""
 ---
 

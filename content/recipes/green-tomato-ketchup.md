@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/13893926/pexels-photo-13893926.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/green-tomato-ketchup.png"
 notes: ""
 ---
 ## Ingredients

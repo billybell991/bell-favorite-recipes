@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/13422467/pexels-photo-13422467.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/keto-pesto-chicken-casserole.png"
 notes: ""
 ---
 

@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/42168/pexels-photo-42168.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/stuffed-pork-chops.png"
 notes: ""
 ---
 Submitted by Kara MacDonald

@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/2005928/pexels-photo-2005928.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/party-lime-salad.png"
 notes: ""
 ---
 Submitted by Deanna and Larry Shank

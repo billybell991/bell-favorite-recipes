@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7649048/pexels-photo-7649048.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/instant-pot-white-rice.png"
 notes: ""
 ---
 

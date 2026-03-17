@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/8750739/pexels-photo-8750739.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/peanut-butter-cookies.png"
 notes: ""
 ---
 ## Ingredients

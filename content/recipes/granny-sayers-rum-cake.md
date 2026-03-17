@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/26838692/pexels-photo-26838692.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/granny-sayers-rum-cake.png"
 notes: ""
 ---
 Submitted by Pat and Tom Sayer

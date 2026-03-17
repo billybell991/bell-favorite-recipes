@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7368081/pexels-photo-7368081.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/impossible-lasagne-pie.png"
 notes: ""
 ---
 ## Ingredients

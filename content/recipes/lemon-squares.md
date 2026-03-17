@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4958877/pexels-photo-4958877.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/lemon-squares.png"
 notes: ""
 ---
 ## Ingredients

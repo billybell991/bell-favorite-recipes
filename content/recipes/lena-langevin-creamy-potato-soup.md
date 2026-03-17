@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/30146068/pexels-photo-30146068.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/lena-langevin-creamy-potato-soup.png"
 notes: ""
 ---
 ## Ingredients

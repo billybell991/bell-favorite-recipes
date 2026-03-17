@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3985872/pexels-photo-3985872.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/speedy-bean-salad-cw.png"
 notes: ""
 ---
 ## Ingredients

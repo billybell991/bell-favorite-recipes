@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/7175710/pexels-photo-7175710.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/penné-with-italian-sausage-tomato-and-herbs.png"
 notes: ""
 ---
 Submitted by Sue and Don Lloyd

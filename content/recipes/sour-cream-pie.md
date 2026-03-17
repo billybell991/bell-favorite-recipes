@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/5419031/pexels-photo-5419031.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/sour-cream-pie.png"
 notes: ""
 ---
 ## Ingredients

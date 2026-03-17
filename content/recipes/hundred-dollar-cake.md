@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/14820463/pexels-photo-14820463.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/hundred-dollar-cake.png"
 notes: ""
 ---
 First Step:

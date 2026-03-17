@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3026809/pexels-photo-3026809.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/mix-in-the-pan-carrot-cake.png"
 notes: ""
 ---
 ## Ingredients

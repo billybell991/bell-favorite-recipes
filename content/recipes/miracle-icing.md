@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/306070/pexels-photo-306070.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/miracle-icing.png"
 notes: ""
 ---
 WHITE SAUCE;

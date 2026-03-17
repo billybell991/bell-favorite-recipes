@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/34637996/pexels-photo-34637996.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/nugget-1942-johnny-cake.png"
 notes: ""
 ---
 ## Ingredients

@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/18177326/pexels-photo-18177326.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/spinach-dip.png"
 notes: ""
 ---
 

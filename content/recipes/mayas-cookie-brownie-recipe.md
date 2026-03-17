@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/25315823/pexels-photo-25315823.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/mayas-cookie-brownie-recipe.png"
 notes: ""
 ---
 ## Maya's Cookie Brownie Recipe (Blondies)

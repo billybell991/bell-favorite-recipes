@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/718739/pexels-photo-718739.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/maple-creamy-fondue.png"
 notes: ""
 ---
 ## Ingredients

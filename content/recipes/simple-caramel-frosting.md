@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/4094589/pexels-photo-4094589.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/simple-caramel-frosting.png"
 notes: ""
 ---
 

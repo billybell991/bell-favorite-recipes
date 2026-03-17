@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/3510155/pexels-photo-3510155.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/instant-pot-brussels-sprouts.png"
 notes: ""
 ---
 

@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/33571857/pexels-photo-33571857.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/yankee-pot-roast-soup.png"
 notes: ""
 ---
 

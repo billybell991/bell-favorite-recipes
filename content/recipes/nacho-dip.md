@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/12557551/pexels-photo-12557551.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/nacho-dip.png"
 notes: ""
 ---
 Submitted by Kathy Genore and Paul Hamilton

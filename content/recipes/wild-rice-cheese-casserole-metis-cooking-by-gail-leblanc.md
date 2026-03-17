@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/34470650/pexels-photo-34470650.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/wild-rice-cheese-casserole-metis-cooking-by-gail-leblanc.png"
 notes: ""
 ---
 ## Ingredients

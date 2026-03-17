@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/221115/pexels-photo-221115.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/ziti-with-vegetables.png"
 notes: ""
 ---
 

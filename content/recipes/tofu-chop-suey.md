@@ -12,7 +12,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/9231910/pexels-photo-9231910.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/tofu-chop-suey.png"
 notes: ""
 ---
 Tofu supplies the protein, and tastes similar to chicken breasts, this quick-to-prepare, colorful vegetarian main dish.

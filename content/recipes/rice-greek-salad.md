@@ -11,7 +11,7 @@ credit: ""
 prepTime: ""
 cookTime: ""
 servings: ""
-image: "https://images.pexels.com/photos/1213710/pexels-photo-1213710.jpeg?auto=compress&cs=tinysrgb&w=600"
+image: "images/recipes/rice-greek-salad.png"
 notes: ""
 ---
 Submitted by Lynn Sayer
