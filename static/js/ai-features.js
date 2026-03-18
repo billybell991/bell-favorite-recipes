@@ -6,9 +6,11 @@
   'use strict';
 
   var GEMINI_ENDPOINT = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent';
-  var STORAGE_KEY_API  = 'gemini_api_key';
-  var STORAGE_KEY_FAVS = 'recipe_favorites';
-  var STORAGE_KEY_BOOK = 'recipe_book_generated';
+  var STORAGE_KEY_API             = 'gemini_api_key';
+  var STORAGE_KEY_FAVS            = 'recipe_favorites';
+  var STORAGE_KEY_BOOK            = 'recipe_book_generated';
+  var STORAGE_KEY_GROCERY         = 'grocery_list';
+  var STORAGE_KEY_GROCERY_CHECKED = 'grocery_checked';
 
   // Built-in key — family members never need to configure anything
   var DEFAULT_API_KEY = 'AIzaSyBcj5c0VAb6vh_qXFeIn4FQYfbvJ8247BA';
@@ -188,6 +190,34 @@
     localStorage.setItem(STORAGE_KEY_BOOK, JSON.stringify(recipes));
   }
 
+  /* ── Grocery list management ── */
+  function getGroceryLists() {
+    try { return JSON.parse(localStorage.getItem(STORAGE_KEY_GROCERY)) || []; }
+    catch (e) { return []; }
+  }
+  function addGroceryList(title, items) {
+    var lists = getGroceryLists();
+    var id = Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
+    lists.unshift({ id: id, title: title, items: items, addedAt: new Date().toISOString() });
+    if (lists.length > 30) lists = lists.slice(0, 30);
+    localStorage.setItem(STORAGE_KEY_GROCERY, JSON.stringify(lists));
+  }
+  function removeGroceryList(id) {
+    var lists = getGroceryLists().filter(function (l) { return l.id !== id; });
+    localStorage.setItem(STORAGE_KEY_GROCERY, JSON.stringify(lists));
+  }
+  function clearAllGrocery() {
+    localStorage.removeItem(STORAGE_KEY_GROCERY);
+    localStorage.removeItem(STORAGE_KEY_GROCERY_CHECKED);
+  }
+  function getGroceryChecked() {
+    try { return JSON.parse(localStorage.getItem(STORAGE_KEY_GROCERY_CHECKED)) || {}; }
+    catch (e) { return {}; }
+  }
+  function setGroceryChecked(obj) {
+    localStorage.setItem(STORAGE_KEY_GROCERY_CHECKED, JSON.stringify(obj));
+  }
+
   /* ── Public API ── */
   window.BellAI = {
     getBaseUrl: getBaseUrl,
@@ -206,7 +236,13 @@
     toggleFavorite: toggleFavorite,
     getGeneratedRecipes: getGeneratedRecipes,
     saveGeneratedRecipe: saveGeneratedRecipe,
-    removeGeneratedRecipe: removeGeneratedRecipe
+    removeGeneratedRecipe: removeGeneratedRecipe,
+    getGroceryLists: getGroceryLists,
+    addGroceryList: addGroceryList,
+    removeGroceryList: removeGroceryList,
+    clearAllGrocery: clearAllGrocery,
+    getGroceryChecked: getGroceryChecked,
+    setGroceryChecked: setGroceryChecked
   };
 
 }(window));

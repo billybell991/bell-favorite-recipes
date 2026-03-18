@@ -16,6 +16,10 @@
         ✨ My AI Recipes
         <span class="recipe-book-tab-count" id="gen-count">0</span>
       </button>
+      <button class="recipe-book-tab" data-tab="grocery">
+        🛒 Grocery List
+        <span class="recipe-book-tab-count" id="grocery-count"></span>
+      </button>
     </div>
 
     <!-- Favorites tab -->
@@ -40,6 +44,11 @@
       </div>
     </div>
 
+    <!-- Grocery List tab -->
+    <div class="recipe-book-section" id="tab-grocery">
+      <!-- rendered by JS renderGroceryTab() -->
+    </div>
+
   </div>
 </div>
 {{ end }}
@@ -60,6 +69,7 @@
       document.querySelectorAll('.recipe-book-section').forEach(function (s) { s.classList.remove('active'); });
       tab.classList.add('active');
       document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
+      if (tab.dataset.tab === 'grocery') renderGroceryTab();
     });
   });
 
@@ -329,8 +339,9 @@
       '</div>' +
       '<ul class="grocery-list" id="grocery-list">' + listHtml + '</ul>' +
       '<div class="grocery-footer">' +
-        '<button class="btn btn-ghost grocery-close-btn">Done Shopping 🎉</button>' +
-        '<button class="btn btn-outline" id="grocery-copy-btn">📋 Copy List</button>' +
+        '<button class="btn btn-ghost grocery-close-btn">Done 🎉</button>' +
+        '<button class="btn btn-outline" id="grocery-copy-btn">📋 Copy</button>' +
+        '<button class="btn btn-primary" id="grocery-save-btn">💾 Save to My List</button>' +
       '</div>';
 
     overlay.classList.add('open');
@@ -380,15 +391,137 @@
       });
     }
 
+    // Save to grocery list tab
+    var saveBtn = document.getElementById('grocery-save-btn');
+    if (saveBtn) {
+      saveBtn.addEventListener('click', function () {
+        window.BellAI.addGroceryList(title, items);
+        saveBtn.textContent = '✅ Saved!';
+        saveBtn.disabled = true;
+        setTimeout(function () {
+          overlay.classList.remove('open');
+          document.querySelectorAll('.recipe-book-tab').forEach(function (t) { t.classList.remove('active'); });
+          document.querySelectorAll('.recipe-book-section').forEach(function (s) { s.classList.remove('active'); });
+          var grocTab = document.querySelector('[data-tab="grocery"]');
+          if (grocTab) grocTab.classList.add('active');
+          var grocSection = document.getElementById('tab-grocery');
+          if (grocSection) { grocSection.classList.add('active'); renderGroceryTab(); }
+        }, 800);
+      });
+    }
+
     // Close buttons
     content.querySelectorAll('.grocery-close, .grocery-close-btn').forEach(function (btn) {
       btn.addEventListener('click', function () { overlay.classList.remove('open'); });
     });
   }
 
+  /* ── Render Grocery List Tab ── */
+  function renderGroceryTab() {
+    var lists = window.BellAI.getGroceryLists();
+    var section = document.getElementById('tab-grocery');
+    var countEl = document.getElementById('grocery-count');
+    if (!section) return;
+
+    var total = lists.reduce(function (sum, l) { return sum + l.items.length; }, 0);
+    if (countEl) countEl.textContent = total || '';
+
+    if (!lists.length) {
+      section.innerHTML =
+        '<div class="rb-empty-state" style="display:block;">' +
+          '<div class="empty-icon">🛒</div>' +
+          '<h3>No grocery lists saved</h3>' +
+          '<p>Click the 🛒 on any recipe card to add its ingredients here, then check off items as you shop!</p>' +
+        '</div>';
+      return;
+    }
+
+    var checked = window.BellAI.getGroceryChecked();
+
+    var headerHtml =
+      '<div class="grocery-tab-header">' +
+        '<span class="grocery-tab-summary">' + lists.length + ' list' + (lists.length !== 1 ? 's' : '') + ' · ' + total + ' item' + (total !== 1 ? 's' : '') + '</span>' +
+        '<div class="grocery-tab-actions">' +
+          '<button class="btn btn-sm btn-ghost" id="gt-clear-checked">Clear checked</button>' +
+          '<button class="btn btn-sm btn-ghost" id="gt-clear-all">Clear all</button>' +
+        '</div>' +
+      '</div>';
+
+    var listsHtml = lists.map(function (list) {
+      var itemsHtml = list.items.map(function (item, i) {
+        var key = list.id + '-' + i;
+        var isChecked = !!checked[key];
+        return '<li class="grocery-tab-item' + (isChecked ? ' checked' : '') + '" data-key="' + escHtml(key) + '">' +
+          '<button class="grocery-check" aria-label="Toggle"></button>' +
+          '<span class="grocery-item-text">' + escHtml(item) + '</span>' +
+        '</li>';
+      }).join('');
+
+      return '<div class="grocery-list-group" data-id="' + escHtml(list.id) + '">' +
+        '<div class="grocery-list-group-header">' +
+          '<div>' +
+            '<div class="grocery-list-group-title">🛒 ' + escHtml(list.title) + '</div>' +
+            '<div class="grocery-list-group-meta">' + escHtml(formatDate(list.addedAt)) + ' · ' + list.items.length + ' item' + (list.items.length !== 1 ? 's' : '') + '</div>' +
+          '</div>' +
+          '<button class="grocery-list-group-remove" data-id="' + escHtml(list.id) + '" title="Remove this list">✕</button>' +
+        '</div>' +
+        '<ul class="grocery-tab-items">' + itemsHtml + '</ul>' +
+      '</div>';
+    }).join('');
+
+    section.innerHTML = headerHtml + listsHtml;
+
+    // Check toggle on each item
+    section.querySelectorAll('.grocery-tab-item').forEach(function (li) {
+      li.addEventListener('click', function (e) {
+        if (e.target.closest('.grocery-list-group-remove')) return;
+        var key = li.dataset.key;
+        var isChecked = li.classList.toggle('checked');
+        var ch = window.BellAI.getGroceryChecked();
+        if (isChecked) { ch[key] = true; } else { delete ch[key]; }
+        window.BellAI.setGroceryChecked(ch);
+        var chkCount = section.querySelectorAll('.grocery-tab-item.checked').length;
+        var summary = section.querySelector('.grocery-tab-summary');
+        if (summary) summary.textContent = lists.length + ' list' + (lists.length !== 1 ? 's' : '') + ' · ' + total + ' item' + (total !== 1 ? 's' : '') + (chkCount ? ' (' + chkCount + ' checked)' : '');
+      });
+    });
+
+    // Remove individual list
+    section.querySelectorAll('.grocery-list-group-remove').forEach(function (btn) {
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        window.BellAI.removeGroceryList(btn.dataset.id);
+        renderGroceryTab();
+      });
+    });
+
+    // Clear checked items
+    var clearCheckedBtn = document.getElementById('gt-clear-checked');
+    if (clearCheckedBtn) {
+      clearCheckedBtn.addEventListener('click', function () {
+        var ch = window.BellAI.getGroceryChecked();
+        section.querySelectorAll('.grocery-tab-item.checked').forEach(function (li) { delete ch[li.dataset.key]; });
+        window.BellAI.setGroceryChecked(ch);
+        renderGroceryTab();
+      });
+    }
+
+    // Clear all lists
+    var clearAllBtn = document.getElementById('gt-clear-all');
+    if (clearAllBtn) {
+      clearAllBtn.addEventListener('click', function () {
+        if (window.confirm('Remove all grocery lists?')) {
+          window.BellAI.clearAllGrocery();
+          renderGroceryTab();
+        }
+      });
+    }
+  }
+
   /* ── Init ── */
   renderFavorites();
   renderGenerated();
+  renderGroceryTab();
 
 }());
 </script>
