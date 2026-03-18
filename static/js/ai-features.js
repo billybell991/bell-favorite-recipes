@@ -5,15 +5,13 @@
 (function (window) {
   'use strict';
 
-  var GEMINI_ENDPOINT = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent';
-  var STORAGE_KEY_API             = 'gemini_api_key';
+  // Requests go to our own server, which adds the API key server-side.
+  // Never expose a Gemini API key in client-side code.
+  var GEMINI_ENDPOINT = '/api/gemini';
   var STORAGE_KEY_FAVS            = 'recipe_favorites';
   var STORAGE_KEY_BOOK            = 'recipe_book_generated';
   var STORAGE_KEY_GROCERY         = 'grocery_list';
   var STORAGE_KEY_GROCERY_CHECKED = 'grocery_checked';
-
-  // Built-in key — family members never need to configure anything
-  var DEFAULT_API_KEY = 'AIzaSyBcj5c0VAb6vh_qXFeIn4FQYfbvJ8247BA';
 
   /* ── helpers ── */
   function escHtml(str) {
@@ -34,25 +32,15 @@
     return baseUrl;
   }
 
-  /* ── Gemini API key management ── */
-  function getApiKey()      { return localStorage.getItem(STORAGE_KEY_API) || DEFAULT_API_KEY; }
-  function setApiKey(key)   { localStorage.setItem(STORAGE_KEY_API, key.trim()); }
-  function clearApiKey()    { localStorage.removeItem(STORAGE_KEY_API); }
-
-  function showApiKeyModal(onSuccess, onCancel) {
-    // Key is pre-configured — just call success immediately
-    if (onSuccess) onSuccess(getApiKey());
-  }
-
-  function requireApiKey(onSuccess) {
-    onSuccess(getApiKey());
-  }
+  /* ── Gemini API key management (no-ops — key lives server-side) ── */
+  function getApiKey()             { return ''; }
+  function setApiKey()             { }
+  function clearApiKey()           { }
+  function showApiKeyModal(onSuccess) { if (onSuccess) onSuccess(); }
+  function requireApiKey(onSuccess)   { onSuccess(); }
 
   /* ── Gemini text generation ── */
   function callGemini(messages, systemPrompt) {
-    var key = getApiKey();
-    if (!key) return Promise.reject(new Error('No API key configured.'));
-
     var body = {
       contents: messages,
       generationConfig: { temperature: 0.75, maxOutputTokens: 2048 }
@@ -61,7 +49,7 @@
       body.systemInstruction = { parts: [{ text: systemPrompt }] };
     }
 
-    return fetch(GEMINI_ENDPOINT + '?key=' + encodeURIComponent(key), {
+    return fetch(GEMINI_ENDPOINT, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(body)

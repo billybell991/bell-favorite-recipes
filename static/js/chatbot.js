@@ -276,9 +276,10 @@
         .catch(function (err) {
           setTyping(false);
           var errMsg = err.message || 'Something went wrong.';
-          if (errMsg.indexOf('API_KEY_INVALID') !== -1 || errMsg.indexOf('401') !== -1) {
-            errMsg = 'Your API key seems invalid. Click ⚙️ API key below to update it.';
-            window.BellAI.clearApiKey();
+          if (errMsg.indexOf('API_KEY_INVALID') !== -1 || errMsg.indexOf('401') !== -1 ||
+              errMsg.indexOf('API_KEY_HTTP_REFERRER_BLOCKED') !== -1 ||
+              errMsg.indexOf('leaked') !== -1 || errMsg.indexOf('reported') !== -1) {
+            errMsg = 'Chef Bella is having trouble connecting. Please try again or contact the site owner.';
           }
           appendMessage('bot', '⚠️ ' + errMsg);
         })

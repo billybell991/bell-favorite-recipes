@@ -1,9 +1,19 @@
 """Generate a cute Chef Bella cartoon avatar for the chatbot widget."""
-import pathlib, sys
+import os, pathlib, sys
 from google import genai
 from google.genai import types
 
-API_KEY = "AIzaSyBcj5c0VAb6vh_qXFeIn4FQYfbvJ8247BA"
+# Load .env if present
+_env_path = pathlib.Path(__file__).parent / ".env"
+if _env_path.exists():
+    for _line in _env_path.read_text().splitlines():
+        if '=' in _line and not _line.strip().startswith('#'):
+            _k, _v = _line.split('=', 1)
+            os.environ.setdefault(_k.strip(), _v.strip())
+
+API_KEY = os.environ.get("GEMINI_API_KEY", "")
+if not API_KEY:
+    sys.exit("Error: GEMINI_API_KEY not set. Add it to .env or set the environment variable.")
 OUTPUT   = pathlib.Path(__file__).parent / "static" / "images" / "chef-bella.png"
 
 PROMPT = (

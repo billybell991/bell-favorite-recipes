@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: bell-favorite-recipes
+    runtime: node
+    buildCommand: chmod +x build.sh && ./build.sh
+    startCommand: node server.js
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: NODE_VERSION
+        value: "18"

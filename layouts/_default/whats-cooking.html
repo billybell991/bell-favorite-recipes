@@ -336,8 +336,7 @@
         .catch(function (err) {
           var msg = err.message || 'Something went wrong.';
           if (msg.indexOf('API_KEY_INVALID') !== -1 || msg.indexOf('401') !== -1) {
-            window.BellAI.clearApiKey();
-            msg = 'Invalid API key. Please click the ⚙️ icon in Chef Bella\'s chat to update it.';
+            msg = 'Chef Bella is having trouble connecting. Please try again later.';
           }
           resultsArea.innerHTML =
             '<div class="wc-empty-state">' +
@@ -363,13 +362,10 @@
 
   /* ── Generate image for the recipe ── */
   function generateRecipeImage(title, ingLines) {
-    var apiKey = window.BellAI ? window.BellAI.getApiKey() : null;
-    if (!apiKey) return;
-
     var imgPlaceholder = document.getElementById('gr-img-placeholder');
     if (!imgPlaceholder) return;
 
-    var endpoint = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-image-preview:generateContent?key=' + encodeURIComponent(apiKey);
+    var endpoint = '/api/gemini?model=gemini-3.1-flash-image-preview';
     var prompt = 'A beautiful, appetizing food photography shot of "' + title + '". ' +
       'Professional overhead or 45-degree angle, natural lighting, styled on a rustic wooden table. ' +
       'No text, no people, just the finished dish looking delicious.';
