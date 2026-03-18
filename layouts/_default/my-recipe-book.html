@@ -1,0 +1,392 @@
+{{ define "main" }}
+<div class="recipe-book-page">
+  <div class="container">
+
+    <div class="recipe-book-hero">
+      <h1>📖 My Recipe Book</h1>
+      <p class="subtitle">Your personal collection — favorited Bell family recipes and your own AI-generated creations, all in one place.</p>
+    </div>
+
+    <div class="recipe-book-tabs">
+      <button class="recipe-book-tab active" data-tab="favorites">
+        ❤️ Favorites
+        <span class="recipe-book-tab-count" id="fav-count">0</span>
+      </button>
+      <button class="recipe-book-tab" data-tab="generated">
+        ✨ My AI Recipes
+        <span class="recipe-book-tab-count" id="gen-count">0</span>
+      </button>
+    </div>
+
+    <!-- Favorites tab -->
+    <div class="recipe-book-section active" id="tab-favorites">
+      <div class="recipe-book-grid" id="favorites-grid"></div>
+      <div class="rb-empty-state" id="favorites-empty" style="display:none;">
+        <div class="empty-icon">💔</div>
+        <h3>No favorites yet</h3>
+        <p>Tap the ❤️ heart on any recipe to save it here for easy access.</p>
+        <a href="{{ "recipes/" | relURL }}" class="btn btn-primary">Browse All Recipes</a>
+      </div>
+    </div>
+
+    <!-- AI Recipes tab -->
+    <div class="recipe-book-section" id="tab-generated">
+      <div class="recipe-book-grid" id="generated-grid"></div>
+      <div class="rb-empty-state" id="generated-empty" style="display:none;">
+        <div class="empty-icon">🤖</div>
+        <h3>No AI recipes saved yet</h3>
+        <p>Head to <strong>What's In My Fridge?</strong> and let Chef Bella generate a custom recipe for you — then save it here!</p>
+        <a href="{{ "whats-cooking/" | relURL }}" class="btn btn-primary">✨ Generate a Recipe</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+(function () {
+  'use strict';
+
+  if (!window.BellAI) return;
+
+  var baseUrl = window.BellAI.getBaseUrl();
+
+  /* ── Tab switching ── */
+  document.querySelectorAll('.recipe-book-tab').forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      document.querySelectorAll('.recipe-book-tab').forEach(function (t) { t.classList.remove('active'); });
+      document.querySelectorAll('.recipe-book-section').forEach(function (s) { s.classList.remove('active'); });
+      tab.classList.add('active');
+      document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
+    });
+  });
+
+  /* ── Helpers ── */
+  function escHtml(str) {
+    var d = document.createElement('div');
+    d.appendChild(document.createTextNode(String(str || '')));
+    return d.innerHTML;
+  }
+
+  function formatDate(iso) {
+    if (!iso) return '';
+    try {
+      return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+    } catch (e) { return ''; }
+  }
+
+  function resolveImageSrc(image) {
+    if (!image) return null;
+    return image.match(/^https?:\/\//) ? image : baseUrl + image.replace(/^\//, '');
+  }
+
+  function resolvePermalink(permalink) {
+    if (!permalink) return '#';
+    // Permalink from Hugo already includes the full path (e.g. /bell-favorite-recipes/recipes/slug/)
+    // so use it directly as an absolute path — do NOT prepend baseUrl again.
+    if (permalink.match(/^https?:\/\//)) return permalink;
+    return permalink; // already an absolute path like /bell-favorite-recipes/recipes/...
+  }
+
+  /* ── Render Favorites ── */
+  function renderFavorites() {
+    var favs  = window.BellAI.getFavorites();
+    var grid  = document.getElementById('favorites-grid');
+    var empty = document.getElementById('favorites-empty');
+    var count = document.getElementById('fav-count');
+
+    count.textContent = favs.length;
+
+    if (!favs.length) {
+      grid.innerHTML = '';
+      empty.style.display = 'block';
+      return;
+    }
+    empty.style.display = 'none';
+
+    grid.innerHTML = favs.map(function (r) {
+      var imgSrc = resolveImageSrc(r.image);
+      var imgHtml = imgSrc
+        ? '<img class="rb-card-img" src="' + escHtml(imgSrc) + '" alt="' + escHtml(r.title) + '" loading="lazy">'
+        : '<div class="rb-card-img-placeholder">🍽️</div>';
+
+      return '<div class="rb-card">' +
+        '<button class="rb-remove-btn" data-permalink="' + escHtml(r.permalink) + '" title="Remove from favorites" aria-label="Remove ' + escHtml(r.title) + ' from favorites">✕</button>' +
+        '<a href="' + escHtml(resolvePermalink(r.permalink)) + '">' + imgHtml + '</a>' +
+        '<div class="rb-card-body">' +
+          '<a href="' + escHtml(resolvePermalink(r.permalink)) + '" style="text-decoration:none;color:inherit;">' +
+            '<h3>' + escHtml(r.title) + '</h3>' +
+          '</a>' +
+          '<p>' + escHtml((r.description || '').slice(0, 100)) + '</p>' +
+          (r.savedAt ? '<div class="rb-card-meta">❤️ Saved ' + escHtml(formatDate(r.savedAt)) + '</div>' : '') +
+        '</div>' +
+        '<div class="rb-card-actions">' +
+          '<a href="' + escHtml(resolvePermalink(r.permalink)) + '" class="btn btn-primary" style="flex:1;justify-content:center;">View Recipe</a>' +
+          '<button class="btn btn-ghost rb-grocery-btn" data-permalink="' + escHtml(r.permalink) + '" data-title="' + escHtml(r.title) + '" title="Build grocery list">🛒</button>' +
+        '</div>' +
+      '</div>';
+    }).join('');
+
+    // Remove buttons
+    grid.querySelectorAll('.rb-remove-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        window.BellAI.removeFavorite(btn.dataset.permalink);
+        renderFavorites();
+      });
+    });
+
+    // Grocery list buttons
+    grid.querySelectorAll('.rb-grocery-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        openGroceryList(btn.dataset.permalink, btn.dataset.title);
+      });
+    });
+  }
+
+  /* ── Render Generated Recipes ── */
+  function renderGenerated() {
+    var recipes = window.BellAI.getGeneratedRecipes();
+    var grid    = document.getElementById('generated-grid');
+    var empty   = document.getElementById('generated-empty');
+    var count   = document.getElementById('gen-count');
+
+    count.textContent = recipes.length;
+
+    if (!recipes.length) {
+      grid.innerHTML = '';
+      empty.style.display = 'block';
+      return;
+    }
+    empty.style.display = 'none';
+
+    grid.innerHTML = recipes.map(function (r) {
+      var ingList = (r.ingredients || []).slice(0, 5).join(', ');
+      return '<div class="rb-card" data-id="' + escHtml(r.id) + '">' +
+        '<button class="rb-remove-btn" data-id="' + escHtml(r.id) + '" title="Remove recipe" aria-label="Remove ' + escHtml(r.title) + '">✕</button>' +
+        '<div class="rb-card-img-placeholder" style="font-size:3rem;">✨</div>' +
+        '<div class="rb-card-body">' +
+          '<div class="rb-ai-badge">✨ AI Created</div>' +
+          '<h3>' + escHtml(r.title) + '</h3>' +
+          (r.description ? '<p>' + escHtml(r.description.slice(0, 100)) + '</p>' : '') +
+          (ingList ? '<div class="rb-card-meta">🧅 Using: ' + escHtml(ingList) + (r.ingredients.length > 5 ? '…' : '') + '</div>' : '') +
+          (r.savedAt ? '<div class="rb-card-meta">📅 ' + escHtml(formatDate(r.savedAt)) + '</div>' : '') +
+        '</div>' +
+        '<div class="rb-card-actions">' +
+          '<button class="btn btn-primary rb-view-btn" data-id="' + escHtml(r.id) + '" style="flex:1;">View Recipe</button>' +
+          '<button class="btn btn-ghost rb-grocery-gen-btn" data-id="' + escHtml(r.id) + '" title="Build grocery list">🛒</button>' +
+        '</div>' +
+        '<div class="rb-generated-content" id="gen-content-' + escHtml(r.id) + '">' +
+          (window.BellAI.renderMarkdown ? window.BellAI.renderMarkdown(r.text || '') : escHtml(r.text || '')) +
+        '</div>' +
+      '</div>';
+    }).join('');
+
+    // Remove buttons
+    grid.querySelectorAll('.rb-remove-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        window.BellAI.removeGeneratedRecipe(btn.dataset.id);
+        renderGenerated();
+      });
+    });
+
+    // View / expand buttons
+    grid.querySelectorAll('.rb-view-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var content = document.getElementById('gen-content-' + btn.dataset.id);
+        if (!content) return;
+        var isOpen = content.classList.contains('open');
+        content.classList.toggle('open', !isOpen);
+        btn.textContent = isOpen ? 'View Recipe' : 'Hide Recipe';
+      });
+    });
+
+    // Grocery list for generated recipes
+    grid.querySelectorAll('.rb-grocery-gen-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var recipe = window.BellAI.getGeneratedRecipes().find(function (r) { return r.id === btn.dataset.id; });
+        if (recipe) openGroceryListFromText(recipe.title, recipe.text);
+      });
+    });
+  }
+
+  /* ── Grocery List (for site recipes — fetch from permalink) ── */
+  function openGroceryList(permalink, title) {
+    var url = resolvePermalink(permalink);
+    showGroceryLoading(title);
+
+    // Try fetching the recipe page and parsing ingredients
+    fetch(url)
+      .then(function (r) { return r.text(); })
+      .then(function (html) {
+        var parser = new DOMParser();
+        var doc = parser.parseFromString(html, 'text/html');
+        var items = extractIngredientsFromDOM(doc);
+        if (items.length) {
+          showGroceryModal(title, items);
+        } else {
+          // Fallback: just open the recipe page
+          window.location.href = url;
+        }
+      })
+      .catch(function () {
+        window.location.href = url;
+      });
+  }
+
+  function extractIngredientsFromDOM(doc) {
+    var items = [];
+    // Find the Ingredients heading and grab the list after it
+    var headings = doc.querySelectorAll('h2, h3');
+    for (var i = 0; i < headings.length; i++) {
+      if (/ingredients/i.test(headings[i].textContent)) {
+        var sibling = headings[i].nextElementSibling;
+        while (sibling && !sibling.matches('h2,h3')) {
+          if (sibling.matches('ul,ol')) {
+            sibling.querySelectorAll('li').forEach(function (li) {
+              var text = li.textContent.trim();
+              if (text) items.push(text);
+            });
+          }
+          sibling = sibling.nextElementSibling;
+        }
+        break;
+      }
+    }
+    return items;
+  }
+
+  /* ── Grocery List (for AI-generated recipes — parse from markdown text) ── */
+  function openGroceryListFromText(title, markdown) {
+    if (!markdown) return;
+    var lines = markdown.split('\n');
+    var inIngredients = false;
+    var items = [];
+    for (var i = 0; i < lines.length; i++) {
+      var line = lines[i].trim();
+      if (/^#{1,3}\s*ingredients/i.test(line)) { inIngredients = true; continue; }
+      if (inIngredients && /^#{1,3}\s/.test(line)) break; // hit next section
+      if (inIngredients && /^[-*]\s+/.test(line)) {
+        items.push(line.replace(/^[-*]\s+/, '').trim());
+      }
+    }
+    if (items.length) {
+      showGroceryModal(title, items);
+    } else {
+      alert('No ingredients found in this recipe.');
+    }
+  }
+
+  function showGroceryLoading(title) {
+    var overlay = getOrCreateGroceryOverlay();
+    overlay.querySelector('.grocery-modal-content').innerHTML =
+      '<div class="grocery-header">' +
+        '<h2 class="grocery-title">🛒 ' + escHtml(title) + '</h2>' +
+      '</div>' +
+      '<div class="grocery-loading"><div class="spinner"></div><p>Loading ingredients…</p></div>';
+    overlay.classList.add('open');
+  }
+
+  function getOrCreateGroceryOverlay() {
+    var existing = document.getElementById('grocery-overlay');
+    if (existing) return existing;
+
+    var overlay = document.createElement('div');
+    overlay.id = 'grocery-overlay';
+    overlay.className = 'grocery-overlay';
+    overlay.innerHTML = '<div class="grocery-modal"><div class="grocery-modal-content"></div></div>';
+    document.body.appendChild(overlay);
+
+    overlay.addEventListener('click', function (e) {
+      if (e.target === overlay) overlay.classList.remove('open');
+    });
+    return overlay;
+  }
+
+  function showGroceryModal(title, items) {
+    var overlay = getOrCreateGroceryOverlay();
+    var content = overlay.querySelector('.grocery-modal-content');
+
+    var listHtml = items.map(function (item, i) {
+      return '<li class="grocery-item" data-index="' + i + '">' +
+        '<button class="grocery-check" aria-label="Check off ' + escHtml(item) + '"></button>' +
+        '<span class="grocery-item-text">' + escHtml(item) + '</span>' +
+      '</li>';
+    }).join('');
+
+    content.innerHTML =
+      '<div class="grocery-header">' +
+        '<h2 class="grocery-title">🛒 ' + escHtml(title) + '</h2>' +
+        '<button class="grocery-close" aria-label="Close">✕</button>' +
+      '</div>' +
+      '<div class="grocery-meta">' +
+        '<span>' + items.length + ' items</span>' +
+        '<button class="grocery-clear-btn" id="grocery-clear-checked">Clear checked</button>' +
+      '</div>' +
+      '<ul class="grocery-list" id="grocery-list">' + listHtml + '</ul>' +
+      '<div class="grocery-footer">' +
+        '<button class="btn btn-ghost grocery-close-btn">Done Shopping 🎉</button>' +
+        '<button class="btn btn-outline" id="grocery-copy-btn">📋 Copy List</button>' +
+      '</div>';
+
+    overlay.classList.add('open');
+
+    // Check off items
+    content.querySelectorAll('.grocery-check').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var li = btn.closest('.grocery-item');
+        li.classList.toggle('checked');
+      });
+    });
+
+    // Clear checked
+    var clearBtn = document.getElementById('grocery-clear-checked');
+    if (clearBtn) {
+      clearBtn.addEventListener('click', function () {
+        content.querySelectorAll('.grocery-item.checked').forEach(function (li) { li.remove(); });
+        var remaining = content.querySelectorAll('.grocery-item').length;
+        content.querySelector('.grocery-meta span').textContent = remaining + ' items';
+      });
+    }
+
+    // Copy to clipboard
+    var copyBtn = document.getElementById('grocery-copy-btn');
+    if (copyBtn) {
+      copyBtn.addEventListener('click', function () {
+        var text = title + '\n\nGrocery List:\n' +
+          items.map(function (item) { return '• ' + item; }).join('\n');
+        if (navigator.clipboard) {
+          navigator.clipboard.writeText(text).then(function () {
+            copyBtn.textContent = '✅ Copied!';
+            setTimeout(function () { copyBtn.innerHTML = '📋 Copy List'; }, 2000);
+          });
+        } else {
+          // Fallback
+          var ta = document.createElement('textarea');
+          ta.value = text;
+          ta.style.position = 'fixed';
+          ta.style.opacity = '0';
+          document.body.appendChild(ta);
+          ta.select();
+          document.execCommand('copy');
+          document.body.removeChild(ta);
+          copyBtn.textContent = '✅ Copied!';
+          setTimeout(function () { copyBtn.innerHTML = '📋 Copy List'; }, 2000);
+        }
+      });
+    }
+
+    // Close buttons
+    content.querySelectorAll('.grocery-close, .grocery-close-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () { overlay.classList.remove('open'); });
+    });
+  }
+
+  /* ── Init ── */
+  renderFavorites();
+  renderGenerated();
+
+}());
+</script>
+{{ end }}

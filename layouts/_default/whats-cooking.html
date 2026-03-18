@@ -1,0 +1,422 @@
+{{ define "main" }}
+<div class="whats-cooking-page">
+  <div class="container">
+
+    <div class="whats-cooking-hero">
+      <div class="page-badge">✨ AI-Powered</div>
+      <h1>What's In Your Kitchen?</h1>
+      <p class="subtitle">
+        Tell us what ingredients you have on hand and we'll find matching recipes from our collection —
+        or let AI whip up something brand new just for you!
+      </p>
+    </div>
+
+    <div class="ingredient-input-card">
+      <label>
+        Your Ingredients
+        <span class="label-hint">— add each item with an optional quantity</span>
+      </label>
+
+      <div class="ingredient-row-input">
+        <input
+          type="text"
+          class="ingredient-field ingredient-name"
+          id="ingredient-name-input"
+          placeholder="What do you have? (e.g. potatoes)"
+          autocomplete="off"
+          autocorrect="off"
+          autocapitalize="off"
+          spellcheck="false"
+        >
+        <input
+          type="text"
+          class="ingredient-field ingredient-qty"
+          id="ingredient-qty-input"
+          placeholder="How much? (e.g. 4 large)"
+          autocomplete="off"
+          autocorrect="off"
+          autocapitalize="off"
+          spellcheck="false"
+        >
+        <button type="button" class="btn btn-add-ingredient" id="ingredient-add-btn">+ Add</button>
+      </div>
+
+      <ul class="ingredient-list" id="ingredient-list"></ul>
+
+      <div class="wc-actions">
+        <button class="btn btn-primary" id="wc-find-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          Find Matching Recipes
+        </button>
+        <button class="btn btn-outline" id="wc-generate-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+          ✨ Generate a New Recipe with AI
+        </button>
+      </div>
+    </div>
+
+    <!-- Results area -->
+    <div id="wc-results-area"></div>
+
+  </div>
+</div>
+{{ end }}
+
+{{ define "scripts" }}
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+<script>
+(function () {
+  'use strict';
+
+  var ingredients = [];  // array of {name: string, qty: string}
+  var siteData    = null;
+  var fuse        = null;
+
+  var nameInput   = document.getElementById('ingredient-name-input');
+  var qtyInput    = document.getElementById('ingredient-qty-input');
+  var addBtn      = document.getElementById('ingredient-add-btn');
+  var ingList     = document.getElementById('ingredient-list');
+  var findBtn     = document.getElementById('wc-find-btn');
+  var genBtn      = document.getElementById('wc-generate-btn');
+  var resultsArea = document.getElementById('wc-results-area');
+
+  /* ── Add ingredient row ── */
+  function addIngredient() {
+    var name = nameInput.value.trim();
+    var qty  = qtyInput.value.trim();
+    if (!name) {
+      nameInput.focus();
+      nameInput.classList.add('input-error');
+      setTimeout(function () { nameInput.classList.remove('input-error'); }, 1500);
+      return;
+    }
+    var lower = name.toLowerCase();
+    if (ingredients.some(function (i) { return i.name.toLowerCase() === lower; })) {
+      nameInput.select();
+      return;
+    }
+    var ing = { name: name, qty: qty };
+    ingredients.push(ing);
+    renderIngredient(ing);
+    nameInput.value = '';
+    qtyInput.value  = '';
+    nameInput.focus();
+  }
+
+  function renderIngredient(ing) {
+    var li = document.createElement('li');
+    li.className = 'ingredient-list-item';
+    li.innerHTML =
+      '<span class="ingredient-item-name">' + escHtml(ing.name) + '</span>' +
+      (ing.qty ? '<span class="ingredient-item-qty">' + escHtml(ing.qty) + '</span>' : '') +
+      '<button type="button" class="ingredient-remove-btn" aria-label="Remove ' + escHtml(ing.name) + '">×</button>';
+    li.querySelector('.ingredient-remove-btn').addEventListener('click', function () {
+      ingredients = ingredients.filter(function (i) { return i.name.toLowerCase() !== ing.name.toLowerCase(); });
+      li.remove();
+    });
+    ingList.appendChild(li);
+  }
+
+  function escHtml(str) {
+    var d = document.createElement('div');
+    d.appendChild(document.createTextNode(str));
+    return d.innerHTML;
+  }
+
+  addBtn.addEventListener('click', addIngredient);
+
+  nameInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') { e.preventDefault(); qtyInput.focus(); }
+  });
+  qtyInput.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') { e.preventDefault(); addIngredient(); }
+  });
+
+  /* ── Load site index ── */
+  function loadIndex() {
+    if (siteData) return Promise.resolve(siteData);
+    var baseUrl = '/';
+    var cssLink = document.querySelector('link[href*="css/style.css"]');
+    if (cssLink) {
+      var href = cssLink.getAttribute('href');
+      var match = href.match(/(\/[^?#]*\/)css\/style\.css/);
+      if (match) baseUrl = match[1];
+    }
+    return fetch(baseUrl + 'index.json')
+      .then(function (r) { return r.json(); })
+      .then(function (data) {
+        siteData = data.filter(function (item) {
+          return item.permalink && item.permalink.indexOf('/recipes/') !== -1;
+        });
+        fuse = new Fuse(siteData, {
+          keys: ['title', 'content', 'tags', 'description'],
+          threshold: 0.4,
+          includeScore: true,
+          minMatchCharLength: 2
+        });
+        return siteData;
+      });
+  }
+
+  /* ── Ingredient matching ── */
+  function scoreRecipe(recipe, ings) {
+    var haystack = [
+      recipe.title || '',
+      recipe.description || '',
+      recipe.content || '',
+      (recipe.tags || []).join(' ')
+    ].join(' ').toLowerCase();
+
+    var matches = 0;
+    ings.forEach(function (ing) {
+      if (haystack.indexOf(ing.name.toLowerCase()) !== -1) matches++;
+    });
+    return matches;
+  }
+
+  function findMatches(ings) {
+    if (!siteData || !ings.length) return [];
+    var scored = siteData.map(function (recipe) {
+      return { recipe: recipe, score: scoreRecipe(recipe, ings) };
+    });
+    return scored
+      .filter(function (s) { return s.score > 0; })
+      .sort(function (a, b) { return b.score - a.score; })
+      .slice(0, 12);
+  }
+
+  /* ── Render helpers ── */
+  function showLoading(msg) {
+    resultsArea.innerHTML =
+      '<div class="wc-loading">' +
+        '<div class="spinner"></div>' +
+        '<p>' + escHtml(msg) + '</p>' +
+      '</div>';
+  }
+
+  function buildRecipeCard(result) {
+    var recipe = result.recipe;
+    var matchCount = result.score;
+    var baseUrl = '/';
+    var cssLink = document.querySelector('link[href*="css/style.css"]');
+    if (cssLink) {
+      var href = cssLink.getAttribute('href');
+      var match = href.match(/(\/[^?#]*\/)css\/style\.css/);
+      if (match) baseUrl = match[1];
+    }
+
+    var imgHtml;
+    if (recipe.image) {
+      var imgSrc = recipe.image.match(/^https?:\/\//)
+        ? recipe.image
+        : baseUrl + recipe.image.replace(/^\//, '');
+      imgHtml = '<img src="' + escHtml(imgSrc) + '" alt="' + escHtml(recipe.title) + '" loading="lazy">';
+    } else {
+      imgHtml = '<div class="wc-recipe-card-img-placeholder">🍽️</div>';
+    }
+
+    var badge = matchCount === ingredients.length
+      ? '<span class="wc-match-badge">✅ Perfect match</span>'
+      : '<span class="wc-match-badge">' + matchCount + ' of ' + ingredients.length + ' ingredients</span>';
+
+    var url = recipe.permalink.match(/^https?:\/\//)
+      ? recipe.permalink
+      : baseUrl.replace(/\/$/, '') + recipe.permalink;
+
+    return '<a href="' + escHtml(url) + '" class="wc-recipe-card">' +
+      imgHtml +
+      '<div class="wc-recipe-card-body">' +
+        badge +
+        '<h3>' + escHtml(recipe.title) + '</h3>' +
+        '<p>' + escHtml((recipe.description || '').slice(0, 120)) + '</p>' +
+      '</div>' +
+    '</a>';
+  }
+
+  /* ── Find matching recipes ── */
+  findBtn.addEventListener('click', function () {
+    if (!ingredients.length) {
+      nameInput.focus();
+      nameInput.classList.add('input-error');
+      setTimeout(function () { nameInput.classList.remove('input-error'); }, 1500);
+      return;
+    }
+
+    showLoading('Searching ' + (siteData ? siteData.length : 'our') + ' recipes…');
+
+    loadIndex().then(function () {
+      var matches = findMatches(ingredients);
+      var nameList = ingredients.map(function (i) { return i.name; }).join(', ');
+
+      if (!matches.length) {
+        resultsArea.innerHTML =
+          '<div class="wc-empty-state">' +
+            '<div class="empty-icon">🤔</div>' +
+            '<h3>No perfect matches found</h3>' +
+            '<p>We couldn\'t find recipes using <strong>' + escHtml(nameList) + '</strong>. ' +
+            'Try fewer ingredients, or hit <strong>Generate a New Recipe</strong> to have AI create one just for you!</p>' +
+          '</div>';
+        return;
+      }
+
+      var html =
+        '<div class="wc-results">' +
+          '<div class="wc-results-header">' +
+            '<h2>🎯 Matching Recipes</h2>' +
+            '<span class="wc-results-count">Found ' + matches.length + ' recipe' + (matches.length !== 1 ? 's' : '') + ' using: <em>' + escHtml(nameList) + '</em></span>' +
+          '</div>' +
+          '<div class="wc-recipe-grid">' +
+            matches.map(function (m) { return buildRecipeCard(m); }).join('') +
+          '</div>' +
+          '<p style="text-align:center;color:var(--color-text-light);font-size:0.85rem;margin-top:1rem;">' +
+            'Not quite right? <button class="btn btn-outline" id="wc-gen-from-results" style="padding:6px 14px;font-size:0.8rem;">✨ Generate a custom recipe instead</button>' +
+          '</p>' +
+        '</div>';
+
+      resultsArea.innerHTML = html;
+
+      var genBtn2 = document.getElementById('wc-gen-from-results');
+      if (genBtn2) genBtn2.addEventListener('click', generateRecipe);
+
+    }).catch(function (err) {
+      resultsArea.innerHTML = '<p style="color:#c0392b;padding:1rem;">Error loading recipes: ' + escHtml(err.message) + '</p>';
+    });
+  });
+
+  /* ── Generate a new recipe via Gemini ── */
+  function generateRecipe() {
+    if (!ingredients.length) {
+      nameInput.focus();
+      nameInput.classList.add('input-error');
+      setTimeout(function () { nameInput.classList.remove('input-error'); }, 1500);
+      return;
+    }
+
+    if (!window.BellAI) {
+      alert('AI features are not loaded. Please refresh the page.');
+      return;
+    }
+
+    window.BellAI.requireApiKey(function () {
+      showLoading('Chef Bella is cooking up something just for you…');
+
+      // Build a human-friendly ingredient list with quantities where given
+      var ingLines = ingredients.map(function (i) {
+        return i.qty ? '- ' + i.qty + ' ' + i.name : '- ' + i.name;
+      }).join('\n');
+
+      var prompt =
+        'I have these ingredients available:\n' + ingLines + '\n\n' +
+        'Please create a delicious and practical recipe using primarily these ingredients. ' +
+        'Respect any quantities listed — they indicate what I actually have on hand. ' +
+        'You may suggest a few common pantry staples (salt, pepper, oil, butter, etc.) as needed.\n\n' +
+        'Format the response as follows:\n' +
+        '## [Recipe Name]\n\n' +
+        '**Description:** A brief appetizing description.\n\n' +
+        '**Prep Time:** X minutes\n' +
+        '**Cook Time:** X minutes\n' +
+        '**Servings:** X\n\n' +
+        '### Ingredients\n' +
+        '- List each ingredient with measurement\n\n' +
+        '### Instructions\n' +
+        '1. Step by step...\n\n' +
+        '### Tips\n' +
+        '- Any helpful tips or variations\n\n' +
+        'Keep the recipe achievable for a home cook with basic kitchen skills.';
+
+      var messages = [{ role: 'user', parts: [{ text: prompt }] }];
+      var systemPrompt =
+        'You are Chef Bella, a friendly home cooking expert. Create practical, delicious recipes ' +
+        'that real families will enjoy. Keep instructions clear and approachable. ' +
+        'Only discuss food and cooking.';
+
+      window.BellAI.callGemini(messages, systemPrompt)
+        .then(function (recipeText) {
+          renderGeneratedRecipe(recipeText);
+        })
+        .catch(function (err) {
+          var msg = err.message || 'Something went wrong.';
+          if (msg.indexOf('API_KEY_INVALID') !== -1 || msg.indexOf('401') !== -1) {
+            window.BellAI.clearApiKey();
+            msg = 'Invalid API key. Please click the ⚙️ icon in Chef Bella\'s chat to update it.';
+          }
+          resultsArea.innerHTML =
+            '<div class="wc-empty-state">' +
+              '<div class="empty-icon">😔</div>' +
+              '<h3>Couldn\'t generate recipe</h3>' +
+              '<p>' + escHtml(msg) + '</p>' +
+            '</div>';
+        });
+    });
+  }
+
+  genBtn.addEventListener('click', generateRecipe);
+
+  function extractTitle(text) {
+    var match = text.match(/^##\s+(.+)$/m);
+    return match ? match[1].trim() : 'AI Generated Recipe';
+  }
+
+  function extractDescription(text) {
+    var match = text.match(/\*\*Description:\*\*\s*(.+)/);
+    return match ? match[1].trim() : '';
+  }
+
+  function renderGeneratedRecipe(recipeText) {
+    var title = extractTitle(recipeText);
+    var desc  = extractDescription(recipeText);
+    var renderedHtml = window.BellAI ? window.BellAI.renderMarkdown(recipeText) : '<pre>' + escHtml(recipeText) + '</pre>';
+
+    var existingResults = resultsArea.querySelector('.wc-results');
+    var card = document.createElement('div');
+    card.className = 'generated-recipe-card';
+    card.innerHTML =
+      '<div class="gr-header">' +
+        '<div>' +
+          '<div class="gr-badge">✨ AI Generated Recipe</div>' +
+          '<h2>' + escHtml(title) + '</h2>' +
+        '</div>' +
+        '<button class="btn btn-primary gr-save-btn" id="gr-save-btn">❤️ Save to My Recipe Book</button>' +
+      '</div>' +
+      '<div class="generated-recipe-content">' + renderedHtml + '</div>';
+
+    resultsArea.innerHTML = '';
+    if (existingResults) resultsArea.appendChild(existingResults);
+    resultsArea.appendChild(card);
+
+    // Save button
+    var saveBtn = document.getElementById('gr-save-btn');
+    var saved = false;
+    saveBtn.addEventListener('click', function () {
+      if (saved) return;
+      if (!window.BellAI) return;
+      var id = 'gen_' + Date.now();
+      window.BellAI.saveGeneratedRecipe({
+        id: id,
+        title: title,
+        description: desc,
+        ingredients: ingredients.map(function (i) { return i.qty ? i.qty + ' ' + i.name : i.name; }),
+        text: recipeText,
+        savedAt: new Date().toISOString()
+      });
+      saved = true;
+      saveBtn.textContent = '✅ Saved to My Recipe Book!';
+      saveBtn.disabled = true;
+
+      // Link to recipe book
+      var baseUrl = (window.BellAI && window.BellAI.getBaseUrl()) || '/';
+      var link = document.createElement('a');
+      link.href = baseUrl + 'my-recipe-book/';
+      link.className = 'btn btn-ghost';
+      link.style.marginLeft = '8px';
+      link.textContent = 'View My Recipe Book →';
+      saveBtn.parentNode.appendChild(link);
+    });
+
+    // Scroll to it
+    card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+}());
+</script>
+{{ end }}
