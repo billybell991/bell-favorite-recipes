@@ -24,13 +24,17 @@
     '- General kitchen advice and troubleshooting\n\n' +
     'THE BELL FAMILY COLLECTION includes: Air Fryer recipes, Instant Pot recipes, Keto recipes, ' +
     'Mom\'s Cookbook, Family Recipes, Wedding Favorites, Friends & Neighbors recipes, Internet Finds, and more.\n\n' +
+    'RECIPE RECOMMENDATION RULES (very important):\n' +
+    '- When recommending recipes, mention them BY NAME only — just the recipe title, a one-sentence tease, and encouragement to click it. Do NOT write out ingredients or steps.\n' +
+    '- Each message may include a [Recipes in our collection...] note with exact titles. ALWAYS use those EXACT titles word-for-word — the site turns them into clickable links automatically.\n' +
+    '- If no recipe list is provided, keep recommendations vague ("we have some great chicken dishes!") rather than inventing specific titles.\n' +
+    '- Only write out a full recipe if the user explicitly asks for one AND no matching recipe was listed in the context.\n\n' +
     'STRICT RULES:\n' +
     '- You ONLY discuss food-related topics. This is absolute.\n' +
     '- If asked about anything non-food-related (politics, news, sports, relationships, tech, etc.), ' +
     'respond warmly but firmly: "Ha! I\'m Chef Bella — food is my entire world! I can\'t help with that one, ' +
     'but if you\'re hungry or curious about cooking, I\'m your girl! 🍳"\n' +
-    '- Keep responses concise and conversational — aim for 2-4 short paragraphs max unless a recipe is requested.\n' +
-    '- Format ingredient lists and steps with simple markdown (* for bullets, 1. for numbered steps).\n' +
+    '- Keep responses concise and conversational — aim for 2-4 short paragraphs max.\n' +
     '- Never identify yourself as an AI, a language model, or mention Google/Gemini.';
 
   var MAX_HISTORY = 20; // messages kept in context
@@ -107,6 +111,58 @@
     return { toggle: toggle, panel: panel };
   }
 
+  /* ── Recipe index for linkification ── */
+  var recipeIndex = null;
+
+  function loadRecipeIndex() {
+    if (recipeIndex !== null) return;
+    recipeIndex = [];
+    var base = '/';
+    var cssLink = document.querySelector('link[href*="css/style.css"]');
+    if (cssLink) {
+      var m = cssLink.getAttribute('href').match(/(\/[^?#]*\/)css\/style\.css/);
+      if (m) base = m[1];
+    }
+    fetch(base + 'index.json')
+      .then(function (r) { return r.json(); })
+      .then(function (data) {
+        recipeIndex = data
+          .filter(function (item) {
+            return item.title && item.permalink && item.permalink.indexOf('/recipes/') !== -1;
+          })
+          .sort(function (a, b) { return b.title.length - a.title.length; });
+      })
+      .catch(function () { recipeIndex = []; });
+  }
+
+  function linkifyRecipes(text) {
+    if (!recipeIndex || !recipeIndex.length) return text;
+    var base = '/';
+    var cssLink = document.querySelector('link[href*="css/style.css"]');
+    if (cssLink) {
+      var m = cssLink.getAttribute('href').match(/(\/[^?#]*\/)css\/style\.css/);
+      if (m) base = m[1];
+    }
+    var used = {};
+    recipeIndex.forEach(function (recipe) {
+      var title = recipe.title;
+      if (title.length < 6) return;
+      if (used[title.toLowerCase()]) return;
+      var url = recipe.permalink.match(/^https?:\/\//)
+        ? recipe.permalink
+        : base.replace(/\/$/, '') + recipe.permalink;
+      var escaped = title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      // Match titles not already inside a markdown link bracket
+      var re = new RegExp('(?<!\\[)(' + escaped + ')(?!\\])', 'gi');
+      if (re.test(text)) {
+        re.lastIndex = 0;
+        text = text.replace(re, '[' + title + '](' + url + ')');
+        used[title.toLowerCase()] = true;
+      }
+    });
+    return text;
+  }
+
   /* ── Message rendering ── */
   function appendMessage(role, text) {
     var messages = document.getElementById('chatbot-messages');
@@ -124,7 +180,12 @@
 
     // Render the text safely using BellAI's markdown renderer
     if (window.BellAI) {
-      bubble.innerHTML = window.BellAI.renderMarkdown(text);
+      var processed = (role === 'bot') ? linkifyRecipes(text) : text;
+      bubble.innerHTML = window.BellAI.renderMarkdown(processed);
+      // Style any recipe links Bella inserted
+      bubble.querySelectorAll('a[href*="/recipes/"]').forEach(function (a) {
+        a.classList.add('bella-recipe-link');
+      });
     } else {
       bubble.textContent = text;
     }
@@ -148,6 +209,26 @@
       var messages = document.getElementById('chatbot-messages');
       if (messages) messages.scrollTop = messages.scrollHeight;
     }
+  }
+
+  /* ── Find recipes relevant to user's message ── */
+  function findRelevantRecipes(userText) {
+    if (!recipeIndex || !recipeIndex.length) return [];
+    var stopWords = {'what':1,'with':1,'have':1,'that':1,'this':1,'from':1,'your':1,'make':1,'some':1,'good':1,'best':1,'like':1,'need':1,'want':1,'give':1,'find':1,'show':1,'tell':1,'help':1,'about':1,'just':1,'also':1,'more':1};
+    var words = userText.toLowerCase()
+      .replace(/[^a-z0-9 ]/g, ' ').split(/\s+/)
+      .filter(function(w) { return w.length > 3 && !stopWords[w]; });
+    if (!words.length) return [];
+    return recipeIndex
+      .map(function(r) {
+        var title = r.title.toLowerCase();
+        var score = words.reduce(function(s, w) { return s + (title.indexOf(w) !== -1 ? 1 : 0); }, 0);
+        return { recipe: r, score: score };
+      })
+      .filter(function(r) { return r.score > 0; })
+      .sort(function(a, b) { return b.score - a.score; })
+      .slice(0, 10)
+      .map(function(r) { return r.recipe; });
   }
 
   /* ── Send a message ── */
@@ -174,7 +255,18 @@
     }
 
     window.BellAI.requireApiKey(function () {
-      window.BellAI.callGemini(history, SYSTEM_PROMPT)
+      // Build API messages — inject matching recipe titles so Bella uses exact names
+      var apiMessages = history.slice();
+      var relevant = findRelevantRecipes(text);
+      if (relevant.length) {
+        var titleList = relevant.map(function(r) { return '"' + r.title + '"'; }).join(', ');
+        var last = apiMessages[apiMessages.length - 1];
+        apiMessages[apiMessages.length - 1] = {
+          role: 'user',
+          parts: [{ text: last.parts[0].text + '\n\n[Recipes in our collection relevant to this — use these EXACT titles when recommending: ' + titleList + ']' }]
+        };
+      }
+      window.BellAI.callGemini(apiMessages, SYSTEM_PROMPT)
         .then(function (reply) {
           history.push({ role: 'model', parts: [{ text: reply }] });
           if (history.length > MAX_HISTORY) history = history.slice(-MAX_HISTORY);
@@ -222,6 +314,9 @@
     var panel  = els.panel;
     var isOpen = false;
     var greeted = false;
+
+    // Pre-load recipe index so first response can linkify immediately
+    loadRecipeIndex();
 
     function openChat() {
       isOpen = true;

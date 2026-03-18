@@ -882,6 +882,17 @@
   border-bottom-right-radius: 3px;
 }
 .chat-bubble a { color: inherit; text-decoration: underline; }
+.chat-bubble a.bella-recipe-link {
+  color: var(--color-primary-dark);
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1.5px solid var(--color-primary);
+  transition: color 0.15s, border-color 0.15s;
+}
+.chat-bubble a.bella-recipe-link:hover {
+  color: var(--color-primary);
+  border-color: var(--color-primary-dark);
+}
 .chat-bubble strong { font-weight: 600; }
 .chat-bubble ul { margin: 0.3rem 0 0.3rem 1rem; }
 .chat-bubble li { margin-bottom: 0.15rem; }

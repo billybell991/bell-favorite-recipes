@@ -5,7 +5,7 @@
 (function (window) {
   'use strict';
 
-  var GEMINI_ENDPOINT = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
+  var GEMINI_ENDPOINT = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent';
   var STORAGE_KEY_API  = 'gemini_api_key';
   var STORAGE_KEY_FAVS = 'recipe_favorites';
   var STORAGE_KEY_BOOK = 'recipe_book_generated';
@@ -91,35 +91,44 @@
     }
 
     function inlineFormat(text) {
-      return text
+      // 1. Extract markdown links FIRST, replace with placeholders
+      var links = [];
+      text = text.replace(/\[([^\]]+)\]\(((?:https?:\/\/|\/)[^)]+)\)/g, function (_, label, url) {
+        var idx = links.length;
+        links.push('<a href="' + url + '" class="bella-recipe-link">' + label + '</a>');
+        return '\x00LINK' + idx + '\x00';
+      });
+      // 2. Escape HTML in the remaining text
+      text = text.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+      // 3. Apply bold/italic
+      text = text
         .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
         .replace(/\*(.+?)\*/g, '<em>$1</em>')
         .replace(/`(.+?)`/g, '<code>$1</code>');
+      // 4. Restore links
+      text = text.replace(/\x00LINK(\d+)\x00/g, function (_, i) { return links[+i]; });
+      return text;
     }
 
     lines.forEach(function (line) {
-      // Escape HTML first, then apply safe inline formatting
-      var safe = escHtml(line);
-      var fmt  = inlineFormat(safe);
-
       if (/^#{1,2}\s/.test(line)) {
         closeLists();
-        html += '<h2>' + inlineFormat(escHtml(line.replace(/^#{1,2}\s+/, ''))) + '</h2>';
+        html += '<h2>' + inlineFormat(line.replace(/^#{1,2}\s+/, '')) + '</h2>';
       } else if (/^#{3,}\s/.test(line)) {
         closeLists();
-        html += '<h3>' + inlineFormat(escHtml(line.replace(/^#{3,}\s+/, ''))) + '</h3>';
+        html += '<h3>' + inlineFormat(line.replace(/^#{3,}\s+/, '')) + '</h3>';
       } else if (/^\d+\.\s/.test(line)) {
         if (!inOl) { closeLists(); html += '<ol>'; inOl = true; }
-        html += '<li>' + inlineFormat(escHtml(line.replace(/^\d+\.\s+/, ''))) + '</li>';
+        html += '<li>' + inlineFormat(line.replace(/^\d+\.\s+/, '')) + '</li>';
       } else if (/^[-*]\s/.test(line)) {
         if (!inUl) { closeLists(); html += '<ul>'; inUl = true; }
-        html += '<li>' + inlineFormat(escHtml(line.replace(/^[-*]\s+/, ''))) + '</li>';
+        html += '<li>' + inlineFormat(line.replace(/^[-*]\s+/, '')) + '</li>';
       } else if (line.trim() === '') {
         closeLists();
         html += '<br>';
       } else {
         closeLists();
-        html += '<p>' + fmt + '</p>';
+        html += '<p>' + inlineFormat(line) + '</p>';
       }
     });
     closeLists();
