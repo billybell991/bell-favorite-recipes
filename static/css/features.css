@@ -1297,27 +1297,22 @@
   margin-top: 1rem;
 }
 
-/* ── Hero: Chef Bella image ── */
-.hero-title-row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  margin-bottom: 0.25rem;
+/* ── Hero: Chef Bella floating character ── */
+.hero-bella-float {
+  position: absolute;
+  bottom: 0;
+  right: max(2%, calc(50% - 560px));
+  height: 260px;
+  width: auto;
+  z-index: 2;
+  pointer-events: none;
+  filter: drop-shadow(-4px 0 18px rgba(0, 0, 0, 0.5));
 }
-.hero-title-row h1 { margin-bottom: 0; }
-.hero-bella-img {
-  height: 90px;
-  width: 90px;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: top center;
-  border: 3px solid rgba(255, 255, 255, 0.7);
-  flex-shrink: 0;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.45);
+@media (max-width: 900px) {
+  .hero-bella-float { height: 180px; right: 1%; }
 }
 @media (max-width: 600px) {
-  .hero-bella-img { height: 62px; width: 62px; }
+  .hero-bella-float { display: none; }
 }
 
 /* ── Grocery List Tab ── */

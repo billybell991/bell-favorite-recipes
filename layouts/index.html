@@ -1,10 +1,7 @@
 {{ define "main" }}
 <section class="hero" style="background-image: url('{{ "images/hero-kitchen.jpg" | absURL }}');">
   <div class="container">
-    <div class="hero-title-row">
-      <img src="{{ "images/chef-bella.png" | absURL }}" alt="Chef Bella" class="hero-bella-img">
-      <h1>Bell Favorite Recipes</h1>
-    </div>
+    <h1>Bell Favorite Recipes</h1>
     <p class="hero-subtitle">Favorite recipes from friends, family, and around the web</p>
     <div class="hero-search">
       <input type="text" id="hero-search-input" placeholder="Search for a recipe..." aria-label="Search recipes" autocomplete="off">
@@ -12,6 +9,7 @@
     </div>
     <div id="hero-search-results" class="hero-search-results"></div>
   </div>
+  <img src="{{ "images/chef-bella-transparent.png" | absURL }}" alt="Chef Bella" class="hero-bella-float">
 </section>
 
 <section class="whats-new">

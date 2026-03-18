@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
   <link rel="stylesheet" href="{{ "css/features.css" | relURL }}">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👩‍🍳</text></svg>">
+  <link rel="icon" type="image/png" href="{{ "images/chef-bella-transparent.png" | relURL }}">
   {{ block "head" . }}{{ end }}
 </head>
 <body>
@@ -18,7 +18,7 @@
     <div class="container">
       <div class="header-inner">
         <a href="{{ .Site.BaseURL }}" class="site-logo">
-          <span class="logo-icon">👩‍🍳</span>
+          <img src="{{ "images/chef-bella-transparent.png" | relURL }}" alt="Chef Bella" class="logo-img" width="34" height="34">
           <span class="logo-text">{{ .Site.Title }}</span>
         </a>
         <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
