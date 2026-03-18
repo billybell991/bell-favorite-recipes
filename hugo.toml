@@ -18,24 +18,20 @@ title = 'Bell Favorite Recipes'
 
 [menu]
   [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    name = "All Recipes"
-    url = "/recipes/"
-    weight = 2
-  [[menu.main]]
     name = "Categories"
     url = "/categories/"
-    weight = 3
+    weight = 2
   [[menu.main]]
     name = "What's In My Fridge?"
     url = "/whats-cooking/"
-    weight = 4
+    weight = 3
   [[menu.main]]
     name = "My Recipe Book"
     url = "/my-recipe-book/"
+    weight = 4
+  [[menu.main]]
+    name = "🛒 Grocery List"
+    url = "/my-recipe-book/#grocery"
     weight = 5
   [[menu.main]]
     name = "Submit a Recipe"

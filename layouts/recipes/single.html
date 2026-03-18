@@ -233,8 +233,7 @@ function exportPDF() {
           '</div>' +
           '<ul class="grocery-list" id="grocery-list">' + listHtml + '</ul>' +
           '<div class="grocery-footer">' +
-            '<button class="btn btn-ghost grocery-close-btn">Done 🎉</button>' +
-            '<button class="btn btn-outline" id="grocery-copy">📋 Copy List</button>' +
+            '<button class="btn btn-primary" id="grocery-save">💾 Save to My Grocery List</button>' +
           '</div>' +
         '</div>' +
       '</div>';
@@ -256,30 +255,31 @@ function exportPDF() {
       document.getElementById('grocery-count').textContent = remaining + ' items';
     });
 
-    // Copy
-    document.getElementById('grocery-copy').addEventListener('click', function () {
-      var text = title + '\n\nIngredients:\n' + items.map(function (i) { return '• ' + i; }).join('\n');
-      var copyBtn = document.getElementById('grocery-copy');
-      if (navigator.clipboard) {
-        navigator.clipboard.writeText(text).then(function () {
-          copyBtn.textContent = '✅ Copied!';
-          setTimeout(function () { copyBtn.textContent = '📋 Copy List'; }, 2000);
-        });
-      } else {
-        var ta = document.createElement('textarea');
-        ta.value = text;
-        ta.style.cssText = 'position:fixed;opacity:0;';
-        document.body.appendChild(ta);
-        ta.select();
-        document.execCommand('copy');
-        document.body.removeChild(ta);
-        copyBtn.textContent = '✅ Copied!';
-        setTimeout(function () { copyBtn.textContent = '📋 Copy List'; }, 2000);
-      }
-    });
+    // Save to My Grocery List — only unchecked items (what you still need to buy)
+    var saveBtn = document.getElementById('grocery-save');
+    if (saveBtn) {
+      saveBtn.addEventListener('click', function () {
+        if (window.BellAI && window.BellAI.addGroceryList) {
+          var checked = overlay.querySelectorAll('.grocery-item.checked .grocery-item-text');
+          var toSave = [];
+          if (checked.length) {
+            checked.forEach(function (el) { toSave.push(el.textContent); });
+          } else {
+            toSave = items.slice(); // nothing checked → save all
+          }
+          window.BellAI.addGroceryList(title, toSave);
+          if (window.updateGroceryBadge) window.updateGroceryBadge();
+          saveBtn.textContent = '✅ ' + toSave.length + ' items saved!';
+          saveBtn.disabled = true;
+          setTimeout(function () { overlay.remove(); }, 1500);
+        } else {
+          alert('Local storage unavailable — cannot save grocery list.');
+        }
+      });
+    }
 
     // Close handlers
-    overlay.querySelectorAll('.grocery-close, .grocery-close-btn').forEach(function (closeBtn) {
+    overlay.querySelectorAll('.grocery-close').forEach(function (closeBtn) {
       closeBtn.addEventListener('click', function () { overlay.remove(); });
     });
     overlay.addEventListener('click', function (e) {

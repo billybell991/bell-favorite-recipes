@@ -1407,3 +1407,45 @@
   font-weight: 700;
 }
 
+/* ── Grocery List Tab — Mobile ── */
+@media (max-width: 600px) {
+  .recipe-book-page { padding: 1rem 0 3rem; }
+  .recipe-book-hero { margin-bottom: 1rem; }
+  .recipe-book-hero h1 { font-size: 1.4rem; margin-bottom: 0.3rem; }
+  .recipe-book-hero .subtitle { font-size: 0.82rem; }
+
+  /* Make all 3 tabs equal width, filling the row */
+  .recipe-book-tabs {
+    gap: 0;
+    overflow-x: visible;
+  }
+  .recipe-book-tab {
+    flex: 1;
+    justify-content: center;
+    padding: 10px 6px;
+    font-size: 0.78rem;
+    white-space: normal;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  .grocery-tab-header { margin-bottom: 0.75rem; flex-wrap: wrap; gap: 0.5rem; }
+  .grocery-tab-actions { gap: 0.4rem; }
+
+  .grocery-list-group { margin-bottom: 0.85rem; border-radius: 10px; }
+  .grocery-list-group-header { padding: 0.6rem 0.85rem; }
+  .grocery-list-group-title { font-size: 0.92rem; }
+
+  .grocery-tab-item {
+    padding: 0.85rem 0.85rem;
+    min-height: 56px;
+    font-size: 0.95rem;
+  }
+  .grocery-check {
+    width: 26px;
+    height: 26px;
+    min-width: 26px;
+    border-radius: 50%;
+  }
+}
+

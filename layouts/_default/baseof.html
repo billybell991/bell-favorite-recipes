@@ -183,5 +183,29 @@
   }());
   </script>
   {{ end }}
+  <script>
+  window.updateGroceryBadge = function () {
+    try {
+      var lists = JSON.parse(localStorage.getItem('grocery_list') || '[]');
+      var total = lists.reduce(function (sum, l) { return sum + (l.items ? l.items.length : 0); }, 0);
+      document.querySelectorAll('.site-nav a').forEach(function (a) {
+        if (a.textContent.indexOf('Grocery') === -1) return;
+        var badge = a.querySelector('.nav-grocery-badge');
+        if (total > 0) {
+          if (!badge) {
+            badge = document.createElement('span');
+            badge.className = 'nav-grocery-badge';
+            badge.style.cssText = 'display:inline-block;background:var(--color-primary,#b8533e);color:#fff;font-size:0.65rem;font-weight:700;border-radius:10px;padding:1px 6px;margin-left:5px;vertical-align:middle;line-height:1.6;';
+            a.appendChild(badge);
+          }
+          badge.textContent = total;
+        } else if (badge) {
+          badge.remove();
+        }
+      });
+    } catch (e) {}
+  };
+  window.updateGroceryBadge();
+  </script>
 </body>
 </html>
