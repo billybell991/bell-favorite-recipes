@@ -163,9 +163,12 @@
 
     grid.innerHTML = recipes.map(function (r) {
       var ingList = (r.ingredients || []).slice(0, 5).join(', ');
+      var imgHtml = r.image
+        ? '<img class="rb-card-img" src="' + escHtml(r.image) + '" alt="' + escHtml(r.title) + '">'
+        : '<div class="rb-card-img-placeholder" style="font-size:3rem;">✨</div>';
       return '<div class="rb-card" data-id="' + escHtml(r.id) + '">' +
         '<button class="rb-remove-btn" data-id="' + escHtml(r.id) + '" title="Remove recipe" aria-label="Remove ' + escHtml(r.title) + '">✕</button>' +
-        '<div class="rb-card-img-placeholder" style="font-size:3rem;">✨</div>' +
+        imgHtml +
         '<div class="rb-card-body">' +
           '<div class="rb-ai-badge">✨ AI Created</div>' +
           '<h3>' + escHtml(r.title) + '</h3>' +

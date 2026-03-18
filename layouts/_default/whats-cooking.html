@@ -6,42 +6,18 @@
       <div class="page-badge">✨ AI-Powered</div>
       <h1>What's In Your Kitchen?</h1>
       <p class="subtitle">
-        Tell us what ingredients you have on hand and we'll find matching recipes from our collection —
-        or let AI whip up something brand new just for you!
+        Tell Chef Bella what ingredients you have on hand and she'll find matching recipes from our collection —
+        or let her whip up something brand new just for you!
       </p>
     </div>
 
     <div class="ingredient-input-card">
-      <label>
-        Your Ingredients
-        <span class="label-hint">— add each item with an optional quantity</span>
-      </label>
-
-      <div class="ingredient-row-input">
-        <input
-          type="text"
-          class="ingredient-field ingredient-name"
-          id="ingredient-name-input"
-          placeholder="What do you have? (e.g. potatoes)"
-          autocomplete="off"
-          autocorrect="off"
-          autocapitalize="off"
-          spellcheck="false"
-        >
-        <input
-          type="text"
-          class="ingredient-field ingredient-qty"
-          id="ingredient-qty-input"
-          placeholder="How much? (e.g. 4 large)"
-          autocomplete="off"
-          autocorrect="off"
-          autocapitalize="off"
-          spellcheck="false"
-        >
-        <button type="button" class="btn btn-add-ingredient" id="ingredient-add-btn">+ Add</button>
+      <div class="ingredient-header">
+        <label>Your Ingredients</label>
+        <span class="ingredient-col-labels"><span>What do you have?</span><span>How much? <em>(optional)</em></span></span>
       </div>
 
-      <ul class="ingredient-list" id="ingredient-list"></ul>
+      <div class="ingredient-rows" id="ingredient-rows"></div>
 
       <div class="wc-actions">
         <button class="btn btn-primary" id="wc-find-btn">
@@ -68,54 +44,13 @@
 (function () {
   'use strict';
 
-  var ingredients = [];  // array of {name: string, qty: string}
-  var siteData    = null;
-  var fuse        = null;
+  var siteData = null;
+  var fuse     = null;
 
-  var nameInput   = document.getElementById('ingredient-name-input');
-  var qtyInput    = document.getElementById('ingredient-qty-input');
-  var addBtn      = document.getElementById('ingredient-add-btn');
-  var ingList     = document.getElementById('ingredient-list');
-  var findBtn     = document.getElementById('wc-find-btn');
-  var genBtn      = document.getElementById('wc-generate-btn');
-  var resultsArea = document.getElementById('wc-results-area');
-
-  /* ── Add ingredient row ── */
-  function addIngredient() {
-    var name = nameInput.value.trim();
-    var qty  = qtyInput.value.trim();
-    if (!name) {
-      nameInput.focus();
-      nameInput.classList.add('input-error');
-      setTimeout(function () { nameInput.classList.remove('input-error'); }, 1500);
-      return;
-    }
-    var lower = name.toLowerCase();
-    if (ingredients.some(function (i) { return i.name.toLowerCase() === lower; })) {
-      nameInput.select();
-      return;
-    }
-    var ing = { name: name, qty: qty };
-    ingredients.push(ing);
-    renderIngredient(ing);
-    nameInput.value = '';
-    qtyInput.value  = '';
-    nameInput.focus();
-  }
-
-  function renderIngredient(ing) {
-    var li = document.createElement('li');
-    li.className = 'ingredient-list-item';
-    li.innerHTML =
-      '<span class="ingredient-item-name">' + escHtml(ing.name) + '</span>' +
-      (ing.qty ? '<span class="ingredient-item-qty">' + escHtml(ing.qty) + '</span>' : '') +
-      '<button type="button" class="ingredient-remove-btn" aria-label="Remove ' + escHtml(ing.name) + '">×</button>';
-    li.querySelector('.ingredient-remove-btn').addEventListener('click', function () {
-      ingredients = ingredients.filter(function (i) { return i.name.toLowerCase() !== ing.name.toLowerCase(); });
-      li.remove();
-    });
-    ingList.appendChild(li);
-  }
+  var rowsContainer = document.getElementById('ingredient-rows');
+  var findBtn       = document.getElementById('wc-find-btn');
+  var genBtn        = document.getElementById('wc-generate-btn');
+  var resultsArea   = document.getElementById('wc-results-area');
 
   function escHtml(str) {
     var d = document.createElement('div');
@@ -123,14 +58,73 @@
     return d.innerHTML;
   }
 
-  addBtn.addEventListener('click', addIngredient);
+  /* ── Inline editable rows ── */
+  function getIngredients() {
+    var result = [];
+    rowsContainer.querySelectorAll('.ing-row').forEach(function (row) {
+      var name = row.querySelector('.ingredient-name').value.trim();
+      var qty  = row.querySelector('.ingredient-qty').value.trim();
+      if (name) result.push({ name: name, qty: qty });
+    });
+    return result;
+  }
 
-  nameInput.addEventListener('keydown', function (e) {
-    if (e.key === 'Enter') { e.preventDefault(); qtyInput.focus(); }
-  });
-  qtyInput.addEventListener('keydown', function (e) {
-    if (e.key === 'Enter') { e.preventDefault(); addIngredient(); }
-  });
+  function addRow(name, qty, focusName) {
+    var row = document.createElement('div');
+    row.className = 'ing-row';
+    row.innerHTML =
+      '<input type="text" class="ingredient-field ingredient-name" placeholder="e.g. potatoes"' +
+        ' autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"' +
+        ' value="' + escHtml(name || '') + '">' +
+      '<input type="text" class="ingredient-field ingredient-qty" placeholder="e.g. 4 large"' +
+        ' autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"' +
+        ' value="' + escHtml(qty || '') + '">' +
+      '<button type="button" class="ingredient-remove-btn" aria-label="Remove ingredient">×</button>';
+
+    var nameIn = row.querySelector('.ingredient-name');
+    var qtyIn  = row.querySelector('.ingredient-qty');
+    var remBtn = row.querySelector('.ingredient-remove-btn');
+
+    remBtn.addEventListener('click', function () {
+      row.remove();
+      if (rowsContainer.querySelectorAll('.ing-row').length === 0) addRow('', '', true);
+    });
+
+    nameIn.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') { e.preventDefault(); qtyIn.focus(); }
+    });
+
+    qtyIn.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || (e.key === 'Tab' && !e.shiftKey)) {
+        e.preventDefault();
+        var rows = rowsContainer.querySelectorAll('.ing-row');
+        var isLast = row === rows[rows.length - 1];
+        if (isLast && nameIn.value.trim()) {
+          // Add a new empty row and focus its name
+          addRow('', '', true);
+        } else {
+          // Focus next row's name input
+          var nextRow = row.nextElementSibling;
+          if (nextRow) nextRow.querySelector('.ingredient-name').focus();
+        }
+      }
+    });
+
+    // When typing in the last row's name, ensure a new empty row exists below
+    nameIn.addEventListener('input', function () {
+      var rows = rowsContainer.querySelectorAll('.ing-row');
+      if (row === rows[rows.length - 1] && nameIn.value.trim()) {
+        addRow('', '', false);
+      }
+    });
+
+    rowsContainer.appendChild(row);
+    if (focusName) nameIn.focus();
+    return row;
+  }
+
+  // Start with one empty row
+  addRow('', '', true);
 
   /* ── Load site index ── */
   function loadIndex() {
@@ -194,7 +188,7 @@
       '</div>';
   }
 
-  function buildRecipeCard(result) {
+  function buildRecipeCard(result, totalIngredients) {
     var recipe = result.recipe;
     var matchCount = result.score;
     var baseUrl = '/';
@@ -215,9 +209,9 @@
       imgHtml = '<div class="wc-recipe-card-img-placeholder">🍽️</div>';
     }
 
-    var badge = matchCount === ingredients.length
+    var badge = matchCount === totalIngredients
       ? '<span class="wc-match-badge">✅ Perfect match</span>'
-      : '<span class="wc-match-badge">' + matchCount + ' of ' + ingredients.length + ' ingredients</span>';
+      : '<span class="wc-match-badge">' + matchCount + ' of ' + totalIngredients + ' ingredients</span>';
 
     var url = recipe.permalink.match(/^https?:\/\//)
       ? recipe.permalink
@@ -235,16 +229,17 @@
 
   /* ── Find matching recipes ── */
   findBtn.addEventListener('click', function () {
+    var ingredients = getIngredients();
     if (!ingredients.length) {
-      nameInput.focus();
-      nameInput.classList.add('input-error');
-      setTimeout(function () { nameInput.classList.remove('input-error'); }, 1500);
+      var firstName = rowsContainer.querySelector('.ingredient-name');
+      if (firstName) { firstName.focus(); firstName.classList.add('input-error'); setTimeout(function(){firstName.classList.remove('input-error');},1500); }
       return;
     }
 
     showLoading('Searching ' + (siteData ? siteData.length : 'our') + ' recipes…');
 
     loadIndex().then(function () {
+      var ingredients = getIngredients();
       var matches = findMatches(ingredients);
       var nameList = ingredients.map(function (i) { return i.name; }).join(', ');
 
@@ -266,7 +261,7 @@
             '<span class="wc-results-count">Found ' + matches.length + ' recipe' + (matches.length !== 1 ? 's' : '') + ' using: <em>' + escHtml(nameList) + '</em></span>' +
           '</div>' +
           '<div class="wc-recipe-grid">' +
-            matches.map(function (m) { return buildRecipeCard(m); }).join('') +
+            matches.map(function (m) { return buildRecipeCard(m, ingredients.length); }).join('') +
           '</div>' +
           '<p style="text-align:center;color:var(--color-text-light);font-size:0.85rem;margin-top:1rem;">' +
             'Not quite right? <button class="btn btn-outline" id="wc-gen-from-results" style="padding:6px 14px;font-size:0.8rem;">✨ Generate a custom recipe instead</button>' +
@@ -285,10 +280,10 @@
 
   /* ── Generate a new recipe via Gemini ── */
   function generateRecipe() {
+    var ingredients = getIngredients();
     if (!ingredients.length) {
-      nameInput.focus();
-      nameInput.classList.add('input-error');
-      setTimeout(function () { nameInput.classList.remove('input-error'); }, 1500);
+      var firstName = rowsContainer.querySelector('.ingredient-name');
+      if (firstName) { firstName.focus(); firstName.classList.add('input-error'); setTimeout(function(){firstName.classList.remove('input-error');},1500); }
       return;
     }
 
@@ -299,6 +294,7 @@
 
     window.BellAI.requireApiKey(function () {
       showLoading('Chef Bella is cooking up something just for you…');
+      resultsArea.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
       // Build a human-friendly ingredient list with quantities where given
       var ingLines = ingredients.map(function (i) {
@@ -332,7 +328,10 @@
 
       window.BellAI.callGemini(messages, systemPrompt)
         .then(function (recipeText) {
+          var title = extractTitle(recipeText);
           renderGeneratedRecipe(recipeText);
+          // Kick off image generation after recipe renders
+          generateRecipeImage(title, ingLines);
         })
         .catch(function (err) {
           var msg = err.message || 'Something went wrong.';
@@ -362,6 +361,45 @@
     return match ? match[1].trim() : '';
   }
 
+  /* ── Generate image for the recipe ── */
+  function generateRecipeImage(title, ingLines) {
+    var apiKey = window.BellAI ? window.BellAI.getApiKey() : null;
+    if (!apiKey) return;
+
+    var imgPlaceholder = document.getElementById('gr-img-placeholder');
+    if (!imgPlaceholder) return;
+
+    var endpoint = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-image-preview:generateContent?key=' + encodeURIComponent(apiKey);
+    var prompt = 'A beautiful, appetizing food photography shot of "' + title + '". ' +
+      'Professional overhead or 45-degree angle, natural lighting, styled on a rustic wooden table. ' +
+      'No text, no people, just the finished dish looking delicious.';
+
+    fetch(endpoint, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        contents: [{ parts: [{ text: prompt }] }],
+        generationConfig: { responseModalities: ['IMAGE'] }
+      })
+    })
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      var parts = data.candidates && data.candidates[0] && data.candidates[0].content && data.candidates[0].content.parts;
+      if (!parts) return;
+      var imgPart = parts.find(function (p) { return p.inlineData && p.inlineData.mimeType && p.inlineData.mimeType.startsWith('image/'); });
+      if (!imgPart) return;
+      var img = document.createElement('img');
+      img.src = 'data:' + imgPart.inlineData.mimeType + ';base64,' + imgPart.inlineData.data;
+      img.alt = title;
+      img.className = 'gr-recipe-img';
+      imgPlaceholder.replaceWith(img);
+    })
+    .catch(function () {
+      // Silently fail — the recipe is still fully usable without an image
+      if (imgPlaceholder && imgPlaceholder.parentNode) imgPlaceholder.remove();
+    });
+  }
+
   function renderGeneratedRecipe(recipeText) {
     var title = extractTitle(recipeText);
     var desc  = extractDescription(recipeText);
@@ -378,7 +416,15 @@
         '</div>' +
         '<button class="btn btn-primary gr-save-btn" id="gr-save-btn">❤️ Save to My Recipe Book</button>' +
       '</div>' +
-      '<div class="generated-recipe-content">' + renderedHtml + '</div>';
+      '<div class="gr-body">' +
+        '<div class="gr-img-wrap">' +
+          '<div class="gr-img-placeholder" id="gr-img-placeholder">' +
+            '<div class="gr-img-spinner"></div>' +
+            '<span>Generating image…</span>' +
+          '</div>' +
+        '</div>' +
+        '<div class="generated-recipe-content">' + renderedHtml + '</div>' +
+      '</div>';
 
     resultsArea.innerHTML = '';
     if (existingResults) resultsArea.appendChild(existingResults);
@@ -391,12 +437,16 @@
       if (saved) return;
       if (!window.BellAI) return;
       var id = 'gen_' + Date.now();
+      // Grab the generated image data URL if it's ready
+      var imgEl = card.querySelector('.gr-recipe-img');
+      var imageDataUrl = imgEl ? imgEl.src : null;
       window.BellAI.saveGeneratedRecipe({
         id: id,
         title: title,
         description: desc,
-        ingredients: ingredients.map(function (i) { return i.qty ? i.qty + ' ' + i.name : i.name; }),
+        ingredients: getIngredients().map(function (i) { return i.qty ? i.qty + ' ' + i.name : i.name; }),
         text: recipeText,
+        image: imageDataUrl,
         savedAt: new Date().toISOString()
       });
       saved = true;

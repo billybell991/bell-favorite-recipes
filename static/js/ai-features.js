@@ -172,7 +172,16 @@
     var recipes = getGeneratedRecipes();
     recipes.unshift(recipe);
     if (recipes.length > 50) recipes = recipes.slice(0, 50);
-    localStorage.setItem(STORAGE_KEY_BOOK, JSON.stringify(recipes));
+    try {
+      localStorage.setItem(STORAGE_KEY_BOOK, JSON.stringify(recipes));
+    } catch (e) {
+      // Storage full — retry without image data
+      if (recipe.image) {
+        var withoutImg = Object.assign({}, recipe, { image: null });
+        recipes[0] = withoutImg;
+        try { localStorage.setItem(STORAGE_KEY_BOOK, JSON.stringify(recipes)); } catch (e2) { /* silent */ }
+      }
+    }
   }
   function removeGeneratedRecipe(id) {
     var recipes = getGeneratedRecipes().filter(function (r) { return r.id !== id; });
