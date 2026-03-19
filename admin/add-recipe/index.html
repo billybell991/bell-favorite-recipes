@@ -1,0 +1,1872 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Recipe | Bell Favorite Recipes</title>
+  <meta name="description" content="Favorite recipes from friends, family, and around the web">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/features.css">
+  <link rel="icon" type="image/png" href="/images/chef-bella-transparent.png">
+  
+<script>
+
+(function() {
+  var origWS = window.WebSocket;
+  window.WebSocket = function(url, protocols) {
+    if (url && url.indexOf('livereload') !== -1) {
+      return { close:function(){}, send:function(){}, addEventListener:function(){}, removeEventListener:function(){}, onmessage:null, onopen:null, onerror:null, onclose:null, readyState:3 };
+    }
+    return protocols ? new origWS(url, protocols) : new origWS(url);
+  };
+  window.WebSocket.CONNECTING = origWS.CONNECTING;
+  window.WebSocket.OPEN = origWS.OPEN;
+  window.WebSocket.CLOSING = origWS.CLOSING;
+  window.WebSocket.CLOSED = origWS.CLOSED;
+})();
+</script>
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="https://bell-favorite-recipes.onrender.com/" class="site-logo">
+          <img src="/images/chef-bella-transparent.png" alt="Chef Bella" class="logo-img" width="34" height="34">
+          <span class="logo-text">Bell Favorite Recipes</span>
+        </a>
+        <button class="mobile-menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-nav">
+          
+            
+            <div class="nav-dropdown">
+              <a href="/categories/" class="nav-dropdown-toggle ">Categories
+                <svg class="dropdown-arrow" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </a>
+              <div class="nav-dropdown-menu">
+                
+                
+                
+                <a href="/categories/air-fryer-recipes/" class="nav-dropdown-link">Air Fryer Recipes</a>
+                
+                
+                
+                
+                <a href="/categories/family-recipes/" class="nav-dropdown-link">Family Recipes</a>
+                
+                
+                
+                
+                <a href="/categories/friends-recipes/" class="nav-dropdown-link">Friends Recipes</a>
+                
+                
+                
+                
+                <a href="/categories/instant-pot-recipes/" class="nav-dropdown-link">Instant Pot Recipes</a>
+                
+                
+                
+                
+                <a href="/categories/keto--low-carb/" class="nav-dropdown-link">Keto &amp; Low Carb</a>
+                
+                
+                
+                
+                <a href="/categories/maddys-recipes/" class="nav-dropdown-link">Maddy&#39;s Recipes</a>
+                
+                
+                
+                
+                <a href="/categories/mayas-recipes/" class="nav-dropdown-link">Maya&#39;s Recipes</a>
+                
+                
+                
+                
+                <a href="/categories/misc-recipes---cookbooks/" class="nav-dropdown-link">Misc Recipes - Cookbooks</a>
+                
+                
+                
+                
+                <a href="/categories/misc-recipes---internet/" class="nav-dropdown-link">Misc Recipes - Internet</a>
+                
+                
+                
+                
+                <div class="nav-submenu-item">
+                  <a href="/categories/moms-cookbook/" class="nav-submenu-link">Mom&#39;s Cookbook
+                    <svg class="submenu-arrow" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+                  </a>
+                  <div class="nav-submenu">
+                    
+                    <a href="/subcategories/appetizers/">Appetizers</a>
+                    
+                    <a href="/subcategories/breads/">Breads</a>
+                    
+                    <a href="/subcategories/cake-frosting/">Cake Frosting</a>
+                    
+                    <a href="/subcategories/cakes-and-muffins/">Cakes and Muffins</a>
+                    
+                    <a href="/subcategories/casseroles/">Casseroles</a>
+                    
+                    <a href="/subcategories/chicken/">Chicken</a>
+                    
+                    <a href="/subcategories/cookies/">Cookies</a>
+                    
+                    <a href="/subcategories/desserts/">Desserts</a>
+                    
+                    <a href="/subcategories/diabetic-recipes/">Diabetic Recipes</a>
+                    
+                    <a href="/subcategories/fish/">Fish</a>
+                    
+                    <a href="/subcategories/fun-things/">Fun Things</a>
+                    
+                    <a href="/subcategories/meat/">Meat</a>
+                    
+                    <a href="/subcategories/miscellaneous/">Miscellaneous</a>
+                    
+                    <a href="/subcategories/native-cuisine/">Native Cuisine</a>
+                    
+                    <a href="/subcategories/pickles/">Pickles</a>
+                    
+                    <a href="/subcategories/pies/">Pies</a>
+                    
+                    <a href="/subcategories/puddings/">Puddings</a>
+                    
+                    <a href="/subcategories/salads-and-dressings/">Salads and Dressings</a>
+                    
+                    <a href="/subcategories/sauces/">Sauces</a>
+                    
+                    <a href="/subcategories/snacks/">Snacks</a>
+                    
+                    <a href="/subcategories/soups/">Soups</a>
+                    
+                    <a href="/subcategories/squares/">Squares</a>
+                    
+                    <a href="/subcategories/vegetables/">Vegetables</a>
+                    
+                  </div>
+                </div>
+                
+                
+                
+                
+                <a href="/categories/wedding-cookbook/" class="nav-dropdown-link">Wedding Cookbook</a>
+                
+                
+                
+                
+                <a href="/categories/weight-watchers/" class="nav-dropdown-link">Weight Watchers</a>
+                
+                
+              </div>
+            </div>
+            
+          
+            
+            <a href="/whats-cooking/" class="">What&#39;s In My Fridge?</a>
+            
+          
+            
+            <a href="/my-recipe-book/" class="">My Recipe Book</a>
+            
+          
+            
+            <a href="/grocery-list/" class="">🛒 Grocery List</a>
+            
+          
+            
+            <a href="/submit/" class="">Submit a Recipe</a>
+            
+          
+            
+            <a href="/contact/" class="">Contact</a>
+            
+          
+          <div class="nav-search">
+            <button class="search-toggle" aria-label="Search recipes">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            </button>
+            <div class="search-dropdown" id="search-dropdown">
+              <input type="text" id="search-input" placeholder="Search recipes..." aria-label="Search recipes" autocomplete="off">
+              <div id="search-results" class="search-results"></div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+<div class="submit-page">
+  <div class="container">
+
+    
+    <div id="auth-gate">
+      <h1>Admin: Add Recipe</h1>
+      <p class="submit-intro">Enter your GitHub Personal Access Token to continue.</p>
+      <form class="recipe-form" id="auth-form">
+        <div class="form-group">
+          <label for="gh-token">GitHub PAT</label>
+          <input type="password" id="gh-token" required placeholder="ghp_xxxxxxxxxxxx">
+        </div>
+        <div class="form-group" style="display:flex; gap:0.5rem; align-items:center;">
+          <input type="checkbox" id="remember-token" checked>
+          <label for="remember-token" style="margin:0; font-weight:normal;">Remember in this browser</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Authenticate</button>
+        <p id="auth-error" style="color:#c0392b; margin-top:1rem; display:none;"></p>
+      </form>
+    </div>
+
+    
+    <div id="admin-tabs" style="display:none; margin-bottom:1.5rem;">
+      <div style="display:flex; gap:0; border-bottom:3px solid #2c5530;">
+        <button type="button" class="admin-tab active" data-tab="add-recipe" style="padding:0.75rem 1.5rem; border:none; background:#2c5530; color:#fff; font-weight:600; font-size:1rem; cursor:pointer; border-radius:8px 8px 0 0;">Add Recipe</button>
+        <button type="button" class="admin-tab" data-tab="maintain-recipe" style="padding:0.75rem 1.5rem; border:none; background:#e8e8e8; color:#333; font-weight:600; font-size:1rem; cursor:pointer; border-radius:8px 8px 0 0;">Maintain Recipe</button>
+      </div>
+    </div>
+
+    
+    <div id="recipe-panel" class="admin-tab-panel" style="display:none;">
+      <h1>Admin: Add Recipe</h1>
+      <p class="submit-intro">Fill in the details below. The recipe will be committed directly to the site.</p>
+
+      <form class="recipe-form" id="admin-recipe-form">
+
+        <div class="form-group">
+          <label for="recipe-title">Recipe Title *</label>
+          <input type="text" id="recipe-title" required placeholder="e.g., Grandma's Famous Apple Pie">
+        </div>
+
+        <div class="form-group">
+          <label for="recipe-category">Category *</label>
+          <select id="recipe-category" required>
+            <option value="">Select a category...</option>
+            <option value="Air Fryer Recipes">Air Fryer Recipes</option>
+            <option value="Family Recipes">Family Recipes</option>
+            <option value="Friends Recipes">Friends' Recipes</option>
+            <option value="Instant Pot Recipes">Instant Pot Recipes</option>
+            <option value="Keto & Low Carb">Keto &amp; Low Carb</option>
+            <option value="Misc Recipes - Cookbooks">Misc. Recipes (Cookbooks)</option>
+            <option value="Misc Recipes - Internet">Misc. Recipes (Internet)</option>
+            <option value="Mom's Cookbook">Mom's Cookbook</option>
+            <option value="Wedding Cookbook">Wedding Cookbook</option>
+            <option value="Weight Watchers">Weight Watchers</option>
+          </select>
+        </div>
+
+        <div class="form-group" id="subcategory-group" style="display:none;">
+          <label for="recipe-subcategory">Subcategory</label>
+          <select id="recipe-subcategory">
+            <option value="">None</option>
+            <option value="Appetizers">Appetizers</option>
+            <option value="Breads">Breads</option>
+            <option value="Cake Frosting">Cake Frosting</option>
+            <option value="Cakes and Muffins">Cakes and Muffins</option>
+            <option value="Casseroles">Casseroles</option>
+            <option value="Chicken">Chicken</option>
+            <option value="Cookies">Cookies</option>
+            <option value="Desserts">Desserts</option>
+            <option value="Diabetic Recipes">Diabetic Recipes</option>
+            <option value="Fish">Fish</option>
+            <option value="Fun Things">Fun Things</option>
+            <option value="Meat">Meat</option>
+            <option value="Miscellaneous">Miscellaneous</option>
+            <option value="Native Cuisine">Native Cuisine</option>
+            <option value="Pickles">Pickles</option>
+            <option value="Pies">Pies</option>
+            <option value="Puddings">Puddings</option>
+            <option value="Salads and Dressings">Salads and Dressings</option>
+            <option value="Sauces">Sauces</option>
+            <option value="Snacks">Snacks</option>
+            <option value="Soups">Soups</option>
+            <option value="Squares">Squares</option>
+            <option value="Vegetables">Vegetables</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="prep-time">Prep Time</label>
+            <input type="text" id="prep-time" placeholder="e.g., 15 minutes">
+          </div>
+          <div class="form-group">
+            <label for="cook-time">Cook Time</label>
+            <input type="text" id="cook-time" placeholder="e.g., 30 minutes">
+          </div>
+          <div class="form-group">
+            <label for="servings">Servings</label>
+            <input type="text" id="servings" placeholder="e.g., 4-6">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="description">Description / Blurb</label>
+          <textarea id="description" rows="3" placeholder="A short description of this recipe..."></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="ingredients">Ingredients * (one per line)</label>
+          <textarea id="ingredients" required rows="10" placeholder="2 cups flour&#10;1/2 cup sugar&#10;3 eggs&#10;1 tsp vanilla"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="instructions">Instructions * (one step per line)</label>
+          <textarea id="instructions" required rows="10" placeholder="Preheat oven to 350F.&#10;Mix dry ingredients together.&#10;Add wet ingredients and stir."></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="notes">Notes / Tips</label>
+          <textarea id="notes" rows="3" placeholder="Any special tips or substitutions..."></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="source-credit">Source / Credit</label>
+          <input type="text" id="source-credit" placeholder="e.g., allrecipes.com or Mom's old cookbook">
+        </div>
+
+        <div class="form-group">
+          <label for="source-url">Source URL</label>
+          <input type="url" id="source-url" placeholder="https://...">
+        </div>
+
+        <div class="form-group">
+          <label for="image-url">Recipe Photo</label>
+          <input type="hidden" id="image-url" value="">
+          <div style="display:flex; gap:0.5rem; margin-bottom:0.5rem;">
+            <select id="photo-source" style="width:auto; min-width:100px;">
+              <option value="pexels">Pexels</option>
+              <option value="pixabay">Pixabay</option>
+            </select>
+            <input type="text" id="photo-search-input" placeholder="Search for a photo (e.g., apple pie, chicken soup)..." style="flex:1;">
+            <button type="button" id="photo-search-btn" class="btn btn-secondary">&#x1f50d; Search</button>
+          </div>
+          <small class="form-help">Search free stock photos. Click a photo to select it.</small>
+
+          
+          <div id="image-preview" class="image-preview" style="display:none;">
+            <img id="preview-img" src="" alt="Preview">
+            <button type="button" id="clear-preview" class="clear-preview" title="Remove photo">&#x2715;</button>
+          </div>
+
+          
+          <div id="photo-grid-wrapper" style="display:none; margin-top:0.75rem;">
+            <div id="photo-grid" style="display:grid; grid-template-columns:repeat(3,1fr); gap:0.5rem;"></div>
+            <div id="photo-loading" style="display:none; text-align:center; padding:1rem; color:#666;">Searching photos...</div>
+            <div id="photo-load-more" style="display:none; text-align:center; margin-top:0.75rem;">
+              <button type="button" id="load-more-btn" class="btn btn-secondary" style="font-size:0.85rem;">Load more photos</button>
+            </div>
+            <p id="photo-no-results" style="display:none; text-align:center; color:#999; padding:1rem;">No photos found. Try different search terms.</p>
+            <p style="text-align:right; font-size:0.75rem; color:#999; margin-top:0.25rem;">Photos provided by <a href="https://www.pexels.com" target="_blank" rel="noopener">Pexels</a></p>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="tags">Tags (comma-separated)</label>
+          <input type="text" id="tags" placeholder="e.g., comfort food, quick, holiday">
+        </div>
+
+        
+        <details style="margin-bottom:1.5rem;">
+          <summary style="cursor:pointer; font-weight:600; color:var(--accent-color, #2c5530);">Preview generated .md file</summary>
+          <pre id="md-preview" style="background:#f5f5f5; padding:1rem; border-radius:8px; overflow-x:auto; font-size:0.85rem; margin-top:0.5rem; white-space:pre-wrap;"></pre>
+        </details>
+
+        <button type="submit" class="btn btn-primary" id="submit-btn">Add Recipe to Site</button>
+        <p id="submit-status" style="margin-top:1rem;"></p>
+      </form>
+    </div>
+
+    
+    <div id="form-success" class="form-success" style="display:none;">
+      <div class="success-icon">&#x2705;</div>
+      <h2>Recipe Added!</h2>
+      <p>The recipe has been committed to the repository. GitHub Pages will rebuild shortly (1-2 minutes).</p>
+      <p id="recipe-link-info"></p>
+      <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+        <button class="btn btn-primary" id="add-another-btn">Add Another Recipe</button>
+        <a href="/" class="btn btn-secondary">Back to Home</a>
+      </div>
+    </div>
+
+    
+    <div id="maintain-recipe-panel" class="admin-tab-panel" style="display:none;">
+      <div id="maintain-list-section">
+        <h1>Maintain Recipe</h1>
+        <p class="submit-intro">Edit, update images, or delete recipes from one list.</p>
+        <div style="background:#fff3cd; border:1px solid #ffc107; border-radius:8px; padding:1rem; margin-bottom:1.5rem; color:#856404;">
+          ΓÜá∩╕Å <strong>Warning:</strong> Deleting a recipe permanently removes it from the site. This cannot be undone.
+        </div>
+        <div style="margin-bottom:1rem; display:flex; gap:0.5rem; align-items:center; flex-wrap:wrap;">
+          <input type="text" id="maintain-filter" placeholder="Filter recipes..." style="flex:1; min-width:200px;">
+          <select id="maintain-cat-filter" style="min-width:180px;">
+            <option value="">All Categories</option>
+          </select>
+          <span id="maintain-count" style="font-size:0.85rem; color:#666;"></span>
+        </div>
+        <div id="maintain-recipe-list"></div>
+      </div>
+
+      
+      <div id="edit-form-section" style="display:none;">
+        <div style="display:flex; align-items:center; gap:1rem; margin-bottom:1.5rem; flex-wrap:wrap;">
+          <button type="button" id="edit-back-btn" class="btn btn-secondary">&larr; Back to List</button>
+          <h2 id="edit-recipe-heading" style="margin:0; font-size:1.3rem; color:#2c5530;"></h2>
+        </div>
+
+        <form class="recipe-form" id="edit-recipe-form">
+
+          <div class="form-group">
+            <label for="edit-title">Recipe Title *</label>
+            <input type="text" id="edit-title" required>
+          </div>
+
+          <div class="form-group">
+            <label for="edit-category">Category *</label>
+            <select id="edit-category" required>
+              <option value="">Select a category...</option>
+              <option value="Air Fryer Recipes">Air Fryer Recipes</option>
+              <option value="Family Recipes">Family Recipes</option>
+              <option value="Friends Recipes">Friends' Recipes</option>
+              <option value="Instant Pot Recipes">Instant Pot Recipes</option>
+              <option value="Keto & Low Carb">Keto &amp; Low Carb</option>
+              <option value="Misc Recipes - Cookbooks">Misc. Recipes (Cookbooks)</option>
+              <option value="Misc Recipes - Internet">Misc. Recipes (Internet)</option>
+              <option value="Mom's Cookbook">Mom's Cookbook</option>
+              <option value="Wedding Cookbook">Wedding Cookbook</option>
+              <option value="Weight Watchers">Weight Watchers</option>
+            </select>
+          </div>
+
+          <div class="form-group" id="edit-subcategory-group" style="display:none;">
+            <label for="edit-subcategory">Subcategory</label>
+            <select id="edit-subcategory">
+              <option value="">None</option>
+              <option value="Appetizers">Appetizers</option>
+              <option value="Breads">Breads</option>
+              <option value="Cake Frosting">Cake Frosting</option>
+              <option value="Cakes and Muffins">Cakes and Muffins</option>
+              <option value="Casseroles">Casseroles</option>
+              <option value="Chicken">Chicken</option>
+              <option value="Cookies">Cookies</option>
+              <option value="Desserts">Desserts</option>
+              <option value="Diabetic Recipes">Diabetic Recipes</option>
+              <option value="Fish">Fish</option>
+              <option value="Fun Things">Fun Things</option>
+              <option value="Meat">Meat</option>
+              <option value="Miscellaneous">Miscellaneous</option>
+              <option value="Native Cuisine">Native Cuisine</option>
+              <option value="Pickles">Pickles</option>
+              <option value="Pies">Pies</option>
+              <option value="Puddings">Puddings</option>
+              <option value="Salads and Dressings">Salads and Dressings</option>
+              <option value="Sauces">Sauces</option>
+              <option value="Snacks">Snacks</option>
+              <option value="Soups">Soups</option>
+              <option value="Squares">Squares</option>
+              <option value="Vegetables">Vegetables</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="edit-prep-time">Prep Time</label>
+              <input type="text" id="edit-prep-time" placeholder="e.g., 15 minutes">
+            </div>
+            <div class="form-group">
+              <label for="edit-cook-time">Cook Time</label>
+              <input type="text" id="edit-cook-time" placeholder="e.g., 30 minutes">
+            </div>
+            <div class="form-group">
+              <label for="edit-servings">Servings</label>
+              <input type="text" id="edit-servings" placeholder="e.g., 4-6">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="edit-description">Description / Blurb</label>
+            <textarea id="edit-description" rows="3"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="edit-ingredients">Ingredients (one per line)</label>
+            <textarea id="edit-ingredients" rows="10"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="edit-instructions">Instructions (one step per line)</label>
+            <textarea id="edit-instructions" rows="10"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="edit-notes">Notes / Tips</label>
+            <textarea id="edit-notes" rows="3"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="edit-source-credit">Source / Credit</label>
+            <input type="text" id="edit-source-credit">
+          </div>
+
+          <div class="form-group">
+            <label for="edit-source-url">Source URL</label>
+            <input type="url" id="edit-source-url" placeholder="https://...">
+          </div>
+
+          <div class="form-group">
+            <label for="edit-image-url">Image URL</label>
+            <input type="text" id="edit-image-url" placeholder="images/recipes/slug.png">
+            <small class="form-help">Leave as-is to keep the current image.</small>
+          </div>
+
+          <div class="form-group">
+            <label for="edit-tags">Tags (comma-separated)</label>
+            <input type="text" id="edit-tags">
+          </div>
+
+          <button type="submit" class="btn btn-primary" id="edit-submit-btn">Save Changes</button>
+          <p id="edit-submit-status" style="margin-top:1rem;"></p>
+
+        </form>
+      </div>
+    </div>
+
+    
+    <div id="delete-confirm-overlay" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.55); z-index:10000; align-items:center; justify-content:center;">
+      <div style="background:#fff; border-radius:12px; padding:2rem; max-width:480px; width:90%; box-shadow:0 8px 32px rgba(0,0,0,0.3);">
+        <h2 style="margin:0 0 1rem; color:#c0392b;">Confirm Delete</h2>
+        <p id="delete-confirm-text" style="margin:0 0 1.5rem; font-size:1rem;"></p>
+        <div style="display:flex; gap:0.75rem; justify-content:flex-end;">
+          <button type="button" id="delete-cancel-btn" class="btn btn-secondary">Cancel</button>
+          <button type="button" id="delete-confirm-btn" style="background:#c0392b; color:#fff; border:none; padding:0.6rem 1.25rem; border-radius:6px; font-weight:600; font-size:1rem; cursor:pointer;">≡ƒùæ Delete</button>
+        </div>
+        <p id="delete-status" style="margin-top:0.75rem; font-size:0.9rem;"></p>
+      </div>
+    </div>
+
+    
+    <div id="pexels-modal" class="pexels-modal-overlay" style="display:none;">
+      <div class="pexels-modal">
+        <div class="pexels-modal-header">
+          <h2 id="modal-recipe-title" style="margin:0; font-size:1.2rem;"></h2>
+          <button type="button" id="modal-close" class="pexels-modal-close">&times;</button>
+        </div>
+        <div id="modal-current" style="margin-bottom:1rem;">
+          <span style="font-size:0.85rem; color:#666;">Current image:</span>
+          <img id="modal-current-img" src="" alt="Current" style="display:block; max-width:300px; max-height:180px; border-radius:8px; object-fit:cover; margin-top:0.25rem;">
+        </div>
+        <div style="display:flex; gap:0.5rem; margin-bottom:0.75rem;">
+          <select id="modal-photo-source" style="width:auto; min-width:100px;">
+            <option value="pexels">Pexels</option>
+            <option value="pixabay">Pixabay</option>
+          </select>
+          <input type="text" id="modal-search-input" placeholder="Search for a new photo..." style="flex:1;">
+          <button type="button" id="modal-search-btn" class="btn btn-secondary">&#x1f50d; Search</button>
+        </div>
+        <div style="display:flex; gap:0.5rem; margin-bottom:0.75rem; align-items:center;">
+          <input type="text" id="modal-custom-url" placeholder="Or paste an image URL here..." style="flex:1;">
+          <button type="button" id="modal-custom-url-btn" class="btn btn-secondary" style="white-space:nowrap;">&#x1f517; Use URL</button>
+        </div>
+        <div id="modal-photo-grid" class="modal-photo-grid"></div>
+        <div id="modal-loading" style="display:none; text-align:center; padding:1rem; color:#666;">Searching photos...</div>
+        <div id="modal-load-more" style="display:none; text-align:center; margin-top:0.5rem;">
+          <button type="button" id="modal-load-more-btn" class="btn btn-secondary" style="font-size:0.85rem;">Load more</button>
+        </div>
+        <p id="modal-no-results" style="display:none; text-align:center; color:#999; padding:1rem;">No photos found. Try different search terms.</p>
+        <div id="modal-confirm" style="display:none; margin-top:1rem; padding:1rem; background:#f0f7f0; border-radius:8px;">
+          <p style="margin:0 0 0.5rem;"><strong>Selected new image:</strong></p>
+          <img id="modal-new-img" src="" alt="New" style="max-width:300px; max-height:180px; border-radius:8px; object-fit:cover;">
+          <div style="margin-top:0.75rem; display:flex; gap:0.5rem;">
+            <button type="button" id="modal-save-btn" class="btn btn-primary">&#x2705; Save to Recipe</button>
+            <button type="button" id="modal-pick-again" class="btn btn-secondary">Pick Different</button>
+          </div>
+          <p id="modal-save-status" style="margin-top:0.5rem;"></p>
+        </div>
+        <p id="modal-photo-attribution" style="text-align:right; font-size:0.75rem; color:#999; margin-top:0.25rem;">Photos by <a href="https://www.pexels.com" target="_blank" rel="noopener">Pexels</a> / <a href="https://pixabay.com" target="_blank" rel="noopener">Pixabay</a> / <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a></p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Bell Favorite Recipes &mdash; A Bell Family Collection</p>
+      <p class="footer-note">Made with <a href="/admin/add-recipe/" style="text-decoration:none;color:inherit">❤️</a> and a lot of taste-testing</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+  <script src="/js/search.js"></script>
+  <script src="/js/main.js"></script>
+  <script src="/js/ai-features.js"></script>
+  <script src="/js/chatbot.js"></script>
+  
+<script>
+</script>
+<script>
+(function() {
+  var REPO_OWNER = 'billybell991';
+  var REPO_NAME = 'bell-favorite-recipes';
+  var BRANCH = 'main';
+  var FILE_PATH_PREFIX = 'content/recipes/';
+
+  var token = localStorage.getItem('gh_admin_token') || '';
+
+  
+  if (token) {
+    verifyToken(token);
+  }
+
+  document.getElementById('auth-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    var t = document.getElementById('gh-token').value.trim();
+    if (!t) return;
+    verifyToken(t);
+  });
+
+  function verifyToken(t) {
+    var errEl = document.getElementById('auth-error');
+    errEl.style.display = 'none';
+    fetch('https://api.github.com/repos/' + REPO_OWNER + '/' + REPO_NAME, {
+      headers: { 'Authorization': 'Bearer ' + t }
+    }).then(function(r) {
+      if (!r.ok) throw new Error('Invalid token or no access');
+      return r.json();
+    }).then(function(data) {
+      token = t;
+      if (document.getElementById('remember-token').checked) {
+        localStorage.setItem('gh_admin_token', t);
+      }
+      document.getElementById('auth-gate').style.display = 'none';
+      document.getElementById('admin-tabs').style.display = 'block';
+      document.getElementById('recipe-panel').style.display = 'block';
+      loadRecipeList();
+    }).catch(function(err) {
+      errEl.textContent = err.message;
+      errEl.style.display = 'block';
+      localStorage.removeItem('gh_admin_token');
+    });
+  }
+
+  
+  document.getElementById('recipe-category').addEventListener('change', function() {
+    var show = this.value.indexOf('Mom') === 0;
+    document.getElementById('subcategory-group').style.display = show ? 'block' : 'none';
+    if (!show) document.getElementById('recipe-subcategory').value = '';
+  });
+
+  
+  var PEXELS_API_KEY = 'IWb1IE0Z8Fl5VzMKFE1c4RxMoQbgSVNEeK3cSgowbDCjnugx0SWnyCt3';
+  var PIXABAY_API_KEY = localStorage.getItem('pixabay_api_key') || '54917222-bd4433830443c0d361863c37a';
+  var UNSPLASH_ACCESS_KEY = '58pva68jCF4yfSIJbhhiUwcJ-hptm6ptdpR_XJ88EmI';
+  var currentPhotoPage = 1;
+  var currentPhotoQuery = '';
+
+  
+  var CACHE_KEY = 'photo_search_cache';
+  var CACHE_MAX_AGE = 24 * 60 * 60 * 1000; 
+  function getCachedSearch(key) {
+    try {
+      var cache = JSON.parse(localStorage.getItem(CACHE_KEY) || '{}');
+      var entry = cache[key];
+      if (entry && (Date.now() - entry.ts) < CACHE_MAX_AGE) return entry.data;
+      if (entry) { delete cache[key]; localStorage.setItem(CACHE_KEY, JSON.stringify(cache)); }
+    } catch(e) {}
+    return null;
+  }
+  function setCachedSearch(key, data) {
+    try {
+      var cache = JSON.parse(localStorage.getItem(CACHE_KEY) || '{}');
+      
+      var keys = Object.keys(cache);
+      if (keys.length > 100) {
+        keys.sort(function(a,b) { return cache[a].ts - cache[b].ts; });
+        for (var i = 0; i < keys.length - 80; i++) delete cache[keys[i]];
+      }
+      cache[key] = { data: data, ts: Date.now() };
+      localStorage.setItem(CACHE_KEY, JSON.stringify(cache));
+    } catch(e) {}
+  }
+
+  
+  function searchPixabay(query, page) {
+    if (!PIXABAY_API_KEY) {
+      var key = prompt('Pexels rate limit hit. Enter a free Pixabay API key to use as fallback.\\n\\nGet one free at: https://pixabay.com/api/docs/');
+      if (key) { PIXABAY_API_KEY = key.trim(); localStorage.setItem('pixabay_api_key', PIXABAY_API_KEY); }
+      else { return Promise.reject(new Error('Pexels rate limit reached. Try again in a few minutes, or add a Pixabay API key.')); }
+    }
+    return fetch('https://pixabay.com/api/?key=' + encodeURIComponent(PIXABAY_API_KEY) + '&q=' + encodeURIComponent(query) + '&image_type=photo&orientation=horizontal&per_page=9&page=' + page)
+      .then(function(r) { if (!r.ok) throw new Error('Pixabay error'); return r.json(); })
+      .then(function(data) {
+        return {
+          photos: (data.hits || []).map(function(h) {
+            return { src: { medium: h.webformatURL, large2x: h.largeImageURL, large: h.largeImageURL }, photographer: h.user, alt: h.tags, source: 'pixabay' };
+          }),
+          hasMore: (page * 9) < data.totalHits
+        };
+      });
+  }
+  function searchUnsplash(query, page) {
+    return fetch('https://api.unsplash.com/search/photos?query=' + encodeURIComponent(query) + '&orientation=landscape&per_page=9&page=' + page, {
+      headers: { 'Authorization': 'Client-ID ' + UNSPLASH_ACCESS_KEY }
+    }).then(function(r) {
+      if (r.status === 429) throw { rateLimited: true };
+      if (!r.ok) throw new Error('Unsplash error');
+      return r.json();
+    }).then(function(data) {
+      return {
+        photos: (data.results || []).map(function(p) {
+          return { src: { medium: p.urls.small, large2x: p.urls.regular, large: p.urls.regular }, photographer: p.user.name, alt: p.alt_description || 'Photo', source: 'unsplash' };
+        }),
+        hasMore: page < data.total_pages
+      };
+    });
+  }
+  function searchPexelsAPI(query, page) {
+    return fetch('https://api.pexels.com/v1/search?query=' + encodeURIComponent(query) + '&orientation=landscape&per_page=9&page=' + page, {
+      headers: { 'Authorization': PEXELS_API_KEY }
+    }).then(function(r) {
+      if (r.status === 429) throw { rateLimited: true };
+      if (!r.ok) throw new Error('Pexels error');
+      return r.json();
+    }).then(function(data) {
+      return {
+        photos: (data.photos || []).map(function(p) {
+          return { src: p.src, photographer: p.photographer, alt: p.alt || 'Photo', source: 'pexels' };
+        }),
+        hasMore: data.photos && data.photos.length === 9
+      };
+    });
+  }
+  function searchPhotosUnified(query, page, source) {
+    source = source || 'pexels';
+    var cacheKey = source + '|' + query + '|' + page;
+    var cached = getCachedSearch(cacheKey);
+    if (cached) return Promise.resolve(cached);
+    var searchFn = source === 'pixabay' ? searchPixabay : searchPexelsAPI;
+    return searchFn(query, page).then(function(result) {
+      result.fromCache = false;
+      result.activeSource = source;
+      setCachedSearch(cacheKey, result);
+      return result;
+    }).catch(function(err) {
+      if (err && err.rateLimited) {
+        
+        var dd = document.getElementById('photo-source');
+        var mdd = document.getElementById('modal-photo-source');
+        if (dd) dd.value = 'pixabay';
+        if (mdd) mdd.value = 'pixabay';
+        return searchPixabay(query, page).then(function(result) {
+          result.fromCache = false;
+          result.activeSource = 'pixabay';
+          var fallbackKey = 'pixabay|' + query + '|' + page;
+          setCachedSearch(fallbackKey, result);
+          return result;
+        });
+      }
+      throw err;
+    });
+  }
+
+  function searchPhotos(query, page) {
+    var grid = document.getElementById('photo-grid');
+    var wrapper = document.getElementById('photo-grid-wrapper');
+    var loading = document.getElementById('photo-loading');
+    var noResults = document.getElementById('photo-no-results');
+    var loadMore = document.getElementById('photo-load-more');
+
+    wrapper.style.display = 'block';
+    loading.style.display = 'block';
+    noResults.style.display = 'none';
+    loadMore.style.display = 'none';
+    if (page === 1) grid.innerHTML = '';
+
+    var source = document.getElementById('photo-source').value;
+    searchPhotosUnified(query, page, source).then(function(result) {
+      loading.style.display = 'none';
+      if (!result.photos || result.photos.length === 0) {
+        if (page === 1) noResults.style.display = 'block';
+        return;
+      }
+      result.photos.forEach(function(photo) {
+        var card = document.createElement('div');
+        card.style.cssText = 'cursor:pointer; border-radius:8px; overflow:hidden; border:3px solid transparent; transition:border-color 0.2s; position:relative;';
+        card.innerHTML = '<img src="' + photo.src.medium + '" alt="' + (photo.alt || 'Photo').replace(/"/g, '&quot;') + '" style="width:100%; height:140px; object-fit:cover; display:block;">' +
+          '<div style="font-size:0.7rem; color:#666; padding:2px 4px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">by ' + photo.photographer + '</div>';
+        card.addEventListener('mouseenter', function() { card.style.borderColor = '#2c5530'; });
+        card.addEventListener('mouseleave', function() { card.style.borderColor = 'transparent'; });
+        card.addEventListener('click', function() {
+          selectPhoto(photo.src.large2x || photo.src.large);
+        });
+        grid.appendChild(card);
+      });
+      if (result.hasMore) {
+        loadMore.style.display = 'block';
+      }
+    }).catch(function(err) {
+      loading.style.display = 'none';
+      noResults.style.display = 'block';
+      noResults.textContent = 'Error searching photos: ' + err.message;
+    });
+  }
+
+  function selectPhoto(url) {
+    document.getElementById('image-url').value = url;
+    document.getElementById('preview-img').src = url;
+    document.getElementById('image-preview').style.display = 'block';
+    document.getElementById('photo-grid-wrapper').style.display = 'none';
+    updatePreview();
+  }
+
+  document.getElementById('photo-search-btn').addEventListener('click', function() {
+    var q = document.getElementById('photo-search-input').value.trim();
+    if (!q) {
+      var title = document.getElementById('recipe-title').value.trim();
+      q = title ? title + ' food' : 'food';
+      document.getElementById('photo-search-input').value = q;
+    }
+    currentPhotoQuery = q;
+    currentPhotoPage = 1;
+    searchPhotos(q, 1);
+  });
+
+  document.getElementById('photo-search-input').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      document.getElementById('photo-search-btn').click();
+    }
+  });
+
+  document.getElementById('load-more-btn').addEventListener('click', function() {
+    currentPhotoPage++;
+    searchPhotos(currentPhotoQuery, currentPhotoPage);
+  });
+
+  document.getElementById('clear-preview').addEventListener('click', function() {
+    document.getElementById('image-url').value = '';
+    document.getElementById('image-preview').style.display = 'none';
+    document.getElementById('preview-img').src = '';
+    updatePreview();
+  });
+
+  
+  function slugify(text) {
+    return text
+      .toLowerCase()
+      .replace(/['']/g, '')
+      .replace(/&/g, '-')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '')
+      .replace(/-{2,}/g, '-');
+  }
+
+  
+  function buildMarkdown() {
+    var title = document.getElementById('recipe-title').value.trim();
+    var category = document.getElementById('recipe-category').value;
+    var subcategory = document.getElementById('recipe-subcategory').value;
+    var prepTime = document.getElementById('prep-time').value.trim();
+    var cookTime = document.getElementById('cook-time').value.trim();
+    var servingsVal = document.getElementById('servings').value.trim();
+    var description = document.getElementById('description').value.trim();
+    var ingredients = document.getElementById('ingredients').value.trim();
+    var instructions = document.getElementById('instructions').value.trim();
+    var notes = document.getElementById('notes').value.trim();
+    var credit = document.getElementById('source-credit').value.trim();
+    var creditUrl = document.getElementById('source-url').value.trim();
+    var imageUrl = document.getElementById('image-url').value.trim();
+    var tags = document.getElementById('tags').value.trim();
+
+    var now = new Date().toISOString().replace(/\.\d{3}Z$/, '-05:00');
+
+    var fm = '---\n';
+    fm += 'title: "' + title.replace(/"/g, '\\"') + '"\n';
+    fm += 'date: ' + now + '\n';
+    fm += 'draft: false\n';
+    fm += 'categories: ["' + category + '"]\n';
+    if (subcategory) {
+      fm += 'subcategories: ["' + subcategory + '"]\n';
+    }
+    if (tags) {
+      var tagList = tags.split(',').map(function(t) { return '"' + t.trim() + '"'; }).join(', ');
+      fm += 'tags: [' + tagList + ']\n';
+    } else {
+      fm += 'tags: []\n';
+    }
+    fm += 'description: "' + description.replace(/"/g, '\\"') + '"\n';
+    fm += 'source: ""\n';
+    fm += 'creditUrl: "' + creditUrl + '"\n';
+    fm += 'credit: "' + credit.replace(/"/g, '\\"') + '"\n';
+    fm += 'prepTime: "' + prepTime + '"\n';
+    fm += 'cookTime: "' + cookTime + '"\n';
+    fm += 'servings: "' + servingsVal + '"\n';
+    fm += 'image: "' + imageUrl + '"\n';
+    fm += 'notes: "' + notes.replace(/"/g, '\\"').replace(/\n/g, ' ') + '"\n';
+    fm += '---\n\n';
+
+    
+    fm += '## Ingredients\n\n';
+    ingredients.split('\n').forEach(function(line) {
+      line = line.trim();
+      if (line) fm += '- ' + line + '\n';
+    });
+
+    
+    fm += '\n## Instructions\n\n';
+    var stepNum = 1;
+    instructions.split('\n').forEach(function(line) {
+      line = line.trim();
+      if (!line) return;
+      
+      line = line.replace(/^\d+[\.\)]\s*/, '');
+      fm += stepNum + '. ' + line + '\n';
+      stepNum++;
+    });
+
+    return fm;
+  }
+
+  
+  var formFields = document.querySelectorAll('#admin-recipe-form input, #admin-recipe-form textarea, #admin-recipe-form select');
+  formFields.forEach(function(field) {
+    field.addEventListener('input', updatePreview);
+    field.addEventListener('change', updatePreview);
+  });
+
+  function updatePreview() {
+    var pre = document.getElementById('md-preview');
+    try {
+      pre.textContent = buildMarkdown();
+    } catch(e) {
+      pre.textContent = '(fill in required fields to see preview)';
+    }
+  }
+
+  
+  document.getElementById('admin-recipe-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    var title = document.getElementById('recipe-title').value.trim();
+    if (!title) return;
+
+    var slug = slugify(title);
+    var filename = slug + '.md';
+    var filePath = FILE_PATH_PREFIX + filename;
+    var content = buildMarkdown();
+
+    var btn = document.getElementById('submit-btn');
+    var status = document.getElementById('submit-status');
+    btn.disabled = true;
+    btn.textContent = 'Committing...';
+    status.textContent = '';
+    status.style.color = '';
+
+    
+    var encoded = btoa(unescape(encodeURIComponent(content)));
+
+    fetch('https://api.github.com/repos/' + REPO_OWNER + '/' + REPO_NAME + '/contents/' + filePath, {
+      method: 'PUT',
+      headers: {
+        'Authorization': 'Bearer ' + token,
+        'Content-Type': 'application/json',
+        'Accept': 'application/vnd.github.v3+json'
+      },
+      body: JSON.stringify({
+        message: 'Add recipe: ' + title,
+        content: encoded,
+        branch: BRANCH
+      })
+    }).then(function(r) {
+      if (!r.ok) return r.json().then(function(d) {
+        var msg = d.message || 'API error';
+        if (msg.indexOf('Resource not accessible') !== -1) {
+          msg = 'Token lacks "Contents: Read and write" permission. Go to GitHub ΓåÆ Settings ΓåÆ Developer settings ΓåÆ Fine-grained tokens ΓåÆ edit your token ΓåÆ under Repository permissions, set Contents to "Read and write", then regenerate and re-authenticate here.';
+        }
+        throw new Error(msg);
+      });
+      return r.json();
+    }).then(function(data) {
+      document.getElementById('admin-recipe-form').style.display = 'none';
+      document.getElementById('recipe-panel').querySelector('h1').style.display = 'none';
+      document.getElementById('recipe-panel').querySelector('.submit-intro').style.display = 'none';
+      var successEl = document.getElementById('form-success');
+      successEl.style.display = 'block';
+      document.getElementById('recipe-link-info').innerHTML =
+        'Recipe file: <code>' + filename + '</code><br>' +
+        'It will be live at <strong>/bell-favorite-recipes/recipes/' + slug + '/</strong> after rebuild.';
+    }).catch(function(err) {
+      status.textContent = 'Error: ' + err.message;
+      status.style.color = '#c0392b';
+      btn.disabled = false;
+      btn.textContent = 'Add Recipe to Site';
+    });
+  });
+
+  
+  document.getElementById('add-another-btn').addEventListener('click', function() {
+    document.getElementById('form-success').style.display = 'none';
+    document.getElementById('admin-recipe-form').style.display = 'block';
+    document.getElementById('admin-recipe-form').reset();
+    document.getElementById('recipe-panel').querySelector('h1').style.display = '';
+    document.getElementById('recipe-panel').querySelector('.submit-intro').style.display = '';
+    document.getElementById('image-preview').style.display = 'none';
+    document.getElementById('photo-grid-wrapper').style.display = 'none';
+    document.getElementById('photo-grid').innerHTML = '';
+    document.getElementById('photo-search-input').value = '';
+    document.getElementById('submit-btn').disabled = false;
+    document.getElementById('submit-btn').textContent = 'Add Recipe to Site';
+    document.getElementById('submit-status').textContent = '';
+    document.getElementById('subcategory-group').style.display = 'none';
+    document.getElementById('md-preview').textContent = '';
+  });
+
+  
+  
+  
+  document.querySelectorAll('.admin-tab').forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      document.querySelectorAll('.admin-tab').forEach(function(t) {
+        t.style.background = '#e8e8e8';
+        t.style.color = '#333';
+        t.classList.remove('active');
+      });
+      this.style.background = '#2c5530';
+      this.style.color = '#fff';
+      this.classList.add('active');
+
+      document.querySelectorAll('.admin-tab-panel').forEach(function(p) { p.style.display = 'none'; });
+      var target = this.getAttribute('data-tab');
+      if (target === 'add-recipe') {
+        document.getElementById('recipe-panel').style.display = 'block';
+      } else if (target === 'maintain-recipe') {
+        document.getElementById('maintain-recipe-panel').style.display = 'block';
+        if (!maintainLoaded) loadMaintainList();
+      }
+    });
+  });
+
+  
+  
+  
+  var allRecipes = [];
+  var maintainLoaded = false;
+  var maintainAllRecipes = [];
+  var openInlineDelete = null;
+  var PLACEHOLDER_IMG = 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120"><rect fill="#f0f0f0" width="200" height="120"/><text x="100" y="65" text-anchor="middle" fill="#bbb" font-size="14">No Image</text></svg>');
+
+  function loadRecipeList() {
+    if (!maintainLoaded) loadMaintainList();
+  }
+
+  function loadMaintainList() {
+    var listEl = document.getElementById('maintain-recipe-list');
+    listEl.innerHTML = '<p style="text-align:center; color:#666; padding:2rem;">Loading recipes...</p>';
+
+    var baseUrl = 'https:\/\/bell-favorite-recipes.onrender.com\/'.replace(/\/$/, '');
+    fetch(baseUrl + '/index.json')
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        maintainAllRecipes = data.filter(function(r) {
+          return r.permalink && r.permalink.indexOf('/recipes/') !== -1 && r.title;
+        }).sort(function(a, b) {
+          return (a.title || '').localeCompare(b.title || '');
+        });
+
+        allRecipes = maintainAllRecipes;
+
+        var catSelect = document.getElementById('maintain-cat-filter');
+        if (catSelect.options.length <= 1) {
+          var cats = {};
+          maintainAllRecipes.forEach(function(r) {
+            if (r.categories) r.categories.forEach(function(c) { cats[c] = true; });
+          });
+          Object.keys(cats).sort().forEach(function(c) {
+            var opt = document.createElement('option');
+            opt.value = c;
+            opt.textContent = c;
+            catSelect.appendChild(opt);
+          });
+        }
+
+        maintainLoaded = true;
+        renderMaintainList();
+      })
+      .catch(function(err) {
+        listEl.innerHTML = '<p style="color:#c0392b; text-align:center;">Error loading recipes: ' + err.message + '</p>';
+      });
+  }
+
+  function renderMaintainList() {
+    var filter = document.getElementById('maintain-filter').value.toLowerCase();
+    var catFilter = document.getElementById('maintain-cat-filter').value;
+    var filtered = maintainAllRecipes.filter(function(r) {
+      if (filter && (r.title || '').toLowerCase().indexOf(filter) === -1) return false;
+      if (catFilter && (!r.categories || r.categories.indexOf(catFilter) === -1)) return false;
+      return true;
+    });
+
+    document.getElementById('maintain-count').textContent = filtered.length + ' of ' + maintainAllRecipes.length + ' recipes';
+    var listEl = document.getElementById('maintain-recipe-list');
+    listEl.innerHTML = '';
+    openInlineDelete = null;
+
+    if (filtered.length === 0) {
+      listEl.innerHTML = '<p style="text-align:center; color:#999; padding:2rem;">No recipes match your filter.</p>';
+      return;
+    }
+
+    filtered.forEach(function(recipe) {
+      var wrapper = document.createElement('div');
+      wrapper.style.cssText = 'border-bottom:1px solid #eee; padding:0.6rem 0.75rem;';
+
+      var row = document.createElement('div');
+      row.style.cssText = 'display:flex; align-items:center; gap:0.75rem; flex-wrap:wrap;';
+
+      var img = document.createElement('img');
+      img.src = recipe.image || PLACEHOLDER_IMG;
+      img.alt = recipe.title || '';
+      img.loading = 'lazy';
+      img.onerror = function() { this.src = PLACEHOLDER_IMG; };
+      img.style.cssText = 'width:64px; height:48px; object-fit:cover; border-radius:6px; border:1px solid #eee;';
+
+      var titleWrap = document.createElement('div');
+      titleWrap.style.cssText = 'flex:1; min-width:180px;';
+      var titleSpan = document.createElement('div');
+      titleSpan.textContent = recipe.title;
+      titleSpan.style.cssText = 'font-weight:600;';
+      var catSpan = document.createElement('div');
+      catSpan.textContent = (recipe.categories || []).join(', ');
+      catSpan.style.cssText = 'font-size:0.78rem; color:#666;';
+      titleWrap.appendChild(titleSpan);
+      titleWrap.appendChild(catSpan);
+
+      var actions = document.createElement('div');
+      actions.style.cssText = 'display:flex; align-items:center; gap:0.4rem; flex-wrap:wrap;';
+
+      var editBtn = document.createElement('button');
+      editBtn.type = 'button';
+      editBtn.textContent = 'Γ£Å∩╕Å Edit';
+      editBtn.style.cssText = 'background:#2c5530; color:#fff; border:none; padding:0.35rem 0.9rem; border-radius:6px; font-size:0.85rem; cursor:pointer; white-space:nowrap;';
+      editBtn.addEventListener('click', function() { openEditForm(recipe); });
+
+      var imageBtn = document.createElement('button');
+      imageBtn.type = 'button';
+      imageBtn.textContent = '≡ƒû╝ Update Image';
+      imageBtn.style.cssText = 'background:#2471a3; color:#fff; border:none; padding:0.35rem 0.9rem; border-radius:6px; font-size:0.85rem; cursor:pointer; white-space:nowrap;';
+      imageBtn.addEventListener('click', function() { openPexelsModal(recipe, wrapper); });
+
+      var deleteBtn = document.createElement('button');
+      deleteBtn.type = 'button';
+      deleteBtn.textContent = '≡ƒùæ Delete';
+      deleteBtn.style.cssText = 'background:#c0392b; color:#fff; border:none; padding:0.35rem 0.9rem; border-radius:6px; font-size:0.85rem; cursor:pointer; white-space:nowrap;';
+
+      actions.appendChild(editBtn);
+      actions.appendChild(imageBtn);
+      actions.appendChild(deleteBtn);
+
+      row.appendChild(img);
+      row.appendChild(titleWrap);
+      row.appendChild(actions);
+
+      var confirmRow = document.createElement('div');
+      confirmRow.style.cssText = 'display:none; margin-top:0.5rem; background:#fff3cd; border:1px solid #ffc107; border-radius:6px; padding:0.5rem; align-items:center; gap:0.5rem;';
+      var confirmText = document.createElement('span');
+      confirmText.textContent = 'Are you sure you want to delete this recipe?';
+      confirmText.style.cssText = 'font-size:0.85rem; color:#856404;';
+      var confirmYes = document.createElement('button');
+      confirmYes.type = 'button';
+      confirmYes.textContent = 'Yes, delete';
+      confirmYes.style.cssText = 'background:#c0392b; color:#fff; border:none; padding:0.25rem 0.75rem; border-radius:6px; font-size:0.8rem; cursor:pointer; white-space:nowrap;';
+      var confirmNo = document.createElement('button');
+      confirmNo.type = 'button';
+      confirmNo.textContent = 'Cancel';
+      confirmNo.style.cssText = 'background:#e8e8e8; color:#333; border:none; padding:0.25rem 0.75rem; border-radius:6px; font-size:0.8rem; cursor:pointer; white-space:nowrap;';
+
+      confirmYes.addEventListener('click', function() {
+        confirmRow.style.display = 'none';
+        openInlineDelete = null;
+        confirmDeleteRecipe(recipe);
+      });
+      confirmNo.addEventListener('click', function() {
+        confirmRow.style.display = 'none';
+        openInlineDelete = null;
+      });
+
+      confirmRow.appendChild(confirmText);
+      confirmRow.appendChild(confirmYes);
+      confirmRow.appendChild(confirmNo);
+
+      deleteBtn.addEventListener('click', function() {
+        if (openInlineDelete && openInlineDelete !== confirmRow) {
+          openInlineDelete.style.display = 'none';
+        }
+        confirmRow.style.display = 'flex';
+        openInlineDelete = confirmRow;
+      });
+
+      wrapper.appendChild(row);
+      wrapper.appendChild(confirmRow);
+      listEl.appendChild(wrapper);
+    });
+  }
+
+  document.getElementById('maintain-filter').addEventListener('input', renderMaintainList);
+  document.getElementById('maintain-cat-filter').addEventListener('change', renderMaintainList);
+
+  
+  
+  
+  var modalRecipe = null;
+  var modalCard = null;
+  var modalPage = 1;
+  var modalQuery = '';
+  var modalNewUrl = '';
+
+  function openPexelsModal(recipe, card) {
+    modalRecipe = recipe;
+    modalCard = card;
+    modalNewUrl = '';
+
+    document.getElementById('modal-recipe-title').textContent = recipe.title;
+    var curImg = document.getElementById('modal-current-img');
+    if (recipe.image) {
+      curImg.src = recipe.image;
+      curImg.style.display = 'block';
+    } else {
+      curImg.style.display = 'none';
+    }
+
+    
+    var searchInput = document.getElementById('modal-search-input');
+    searchInput.value = (recipe.title || '').replace(/\(.*?\)/g, '').trim() + ' food';
+
+    
+    document.getElementById('modal-photo-grid').innerHTML = '';
+    document.getElementById('modal-loading').style.display = 'none';
+    document.getElementById('modal-load-more').style.display = 'none';
+    document.getElementById('modal-no-results').style.display = 'none';
+    document.getElementById('modal-confirm').style.display = 'none';
+    document.getElementById('modal-save-status').textContent = '';
+    document.getElementById('modal-custom-url').value = '';
+    var saveBtn = document.getElementById('modal-save-btn');
+    saveBtn.disabled = false;
+    saveBtn.textContent = '\u2705 Save to Recipe';
+
+    document.getElementById('pexels-modal').style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+
+    
+    searchInput.focus();
+    modalSearchPhotos(searchInput.value.trim(), 1);
+  }
+
+  function closePexelsModal() {
+    document.getElementById('pexels-modal').style.display = 'none';
+    document.body.style.overflow = '';
+    modalRecipe = null;
+  }
+
+  document.getElementById('modal-close').addEventListener('click', closePexelsModal);
+  document.getElementById('pexels-modal').addEventListener('click', function(e) {
+    if (e.target === this) closePexelsModal();
+  });
+
+  function modalSearchPhotos(query, page) {
+    var grid = document.getElementById('modal-photo-grid');
+    var loading = document.getElementById('modal-loading');
+    var noResults = document.getElementById('modal-no-results');
+    var loadMore = document.getElementById('modal-load-more');
+
+    loading.style.display = 'block';
+    noResults.style.display = 'none';
+    loadMore.style.display = 'none';
+    if (page === 1) grid.innerHTML = '';
+    modalQuery = query;
+    modalPage = page;
+
+    var source = document.getElementById('modal-photo-source').value;
+    searchPhotosUnified(query, page, source).then(function(result) {
+      loading.style.display = 'none';
+      
+      var attrEl = document.getElementById('modal-photo-attribution');
+      if (attrEl) {
+        var src = result.activeSource || 'pexels';
+        var cached = result.fromCache !== false ? ' (cached)' : '';
+        if (src === 'pixabay') {
+          attrEl.innerHTML = 'Photos by <a href="https://pixabay.com" target="_blank" rel="noopener">Pixabay</a>' + cached;
+        } else {
+          attrEl.innerHTML = 'Photos by <a href="https://www.pexels.com" target="_blank" rel="noopener">Pexels</a>' + cached;
+        }
+      }
+      if (!result.photos || result.photos.length === 0) {
+        if (page === 1) noResults.style.display = 'block';
+        return;
+      }
+      result.photos.forEach(function(photo) {
+        var card = document.createElement('div');
+        card.className = 'modal-photo-card';
+        card.innerHTML = '<img src="' + photo.src.medium + '" alt="' + (photo.alt || 'Photo').replace(/"/g, '&quot;') + '">' +
+          '<div class="photo-credit">by ' + photo.photographer + '</div>';
+        card.addEventListener('click', function() {
+          modalSelectPhoto(photo.src.large2x || photo.src.large);
+        });
+        grid.appendChild(card);
+      });
+      if (result.hasMore) loadMore.style.display = 'block';
+    }).catch(function(err) {
+      loading.style.display = 'none';
+      noResults.style.display = 'block';
+      noResults.textContent = err.message;
+    });
+  }
+
+  document.getElementById('modal-search-btn').addEventListener('click', function() {
+    var q = document.getElementById('modal-search-input').value.trim();
+    if (q) modalSearchPhotos(q, 1);
+  });
+  document.getElementById('modal-search-input').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      document.getElementById('modal-search-btn').click();
+    }
+  });
+  document.getElementById('modal-load-more-btn').addEventListener('click', function() {
+    modalSearchPhotos(modalQuery, modalPage + 1);
+  });
+
+  function modalSelectPhoto(url) {
+    modalNewUrl = url;
+    document.getElementById('modal-new-img').src = url;
+    document.getElementById('modal-confirm').style.display = 'block';
+    document.getElementById('modal-save-status').textContent = '';
+    var saveBtn = document.getElementById('modal-save-btn');
+    saveBtn.disabled = false;
+    saveBtn.textContent = '\u2705 Save to Recipe';
+  }
+
+  document.getElementById('modal-pick-again').addEventListener('click', function() {
+    document.getElementById('modal-confirm').style.display = 'none';
+    modalNewUrl = '';
+  });
+
+  
+  function extractImageUrl(raw) {
+    raw = raw.trim();
+    
+    try {
+      var u = new URL(raw);
+      var imgurl = u.searchParams.get('imgurl');
+      if (imgurl) return imgurl;
+    } catch(e) {}
+    return raw;
+  }
+
+  document.getElementById('modal-custom-url-btn').addEventListener('click', function() {
+    var raw = document.getElementById('modal-custom-url').value.trim();
+    if (!raw) return;
+    var url = extractImageUrl(raw);
+    modalSelectPhoto(url);
+  });
+
+  document.getElementById('modal-custom-url').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') {
+      document.getElementById('modal-custom-url-btn').click();
+    }
+  });
+
+  
+  
+  
+  document.getElementById('modal-save-btn').addEventListener('click', function() {
+    if (!modalRecipe || !modalNewUrl || !token) return;
+
+    var btn = this;
+    var status = document.getElementById('modal-save-status');
+    btn.disabled = true;
+    btn.textContent = 'Saving...';
+    status.textContent = '';
+    status.style.color = '';
+
+    
+    var slug = modalRecipe.permalink.replace(/.*\/recipes\//, '').replace(/\/$/, '');
+    var filePath = FILE_PATH_PREFIX + slug + '.md';
+
+    
+    fetch('https://api.github.com/repos/' + REPO_OWNER + '/' + REPO_NAME + '/contents/' + filePath + '?ref=' + BRANCH, {
+      headers: { 'Authorization': 'Bearer ' + token }
+    }).then(function(r) {
+      if (!r.ok) throw new Error('Could not fetch recipe file (HTTP ' + r.status + ')');
+      return r.json();
+    }).then(function(fileData) {
+      
+      var content = decodeURIComponent(escape(atob(fileData.content.replace(/\n/g, ''))));
+
+      
+      var lines = content.split('\n');
+      var imageLineIdx = -1;
+      var titleLineIdx = -1;
+      var firstDashIdx = -1;
+      var newImageLine = 'image: "' + modalNewUrl + '"';
+
+      for (var i = 0; i < lines.length; i++) {
+        var trimmed = lines[i].replace(/\r$/, '').trim();
+        if (trimmed === '---' && firstDashIdx === -1) {
+          firstDashIdx = i;
+        }
+        if (/^image\s*:/i.test(trimmed)) {
+          imageLineIdx = i;
+        }
+        if (/^title\s*:/i.test(trimmed) && titleLineIdx === -1) {
+          titleLineIdx = i;
+        }
+      }
+
+      if (imageLineIdx !== -1) {
+        
+        var hadCR = lines[imageLineIdx].indexOf('\r') !== -1;
+        lines[imageLineIdx] = newImageLine + (hadCR ? '\r' : '');
+      } else if (titleLineIdx !== -1) {
+        
+        var crStyle = lines[titleLineIdx].indexOf('\r') !== -1 ? '\r' : '';
+        lines.splice(titleLineIdx + 1, 0, newImageLine + crStyle);
+      } else if (firstDashIdx !== -1) {
+        
+        var crStyle2 = lines[firstDashIdx].indexOf('\r') !== -1 ? '\r' : '';
+        lines.splice(firstDashIdx + 1, 0, newImageLine + crStyle2);
+      } else {
+        throw new Error('File has no front matter (no --- found). First 100 chars: ' + content.substring(0, 100));
+      }
+
+      var newContent = lines.join('\n');
+
+      
+      var encoded = btoa(unescape(encodeURIComponent(newContent)));
+      return fetch('https://api.github.com/repos/' + REPO_OWNER + '/' + REPO_NAME + '/contents/' + filePath, {
+        method: 'PUT',
+        headers: {
+          'Authorization': 'Bearer ' + token,
+          'Content-Type': 'application/json',
+          'Accept': 'application/vnd.github.v3+json'
+        },
+        body: JSON.stringify({
+          message: 'Update image: ' + modalRecipe.title,
+          content: encoded,
+          sha: fileData.sha,
+          branch: BRANCH
+        })
+      });
+    }).then(function(r) {
+      if (!r.ok) return r.json().then(function(d) {
+        var msg = d.message || 'API error';
+        if (msg.indexOf('Resource not accessible') !== -1) {
+          msg = 'Token lacks "Contents: Read and write" permission.';
+        }
+        throw new Error(msg);
+      });
+      return r.json();
+    }).then(function() {
+      
+      modalRecipe.image = modalNewUrl;
+      if (modalCard) {
+        var cardImg = modalCard.querySelector('img');
+        if (cardImg) cardImg.src = modalNewUrl;
+        modalCard.classList.remove('no-image');
+        modalCard.classList.add('just-updated');
+        setTimeout(function() { modalCard.classList.remove('just-updated'); }, 3000);
+      }
+      status.style.color = '#27ae60';
+      status.textContent = 'Image updated! Site will rebuild in 1-2 minutes.';
+      btn.textContent = 'Γ£à Saved!';
+      setTimeout(closePexelsModal, 1500);
+    }).catch(function(err) {
+      status.style.color = '#c0392b';
+      status.textContent = 'Error: ' + err.message;
+      btn.disabled = false;
+      btn.textContent = 'Γ£à Save to Recipe';
+    });
+  });
+
+  
+  
+  
+  var deleteRecipePending = null;
+
+  function confirmDeleteRecipe(recipe) {
+    deleteRecipePending = recipe;
+    document.getElementById('delete-confirm-text').textContent =
+      'Delete "' + recipe.title + '"? This will permanently remove the recipe file and cannot be undone.';
+    document.getElementById('delete-status').textContent = '';
+    document.getElementById('delete-status').style.color = '';
+    document.getElementById('delete-confirm-btn').disabled = false;
+    document.getElementById('delete-confirm-btn').textContent = '≡ƒùæ Delete';
+    document.getElementById('delete-confirm-overlay').style.display = 'flex';
+  }
+
+  document.getElementById('delete-cancel-btn').addEventListener('click', function() {
+    document.getElementById('delete-confirm-overlay').style.display = 'none';
+    deleteRecipePending = null;
+  });
+
+  document.getElementById('delete-confirm-overlay').addEventListener('click', function(e) {
+    if (e.target === this) {
+      document.getElementById('delete-confirm-overlay').style.display = 'none';
+      deleteRecipePending = null;
+    }
+  });
+
+  document.getElementById('delete-confirm-btn').addEventListener('click', function() {
+    if (!deleteRecipePending || !token) return;
+    var recipe = deleteRecipePending;
+    var btn = this;
+    var status = document.getElementById('delete-status');
+    btn.disabled = true;
+    btn.textContent = 'Deleting...';
+    status.textContent = '';
+    status.style.color = '';
+
+    var slug = recipe.permalink.replace(/.*\/recipes\//, '').replace(/\/$/, '');
+    var filePath = FILE_PATH_PREFIX + slug + '.md';
+
+    fetch('https://api.github.com/repos/' + REPO_OWNER + '/' + REPO_NAME + '/contents/' + filePath + '?ref=' + BRANCH, {
+      headers: { 'Authorization': 'Bearer ' + token }
+    }).then(function(r) {
+      if (!r.ok) throw new Error('Could not fetch recipe file (HTTP ' + r.status + ')');
+      return r.json();
+    }).then(function(fileData) {
+      return fetch('https://api.github.com/repos/' + REPO_OWNER + '/' + REPO_NAME + '/contents/' + filePath, {
+        method: 'DELETE',
+        headers: {
+          'Authorization': 'Bearer ' + token,
+          'Content-Type': 'application/json',
+          'Accept': 'application/vnd.github.v3+json'
+        },
+        body: JSON.stringify({
+          message: 'Delete recipe: ' + recipe.title,
+          sha: fileData.sha,
+          branch: BRANCH
+        })
+      });
+    }).then(function(r) {
+      if (!r.ok) return r.json().then(function(d) { throw new Error(d.message || 'API error'); });
+      return r.json();
+    }).then(function() {
+      var idx = maintainAllRecipes.indexOf(recipe);
+      if (idx !== -1) maintainAllRecipes.splice(idx, 1);
+      var galleryIdx = allRecipes.indexOf(recipe);
+      if (galleryIdx !== -1) allRecipes.splice(galleryIdx, 1);
+      status.style.color = '#27ae60';
+      status.textContent = '"' + recipe.title + '" deleted. Site will rebuild in 1-2 minutes.';
+      btn.textContent = 'Γ£à Deleted!';
+      deleteRecipePending = null;
+      setTimeout(function() {
+        document.getElementById('delete-confirm-overlay').style.display = 'none';
+        renderMaintainList();
+      }, 2000);
+    }).catch(function(err) {
+      status.style.color = '#c0392b';
+      status.textContent = 'Error: ' + err.message;
+      btn.disabled = false;
+      btn.textContent = '≡ƒùæ Delete';
+    });
+  });
+
+
+  
+  
+  
+  var editCurrentRecipe = null;
+  var editCurrentSha = null;
+  var editOriginalDate = null;
+
+  function openEditForm(recipe) {
+    var slug = recipe.permalink.replace(/.*\/recipes\//, '').replace(/\/$/, '');
+    var filePath = FILE_PATH_PREFIX + slug + '.md';
+    var statusEl = document.getElementById('edit-submit-status');
+    statusEl.textContent = 'Loading recipe...';
+    statusEl.style.color = '#666';
+    document.getElementById('maintain-list-section').style.display = 'none';
+    document.getElementById('edit-form-section').style.display = 'block';
+    document.getElementById('edit-recipe-heading').textContent = recipe.title;
+    document.getElementById('edit-submit-btn').disabled = true;
+
+    fetch('https://api.github.com/repos/' + REPO_OWNER + '/' + REPO_NAME + '/contents/' + filePath + '?ref=' + BRANCH, {
+      headers: { 'Authorization': 'Bearer ' + token }
+    }).then(function(r) {
+      if (!r.ok) throw new Error('Could not fetch recipe file (HTTP ' + r.status + ')');
+      return r.json();
+    }).then(function(fileData) {
+      editCurrentRecipe = recipe;
+      editCurrentSha = fileData.sha;
+      var content = decodeURIComponent(escape(atob(fileData.content.replace(/\n/g, ''))));
+      var parsed = parseFrontmatter(content);
+      editOriginalDate = parsed.date;
+      prefillEditForm(parsed);
+      statusEl.textContent = '';
+      document.getElementById('edit-submit-btn').disabled = false;
+    }).catch(function(err) {
+      statusEl.textContent = 'Error loading recipe: ' + err.message;
+      statusEl.style.color = '#c0392b';
+      document.getElementById('edit-submit-btn').disabled = false;
+    });
+  }
+
+  function parseFrontmatter(content) {
+    var result = {
+      title: '', category: '', subcategory: '', description: '',
+      prepTime: '', cookTime: '', servings: '', notes: '',
+      credit: '', creditUrl: '', image: '', tags: [],
+      date: '', source: '', ingredients: [], instructions: []
+    };
+    var lines = content.split('\n');
+    var inFm = false;
+    var fmEndIdx = -1;
+
+    for (var i = 0; i < lines.length; i++) {
+      var line = lines[i].replace(/\r$/, '');
+      if (i === 0 && line.trim() === '---') { inFm = true; continue; }
+      if (inFm) {
+        if (line.trim() === '---') { inFm = false; fmEndIdx = i; continue; }
+        var m;
+        if ((m = line.match(/^title:\s*"?(.*?)"?\s*$/)) && m[1] !== undefined) result.title = m[1].replace(/\\"/g, '"');
+        else if ((m = line.match(/^date:\s*(.*?)\s*$/))) result.date = m[1];
+        else if ((m = line.match(/^categories:\s*\["?([^"\]]*)"?\]/))) result.category = m[1];
+        else if ((m = line.match(/^subcategories:\s*\["?([^"\]]*)"?\]/))) result.subcategory = m[1];
+        else if ((m = line.match(/^description:\s*"?(.*?)"?\s*$/)) && m[1] !== undefined) result.description = m[1].replace(/\\"/g, '"');
+        else if ((m = line.match(/^source:\s*"?(.*?)"?\s*$/))) result.source = m[1];
+        else if ((m = line.match(/^creditUrl:\s*"?(.*?)"?\s*$/))) result.creditUrl = m[1];
+        else if ((m = line.match(/^credit:\s*"?(.*?)"?\s*$/)) && m[1] !== undefined) result.credit = m[1].replace(/\\"/g, '"');
+        else if ((m = line.match(/^prepTime:\s*"?(.*?)"?\s*$/))) result.prepTime = m[1];
+        else if ((m = line.match(/^cookTime:\s*"?(.*?)"?\s*$/))) result.cookTime = m[1];
+        else if ((m = line.match(/^servings:\s*"?(.*?)"?\s*$/))) result.servings = m[1];
+        else if ((m = line.match(/^image:\s*"?(.*?)"?\s*$/))) result.image = m[1];
+        else if ((m = line.match(/^notes:\s*"?(.*?)"?\s*$/)) && m[1] !== undefined) result.notes = m[1].replace(/\\"/g, '"');
+        else if ((m = line.match(/^tags:\s*\[(.*?)\]\s*$/))) {
+          result.tags = m[1].split(',').map(function(t) {
+            return t.trim().replace(/^["']|["']$/g, '');
+          }).filter(function(t) { return t.length > 0; });
+        }
+      }
+    }
+
+    var bodyLines = fmEndIdx >= 0 ? lines.slice(fmEndIdx + 1) : lines;
+    var section = '';
+    bodyLines.forEach(function(bl) {
+      bl = bl.replace(/\r$/, '');
+      if (/^##\s+Ingredients/i.test(bl)) { section = 'ingredients'; return; }
+      if (/^##\s+Instructions/i.test(bl)) { section = 'instructions'; return; }
+      if (/^##/.test(bl)) { section = ''; return; }
+      var m2;
+      if (section === 'ingredients' && (m2 = bl.match(/^[-*]\s+(.*)/)) && m2[1].trim()) {
+        result.ingredients.push(m2[1].trim());
+      } else if (section === 'instructions' && (m2 = bl.match(/^\d+[\.\)]\s+(.*)/)) && m2[1].trim()) {
+        result.instructions.push(m2[1].trim());
+      }
+    });
+
+    return result;
+  }
+
+  function prefillEditForm(data) {
+    document.getElementById('edit-title').value = data.title || '';
+    document.getElementById('edit-prep-time').value = data.prepTime || '';
+    document.getElementById('edit-cook-time').value = data.cookTime || '';
+    document.getElementById('edit-servings').value = data.servings || '';
+    document.getElementById('edit-description').value = data.description || '';
+    document.getElementById('edit-ingredients').value = data.ingredients.join('\n');
+    document.getElementById('edit-instructions').value = data.instructions.join('\n');
+    document.getElementById('edit-notes').value = data.notes || '';
+    document.getElementById('edit-source-credit').value = data.credit || '';
+    document.getElementById('edit-source-url').value = data.creditUrl || '';
+    document.getElementById('edit-image-url').value = data.image || '';
+    document.getElementById('edit-tags').value = data.tags.join(', ');
+
+    var catSel = document.getElementById('edit-category');
+    catSel.value = data.category || '';
+
+    var showSub = data.category && data.category.indexOf('Mom') === 0;
+    document.getElementById('edit-subcategory-group').style.display = showSub ? 'block' : 'none';
+    if (showSub) {
+      document.getElementById('edit-subcategory').value = data.subcategory || '';
+    } else {
+      document.getElementById('edit-subcategory').value = '';
+    }
+  }
+
+  function buildEditMarkdown() {
+    var title = document.getElementById('edit-title').value.trim();
+    var category = document.getElementById('edit-category').value;
+    var subcategory = document.getElementById('edit-subcategory').value;
+    var prepTime = document.getElementById('edit-prep-time').value.trim();
+    var cookTime = document.getElementById('edit-cook-time').value.trim();
+    var servingsVal = document.getElementById('edit-servings').value.trim();
+    var description = document.getElementById('edit-description').value.trim();
+    var ingredients = document.getElementById('edit-ingredients').value.trim();
+    var instructions = document.getElementById('edit-instructions').value.trim();
+    var notes = document.getElementById('edit-notes').value.trim();
+    var credit = document.getElementById('edit-source-credit').value.trim();
+    var creditUrl = document.getElementById('edit-source-url').value.trim();
+    var imageUrl = document.getElementById('edit-image-url').value.trim();
+    var tags = document.getElementById('edit-tags').value.trim();
+
+    var dateStr = editOriginalDate || new Date().toISOString().replace(/\.\d{3}Z$/, '-05:00');
+
+    var fm = '---\n';
+    fm += 'title: "' + title.replace(/"/g, '\\"') + '"\n';
+    fm += 'date: ' + dateStr + '\n';
+    fm += 'draft: false\n';
+    fm += 'categories: ["' + category + '"]\n';
+    if (subcategory) fm += 'subcategories: ["' + subcategory + '"]\n';
+    if (tags) {
+      var tagList = tags.split(',').map(function(t) { return '"' + t.trim() + '"'; }).join(', ');
+      fm += 'tags: [' + tagList + ']\n';
+    } else {
+      fm += 'tags: []\n';
+    }
+    fm += 'description: "' + description.replace(/"/g, '\\"') + '"\n';
+    fm += 'source: ""\n';
+    fm += 'creditUrl: "' + creditUrl + '"\n';
+    fm += 'credit: "' + credit.replace(/"/g, '\\"') + '"\n';
+    fm += 'prepTime: "' + prepTime + '"\n';
+    fm += 'cookTime: "' + cookTime + '"\n';
+    fm += 'servings: "' + servingsVal + '"\n';
+    fm += 'image: "' + imageUrl + '"\n';
+    fm += 'notes: "' + notes.replace(/"/g, '\\"').replace(/\n/g, ' ') + '"\n';
+    fm += '---\n\n';
+
+    fm += '## Ingredients\n\n';
+    ingredients.split('\n').forEach(function(line) {
+      line = line.trim();
+      if (line) fm += '- ' + line + '\n';
+    });
+
+    fm += '\n## Instructions\n\n';
+    var stepNum = 1;
+    instructions.split('\n').forEach(function(line) {
+      line = line.trim();
+      if (!line) return;
+      line = line.replace(/^\d+[\.\)]\s*/, '');
+      fm += stepNum + '. ' + line + '\n';
+      stepNum++;
+    });
+
+    return fm;
+  }
+
+  document.getElementById('edit-category').addEventListener('change', function() {
+    var show = this.value.indexOf('Mom') === 0;
+    document.getElementById('edit-subcategory-group').style.display = show ? 'block' : 'none';
+    if (!show) document.getElementById('edit-subcategory').value = '';
+  });
+
+  document.getElementById('edit-back-btn').addEventListener('click', function() {
+    document.getElementById('edit-form-section').style.display = 'none';
+    document.getElementById('maintain-list-section').style.display = 'block';
+    document.getElementById('edit-submit-status').textContent = '';
+    editCurrentRecipe = null;
+    editCurrentSha = null;
+    editOriginalDate = null;
+  });
+
+  document.getElementById('edit-recipe-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    if (!editCurrentRecipe || !editCurrentSha || !token) return;
+
+    var btn = document.getElementById('edit-submit-btn');
+    var status = document.getElementById('edit-submit-status');
+    btn.disabled = true;
+    btn.textContent = 'Saving...';
+    status.textContent = '';
+    status.style.color = '';
+
+    var slug = editCurrentRecipe.permalink.replace(/.*\/recipes\//, '').replace(/\/$/, '');
+    var filePath = FILE_PATH_PREFIX + slug + '.md';
+    var newTitle = document.getElementById('edit-title').value.trim();
+    var content = buildEditMarkdown();
+    var encoded = btoa(unescape(encodeURIComponent(content)));
+
+    fetch('https://api.github.com/repos/' + REPO_OWNER + '/' + REPO_NAME + '/contents/' + filePath, {
+      method: 'PUT',
+      headers: {
+        'Authorization': 'Bearer ' + token,
+        'Content-Type': 'application/json',
+        'Accept': 'application/vnd.github.v3+json'
+      },
+      body: JSON.stringify({
+        message: 'Update recipe: ' + newTitle,
+        content: encoded,
+        sha: editCurrentSha,
+        branch: BRANCH
+      })
+    }).then(function(r) {
+      if (!r.ok) return r.json().then(function(d) {
+        var msg = d.message || 'API error';
+        if (msg.indexOf('Resource not accessible') !== -1) {
+          msg = 'Token lacks "Contents: Read and write" permission.';
+        }
+        throw new Error(msg);
+      });
+      return r.json();
+    }).then(function(data) {
+      
+      editCurrentSha = data.content && data.content.sha ? data.content.sha : editCurrentSha;
+      
+      editCurrentRecipe.title = newTitle;
+      editCurrentRecipe.categories = [document.getElementById('edit-category').value];
+      document.getElementById('edit-recipe-heading').textContent = newTitle;
+      renderMaintainList();
+      status.style.color = '#27ae60';
+      status.textContent = 'Saved! Site will rebuild in 1-2 minutes.';
+      btn.disabled = false;
+      btn.textContent = 'Save Changes';
+    }).catch(function(err) {
+      status.style.color = '#c0392b';
+      status.textContent = 'Error: ' + err.message;
+      btn.disabled = false;
+      btn.textContent = 'Save Changes';
+    });
+  });
+
+  
+
+})();
+</script>
+
+
+  
+  
+  
+  <script>
+  window.updateGroceryBadge = function () {
+    try {
+      var lists = JSON.parse(localStorage.getItem('grocery_list') || '[]');
+      var total = lists.reduce(function (sum, l) { return sum + (l.items ? l.items.length : 0); }, 0);
+      document.querySelectorAll('.site-nav a').forEach(function (a) {
+        if (a.textContent.indexOf('Grocery') === -1) return;
+        var badge = a.querySelector('.nav-grocery-badge');
+        if (total > 0) {
+          if (!badge) {
+            badge = document.createElement('span');
+            badge.className = 'nav-grocery-badge';
+            badge.style.cssText = 'display:inline-block;background:var(--color-primary,#b8533e);color:#fff;font-size:0.65rem;font-weight:700;border-radius:10px;padding:1px 6px;margin-left:5px;vertical-align:middle;line-height:1.6;';
+            a.appendChild(badge);
+          }
+          badge.textContent = total;
+        } else if (badge) {
+          badge.remove();
+        }
+      });
+    } catch (e) {}
+  };
+  window.updateGroceryBadge();
+  </script>
+</body>
+</html>
