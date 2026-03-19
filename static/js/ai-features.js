@@ -33,7 +33,7 @@
   }
 
   /* ── Gemini API key management (no-ops — key lives server-side) ── */
-  function getApiKey()             { return ''; }
+  function getApiKey()             { return 'server'; } // truthy = key is managed server-side, no client warning needed
   function setApiKey()             { }
   function clearApiKey()           { }
   function showApiKeyModal(onSuccess) { if (onSuccess) onSuccess(); }
