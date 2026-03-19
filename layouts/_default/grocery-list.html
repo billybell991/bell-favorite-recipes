@@ -1,0 +1,146 @@
+{{ define "main" }}
+<div class="recipe-book-page">
+  <div class="container">
+
+    <div class="recipe-book-hero">
+      <h1>🛒 My Grocery List</h1>
+      <p class="subtitle">Your saved ingredient lists — check off items as you shop.</p>
+    </div>
+
+    <div id="grocery-page-content">
+      <!-- Rendered by JS -->
+    </div>
+
+  </div>
+</div>
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+(function () {
+  'use strict';
+
+  if (!window.BellAI) return;
+
+  var baseUrl = window.BellAI.getBaseUrl();
+
+  function escHtml(str) {
+    var d = document.createElement('div');
+    d.appendChild(document.createTextNode(String(str || '')));
+    return d.innerHTML;
+  }
+
+  function formatDate(iso) {
+    if (!iso) return '';
+    try {
+      return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+    } catch (e) { return ''; }
+  }
+
+  function renderGroceryPage() {
+    var lists = window.BellAI.getGroceryLists();
+    var section = document.getElementById('grocery-page-content');
+    if (!section) return;
+
+    var total = lists.reduce(function (sum, l) { return sum + l.items.length; }, 0);
+
+    if (!lists.length) {
+      section.innerHTML =
+        '<div class="rb-empty-state" style="display:block;">' +
+          '<div class="empty-icon">🛒</div>' +
+          '<h3>No grocery lists saved</h3>' +
+          '<p>Open any recipe and tap <strong>🛒 Grocery List</strong> to add its ingredients here, then check off items as you shop!</p>' +
+          '<a href="' + baseUrl + 'recipes/" class="btn btn-primary">Browse All Recipes</a>' +
+        '</div>';
+      return;
+    }
+
+    var checked = window.BellAI.getGroceryChecked();
+
+    var headerHtml =
+      '<div class="grocery-tab-header">' +
+        '<span class="grocery-tab-summary">' + lists.length + ' list' + (lists.length !== 1 ? 's' : '') + ' · ' + total + ' item' + (total !== 1 ? 's' : '') + '</span>' +
+        '<div class="grocery-tab-actions">' +
+          '<button class="btn btn-sm btn-ghost" id="gt-clear-checked">Clear checked</button>' +
+          '<button class="btn btn-sm btn-ghost" id="gt-clear-all">Clear all</button>' +
+        '</div>' +
+      '</div>';
+
+    var listsHtml = lists.map(function (list) {
+      var itemsHtml = list.items.map(function (item, i) {
+        var key = list.id + '-' + i;
+        var isChecked = !!checked[key];
+        return '<li class="grocery-tab-item' + (isChecked ? ' checked' : '') + '" data-key="' + escHtml(key) + '">' +
+          '<button class="grocery-check" aria-label="Toggle"></button>' +
+          '<span class="grocery-item-text">' + escHtml(item) + '</span>' +
+        '</li>';
+      }).join('');
+
+      return '<div class="grocery-list-group" data-id="' + escHtml(list.id) + '">' +
+        '<div class="grocery-list-group-header">' +
+          '<div>' +
+            '<div class="grocery-list-group-title">🛒 ' + escHtml(list.title) + '</div>' +
+            '<div class="grocery-list-group-meta">' + escHtml(formatDate(list.addedAt)) + ' · ' + list.items.length + ' item' + (list.items.length !== 1 ? 's' : '') + '</div>' +
+          '</div>' +
+          '<button class="grocery-list-group-remove" data-id="' + escHtml(list.id) + '" title="Remove this list">✕</button>' +
+        '</div>' +
+        '<ul class="grocery-tab-items">' + itemsHtml + '</ul>' +
+      '</div>';
+    }).join('');
+
+    section.innerHTML = headerHtml + listsHtml;
+
+    // Toggle item checked state
+    section.querySelectorAll('.grocery-tab-item').forEach(function (li) {
+      li.addEventListener('click', function (e) {
+        if (e.target.closest('.grocery-list-group-remove')) return;
+        var key = li.dataset.key;
+        var isChecked = li.classList.toggle('checked');
+        var ch = window.BellAI.getGroceryChecked();
+        if (isChecked) { ch[key] = true; } else { delete ch[key]; }
+        window.BellAI.setGroceryChecked(ch);
+        var chkCount = section.querySelectorAll('.grocery-tab-item.checked').length;
+        var summary = section.querySelector('.grocery-tab-summary');
+        if (summary) summary.textContent = lists.length + ' list' + (lists.length !== 1 ? 's' : '') + ' · ' + total + ' item' + (total !== 1 ? 's' : '') + (chkCount ? ' (' + chkCount + ' checked)' : '');
+      });
+    });
+
+    // Remove individual list
+    section.querySelectorAll('.grocery-list-group-remove').forEach(function (btn) {
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        window.BellAI.removeGroceryList(btn.dataset.id);
+        renderGroceryPage();
+        if (window.updateGroceryBadge) window.updateGroceryBadge();
+      });
+    });
+
+    // Clear checked items
+    var clearCheckedBtn = document.getElementById('gt-clear-checked');
+    if (clearCheckedBtn) {
+      clearCheckedBtn.addEventListener('click', function () {
+        var ch = window.BellAI.getGroceryChecked();
+        section.querySelectorAll('.grocery-tab-item.checked').forEach(function (li) { delete ch[li.dataset.key]; });
+        window.BellAI.setGroceryChecked(ch);
+        renderGroceryPage();
+      });
+    }
+
+    // Clear all lists
+    var clearAllBtn = document.getElementById('gt-clear-all');
+    if (clearAllBtn) {
+      clearAllBtn.addEventListener('click', function () {
+        if (window.confirm('Remove all grocery lists?')) {
+          window.BellAI.clearAllGrocery();
+          renderGroceryPage();
+          if (window.updateGroceryBadge) window.updateGroceryBadge();
+        }
+      });
+    }
+  }
+
+  renderGroceryPage();
+
+}());
+</script>
+{{ end }}

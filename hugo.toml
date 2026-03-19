@@ -31,7 +31,7 @@ title = 'Bell Favorite Recipes'
     weight = 4
   [[menu.main]]
     name = "🛒 Grocery List"
-    url = "/my-recipe-book/#grocery"
+    url = "/grocery-list/"
     weight = 5
   [[menu.main]]
     name = "Submit a Recipe"
