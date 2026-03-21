@@ -216,7 +216,7 @@
         <h1>Maintain Recipe</h1>
         <p class="submit-intro">Edit, update images, or delete recipes from one list.</p>
         <div style="background:#fff3cd; border:1px solid #ffc107; border-radius:8px; padding:1rem; margin-bottom:1.5rem; color:#856404;">
-          ΓÜá∩╕Å <strong>Warning:</strong> Deleting a recipe permanently removes it from the site. This cannot be undone.
+          &#x26A0;&#xFE0F; <strong>Warning:</strong> Deleting a recipe permanently removes it from the site. This cannot be undone.
         </div>
         <div style="margin-bottom:1rem; display:flex; gap:0.5rem; align-items:center; flex-wrap:wrap;">
           <input type="text" id="maintain-filter" placeholder="Filter recipes..." style="flex:1; min-width:200px;">
@@ -359,7 +359,7 @@
         <p id="delete-confirm-text" style="margin:0 0 1.5rem; font-size:1rem;"></p>
         <div style="display:flex; gap:0.75rem; justify-content:flex-end;">
           <button type="button" id="delete-cancel-btn" class="btn btn-secondary">Cancel</button>
-          <button type="button" id="delete-confirm-btn" style="background:#c0392b; color:#fff; border:none; padding:0.6rem 1.25rem; border-radius:6px; font-weight:600; font-size:1rem; cursor:pointer;">≡ƒùæ Delete</button>
+          <button type="button" id="delete-confirm-btn" style="background:#c0392b; color:#fff; border:none; padding:0.6rem 1.25rem; border-radius:6px; font-weight:600; font-size:1rem; cursor:pointer;">&#x1F5D1; Delete</button>
         </div>
         <p id="delete-status" style="margin-top:0.75rem; font-size:0.9rem;"></p>
       </div>
@@ -956,19 +956,19 @@
 
       var editBtn = document.createElement('button');
       editBtn.type = 'button';
-      editBtn.textContent = 'Γ£Å∩╕Å Edit';
+      editBtn.textContent = '\u270F\uFE0F Edit';
       editBtn.style.cssText = 'background:#2c5530; color:#fff; border:none; padding:0.35rem 0.9rem; border-radius:6px; font-size:0.85rem; cursor:pointer; white-space:nowrap;';
       editBtn.addEventListener('click', function() { openEditForm(recipe); });
 
       var imageBtn = document.createElement('button');
       imageBtn.type = 'button';
-      imageBtn.textContent = '≡ƒû╝ Update Image';
+      imageBtn.textContent = '\uD83D\uDDBC Update Image';
       imageBtn.style.cssText = 'background:#2471a3; color:#fff; border:none; padding:0.35rem 0.9rem; border-radius:6px; font-size:0.85rem; cursor:pointer; white-space:nowrap;';
       imageBtn.addEventListener('click', function() { openPexelsModal(recipe, wrapper); });
 
       var deleteBtn = document.createElement('button');
       deleteBtn.type = 'button';
-      deleteBtn.textContent = '≡ƒùæ Delete';
+      deleteBtn.textContent = '\uD83D\uDDD1 Delete';
       deleteBtn.style.cssText = 'background:#c0392b; color:#fff; border:none; padding:0.35rem 0.9rem; border-radius:6px; font-size:0.85rem; cursor:pointer; white-space:nowrap;';
 
       actions.appendChild(editBtn);
@@ -1287,13 +1287,13 @@
       }
       status.style.color = '#27ae60';
       status.textContent = 'Image updated! Site will rebuild in 1-2 minutes.';
-      btn.textContent = 'Γ£à Saved!';
+      btn.textContent = '\u2705 Saved!';
       setTimeout(closePexelsModal, 1500);
     }).catch(function(err) {
       status.style.color = '#c0392b';
       status.textContent = 'Error: ' + err.message;
       btn.disabled = false;
-      btn.textContent = 'Γ£à Save to Recipe';
+      btn.textContent = '\u2705 Save to Recipe';
     });
   });
 
@@ -1309,7 +1309,7 @@
     document.getElementById('delete-status').textContent = '';
     document.getElementById('delete-status').style.color = '';
     document.getElementById('delete-confirm-btn').disabled = false;
-    document.getElementById('delete-confirm-btn').textContent = '≡ƒùæ Delete';
+    document.getElementById('delete-confirm-btn').textContent = '\uD83D\uDDD1 Delete';
     document.getElementById('delete-confirm-overlay').style.display = 'flex';
   }
 
@@ -1367,7 +1367,7 @@
       if (galleryIdx !== -1) allRecipes.splice(galleryIdx, 1);
       status.style.color = '#27ae60';
       status.textContent = '"' + recipe.title + '" deleted. Site will rebuild in 1-2 minutes.';
-      btn.textContent = 'Γ£à Deleted!';
+      btn.textContent = '\u2705 Deleted!';
       deleteRecipePending = null;
       setTimeout(function() {
         document.getElementById('delete-confirm-overlay').style.display = 'none';
@@ -1377,7 +1377,7 @@
       status.style.color = '#c0392b';
       status.textContent = 'Error: ' + err.message;
       btn.disabled = false;
-      btn.textContent = '≡ƒùæ Delete';
+      btn.textContent = '\uD83D\uDDD1 Delete';
     });
   });
 
