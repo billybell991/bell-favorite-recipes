@@ -13,7 +13,7 @@ prepTime: ""
 cookTime: ""
 servings: ""
 image: "images/recipes/impossible-bacon-breakfast-pie-quiche.png"
-notes: ""
+notes: "Billy's Notes:  This turned out to be pretty much a crustless quiche.  Pretty easy to make in a pinch."
 ---
 
 ## Ingredients
@@ -35,4 +35,4 @@ notes: ""
 3. Top with onion and cheese.
 4. Pour rest in blender for l minute.
 5. Pour into pan.
-6. Bake at 350 degrees until tests done with a knife. (35 – 45 minutes.)
+6. Bake at 350 degrees until tests done with a knife. (35 – 40 minutes.)
