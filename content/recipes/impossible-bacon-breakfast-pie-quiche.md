@@ -1,5 +1,5 @@
 ---
-title: "Impossible Bacon Breakfast Pie (quiche)"
+title: "Impossible Bacon Breakfast Quiche"
 date: 2026-03-05T20:08:13-05:00
 draft: false
 categories: ["Mom's Cookbook"]
@@ -15,17 +15,24 @@ servings: ""
 image: "images/recipes/impossible-bacon-breakfast-pie-quiche.png"
 notes: ""
 ---
+
 ## Ingredients
 
 - 1 lb bacon
-- l can green chili (chopped)
-- l cup grated cheese (Jack)
-- l-l/2 cups milk
-- l cup Bisquick
+- 1 small onion (chopped)
+- 1 can green chili (chopped)
+- 1 cup grated cheese (Jack)
+- 1 1/2 cups milk
+- 1 cup Bisquick
 - 6 oz sour cream
 - 3 eggs
 - Salt and pepper to taste
 
 ## Instructions
 
-Brown, drain and crumble bacon.  Put in bottom of ll”x 7”greased dish.  Top with onion and cheese.  Pour rest in blender for l minute.  Pour into pan.  Bake at 350 degrees until tests done with a knife.  (35 – 45 minutes.)
+1. Brown, drain and crumble bacon.
+2. Put in bottom of ll”x 7”greased dish.
+3. Top with onion and cheese.
+4. Pour rest in blender for l minute.
+5. Pour into pan.
+6. Bake at 350 degrees until tests done with a knife. (35 – 45 minutes.)
