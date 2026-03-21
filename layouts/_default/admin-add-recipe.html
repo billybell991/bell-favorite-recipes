@@ -160,14 +160,14 @@
               <option value="pixabay">Pixabay</option>
             </select>
             <input type="text" id="photo-search-input" placeholder="Search for a photo (e.g., apple pie, chicken soup)..." style="flex:1;">
-            <button type="button" id="photo-search-btn" class="btn btn-secondary">&#x1f50d; Search</button>
+            <button type="button" id="photo-search-btn" class="btn btn-secondary">Search</button>
           </div>
           <small class="form-help">Search free stock photos. Click a photo to select it.</small>
 
           <!-- Selected photo preview -->
           <div id="image-preview" class="image-preview" style="display:none;">
             <img id="preview-img" src="" alt="Preview">
-            <button type="button" id="clear-preview" class="clear-preview" title="Remove photo">&#x2715;</button>
+            <button type="button" id="clear-preview" class="clear-preview" title="Remove photo">x</button>
           </div>
 
           <!-- Photo search results grid -->
@@ -200,7 +200,7 @@
 
     <!-- Success -->
     <div id="form-success" class="form-success" style="display:none;">
-      <div class="success-icon">&#x2705;</div>
+      <div class="success-icon" id="success-emoji"></div>
       <h2>Recipe Added!</h2>
       <p>The recipe has been committed to the repository. GitHub Pages will rebuild shortly (1-2 minutes).</p>
       <p id="recipe-link-info"></p>
@@ -216,7 +216,7 @@
         <h1>Maintain Recipe</h1>
         <p class="submit-intro">Edit, update images, or delete recipes from one list.</p>
         <div style="background:#fff3cd; border:1px solid #ffc107; border-radius:8px; padding:1rem; margin-bottom:1.5rem; color:#856404;">
-          &#x26A0;&#xFE0F; <strong>Warning:</strong> Deleting a recipe permanently removes it from the site. This cannot be undone.
+          <span id="warn-emoji"></span> <strong>Warning:</strong> Deleting a recipe permanently removes it from the site. This cannot be undone.
         </div>
         <div style="margin-bottom:1rem; display:flex; gap:0.5rem; align-items:center; flex-wrap:wrap;">
           <input type="text" id="maintain-filter" placeholder="Filter recipes..." style="flex:1; min-width:200px;">
@@ -359,7 +359,7 @@
         <p id="delete-confirm-text" style="margin:0 0 1.5rem; font-size:1rem;"></p>
         <div style="display:flex; gap:0.75rem; justify-content:flex-end;">
           <button type="button" id="delete-cancel-btn" class="btn btn-secondary">Cancel</button>
-          <button type="button" id="delete-confirm-btn" style="background:#c0392b; color:#fff; border:none; padding:0.6rem 1.25rem; border-radius:6px; font-weight:600; font-size:1rem; cursor:pointer;">&#x1F5D1; Delete</button>
+          <button type="button" id="delete-confirm-btn" style="background:#c0392b; color:#fff; border:none; padding:0.6rem 1.25rem; border-radius:6px; font-weight:600; font-size:1rem; cursor:pointer;">Delete</button>
         </div>
         <p id="delete-status" style="margin-top:0.75rem; font-size:0.9rem;"></p>
       </div>
@@ -382,11 +382,11 @@
             <option value="pixabay">Pixabay</option>
           </select>
           <input type="text" id="modal-search-input" placeholder="Search for a new photo..." style="flex:1;">
-          <button type="button" id="modal-search-btn" class="btn btn-secondary">&#x1f50d; Search</button>
+          <button type="button" id="modal-search-btn" class="btn btn-secondary">Search</button>
         </div>
         <div style="display:flex; gap:0.5rem; margin-bottom:0.75rem; align-items:center;">
           <input type="text" id="modal-custom-url" placeholder="Or paste an image URL here..." style="flex:1;">
-          <button type="button" id="modal-custom-url-btn" class="btn btn-secondary" style="white-space:nowrap;">&#x1f517; Use URL</button>
+          <button type="button" id="modal-custom-url-btn" class="btn btn-secondary" style="white-space:nowrap;">Use URL</button>
         </div>
         <div id="modal-photo-grid" class="modal-photo-grid"></div>
         <div id="modal-loading" style="display:none; text-align:center; padding:1rem; color:#666;">Searching photos...</div>
@@ -398,7 +398,7 @@
           <p style="margin:0 0 0.5rem;"><strong>Selected new image:</strong></p>
           <img id="modal-new-img" src="" alt="New" style="max-width:300px; max-height:180px; border-radius:8px; object-fit:cover;">
           <div style="margin-top:0.75rem; display:flex; gap:0.5rem;">
-            <button type="button" id="modal-save-btn" class="btn btn-primary">&#x2705; Save to Recipe</button>
+            <button type="button" id="modal-save-btn" class="btn btn-primary">Save to Recipe</button>
             <button type="button" id="modal-pick-again" class="btn btn-secondary">Pick Different</button>
           </div>
           <p id="modal-save-status" style="margin-top:0.5rem;"></p>
@@ -422,6 +422,23 @@
   var FILE_PATH_PREFIX = 'content/recipes/';
 
   var token = localStorage.getItem('gh_admin_token') || '';
+
+  // --- Emoji init (generated at runtime to avoid encoding issues) ---
+  var el;
+  el = document.getElementById('warn-emoji');
+  if (el) el.textContent = String.fromCodePoint(0x26A0, 0xFE0F);
+  el = document.getElementById('success-emoji');
+  if (el) el.textContent = String.fromCodePoint(0x2705);
+  el = document.getElementById('photo-search-btn');
+  if (el) el.textContent = String.fromCodePoint(0x1F50D) + ' Search';
+  el = document.getElementById('modal-search-btn');
+  if (el) el.textContent = String.fromCodePoint(0x1F50D) + ' Search';
+  el = document.getElementById('modal-custom-url-btn');
+  if (el) el.textContent = String.fromCodePoint(0x1F517) + ' Use URL';
+  el = document.getElementById('modal-save-btn');
+  if (el) el.textContent = String.fromCodePoint(0x2705) + ' Save to Recipe';
+  el = document.getElementById('delete-confirm-btn');
+  if (el) el.textContent = String.fromCodePoint(0x1F5D1) + ' Delete';
 
   // --- Auth ---
   if (token) {
@@ -956,19 +973,19 @@
 
       var editBtn = document.createElement('button');
       editBtn.type = 'button';
-      editBtn.textContent = '\u270F\uFE0F Edit';
+      editBtn.textContent = String.fromCodePoint(0x270F, 0xFE0F) + ' Edit';
       editBtn.style.cssText = 'background:#2c5530; color:#fff; border:none; padding:0.35rem 0.9rem; border-radius:6px; font-size:0.85rem; cursor:pointer; white-space:nowrap;';
       editBtn.addEventListener('click', function() { openEditForm(recipe); });
 
       var imageBtn = document.createElement('button');
       imageBtn.type = 'button';
-      imageBtn.textContent = '\uD83D\uDDBC Update Image';
+      imageBtn.textContent = String.fromCodePoint(0x1F5BC) + ' Update Image';
       imageBtn.style.cssText = 'background:#2471a3; color:#fff; border:none; padding:0.35rem 0.9rem; border-radius:6px; font-size:0.85rem; cursor:pointer; white-space:nowrap;';
       imageBtn.addEventListener('click', function() { openPexelsModal(recipe, wrapper); });
 
       var deleteBtn = document.createElement('button');
       deleteBtn.type = 'button';
-      deleteBtn.textContent = '\uD83D\uDDD1 Delete';
+      deleteBtn.textContent = String.fromCodePoint(0x1F5D1) + ' Delete';
       deleteBtn.style.cssText = 'background:#c0392b; color:#fff; border:none; padding:0.35rem 0.9rem; border-radius:6px; font-size:0.85rem; cursor:pointer; white-space:nowrap;';
 
       actions.appendChild(editBtn);
@@ -1061,7 +1078,7 @@
     document.getElementById('modal-custom-url').value = '';
     var saveBtn = document.getElementById('modal-save-btn');
     saveBtn.disabled = false;
-    saveBtn.textContent = '\u2705 Save to Recipe';
+    saveBtn.textContent = String.fromCodePoint(0x2705) + ' Save to Recipe';
 
     document.getElementById('pexels-modal').style.display = 'flex';
     document.body.style.overflow = 'hidden';
@@ -1152,7 +1169,7 @@
     document.getElementById('modal-save-status').textContent = '';
     var saveBtn = document.getElementById('modal-save-btn');
     saveBtn.disabled = false;
-    saveBtn.textContent = '\u2705 Save to Recipe';
+    saveBtn.textContent = String.fromCodePoint(0x2705) + ' Save to Recipe';
   }
 
   document.getElementById('modal-pick-again').addEventListener('click', function() {
@@ -1287,13 +1304,13 @@
       }
       status.style.color = '#27ae60';
       status.textContent = 'Image updated! Site will rebuild in 1-2 minutes.';
-      btn.textContent = '\u2705 Saved!';
+      btn.textContent = String.fromCodePoint(0x2705) + ' Saved!';
       setTimeout(closePexelsModal, 1500);
     }).catch(function(err) {
       status.style.color = '#c0392b';
       status.textContent = 'Error: ' + err.message;
       btn.disabled = false;
-      btn.textContent = '\u2705 Save to Recipe';
+      btn.textContent = String.fromCodePoint(0x2705) + ' Save to Recipe';
     });
   });
 
@@ -1309,7 +1326,7 @@
     document.getElementById('delete-status').textContent = '';
     document.getElementById('delete-status').style.color = '';
     document.getElementById('delete-confirm-btn').disabled = false;
-    document.getElementById('delete-confirm-btn').textContent = '\uD83D\uDDD1 Delete';
+    document.getElementById('delete-confirm-btn').textContent = String.fromCodePoint(0x1F5D1) + ' Delete';
     document.getElementById('delete-confirm-overlay').style.display = 'flex';
   }
 
@@ -1367,7 +1384,7 @@
       if (galleryIdx !== -1) allRecipes.splice(galleryIdx, 1);
       status.style.color = '#27ae60';
       status.textContent = '"' + recipe.title + '" deleted. Site will rebuild in 1-2 minutes.';
-      btn.textContent = '\u2705 Deleted!';
+      btn.textContent = String.fromCodePoint(0x2705) + ' Deleted!';
       deleteRecipePending = null;
       setTimeout(function() {
         document.getElementById('delete-confirm-overlay').style.display = 'none';
@@ -1377,7 +1394,7 @@
       status.style.color = '#c0392b';
       status.textContent = 'Error: ' + err.message;
       btn.disabled = false;
-      btn.textContent = '\uD83D\uDDD1 Delete';
+      btn.textContent = String.fromCodePoint(0x1F5D1) + ' Delete';
     });
   });
 
