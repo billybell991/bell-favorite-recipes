@@ -813,8 +813,20 @@ h3 { font-size: 1.3rem; }
   transform: scale(1.05);
 }
 
+.news-card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 .news-card-content {
   padding: 1.25rem 1.5rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .news-date {
@@ -853,13 +865,11 @@ h3 { font-size: 1.3rem; }
 .news-card h3 {
   margin: 0.5rem 0;
   font-size: 1.15rem;
-}
-
-.news-card h3 a {
   color: var(--color-text);
+  transition: color 0.2s;
 }
 
-.news-card h3 a:hover {
+.news-card:hover h3 {
   color: var(--color-primary);
 }
 

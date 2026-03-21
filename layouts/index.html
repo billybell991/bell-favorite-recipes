@@ -18,22 +18,24 @@
       {{ range first 6 (where .Site.RegularPages.ByDate.Reverse "Section" "recipes") }}
       {{ $recipe := . }}
       <article class="news-card">
-        {{ with .Params.image }}
-        <a href="{{ $recipe.RelPermalink }}" class="news-card-image">
-          <img src="{{ if hasPrefix . "http" }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}" alt="{{ $recipe.Title }}" loading="lazy">
+        <a href="{{ $recipe.RelPermalink }}" class="news-card-link">
+          {{ with .Params.image }}
+          <div class="news-card-image">
+            <img src="{{ if hasPrefix . "http" }}{{ . }}{{ else }}{{ . | relURL }}{{ end }}" alt="{{ $recipe.Title }}" loading="lazy">
+          </div>
+          {{ end }}
+          <div class="news-card-content">
+            <span class="news-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+            {{ with .Params.categories }}
+            {{ $cc := partial "cat-class.html" (index . 0) }}
+            <span class="news-category {{ $cc }}">{{ index . 0 }}</span>
+            {{ end }}
+            <h3>{{ .Title }}</h3>
+            {{ with .Params.description }}
+            <p>{{ . | truncate 100 }}</p>
+            {{ end }}
+          </div>
         </a>
-        {{ end }}
-        <div class="news-card-content">
-          <span class="news-date">{{ .Date.Format "Jan 2, 2006" }}</span>
-          {{ with .Params.categories }}
-          {{ $cc := partial "cat-class.html" (index . 0) }}
-          <span class="news-category {{ $cc }}">{{ index . 0 }}</span>
-          {{ end }}
-          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-          {{ with .Params.description }}
-          <p>{{ . | truncate 100 }}</p>
-          {{ end }}
-        </div>
       </article>
       {{ end }}
     </div>
