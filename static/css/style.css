@@ -660,22 +660,7 @@ h3 { font-size: 1.3rem; }
   font-size: 1rem;
   font-family: var(--font-body);
   color: var(--color-text);
-}
-
-.hero-search button {
-  background: var(--color-primary);
-  color: white;
-  border: none;
-  padding: 1rem 2rem;
-  font-family: var(--font-body);
-  font-weight: 600;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background 0.2s;
-}
-
-.hero-search button:hover {
-  background: var(--color-primary-dark);
+  border-radius: 50px;
 }
 
 /* Hero inline search results */

@@ -10,7 +10,6 @@
   var results = document.getElementById('search-results');
   var heroInput = document.getElementById('hero-search-input');
   var heroResults = document.getElementById('hero-search-results');
-  var heroBtn = document.getElementById('hero-search-btn');
 
   // Load search index (returns a promise, deduplicates calls)
   function loadSearchIndex() {
@@ -213,14 +212,7 @@
     });
   }
 
-  if (heroBtn) {
-    heroBtn.addEventListener('click', function () {
-      var q = heroInput ? heroInput.value.trim() : '';
-      loadSearchIndex().then(function () {
-        doHeroSearch(q);
-      });
-    });
-  }
+
 
   // Close hero results when clicking outside
   document.addEventListener('click', function (e) {
