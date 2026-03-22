@@ -11,6 +11,38 @@ const GEMINI_BASE = 'https://generativelanguage.googleapis.com/v1beta/models';
 
 app.use(express.json({ limit: '10mb' }));
 
+// ── Render → Railway redirect ─────────────────────────────────────────────────
+const RAILWAY_URL = 'https://bell-favorite-recipes.up.railway.app';
+app.use((req, res, next) => {
+  if (req.hostname === 'bell-favorite-recipes.onrender.com') {
+    return res.send(`<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bell Favorite Recipes has moved!</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{min-height:100vh;display:flex;align-items:center;justify-content:center;
+    font-family:'Segoe UI',system-ui,sans-serif;background:#faf7f4;color:#3b2f2f}
+  .card{text-align:center;padding:3rem 2rem;max-width:480px;
+    background:#fff;border-radius:16px;box-shadow:0 4px 24px rgba(0,0,0,.1)}
+  h1{font-size:1.6rem;margin-bottom:.75rem}
+  p{font-size:1.05rem;color:#6b5b5b;margin-bottom:1.5rem;line-height:1.5}
+  a.btn{display:inline-block;padding:.85rem 2rem;background:#a0522d;color:#fff;
+    border-radius:50px;text-decoration:none;font-weight:600;font-size:1.05rem;
+    transition:background .2s}
+  a.btn:hover{background:#7a3e22}
+  .emoji{font-size:2.5rem;margin-bottom:1rem}
+</style></head><body>
+<div class="card">
+  <div class="emoji">&#127869;</div>
+  <h1>We&rsquo;ve Moved!</h1>
+  <p>Bell Favorite Recipes has a new home. Update your bookmarks!</p>
+  <a class="btn" href="${RAILWAY_URL}">Go to the new site &rarr;</a>
+</div></body></html>`);
+  }
+  next();
+});
+
 // ── Gemini proxy ──────────────────────────────────────────────────────────────
 // POST /api/gemini?model=MODEL_NAME
 // Forwards the request body to Google's Gemini API, injecting the server-side key.
