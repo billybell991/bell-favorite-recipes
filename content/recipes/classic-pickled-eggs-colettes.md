@@ -18,16 +18,16 @@ notes: ""
 
 ### Ingredients
 
-- 12small eggs
-- 3 cupswhite vinegar
+- 12 small eggs
+- 3 cups white vinegar
 - ¼ cupwhite sugar
-- 1 Tbspsalt
-- 2 clovesgarlic
-- Cut up white onions(optional)
+- 1 Tbsp salt
+- 2 cloves garlic
+- Cut up white onions (optional)
 
 ## Ingredients
 
-- 1 bay leaf(optional)
+- 1 bay leaf (optional)
 
 ## Instructions
 

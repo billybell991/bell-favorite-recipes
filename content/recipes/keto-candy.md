@@ -16,10 +16,10 @@ notes: ""
 ---
 ## Ingredients
 
-- 1/2 cup + 2 tablespoonsbuttersalted
-- 1 cupgranulated sweetener of choiceI used allulose * See notes
+- 1/2 cup + 2 tablespoons buttersalted
+- 1 cup granulated sweetener of choiceI used allulose * See notes
 - 2/3 cups heavy cream
-- 1 teaspoonvanilla extractoptional
+- 1 teaspoon vanilla extractoptional
 
 ## Instructions
 

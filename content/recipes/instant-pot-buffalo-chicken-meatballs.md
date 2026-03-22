@@ -18,13 +18,13 @@ notes: ""
 ## Ingredients
 
 - 1.5 lb ground chicken
-- 3/4 cupalmond meal
+- 3/4 cup almond meal
 - 1 tsp sea salt
 - 2 garlic cloves minced
 - 2 green onions thinly sliced
-- 2 tbspghee
-- 6 tbsphot sauce
-- 4 tbspgheeor butter
+- 2 tbsp ghee
+- 6 tbsp hot sauce
+- 4 tbsp gheeor butter
 - Chopped green onions, for garnish
 
 ## Instructions

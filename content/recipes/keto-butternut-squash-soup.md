@@ -18,11 +18,11 @@ notes: ""
 ## Ingredients
 
 - 1 butternut squash peeled, seeded, cubed
-- 4 cupsbroth
+- 4 cups broth
 - 12 oz frozen cauliflower thawed & cooked until soft
 - ½ cup sour cream
 - ¼ cup heavy cream
-- 1 teaspoonsalt
+- 1 teaspoons alt
 
 Instant Pot:
 

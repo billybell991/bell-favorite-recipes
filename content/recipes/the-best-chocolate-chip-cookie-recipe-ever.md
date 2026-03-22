@@ -17,16 +17,16 @@ notes: ""
 
 ## Ingredients
 
-- 1 cupsalted buttersoftened
-- 1 cupgranulated sugar
-- 1 cuplight brown sugarpacked
-- 2 teaspoonspure vanilla extract
+- 1 cups alted buttersoftened
+- 1 cup granulated sugar
+- 1 cup light brown sugarpacked
+- 2 teaspoons pure vanilla extract
 - 2 large eggs
-- 3 cupsall-purpose flour
-- 1 teaspoonbaking soda
+- 3 cups all-purpose flour
+- 1 teaspoon baking soda
 - ½ teaspoonbaking powder
-- 1 teaspoonsea salt
-- 2 cupschocolate chips(14 oz)
+- 1 teaspoons ea salt
+- 2 cups chocolate chips (14 oz)
 
 ## Instructions
 

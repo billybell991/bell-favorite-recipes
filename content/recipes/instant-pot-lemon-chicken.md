@@ -21,13 +21,13 @@ notes: ""
 - sea salt and pepper to taste
 - 1/2 teaspoon garlic powder
 - 1/2 teaspoon smoked paprika
-- 1/2 teaspoonred chili flakesoptional or to taste
+- 1/2 teaspoon red chili flakesoptional or to taste
 - 2 Tablespoons olive oil
 - 3 Tablespoons butter (swap with ghee for paleo OR Whole30)
 - 1/2 small onion chopped
 - 4 garlic cloves sliced or minced
 - Juice of 1 lemon
-- 2-4 teaspoonsItalian seasoning
+- 2-4 teaspoons Italian seasoning
 - zest of half a lemon
 - 1/3 cup homemade or low sodium chicken broth **PLEASE SEE NOTES BELOW
 - 2 Tablespoons heavy cream OR coconut cream

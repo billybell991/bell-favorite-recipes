@@ -20,7 +20,7 @@ notes: ""
 - 3-1/2 cup water
 - 1 cup sliced carrot
 - 1 Tbsp chicken-flavored bouillon granules
-- 1 (8-oz)can mushroom stems and pieces,
+- 1 (8-oz) can mushroom stems and pieces,
 - 1 (14-1/2 oz) can no-salt added whole drained tomatoes, undrained and chopped
 - 1 cup diced zucchini
 - ¼ cup dried minced onion

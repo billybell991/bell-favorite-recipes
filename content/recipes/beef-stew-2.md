@@ -21,23 +21,23 @@ notes: ""
 - 1 -2 teaspoons sea salt
 - 1/2 teaspoon black pepper
 - 1/2 teaspoon onion powder
-- 2 1/2 teaspoonItalian seasoning, divided
+- 2 1/2 teaspoon Italian seasoning, divided
 - 1/3 cup flour , use gluten free flour or arrowroot starch if needed (leave out for keto)
 - cooking oil
 - 1 medium onion , cut into large chunks
 - 3-4 cloves garlic , minced
-- 6 Tablespoonstomato paste
+- 6 Tablespoons tomato paste
 - 2 Tablespoons balsamic vinegar or red wine
 - 4 medium Yukon potatoes , peeled and chopped into 1 inch chunks (sub with cauliflower for low carb / keto)
 - 1 large sweet potato peeled and chopped into 1 inch chunks (swap with pumpkin for low carb / keto)
 - 3 medium carrots , peeled and cut into slices (leave out for low carb / keto)
 - 2 ribs celery chopped
-- 1-2 teaspoonsWorcestershire sauce
+- 1-2 teaspoons Worcestershire sauce
 - 1 bay leaf
-- 4-5 cupsbeef broth, homemade or low sodium
+- 4-5 cups beef broth, homemade or low sodium
 - water as needed to cover the vegetables
 - 1-2 Tablespoons fresh chopped parsley for garnish
-- 1/2star anise, optional but adds SO much depth and flavor
+- 1/2 star anise, optional but adds SO much depth and flavor
 - salt and pepper to taste
 
 TO THICKEN STEW (OPTIONAL):

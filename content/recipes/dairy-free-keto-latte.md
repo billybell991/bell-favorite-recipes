@@ -20,7 +20,7 @@ notes: ""
 - 2 tbsp coconut oil
 - 1½ cups boiling water
 - 1 pinch vanilla extract
-- 1 tsppumpkin pie spiceor ground ginger
+- 1 tsp pumpkin pie spiceor ground ginger
 
 ## Instructions
 

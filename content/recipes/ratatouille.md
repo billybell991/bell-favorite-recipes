@@ -18,16 +18,16 @@ notes: ""
 ## Ingredients
 
 - 1 small eggplant about 3 cups, cubed into 1/4-inch pieces
-- 2 tspkosher salt
-- 4 tablespoonsextra-virgin olive oildivided
+- 2 tsp kosher salt
+- 4 tablespoons extra-virgin olive oildivided
 - 1 medium onion about 1 1/2 cups, diced
 - 2 zucchini about 3 cups, cubed into 1/4-inch pieces
 - 6 cloves garlic about 2 Tbsp, minced
 - 2 bell peppers about 3 cups, cubed into 1/2-inch pieces
 - 5 whole basil leaves plus 1 Tbsp thinly sliced basil leaves
-- 1/2 tspcrushed red pepperor to taste
+- 1/2 tsp crushed red pepperor to taste
 - 1/2 tsp freshly groundblack pepperor to taste
-- 1 Tbspcapers
+- 1 Tbsp capers
 - 2 1/2 cups tomatoes chopped into 1-inch pieces
 - 1 Tbsp parsley chopped
 - 1 tsp good qualitybalsamic vinegar

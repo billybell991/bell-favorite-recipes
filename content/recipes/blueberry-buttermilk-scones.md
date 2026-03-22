@@ -18,14 +18,14 @@ notes: ""
 
 For the scones
 
-- 2 and 3/4 cupsall-purpose flour
+- 2 and 3/4 cups all-purpose flour
 - 1/3 cup granulated sugar
 - 1 tablespoon baking powder
 - 1/2 teaspoon baking soda
 - 3/4 teaspoon salt
 - 3/4 cup fresh blueberries
 - 1/2 cup cold unsalted butter cut into pieces
-- 1 tablespoonvanilla extract
+- 1 tablespoon vanilla extract
 - 1 cup cold buttermilk
 - 1 tablespoon heavy cream or milk
 - 2 tablespoons coarse sugar
@@ -36,7 +36,7 @@ For the glaze
 
 - 1 cup confectioners' sugar
 - 2-3 tablespoons milk
-- 1/2 teaspoonvanilla extract
+- 1/2 teaspoon vanilla extract
 
 ## Instructions
 

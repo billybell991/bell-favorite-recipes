@@ -17,18 +17,18 @@ notes: ""
 
 ## Ingredients
 
-- 2 tbspolive oil
-- 2chicken breasts, diced
-- 4 clovesgarlic minced(or 2-3 tsp of minced garlic)
-- 3 tbsplow-sodium soy sauce or tamari
-- 1/2 cupjarred pad thai sauce (I like Thai Kitchen brand)
-- 1 1/2 cupswater
-- 1/2 packagerice noodles
-- 1 cupCarrot matchsticks
-- 1/2 eachred and yellow pepper, sliced(We replaced these with a bunch of bean sprouts instead)
-- 4green onions, sliced
-- 1/3 cupchopped peanuts(We omitted these for obvious reasons - allergies aplenty!)
-- 1/3 cupfresh chopped cilantro
+- 2 tbsp olive oil
+- 2 chicken breasts, diced
+- 4 cloves garlic minced (or 2-3 tsp of minced garlic)
+- 3 tbsp low-sodium soy sauce or tamari
+- 1/2 cup jarred pad thai sauce (I like Thai Kitchen brand)
+- 1 1/2 cups water
+- 1/2 package rice noodles
+- 1 cup Carrot matchsticks
+- 1/2 each red and yellow pepper, sliced (We replaced these with a bunch of bean sprouts instead)
+- 4 green onions, sliced
+- 1/3 cup chopped peanuts (We omitted these for obvious reasons - allergies aplenty!)
+- 1/3 cup fresh chopped cilantro
 
 NOTE:  We made a few changes to the original recipe.
 

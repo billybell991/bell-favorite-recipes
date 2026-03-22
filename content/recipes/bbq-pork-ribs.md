@@ -20,9 +20,9 @@ notes: ""
 For Dry Rub
 
 - 1 tbsp dry mustard
-- 1 1/2 tbspsmoked paprika
+- 1 1/2 tbsp smoked paprika
 - 1 tbsp onion powder
-- 1/2 tspcayenne pepper
+- 1/2 tsp cayenne pepper
 - 1 tsp cumin ground
 - 1 tsp garlic powder
 - 1 tbsp brown sugar
@@ -34,7 +34,7 @@ For Ribs
 - 2 racks baby back pork ribs (about 3 to 4 lbs)
 - 4 cups apple juice
 - 1/4 cup apple cider vinegar
-- 2 tbspliquid smoke
+- 2 tbsp liquid smoke
 
 For BBQ Sauce
 
@@ -42,8 +42,8 @@ For BBQ Sauce
 - 1/2 cup ketchup
 - 1/4 cup whiskey
 - 1/4 cup brown sugar
-- 2 tbspWorcestershire sauce
-- 1 tbspliquid smoke
+- 2 tbsp Worcestershire sauce
+- 1 tbsp liquid smoke
 
 ## Instructions
 

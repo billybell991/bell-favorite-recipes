@@ -20,14 +20,14 @@ notes: ""
 - 1 & 1/2 Lbs Peeled Cooked Shrimp
 - 3 Bell Peppers (1 Red, 1 Yellow, 1 Orange)
 - 3/4 Medium Red Onion
-- 1/2 TBSPOlive Oil
-- 1 TSPPink Himalayan Salt
-- 1 TSPBlack Pepper
-- 2 TSPChili Powder
-- 1/2 TSPCumin
-- 1/2 TSPGranulated Garlic
-- 1/2 TSPOnion Powder
-- 1/2 TSPSmoked Paprika
+- 1/2 TBSP Olive Oil
+- 1 TSP Pink Himalayan Salt
+- 1 TSP Black Pepper
+- 2 TSP Chili Powder
+- 1/2 TSP Cumin
+- 1/2 TSP Granulated Garlic
+- 1/2 TSP Onion Powder
+- 1/2 TSP Smoked Paprika
 - Fresh Cilantro (Optional)
 - Fresh Lime Juice (Optional)
 

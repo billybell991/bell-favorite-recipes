@@ -32,7 +32,7 @@ Pie crust
 
 - ¾ cupalmond flour
 - 4 tbsp sesame seeds
-- 4 tbspcoconut flour
+- 4 tbsp coconut flour
 - 1 tbsp ground psyllium husk powder
 - 1 tsp baking powder
 - 1 pinch salt

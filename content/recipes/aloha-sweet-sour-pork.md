@@ -26,7 +26,7 @@ notes: ""
 ## Ingredients
 
 - 1 clove garlic, minced
-- 1 tsp minced fresh ginger or 1/2tsp powdered ginger
+- 1 tsp minced fresh ginger or 1/2 tsp powdered ginger
 - 1-1/2 Tbsp corn starch
 - 1/2 tsp powdered ginger
 - ½ cup fruit juice or broth

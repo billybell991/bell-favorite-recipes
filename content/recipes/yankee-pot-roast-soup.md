@@ -27,19 +27,19 @@ SERVES:
 
 INGREDIENTS
 
-- 2 lbsstewing beef, cut in 1 inch cubes (or cut up pot roast)
-- 1 teaspoonsalt
-- 1 teaspoonpepper
-- 1 1⁄2tablespoonsfresh garlic, minced
-- 3 tablespoonsbutter
+- 2 lbs stewing beef, cut in 1 inch cubes (or cut up pot roast)
+- 1 teaspoons alt
+- 1 teaspoon pepper
+- 1 1⁄2 tablespoons fresh garlic, minced
+- 3 tablespoons butter
 - 2 mediumonions, cut in chunks
 - 2 mediumcarrots, cut in thick slices (or I use whole baby carrots)
 - 4 red potatoes, cut in chunks (whatever you consider a decent bite size)
 - 2 stalkscelery, cut in thick slices
-- 1 quartchicken broth(I use the Campbells 900 ml ready-to-serve carton)
-- 1 quartbeef broth
-- 1(156 ml) cantomato paste
-- 2bay leaves
+- 1 quart chicken broth (I use the Campbells 900 ml ready-to-serve carton)
+- 1 quart beef broth
+- 1 (156 ml) cantomato paste
+- 2 bay leaves
 - 1 teaspoon maggi seasoning sauce or 1 teaspoon bouquet garni liquid seasoning (no clue what this was and didn't use it)
 
 DIRECTIONS

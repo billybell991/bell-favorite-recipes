@@ -22,7 +22,7 @@ notes: ""
 - 1 cup applesauce
 - 1/3 cup oil
 - 1 egg
-- ½ cup raisins or ½ cup carob chips(optional)
+- ½ cup raisins or ½ cup carob chips (optional)
 - ¾ cup all-purpose flour
 - ¾ cup whole wheat flour
 - 3 tsp baking powder

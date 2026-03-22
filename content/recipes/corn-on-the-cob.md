@@ -27,9 +27,9 @@ In Pot
 - 4 Ears Corn on the Cob (or more)
 - 1 cup Water
 - 1/2 cup Milk
-- 1 TablespoonSugar
+- 1 TablespoonS ugar
 - 2 Tablespoons Butter
-- 1 teaspoonSea Salt
+- 1 teaspoonS ea Salt
 
 Instructions
 

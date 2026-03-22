@@ -24,7 +24,7 @@ notes: ""
 - 1/4 tsp nutmeg
 - ¾ cup rolled oats
 - ¼ cup Brown Sugar Twin
-- ½ cup raisins or ½ cup carob chips(optional)
+- ½ cup raisins or ½ cup carob chips (optional)
 - 1 egg ¼ cup oil
 - 1/3 cup milk
 - 2/3 cup applesauce

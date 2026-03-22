@@ -20,7 +20,7 @@ notes: ""
 - 1 Pkg or 1 Tbsp Yeast
 - ¼ cup lukewarm water
 - 2 eggs, plus enough scalded & cooled milk (or cooled boiled water) to make 2 cups (beat this slightly)
-- ½ cup (1/4 lb)melted butter or margarine
+- ½ cup (1/4 lb) melted butter or margarine
 - 1 tsp salt
 - ½ cup sugar
 - 6 cups all-purpose flour

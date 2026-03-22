@@ -17,21 +17,21 @@ notes: ""
 
 ## Ingredients
 
-- 1 poundDried Navy Beans
-- 1 TablespoonKosher Salt(to add to the soak water)
+- 1 pound Dried Navy Beans
+- 1 Tablespoon Kosher Salt (to add to the soak water)
 - 3 cups Water for soaking
 
 - 6-8 slices Thick Bacon roughly chopped
 - 1 medium Onion roughly chopped
 - 3 1/4 cups Fresh Water
-- 1/4 cupMaple Syrup(the real stuff)
-- 1/3 cupMolasses
-- 1/4 cupLight Brown Sugar(packed)
-- 1/3 cupHeinz Ketchup
-- 1 TablespoonWorcestershire Sauce(secret ingredient, shhh)
-- 1 1/4 teaspoonsDry Mustard Powder
-- 1/2 teaspoonSea Salt
-- 1/4 teaspoonFreshly Ground Black Pepper
+- 1/4 cup Maple Syrup (the real stuff)
+- 1/3 cup Molasses
+- 1/4 cup Light Brown Sugar (packed)
+- 1/3 cup Heinz Ketchup
+- 1 Tablespoon Worcestershire Sauce (secret ingredient, shhh)
+- 1 1/4 teaspoons Dry Mustard Powder
+- 1/2 teaspoonS ea Salt
+- 1/4 teaspoon Freshly Ground Black Pepper
 
 Instructions
 

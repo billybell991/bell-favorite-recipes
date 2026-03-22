@@ -17,16 +17,16 @@ notes: ""
 
 ## Ingredients
 
-- 2cups chopped cooked chicken breasts
-- 2hard-boiled eggs, sliced
-- 1⁄2cup thinly slicedcarrot
-- 1⁄2cupfrozen green pea
-- 1(10 3/4 ounce) can cream of chicken soup
-- 1cupchicken broth
+- 2 cups chopped cooked chicken breasts
+- 2 hard-boiled eggs, sliced
+- 1⁄2 cup thinly slicedcarrot
+- 1⁄2 cup frozen green pea
+- 1 (10 3/4 ounce) can cream of chicken soup
+- 1 cup chicken broth
 - salt and pepper (optional)
-- 11⁄2cups instantbiscuit mix
-- 1cupmilk
-- 1⁄2cup meltedbutter
+- 11⁄2 cups instantbiscuit mix
+- 1 cup milk
+- 1⁄2 cup meltedbutter
 
 ## Instructions
 

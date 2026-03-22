@@ -17,12 +17,12 @@ notes: ""
 
 ## Ingredients
 
-- 1/2cupunsalted butter, plus more for greasing
-- 2 cupsapple cider or unfiltered apple juice
-- 1 tablespoongranulated sugar
-- 1 teaspoonground cinnamon
+- 1/2 cup unsalted butter, plus more for greasing
+- 2 cups apple cider or unfiltered apple juice
+- 1 tablespoon granulated sugar
+- 1 teaspoon ground cinnamon
 - 210-ounce bags mini marshmallows, divided (about 11 cups total)
-- 1/4teaspoonkosher salt
+- 1/4 teaspoon kosher salt
 - 112-ounce box rice cereal, such as Rice Krispies (about 10 cups)
 - Nonstick cooking spray
 

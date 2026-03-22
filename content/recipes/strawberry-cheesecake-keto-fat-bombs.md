@@ -21,7 +21,7 @@ notes: ""
 - 3/4 cup = 180 ml = 5.3 oz = 150 g cream cheese, softened
 - 1/4 cup = 60 ml = 2 oz = 60 gbutterorcoconut oil, softened
 - 2 tablespoons = 0.7 oz = 20 gpowdered erythritolOR 10–15 dropsliquid stevia
-- 1 vanilla bean OR 1/2–1 tablespoonvanilla extract
+- 1 vanilla bean OR 1/2–1 tablespoon vanilla extract
 
 ## Instructions
 

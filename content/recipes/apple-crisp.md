@@ -20,14 +20,14 @@ notes: ""
 INGREDIENTS
 
 - 5 medium sized apples, peeled and chopped into chunks
-- 2 tspcinnamon
-- 1/2 tspnutmeg
+- 2 tsp cinnamon
+- 1/2 tsp nutmeg
 - 1/2 cup water
-- 1 tbspmaple syrup
+- 1 tbsp maple syrup
 - 4 tbsp butter
 - 3/4 cup old fashioned rolled oats
 - 1/4 cup flour
-- 1/4 cupbrown sugar
+- 1/4 cup brown sugar
 - 1/2 tsp salt
 
 DIRECTIONS
