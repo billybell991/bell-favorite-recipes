@@ -1,6 +1,7 @@
-// Search functionality using Fuse.js
+// Search functionality using Fuse.js with smart re-ranking
 (function () {
   var fuse = null;
+  var searchData = null; // raw index for token matching
   var indexLoaded = false;
   var indexLoading = null;
 
@@ -33,6 +34,7 @@
         if (xhr.status === 200) {
           try {
             var data = JSON.parse(xhr.responseText);
+            searchData = data;
             fuse = new Fuse(data, {
               keys: [
                 { name: 'title', weight: 0.4 },
@@ -41,9 +43,10 @@
                 { name: 'description', weight: 0.15 },
                 { name: 'content', weight: 0.1 }
               ],
-              threshold: 0.35,
+              threshold: 0.3,
               includeScore: true,
-              minMatchCharLength: 2
+              minMatchCharLength: 2,
+              ignoreLocation: true
             });
             indexLoaded = true;
           } catch (e) {
@@ -65,6 +68,76 @@
     var div = document.createElement('div');
     div.appendChild(document.createTextNode(str));
     return div.innerHTML;
+  }
+
+  // Smart search: combines Fuse.js fuzzy results with token-based re-ranking
+  // so multi-word queries like "instant pot pad thai" prioritize results
+  // where ALL words appear, not just partial matches.
+  function smartSearch(query, limit) {
+    if (!fuse || !searchData) return [];
+
+    var tokens = query.toLowerCase().split(/\s+/).filter(function (t) { return t.length >= 2; });
+    if (tokens.length === 0) return [];
+
+    // Phase 1: Find items from the full dataset where ALL tokens appear
+    // somewhere in title + description + tags + content
+    var allTokenMatches = [];
+    searchData.forEach(function (item) {
+      var titleLower = (item.title || '').toLowerCase();
+      var descLower = (item.description || '').toLowerCase();
+      var tagsLower = (item.tags || []).join(' ').toLowerCase();
+      var catLower = (item.categories || []).join(' ').toLowerCase();
+      var textBlob = titleLower + ' ' + descLower + ' ' + tagsLower + ' ' + catLower + ' ' + (item.content || '').toLowerCase();
+
+      var titleHits = 0;
+      var totalHits = 0;
+      tokens.forEach(function (token) {
+        if (titleLower.indexOf(token) !== -1) titleHits++;
+        if (textBlob.indexOf(token) !== -1) totalHits++;
+      });
+
+      if (totalHits === tokens.length) {
+        allTokenMatches.push({
+          item: item,
+          titleHits: titleHits,
+          totalHits: totalHits,
+          // Bonus: boost if query appears as a contiguous phrase in the title
+          phraseInTitle: titleLower.indexOf(query.toLowerCase()) !== -1 ? 1 : 0
+        });
+      }
+    });
+
+    // Sort exact matches: phrase-in-title first, then most title hits, then alphabetical
+    allTokenMatches.sort(function (a, b) {
+      if (b.phraseInTitle !== a.phraseInTitle) return b.phraseInTitle - a.phraseInTitle;
+      if (b.titleHits !== a.titleHits) return b.titleHits - a.titleHits;
+      return a.item.title.localeCompare(b.item.title);
+    });
+
+    // Phase 2: Fuse.js fuzzy results as fallback
+    var fuseHits = fuse.search(query, { limit: limit });
+
+    // Merge: all-token matches first, then Fuse results (deduplicated)
+    var seen = {};
+    var merged = [];
+
+    allTokenMatches.forEach(function (m) {
+      var key = m.item.permalink;
+      if (!seen[key]) {
+        seen[key] = true;
+        merged.push({ item: m.item });
+      }
+    });
+
+    fuseHits.forEach(function (r) {
+      var key = r.item.permalink;
+      if (!seen[key]) {
+        seen[key] = true;
+        merged.push({ item: r.item });
+      }
+    });
+
+    return merged.slice(0, limit);
   }
 
   // ── Nav search (magnifying glass, click-to-open) ──
@@ -92,7 +165,7 @@
       if (results) results.innerHTML = '';
       return;
     }
-    var hits = fuse.search(query, { limit: 15 });
+    var hits = smartSearch(query, 15);
     if (hits.length === 0) {
       results.innerHTML = '<div class="search-no-results"><p>No recipes found for "<strong>' +
         escapeHtml(query) + '</strong>"</p><p>Try a different search term</p></div>';
@@ -162,7 +235,7 @@
       heroResults.classList.remove('visible');
       return;
     }
-    var hits = fuse.search(query, { limit: 30 });
+    var hits = smartSearch(query, 30);
     if (hits.length === 0) {
       heroResults.innerHTML = '<div class="search-no-results"><p>No recipes found for "<strong>' +
         escapeHtml(query) + '</strong>"</p><p>Try a different search term</p></div>';
