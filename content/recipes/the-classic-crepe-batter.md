@@ -1,6 +1,6 @@
 ---
 title: "The Classic Crepe Batter"
-date: 2026-03-22T12:07:39-05:00
+date: 2026-03-22T08:00:00-05:00
 draft: false
 categories: ["Misc Recipes - Internet"]
 tags: []

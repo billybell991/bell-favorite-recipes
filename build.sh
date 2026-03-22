@@ -11,7 +11,7 @@ rm hugo.tar.gz
 echo "Hugo ready: $(./hugo version)"
 
 echo "=== Building Hugo site ==="
-./hugo --minify
+./hugo --minify --buildFuture
 
 echo "=== Installing Node dependencies ==="
 npm install
