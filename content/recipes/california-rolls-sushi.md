@@ -14,8 +14,6 @@ servings: ""
 image: "images/recipes/california-rolls-sushi.png"
 notes: ""
 ---
-### Ingredients
-
 ## Ingredients
 
 - Juice of 1/2 lemon
@@ -30,8 +28,6 @@ notes: ""
 - Soy sauce, for serving
 
 ## Instructions
-
-### Directions
 
 Squeeze the lemon juice over the avocado to prevent browning.
 

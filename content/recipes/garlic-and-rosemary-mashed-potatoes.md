@@ -14,8 +14,6 @@ servings: ""
 image: "images/recipes/garlic-and-rosemary-mashed-potatoes.png"
 notes: ""
 ---
-### Ingredients
-
 ## Ingredients
 
 - 5-6 Large Potatoes Peeled and cubed You can use more or less with the same cooking time
@@ -26,8 +24,6 @@ notes: ""
 - 1/4 cup milk
 
 ## Instructions
-
-### Instructions
 
 1. Place cubed potatoes in the Instant pot with chicken broth whole cloves of garlic, rosemary sprig, and butter.
 2. Place IP on manual high pressure for 15 minutes.

@@ -14,8 +14,6 @@ servings: ""
 image: "images/recipes/chicken-wings.png"
 notes: ""
 ---
-### Ingredients
-
 ## Ingredients
 
 - 1 1/3 pound chicken wings about 12 wings
@@ -23,8 +21,6 @@ notes: ""
 - 1 1/2 tsp smoked salt
 
 ## Instructions
-
-### Instructions
 
 1. In a shallow dish mix the spices together
 2. Roll each wing in the spices gently, the spice don't need to cover the whole wing

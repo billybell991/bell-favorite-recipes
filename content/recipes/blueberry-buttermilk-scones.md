@@ -32,15 +32,11 @@ For the scones
 
 For the glaze
 
-## Ingredients
-
 - 1 cup confectioners' sugar
 - 2-3 tablespoons milk
 - 1/2 teaspoon vanilla extract
 
 ## Instructions
-
-### Instructions
 
 Make the scones
 

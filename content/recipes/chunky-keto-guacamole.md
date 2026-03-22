@@ -27,8 +27,6 @@ notes: ""
 
 ## Instructions
 
-### INSTRUCTIONS
-
 1. Add all ingredients to a large bowl and stir well to combine. Adjust seasoning if desired.
 
 ### NUTRITION

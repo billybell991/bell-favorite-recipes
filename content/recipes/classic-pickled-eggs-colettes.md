@@ -14,9 +14,7 @@ servings: ""
 image: "images/recipes/classic-pickled-eggs-colettes.png"
 notes: ""
 ---
-## CLASSIC PICKLED EGGS
-
-### Ingredients
+## Ingredients
 
 - 12 small eggs
 - 3 cups white vinegar
@@ -24,14 +22,9 @@ notes: ""
 - 1 Tbsp salt
 - 2 cloves garlic
 - Cut up white onions (optional)
-
-## Ingredients
-
 - 1 bay leaf (optional)
 
 ## Instructions
-
-### Instructions
 
 1. Prepare the eggs:Place eggs in a saucepan and cover with water. Bring to a boil, remove from heat, and let eggs stand in hot water for 15 minutes. Remove eggs from hot water, cool under cold running water, and peel.
 2. Make the brine:Bring vinegar, sugar, and salt to a boil until sugar is dissolved. Remove from heat.

@@ -63,14 +63,10 @@ Chop the potatoes into bite sized cubes and add to the soup and simmer for appro
 
 Ladle the soup into individual bowls and garnish with chopped bacon, chives and the cheese blend.
 
-Notes:
-
-## Ingredients
+### Notes
 
 - This is a REALLY good soup.  It kind of eats like a meal.
 - I'd rate it around 4.5 out of 5.
-
-## Instructions
 
 Here's the actual recipe website.  Credit to Chef Pablo's kitchen!
 

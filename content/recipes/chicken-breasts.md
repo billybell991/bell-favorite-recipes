@@ -14,8 +14,6 @@ servings: ""
 image: "images/recipes/chicken-breasts.png"
 notes: ""
 ---
-### Ingredients
-
 ## Ingredients
 
 - 1 Tablespoon oil (I use avocado, but you can use coconut or canola - something with a high smoke point is best!)
@@ -27,8 +25,6 @@ notes: ""
 - 1 cup water
 
 ## Instructions
-
-### Instructions
 
 1. Preheat the sauté function on the Instant Pot at the highest setting, and add oil to the pot.
 2. Season one side of the chicken breasts.

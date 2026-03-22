@@ -39,14 +39,10 @@ Stir oats. Stir in raisins and chia seeds. Cover and let sit five or 10 minutes 
 
 Top with additional raisins, maple syrup, chopped nuts, and milk.
 
-Notes:
-
-## Ingredients
+### Notes
 
 - Seemed a little bit bland, but I guess all oatmeal kind of is.  Definitely tasted like carrot cake.  I wound up throwing a tsp of brown sugar in my bowl of it and a little shot of milk.  That made it better.
 - Rating - 3 out of 5
-
-## Instructions
 
 Here's the actual website for this recipe.  Credit to Taste of Home!
 

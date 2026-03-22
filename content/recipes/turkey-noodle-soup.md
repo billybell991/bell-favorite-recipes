@@ -29,8 +29,6 @@ notes: ""
 
 ## Instructions
 
-### Instructions
-
 1. In your Instant Pot, combine the onion, garlic, carrot and celery along with the butter.
 2. Push saute and let the veggies cook for 4-5 minutes.
 3. Turn off the saute function, and add the chicken, broth and noodles - place the lid on the Instant Pot and lock, ensure the valve is closed.
