@@ -19,7 +19,7 @@ notes: ""
 
 READY IN:
 
-1hr 45mins
+1hr 45 mins
 
 SERVES:
 

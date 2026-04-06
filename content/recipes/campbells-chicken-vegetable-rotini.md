@@ -20,7 +20,7 @@ notes: ""
 - 1 Tbsp vegetable oil
 - 1 lb boneless, skinless chicken breasts,cut in chunks
 - 1 can Condensed Cream of Celery Soup
-- 2-1/4 cups water2 cups fresh (cut-up) or frozen veggie mix
+- 2-1/4 cups water 2 cups fresh (cut-up) or frozen veggie mix
 - ½ tsp dried basil leaves
 - 2 cups uncooked rotini pasta
 

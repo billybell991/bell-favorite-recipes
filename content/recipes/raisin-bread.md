@@ -31,7 +31,7 @@ notes: ""
 
 ## Instructions
 
-Preheat oven to 350 degrees.         Dissolve sugar and yeast in 1stquantity of water
+Preheat oven to 350 degrees.         Dissolve sugar and yeast in 1st quantity of water
 
 Melt ½ cup sugar, shortening and salt in 2 cups boiling water, then cool mixture with the one cup of cold water.
 

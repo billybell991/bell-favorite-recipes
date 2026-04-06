@@ -54,7 +54,7 @@ Since we have a sesame allergy in the house and I didn't have any poppy seeds, I
 
 ## Ingredients
 
-- Spicy Bagels - Found a really good cajun seasoning recipe that worked great for these.  Here's aLINKto it, but here is the actual mix:1 ½ teaspoons onion powder1 ½ teaspoons garlic powder1 tablespoonseasoning salt1 tablespoon paprika1 teaspoon ground black pepper1 teaspoon cayenne pepperadd more if you like more heat1 teaspoon oregano1 teaspoon thyme1/2 teaspoon red pepper flakes
+- Spicy Bagels - Found a really good cajun seasoning recipe that worked great for these.  Here's aLINKto it, but here is the actual mix:1 ½ teaspoons onion powder 1 ½ teaspoons garlic powder 1 tablespoonseasoning salt 1 tablespoon paprika 1 teaspoon ground black pepper 1 teaspoon cayenne pepperadd more if you like more heat 1 teaspoon oregano 1 teaspoon thyme 1/2 teaspoon red pepper flakes
 - Onion Bagels - Dry onion flakes and garlic salt.  These turned out really good.
 - Cinnamon & Sugar - Since the bagels were still wet when I put this stuff on it, it kind of melted away.  They were "ok" but I think I'd maybe put the cinnamon/sugar and maybe some raisins right into the dough just before forming it into bagels.
 

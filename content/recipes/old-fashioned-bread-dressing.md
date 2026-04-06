@@ -24,7 +24,7 @@ notes: ""
 - 1 tsp poultry seasoning
 - ½ tsp salt
 - 1/8 tsp pepper
-- 8 cups dry bread cubes1 cup chicken broth or water
+- 8 cups dry bread cubes 1 cup chicken broth or water
 
 NOTE:  (I (Mom) use 1 tsp chicken bouillon powder in 1 cup boiling water.)
 

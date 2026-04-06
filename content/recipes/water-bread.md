@@ -34,7 +34,7 @@ Pour softened yeast into water mixture, add flour – about 6 cups to start with
 
 Place in a bowl, cover and let double in size. (about 1.5 hours) Then punch down and shape into 4 small loaves (9 x 4-1/2 pans) and let rise again until doubled (about 1.5 hours).
 
-Billy's Notes: The bread dough needs a warm(ish) environment to rise nicely in.  A helpful trick I found was to turn the oven light on beforehand and let your dough rise in the closed oven (with the light still on).  This last time, I even put a little space heater in my laundry room and had the temperature around 25 degreec Celcius in the room.  That seemed to work well.  Whe Mom used to make this at the lake, Dad would keep the place as hot as Satan's arse crack, so I'm trying to mimic that.
+Billy's Notes: The bread dough needs a warm (ish) environment to rise nicely in.  A helpful trick I found was to turn the oven light on beforehand and let your dough rise in the closed oven (with the light still on).  This last time, I even put a little space heater in my laundry room and had the temperature around 25 degreec Celcius in the room.  That seemed to work well.  Whe Mom used to make this at the lake, Dad would keep the place as hot as Satan's arse crack, so I'm trying to mimic that.
 
 Bake for 25 minutes in a preheated 375 degree oven.  (Billy's Note:  Make sure to use the bottom rack! I burnt the tops of the friggers last time, even on the middle rack.) . (Also, set it for 20 mins and give it a look.  With my oven, I think 25 would be too long.)
 
@@ -42,8 +42,8 @@ For a soft crust, butter top while hot.
 
 NOTE:To prepare yeast:
 
--          1tsp. Sugar  (Billy's Note: I like my bread "airy", so I put an extra 1/2 tsp of sugar in for the yeast - so 1.5 tsp total)
+-          1 tsp. Sugar  (Billy's Note: I like my bread "airy", so I put an extra 1/2 tsp of sugar in for the yeast - so 1.5 tsp total)
 
--          ¼ cup boiling water – combine with another ¼ cup of cold water to measuring cup (should be a little warmer than lukewarm to activate yeast).  Add to, and dilute sugar.  Sprinkle 1tbsp of dry yeast or 1 envelope
+-          ¼ cup boiling water – combine with another ¼ cup of cold water to measuring cup (should be a little warmer than lukewarm to activate yeast).  Add to, and dilute sugar.  Sprinkle 1 tbsp of dry yeast or 1 envelope
 
 -          yeast is ready when surface rises and granules are melted

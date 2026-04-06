@@ -29,7 +29,7 @@ notes: ""
 
 Add water and sugar together then sprinkle yeast over top.  Let rise.
 
-Mix eggs, shortening and 2ndamount of sugar together. Add yeast mixture and flour.
+Mix eggs, shortening and 2nd amount of sugar together. Add yeast mixture and flour.
 
 Knead. Let rise l to 1-1/2 hours. Place two finger-sized pieces of dough in muffin tin.
 

@@ -26,7 +26,7 @@ notes: ""
 - Sliced cucumber batons
 - ½ peeled avocado
 
-NOTE: There are a lot of recipes to make the actual sushi rice, but I've usedTHIS ONE(made in the Instant Pot).  It turns out pretty good.
+NOTE: There are a lot of recipes to make the actual sushi rice, but I've usedTHIS ONE (made in the Instant Pot).  It turns out pretty good.
 
 The instructions for this one are a bit detailed to paste here, so please follow the link below to the original recipe from MakeSushi.com:
 

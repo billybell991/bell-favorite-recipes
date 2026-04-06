@@ -21,7 +21,7 @@ notes: ""
 - ½ cup chopped red or green pepper
 - ½ cup chopped celery
 - 1 can Cream of Mushroom Soup
-- 1/3 cup milk2 cups cooked chicken, cubed
+- 1/3 cup milk 2 cups cooked chicken, cubed
 - 1 cup frozen green peas
 - dash ground black pepper, optional
 - 4 cups hot cooked rice or pasta

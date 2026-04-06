@@ -47,7 +47,7 @@ TO THICKEN STEW (OPTIONAL):
 
 ## Instructions
 
-1. In a large zip-top bag, combine flour, salt, pepper, onion powder, and 1/2 teaspoonItalian seasoning. Add meat and shake until well coated.
+1. In a large zip-top bag, combine flour, salt, pepper, onion powder, and 1/2 teaspoon Italian seasoning. Add meat and shake until well coated.
 2. Browning the meat: (feel free to skip to step 5 and add all the ingredients together instead). Set the Instant Pot to SAUTE, add cooking oil and brown the meat on all sides. Meat will not be cooked through. (Be sure not to crowd the pot - you may have to work in batches). Transfer browned meat onto a large plate.
 3. Place the pot back in the pressure cooker and add onions and garlic and sauté for a minute or two then add the balsamic vinegar and tomato paste until just hot enough to deglaze the pot, about 1 minute.
 4. Add the beef back into the pot along with potatoes, sweet potato, carrots, celery, Worcestershire sauce, the remaining 2 teaspoons Italian seasoning, bay leaf, beef broth and (star anise if using). Stir to combine. If there is not enough liquid to cover the vegetables, add water - only as much as needed.

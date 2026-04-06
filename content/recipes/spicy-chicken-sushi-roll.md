@@ -31,7 +31,7 @@ Sushi
 - 1 Persian cucumber, sliced (or regular cucumbers)
 - 1 large avocado, sliced
 
-NOTE: There are a lot of recipes to make the actual sushi rice, but I've usedTHIS ONE(made in the Instant Pot).  It turns out pretty good.
+NOTE: There are a lot of recipes to make the actual sushi rice, but I've usedTHIS ONE (made in the Instant Pot).  It turns out pretty good.
 
 ## Instructions
 

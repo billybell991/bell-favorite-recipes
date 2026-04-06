@@ -40,7 +40,7 @@ Filling:
 
 ## Instructions
 
-1. Preheat oven to375 degrees Fahrenheit
+1. Preheat oven to 375 degrees Fahrenheit
 2. Mix together chili powder, garlic powder, cumin, and salt. Drizzle chicken with olive oil and add seasoning mix to both sides of each chicken breast
 3. Cook the chicken for 20-25 minutes or until fully cooked (internal temp of 165 Fahrenheit). Shred once cooked using 2 forks.
 4. Turn the oven up to 425 degrees Fahrenheit

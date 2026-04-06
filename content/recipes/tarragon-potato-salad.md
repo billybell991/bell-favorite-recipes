@@ -28,7 +28,7 @@ notes: ""
 
 ## Instructions
 
-Cook potatoes in boiling water to cover 15 minutes or until tender. Drain well, and cool. Cut into ¼” slices, and set aside. Combine tarragon, parsley, mustard and garlic in container of an electric blender. Cover and process 30 seconds or until pureed. Add Italian dressing and process until blended. With blender running, slowly add lemon juice, and continue to process dressing mixture until smooth. Add dressing mixture to cooked potato slices; add minced green onions, and toss well to coat. Cover and chill. Yield: 8(1/2 cup) servings.
+Cook potatoes in boiling water to cover 15 minutes or until tender. Drain well, and cool. Cut into ¼” slices, and set aside. Combine tarragon, parsley, mustard and garlic in container of an electric blender. Cover and process 30 seconds or until pureed. Add Italian dressing and process until blended. With blender running, slowly add lemon juice, and continue to process dressing mixture until smooth. Add dressing mixture to cooked potato slices; add minced green onions, and toss well to coat. Cover and chill. Yield: 8 (1/2 cup) servings.
 
 Diabetic exchange: 1 starch. Nutritional Value per serving: Calories 84, Carbohydrate 16 g,
 

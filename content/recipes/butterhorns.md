@@ -29,9 +29,9 @@ notes: ""
 
 In large bowl sprinkle yeast & add warm water & stir until dissolved. Add eggs, milk (or water), butter, salt, sugar and stir until well blended.
 
-STIR in 3 cups flour, beating until smooth after each addition. Add the 4thcup; beat until dough is smooth & elastic. Stir in 5thcup of flour to make stiff dough.
+STIR in 3 cups flour, beating until smooth after each addition. Add the 4th cup; beat until dough is smooth & elastic. Stir in 5th cup of flour to make stiff dough.
 
-MEASURE the 6thcup & sprinkle about half of it on a board. Turn the dough out onto the heavily floured board & with well floured hands knead dough until it is smooth & elastic (about 5 – 7 minutes) using remaining flour as needed. (NOTE) I don’t usually measure the flour: I’m just copying this quantity as it is in the recipe.)
+MEASURE the 6th cup & sprinkle about half of it on a board. Turn the dough out onto the heavily floured board & with well floured hands knead dough until it is smooth & elastic (about 5 – 7 minutes) using remaining flour as needed. (NOTE) I don’t usually measure the flour: I’m just copying this quantity as it is in the recipe.)
 
 PLACE the dough in a well buttered bowl & butter the top lightly. Cover & let rise in a warm place until almost doubled in bulk. (1-1/2  -  2 hrs).
 

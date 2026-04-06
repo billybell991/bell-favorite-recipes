@@ -21,7 +21,7 @@ Aunt and Uncle of the Groom
 ## Ingredients
 
 - 1 large tin tomato juice
-- 1 can diced tomatoesor3-4 ripe, fresh tomatoes, chopped
+- 1 can diced tomatoes or 3-4 ripe, fresh tomatoes, chopped
 - ½ English cucumber, unpeeled and finely chopped
 - ½ red pepper, finely chopped (whole one if small)
 - 2 cloves garlic, minced or crushed

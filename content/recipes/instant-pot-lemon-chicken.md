@@ -23,7 +23,7 @@ notes: ""
 - 1/2 teaspoon smoked paprika
 - 1/2 teaspoon red chili flakesoptional or to taste
 - 2 Tablespoons olive oil
-- 3 Tablespoons butter (swap with ghee for paleo OR Whole30)
+- 3 Tablespoons butter (swap with ghee for paleo OR Whole 30)
 - 1/2 small onion chopped
 - 4 garlic cloves sliced or minced
 - Juice of 1 lemon

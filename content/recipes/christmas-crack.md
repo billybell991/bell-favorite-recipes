@@ -17,7 +17,6 @@ notes: ""
 
 ## Ingredients
 
-:
 
 - 1 cup of butter
 - 1 cup of brown sugar
@@ -27,7 +26,7 @@ notes: ""
 
 ## Instructions
 
-1. Preheat oven to325degrees Fahrenheitand line a medium cookie tray with parchment paper. Lay out pretzel crisps or saltines on the tray in a single layer until the tray is fully covered.
+1. Preheat oven to 325 degrees Fahrenheit and line a medium cookie tray with parchment paper. Lay out pretzel crisps or saltines on the tray in a single layer until the tray is fully covered.
 2. In a small pot, melt butter and brown sugar together until fully combined. Bring to a boil, reduce temperature to medium-low and stir continuously for 3 minutes.
 3. After the 3 minutes, pour the mixture overtop of the pretzels or saltines on the tray, try to spread it as much as you can but it will spread in the oven!
 4. Bake in the oven for 8-10 minutes until bubbly. Remove from the oven and add your bag of chocolate chips, trying to spread them evenly.

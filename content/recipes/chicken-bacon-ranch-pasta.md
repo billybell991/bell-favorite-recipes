@@ -32,7 +32,7 @@ Ingredients:
 
 ## Instructions
 
-1. Preheat oven to450 degrees Fahrenheit and cook chicken breasts until fully cooked (about 15-20 minutes).
+1. Preheat oven to 450 degrees Fahrenheit and cook chicken breasts until fully cooked (about 15-20 minutes).
 2. Add shredded chicken and ranch seasoning into a bowl and combine.
 3. Add chicken, broth, and pasta into a large pot, stir, and bring to a boil.
 4. Once boiling, reduce the heat to low and cover for 15-20 minutes until noodles are the preferred texture.

@@ -32,7 +32,7 @@ notes: ""
 
 ## Instructions
 
-In large, nonstick skillet, melt margarine or butter. Add potatoes; cook, stirring occasionally, until potatoes are tender and golden. In small bowl, combine onion soup mix, water, parsley, lemon juice, lemon rind, rosemary and pepper. Add to potatoes; stir and cook over high heat until po0tatoes are coated and liquid evaporated. Stir in oil and cook until potatoes are crisp.
+In large, nonstick skillet, melt margarine or butter. Add potatoes; cook, stirring occasionally, until potatoes are tender and golden. In small bowl, combine onion soup mix, water, parsley, lemon juice, lemon rind, rosemary and pepper. Add to potatoes; stir and cook over high heat until potatoes are coated and liquid evaporated. Stir in oil and cook until potatoes are crisp.
 
 A zesty menu accompaniment – perfect with meat, chicken or burgers. For added colour, use unpeeled potatoes.
 

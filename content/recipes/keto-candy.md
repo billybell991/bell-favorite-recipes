@@ -31,7 +31,7 @@ Transfer the candy into the lined pan and refrigerate until firm. Once firm, bre
 
 ### Nutrition
 
-Serving:1serving| Calories:67kcal| Carbohydrates:1g| Protein:1g| Fat:7g| Sodium:47mg| Potassium:7mg| Vitamin A:251IU| Vitamin C:1mg| Calcium:6mg| Iron:1mg| NET CARBS:1g
+Serving:1 serving| Calories:67 kcal| Carbohydrates:1g| Protein:1g| Fat:7g| Sodium:47mg| Potassium:7mg| Vitamin A:251IU| Vitamin C:1mg| Calcium:6mg| Iron:1mg| NET CARBS:1g
 
 Credit for this recipe goes to The Big Man's World:
 

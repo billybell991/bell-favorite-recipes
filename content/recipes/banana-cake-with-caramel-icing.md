@@ -28,7 +28,7 @@ Cake:
 - ¼ tsp cinnamon
 - 2 eggs
 - 1 cup mashed bananas
-- 1 cup buttermilkor1 cup sourmilk (add 2 tbsp vinegar to your regular cup of milk)
+- 1 cup buttermilk or 1 cup sourmilk (add 2 tbsp vinegar to your regular cup of milk)
 
 Throw all the ingredients into a big bowl and mix. Pour into a 3 L pan that has been greased, and bake at 350 degrees for 30 minutes or until a knife inserted in the middle comes out clean and dry.
 

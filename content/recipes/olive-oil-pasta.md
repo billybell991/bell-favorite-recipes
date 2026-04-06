@@ -29,11 +29,11 @@ notes: ""
 
 ## Instructions
 
-1)Bring a large pot of water to a boil. Add in 2 tablespoons salt to the water and cook the pasta according to package directions.
+1) Bring a large pot of water to a boil. Add in 2 tablespoons salt to the water and cook the pasta according to package directions.
 
-2)In a small saucepan, pour in 1/4 cup olive oil and heat over low heat for 60 seconds. Add in garlic and red pepper flakes. Stir and cook 60 seconds. Remove from heat.
+2) In a small saucepan, pour in 1/4 cup olive oil and heat over low heat for 60 seconds. Add in garlic and red pepper flakes. Stir and cook 60 seconds. Remove from heat.
 
-3)Pour olive oil mixture over the cooked and drained pasta. Add in additional 2 tablespoons of olive oil. Pour in lemon juice and parsley and toss until pasta is coated.
+3) Pour olive oil mixture over the cooked and drained pasta. Add in additional 2 tablespoons of olive oil. Pour in lemon juice and parsley and toss until pasta is coated.
 
 Billy's Notes:  This was good!  Definitely want to use the parmesan and go a little heavier on the salt once you taste test it.  Was a little bland to start, but salt tuned it up.
 

@@ -26,4 +26,4 @@ Add
 2 tsp ginger
 2-1/2 cups white flour
 
-Mix well then shape i8nto small balls and press down with a fork. Add candy decorations if you wish. Bake in 350 F. Makes 3 dozen cookies.
+Mix well then shape into small balls and press down with a fork. Add candy decorations if you wish. Bake in 350 F. Makes 3 dozen cookies.

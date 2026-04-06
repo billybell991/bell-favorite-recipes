@@ -19,7 +19,7 @@ notes: ""
 
 - 2 lb mushrooms
 - 6 garlic cloves
-- 1/2 cup white vinegar5% acidity
+- 1/2 cup white vinegar 5% acidity
 - 2 cup water
 - 1 tbsp sugar
 - 1 tbsp salt

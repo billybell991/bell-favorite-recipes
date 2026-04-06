@@ -33,6 +33,6 @@ notes: ""
 3. Once the cider has reduced, add one bag of marshmallows and salt and continue cooking over high heat, stirring constantly, until the marshmallows melt and darken into a light caramel color, 3 to 4 minutes.
 4. Remove the pot from the heat and add the remaining bag of marshmallows. Stir just until the marshmallows are about half melted, then add the rice cereal. Gently but quickly mix everything together until the rice cereal is evenly coated in the marshmallow mixture and immediately transfer into the prepared baking pan. Gently press the mixture into an even layer using a spatula sprayed with nonstick cooking spray. Sprinkle the cinnamon sugar mixture over the top and let set for at least 1 hour before cutting.
 
-Credit for this recipe goes to Food52.com:
+Credit for this recipe goes to Food 52.com:
 
 [Apple Cider Doughnut Rice Krispies Treats Recipe on Food52These Rice Krispie treats are inspired by the flavors of an apple cider doughnut. It's an easy fall baking project that everyone will love.](https://food52.com/recipes/88421-apple-cider-rice-krispie-treats)
