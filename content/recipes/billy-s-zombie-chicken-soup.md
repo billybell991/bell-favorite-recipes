@@ -4,9 +4,7 @@ date: 2026-04-12T22:18:39-05:00
 draft: false
 categories: ["Instant Pot Recipes"]
 tags: []
-description: "Gemini's Description:  A rich, spicy, and comforting soup that makes the most of every bit of that rotisserie bird.  
-
-Billy's Description:  Why \"zombie\"?  This soup comes alive from the bones and rotting meat of a rotisserie chicken, of course!"
+description: "Gemini's Description:  A rich, spicy, and comforting soup that makes the most of every bit of that rotisserie bird."
 source: ""
 creditUrl: ""
 credit: ""
