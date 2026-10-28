@@ -2,7 +2,7 @@
 title: "Salted Caramel Sauce"
 date: 2026-10-28T11:56:37-05:00
 draft: false
-categories: ["Friends Recipes"]
+categories: ["Misc Recipes - Internet"]
 tags: []
 description: "A very easy recipe for salted caramel. My “go to” that I make all the time for drizzling on ice cream, pancakes, bars and more!"
 source: ""
@@ -12,7 +12,7 @@ prepTime: ""
 cookTime: ""
 servings: ""
 image: "https://images.pexels.com/photos/128399/pexels-photo-128399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-notes: "Store in an air tight container for up to 3 weeks in the refrigerator or up to 2 months in the freezer."
+notes: "Store in an air tight container for up to 3 weeks in the refrigerator or up to 2 months in the freezer.  Thank you Margot Bell for sending this one my way!"
 ---
 
 ## Ingredients
