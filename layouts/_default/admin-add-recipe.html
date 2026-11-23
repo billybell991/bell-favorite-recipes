@@ -163,6 +163,11 @@
             <button type="button" id="photo-search-btn" class="btn btn-secondary">Search</button>
           </div>
           <small class="form-help">Search free stock photos. Click a photo to select it.</small>
+          <div style="margin-top:0.5rem;">
+            <input type="file" id="local-photo-input" accept="image/*" style="display:none;">
+            <button type="button" id="local-photo-btn" class="btn btn-secondary">Choose photo from my computer</button>
+            <small class="form-help" id="local-photo-status"></small>
+          </div>
 
           <!-- Selected photo preview -->
           <div id="image-preview" class="image-preview" style="display:none;">
@@ -338,6 +343,12 @@
             <label for="edit-image-url">Image URL</label>
             <input type="text" id="edit-image-url" placeholder="images/recipes/slug.png">
             <small class="form-help">Leave as-is to keep the current image.</small>
+            <div style="margin-top:0.5rem;">
+              <input type="file" id="edit-local-photo-input" accept="image/*" style="display:none;">
+              <button type="button" id="edit-local-photo-btn" class="btn btn-secondary">Choose photo from my computer</button>
+              <small class="form-help" id="edit-local-photo-status"></small>
+            </div>
+            <img id="edit-local-photo-preview" src="" alt="New photo" style="display:none; max-width:300px; max-height:180px; border-radius:8px; object-fit:cover; margin-top:0.5rem;">
           </div>
 
           <div class="form-group">
@@ -387,6 +398,11 @@
         <div style="display:flex; gap:0.5rem; margin-bottom:0.75rem; align-items:center;">
           <input type="text" id="modal-custom-url" placeholder="Or paste an image URL here..." style="flex:1;">
           <button type="button" id="modal-custom-url-btn" class="btn btn-secondary" style="white-space:nowrap;">Use URL</button>
+        </div>
+        <div style="margin-bottom:0.75rem;">
+          <input type="file" id="modal-local-photo-input" accept="image/*" style="display:none;">
+          <button type="button" id="modal-local-photo-btn" class="btn btn-secondary">Choose photo from my computer</button>
+          <small id="modal-local-photo-status" style="color:#c0392b;"></small>
         </div>
         <div id="modal-photo-grid" class="modal-photo-grid"></div>
         <div id="modal-loading" style="display:none; text-align:center; padding:1rem; color:#666;">Searching photos...</div>
@@ -639,6 +655,7 @@
   }
 
   function selectPhoto(url) {
+    clearAddLocalPhoto();
     document.getElementById('image-url').value = url;
     document.getElementById('preview-img').src = url;
     document.getElementById('image-preview').style.display = 'block';
@@ -671,11 +688,118 @@
   });
 
   document.getElementById('clear-preview').addEventListener('click', function() {
+    clearAddLocalPhoto();
     document.getElementById('image-url').value = '';
     document.getElementById('image-preview').style.display = 'none';
     document.getElementById('preview-img').src = '';
     updatePreview();
   });
+
+  // --- Local photo helpers ---
+  var LOCAL_PHOTO_MAX_DIM = 1200;
+
+  // Downscale and re-encode as JPEG so uploads stay small
+  function resizeImageFile(file) {
+    return new Promise(function(resolve, reject) {
+      if (!file || file.type.indexOf('image/') !== 0) {
+        reject(new Error('Please choose an image file.'));
+        return;
+      }
+      var objUrl = URL.createObjectURL(file);
+      var img = new Image();
+      img.onload = function() {
+        var w = img.naturalWidth, h = img.naturalHeight;
+        var scale = Math.min(1, LOCAL_PHOTO_MAX_DIM / Math.max(w, h));
+        var canvas = document.createElement('canvas');
+        canvas.width = Math.max(1, Math.round(w * scale));
+        canvas.height = Math.max(1, Math.round(h * scale));
+        var ctx = canvas.getContext('2d');
+        ctx.fillStyle = '#fff';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+        URL.revokeObjectURL(objUrl);
+        var dataUrl = canvas.toDataURL('image/jpeg', 0.85);
+        resolve({ dataUrl: dataUrl, base64: dataUrl.split(',')[1] });
+      };
+      img.onerror = function() {
+        URL.revokeObjectURL(objUrl);
+        reject(new Error('Could not read that image (unsupported format?).'));
+      };
+      img.src = objUrl;
+    });
+  }
+
+  // Create or overwrite a binary file in the repo
+  function githubPutFile(filePath, base64, message) {
+    var url = 'https://api.github.com/repos/' + REPO_OWNER + '/' + REPO_NAME + '/contents/' + filePath;
+    var headers = { 'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github.v3+json' };
+    return fetch(url + '?ref=' + BRANCH, { headers: headers }).then(function(r) {
+      if (r.status === 404) return null;
+      if (!r.ok) throw new Error('Could not check existing image (HTTP ' + r.status + ')');
+      return r.json();
+    }).then(function(existing) {
+      var body = { message: message, content: base64, branch: BRANCH };
+      if (existing && existing.sha) body.sha = existing.sha;
+      return fetch(url, {
+        method: 'PUT',
+        headers: Object.assign({ 'Content-Type': 'application/json' }, headers),
+        body: JSON.stringify(body)
+      });
+    }).then(function(r) {
+      if (!r.ok) return r.json().then(function(d) {
+        var msg = d.message || 'Image upload failed';
+        if (msg.indexOf('Resource not accessible') !== -1) {
+          msg = 'Token lacks "Contents: Read and write" permission.';
+        }
+        throw new Error('Image upload failed: ' + msg);
+      });
+    });
+  }
+
+  var addLocalPhoto = null;
+
+  function addLocalPhotoPath() {
+    var slug = slugify(document.getElementById('recipe-title').value.trim()) || 'recipe-photo';
+    return 'images/recipes/' + slug + '.jpg';
+  }
+
+  document.getElementById('local-photo-btn').addEventListener('click', function() {
+    document.getElementById('local-photo-input').click();
+  });
+
+  document.getElementById('local-photo-input').addEventListener('change', function() {
+    var input = this;
+    var file = input.files && input.files[0];
+    var status = document.getElementById('local-photo-status');
+    if (!file) return;
+    status.style.color = '';
+    status.textContent = 'Processing...';
+    resizeImageFile(file).then(function(res) {
+      addLocalPhoto = res;
+      document.getElementById('image-url').value = addLocalPhotoPath();
+      document.getElementById('preview-img').src = res.dataUrl;
+      document.getElementById('image-preview').style.display = 'block';
+      document.getElementById('photo-grid-wrapper').style.display = 'none';
+      status.textContent = file.name + ' (uploads when you add the recipe)';
+      updatePreview();
+    }).catch(function(err) {
+      status.style.color = '#c0392b';
+      status.textContent = err.message;
+    });
+    input.value = '';
+  });
+
+  document.getElementById('recipe-title').addEventListener('input', function() {
+    if (addLocalPhoto) {
+      document.getElementById('image-url').value = addLocalPhotoPath();
+      updatePreview();
+    }
+  });
+
+  function clearAddLocalPhoto() {
+    addLocalPhoto = null;
+    document.getElementById('local-photo-status').textContent = '';
+  }
 
   // --- Slug generator ---
   function slugify(text) {
@@ -780,6 +904,9 @@
     var slug = slugify(title);
     var filename = slug + '.md';
     var filePath = FILE_PATH_PREFIX + filename;
+    if (addLocalPhoto) {
+      document.getElementById('image-url').value = addLocalPhotoPath();
+    }
     var content = buildMarkdown();
 
     var btn = document.getElementById('submit-btn');
@@ -792,18 +919,24 @@
     // Base64 encode the content
     var encoded = btoa(unescape(encodeURIComponent(content)));
 
-    fetch('https://api.github.com/repos/' + REPO_OWNER + '/' + REPO_NAME + '/contents/' + filePath, {
-      method: 'PUT',
-      headers: {
-        'Authorization': 'Bearer ' + token,
-        'Content-Type': 'application/json',
-        'Accept': 'application/vnd.github.v3+json'
-      },
-      body: JSON.stringify({
-        message: 'Add recipe: ' + title,
-        content: encoded,
-        branch: BRANCH
-      })
+    var photoUpload = addLocalPhoto
+      ? githubPutFile('static/' + addLocalPhotoPath(), addLocalPhoto.base64, 'Add photo: ' + title)
+      : Promise.resolve();
+
+    photoUpload.then(function() {
+      return fetch('https://api.github.com/repos/' + REPO_OWNER + '/' + REPO_NAME + '/contents/' + filePath, {
+        method: 'PUT',
+        headers: {
+          'Authorization': 'Bearer ' + token,
+          'Content-Type': 'application/json',
+          'Accept': 'application/vnd.github.v3+json'
+        },
+        body: JSON.stringify({
+          message: 'Add recipe: ' + title,
+          content: encoded,
+          branch: BRANCH
+        })
+      });
     }).then(function(r) {
       if (!r.ok) return r.json().then(function(d) {
         var msg = d.message || 'API error';
@@ -840,6 +973,7 @@
     document.getElementById('image-preview').style.display = 'none';
     document.getElementById('photo-grid-wrapper').style.display = 'none';
     document.getElementById('photo-grid').innerHTML = '';
+    clearAddLocalPhoto();
     document.getElementById('photo-search-input').value = '';
     document.getElementById('submit-btn').disabled = false;
     document.getElementById('submit-btn').textContent = 'Add Recipe to Site';
@@ -1076,6 +1210,8 @@
     document.getElementById('modal-confirm').style.display = 'none';
     document.getElementById('modal-save-status').textContent = '';
     document.getElementById('modal-custom-url').value = '';
+    document.getElementById('modal-local-photo-status').textContent = '';
+    modalLocalPhoto = null;
     var saveBtn = document.getElementById('modal-save-btn');
     saveBtn.disabled = false;
     saveBtn.textContent = String.fromCodePoint(0x2705) + ' Save to Recipe';
@@ -1162,9 +1298,12 @@
     modalSearchPhotos(modalQuery, modalPage + 1);
   });
 
-  function modalSelectPhoto(url) {
-    modalNewUrl = url;
-    document.getElementById('modal-new-img').src = url;
+  var modalLocalPhoto = null;
+
+  function modalSelectPhoto(url, localPhoto) {
+    modalLocalPhoto = localPhoto || null;
+    modalNewUrl = localPhoto ? localPhoto.path : url;
+    document.getElementById('modal-new-img').src = localPhoto ? localPhoto.dataUrl : url;
     document.getElementById('modal-confirm').style.display = 'block';
     document.getElementById('modal-save-status').textContent = '';
     var saveBtn = document.getElementById('modal-save-btn');
@@ -1175,6 +1314,27 @@
   document.getElementById('modal-pick-again').addEventListener('click', function() {
     document.getElementById('modal-confirm').style.display = 'none';
     modalNewUrl = '';
+    modalLocalPhoto = null;
+  });
+
+  document.getElementById('modal-local-photo-btn').addEventListener('click', function() {
+    document.getElementById('modal-local-photo-input').click();
+  });
+
+  document.getElementById('modal-local-photo-input').addEventListener('change', function() {
+    var input = this;
+    var file = input.files && input.files[0];
+    var status = document.getElementById('modal-local-photo-status');
+    if (!file || !modalRecipe) return;
+    status.textContent = '';
+    var slug = modalRecipe.permalink.replace(/.*\/recipes\//, '').replace(/\/$/, '');
+    resizeImageFile(file).then(function(res) {
+      res.path = 'images/recipes/' + slug + '-' + Date.now() + '.jpg';
+      modalSelectPhoto(null, res);
+    }).catch(function(err) {
+      status.textContent = err.message;
+    });
+    input.value = '';
   });
 
   // Extract direct image URL from Google Images result links or other wrappers
@@ -1219,9 +1379,17 @@
     var slug = modalRecipe.permalink.replace(/.*\/recipes\//, '').replace(/\/$/, '');
     var filePath = FILE_PATH_PREFIX + slug + '.md';
 
+    // Step 0: upload a locally chosen photo, if any
+    var localPhoto = modalLocalPhoto;
+    var photoUpload = localPhoto
+      ? githubPutFile('static/' + localPhoto.path, localPhoto.base64, 'Add photo: ' + modalRecipe.title)
+      : Promise.resolve();
+
     // Step 1: Get current file from GitHub
-    fetch('https://api.github.com/repos/' + REPO_OWNER + '/' + REPO_NAME + '/contents/' + filePath + '?ref=' + BRANCH, {
-      headers: { 'Authorization': 'Bearer ' + token }
+    photoUpload.then(function() {
+      return fetch('https://api.github.com/repos/' + REPO_OWNER + '/' + REPO_NAME + '/contents/' + filePath + '?ref=' + BRANCH, {
+        headers: { 'Authorization': 'Bearer ' + token }
+      });
     }).then(function(r) {
       if (!r.ok) throw new Error('Could not fetch recipe file (HTTP ' + r.status + ')');
       return r.json();
@@ -1297,7 +1465,7 @@
       modalRecipe.image = modalNewUrl;
       if (modalCard) {
         var cardImg = modalCard.querySelector('img');
-        if (cardImg) cardImg.src = modalNewUrl;
+        if (cardImg) cardImg.src = localPhoto ? localPhoto.dataUrl : modalNewUrl;
         modalCard.classList.remove('no-image');
         modalCard.classList.add('just-updated');
         setTimeout(function() { modalCard.classList.remove('just-updated'); }, 3000);
@@ -1405,8 +1573,49 @@
   var editCurrentRecipe = null;
   var editCurrentSha = null;
   var editOriginalDate = null;
+  var editLocalPhoto = null;
+
+  function clearEditLocalPhoto() {
+    editLocalPhoto = null;
+    document.getElementById('edit-local-photo-status').textContent = '';
+    var prev = document.getElementById('edit-local-photo-preview');
+    prev.style.display = 'none';
+    prev.src = '';
+  }
+
+  document.getElementById('edit-local-photo-btn').addEventListener('click', function() {
+    document.getElementById('edit-local-photo-input').click();
+  });
+
+  document.getElementById('edit-local-photo-input').addEventListener('change', function() {
+    var input = this;
+    var file = input.files && input.files[0];
+    var status = document.getElementById('edit-local-photo-status');
+    if (!file || !editCurrentRecipe) return;
+    status.style.color = '';
+    status.textContent = 'Processing...';
+    var slug = editCurrentRecipe.permalink.replace(/.*\/recipes\//, '').replace(/\/$/, '');
+    resizeImageFile(file).then(function(res) {
+      res.path = 'images/recipes/' + slug + '-' + Date.now() + '.jpg';
+      editLocalPhoto = res;
+      document.getElementById('edit-image-url').value = res.path;
+      var prev = document.getElementById('edit-local-photo-preview');
+      prev.src = res.dataUrl;
+      prev.style.display = 'block';
+      status.textContent = file.name + ' (uploads when you save)';
+    }).catch(function(err) {
+      status.style.color = '#c0392b';
+      status.textContent = err.message;
+    });
+    input.value = '';
+  });
+
+  document.getElementById('edit-image-url').addEventListener('input', function() {
+    if (editLocalPhoto && this.value.trim() !== editLocalPhoto.path) clearEditLocalPhoto();
+  });
 
   function openEditForm(recipe) {
+    clearEditLocalPhoto();
     var slug = recipe.permalink.replace(/.*\/recipes\//, '').replace(/\/$/, '');
     var filePath = FILE_PATH_PREFIX + slug + '.md';
     var statusEl = document.getElementById('edit-submit-status');
@@ -1593,6 +1802,7 @@
     editCurrentRecipe = null;
     editCurrentSha = null;
     editOriginalDate = null;
+    clearEditLocalPhoto();
   });
 
   document.getElementById('edit-recipe-form').addEventListener('submit', function(e) {
@@ -1611,20 +1821,26 @@
     var newTitle = document.getElementById('edit-title').value.trim();
     var content = buildEditMarkdown();
     var encoded = btoa(unescape(encodeURIComponent(content)));
+    var localPhoto = editLocalPhoto;
+    var photoUpload = localPhoto
+      ? githubPutFile('static/' + localPhoto.path, localPhoto.base64, 'Add photo: ' + newTitle)
+      : Promise.resolve();
 
-    fetch('https://api.github.com/repos/' + REPO_OWNER + '/' + REPO_NAME + '/contents/' + filePath, {
-      method: 'PUT',
-      headers: {
-        'Authorization': 'Bearer ' + token,
-        'Content-Type': 'application/json',
-        'Accept': 'application/vnd.github.v3+json'
-      },
-      body: JSON.stringify({
-        message: 'Update recipe: ' + newTitle,
-        content: encoded,
-        sha: editCurrentSha,
-        branch: BRANCH
-      })
+    photoUpload.then(function() {
+      return fetch('https://api.github.com/repos/' + REPO_OWNER + '/' + REPO_NAME + '/contents/' + filePath, {
+        method: 'PUT',
+        headers: {
+          'Authorization': 'Bearer ' + token,
+          'Content-Type': 'application/json',
+          'Accept': 'application/vnd.github.v3+json'
+        },
+        body: JSON.stringify({
+          message: 'Update recipe: ' + newTitle,
+          content: encoded,
+          sha: editCurrentSha,
+          branch: BRANCH
+        })
+      });
     }).then(function(r) {
       if (!r.ok) return r.json().then(function(d) {
         var msg = d.message || 'API error';
@@ -1644,6 +1860,7 @@
       renderMaintainList();
       status.style.color = '#27ae60';
       status.textContent = 'Saved! Site will rebuild in 1-2 minutes.';
+      clearEditLocalPhoto();
       btn.disabled = false;
       btn.textContent = 'Save Changes';
     }).catch(function(err) {
